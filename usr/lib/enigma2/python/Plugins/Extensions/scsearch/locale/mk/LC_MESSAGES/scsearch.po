@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:59+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Macedonian <ufo@linux.net.mk>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d наслови"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ФИЛМОВИ ---"
+
+msgid "--- New search ---"
+msgstr "--- Ново пребарување ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ТВ СЕРИЈА ---"
+
+msgid "0 titles"
+msgstr "0 наслови"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Епизоди <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Сезони <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Алтадефиниција грешка при репродукција: %s"
+
+msgid "Available links:"
+msgstr "Достапни линкови:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Прелистувајте групи и картички со хоризонтално лизгање"
+
+msgid "CANCEL"
+msgstr "ОТКАЖИ"
+
+msgid "CB01 playback error: %s"
+msgstr "Грешка при репродукција CB01: %s"
+
+msgid "CONFIRM"
+msgstr "ПОТВРДИ"
+
+msgid "CONTENTS"
+msgstr "СОДРЖИНА"
+
+msgid "Card error"
+msgstr "Грешка во картичката"
+
+msgid "Cards updated"
+msgstr "Картичките се ажурирани"
+
+msgid "Code:"
+msgstr "Код:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Код: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Содржина од Altadefinizione - Притиснете ОК за да ја отворите..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Содржина од CB01 - Притиснете ОК за да се отвори..."
+
+msgid "Description not available."
+msgstr "Описот не е достапен."
+
+msgid "Details for: '%s'"
+msgstr "Детали за: „%s“"
+
+msgid "Details not available"
+msgstr "Деталите не се достапни"
+
+msgid "EXIT"
+msgstr "ИЗЛЕЗ"
+
+msgid "Enable debug"
+msgstr "Овозможи отстранување грешки"
+
+msgid "Enable debug output in logs"
+msgstr "Овозможете излез за отстранување грешки во дневниците"
+
+msgid "Enter Captcha Code"
+msgstr "Внесете го кодот Captcha"
+
+msgid "Episode %d"
+msgstr "Епизода %d"
+
+msgid "Episode %d: %s"
+msgstr "Епизода %d: %s"
+
+msgid "Episodes"
+msgstr "Епизоди"
+
+msgid "Episodes:"
+msgstr "Епизоди:"
+
+msgid "Error loading CB01 series"
+msgstr "Грешка при вчитување на серијата CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Грешка при вчитување на серијата OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Грешка при вчитување на TMDB"
+
+msgid "Error loading details"
+msgstr "Грешка при вчитување детали"
+
+msgid "Error playing episode: %s"
+msgstr "Грешка при репродукција на епизодата: %s"
+
+msgid "Error updating UI"
+msgstr "Грешка при ажурирањето на интерфејсот"
+
+msgid "Exit"
+msgstr "Излезете"
+
+msgid "GROUPS"
+msgstr "ГРУПИ"
+
+msgid "History"
+msgstr "Историја"
+
+msgid "Invalid streaming URL"
+msgstr "Неважечка URL-адреса за проследување"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ЛЕВО/ДЕСНО навигација | ОК отворено | ГОРЕ назад во групите"
+
+msgid "Load error"
+msgstr "Грешка во вчитување"
+
+msgid "Loading details from TMDB..."
+msgstr "Се вчитуваат детали од TMDB..."
+
+msgid "Loading details..."
+msgstr "Се вчитуваат детали..."
+
+msgid "Loading..."
+msgstr "Се вчитува..."
+
+msgid "Max results"
+msgstr "Максимални резултати"
+
+msgid "Maximum number of results to display"
+msgstr "Максимален број резултати за прикажување"
+
+msgid "Movie History"
+msgstr "Филмска историја"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Ново пребарување..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Не е пронајдена епизода на Алтадефиниција"
+
+msgid "No CB01 episode found"
+msgstr "Не е пронајдена епизода на CB01"
+
+msgid "No content"
+msgstr "Нема содржина"
+
+msgid "No content selected"
+msgstr "Нема избрана содржина"
+
+msgid "No episodes available"
+msgstr "Нема достапни епизоди"
+
+msgid "No previous searches found"
+msgstr "Не се пронајдени претходни пребарувања"
+
+msgid "No relevant results found."
+msgstr "Не се пронајдени релевантни резултати."
+
+msgid "No results found on SC."
+msgstr "Не се пронајдени резултати на SC."
+
+msgid "No streaming links found"
+msgstr "Не се пронајдени врски за стриминг"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - ТВ серии"
+
+msgid "PLAY"
+msgstr "ИГРАЈ"
+
+msgid "Playback error: %s"
+msgstr "Грешка при репродукција: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Притиснете ЗЕЛЕНО (Филм) или ЖОЛТО (ТВ серија) за да пребарувате..."
+
+msgid "Press OK"
+msgstr "Притиснете ОК"
+
+msgid "Press OK to view full details..."
+msgstr "Притиснете ОК за да ги видите целосните детали..."
+
+msgid "REFRESH"
+msgstr "ОСВЕЖУВАЈ"
+
+msgid "Refresh"
+msgstr "Освежи"
+
+msgid "Retry"
+msgstr "Обидете се повторно"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ПРЕБАРУВАЊЕ"
+
+msgid "Search History"
+msgstr "Историја на пребарување"
+
+msgid "Search Movie"
+msgstr "Пребарај филм"
+
+msgid "Search TV Series"
+msgstr "Пребарувајте ТВ серии"
+
+msgid "Search timeout"
+msgstr "Времето за пребарување"
+
+msgid "Searching for: '%s'"
+msgstr "Се бара: „%s“"
+
+msgid "Searching..."
+msgstr "Се бара..."
+
+msgid "Season %d"
+msgstr "Сезона %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Сезона %d (%d епизоди)"
+
+msgid "Seasons"
+msgstr "Сезони"
+
+msgid "Seasons:"
+msgstr "Сезони:"
+
+msgid "Series URL not found"
+msgstr "URL-адресата на серијата не е пронајдена"
+
+msgid "Series URL not found."
+msgstr "URL-адресата на серијата не е пронајдена."
+
+msgid "TMDB API key not found"
+msgstr "Клучот TMDB API не е пронајден"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Клучот TMDB API не е пронајден или неважечки!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID не е пронајден"
+
+msgid "TV Series History"
+msgstr "Историја на ТВ серии"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Истекување на времето за барања за пребарување (секунди)"
+
+msgid "Title"
+msgstr "Наслов"
+
+msgid "Type: %s"
+msgstr "Тип: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ГОРЕ/ДОЛУ групи | ЛЕВИ/ДЕСНИ картички | ОК отворено"
+
+msgid "Unable to get stream for this episode"
+msgstr "Не може да се добие пренос за оваа епизода"
+
+msgid "Unable to get streaming URL"
+msgstr "Не може да се добие URL-адреса за проследување"
+
+msgid "Unable to load content details"
+msgstr "Не може да се вчитаат деталите за содржината"
+
+msgid "Unable to open details for this content"
+msgstr "Не може да се отворат детали за оваа содржина"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Не може да се вратат информациите од TMDB."
+
+msgid "Unknown"
+msgstr "Непознат"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Ажурирано, %d групи недостапни"
+
+msgid "Updating"
+msgstr "Ажурирање"
+
+msgid "Updating cards %d/%d"
+msgstr "Се ажурираат картичките %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Висока дефиниција] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "грешка"
+
+msgid "loading"
+msgstr "вчитување"

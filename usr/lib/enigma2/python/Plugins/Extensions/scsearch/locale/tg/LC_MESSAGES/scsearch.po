@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:36+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tajik <rkovacs@khujand.org>\n"
+"Language: tg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d унвон"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ФИЛЬМХО ---"
+
+msgid "--- New search ---"
+msgstr "--- Ҷустуҷӯи нав ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- СЕРИАЛИ ТЕЛЕВИЗИОНӢ ---"
+
+msgid "0 titles"
+msgstr "0 унвон"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Эпизодҳо <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Фаслҳо <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Хатогии бозикунии Altadefinizione: %s"
+
+msgid "Available links:"
+msgstr "Истинодҳои дастрас:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Гурӯҳҳо ва кортҳоро бо ҳаракати уфуқӣ паймоиш кунед"
+
+msgid "CANCEL"
+msgstr "БАТЪ КАРДАН"
+
+msgid "CB01 playback error: %s"
+msgstr "Хатогии бозикунии CB01: %s"
+
+msgid "CONFIRM"
+msgstr "ТАСДИҚ КУНЕД"
+
+msgid "CONTENTS"
+msgstr "МУНДАРИҶА"
+
+msgid "Card error"
+msgstr "Хатогии корт"
+
+msgid "Cards updated"
+msgstr "Кортҳо нав карда шуданд"
+
+msgid "Code:"
+msgstr "Рамз:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Рамз: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Мундариҷа аз Altadefinizione - Барои кушодан OK-ро пахш кунед..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Мундариҷа аз CB01 - Барои кушодан OK-ро пахш кунед..."
+
+msgid "Description not available."
+msgstr "Тавсифи дастрас нест."
+
+msgid "Details for: '%s'"
+msgstr "Тафсилот барои: '%s'"
+
+msgid "Details not available"
+msgstr "Тафсилот дастрас нест"
+
+msgid "EXIT"
+msgstr "БАРОМАДГОҲ"
+
+msgid "Enable debug"
+msgstr "debug-ро фаъол созед"
+
+msgid "Enable debug output in logs"
+msgstr "Натиҷаи ислоҳро дар гузоришҳо фаъол созед"
+
+msgid "Enter Captcha Code"
+msgstr "Рамзи Captcha-ро ворид кунед"
+
+msgid "Episode %d"
+msgstr "Эпизод %d"
+
+msgid "Episode %d: %s"
+msgstr "Эпизод %d: %s"
+
+msgid "Episodes"
+msgstr "Эпизодҳо"
+
+msgid "Episodes:"
+msgstr "Эпизодҳо:"
+
+msgid "Error loading CB01 series"
+msgstr "Хатогии боркунии силсилаи CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Хатогии боркунии силсилаи OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Хатогӣ ҳангоми боркунии TMDB"
+
+msgid "Error loading details"
+msgstr "Хатогӣ дар боркунии тафсилот"
+
+msgid "Error playing episode: %s"
+msgstr "Хатогӣ дар навозиш эпизод: %s"
+
+msgid "Error updating UI"
+msgstr "Хатогӣ ҳангоми навсозии UI"
+
+msgid "Exit"
+msgstr "Баромадгоҳ"
+
+msgid "GROUPS"
+msgstr "ГУРУХХО"
+
+msgid "History"
+msgstr "Таърих"
+
+msgid "Invalid streaming URL"
+msgstr "URL-и ҷараён нодуруст"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ЧАП/РАСТ паймоиш | Хуб кушода | Бозгашт ба гурӯҳҳо"
+
+msgid "Load error"
+msgstr "Хатогии боркунӣ"
+
+msgid "Loading details from TMDB..."
+msgstr "Боркунии тафсилот аз TMDB..."
+
+msgid "Loading details..."
+msgstr "Тафсилот бор карда мешавад..."
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Max results"
+msgstr "Натиҷаҳои максималӣ"
+
+msgid "Maximum number of results to display"
+msgstr "Шумораи максималии натиҷаҳо барои намоиш"
+
+msgid "Movie History"
+msgstr "Таърихи филм"
+
+msgid "N/A"
+msgstr "Не"
+
+msgid "New search..."
+msgstr "Ҷустуҷӯи нав..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Ягон эпизоди Altadefinizione ёфт нашуд"
+
+msgid "No CB01 episode found"
+msgstr "Ягон эпизоди CB01 ёфт нашуд"
+
+msgid "No content"
+msgstr "Мазмуни нест"
+
+msgid "No content selected"
+msgstr "Ягон мундариҷа интихоб нашудааст"
+
+msgid "No episodes available"
+msgstr "Ягон эпизод дастрас нест"
+
+msgid "No previous searches found"
+msgstr "Ҷустуҷӯҳои қаблӣ ёфт нашуд"
+
+msgid "No relevant results found."
+msgstr "Ягон натиҷаи дахлдор пайдо нашуд."
+
+msgid "No results found on SC."
+msgstr "Дар SC ягон натиҷае ёфт нашуд."
+
+msgid "No streaming links found"
+msgstr "Истиноди ҷараён ёфт нашуд"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Силсилаи телевизионӣ"
+
+msgid "PLAY"
+msgstr "БОЗӢ"
+
+msgid "Playback error: %s"
+msgstr "Хатогии навозиш: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Барои ҷустуҷӯ... Тугмаи САБЗ (Филм) ё ЗАРД (Силсилаи ТВ) -ро пахш кунед..."
+
+msgid "Press OK"
+msgstr "OK-ро пахш кунед"
+
+msgid "Press OK to view full details..."
+msgstr "Барои дидани тафсилоти пурра OK-ро пахш кунед..."
+
+msgid "REFRESH"
+msgstr "ТАРОВА КУНЕД"
+
+msgid "Refresh"
+msgstr "Навсозӣ"
+
+msgid "Retry"
+msgstr "Аз нав кӯшиш кунед"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "Ҷустуҷӯ"
+
+msgid "Search History"
+msgstr "Таърихи ҷустуҷӯ"
+
+msgid "Search Movie"
+msgstr "Ҷустуҷӯи филм"
+
+msgid "Search TV Series"
+msgstr "Ҷустуҷӯи силсилаи телевизионҳо"
+
+msgid "Search timeout"
+msgstr "Вақтхушии ҷустуҷӯ"
+
+msgid "Searching for: '%s'"
+msgstr "Ҷустуҷӯ: '%s'"
+
+msgid "Searching..."
+msgstr "Ҷустуҷӯ..."
+
+msgid "Season %d"
+msgstr "Мавсими %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Мавсими %d (%d қисм)"
+
+msgid "Seasons"
+msgstr "Фаслхои сол"
+
+msgid "Seasons:"
+msgstr "Фаслҳо:"
+
+msgid "Series URL not found"
+msgstr "URL-и силсила ёфт нашуд"
+
+msgid "Series URL not found."
+msgstr "URL-и силсила ёфт нашуд."
+
+msgid "TMDB API key not found"
+msgstr "Калиди TMDB API ёфт нашуд"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Калиди TMDB API ёфт нашуд ё беэътибор аст!"
+
+msgid "TMDB ID not found"
+msgstr "ID TMDB ёфт нашуд"
+
+msgid "TV Series History"
+msgstr "Таърихи серили телевизионй"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Вақт барои дархостҳои ҷустуҷӯ (сония)"
+
+msgid "Title"
+msgstr "Унвон"
+
+msgid "Type: %s"
+msgstr ""
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Гуруҳҳои ТО/ПОЁН | Кортҳои ЧАП/РАСТ | Хуб кушоед"
+
+msgid "Unable to get stream for this episode"
+msgstr "Барои ин эпизод ҷараён гирифтан ғайриимкон аст"
+
+msgid "Unable to get streaming URL"
+msgstr "URL-и ҷараёнро гирифтан ғайриимкон аст"
+
+msgid "Unable to load content details"
+msgstr "Тафсилоти мундариҷаро бор кардан ғайриимкон аст"
+
+msgid "Unable to open details for this content"
+msgstr "Тафсилоти ин мундариҷаро кушодан ғайриимкон аст"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Аз TMDB маълумот гирифтан ғайриимкон аст."
+
+msgid "Unknown"
+msgstr "Номаълум"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Навсозӣ шудааст, %d гурӯҳ дастрас нест"
+
+msgid "Updating"
+msgstr "Навсозӣ"
+
+msgid "Updating cards %d/%d"
+msgstr "Навсозии кортҳо %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Таърифи баланд] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "хато"
+
+msgid "loading"
+msgstr "бор кардан"

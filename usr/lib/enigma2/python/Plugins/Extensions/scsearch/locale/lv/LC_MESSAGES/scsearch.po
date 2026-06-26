@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:57+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "%d titles"
+msgstr "%d virsraksti"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMAS ---"
+
+msgid "--- New search ---"
+msgstr "--- Jauna meklēšana ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV SĒRIJA ---"
+
+msgid "0 titles"
+msgstr "0 nosaukumu"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Sērijas <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Gadalaiki <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione atskaņošanas kļūda: %s"
+
+msgid "Available links:"
+msgstr "Pieejamās saites:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Pārlūkojiet grupas un kartītes ar horizontālu ritināšanu"
+
+msgid "CANCEL"
+msgstr "ATCELT"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 atskaņošanas kļūda: %s"
+
+msgid "CONFIRM"
+msgstr "APSTIPRINĀT"
+
+msgid "CONTENTS"
+msgstr "SATURS"
+
+msgid "Card error"
+msgstr "Kartes kļūda"
+
+msgid "Cards updated"
+msgstr "Kartes atjauninātas"
+
+msgid "Code:"
+msgstr "Kods:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kods: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Saturs no Altadefinizione — nospiediet OK, lai atvērtu..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Saturs no CB01 — nospiediet OK, lai atvērtu..."
+
+msgid "Description not available."
+msgstr "Apraksts nav pieejams."
+
+msgid "Details for: '%s'"
+msgstr "Sīkāka informācija par: '%s'"
+
+msgid "Details not available"
+msgstr "Sīkāka informācija nav pieejama"
+
+msgid "EXIT"
+msgstr "IZIET"
+
+msgid "Enable debug"
+msgstr "Iespējot atkļūdošanu"
+
+msgid "Enable debug output in logs"
+msgstr "Iespējot atkļūdošanas izvadi žurnālos"
+
+msgid "Enter Captcha Code"
+msgstr "Ievadiet Captcha kodu"
+
+msgid "Episode %d"
+msgstr "%d sērija"
+
+msgid "Episode %d: %s"
+msgstr "%d sērija: %s"
+
+msgid "Episodes"
+msgstr "Epizodes"
+
+msgid "Episodes:"
+msgstr "Epizodes:"
+
+msgid "Error loading CB01 series"
+msgstr "Ielādējot CB01 sēriju, radās kļūda"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Ielādējot OnlineSerieTV seriālu, radās kļūda"
+
+msgid "Error loading TMDB"
+msgstr ""
+
+msgid "Error loading details"
+msgstr "Ielādējot informāciju, radās kļūda"
+
+msgid "Error playing episode: %s"
+msgstr "Kļūda, atskaņojot sēriju: %s"
+
+msgid "Error updating UI"
+msgstr "Atjauninot lietotāja saskarni, radās kļūda"
+
+msgid "Exit"
+msgstr "Iziet"
+
+msgid "GROUPS"
+msgstr "GRUPAS"
+
+msgid "History"
+msgstr "Vēsture"
+
+msgid "Invalid streaming URL"
+msgstr "Nederīgs straumēšanas URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "LEFT/RIGHT navigācija | Labi atvērt | UP atpakaļ uz grupām"
+
+msgid "Load error"
+msgstr "Ielādes kļūda"
+
+msgid "Loading details from TMDB..."
+msgstr "Notiek informācijas ielāde no TMDB..."
+
+msgid "Loading details..."
+msgstr "Notiek informācijas ielāde..."
+
+msgid "Loading..."
+msgstr "Notiek ielāde..."
+
+msgid "Max results"
+msgstr "Maksimālie rezultāti"
+
+msgid "Maximum number of results to display"
+msgstr "Maksimālais parādāmo rezultātu skaits"
+
+msgid "Movie History"
+msgstr "Filmu vēsture"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Jauna meklēšana..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Netika atrasta neviena Altadefinizione sērija"
+
+msgid "No CB01 episode found"
+msgstr "Nav atrasta neviena CB01 sērija"
+
+msgid "No content"
+msgstr "Nav satura"
+
+msgid "No content selected"
+msgstr "Nav atlasīts neviens saturs"
+
+msgid "No episodes available"
+msgstr "Nav pieejama neviena sērija"
+
+msgid "No previous searches found"
+msgstr "Iepriekšējie meklējumi netika atrasti"
+
+msgid "No relevant results found."
+msgstr "Atbilstoši rezultāti netika atrasti."
+
+msgid "No results found on SC."
+msgstr "Vietnē SC nav atrasts neviens rezultāts."
+
+msgid "No streaming links found"
+msgstr "Straumēšanas saites nav atrastas"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV — TV seriāls"
+
+msgid "PLAY"
+msgstr "SPĒLĒT"
+
+msgid "Playback error: %s"
+msgstr "Atskaņošanas kļūda: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Nospiediet ZAĻO (filma) vai DZELTENO (TV seriāls), lai meklētu..."
+
+msgid "Press OK"
+msgstr "Nospiediet OK"
+
+msgid "Press OK to view full details..."
+msgstr "Nospiediet OK, lai skatītu visu informāciju..."
+
+msgid "REFRESH"
+msgstr "ATSVAIDZINĀT"
+
+msgid "Refresh"
+msgstr "Atsvaidzināt"
+
+msgid "Retry"
+msgstr "Mēģiniet vēlreiz"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "MEKLĒT"
+
+msgid "Search History"
+msgstr "Meklēšanas vēsture"
+
+msgid "Search Movie"
+msgstr "Meklēt filmu"
+
+msgid "Search TV Series"
+msgstr "Meklēt TV seriālus"
+
+msgid "Search timeout"
+msgstr "Meklēšanas taimauts"
+
+msgid "Searching for: '%s'"
+msgstr "Meklē: '%s'"
+
+msgid "Searching..."
+msgstr "Notiek meklēšana..."
+
+msgid "Season %d"
+msgstr "%d sezona"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d sezona (%d sērijas)"
+
+msgid "Seasons"
+msgstr "Gadalaiki"
+
+msgid "Seasons:"
+msgstr "Gadalaiki:"
+
+msgid "Series URL not found"
+msgstr "Sērijas URL nav atrasts"
+
+msgid "Series URL not found."
+msgstr "Sērijas URL nav atrasts."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API atslēga nav atrasta"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API atslēga nav atrasta vai nav derīga!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID nav atrasts"
+
+msgid "TV Series History"
+msgstr "TV seriālu vēsture"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Meklēšanas pieprasījumu noildze (sekundēs)"
+
+msgid "Title"
+msgstr "Nosaukums"
+
+msgid "Type: %s"
+msgstr "Veids: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN grupas | LEFT/RIGHT kartes | Labi atvērts"
+
+msgid "Unable to get stream for this episode"
+msgstr "Nevar iegūt šīs sērijas straumi"
+
+msgid "Unable to get streaming URL"
+msgstr "Nevar iegūt straumēšanas URL"
+
+msgid "Unable to load content details"
+msgstr "Nevar ielādēt satura informāciju"
+
+msgid "Unable to open details for this content"
+msgstr "Nevar atvērt šī satura informāciju"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Nevar izgūt informāciju no TMDB."
+
+msgid "Unknown"
+msgstr "Nezināms"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Atjaunināts, %d grupas nav pieejamas"
+
+msgid "Updating"
+msgstr "Notiek atjaunināšana"
+
+msgid "Updating cards %d/%d"
+msgstr "Notiek karšu atjaunināšana %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Augsta izšķirtspēja] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "kļūda"
+
+msgid "loading"
+msgstr "iekraušana"

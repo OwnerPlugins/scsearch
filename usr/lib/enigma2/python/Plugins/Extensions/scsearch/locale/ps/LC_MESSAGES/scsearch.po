@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:19+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Pashto\n"
+"Language: ps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d سرلیکونه"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- فلمونه ---"
+
+msgid "--- New search ---"
+msgstr "--- نوې لټون ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- تلویزیوني لړۍ ---"
+
+msgid "0 titles"
+msgstr "0 سرلیکونه"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> قسطونه <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> فصلونه <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione پلے بیک تېروتنه: %s"
+
+msgid "Available links:"
+msgstr "شته لینکونه:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "د افقی سکرول کولو سره ګروپونه او کارتونه وپلټئ"
+
+msgid "CANCEL"
+msgstr "فسخه کول"
+
+msgid "CB01 playback error: %s"
+msgstr "د CB01 پلې بیک تېروتنه: %s"
+
+msgid "CONFIRM"
+msgstr "تایید کړه"
+
+msgid "CONTENTS"
+msgstr "منځپانګې"
+
+msgid "Card error"
+msgstr "د کارت تېروتنه"
+
+msgid "Cards updated"
+msgstr "کارتونه تازه شول"
+
+msgid "Code:"
+msgstr "کوډ:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "کوډ: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "د Altadefinizione منځپانګه - د خلاصولو لپاره OK فشار ورکړئ ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "د CB01 مینځپانګه - د خلاصولو لپاره OK فشار ورکړئ ..."
+
+msgid "Description not available."
+msgstr "توضیحات شتون نلري."
+
+msgid "Details for: '%s'"
+msgstr "د دې لپاره توضیحات: '%s'"
+
+msgid "Details not available"
+msgstr "جزئیات نشته"
+
+msgid "EXIT"
+msgstr "وتل"
+
+msgid "Enable debug"
+msgstr "ډیبګ فعال کړئ"
+
+msgid "Enable debug output in logs"
+msgstr "په لاګونو کې د ډیبګ محصول فعال کړئ"
+
+msgid "Enter Captcha Code"
+msgstr "د کیپچا کوډ دننه کړئ"
+
+msgid "Episode %d"
+msgstr "قسط %d"
+
+msgid "Episode %d: %s"
+msgstr "قسط %d: %s"
+
+msgid "Episodes"
+msgstr "قسطونه"
+
+msgid "Episodes:"
+msgstr "قسطونه:"
+
+msgid "Error loading CB01 series"
+msgstr "د CB01 لړۍ بارولو کې تېروتنه"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "د OnlineSerieTV لړۍ بارولو کې تېروتنه"
+
+msgid "Error loading TMDB"
+msgstr "د TMDB په بارولو کې تېروتنه"
+
+msgid "Error loading details"
+msgstr "د جزیاتو په بارولو کې تېروتنه"
+
+msgid "Error playing episode: %s"
+msgstr "د قسط په پلی کولو کې تېروتنه: %s"
+
+msgid "Error updating UI"
+msgstr "د UI په تازه کولو کې تېروتنه"
+
+msgid "Exit"
+msgstr "وتل"
+
+msgid "GROUPS"
+msgstr "ګروپونه"
+
+msgid "History"
+msgstr "تاریخ"
+
+msgid "Invalid streaming URL"
+msgstr "ناسم سټرینګ URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "کیڼ/ ښۍ تګ راتګ | ښه خلاص | UP بیرته ډلو ته"
+
+msgid "Load error"
+msgstr "د بارولو تېروتنه"
+
+msgid "Loading details from TMDB..."
+msgstr "د TMDB څخه توضیحات پورته کول..."
+
+msgid "Loading details..."
+msgstr "توضیحات پورته کول..."
+
+msgid "Loading..."
+msgstr "بار کول..."
+
+msgid "Max results"
+msgstr "اعظمي پایلې"
+
+msgid "Maximum number of results to display"
+msgstr "د ښودلو لپاره د پایلو اعظمي شمیر"
+
+msgid "Movie History"
+msgstr "د فلم تاریخ"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "نوې لټون..."
+
+msgid "No Altadefinizione episode found"
+msgstr "هیڅ Altadefinizione قسط ونه موندل شو"
+
+msgid "No CB01 episode found"
+msgstr "هیڅ CB01 قسط ندی موندل شوی"
+
+msgid "No content"
+msgstr "هیڅ منځپانګه نشته"
+
+msgid "No content selected"
+msgstr "هیڅ منځپانګه نه ده ټاکل شوې"
+
+msgid "No episodes available"
+msgstr "هیڅ قسط شتون نلري"
+
+msgid "No previous searches found"
+msgstr "هیڅ پخوانۍ لټون ونه موندل شو"
+
+msgid "No relevant results found."
+msgstr "هیڅ اړونده پایله ونه موندل شوه."
+
+msgid "No results found on SC."
+msgstr "په SC کې هیڅ پایلې ونه موندل شوې."
+
+msgid "No streaming links found"
+msgstr "هیڅ جریان لینکونه ونه موندل شول"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - د تلویزیون لړۍ"
+
+msgid "PLAY"
+msgstr "لوبه وکړئ"
+
+msgid "Playback error: %s"
+msgstr "د پلې بیک تېروتنه: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "د لټون لپاره شنه (فلم) یا ژیړ (تلویزیون لړۍ) فشار ورکړئ ..."
+
+msgid "Press OK"
+msgstr "OK فشار ورکړئ"
+
+msgid "Press OK to view full details..."
+msgstr "د بشپړ توضیحاتو لیدو لپاره OK فشار ورکړئ ..."
+
+msgid "REFRESH"
+msgstr "تازه کړئ"
+
+msgid "Refresh"
+msgstr "تازه کړئ"
+
+msgid "Retry"
+msgstr "بیا هڅه وکړئ"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "لټون"
+
+msgid "Search History"
+msgstr "د لټون تاریخ"
+
+msgid "Search Movie"
+msgstr "د فلم لټون"
+
+msgid "Search TV Series"
+msgstr "د تلویزیون لړۍ وپلټئ"
+
+msgid "Search timeout"
+msgstr "د لټون وخت پای"
+
+msgid "Searching for: '%s'"
+msgstr "لټون کول: '%s'"
+
+msgid "Searching..."
+msgstr "لټون..."
+
+msgid "Season %d"
+msgstr "فصل %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "فصل %d (%d قسطونه)"
+
+msgid "Seasons"
+msgstr "موسمونه"
+
+msgid "Seasons:"
+msgstr "فصلونه:"
+
+msgid "Series URL not found"
+msgstr "د لړۍ URL ونه موندل شو"
+
+msgid "Series URL not found."
+msgstr "د لړۍ URL ونه موندل شو."
+
+msgid "TMDB API key not found"
+msgstr "د TMDB API کیلي ونه موندل شوه"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "د TMDB API کیلي ونه موندل یا غلطه!"
+
+msgid "TMDB ID not found"
+msgstr "د TMDB ID ونه موندل شو"
+
+msgid "TV Series History"
+msgstr "د تلویزیون لړۍ تاریخ"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "د لټون غوښتنو لپاره وخت پای (ثانوي)"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Type: %s"
+msgstr "ډول: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN ګروپونه | کیڼ/ښي کارتونه | ښه پرانیزئ"
+
+msgid "Unable to get stream for this episode"
+msgstr "د دې قسط لپاره جریان ترلاسه کولو توان نلري"
+
+msgid "Unable to get streaming URL"
+msgstr "د سټرینګ URL ترلاسه کولو توان نلري"
+
+msgid "Unable to load content details"
+msgstr "د منځپانګې د جزیاتو د پورته کولو توان نلري"
+
+msgid "Unable to open details for this content"
+msgstr "د دې مینځپانګې لپاره توضیحات خلاصولو توان نلري"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "د TMDB څخه د معلوماتو ترلاسه کولو توان نلري."
+
+msgid "Unknown"
+msgstr "نامعلوم"
+
+msgid "Updated, %d groups unavailable"
+msgstr "تازه شوي، %d ډلې شتون نلري"
+
+msgid "Updating"
+msgstr "تازه کول"
+
+msgid "Updating cards %d/%d"
+msgstr "کارتونه تازه کول %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[لوړ تعریف] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "تېروتنه"
+
+msgid "loading"
+msgstr "بار کول"

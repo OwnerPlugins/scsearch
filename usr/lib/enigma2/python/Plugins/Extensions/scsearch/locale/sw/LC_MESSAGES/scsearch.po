@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:33+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Swahili <(nothing)>\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "Majina %d"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILAMU ---"
+
+msgid "--- New search ---"
+msgstr "--- Utafutaji mpya ---"
+
+msgid "--- TV SERIES ---"
+msgstr ""
+
+msgid "0 titles"
+msgstr "0 majina"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Vipindi <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Misimu <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Hitilafu ya kucheza ya Altadefinizione: %s"
+
+msgid "Available links:"
+msgstr "Viungo vinavyopatikana:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Vinjari vikundi na kadi kwa kusogeza kwa mlalo"
+
+msgid "CANCEL"
+msgstr "GHAIRI"
+
+msgid "CB01 playback error: %s"
+msgstr "Hitilafu ya kucheza CB01: %s"
+
+msgid "CONFIRM"
+msgstr "THIBITISHA"
+
+msgid "CONTENTS"
+msgstr "YALIYOMO"
+
+msgid "Card error"
+msgstr "Hitilafu ya kadi"
+
+msgid "Cards updated"
+msgstr "Kadi zimesasishwa"
+
+msgid "Code:"
+msgstr "Msimbo:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Msimbo: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Maudhui kutoka Altadefinizione - Bonyeza Sawa ili kufungua..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Maudhui kutoka CB01 - Bonyeza Sawa ili kufungua..."
+
+msgid "Description not available."
+msgstr "Maelezo hayapatikani."
+
+msgid "Details for: '%s'"
+msgstr "Maelezo ya: '%s'"
+
+msgid "Details not available"
+msgstr "Maelezo hayapatikani"
+
+msgid "EXIT"
+msgstr "UTGÅNG"
+
+msgid "Enable debug"
+msgstr "Washa utatuzi"
+
+msgid "Enable debug output in logs"
+msgstr "Washa pato la utatuzi katika kumbukumbu"
+
+msgid "Enter Captcha Code"
+msgstr "Ingiza Msimbo wa Captcha"
+
+msgid "Episode %d"
+msgstr "Kipindi %d"
+
+msgid "Episode %d: %s"
+msgstr "Kipindi %d: %s"
+
+msgid "Episodes"
+msgstr "Vipindi"
+
+msgid "Episodes:"
+msgstr "Vipindi:"
+
+msgid "Error loading CB01 series"
+msgstr "Hitilafu katika kupakia mfululizo wa CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Hitilafu katika kupakia mfululizo wa OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Hitilafu katika kupakia TMDB"
+
+msgid "Error loading details"
+msgstr "Hitilafu katika kupakia maelezo"
+
+msgid "Error playing episode: %s"
+msgstr "Hitilafu katika kucheza kipindi: %s"
+
+msgid "Error updating UI"
+msgstr "Hitilafu katika kusasisha UI"
+
+msgid "Exit"
+msgstr "Utgång"
+
+msgid "GROUPS"
+msgstr "VIKUNDI"
+
+msgid "History"
+msgstr "Historia"
+
+msgid "Invalid streaming URL"
+msgstr "URL ya kutiririsha si sahihi"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "KUSHOTO/KULIA navigate | Sawa fungua | UP nyuma kwa vikundi"
+
+msgid "Load error"
+msgstr "Hitilafu ya upakiaji"
+
+msgid "Loading details from TMDB..."
+msgstr "Inapakia maelezo kutoka kwa TMDB..."
+
+msgid "Loading details..."
+msgstr "Inapakia maelezo..."
+
+msgid "Loading..."
+msgstr "Inapakia..."
+
+msgid "Max results"
+msgstr "Matokeo ya juu zaidi"
+
+msgid "Maximum number of results to display"
+msgstr "Idadi ya juu zaidi ya matokeo ya kuonyesha"
+
+msgid "Movie History"
+msgstr "Historia ya Filamu"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Utafutaji mpya..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Hakuna kipindi cha Altadefinizione kilichopatikana"
+
+msgid "No CB01 episode found"
+msgstr "Hakuna kipindi cha CB01 kilichopatikana"
+
+msgid "No content"
+msgstr "Hakuna maudhui"
+
+msgid "No content selected"
+msgstr "Hakuna maudhui yaliyochaguliwa"
+
+msgid "No episodes available"
+msgstr "Hakuna vipindi vinavyopatikana"
+
+msgid "No previous searches found"
+msgstr "Hakuna utafutaji wa awali uliopatikana"
+
+msgid "No relevant results found."
+msgstr "Hakuna matokeo muhimu yaliyopatikana."
+
+msgid "No results found on SC."
+msgstr "Hakuna matokeo yaliyopatikana kwenye SC."
+
+msgid "No streaming links found"
+msgstr "Hakuna viungo vya kutiririsha vilivyopatikana"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Mfululizo wa TV"
+
+msgid "PLAY"
+msgstr "CHEZA"
+
+msgid "Playback error: %s"
+msgstr "Hitilafu ya kucheza tena: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Bonyeza KIJANI (Filamu) au MANJANO (Mfululizo wa TV) ili kutafuta..."
+
+msgid "Press OK"
+msgstr "Bonyeza SAWA"
+
+msgid "Press OK to view full details..."
+msgstr "Bonyeza SAWA ili kuona maelezo kamili..."
+
+msgid "REFRESH"
+msgstr "UPYA"
+
+msgid "Refresh"
+msgstr "Onyesha upya"
+
+msgid "Retry"
+msgstr "Jaribu tena"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "TAFUTA"
+
+msgid "Search History"
+msgstr "Historia ya Utafutaji"
+
+msgid "Search Movie"
+msgstr "Tafuta Filamu"
+
+msgid "Search TV Series"
+msgstr "Tafuta Mfululizo wa TV"
+
+msgid "Search timeout"
+msgstr "Muda wa utafutaji umekwisha"
+
+msgid "Searching for: '%s'"
+msgstr "Inatafuta: '%s'"
+
+msgid "Searching..."
+msgstr "Inatafuta..."
+
+msgid "Season %d"
+msgstr "Msimu %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Msimu %d (vipindi %d)"
+
+msgid "Seasons"
+msgstr "Misimu"
+
+msgid "Seasons:"
+msgstr "Misimu:"
+
+msgid "Series URL not found"
+msgstr "URL ya mfululizo haijapatikana"
+
+msgid "Series URL not found."
+msgstr "URL ya mfululizo haijapatikana."
+
+msgid "TMDB API key not found"
+msgstr "Kitufe cha API ya TMDB hakijapatikana"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Kitufe cha API ya TMDB hakijapatikana au ni batili!"
+
+msgid "TMDB ID not found"
+msgstr "Kitambulisho cha TMDB hakijapatikana"
+
+msgid "TV Series History"
+msgstr "Historia ya Mfululizo wa TV"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Muda wa maombi ya utafutaji umekwisha (sekunde)"
+
+msgid "Title"
+msgstr "Kichwa"
+
+msgid "Type: %s"
+msgstr "Aina: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
+
+msgid "Unable to get stream for this episode"
+msgstr "Imeshindwa kupata mtiririko wa kipindi hiki"
+
+msgid "Unable to get streaming URL"
+msgstr "Haikuweza kupata URL ya kutiririsha"
+
+msgid "Unable to load content details"
+msgstr "Imeshindwa kupakia maelezo ya maudhui"
+
+msgid "Unable to open details for this content"
+msgstr "Imeshindwa kufungua maelezo ya maudhui haya"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Haiwezi kuepua maelezo kutoka kwa TMDB."
+
+msgid "Unknown"
+msgstr "Haijulikani"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Imesasishwa, vikundi %d havipatikani"
+
+msgid "Updating"
+msgstr "Inasasisha"
+
+msgid "Updating cards %d/%d"
+msgstr "Inasasisha kadi %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Ufafanuzi wa Juu] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "kosa"
+
+msgid "loading"
+msgstr "kupakia"

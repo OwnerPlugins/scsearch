@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:28+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Scottish Gaelic <fios@foramnagaidhlig.net>\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d tiotalan"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- Filmichean ---"
+
+msgid "--- New search ---"
+msgstr "--- Rannsachadh ùr ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- SRAITH Tbh ---"
+
+msgid "0 titles"
+msgstr "0 tiotal"
+
+msgid ">>> Episodes <<<"
+msgstr ""
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Ràithean <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Mearachd ath-chluich altadefinizione: %s"
+
+msgid "Available links:"
+msgstr "Ceanglaichean rim faighinn:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Dèan brobhsadh air buidhnean agus cairtean le scrollaidh còmhnard"
+
+msgid "CANCEL"
+msgstr "A CHUR"
+
+msgid "CB01 playback error: %s"
+msgstr "Mearachd ath-chluich CB01: %s"
+
+msgid "CONFIRM"
+msgstr "DEARBHACHADH"
+
+msgid "CONTENTS"
+msgstr "CLAR-INNSIDH"
+
+msgid "Card error"
+msgstr "Mearachd cairt"
+
+msgid "Cards updated"
+msgstr "Cairtean air an ùrachadh"
+
+msgid "Code:"
+msgstr "Còd:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Còd: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Susbaint bho Altadefinizione - Brùth OK gus fosgladh..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Susbaint o CB01 - Brùth OK gus fosgladh..."
+
+msgid "Description not available."
+msgstr "Tuairisgeul nach eil ri fhaighinn."
+
+msgid "Details for: '%s'"
+msgstr "Mion-fhiosrachadh airson: '%s'"
+
+msgid "Details not available"
+msgstr "Chan eil mion-fhiosrachadh ri fhaighinn"
+
+msgid "EXIT"
+msgstr "LAOIDH"
+
+msgid "Enable debug"
+msgstr "Dèan comas deasbaid"
+
+msgid "Enable debug output in logs"
+msgstr "Dèan comas air toradh deasbaid ann an logaichean"
+
+msgid "Enter Captcha Code"
+msgstr "Cuir a-steach Còd Captcha"
+
+msgid "Episode %d"
+msgstr ""
+
+msgid "Episode %d: %s"
+msgstr ""
+
+msgid "Episodes"
+msgstr ""
+
+msgid "Episodes:"
+msgstr ""
+
+msgid "Error loading CB01 series"
+msgstr "Thachair mearachd le luchdachadh CB01 sreath"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Thachair mearachd leis an t-sreath air-loidhne TBH"
+
+msgid "Error loading TMDB"
+msgstr "Thachair mearachd le luchdachadh TMDB"
+
+msgid "Error loading details"
+msgstr "Thachair mearachd le luchdachadh mion-fhiosrachaidh"
+
+msgid "Error playing episode: %s"
+msgstr "Mearachd a' cluich an t-seisein: %s"
+
+msgid "Error updating UI"
+msgstr "Thachair mearachd le ùrachadh UI"
+
+msgid "Exit"
+msgstr "Ar-a-mach"
+
+msgid "GROUPS"
+msgstr "CRUTHAICHEAN"
+
+msgid "History"
+msgstr "Eachdraidh"
+
+msgid "Invalid streaming URL"
+msgstr "URL sruthadh mì-dhligheach"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "Clì/DEAR seòladh | OK fosgail | UP air ais gu buidhnean"
+
+msgid "Load error"
+msgstr "Tha mearachd luchdadh"
+
+msgid "Loading details from TMDB..."
+msgstr "A’ luchdachadh suas mion-fhiosrachadh bho TMDB..."
+
+msgid "Loading details..."
+msgstr "A’ luchdachadh mion-fhiosrachadh..."
+
+msgid "Loading..."
+msgstr "A' luchdachadh..."
+
+msgid "Max results"
+msgstr "Toraidhean as àirde"
+
+msgid "Maximum number of results to display"
+msgstr "An àireamh as motha de thoraidhean ri thaisbeanadh"
+
+msgid "Movie History"
+msgstr "Eachdraidh film"
+
+msgid "N/A"
+msgstr "Chan eil"
+
+msgid "New search..."
+msgstr "Lorg ùr..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Cha deach prògram Altadefinizione a lorg"
+
+msgid "No CB01 episode found"
+msgstr "Cha deach prògram CB01 a lorg"
+
+msgid "No content"
+msgstr "Gun susbaint"
+
+msgid "No content selected"
+msgstr "Cha deach susbaint a thaghadh"
+
+msgid "No episodes available"
+msgstr "Chan eil episodes ri fhaighinn"
+
+msgid "No previous searches found"
+msgstr "Cha deach rannsachadh sam bith a lorg roimhe"
+
+msgid "No relevant results found."
+msgstr "Cha deach toraidhean buntainneach a lorg."
+
+msgid "No results found on SC."
+msgstr "Cha deach toraidhean a lorg air SC."
+
+msgid "No streaming links found"
+msgstr "Cha deach ceanglaichean sruthadh a lorg"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "Sreath Tbh air-loidhne - Sreath Tbh"
+
+msgid "PLAY"
+msgstr "CLÀRADH"
+
+msgid "Playback error: %s"
+msgstr "Mearachd ath-chluich: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Brùth GREEN (Film) no YELLOW (Sreath Tbh) gus lorg..."
+
+msgid "Press OK"
+msgstr "Brùth OK"
+
+msgid "Press OK to view full details..."
+msgstr "Brùth OK airson làn fhiosrachadh fhaicinn..."
+
+msgid "REFRESH"
+msgstr "ÙRACHADH"
+
+msgid "Refresh"
+msgstr "Ùraich"
+
+msgid "Retry"
+msgstr "Feuch a-rithist"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "SEALLADH"
+
+msgid "Search History"
+msgstr "Eachdraidh Rannsachaidh"
+
+msgid "Search Movie"
+msgstr "Film lorg"
+
+msgid "Search TV Series"
+msgstr "Lorg TBH san t-sreath a"
+
+msgid "Search timeout"
+msgstr "Ùine rannsachaidh"
+
+msgid "Searching for: '%s'"
+msgstr "A' lorg: '%s'"
+
+msgid "Searching..."
+msgstr "A' lorg..."
+
+msgid "Season %d"
+msgstr "Ràithe %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Ràithe %d (%d prògram)"
+
+msgid "Seasons"
+msgstr "Ràithean"
+
+msgid "Seasons:"
+msgstr "Ràithean:"
+
+msgid "Series URL not found"
+msgstr "Cha deach URL an t-sreath a lorg"
+
+msgid "Series URL not found."
+msgstr "Cha deach URL an t-sreath a lorg."
+
+msgid "TMDB API key not found"
+msgstr "Cha deach iuchair API TMDB a lorg"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Cha deach iuchair API TMDB a lorg no mì-dhligheach!"
+
+msgid "TMDB ID not found"
+msgstr "ID TMDB nach deach a lorg"
+
+msgid "TV Series History"
+msgstr "Eachdraidh TBH san t-sreath a"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Ùine airson iarrtasan rannsachaidh (diogan)"
+
+msgid "Title"
+msgstr "Tiotal"
+
+msgid "Type: %s"
+msgstr "Seòrsa: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
+
+msgid "Unable to get stream for this episode"
+msgstr "Cha ghabh sruth fhaighinn airson a' phrògram seo"
+
+msgid "Unable to get streaming URL"
+msgstr "Cha ghabh URL sruthadh fhaighinn"
+
+msgid "Unable to load content details"
+msgstr "Cha ghabh mion-fhiosrachadh susbaint a luchdachadh"
+
+msgid "Unable to open details for this content"
+msgstr "Cha ghabh mion-fhiosrachadh fhosgladh airson an t-susbaint seo"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Cha b' urrainn dhuinn fiosrachadh fhaighinn air ais bho TMDB."
+
+msgid "Unknown"
+msgstr "Neo-aithnichte"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Ùraichte, chan eil %d buidheann ri fhaighinn"
+
+msgid "Updating"
+msgstr "Ag ùrachadh"
+
+msgid "Updating cards %d/%d"
+msgstr "Ag ùrachadh nan cairtean %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Mìneachadh àrd] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "mearachd"
+
+msgid "loading"
+msgstr "a' luchdachadh"

@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:06+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+msgid "%d titles"
+msgstr "%d titulů"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMY ---"
+
+msgid "--- New search ---"
+msgstr "--- Nové hledání ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV SERIÁL ---"
+
+msgid "0 titles"
+msgstr "0 titulů"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Epizody <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Roční období <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Chyba přehrávání Altadefinizeone: %s"
+
+msgid "Available links:"
+msgstr "Dostupné odkazy:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Procházejte skupiny a karty pomocí vodorovného posouvání"
+
+msgid "CANCEL"
+msgstr "ZRUŠIT"
+
+msgid "CB01 playback error: %s"
+msgstr "Chyba přehrávání CB01: %s"
+
+msgid "CONFIRM"
+msgstr "POTVRDIT"
+
+msgid "CONTENTS"
+msgstr "OBSAH"
+
+msgid "Card error"
+msgstr "Chyba karty"
+
+msgid "Cards updated"
+msgstr "Karty aktualizovány"
+
+msgid "Code:"
+msgstr "Kód:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kód: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Obsah z Altadefinizione – Stisknutím tlačítka OK otevřete..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Obsah z CB01 – Stisknutím OK otevřete..."
+
+msgid "Description not available."
+msgstr "Popis není k dispozici."
+
+msgid "Details for: '%s'"
+msgstr "Podrobnosti pro: '%s'"
+
+msgid "Details not available"
+msgstr "Podrobnosti nejsou k dispozici"
+
+msgid "EXIT"
+msgstr "VÝSTUP"
+
+msgid "Enable debug"
+msgstr "Povolit ladění"
+
+msgid "Enable debug output in logs"
+msgstr "Povolit výstup ladění v protokolech"
+
+msgid "Enter Captcha Code"
+msgstr "Zadejte kód Captcha"
+
+msgid "Episode %d"
+msgstr "Epizoda %d"
+
+msgid "Episode %d: %s"
+msgstr "Epizoda %d: %s"
+
+msgid "Episodes"
+msgstr "Epizody"
+
+msgid "Episodes:"
+msgstr "epizody:"
+
+msgid "Error loading CB01 series"
+msgstr "Chyba při načítání řady CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Chyba při načítání seriálu OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Chyba při načítání TMDB"
+
+msgid "Error loading details"
+msgstr "Chyba při načítání podrobností"
+
+msgid "Error playing episode: %s"
+msgstr "Chyba při přehrávání epizody: %s"
+
+msgid "Error updating UI"
+msgstr "Při aktualizaci uživatelského rozhraní došlo k chybě"
+
+msgid "Exit"
+msgstr "Výstup"
+
+msgid "GROUPS"
+msgstr "SKUPINY"
+
+msgid "History"
+msgstr "Dějiny"
+
+msgid "Invalid streaming URL"
+msgstr "Neplatná adresa URL streamování"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "navigace VLEVO/VPRAVO | OK otevřít | UP zpět do skupin"
+
+msgid "Load error"
+msgstr "Chyba načítání"
+
+msgid "Loading details from TMDB..."
+msgstr "Načítání podrobností z TMDB..."
+
+msgid "Loading details..."
+msgstr "Načítání podrobností..."
+
+msgid "Loading..."
+msgstr "Načítání..."
+
+msgid "Max results"
+msgstr "Maximální výsledky"
+
+msgid "Maximum number of results to display"
+msgstr "Maximální počet výsledků k zobrazení"
+
+msgid "Movie History"
+msgstr "Historie filmu"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Nové hledání..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Nebyla nalezena žádná epizoda Altadefinizione"
+
+msgid "No CB01 episode found"
+msgstr "Nebyla nalezena žádná epizoda CB01"
+
+msgid "No content"
+msgstr "Žádný obsah"
+
+msgid "No content selected"
+msgstr "Není vybrán žádný obsah"
+
+msgid "No episodes available"
+msgstr "Nejsou k dispozici žádné epizody"
+
+msgid "No previous searches found"
+msgstr "Nebyla nalezena žádná předchozí vyhledávání"
+
+msgid "No relevant results found."
+msgstr "Nebyly nalezeny žádné relevantní výsledky."
+
+msgid "No results found on SC."
+msgstr "Na SC nebyly nalezeny žádné výsledky."
+
+msgid "No streaming links found"
+msgstr "Nebyly nalezeny žádné odkazy na streamování"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - televizní seriál"
+
+msgid "PLAY"
+msgstr "HRÁT"
+
+msgid "Playback error: %s"
+msgstr "Chyba přehrávání: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Stisknutím ZELENÉ (Film) nebo ŽLUTÉ (TV seriál) vyhledáte..."
+
+msgid "Press OK"
+msgstr "Stiskněte OK"
+
+msgid "Press OK to view full details..."
+msgstr "Stiskněte OK pro zobrazení všech podrobností..."
+
+msgid "REFRESH"
+msgstr "OBNOVIT"
+
+msgid "Refresh"
+msgstr "Obnovit"
+
+msgid "Retry"
+msgstr "Zkuste to znovu"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "VYHLEDÁVÁNÍ"
+
+msgid "Search History"
+msgstr "Historie vyhledávání"
+
+msgid "Search Movie"
+msgstr "Hledat film"
+
+msgid "Search TV Series"
+msgstr "Hledat TV seriály"
+
+msgid "Search timeout"
+msgstr "Časový limit hledání"
+
+msgid "Searching for: '%s'"
+msgstr "Hledání: '%s'"
+
+msgid "Searching..."
+msgstr "Hledání..."
+
+msgid "Season %d"
+msgstr "Sezóna %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Řada %d (%d epizod)"
+
+msgid "Seasons"
+msgstr "Roční období"
+
+msgid "Seasons:"
+msgstr "Roční období:"
+
+msgid "Series URL not found"
+msgstr "Adresa URL série nebyla nalezena"
+
+msgid "Series URL not found."
+msgstr "Adresa URL série nebyla nalezena."
+
+msgid "TMDB API key not found"
+msgstr "Klíč TMDB API nebyl nalezen"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Klíč TMDB API nebyl nalezen nebo je neplatný!"
+
+msgid "TMDB ID not found"
+msgstr "ID TMDB nebylo nalezeno"
+
+msgid "TV Series History"
+msgstr "Historie televizních seriálů"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Časový limit pro požadavky na vyhledávání (v sekundách)"
+
+msgid "Title"
+msgstr "Titul"
+
+msgid "Type: %s"
+msgstr "Typ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Skupiny NAHORU/DOLŮ | LEFT/RIGHT pohlednice | OK otevřít"
+
+msgid "Unable to get stream for this episode"
+msgstr "Nelze získat stream pro tuto epizodu"
+
+msgid "Unable to get streaming URL"
+msgstr "Nelze získat adresu URL streamování"
+
+msgid "Unable to load content details"
+msgstr "Podrobnosti obsahu nelze načíst"
+
+msgid "Unable to open details for this content"
+msgstr "Podrobnosti o tomto obsahu nelze otevřít"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Nelze načíst informace z TMDB."
+
+msgid "Unknown"
+msgstr "Neznámý"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Aktualizováno, %d skupiny nedostupné"
+
+msgid "Updating"
+msgstr "Aktualizace"
+
+msgid "Updating cards %d/%d"
+msgstr "Aktualizace karet %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Vysoké rozlišení] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "chyba"
+
+msgid "loading"
+msgstr "načítání"

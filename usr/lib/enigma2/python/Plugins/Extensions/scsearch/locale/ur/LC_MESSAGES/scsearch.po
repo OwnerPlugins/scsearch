@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:52+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Urdu <jessbody@gmail.com>\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d عنوانات"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- فلمیں ---"
+
+msgid "--- New search ---"
+msgstr "--- نئی تلاش ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ٹی وی سیریز ---"
+
+msgid "0 titles"
+msgstr "0 عنوانات"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> اقساط <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> موسم <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione پلے بیک کی خرابی: %s"
+
+msgid "Available links:"
+msgstr "دستیاب لنکس:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "افقی اسکرولنگ کے ساتھ گروپس اور کارڈز کو براؤز کریں۔"
+
+msgid "CANCEL"
+msgstr "منسوخ کریں۔"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 پلے بیک کی خرابی: %s"
+
+msgid "CONFIRM"
+msgstr "تصدیق کریں۔"
+
+msgid "CONTENTS"
+msgstr "مواد"
+
+msgid "Card error"
+msgstr "کارڈ کی خرابی۔"
+
+msgid "Cards updated"
+msgstr "کارڈز اپ ڈیٹ ہو گئے۔"
+
+msgid "Code:"
+msgstr "کوڈ:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "کوڈ: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione کی طرف سے مواد - کھولنے کے لیے OK دبائیں..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 سے مواد - کھولنے کے لیے OK دبائیں..."
+
+msgid "Description not available."
+msgstr "تفصیل دستیاب نہیں ہے۔"
+
+msgid "Details for: '%s'"
+msgstr "تفصیلات برائے: '%s'"
+
+msgid "Details not available"
+msgstr "تفصیلات دستیاب نہیں ہیں۔"
+
+msgid "EXIT"
+msgstr "باہر نکلیں۔"
+
+msgid "Enable debug"
+msgstr "ڈیبگ کو فعال کریں۔"
+
+msgid "Enable debug output in logs"
+msgstr "لاگز میں ڈیبگ آؤٹ پٹ کو فعال کریں۔"
+
+msgid "Enter Captcha Code"
+msgstr "کیپچا کوڈ درج کریں۔"
+
+msgid "Episode %d"
+msgstr "ایپی سوڈ %d"
+
+msgid "Episode %d: %s"
+msgstr "قسط %d: %s"
+
+msgid "Episodes"
+msgstr "اقساط"
+
+msgid "Episodes:"
+msgstr "اقساط:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 سیریز لوڈ کرنے میں خرابی۔"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV سیریز لوڈ کرنے میں خرابی۔"
+
+msgid "Error loading TMDB"
+msgstr "TMDB لوڈ کرنے میں خرابی۔"
+
+msgid "Error loading details"
+msgstr "تفصیلات لوڈ کرنے میں خرابی۔"
+
+msgid "Error playing episode: %s"
+msgstr "ایپی سوڈ چلانے میں خرابی: %s"
+
+msgid "Error updating UI"
+msgstr "UI کو اپ ڈیٹ کرنے میں خرابی۔"
+
+msgid "Exit"
+msgstr "باہر نکلیں۔"
+
+msgid "GROUPS"
+msgstr "گروپس"
+
+msgid "History"
+msgstr "تاریخ"
+
+msgid "Invalid streaming URL"
+msgstr "غلط سلسلہ بندی کا URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "بائیں/دائیں نیویگیٹ | ٹھیک ہے کھولیں | یوپی واپس گروپوں میں"
+
+msgid "Load error"
+msgstr "لوڈ کی خرابی۔"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB سے تفصیلات لوڈ ہو رہی ہیں..."
+
+msgid "Loading details..."
+msgstr "تفصیلات لوڈ ہو رہی ہیں..."
+
+msgid "Loading..."
+msgstr "لوڈ ہو رہا ہے..."
+
+msgid "Max results"
+msgstr "زیادہ سے زیادہ نتائج"
+
+msgid "Maximum number of results to display"
+msgstr "ڈسپلے کرنے کے لیے نتائج کی زیادہ سے زیادہ تعداد"
+
+msgid "Movie History"
+msgstr "فلم کی تاریخ"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "نئی تلاش..."
+
+msgid "No Altadefinizione episode found"
+msgstr "کوئی Altadefinizione ایپیسوڈ نہیں ملا"
+
+msgid "No CB01 episode found"
+msgstr "کوئی CB01 ایپی سوڈ نہیں ملا"
+
+msgid "No content"
+msgstr "کوئی مواد نہیں۔"
+
+msgid "No content selected"
+msgstr "کوئی مواد منتخب نہیں کیا گیا۔"
+
+msgid "No episodes available"
+msgstr "کوئی ایپی سوڈ دستیاب نہیں۔"
+
+msgid "No previous searches found"
+msgstr "کوئی پچھلی تلاش نہیں ملی"
+
+msgid "No relevant results found."
+msgstr "کوئی متعلقہ نتائج نہیں ملے۔"
+
+msgid "No results found on SC."
+msgstr "SC پر کوئی نتیجہ نہیں ملا۔"
+
+msgid "No streaming links found"
+msgstr "کوئی سلسلہ بندی کے لنکس نہیں ملے"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "آن لائن سیری ٹی وی - ٹی وی سیریز"
+
+msgid "PLAY"
+msgstr "کھیلیں"
+
+msgid "Playback error: %s"
+msgstr "پلے بیک کی خرابی: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "تلاش کرنے کے لیے گرین (مووی) یا ییلو (ٹی وی سیریز) دبائیں..."
+
+msgid "Press OK"
+msgstr "OK دبائیں"
+
+msgid "Press OK to view full details..."
+msgstr "مکمل تفصیلات دیکھنے کے لیے OK دبائیں..."
+
+msgid "REFRESH"
+msgstr "ریفریش کریں۔"
+
+msgid "Refresh"
+msgstr "ریفریش کریں۔"
+
+msgid "Retry"
+msgstr "دوبارہ کوشش کریں۔"
+
+msgid "SC"
+msgstr "ایس سی"
+
+msgid "SEARCH"
+msgstr "تلاش کریں۔"
+
+msgid "Search History"
+msgstr "تلاش کی سرگزشت"
+
+msgid "Search Movie"
+msgstr "مووی تلاش کریں۔"
+
+msgid "Search TV Series"
+msgstr "ٹی وی سیریز تلاش کریں۔"
+
+msgid "Search timeout"
+msgstr "تلاش کا ٹائم آؤٹ"
+
+msgid "Searching for: '%s'"
+msgstr "تلاش کر رہا ہے: '%s'"
+
+msgid "Searching..."
+msgstr "تلاش کر رہا ہے..."
+
+msgid "Season %d"
+msgstr "سیزن %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "سیزن %d (%d ایپی سوڈز)"
+
+msgid "Seasons"
+msgstr "موسم"
+
+msgid "Seasons:"
+msgstr "موسم:"
+
+msgid "Series URL not found"
+msgstr "سیریز کا URL نہیں ملا"
+
+msgid "Series URL not found."
+msgstr "سیریز کا URL نہیں ملا۔"
+
+msgid "TMDB API key not found"
+msgstr "TMDB API کلید نہیں ملی"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API کلید نہیں ملی یا غلط!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID نہیں ملی"
+
+msgid "TV Series History"
+msgstr "ٹی وی سیریز کی تاریخ"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "تلاش کی درخواستوں کا ٹائم آؤٹ (سیکنڈ)"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Type: %s"
+msgstr "قسم: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "اوپر/نیچے گروپس | بائیں/دائیں کارڈز | ٹھیک ہے کھولو"
+
+msgid "Unable to get stream for this episode"
+msgstr "اس ایپی سوڈ کے لیے سلسلہ حاصل کرنے سے قاصر"
+
+msgid "Unable to get streaming URL"
+msgstr "سلسلہ بندی کا URL حاصل کرنے سے قاصر"
+
+msgid "Unable to load content details"
+msgstr "مواد کی تفصیلات لوڈ کرنے سے قاصر"
+
+msgid "Unable to open details for this content"
+msgstr "اس مواد کی تفصیلات کھولنے سے قاصر"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB سے معلومات بازیافت کرنے سے قاصر۔"
+
+msgid "Unknown"
+msgstr "نامعلوم"
+
+msgid "Updated, %d groups unavailable"
+msgstr "اپ ڈیٹ کیا گیا، %d گروپس دستیاب نہیں ہیں۔"
+
+msgid "Updating"
+msgstr "اپ ڈیٹ کر رہا ہے۔"
+
+msgid "Updating cards %d/%d"
+msgstr "کارڈز کو اپ ڈیٹ کیا جا رہا ہے %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[ہائی ڈیفینیشن] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "غلطی"
+
+msgid "loading"
+msgstr "لوڈ ہو رہا ہے"

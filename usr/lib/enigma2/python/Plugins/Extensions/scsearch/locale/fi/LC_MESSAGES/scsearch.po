@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:22+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d titles"
+msgstr "%d otsikkoa"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ELOKUVIA ---"
+
+msgid "--- New search ---"
+msgstr "--- Uusi haku ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV-SARJA ---"
+
+msgid "0 titles"
+msgstr "0 otsikkoa"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Jaksot <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Vuodenajat <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione toistovirhe: %s"
+
+msgid "Available links:"
+msgstr "Käytettävissä olevat linkit:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Selaa ryhmiä ja kortteja vaakasuuntaisella vierityksellä"
+
+msgid "CANCEL"
+msgstr "PERUUTTAA"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01-toistovirhe: %s"
+
+msgid "CONFIRM"
+msgstr "VAHVISTAA"
+
+msgid "CONTENTS"
+msgstr "SISÄLLYS"
+
+msgid "Card error"
+msgstr "Korttivirhe"
+
+msgid "Cards updated"
+msgstr "Kortit päivitetty"
+
+msgid "Code:"
+msgstr "Koodi:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Koodi: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizionen sisältö - Avaa painamalla OK..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Sisältö CB01:stä - Avaa painamalla OK..."
+
+msgid "Description not available."
+msgstr "Kuvaus ei ole saatavilla."
+
+msgid "Details for: '%s'"
+msgstr "Tiedot kohteelle: '%s'"
+
+msgid "Details not available"
+msgstr "Yksityiskohtia ei ole saatavilla"
+
+msgid "EXIT"
+msgstr "POISTU"
+
+msgid "Enable debug"
+msgstr "Ota virheenkorjaus käyttöön"
+
+msgid "Enable debug output in logs"
+msgstr "Ota virheenkorjaus käyttöön lokeissa"
+
+msgid "Enter Captcha Code"
+msgstr "Anna Captcha-koodi"
+
+msgid "Episode %d"
+msgstr "Jakso %d"
+
+msgid "Episode %d: %s"
+msgstr "Jakso %d: %s"
+
+msgid "Episodes"
+msgstr "Jaksot"
+
+msgid "Episodes:"
+msgstr "Jaksot:"
+
+msgid "Error loading CB01 series"
+msgstr "Virhe ladattaessa CB01-sarjaa"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Virhe ladattaessa OnlineSerieTV-sarjaa"
+
+msgid "Error loading TMDB"
+msgstr "Virhe ladattaessa TMDB:tä"
+
+msgid "Error loading details"
+msgstr "Virhe ladattaessa tietoja"
+
+msgid "Error playing episode: %s"
+msgstr "Virhe toistettaessa jaksoa: %s"
+
+msgid "Error updating UI"
+msgstr "Virhe päivitettäessä käyttöliittymää"
+
+msgid "Exit"
+msgstr "Poistu"
+
+msgid "GROUPS"
+msgstr "RYHMÄT"
+
+msgid "History"
+msgstr "Historia"
+
+msgid "Invalid streaming URL"
+msgstr "Virheellinen suoratoiston URL-osoite"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "VASEN/OIKEA navigoi | OK auki | YLÖS takaisin ryhmiin"
+
+msgid "Load error"
+msgstr "Latausvirhe"
+
+msgid "Loading details from TMDB..."
+msgstr "Ladataan tietoja TMDB:stä..."
+
+msgid "Loading details..."
+msgstr "Ladataan tietoja..."
+
+msgid "Loading..."
+msgstr "Ladataan..."
+
+msgid "Max results"
+msgstr "Maksimitulokset"
+
+msgid "Maximum number of results to display"
+msgstr "Näytettävien tulosten enimmäismäärä"
+
+msgid "Movie History"
+msgstr "Elokuvahistoria"
+
+msgid "N/A"
+msgstr "Ei käytössä"
+
+msgid "New search..."
+msgstr "Uusi haku..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione-jaksoa ei löytynyt"
+
+msgid "No CB01 episode found"
+msgstr "CB01-jaksoa ei löytynyt"
+
+msgid "No content"
+msgstr "Ei sisältöä"
+
+msgid "No content selected"
+msgstr "Sisältöä ei ole valittu"
+
+msgid "No episodes available"
+msgstr "Ei jaksoja saatavilla"
+
+msgid "No previous searches found"
+msgstr "Aikaisempia hakuja ei löytynyt"
+
+msgid "No relevant results found."
+msgstr "Asiaankuuluvia tuloksia ei löytynyt."
+
+msgid "No results found on SC."
+msgstr "Ei tuloksia SC:stä."
+
+msgid "No streaming links found"
+msgstr "Suoratoistolinkkejä ei löytynyt"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - TV-sarja"
+
+msgid "PLAY"
+msgstr "PELATA"
+
+msgid "Playback error: %s"
+msgstr "Toistovirhe: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Paina VIHREÄÄ (elokuva) tai KELTAISTA (TV-sarja) etsiäksesi..."
+
+msgid "Press OK"
+msgstr "Paina OK"
+
+msgid "Press OK to view full details..."
+msgstr "Paina OK nähdäksesi kaikki tiedot..."
+
+msgid "REFRESH"
+msgstr "PÄIVITYS"
+
+msgid "Refresh"
+msgstr "Päivitä"
+
+msgid "Retry"
+msgstr "Yritä uudelleen"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "HAKU"
+
+msgid "Search History"
+msgstr "Hakuhistoria"
+
+msgid "Search Movie"
+msgstr "Etsi elokuva"
+
+msgid "Search TV Series"
+msgstr "Hae TV-sarjoja"
+
+msgid "Search timeout"
+msgstr "Haun aikakatkaisu"
+
+msgid "Searching for: '%s'"
+msgstr "Haetaan: '%s'"
+
+msgid "Searching..."
+msgstr "Haetaan..."
+
+msgid "Season %d"
+msgstr "Kausi %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Kausi %d (%d jaksoa)"
+
+msgid "Seasons"
+msgstr "Vuodenajat"
+
+msgid "Seasons:"
+msgstr "Vuodenajat:"
+
+msgid "Series URL not found"
+msgstr "Sarjan URL-osoitetta ei löydy"
+
+msgid "Series URL not found."
+msgstr "Sarjan URL-osoitetta ei löydy."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API-avainta ei löydy"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API-avainta ei löydy tai se on virheellinen!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB-tunnusta ei löydy"
+
+msgid "TV Series History"
+msgstr "TV-sarjan historia"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Hakupyyntöjen aikakatkaisu (sekunteina)"
+
+msgid "Title"
+msgstr "Otsikko"
+
+msgid "Type: %s"
+msgstr "Tyyppi: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "YLÖS/ALAS ryhmät | VASEN/OIKEA kortit | OK auki"
+
+msgid "Unable to get stream for this episode"
+msgstr "Tämän jakson suoratoistoa ei voi saada"
+
+msgid "Unable to get streaming URL"
+msgstr "Striimauksen URL-osoite ei onnistu"
+
+msgid "Unable to load content details"
+msgstr "Sisällön tietoja ei voi ladata"
+
+msgid "Unable to open details for this content"
+msgstr "Tämän sisällön tietoja ei voi avata"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Tietoja ei voi hakea TMDB:stä."
+
+msgid "Unknown"
+msgstr "Tuntematon"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Päivitetty, %d ryhmää ei saatavilla"
+
+msgid "Updating"
+msgstr "Päivitetään"
+
+msgid "Updating cards %d/%d"
+msgstr "Päivitetään kortteja %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "virhe"
+
+msgid "loading"
+msgstr "lastaus"

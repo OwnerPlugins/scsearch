@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:55+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Yiddish\n"
+"Language: yi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d טיטלען"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- קינאָ ---"
+
+msgid "--- New search ---"
+msgstr "--- נײַע זוכן ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- טעלעוויזיע סעריע ---"
+
+msgid "0 titles"
+msgstr "0 טיטלען"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> עפּיזאָד <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> סעאַסאָנס <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "אַלט דעפֿיניציע פּלייבאַק טעות: %s"
+
+msgid "Available links:"
+msgstr "בנימצא לינקס:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "בלעטער גרופּעס און קאַרדס מיט האָריזאָנטאַל סקראָללינג"
+
+msgid "CANCEL"
+msgstr "באָטל מאַכן"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 פּלייבאַק טעות: %s"
+
+msgid "CONFIRM"
+msgstr ""
+
+msgid "CONTENTS"
+msgstr "אינהאַלט"
+
+msgid "Card error"
+msgstr "קאָרט טעות"
+
+msgid "Cards updated"
+msgstr "קאַרדס דערהייַנטיקט"
+
+msgid "Code:"
+msgstr "קאָד:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "קאָד: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "אינהאַלט פֿון אַלטאַדעפיזיאָנע - דרוק OK צו עפֿענען ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "אינהאַלט פֿון CB01 - דרוק OK צו עפֿענען ..."
+
+msgid "Description not available."
+msgstr "באַשרייַבונג ניט בנימצא."
+
+msgid "Details for: '%s'"
+msgstr "דעטאַילס פֿאַר: '%s'"
+
+msgid "Details not available"
+msgstr "דעטאַילס ניט בנימצא"
+
+msgid "EXIT"
+msgstr "אַרויסגאַנג"
+
+msgid "Enable debug"
+msgstr "געבן דיבאַג"
+
+msgid "Enable debug output in logs"
+msgstr "געבן דיבאַג רעזולטאַט אין לאָגס"
+
+msgid "Enter Captcha Code"
+msgstr "אַרייַן קאַפּטטשאַ קאָד"
+
+msgid "Episode %d"
+msgstr "עפּיזאָד %d"
+
+msgid "Episode %d: %s"
+msgstr "עפּיזאָד %d: %s"
+
+msgid "Episodes"
+msgstr "עפּיסאָדעס"
+
+msgid "Episodes:"
+msgstr "עפּיזאָדן:"
+
+msgid "Error loading CB01 series"
+msgstr "טעות לאָודינג CB01 סעריע"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "טעות לאָודינג OnlineSerieTV סעריע"
+
+msgid "Error loading TMDB"
+msgstr "טעות לאָודינג TMDB"
+
+msgid "Error loading details"
+msgstr "טעות לאָודינג פרטים"
+
+msgid "Error playing episode: %s"
+msgstr "טעות צו שפּילן עפּיזאָד: %s"
+
+msgid "Error updating UI"
+msgstr "טעות אַפּדייט UI"
+
+msgid "Exit"
+msgstr "אַרויסגאַנג"
+
+msgid "GROUPS"
+msgstr "גרופּעס"
+
+msgid "History"
+msgstr "געשיכטע"
+
+msgid "Invalid streaming URL"
+msgstr "אומגילטיק סטרימינג URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "לינקס / רעכט נאַוויגירן | גוט עפענען | צוריק צו גרופּעס"
+
+msgid "Load error"
+msgstr "לאָדן טעות"
+
+msgid "Loading details from TMDB..."
+msgstr "לאָודינג פרטים פון TMDB ..."
+
+msgid "Loading details..."
+msgstr "לאָדן פּרטים..."
+
+msgid "Loading..."
+msgstr "לאָדן..."
+
+msgid "Max results"
+msgstr "מאַקסימום רעזולטאַטן"
+
+msgid "Maximum number of results to display"
+msgstr "מאַקסימום נומער פון רעזולטאַטן צו ווייַזן"
+
+msgid "Movie History"
+msgstr "פֿילם געשיכטע"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "נײַע זוכן..."
+
+msgid "No Altadefinizione episode found"
+msgstr "קיין אַלטאַ דעפֿיניציע עפּיזאָד געפֿונען"
+
+msgid "No CB01 episode found"
+msgstr "קיין CB01 עפּיזאָד געפֿונען"
+
+msgid "No content"
+msgstr "קיין אינהאַלט"
+
+msgid "No content selected"
+msgstr "קיין אינהאַלט אויסגעקליבן"
+
+msgid "No episodes available"
+msgstr "קיין עפּיסאָודז בנימצא"
+
+msgid "No previous searches found"
+msgstr "קיין פריערדיקע אָנפֿרעגן געפֿונען"
+
+msgid "No relevant results found."
+msgstr "ניט קיין באַטייַטיק רעזולטאַטן געפֿונען."
+
+msgid "No results found on SC."
+msgstr "קיין רעזולטאַטן געפֿונען אויף SC."
+
+msgid "No streaming links found"
+msgstr "קיין סטרימינג לינקס געפונען"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - טעלעוויזיע סעריע"
+
+msgid "PLAY"
+msgstr "שפּיל"
+
+msgid "Playback error: %s"
+msgstr "פּלייבאַק טעות: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "דרוק גרין (פֿילם) אָדער געל (טעלעוויזיע סעריע) צו זוכן ..."
+
+msgid "Press OK"
+msgstr "דרוק OK"
+
+msgid "Press OK to view full details..."
+msgstr "דרוק OK צו זען פול דעטאַילס ..."
+
+msgid "REFRESH"
+msgstr ""
+
+msgid "Refresh"
+msgstr "דערפרישן"
+
+msgid "Retry"
+msgstr "פרובירט ווידער"
+
+msgid "SC"
+msgstr "סק"
+
+msgid "SEARCH"
+msgstr "זוכן"
+
+msgid "Search History"
+msgstr "זוך געשיכטע"
+
+msgid "Search Movie"
+msgstr "זוכן פֿילם"
+
+msgid "Search TV Series"
+msgstr "זוכן טעלעוויזיע סעריעס"
+
+msgid "Search timeout"
+msgstr "זוכן צייט"
+
+msgid "Searching for: '%s'"
+msgstr "זוכן פֿאַר: '%s'"
+
+msgid "Searching..."
+msgstr "זוכן..."
+
+msgid "Season %d"
+msgstr "סעזאָן %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "סעזאָן %d (%d עפּיסאָודז)"
+
+msgid "Seasons"
+msgstr "סעאַסאָנס"
+
+msgid "Seasons:"
+msgstr "צייטן:"
+
+msgid "Series URL not found"
+msgstr "סעריע URL ניט געפֿונען"
+
+msgid "Series URL not found."
+msgstr "סעריע URL ניט געפֿונען."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API שליסל ניט געפֿונען"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API שליסל ניט געפֿונען אָדער פאַרקריפּלט!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID ניט געפֿונען"
+
+msgid "TV Series History"
+msgstr "טעלעוויזיע סעריע געשיכטע"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "צייט פֿאַר זוכן ריקוועס (סעקונדן)"
+
+msgid "Title"
+msgstr "טיטל"
+
+msgid "Type: %s"
+msgstr "טיפּ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN גרופּעס | לינקס / רעכט קאַרדס | גוט עפענען"
+
+msgid "Unable to get stream for this episode"
+msgstr "ניט געקענט באַקומען סטרימינג פֿאַר דעם עפּיזאָד"
+
+msgid "Unable to get streaming URL"
+msgstr "ניט געקענט באַקומען סטרימינג URL"
+
+msgid "Unable to load content details"
+msgstr "ניט געקענט צו לאָדן אינהאַלט דעטאַילס"
+
+msgid "Unable to open details for this content"
+msgstr "ניט געקענט עפֿענען פּרטים פֿאַר דעם אינהאַלט"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "ניט געקענט צוריקקריגן אינפֿאָרמאַציע פון ​​TMDB."
+
+msgid "Unknown"
+msgstr "אומבאַקאַנט"
+
+msgid "Updated, %d groups unavailable"
+msgstr "דערהייַנטיקט, %d גרופּעס ניט בנימצא"
+
+msgid "Updating"
+msgstr "אַפּדייטינג"
+
+msgid "Updating cards %d/%d"
+msgstr "אַפּדייטינג קאַרדס %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[הויך דעפֿיניציע] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "טעות"
+
+msgid "loading"
+msgstr ""

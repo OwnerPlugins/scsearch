@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:40+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Turkmen\n"
+"Language: tk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "% d atlar"
+
+msgid "%s %s"
+msgstr "% s% s"
+
+msgid "--- MOVIES ---"
+msgstr "--- Kinolar ---"
+
+msgid "--- New search ---"
+msgstr "--- Täze gözleg ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- Telewizor hyzmatlary ---"
+
+msgid "0 titles"
+msgstr "0 at"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Bölümler <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Möwsümler <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "“Altadefinizione” oýnamak ýalňyşlygy:% s"
+
+msgid "Available links:"
+msgstr ""
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr ""
+
+msgid "CANCEL"
+msgstr "ANCATY .."
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 oýnamak ýalňyşlygy:% s"
+
+msgid "CONFIRM"
+msgstr "KONFIRM"
+
+msgid "CONTENTS"
+msgstr "Mazmuny"
+
+msgid "Card error"
+msgstr "Kart ýalňyşlygy"
+
+msgid "Cards updated"
+msgstr "Kartlar täzelendi"
+
+msgid "Code:"
+msgstr ""
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione-dan mazmun - açmak üçin OK basyň ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01-den mazmun - açmak üçin OK basyň ..."
+
+msgid "Description not available."
+msgstr "Düşündiriş ýok"
+
+msgid "Details for: '%s'"
+msgstr "Jikme-jiklikler: '% s'"
+
+msgid "Details not available"
+msgstr ""
+
+msgid "EXIT"
+msgstr ""
+
+msgid "Enable debug"
+msgstr ""
+
+msgid "Enable debug output in logs"
+msgstr "Surnallarda düzediş çykyşyny işjeňleşdiriň"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha koduny giriziň"
+
+msgid "Episode %d"
+msgstr ""
+
+msgid "Episode %d: %s"
+msgstr ""
+
+msgid "Episodes"
+msgstr "Bölümler"
+
+msgid "Episodes:"
+msgstr ""
+
+msgid "Error loading CB01 series"
+msgstr "CB01 seriýasyny ýüklemekde säwlik"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV seriýasyny ýüklemekde säwlik"
+
+msgid "Error loading TMDB"
+msgstr ""
+
+msgid "Error loading details"
+msgstr "Jikme-jiklikleri ýüklemekde säwlik"
+
+msgid "Error playing episode: %s"
+msgstr "Bölüm oýnamakda säwlik:% s"
+
+msgid "Error updating UI"
+msgstr "UI täzelenmekde säwlik"
+
+msgid "Exit"
+msgstr ""
+
+msgid "GROUPS"
+msgstr ""
+
+msgid "History"
+msgstr "Taryh"
+
+msgid "Invalid streaming URL"
+msgstr ""
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr ""
+
+msgid "Load error"
+msgstr ""
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB-den jikme-jiklikleri ýüklemek ..."
+
+msgid "Loading details..."
+msgstr ""
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Max results"
+msgstr "Iň ýokary netijeler"
+
+msgid "Maximum number of results to display"
+msgstr ""
+
+msgid "Movie History"
+msgstr "Kino taryhy"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Täze gözleg ..."
+
+msgid "No Altadefinizione episode found"
+msgstr ""
+
+msgid "No CB01 episode found"
+msgstr ""
+
+msgid "No content"
+msgstr "Mazmuny ýok"
+
+msgid "No content selected"
+msgstr ""
+
+msgid "No episodes available"
+msgstr "Bölüm ýok"
+
+msgid "No previous searches found"
+msgstr ""
+
+msgid "No relevant results found."
+msgstr ""
+
+msgid "No results found on SC."
+msgstr ""
+
+msgid "No streaming links found"
+msgstr "Akym baglanyşyklary tapylmady"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr ""
+
+msgid "PLAY"
+msgstr "Oýun"
+
+msgid "Playback error: %s"
+msgstr "Aýtdyrmak säwligi:% s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Gözlemek üçin REaşyl (Kino) ýa-da YELLOW (Teleserial) basyň ..."
+
+msgid "Press OK"
+msgstr "OK basyň"
+
+msgid "Press OK to view full details..."
+msgstr ""
+
+msgid "REFRESH"
+msgstr ""
+
+msgid "Refresh"
+msgstr "Täzele"
+
+msgid "Retry"
+msgstr ""
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "Gözleg"
+
+msgid "Search History"
+msgstr ""
+
+msgid "Search Movie"
+msgstr "Kino gözläň"
+
+msgid "Search TV Series"
+msgstr "Teleseriallary gözläň"
+
+msgid "Search timeout"
+msgstr "Gözleg wagty gutar"
+
+msgid "Searching for: '%s'"
+msgstr "Gözleýär: '% s'"
+
+msgid "Searching..."
+msgstr "Gözleg ..."
+
+msgid "Season %d"
+msgstr "Möwsüm% d"
+
+msgid "Season %d (%d episodes)"
+msgstr ""
+
+msgid "Seasons"
+msgstr "Möwsümler"
+
+msgid "Seasons:"
+msgstr ""
+
+msgid "Series URL not found"
+msgstr ""
+
+msgid "Series URL not found."
+msgstr ""
+
+msgid "TMDB API key not found"
+msgstr ""
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API açary tapylmady ýa-da nädogry!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID tapylmady"
+
+msgid "TV Series History"
+msgstr ""
+
+msgid "Timeout for search requests (seconds)"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Type: %s"
+msgstr ""
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr ""
+
+msgid "Unable to get stream for this episode"
+msgstr "Bu bölüm üçin akym alyp bolmaýar"
+
+msgid "Unable to get streaming URL"
+msgstr ""
+
+msgid "Unable to load content details"
+msgstr "Mazmun jikme-jikliklerini ýükläp bolmaýar"
+
+msgid "Unable to open details for this content"
+msgstr ""
+
+msgid "Unable to retrieve information from TMDB."
+msgstr ""
+
+msgid "Unknown"
+msgstr "Näbelli"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Täzelendi,% d toparlary elýeterli däl"
+
+msgid "Updating"
+msgstr ""
+
+msgid "Updating cards %d/%d"
+msgstr "Kartalary täzelemek% d /% d"
+
+msgid "[Altadefinizione] %s"
+msgstr ""
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "ýalňyşlyk"
+
+msgid "loading"
+msgstr "ýüklemek"

@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:12+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d titles"
+msgstr "%d τίτλοι"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ΤΑΙΝΙΕΣ ---"
+
+msgid "--- New search ---"
+msgstr "--- Νέα αναζήτηση ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- Τηλεοπτική Σειρά ---"
+
+msgid "0 titles"
+msgstr "0 τίτλοι"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Επεισόδια <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Εποχές <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Σφάλμα αναπαραγωγής Altadefinizone: %s"
+
+msgid "Available links:"
+msgstr "Διαθέσιμοι σύνδεσμοι:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Περιηγηθείτε σε ομάδες και κάρτες με οριζόντια κύλιση"
+
+msgid "CANCEL"
+msgstr "ΜΑΤΑΙΩΣΗ"
+
+msgid "CB01 playback error: %s"
+msgstr "Σφάλμα αναπαραγωγής CB01: %s"
+
+msgid "CONFIRM"
+msgstr "ΕΠΙΒΕΒΑΙΩΝΩ"
+
+msgid "CONTENTS"
+msgstr "ΠΕΡΙΕΧΟΜΕΝΑ"
+
+msgid "Card error"
+msgstr "Σφάλμα κάρτας"
+
+msgid "Cards updated"
+msgstr "Οι κάρτες ενημερώθηκαν"
+
+msgid "Code:"
+msgstr "Κώδικας:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Κωδικός: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Περιεχόμενο από το Altadefinizone - Πατήστε OK για να ανοίξετε..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Περιεχόμενο από CB01 - Πατήστε OK για να ανοίξετε..."
+
+msgid "Description not available."
+msgstr "Η περιγραφή δεν είναι διαθέσιμη."
+
+msgid "Details for: '%s'"
+msgstr "Λεπτομέρειες για: '%s'"
+
+msgid "Details not available"
+msgstr "Λεπτομέρειες δεν είναι διαθέσιμες"
+
+msgid "EXIT"
+msgstr "ΕΞΟΔΟΣ"
+
+msgid "Enable debug"
+msgstr "Ενεργοποίηση εντοπισμού σφαλμάτων"
+
+msgid "Enable debug output in logs"
+msgstr "Ενεργοποίηση εξόδου εντοπισμού σφαλμάτων στα αρχεία καταγραφής"
+
+msgid "Enter Captcha Code"
+msgstr "Εισαγάγετε τον κωδικό Captcha"
+
+msgid "Episode %d"
+msgstr "Επεισόδιο %d"
+
+msgid "Episode %d: %s"
+msgstr "Επεισόδιο %d: %s"
+
+msgid "Episodes"
+msgstr "Επεισόδια"
+
+msgid "Episodes:"
+msgstr "Επεισόδια:"
+
+msgid "Error loading CB01 series"
+msgstr "Σφάλμα κατά τη φόρτωση της σειράς CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Σφάλμα κατά τη φόρτωση της σειράς OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Σφάλμα κατά τη φόρτωση του TMDB"
+
+msgid "Error loading details"
+msgstr "Σφάλμα φόρτωσης λεπτομερειών"
+
+msgid "Error playing episode: %s"
+msgstr "Σφάλμα κατά την αναπαραγωγή επεισοδίου: %s"
+
+msgid "Error updating UI"
+msgstr "Σφάλμα ενημέρωσης διεπαφής χρήστη"
+
+msgid "Exit"
+msgstr "Εξοδος"
+
+msgid "GROUPS"
+msgstr "ΟΜΑΔΕΣ"
+
+msgid "History"
+msgstr "Ιστορία"
+
+msgid "Invalid streaming URL"
+msgstr "Μη έγκυρη διεύθυνση URL ροής"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ πλοήγηση | ΟΚ ανοιχτό | ΠΑΝΩ πίσω στις ομάδες"
+
+msgid "Load error"
+msgstr "Σφάλμα φόρτωσης"
+
+msgid "Loading details from TMDB..."
+msgstr "Φόρτωση λεπτομερειών από το TMDB..."
+
+msgid "Loading details..."
+msgstr "Φόρτωση λεπτομερειών..."
+
+msgid "Loading..."
+msgstr "Φόρτωση..."
+
+msgid "Max results"
+msgstr "Μέγιστα αποτελέσματα"
+
+msgid "Maximum number of results to display"
+msgstr "Μέγιστος αριθμός αποτελεσμάτων προς εμφάνιση"
+
+msgid "Movie History"
+msgstr "Ιστορία ταινίας"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Νέα αναζήτηση..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Δεν βρέθηκε επεισόδιο Altadefinizione"
+
+msgid "No CB01 episode found"
+msgstr "Δεν βρέθηκε επεισόδιο CB01"
+
+msgid "No content"
+msgstr "Χωρίς περιεχόμενο"
+
+msgid "No content selected"
+msgstr "Δεν έχει επιλεγεί περιεχόμενο"
+
+msgid "No episodes available"
+msgstr "Δεν υπάρχουν διαθέσιμα επεισόδια"
+
+msgid "No previous searches found"
+msgstr "Δεν βρέθηκαν προηγούμενες αναζητήσεις"
+
+msgid "No relevant results found."
+msgstr "Δεν βρέθηκαν σχετικά αποτελέσματα."
+
+msgid "No results found on SC."
+msgstr "Δεν βρέθηκαν αποτελέσματα στο SC."
+
+msgid "No streaming links found"
+msgstr "Δεν βρέθηκαν σύνδεσμοι ροής"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Τηλεοπτικές σειρές"
+
+msgid "PLAY"
+msgstr "ΠΑΙΧΝΙΔΙ"
+
+msgid "Playback error: %s"
+msgstr "Σφάλμα αναπαραγωγής: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Πατήστε ΠΡΑΣΙΝΟ (Ταινία) ή ΚΙΤΡΙΝΟ (τηλεοπτική σειρά) για αναζήτηση..."
+
+msgid "Press OK"
+msgstr "Πατήστε OK"
+
+msgid "Press OK to view full details..."
+msgstr "Πατήστε OK για να δείτε τις πλήρεις λεπτομέρειες..."
+
+msgid "REFRESH"
+msgstr "ΦΡΕΣΚΑΡΩ"
+
+msgid "Refresh"
+msgstr "Φρεσκάρω"
+
+msgid "Retry"
+msgstr "Δοκιμάζω πάλι"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ΕΡΕΥΝΑ"
+
+msgid "Search History"
+msgstr "Ιστορικό αναζήτησης"
+
+msgid "Search Movie"
+msgstr "Αναζήτηση ταινίας"
+
+msgid "Search TV Series"
+msgstr "Αναζήτηση τηλεοπτικών σειρών"
+
+msgid "Search timeout"
+msgstr "Λήξη χρονικού ορίου αναζήτησης"
+
+msgid "Searching for: '%s'"
+msgstr "Αναζήτηση για: '%s'"
+
+msgid "Searching..."
+msgstr "Ερευνητικός..."
+
+msgid "Season %d"
+msgstr "Σεζόν %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Σεζόν %d (%d επεισόδια)"
+
+msgid "Seasons"
+msgstr "εποχές"
+
+msgid "Seasons:"
+msgstr "Εποχές:"
+
+msgid "Series URL not found"
+msgstr "Το URL σειράς δεν βρέθηκε"
+
+msgid "Series URL not found."
+msgstr "Το URL σειράς δεν βρέθηκε."
+
+msgid "TMDB API key not found"
+msgstr "Το κλειδί API TMDB δεν βρέθηκε"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Το κλειδί API TMDB δεν βρέθηκε ή δεν είναι έγκυρο!"
+
+msgid "TMDB ID not found"
+msgstr "Το αναγνωριστικό TMDB δεν βρέθηκε"
+
+msgid "TV Series History"
+msgstr "Ιστορία τηλεοπτικών σειρών"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Χρονικό όριο για αιτήματα αναζήτησης (δευτερόλεπτα)"
+
+msgid "Title"
+msgstr "Τίτλος"
+
+msgid "Type: %s"
+msgstr "Τύπος: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ΕΠΑΝΩ/ΚΑΤΩ ομάδες | ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ κάρτες | ΟΚ άνοιξε"
+
+msgid "Unable to get stream for this episode"
+msgstr "Δεν είναι δυνατή η λήψη ροής για αυτό το επεισόδιο"
+
+msgid "Unable to get streaming URL"
+msgstr "Δεν είναι δυνατή η λήψη URL ροής"
+
+msgid "Unable to load content details"
+msgstr "Δεν είναι δυνατή η φόρτωση των λεπτομερειών περιεχομένου"
+
+msgid "Unable to open details for this content"
+msgstr "Δεν είναι δυνατό το άνοιγμα λεπτομερειών για αυτό το περιεχόμενο"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Δεν είναι δυνατή η ανάκτηση πληροφοριών από το TMDB."
+
+msgid "Unknown"
+msgstr "Αγνωστος"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Ενημερώθηκε, %d ομάδες δεν είναι διαθέσιμες"
+
+msgid "Updating"
+msgstr "Ενημέρωση"
+
+msgid "Updating cards %d/%d"
+msgstr "Ενημέρωση καρτών %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Υψηλή ευκρίνεια] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "σφάλμα"
+
+msgid "loading"
+msgstr "φόρτωση"

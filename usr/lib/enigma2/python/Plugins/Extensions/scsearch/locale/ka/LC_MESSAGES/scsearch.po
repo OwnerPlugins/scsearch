@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:45+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d სათაური"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ფილმები ---"
+
+msgid "--- New search ---"
+msgstr "--- ახალი ძებნა ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- სერიალი ---"
+
+msgid "0 titles"
+msgstr "0 სათაური"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> ეპიზოდები <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> სეზონები <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizone დაკვრის შეცდომა: %s"
+
+msgid "Available links:"
+msgstr "ხელმისაწვდომი ბმულები:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "დაათვალიერეთ ჯგუფები და ბარათები ჰორიზონტალური გადახვევით"
+
+msgid "CANCEL"
+msgstr "გაუქმება"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 დაკვრის შეცდომა: %s"
+
+msgid "CONFIRM"
+msgstr "დაადასტურეთ"
+
+msgid "CONTENTS"
+msgstr "სარჩევი"
+
+msgid "Card error"
+msgstr "ბარათის შეცდომა"
+
+msgid "Cards updated"
+msgstr "ბარათები განახლებულია"
+
+msgid "Code:"
+msgstr "კოდი:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "კოდი: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "კონტენტი Altadefinizone-დან - დააჭირეთ OK გასახსნელად..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "კონტენტი CB01-დან - დააჭირეთ OK გასახსნელად..."
+
+msgid "Description not available."
+msgstr "აღწერა მიუწვდომელია."
+
+msgid "Details for: '%s'"
+msgstr "დეტალები: '%s'"
+
+msgid "Details not available"
+msgstr "დეტალები მიუწვდომელია"
+
+msgid "EXIT"
+msgstr ""
+
+msgid "Enable debug"
+msgstr "გამართვის ჩართვა"
+
+msgid "Enable debug output in logs"
+msgstr "ჩართეთ გამართვის გამომავალი ჟურნალებში"
+
+msgid "Enter Captcha Code"
+msgstr "შეიყვანეთ Captcha კოდი"
+
+msgid "Episode %d"
+msgstr "ეპიზოდი %d"
+
+msgid "Episode %d: %s"
+msgstr "ეპიზოდი %d: %s"
+
+msgid "Episodes"
+msgstr "ეპიზოდები"
+
+msgid "Episodes:"
+msgstr "ეპიზოდები:"
+
+msgid "Error loading CB01 series"
+msgstr "შეცდომა CB01 სერიის ჩატვირთვისას"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "შეცდომა OnlineSerieTV სერიების ჩატვირთვისას"
+
+msgid "Error loading TMDB"
+msgstr "შეცდომა TMDB ჩატვირთვისას"
+
+msgid "Error loading details"
+msgstr "შეცდომა დეტალების ჩატვირთვისას"
+
+msgid "Error playing episode: %s"
+msgstr "შეცდომა ეპიზოდის დაკვრისას: %s"
+
+msgid "Error updating UI"
+msgstr "შეცდომა ინტერფეისის განახლებისას"
+
+msgid "Exit"
+msgstr "გასვლა"
+
+msgid "GROUPS"
+msgstr "ჯგუფები"
+
+msgid "History"
+msgstr "ისტორია"
+
+msgid "Invalid streaming URL"
+msgstr "არასწორი სტრიმინგის URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "მარცხნივ/მარჯვნივ ნავიგაცია | OK გახსნა | UP დაუბრუნდით ჯგუფებს"
+
+msgid "Load error"
+msgstr "ჩატვირთვის შეცდომა"
+
+msgid "Loading details from TMDB..."
+msgstr "დეტალების ჩატვირთვა TMDB-დან..."
+
+msgid "Loading details..."
+msgstr "დეტალების ჩატვირთვა..."
+
+msgid "Loading..."
+msgstr "იტვირთება..."
+
+msgid "Max results"
+msgstr "მაქსიმალური შედეგები"
+
+msgid "Maximum number of results to display"
+msgstr "საჩვენებელი შედეგების მაქსიმალური რაოდენობა"
+
+msgid "Movie History"
+msgstr "ფილმის ისტორია"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "ახალი ძებნა..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizone ეპიზოდი ვერ მოიძებნა"
+
+msgid "No CB01 episode found"
+msgstr "CB01 ეპიზოდი ვერ მოიძებნა"
+
+msgid "No content"
+msgstr "არანაირი შინაარსი"
+
+msgid "No content selected"
+msgstr "კონტენტი არ არის არჩეული"
+
+msgid "No episodes available"
+msgstr "ეპიზოდები არ არის ხელმისაწვდომი"
+
+msgid "No previous searches found"
+msgstr "წინა ძიება ვერ მოიძებნა"
+
+msgid "No relevant results found."
+msgstr "შესაბამისი შედეგები ვერ მოიძებნა."
+
+msgid "No results found on SC."
+msgstr "SC-ზე შედეგი ვერ მოიძებნა."
+
+msgid "No streaming links found"
+msgstr "ნაკადის ბმულები ვერ მოიძებნა"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - სერიალი"
+
+msgid "PLAY"
+msgstr "ითამაშე"
+
+msgid "Playback error: %s"
+msgstr "დაკვრის შეცდომა: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "დააჭირეთ მწვანეს (ფილმი) ან ყვითელს (ტელესერიები) მოსაძებნად..."
+
+msgid "Press OK"
+msgstr "დააჭირეთ OK"
+
+msgid "Press OK to view full details..."
+msgstr "დააჭირეთ OK-ს სრული დეტალების სანახავად..."
+
+msgid "REFRESH"
+msgstr "განაახლეთ"
+
+msgid "Refresh"
+msgstr "განაახლეთ"
+
+msgid "Retry"
+msgstr "ხელახლა სცადეთ"
+
+msgid "SC"
+msgstr "სკ"
+
+msgid "SEARCH"
+msgstr "ძიება"
+
+msgid "Search History"
+msgstr "ძიების ისტორია"
+
+msgid "Search Movie"
+msgstr "ფილმის ძიება"
+
+msgid "Search TV Series"
+msgstr "მოძებნეთ სერიალები"
+
+msgid "Search timeout"
+msgstr "ძიების დრო ამოიწურა"
+
+msgid "Searching for: '%s'"
+msgstr "ვეძებთ: '%s'"
+
+msgid "Searching..."
+msgstr "ძიება..."
+
+msgid "Season %d"
+msgstr "სეზონი %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "სეზონი %d (%d ეპიზოდი)"
+
+msgid "Seasons"
+msgstr "სეზონები"
+
+msgid "Seasons:"
+msgstr "სეზონები:"
+
+msgid "Series URL not found"
+msgstr "სერიის URL ვერ მოიძებნა"
+
+msgid "Series URL not found."
+msgstr "სერიის URL ვერ მოიძებნა."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API გასაღები ვერ მოიძებნა"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API გასაღები ვერ მოიძებნა ან არასწორია!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID ვერ მოიძებნა"
+
+msgid "TV Series History"
+msgstr "სერიალის ისტორია"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "ძიების მოთხოვნების ვადა (წამი)"
+
+msgid "Title"
+msgstr "სათაური"
+
+msgid "Type: %s"
+msgstr "ტიპი: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN ჯგუფები | LEFT/RIGHT ბარათები | OK გახსნა"
+
+msgid "Unable to get stream for this episode"
+msgstr "ამ ეპიზოდისთვის სტრიმინგის მიღება შეუძლებელია"
+
+msgid "Unable to get streaming URL"
+msgstr "ნაკადის URL-ის მიღება შეუძლებელია"
+
+msgid "Unable to load content details"
+msgstr "კონტენტის დეტალების ჩატვირთვა შეუძლებელია"
+
+msgid "Unable to open details for this content"
+msgstr "ამ კონტენტის დეტალების გახსნა შეუძლებელია"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB-დან ინფორმაციის მოძიება შეუძლებელია."
+
+msgid "Unknown"
+msgstr "უცნობი"
+
+msgid "Updated, %d groups unavailable"
+msgstr "განახლებულია, %d ჯგუფი მიუწვდომელია"
+
+msgid "Updating"
+msgstr "განახლება"
+
+msgid "Updating cards %d/%d"
+msgstr "მიმდინარეობს %d/%d ბარათების განახლება"
+
+msgid "[Altadefinizione] %s"
+msgstr "[მაღალი გარჩევადობა] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "შეცდომა"
+
+msgid "loading"
+msgstr "ჩატვირთვა"

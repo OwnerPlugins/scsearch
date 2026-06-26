@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:52+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Uzbek\n"
+"Language: uz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d ta nom"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMLAR ---"
+
+msgid "--- New search ---"
+msgstr "--- Yangi qidiruv ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV SERIALLAR ---"
+
+msgid "0 titles"
+msgstr "0 nom"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Qismlar <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Fasllar <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione ijro etish xatosi: %s"
+
+msgid "Available links:"
+msgstr "Mavjud havolalar:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Gorizontal aylantirish bilan guruhlar va kartalarni ko'rib chiqing"
+
+msgid "CANCEL"
+msgstr "BEKOR"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 ijro etish xatosi: %s"
+
+msgid "CONFIRM"
+msgstr "TASDIQLASH"
+
+msgid "CONTENTS"
+msgstr "MAZMUNI"
+
+msgid "Card error"
+msgstr "Karta xatosi"
+
+msgid "Cards updated"
+msgstr "Kartalar yangilandi"
+
+msgid "Code:"
+msgstr "Kod:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione tarkibi - Ochish uchun OK tugmasini bosing..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 tarkibi - Ochish uchun OK tugmasini bosing..."
+
+msgid "Description not available."
+msgstr "Tavsif mavjud emas."
+
+msgid "Details for: '%s'"
+msgstr "Tafsilotlar: '%s'"
+
+msgid "Details not available"
+msgstr "Tafsilotlar mavjud emas"
+
+msgid "EXIT"
+msgstr "CHIKISh"
+
+msgid "Enable debug"
+msgstr "Nosozliklarni tuzatishni yoqish"
+
+msgid "Enable debug output in logs"
+msgstr "Jurnallarda disk raskadrovka chiqishini yoqish"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha kodini kiriting"
+
+msgid "Episode %d"
+msgstr "Epizod %d"
+
+msgid "Episode %d: %s"
+msgstr "%d-qism: %s"
+
+msgid "Episodes"
+msgstr "Epizodlar"
+
+msgid "Episodes:"
+msgstr "Epizodlar:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 seriyasini yuklashda xatolik yuz berdi"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV seriyasini yuklashda xatolik yuz berdi"
+
+msgid "Error loading TMDB"
+msgstr "TMDB yuklashda xatolik yuz berdi"
+
+msgid "Error loading details"
+msgstr "Tafsilotlarni yuklashda xatolik yuz berdi"
+
+msgid "Error playing episode: %s"
+msgstr "Epizodni ijro etishda xatolik yuz berdi: %s"
+
+msgid "Error updating UI"
+msgstr "UI yangilanmadi"
+
+msgid "Exit"
+msgstr "Chiqish"
+
+msgid "GROUPS"
+msgstr "GURUHLAR"
+
+msgid "History"
+msgstr "Tarix"
+
+msgid "Invalid streaming URL"
+msgstr "Yaroqsiz oqim URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "Chap/O'ngga navigatsiya | OK ochiq | Guruhlarga qaytish"
+
+msgid "Load error"
+msgstr "Yuklash xatosi"
+
+msgid "Loading details from TMDB..."
+msgstr "Tafsilotlar TMDB dan yuklanmoqda..."
+
+msgid "Loading details..."
+msgstr "Tafsilotlar yuklanmoqda..."
+
+msgid "Loading..."
+msgstr "Yuklanmoqda..."
+
+msgid "Max results"
+msgstr "Maksimal natijalar"
+
+msgid "Maximum number of results to display"
+msgstr "Natijalarning maksimal soni"
+
+msgid "Movie History"
+msgstr "Kino tarixi"
+
+msgid "N/A"
+msgstr "Yoʻq"
+
+msgid "New search..."
+msgstr "Yangi qidiruv..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Hech qanday Altadefinizione epizodi topilmadi"
+
+msgid "No CB01 episode found"
+msgstr "Hech qanday CB01 epizod topilmadi"
+
+msgid "No content"
+msgstr "Kontent yo'q"
+
+msgid "No content selected"
+msgstr "Hech qanday kontent tanlanmagan"
+
+msgid "No episodes available"
+msgstr "Hech qanday epizod mavjud emas"
+
+msgid "No previous searches found"
+msgstr "Avvalgi qidiruvlar topilmadi"
+
+msgid "No relevant results found."
+msgstr "Tegishli natijalar topilmadi."
+
+msgid "No results found on SC."
+msgstr "SCda hech qanday natija topilmadi."
+
+msgid "No streaming links found"
+msgstr "Oqimli havolalar topilmadi"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Seriallar"
+
+msgid "PLAY"
+msgstr "O‘YNA"
+
+msgid "Playback error: %s"
+msgstr "Ijro xatosi: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Qidirish uchun YASIL (Film) yoki SARI (TV seriyasi) tugmasini bosing..."
+
+msgid "Press OK"
+msgstr "OK tugmasini bosing"
+
+msgid "Press OK to view full details..."
+msgstr "Toʻliq maʼlumotlarni koʻrish uchun OK tugmasini bosing..."
+
+msgid "REFRESH"
+msgstr "YANGILASH"
+
+msgid "Refresh"
+msgstr "Yangilash"
+
+msgid "Retry"
+msgstr "Qayta urinish"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "QIDIRISH"
+
+msgid "Search History"
+msgstr "Qidiruv tarixi"
+
+msgid "Search Movie"
+msgstr "Kino qidirish"
+
+msgid "Search TV Series"
+msgstr "Seriallarni qidirish"
+
+msgid "Search timeout"
+msgstr "Qidiruv vaqti tugaydi"
+
+msgid "Searching for: '%s'"
+msgstr "Qidirilmoqda: '%s'"
+
+msgid "Searching..."
+msgstr "Qidirilmoqda..."
+
+msgid "Season %d"
+msgstr "%d fasl"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d fasl (%d ta qism)"
+
+msgid "Seasons"
+msgstr "Fasllar"
+
+msgid "Seasons:"
+msgstr "Fasllar:"
+
+msgid "Series URL not found"
+msgstr "Seriya URL manzili topilmadi"
+
+msgid "Series URL not found."
+msgstr "Seriya URL manzili topilmadi."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API kaliti topilmadi"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API kaliti topilmadi yoki yaroqsiz!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID topilmadi"
+
+msgid "TV Series History"
+msgstr "Seriallar tarixi"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Qidiruv soʻrovlari uchun vaqt tugashi (soniya)"
+
+msgid "Title"
+msgstr "Sarlavha"
+
+msgid "Type: %s"
+msgstr "Turi: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "YUQARIDA/PASTGA guruhlar | LEFT/RIGHT kartalari | OK ochiq"
+
+msgid "Unable to get stream for this episode"
+msgstr "Bu qism uchun translatsiyani olib bo‘lmadi"
+
+msgid "Unable to get streaming URL"
+msgstr "Oqim URL manzilini olib bo‘lmadi"
+
+msgid "Unable to load content details"
+msgstr "Kontent tafsilotlarini yuklab bo‘lmadi"
+
+msgid "Unable to open details for this content"
+msgstr "Bu kontent tafsilotlarini ochib bo‘lmadi"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB dan ma'lumot olib bo'lmadi."
+
+msgid "Unknown"
+msgstr "Noma'lum"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Yangilangan, %d ta guruh mavjud emas"
+
+msgid "Updating"
+msgstr "Yangilanmoqda"
+
+msgid "Updating cards %d/%d"
+msgstr "Kartalar yangilanmoqda %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Yuqori aniqlik] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "xato"
+
+msgid "loading"
+msgstr "yuklash"

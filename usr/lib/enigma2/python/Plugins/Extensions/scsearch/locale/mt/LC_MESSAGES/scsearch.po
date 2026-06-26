@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:05+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Maltese <translation-team-mt@lists.sourceforge.net>\n"
+"Language: mt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d titoli"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILM ---"
+
+msgid "--- New search ---"
+msgstr "--- Tiftix ġdid ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- SERJE TAT-TV ---"
+
+msgid "0 titles"
+msgstr "0 titoli"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Episodji <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Staġuni <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Żball ta' daqq ta' definizzjoni għolja: %s"
+
+msgid "Available links:"
+msgstr "Links disponibbli:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Fittex gruppi u karti bi scrolling orizzontali"
+
+msgid "CANCEL"
+msgstr "IKANNELLA"
+
+msgid "CB01 playback error: %s"
+msgstr "Żball fil-plejbek CB01: %s"
+
+msgid "CONFIRM"
+msgstr "IKKONFERMA"
+
+msgid "CONTENTS"
+msgstr "KONTENUT"
+
+msgid "Card error"
+msgstr "Żball tal-karta"
+
+msgid "Cards updated"
+msgstr "Karti aġġornati"
+
+msgid "Code:"
+msgstr "Kodiċi:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kodiċi: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Kontenut minn Altadefinizione - Agħfas OK biex tiftaħ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Kontenut minn CB01 - Agħfas OK biex tiftaħ..."
+
+msgid "Description not available."
+msgstr "Deskrizzjoni mhux disponibbli."
+
+msgid "Details for: '%s'"
+msgstr "Dettalji għal: '%s'"
+
+msgid "Details not available"
+msgstr "Dettalji mhux disponibbli"
+
+msgid "EXIT"
+msgstr "ĦRUĠ"
+
+msgid "Enable debug"
+msgstr "Ippermetti d-debug"
+
+msgid "Enable debug output in logs"
+msgstr "Ippermetti l-output tad-debug fir-zkuk"
+
+msgid "Enter Captcha Code"
+msgstr "Daħħal il-Kodiċi Captcha"
+
+msgid "Episode %d"
+msgstr "Episodju %d"
+
+msgid "Episode %d: %s"
+msgstr "Episodju %d: %s"
+
+msgid "Episodes"
+msgstr "Episodji"
+
+msgid "Episodes:"
+msgstr "Episodji:"
+
+msgid "Error loading CB01 series"
+msgstr "Żball fit-tagħbija tas-serje CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Żball fit-tagħbija tas-serje OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Żball fit-tagħbija ta' TMDB"
+
+msgid "Error loading details"
+msgstr "Żball fit-tagħbija tad-dettalji"
+
+msgid "Error playing episode: %s"
+msgstr "Żball fil-logħob tal-episodju: %s"
+
+msgid "Error updating UI"
+msgstr "Żball fl-aġġornament tal-UI"
+
+msgid "Exit"
+msgstr "Ħruġ"
+
+msgid "GROUPS"
+msgstr "GRUPPI"
+
+msgid "History"
+msgstr "Storja"
+
+msgid "Invalid streaming URL"
+msgstr "URL tal-istreaming invalidu"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "innaviga Xellug/Lejn | OK miftuħa | UP lura għall-gruppi"
+
+msgid "Load error"
+msgstr "Żball tat-tagħbija"
+
+msgid "Loading details from TMDB..."
+msgstr "Tagħbija d-dettalji minn TMDB..."
+
+msgid "Loading details..."
+msgstr "Tagħbija d-dettalji..."
+
+msgid "Loading..."
+msgstr "Tagħbija..."
+
+msgid "Max results"
+msgstr "Max riżultati"
+
+msgid "Maximum number of results to display"
+msgstr "Numru massimu ta' riżultati biex jintwerew"
+
+msgid "Movie History"
+msgstr "Storja tal-films"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Tfittxija ġdida..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Ma nstab l-ebda episodju ta' Altadefinizione"
+
+msgid "No CB01 episode found"
+msgstr "Ma nstab l-ebda episodju CB01"
+
+msgid "No content"
+msgstr "Ebda kontenut"
+
+msgid "No content selected"
+msgstr "Ebda kontenut magħżul"
+
+msgid "No episodes available"
+msgstr "Ebda episodji disponibbli"
+
+msgid "No previous searches found"
+msgstr "Ma nstabet l-ebda tfittxija preċedenti"
+
+msgid "No relevant results found."
+msgstr "Ma nstab l-ebda riżultat rilevanti."
+
+msgid "No results found on SC."
+msgstr "L-ebda riżultat ma nstab fuq SC."
+
+msgid "No streaming links found"
+msgstr "Ma nstab l-ebda link ta' streaming"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Serje tat-TV"
+
+msgid "PLAY"
+msgstr ""
+
+msgid "Playback error: %s"
+msgstr "Żball fil-qari: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Agħfas GREEN (Film) jew ISFAR (Serje tat-TV) biex tfittex..."
+
+msgid "Press OK"
+msgstr "Agħfas OK"
+
+msgid "Press OK to view full details..."
+msgstr "Agħfas OK biex tara d-dettalji sħaħ..."
+
+msgid "REFRESH"
+msgstr "AFFIKAR"
+
+msgid "Refresh"
+msgstr "Aġġorna"
+
+msgid "Retry"
+msgstr "Erġa' pprova"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "FITTEX"
+
+msgid "Search History"
+msgstr "Fittex Storja"
+
+msgid "Search Movie"
+msgstr "Fittex Film"
+
+msgid "Search TV Series"
+msgstr "Fittex Serje tat-TV"
+
+msgid "Search timeout"
+msgstr "Fittex timeout"
+
+msgid "Searching for: '%s'"
+msgstr "Tiftix għal: '%s'"
+
+msgid "Searching..."
+msgstr "Qed tfittex..."
+
+msgid "Season %d"
+msgstr "Staġun %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Staġun %d (%d episodji)"
+
+msgid "Seasons"
+msgstr "Staġuni"
+
+msgid "Seasons:"
+msgstr "Staġuni:"
+
+msgid "Series URL not found"
+msgstr "URL tas-serje ma nstabx"
+
+msgid "Series URL not found."
+msgstr "URL tas-serje ma nstabx."
+
+msgid "TMDB API key not found"
+msgstr "Ċavetta API TMDB ma nstabitx"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Ċavetta TMDB API ma nstabitx jew invalida!"
+
+msgid "TMDB ID not found"
+msgstr "ID TMDB ma nstabx"
+
+msgid "TV Series History"
+msgstr "Storja tas-Serje tat-TV"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout għal talbiet ta' tfittxija (sekondi)"
+
+msgid "Title"
+msgstr "Titolu"
+
+msgid "Type: %s"
+msgstr "Tip: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa"
+
+msgid "Unable to get stream for this episode"
+msgstr "Ma tistax tikseb stream għal dan l-episodju"
+
+msgid "Unable to get streaming URL"
+msgstr "Ma tistax tikseb URL streaming"
+
+msgid "Unable to load content details"
+msgstr "Ma tistax tgħabbi d-dettalji tal-kontenut"
+
+msgid "Unable to open details for this content"
+msgstr "Ma tistax tiftaħ id-dettalji għal dan il-kontenut"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Ma tistax tirkupra informazzjoni minn TMDB."
+
+msgid "Unknown"
+msgstr "Mhux magħruf"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Aġġornata, %d gruppi mhux disponibbli"
+
+msgid "Updating"
+msgstr "Aġġornament"
+
+msgid "Updating cards %d/%d"
+msgstr "Naġġorna l-karti %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Definizzjoni Għolja] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "żball"
+
+msgid "loading"
+msgstr "tagħbija"

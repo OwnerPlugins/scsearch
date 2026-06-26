@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:36+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d titles"
+msgstr "%d cím"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMEK ---"
+
+msgid "--- New search ---"
+msgstr "--- Új keresés ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV SOROZAT ---"
+
+msgid "0 titles"
+msgstr "0 cím"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Epizódok <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Évszakok <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione lejátszási hiba: %s"
+
+msgid "Available links:"
+msgstr "Elérhető linkek:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Böngésszen csoportok és kártyák között vízszintes görgetéssel"
+
+msgid "CANCEL"
+msgstr "MÉGSEM"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 lejátszási hiba: %s"
+
+msgid "CONFIRM"
+msgstr "MEGERŐSÍTÉS"
+
+msgid "CONTENTS"
+msgstr "TARTALOM"
+
+msgid "Card error"
+msgstr "Kártya hiba"
+
+msgid "Cards updated"
+msgstr "A kártyák frissítve"
+
+msgid "Code:"
+msgstr "Kód:"
+
+msgid "Code: {self.captcha_code}"
+msgstr ""
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Tartalom az Altadefinizione-ból - Nyomja meg az OK gombot a megnyitáshoz..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Tartalom a CB01-ből – Nyissa meg az OK gombot..."
+
+msgid "Description not available."
+msgstr "Leírás nem áll rendelkezésre."
+
+msgid "Details for: '%s'"
+msgstr "Részletek: '%s'"
+
+msgid "Details not available"
+msgstr "Részletek nem állnak rendelkezésre"
+
+msgid "EXIT"
+msgstr "KIJÁRAT"
+
+msgid "Enable debug"
+msgstr "Hibakeresés engedélyezése"
+
+msgid "Enable debug output in logs"
+msgstr "Hibakeresési kimenet engedélyezése a naplókban"
+
+msgid "Enter Captcha Code"
+msgstr "Írja be a Captcha kódot"
+
+msgid "Episode %d"
+msgstr "%d. epizód"
+
+msgid "Episode %d: %s"
+msgstr "%d. epizód: %s"
+
+msgid "Episodes"
+msgstr "Epizódok"
+
+msgid "Episodes:"
+msgstr "Epizódok:"
+
+msgid "Error loading CB01 series"
+msgstr "Hiba a CB01 sorozat betöltésekor"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Hiba az OnlineSerieTV sorozat betöltésekor"
+
+msgid "Error loading TMDB"
+msgstr "Hiba a TMDB betöltésekor"
+
+msgid "Error loading details"
+msgstr "Hiba a részletek betöltésekor"
+
+msgid "Error playing episode: %s"
+msgstr "Hiba a következő epizód lejátszásakor: %s"
+
+msgid "Error updating UI"
+msgstr "Hiba a felhasználói felület frissítésekor"
+
+msgid "Exit"
+msgstr "Kijárat"
+
+msgid "GROUPS"
+msgstr "CSOPORTOK"
+
+msgid "History"
+msgstr "Történelem"
+
+msgid "Invalid streaming URL"
+msgstr "Érvénytelen adatfolyam URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "BALRA/JOBBRA navigálás | OK nyitva | FEL vissza a csoportokhoz"
+
+msgid "Load error"
+msgstr "Betöltési hiba"
+
+msgid "Loading details from TMDB..."
+msgstr "Részletek betöltése a TMDB-ből..."
+
+msgid "Loading details..."
+msgstr "Részletek betöltése..."
+
+msgid "Loading..."
+msgstr "Terhelés..."
+
+msgid "Max results"
+msgstr "Maximális eredmények"
+
+msgid "Maximum number of results to display"
+msgstr "A megjeleníthető eredmények maximális száma"
+
+msgid "Movie History"
+msgstr "Filmtörténet"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Új keresés..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Nem található Altadefinizione epizód"
+
+msgid "No CB01 episode found"
+msgstr "Nem található CB01 epizód"
+
+msgid "No content"
+msgstr "Nincs tartalom"
+
+msgid "No content selected"
+msgstr "Nincs kiválasztva tartalom"
+
+msgid "No episodes available"
+msgstr "Nincs elérhető epizód"
+
+msgid "No previous searches found"
+msgstr "Nem található korábbi keresés"
+
+msgid "No relevant results found."
+msgstr "Nem található releváns találat."
+
+msgid "No results found on SC."
+msgstr "Nincs találat az SC-n."
+
+msgid "No streaming links found"
+msgstr "Nem található streaming link"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - TV sorozat"
+
+msgid "PLAY"
+msgstr "JÁTÉK"
+
+msgid "Playback error: %s"
+msgstr "Lejátszási hiba: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Nyomja meg a ZÖLD (film) vagy a SÁRGA (TV-sorozat) gombot a kereséshez..."
+
+msgid "Press OK"
+msgstr "Nyomja meg az OK gombot"
+
+msgid "Press OK to view full details..."
+msgstr "Nyomja meg az OK gombot a részletek megtekintéséhez..."
+
+msgid "REFRESH"
+msgstr "FRISSÍTÉS"
+
+msgid "Refresh"
+msgstr "Frissítés"
+
+msgid "Retry"
+msgstr "Próbálja újra"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "KERESÉS"
+
+msgid "Search History"
+msgstr "Keresési előzmények"
+
+msgid "Search Movie"
+msgstr "Film keresése"
+
+msgid "Search TV Series"
+msgstr "TV-sorozat keresése"
+
+msgid "Search timeout"
+msgstr "Keresési időtúllépés"
+
+msgid "Searching for: '%s'"
+msgstr "Keresés: '%s'"
+
+msgid "Searching..."
+msgstr "Keresés..."
+
+msgid "Season %d"
+msgstr "%d. évad"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d. évad (%d epizód)"
+
+msgid "Seasons"
+msgstr "Évszakok"
+
+msgid "Seasons:"
+msgstr "Évszakok:"
+
+msgid "Series URL not found"
+msgstr "A sorozat URL-je nem található"
+
+msgid "Series URL not found."
+msgstr "A sorozat URL-je nem található."
+
+msgid "TMDB API key not found"
+msgstr "A TMDB API kulcs nem található"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API kulcs nem található vagy érvénytelen!"
+
+msgid "TMDB ID not found"
+msgstr "A TMDB azonosító nem található"
+
+msgid "TV Series History"
+msgstr "TV-sorozat története"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Keresési kérések időtúllépése (másodperc)"
+
+msgid "Title"
+msgstr "Cím"
+
+msgid "Type: %s"
+msgstr "Típus: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
+
+msgid "Unable to get stream for this episode"
+msgstr "Nem sikerült streamet lekérni ehhez az epizódhoz"
+
+msgid "Unable to get streaming URL"
+msgstr "Nem sikerült lekérni a streaming URL-t"
+
+msgid "Unable to load content details"
+msgstr "Nem sikerült betölteni a tartalom részleteit"
+
+msgid "Unable to open details for this content"
+msgstr "A tartalom részleteit nem lehet megnyitni"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Nem sikerült lekérni az információkat a TMDB-ből."
+
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Frissítve, %d csoport nem érhető el"
+
+msgid "Updating"
+msgstr "Frissítés"
+
+msgid "Updating cards %d/%d"
+msgstr "Kártyák frissítése: %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "hiba"
+
+msgid "loading"
+msgstr "terhelés"

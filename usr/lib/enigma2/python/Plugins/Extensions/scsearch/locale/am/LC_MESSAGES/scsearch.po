@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 10:52+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Amharic\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d ርዕሶች"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ፊልሞች ---"
+
+msgid "--- New search ---"
+msgstr "--- አዲስ ፍለጋ ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- የቲቪ ተከታታይ ---"
+
+msgid "0 titles"
+msgstr "0 ርዕሶች"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> ክፍሎች <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> ወቅቶች <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione መልሶ ማጫወት ስህተት፡ %s"
+
+msgid "Available links:"
+msgstr "የሚገኙ ማገናኛዎች፡-"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "ቡድኖችን እና ካርዶችን በአግድም ማሸብለል ያስሱ"
+
+msgid "CANCEL"
+msgstr "ሰርዝ"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 መልሶ ማጫወት ስህተት፡ %s"
+
+msgid "CONFIRM"
+msgstr "አረጋግጥ"
+
+msgid "CONTENTS"
+msgstr "ይዘቶች"
+
+msgid "Card error"
+msgstr "የካርድ ስህተት"
+
+msgid "Cards updated"
+msgstr "ካርዶች ተዘምነዋል"
+
+msgid "Code:"
+msgstr "ኮድ፡-"
+
+msgid "Code: {self.captcha_code}"
+msgstr "ኮድ፡ {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "ይዘት ከ Altadefinizione - ለመክፈት እሺን ይጫኑ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "ይዘት ከCB01 - ለመክፈት እሺን ይጫኑ..."
+
+msgid "Description not available."
+msgstr "መግለጫ አይገኝም።"
+
+msgid "Details for: '%s'"
+msgstr "ዝርዝሮች ለ፡ '%s'"
+
+msgid "Details not available"
+msgstr "ዝርዝሮች አይገኙም።"
+
+msgid "EXIT"
+msgstr "ውጣ"
+
+msgid "Enable debug"
+msgstr "ማረም አንቃ"
+
+msgid "Enable debug output in logs"
+msgstr "በምዝግብ ማስታወሻዎች ውስጥ የማረም ውፅዓትን አንቃ"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha ኮድ ያስገቡ"
+
+msgid "Episode %d"
+msgstr "ክፍል %d"
+
+msgid "Episode %d: %s"
+msgstr "ክፍል %d: %s"
+
+msgid "Episodes"
+msgstr "ክፍሎች"
+
+msgid "Episodes:"
+msgstr "ክፍሎች፡"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 ተከታታዮችን መጫን ላይ ስህተት"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "የመስመር ላይSerieTV ተከታታዮችን መጫን ላይ ስህተት"
+
+msgid "Error loading TMDB"
+msgstr "TMDB መጫን ላይ ስህተት"
+
+msgid "Error loading details"
+msgstr "ዝርዝሮችን መጫን ላይ ስህተት"
+
+msgid "Error playing episode: %s"
+msgstr "ክፍልን ማጫወት ላይ ስህተት፡%s"
+
+msgid "Error updating UI"
+msgstr "UI በማዘመን ላይ ስህተት"
+
+msgid "Exit"
+msgstr "ውጣ"
+
+msgid "GROUPS"
+msgstr "ቡድኖች"
+
+msgid "History"
+msgstr "ታሪክ"
+
+msgid "Invalid streaming URL"
+msgstr "ልክ ያልሆነ የዥረት ዩአርኤል"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ግራ/ቀኝ አሰሳ | እሺ ክፍት | ወደ ቡድኖች ይመለሱ"
+
+msgid "Load error"
+msgstr "የመጫን ስህተት"
+
+msgid "Loading details from TMDB..."
+msgstr "ዝርዝሮችን ከTMDB በመጫን ላይ..."
+
+msgid "Loading details..."
+msgstr "ዝርዝሮችን በመጫን ላይ..."
+
+msgid "Loading..."
+msgstr "በመጫን ላይ..."
+
+msgid "Max results"
+msgstr "ከፍተኛ ውጤቶች"
+
+msgid "Maximum number of results to display"
+msgstr "የሚታዩት ከፍተኛው የውጤቶች ብዛት"
+
+msgid "Movie History"
+msgstr "የፊልም ታሪክ"
+
+msgid "N/A"
+msgstr "ኤን/ኤ"
+
+msgid "New search..."
+msgstr "አዲስ ፍለጋ..."
+
+msgid "No Altadefinizione episode found"
+msgstr "ምንም Altadefinizione የትዕይንት ክፍል አልተገኘም።"
+
+msgid "No CB01 episode found"
+msgstr "ምንም የCB01 ክፍል አልተገኘም።"
+
+msgid "No content"
+msgstr "ምንም ይዘት የለም።"
+
+msgid "No content selected"
+msgstr "ምንም ይዘት አልተመረጠም።"
+
+msgid "No episodes available"
+msgstr "ምንም ክፍሎች የሉም"
+
+msgid "No previous searches found"
+msgstr "ምንም ቀዳሚ ፍለጋዎች አልተገኙም።"
+
+msgid "No relevant results found."
+msgstr "ምንም ተዛማጅ ውጤቶች አልተገኙም።"
+
+msgid "No results found on SC."
+msgstr "በ SC ላይ ምንም ውጤቶች አልተገኙም።"
+
+msgid "No streaming links found"
+msgstr "ምንም የዥረት ማያያዣዎች አልተገኙም።"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "የመስመር ላይSerieTV - ተከታታይ የቲቪ"
+
+msgid "PLAY"
+msgstr "ተጫወት"
+
+msgid "Playback error: %s"
+msgstr "የመልሶ ማጫወት ስህተት፡ %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "ለመፈለግ አረንጓዴ (ፊልም) ወይም ቢጫ (የቲቪ ተከታታይ) ይጫኑ..."
+
+msgid "Press OK"
+msgstr "እሺን ይጫኑ"
+
+msgid "Press OK to view full details..."
+msgstr "ሙሉ ዝርዝሮችን ለማየት እሺን ይጫኑ..."
+
+msgid "REFRESH"
+msgstr "አድስ"
+
+msgid "Refresh"
+msgstr "አድስ"
+
+msgid "Retry"
+msgstr "እንደገና ይሞክሩ"
+
+msgid "SC"
+msgstr "አ.ማ"
+
+msgid "SEARCH"
+msgstr "ፈልግ"
+
+msgid "Search History"
+msgstr "የፍለጋ ታሪክ"
+
+msgid "Search Movie"
+msgstr "ፊልም ፈልግ"
+
+msgid "Search TV Series"
+msgstr "ተከታታይ የቲቪ ፈልግ"
+
+msgid "Search timeout"
+msgstr "የፍለጋ ጊዜ አልቋል"
+
+msgid "Searching for: '%s'"
+msgstr "በመፈለግ ላይ፡ '%s'"
+
+msgid "Searching..."
+msgstr "በመፈለግ ላይ..."
+
+msgid "Season %d"
+msgstr "ወቅት %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "ወቅት %d (%d ክፍሎች)"
+
+msgid "Seasons"
+msgstr "ወቅቶች"
+
+msgid "Seasons:"
+msgstr "ወቅቶች፡"
+
+msgid "Series URL not found"
+msgstr "የተከታታይ ዩአርኤል አልተገኘም።"
+
+msgid "Series URL not found."
+msgstr "የተከታታይ ዩአርኤል አልተገኘም።"
+
+msgid "TMDB API key not found"
+msgstr "የTMDB API ቁልፍ አልተገኘም።"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "የTMDB API ቁልፍ አልተገኘም ወይም ልክ ያልሆነ!"
+
+msgid "TMDB ID not found"
+msgstr "የTMDB መታወቂያ አልተገኘም።"
+
+msgid "TV Series History"
+msgstr "የቲቪ ተከታታይ ታሪክ"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "ለፍለጋ ጥያቄዎች (ሰከንዶች) ጊዜው አልፎበታል"
+
+msgid "Title"
+msgstr "ርዕስ"
+
+msgid "Type: %s"
+msgstr "አይነት፡%s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ወደላይ/ወደታች ቡድኖች | ግራ/ቀኝ ካርዶች | እሺ ክፈት"
+
+msgid "Unable to get stream for this episode"
+msgstr "ለዚህ ክፍል ዥረት ማግኘት አልተቻለም"
+
+msgid "Unable to get streaming URL"
+msgstr "የዥረት ዩአርኤል ማግኘት አልተቻለም"
+
+msgid "Unable to load content details"
+msgstr "የይዘት ዝርዝሮችን መጫን አልተቻለም"
+
+msgid "Unable to open details for this content"
+msgstr "ለዚህ ይዘት ዝርዝሮችን መክፈት አልተቻለም"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "ከTMDB መረጃ ማምጣት አልተቻለም።"
+
+msgid "Unknown"
+msgstr "ያልታወቀ"
+
+msgid "Updated, %d groups unavailable"
+msgstr "ተዘምኗል፣ %d ቡድኖች አይገኙም።"
+
+msgid "Updating"
+msgstr "በማዘመን ላይ"
+
+msgid "Updating cards %d/%d"
+msgstr "ካርዶችን በማዘመን ላይ %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[ከፍተኛ ጥራት] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01]%s"
+
+msgid "error"
+msgstr "ስህተት"
+
+msgid "loading"
+msgstr "በመጫን ላይ"

@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:19+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Basque <translation-team-eu@googlegroups.com>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d titulu"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMAK ---"
+
+msgid "--- New search ---"
+msgstr "--- Bilaketa berria ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TELEBISTA ---"
+
+msgid "0 titles"
+msgstr "0 titulu"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Atalak <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Urtaroak <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizioa erreproduzitzeko errorea: %s"
+
+msgid "Available links:"
+msgstr "Eskuragarri dauden estekak:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Arakatu taldeak eta txartelak korritze horizontalarekin"
+
+msgid "CANCEL"
+msgstr "Utzi"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 erreprodukzio-errorea: %s"
+
+msgid "CONFIRM"
+msgstr "KONFIRMATU"
+
+msgid "CONTENTS"
+msgstr "EDUKIAK"
+
+msgid "Card error"
+msgstr "Txartelaren errorea"
+
+msgid "Cards updated"
+msgstr "Txartelak eguneratuta"
+
+msgid "Code:"
+msgstr "Kodea:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kodea: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizioneko edukia - Sakatu Ados irekitzeko..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01-ko edukia - Sakatu Ados irekitzeko..."
+
+msgid "Description not available."
+msgstr "Deskribapena ez dago eskuragarri."
+
+msgid "Details for: '%s'"
+msgstr "Xehetasunak: '%s'"
+
+msgid "Details not available"
+msgstr "Xehetasunak ez daude eskuragarri"
+
+msgid "EXIT"
+msgstr "IRTEN"
+
+msgid "Enable debug"
+msgstr "Gaitu arazketa"
+
+msgid "Enable debug output in logs"
+msgstr "Gaitu arazketa-irteera erregistroetan"
+
+msgid "Enter Captcha Code"
+msgstr "Sartu Captcha kodea"
+
+msgid "Episode %d"
+msgstr "%d atala"
+
+msgid "Episode %d: %s"
+msgstr "%d atala: %s"
+
+msgid "Episodes"
+msgstr "Pasarteak"
+
+msgid "Episodes:"
+msgstr "Atalak:"
+
+msgid "Error loading CB01 series"
+msgstr "Errore bat gertatu da CB01 seriea kargatzean"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Errore bat gertatu da OnlineSerieTV seriea kargatzean"
+
+msgid "Error loading TMDB"
+msgstr "Errore bat gertatu da TMDB kargatzean"
+
+msgid "Error loading details"
+msgstr "Errore bat gertatu da xehetasunak kargatzean"
+
+msgid "Error playing episode: %s"
+msgstr "Errore bat gertatu da atala erreproduzitzean: %s"
+
+msgid "Error updating UI"
+msgstr "Errore bat gertatu da UI eguneratzean"
+
+msgid "Exit"
+msgstr "Irten"
+
+msgid "GROUPS"
+msgstr "TALDEAK"
+
+msgid "History"
+msgstr "Historia"
+
+msgid "Invalid streaming URL"
+msgstr "Igorpenaren URL baliogabea"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "EZKER/ESKUINERA nabigatu | Ados ireki | GORA taldeetara itzuli"
+
+msgid "Load error"
+msgstr "Karga-errorea"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDBtik xehetasunak kargatzen..."
+
+msgid "Loading details..."
+msgstr "Xehetasunak kargatzen..."
+
+msgid "Loading..."
+msgstr "Kargatzen..."
+
+msgid "Max results"
+msgstr "Gehienezko emaitzak"
+
+msgid "Maximum number of results to display"
+msgstr "Bistaratzeko gehienezko emaitza kopurua"
+
+msgid "Movie History"
+msgstr "Filmaren historia"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Bilaketa berria..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Ez da Altadefinizione atalik aurkitu"
+
+msgid "No CB01 episode found"
+msgstr "Ez da CB01 atalik aurkitu"
+
+msgid "No content"
+msgstr "Edukirik ez"
+
+msgid "No content selected"
+msgstr "Ez da edukirik hautatu"
+
+msgid "No episodes available"
+msgstr "Ez dago atal erabilgarririk"
+
+msgid "No previous searches found"
+msgstr "Ez da aurreko bilaketarik aurkitu"
+
+msgid "No relevant results found."
+msgstr "Ez da emaitza garrantzitsurik aurkitu."
+
+msgid "No results found on SC."
+msgstr "Ez da emaitzarik aurkitu SC-n."
+
+msgid "No streaming links found"
+msgstr "Ez da aurkitu streaming estekarik"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Telesaila"
+
+msgid "PLAY"
+msgstr "JOLASTU"
+
+msgid "Playback error: %s"
+msgstr "Erreprodukzio-errorea: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Sakatu BERDEA (filma) edo HORIA (telesaila) bilatzeko..."
+
+msgid "Press OK"
+msgstr "Sakatu Ados"
+
+msgid "Press OK to view full details..."
+msgstr "Sakatu Ados xehetasun guztiak ikusteko..."
+
+msgid "REFRESH"
+msgstr "FRESKATU"
+
+msgid "Refresh"
+msgstr "Freskatu"
+
+msgid "Retry"
+msgstr "Saiatu berriro"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "BILATU"
+
+msgid "Search History"
+msgstr "Bilaketa Historia"
+
+msgid "Search Movie"
+msgstr "Bilatu filma"
+
+msgid "Search TV Series"
+msgstr "Bilatu telesailak"
+
+msgid "Search timeout"
+msgstr "Bilaketa denbora-muga"
+
+msgid "Searching for: '%s'"
+msgstr "Bilatzen: '%s'"
+
+msgid "Searching..."
+msgstr "Bilatzen..."
+
+msgid "Season %d"
+msgstr "%d denboraldia"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d denboraldia (%d atal)"
+
+msgid "Seasons"
+msgstr "Urtaroak"
+
+msgid "Seasons:"
+msgstr "Urtaroak:"
+
+msgid "Series URL not found"
+msgstr "Ez da aurkitu seriearen URLa"
+
+msgid "Series URL not found."
+msgstr "Ez da aurkitu seriearen URLa."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API gakoa ez da aurkitu"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API gakoa ez da aurkitu edo baliogabea!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID ez da aurkitu"
+
+msgid "TV Series History"
+msgstr "Telesailaren historia"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Bilaketa-eskaeren denbora-muga (segundo)"
+
+msgid "Title"
+msgstr "Izenburua"
+
+msgid "Type: %s"
+msgstr "Mota: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "GORA/BEHERA taldeak | EZKER/ESKUINERA txartelak | Ados ireki"
+
+msgid "Unable to get stream for this episode"
+msgstr "Ezin da atal honen igorpena jaso"
+
+msgid "Unable to get streaming URL"
+msgstr "Ezin da igorpenaren URLa lortu"
+
+msgid "Unable to load content details"
+msgstr "Ezin dira kargatu edukiaren xehetasunak"
+
+msgid "Unable to open details for this content"
+msgstr "Ezin dira ireki eduki honen xehetasunak"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Ezin da TMDBtik informazioa berreskuratu."
+
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Eguneratu da, %d talde ez daude erabilgarri"
+
+msgid "Updating"
+msgstr "Eguneratzea"
+
+msgid "Updating cards %d/%d"
+msgstr "%d/%d txartelak eguneratzen"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Definizio handikoa] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "akatsa"
+
+msgid "loading"
+msgstr "kargatzen"

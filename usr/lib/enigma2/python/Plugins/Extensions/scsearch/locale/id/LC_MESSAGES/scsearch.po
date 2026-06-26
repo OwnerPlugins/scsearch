@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:39+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d judul"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILM ---"
+
+msgid "--- New search ---"
+msgstr "--- Pencarian baru ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- SERI TV ---"
+
+msgid "0 titles"
+msgstr "0 judul"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Episode <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Musim <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Kesalahan pemutaran definisi: %s"
+
+msgid "Available links:"
+msgstr "Tautan yang tersedia:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Telusuri grup dan kartu dengan pengguliran horizontal"
+
+msgid "CANCEL"
+msgstr "MEMBATALKAN"
+
+msgid "CB01 playback error: %s"
+msgstr "Kesalahan pemutaran CB01: %s"
+
+msgid "CONFIRM"
+msgstr "MENGONFIRMASI"
+
+msgid "CONTENTS"
+msgstr "ISI"
+
+msgid "Card error"
+msgstr "Kesalahan kartu"
+
+msgid "Cards updated"
+msgstr "Kartu diperbarui"
+
+msgid "Code:"
+msgstr "Kode:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kode: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Konten dari Altadefinizione - Tekan OK untuk membuka..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Konten dari CB01 - Tekan OK untuk membuka..."
+
+msgid "Description not available."
+msgstr "Deskripsi tidak tersedia."
+
+msgid "Details for: '%s'"
+msgstr "Detail untuk: '%s'"
+
+msgid "Details not available"
+msgstr "Detail tidak tersedia"
+
+msgid "EXIT"
+msgstr "KELUAR"
+
+msgid "Enable debug"
+msgstr "Aktifkan debug"
+
+msgid "Enable debug output in logs"
+msgstr "Aktifkan keluaran debug di log"
+
+msgid "Enter Captcha Code"
+msgstr "Masukkan Kode Captcha"
+
+msgid "Episode %d"
+msgstr ""
+
+msgid "Episode %d: %s"
+msgstr ""
+
+msgid "Episodes"
+msgstr "Episode"
+
+msgid "Episodes:"
+msgstr "Episode:"
+
+msgid "Error loading CB01 series"
+msgstr "Terjadi kesalahan saat memuat seri CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Terjadi kesalahan saat memuat serial OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Terjadi kesalahan saat memuat TMDB"
+
+msgid "Error loading details"
+msgstr "Terjadi kesalahan saat memuat detail"
+
+msgid "Error playing episode: %s"
+msgstr "Kesalahan saat memutar episode: %s"
+
+msgid "Error updating UI"
+msgstr "Terjadi kesalahan saat memperbarui UI"
+
+msgid "Exit"
+msgstr "KELUAR"
+
+msgid "GROUPS"
+msgstr "KELOMPOK"
+
+msgid "History"
+msgstr "Sejarah"
+
+msgid "Invalid streaming URL"
+msgstr "URL streaming tidak valid"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "Navigasi KIRI/KANAN | Oke buka | NAIK kembali ke kelompok"
+
+msgid "Load error"
+msgstr "Kesalahan pemuatan"
+
+msgid "Loading details from TMDB..."
+msgstr "Memuat detail dari TMDB..."
+
+msgid "Loading details..."
+msgstr "Memuat detail..."
+
+msgid "Loading..."
+msgstr "Memuat..."
+
+msgid "Max results"
+msgstr "Hasil maksimal"
+
+msgid "Maximum number of results to display"
+msgstr "Jumlah hasil maksimum untuk ditampilkan"
+
+msgid "Movie History"
+msgstr "Sejarah Film"
+
+msgid "N/A"
+msgstr "T/A"
+
+msgid "New search..."
+msgstr "Pencarian baru..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Tidak ada episode Altadefinisione yang ditemukan"
+
+msgid "No CB01 episode found"
+msgstr "Tidak ada episode CB01 yang ditemukan"
+
+msgid "No content"
+msgstr "Tidak ada konten"
+
+msgid "No content selected"
+msgstr "Tidak ada konten yang dipilih"
+
+msgid "No episodes available"
+msgstr "Tidak ada episode yang tersedia"
+
+msgid "No previous searches found"
+msgstr "Tidak ada penelusuran sebelumnya yang ditemukan"
+
+msgid "No relevant results found."
+msgstr "Tidak ada hasil relevan yang ditemukan."
+
+msgid "No results found on SC."
+msgstr "Tidak ada hasil yang ditemukan di SC."
+
+msgid "No streaming links found"
+msgstr "Tidak ada tautan streaming yang ditemukan"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Serial TV"
+
+msgid "PLAY"
+msgstr "BERMAIN"
+
+msgid "Playback error: %s"
+msgstr "Kesalahan pemutaran: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Tekan HIJAU (Film) atau KUNING (Serial TV) untuk mencari..."
+
+msgid "Press OK"
+msgstr "Tekan oke"
+
+msgid "Press OK to view full details..."
+msgstr "Tekan OK untuk melihat rincian lengkap..."
+
+msgid "REFRESH"
+msgstr "MENYEGARKAN"
+
+msgid "Refresh"
+msgstr "Menyegarkan"
+
+msgid "Retry"
+msgstr "Mencoba kembali"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "MENCARI"
+
+msgid "Search History"
+msgstr "Riwayat Pencarian"
+
+msgid "Search Movie"
+msgstr "Cari Film"
+
+msgid "Search TV Series"
+msgstr "Cari Serial TV"
+
+msgid "Search timeout"
+msgstr "Batas waktu pencarian"
+
+msgid "Searching for: '%s'"
+msgstr "Mencari: '%s'"
+
+msgid "Searching..."
+msgstr "Mencari..."
+
+msgid "Season %d"
+msgstr "Musim %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Musim %d (%d episode)"
+
+msgid "Seasons"
+msgstr "Musim"
+
+msgid "Seasons:"
+msgstr "Musim:"
+
+msgid "Series URL not found"
+msgstr "URL seri tidak ditemukan"
+
+msgid "Series URL not found."
+msgstr "URL seri tidak ditemukan."
+
+msgid "TMDB API key not found"
+msgstr "Kunci API TMDB tidak ditemukan"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Kunci API TMDB tidak ditemukan atau tidak valid!"
+
+msgid "TMDB ID not found"
+msgstr "ID TMDB tidak ditemukan"
+
+msgid "TV Series History"
+msgstr "Sejarah Serial TV"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Batas waktu untuk permintaan pencarian (detik)"
+
+msgid "Title"
+msgstr "Judul"
+
+msgid "Type: %s"
+msgstr "Jenis: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka"
+
+msgid "Unable to get stream for this episode"
+msgstr "Tidak dapat memperoleh streaming untuk episode ini"
+
+msgid "Unable to get streaming URL"
+msgstr "Tidak dapat memperoleh URL streaming"
+
+msgid "Unable to load content details"
+msgstr "Tidak dapat memuat detail konten"
+
+msgid "Unable to open details for this content"
+msgstr "Tidak dapat membuka detail untuk konten ini"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Tidak dapat mengambil informasi dari TMDB."
+
+msgid "Unknown"
+msgstr "Tidak dikenal"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Diperbarui, %d grup tidak tersedia"
+
+msgid "Updating"
+msgstr "Memperbarui"
+
+msgid "Updating cards %d/%d"
+msgstr "Memperbarui kartu %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Definisi Tinggi] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "kesalahan"
+
+msgid "loading"
+msgstr "memuat"

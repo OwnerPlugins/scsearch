@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:48+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Central Khmer\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "ចំណងជើង %d"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ភាពយន្ត ---"
+
+msgid "--- New search ---"
+msgstr "--- ស្វែងរកថ្មី ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ស៊េរីទូរទស្សន៍ ---"
+
+msgid "0 titles"
+msgstr "0 ចំណងជើង"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> វគ្គ <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> រដូវ <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "កំហុសក្នុងការចាក់សារថ្មី Altadefinizione៖ %s"
+
+msgid "Available links:"
+msgstr "តំណភ្ជាប់ដែលមាន៖"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "រកមើលក្រុម និងកាតជាមួយនឹងការរមូរផ្ដេក"
+
+msgid "CANCEL"
+msgstr "បោះបង់"
+
+msgid "CB01 playback error: %s"
+msgstr "កំហុសក្នុងការចាក់សារថ្មី CB01៖ %s"
+
+msgid "CONFIRM"
+msgstr "បញ្ជាក់"
+
+msgid "CONTENTS"
+msgstr "មាតិកា"
+
+msgid "Card error"
+msgstr "កំហុសកាត"
+
+msgid "Cards updated"
+msgstr "បានធ្វើបច្ចុប្បន្នភាពកាត"
+
+msgid "Code:"
+msgstr "លេខកូដ៖"
+
+msgid "Code: {self.captcha_code}"
+msgstr "លេខកូដ៖ {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "ខ្លឹមសារពី Altadefinizione - ចុច OK ដើម្បីបើក..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "មាតិកាពី CB01 - ចុចយល់ព្រមដើម្បីបើក..."
+
+msgid "Description not available."
+msgstr "មិនមានការពិពណ៌នាទេ។"
+
+msgid "Details for: '%s'"
+msgstr "ព័ត៌មានលម្អិតសម្រាប់៖ '%s'"
+
+msgid "Details not available"
+msgstr "ព័ត៌មានលម្អិតមិនមានទេ។"
+
+msgid "EXIT"
+msgstr "ចេញ"
+
+msgid "Enable debug"
+msgstr "បើកដំណើរការបំបាត់កំហុស"
+
+msgid "Enable debug output in logs"
+msgstr "បើកដំណើរការលទ្ធផលបំបាត់កំហុសនៅក្នុងកំណត់ហេតុ"
+
+msgid "Enter Captcha Code"
+msgstr "បញ្ចូលលេខកូដ Captcha"
+
+msgid "Episode %d"
+msgstr "ភាគ %d"
+
+msgid "Episode %d: %s"
+msgstr "ភាគ %d៖ %s"
+
+msgid "Episodes"
+msgstr "ភាគ"
+
+msgid "Episodes:"
+msgstr "ភាគ៖"
+
+msgid "Error loading CB01 series"
+msgstr "កំហុសក្នុងការផ្ទុកស៊េរី CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "កំហុសក្នុងការផ្ទុកស៊េរីទូរទស្សន៍ OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "កំហុសក្នុងការផ្ទុក TMDB"
+
+msgid "Error loading details"
+msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
+
+msgid "Error playing episode: %s"
+msgstr "កំហុសក្នុងការលេងភាគ៖ %s"
+
+msgid "Error updating UI"
+msgstr "កំហុសក្នុងការធ្វើបច្ចុប្បន្នភាព UI"
+
+msgid "Exit"
+msgstr "ចេញ"
+
+msgid "GROUPS"
+msgstr "ក្រុម"
+
+msgid "History"
+msgstr "ប្រវត្តិសាស្ត្រ"
+
+msgid "Invalid streaming URL"
+msgstr "URL ការផ្សាយមិនត្រឹមត្រូវ"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "រុករកឆ្វេង/ស្តាំ | យល់ព្រមបើក | ឡើង​ទៅ​ក្រុម​"
+
+msgid "Load error"
+msgstr "កំហុសក្នុងការផ្ទុក"
+
+msgid "Loading details from TMDB..."
+msgstr "កំពុងផ្ទុកព័ត៌មានលម្អិតពី TMDB..."
+
+msgid "Loading details..."
+msgstr "កំពុងផ្ទុកព័ត៌មានលម្អិត..."
+
+msgid "Loading..."
+msgstr "កំពុង​ផ្ទុក..."
+
+msgid "Max results"
+msgstr "លទ្ធផលអតិបរមា"
+
+msgid "Maximum number of results to display"
+msgstr "ចំនួនអតិបរមានៃលទ្ធផលដែលត្រូវបង្ហាញ"
+
+msgid "Movie History"
+msgstr "ប្រវត្តិភាពយន្ត"
+
+msgid "N/A"
+msgstr "គ្មាន"
+
+msgid "New search..."
+msgstr "ការស្វែងរកថ្មី..."
+
+msgid "No Altadefinizione episode found"
+msgstr "រកមិនឃើញភាគ Altadefinizione ទេ។"
+
+msgid "No CB01 episode found"
+msgstr "រកមិនឃើញភាគ CB01 ទេ។"
+
+msgid "No content"
+msgstr "គ្មានខ្លឹមសារ"
+
+msgid "No content selected"
+msgstr "មិនបានជ្រើសរើសមាតិកា"
+
+msgid "No episodes available"
+msgstr "មិនមានភាគដែលអាចប្រើបានទេ។"
+
+msgid "No previous searches found"
+msgstr "រកមិនឃើញការស្វែងរកពីមុនទេ។"
+
+msgid "No relevant results found."
+msgstr "រកមិនឃើញលទ្ធផលពាក់ព័ន្ធទេ។"
+
+msgid "No results found on SC."
+msgstr "រកមិនឃើញលទ្ធផលនៅលើ SC ទេ។"
+
+msgid "No streaming links found"
+msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - ស៊េរីទូរទស្សន៍"
+
+msgid "PLAY"
+msgstr "លេង"
+
+msgid "Playback error: %s"
+msgstr "កំហុសក្នុងការចាក់សារថ្មី៖ %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "ចុច GREEN (ភាពយន្ត) ឬ YELLOW (TV Series) ដើម្បីស្វែងរក..."
+
+msgid "Press OK"
+msgstr "ចុចយល់ព្រម"
+
+msgid "Press OK to view full details..."
+msgstr "ចុច OK ដើម្បីមើលព័ត៌មានលម្អិត..."
+
+msgid "REFRESH"
+msgstr "ធ្វើឱ្យស្រស់"
+
+msgid "Refresh"
+msgstr "ធ្វើឱ្យស្រស់"
+
+msgid "Retry"
+msgstr "ព្យាយាមម្តងទៀត"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ស្វែងរក"
+
+msgid "Search History"
+msgstr "ប្រវត្តិស្វែងរក"
+
+msgid "Search Movie"
+msgstr "ស្វែងរកភាពយន្ត"
+
+msgid "Search TV Series"
+msgstr "ស្វែងរកស៊េរីទូរទស្សន៍"
+
+msgid "Search timeout"
+msgstr "អស់ពេលស្វែងរក"
+
+msgid "Searching for: '%s'"
+msgstr "កំពុងស្វែងរក៖ '%s'"
+
+msgid "Searching..."
+msgstr "កំពុងស្វែងរក..."
+
+msgid "Season %d"
+msgstr "រដូវកាល %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "រដូវកាល %d (%d ភាគ)"
+
+msgid "Seasons"
+msgstr "រដូវ"
+
+msgid "Seasons:"
+msgstr "រដូវកាល៖"
+
+msgid "Series URL not found"
+msgstr "រកមិនឃើញស៊េរី URL ទេ។"
+
+msgid "Series URL not found."
+msgstr "រកមិនឃើញស៊េរី URL ទេ។"
+
+msgid "TMDB API key not found"
+msgstr "រកមិនឃើញសោ TMDB API ទេ។"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "រកមិនឃើញសោ TMDB API ឬមិនត្រឹមត្រូវ!"
+
+msgid "TMDB ID not found"
+msgstr "រកមិនឃើញលេខសម្គាល់ TMDB"
+
+msgid "TV Series History"
+msgstr "ប្រវត្តិស៊េរីទូរទស្សន៍"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "អស់ពេលសម្រាប់សំណើស្វែងរក (វិនាទី)"
+
+msgid "Title"
+msgstr "ចំណងជើង"
+
+msgid "Type: %s"
+msgstr "ប្រភេទ៖ %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក"
+
+msgid "Unable to get stream for this episode"
+msgstr "មិន​អាច​ទទួល​បាន​ការ​ផ្សាយ​សម្រាប់​ភាគ​នេះ​"
+
+msgid "Unable to get streaming URL"
+msgstr "មិន​អាច​ទទួល​បាន URL ផ្សាយ"
+
+msgid "Unable to load content details"
+msgstr "មិនអាចផ្ទុកព័ត៌មានលម្អិតអំពីខ្លឹមសារបានទេ។"
+
+msgid "Unable to open details for this content"
+msgstr "មិនអាចបើកព័ត៌មានលម្អិតសម្រាប់ខ្លឹមសារនេះបានទេ។"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "មិនអាចទាញយកព័ត៌មានពី TMDB បានទេ។"
+
+msgid "Unknown"
+msgstr "មិនស្គាល់"
+
+msgid "Updated, %d groups unavailable"
+msgstr "បានធ្វើបច្ចុប្បន្នភាព ក្រុម %d មិនអាចប្រើបានទេ។"
+
+msgid "Updating"
+msgstr "ការធ្វើបច្ចុប្បន្នភាព"
+
+msgid "Updating cards %d/%d"
+msgstr "កំពុងអាប់ដេតកាត %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[និយមន័យខ្ពស់] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "កំហុស"
+
+msgid "loading"
+msgstr "ការផ្ទុក"

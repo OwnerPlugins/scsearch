@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:50+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d ಶೀರ್ಷಿಕೆಗಳು"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ಚಲನಚಿತ್ರಗಳು ---"
+
+msgid "--- New search ---"
+msgstr "--- ಹೊಸ ಹುಡುಕಾಟ ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ಟಿವಿ ಸರಣಿ ---"
+
+msgid "0 titles"
+msgstr "0 ಶೀರ್ಷಿಕೆಗಳು"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> ಸಂಚಿಕೆಗಳು <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> ಋತುಗಳು <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "ಆಲ್ಟಾಡೆಫಿನಿಜಿಯೋನ್ ಪ್ಲೇಬ್ಯಾಕ್ ದೋಷ: %s"
+
+msgid "Available links:"
+msgstr "ಲಭ್ಯವಿರುವ ಲಿಂಕ್‌ಗಳು:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "ಸಮತಲ ಸ್ಕ್ರೋಲಿಂಗ್‌ನೊಂದಿಗೆ ಗುಂಪುಗಳು ಮತ್ತು ಕಾರ್ಡ್‌ಗಳನ್ನು ಬ್ರೌಸ್ ಮಾಡಿ"
+
+msgid "CANCEL"
+msgstr "ರದ್ದುಮಾಡು"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 ಪ್ಲೇಬ್ಯಾಕ್ ದೋಷ: %s"
+
+msgid "CONFIRM"
+msgstr "ದೃಢೀಕರಿಸಿ"
+
+msgid "CONTENTS"
+msgstr "ವಿಷಯಗಳು"
+
+msgid "Card error"
+msgstr "ಕಾರ್ಡ್ ದೋಷ"
+
+msgid "Cards updated"
+msgstr "ಕಾರ್ಡ್‌ಗಳನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ"
+
+msgid "Code:"
+msgstr "ಕೋಡ್:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "ಕೋಡ್: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione ನಿಂದ ವಿಷಯ - ತೆರೆಯಲು ಸರಿ ಒತ್ತಿರಿ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 ನಿಂದ ವಿಷಯ - ತೆರೆಯಲು ಸರಿ ಒತ್ತಿರಿ..."
+
+msgid "Description not available."
+msgstr "ವಿವರಣೆ ಲಭ್ಯವಿಲ್ಲ."
+
+msgid "Details for: '%s'"
+msgstr "ಇದಕ್ಕಾಗಿ ವಿವರಗಳು: '%s'"
+
+msgid "Details not available"
+msgstr "ವಿವರಗಳು ಲಭ್ಯವಿಲ್ಲ"
+
+msgid "EXIT"
+msgstr "ನಿರ್ಗಮಿಸಿ"
+
+msgid "Enable debug"
+msgstr "ಡೀಬಗ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Enable debug output in logs"
+msgstr "ಲಾಗ್‌ಗಳಲ್ಲಿ ಡೀಬಗ್ ಔಟ್‌ಪುಟ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+
+msgid "Enter Captcha Code"
+msgstr "ಕ್ಯಾಪ್ಚಾ ಕೋಡ್ ನಮೂದಿಸಿ"
+
+msgid "Episode %d"
+msgstr "ಸಂಚಿಕೆ %d"
+
+msgid "Episode %d: %s"
+msgstr "ಸಂಚಿಕೆ %d: %s"
+
+msgid "Episodes"
+msgstr "ಸಂಚಿಕೆಗಳು"
+
+msgid "Episodes:"
+msgstr "ಸಂಚಿಕೆಗಳು:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 ಸರಣಿಯನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV ಸರಣಿಯನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ"
+
+msgid "Error loading TMDB"
+msgstr "TMDB ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ"
+
+msgid "Error loading details"
+msgstr "ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ"
+
+msgid "Error playing episode: %s"
+msgstr "ಎಪಿಸೋಡ್ ಪ್ಲೇ ಮಾಡುವಲ್ಲಿ ದೋಷ: %s"
+
+msgid "Error updating UI"
+msgstr "UI ನವೀಕರಿಸುವಲ್ಲಿ ದೋಷ"
+
+msgid "Exit"
+msgstr "ನಿರ್ಗಮಿಸಿ"
+
+msgid "GROUPS"
+msgstr "ಗುಂಪುಗಳು"
+
+msgid "History"
+msgstr "ಇತಿಹಾಸ"
+
+msgid "Invalid streaming URL"
+msgstr "ಅಮಾನ್ಯವಾದ ಸ್ಟ್ರೀಮಿಂಗ್ URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ಎಡ/ಬಲ ನ್ಯಾವಿಗೇಟ್ | ಸರಿ ತೆರೆದು | ಗುಂಪುಗಳಿಗೆ ಹಿಂತಿರುಗಿ"
+
+msgid "Load error"
+msgstr "ಲೋಡ್ ದೋಷ"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB ಯಿಂದ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+
+msgid "Loading details..."
+msgstr "ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+
+msgid "Loading..."
+msgstr "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+
+msgid "Max results"
+msgstr "ಗರಿಷ್ಠ ಫಲಿತಾಂಶಗಳು"
+
+msgid "Maximum number of results to display"
+msgstr "ಪ್ರದರ್ಶಿಸಲು ಗರಿಷ್ಠ ಸಂಖ್ಯೆಯ ಫಲಿತಾಂಶಗಳು"
+
+msgid "Movie History"
+msgstr "ಚಲನಚಿತ್ರ ಇತಿಹಾಸ"
+
+msgid "N/A"
+msgstr "ಎನ್/ಎ"
+
+msgid "New search..."
+msgstr "ಹೊಸ ಹುಡುಕಾಟ..."
+
+msgid "No Altadefinizione episode found"
+msgstr "ಯಾವುದೇ Altadefinizion ಸಂಚಿಕೆ ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "No CB01 episode found"
+msgstr "ಯಾವುದೇ CB01 ಸಂಚಿಕೆ ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "No content"
+msgstr "ವಿಷಯವಿಲ್ಲ"
+
+msgid "No content selected"
+msgstr "ಯಾವುದೇ ವಿಷಯವನ್ನು ಆಯ್ಕೆಮಾಡಲಾಗಿಲ್ಲ"
+
+msgid "No episodes available"
+msgstr "ಯಾವುದೇ ಸಂಚಿಕೆಗಳು ಲಭ್ಯವಿಲ್ಲ"
+
+msgid "No previous searches found"
+msgstr "ಯಾವುದೇ ಹಿಂದಿನ ಹುಡುಕಾಟಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "No relevant results found."
+msgstr "ಯಾವುದೇ ಸಂಬಂಧಿತ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ."
+
+msgid "No results found on SC."
+msgstr "SC ನಲ್ಲಿ ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ."
+
+msgid "No streaming links found"
+msgstr "ಯಾವುದೇ ಸ್ಟ್ರೀಮಿಂಗ್ ಲಿಂಕ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - TV ಸರಣಿ"
+
+msgid "PLAY"
+msgstr "ಪ್ಲೇ ಮಾಡಿ"
+
+msgid "Playback error: %s"
+msgstr "ಪ್ಲೇಬ್ಯಾಕ್ ದೋಷ: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "ಹುಡುಕಲು ಹಸಿರು (ಚಲನಚಿತ್ರ) ಅಥವಾ ಹಳದಿ (ಟಿವಿ ಸರಣಿ) ಒತ್ತಿರಿ..."
+
+msgid "Press OK"
+msgstr "ಸರಿ ಒತ್ತಿರಿ"
+
+msgid "Press OK to view full details..."
+msgstr "ಸಂಪೂರ್ಣ ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಸರಿ ಒತ್ತಿರಿ..."
+
+msgid "REFRESH"
+msgstr "ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+
+msgid "Refresh"
+msgstr "ರಿಫ್ರೆಶ್ ಮಾಡಿ"
+
+msgid "Retry"
+msgstr "ಮರುಪ್ರಯತ್ನಿಸಿ"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ಹುಡುಕು"
+
+msgid "Search History"
+msgstr "ಹುಡುಕಾಟ ಇತಿಹಾಸ"
+
+msgid "Search Movie"
+msgstr "ಚಲನಚಿತ್ರವನ್ನು ಹುಡುಕಿ"
+
+msgid "Search TV Series"
+msgstr "ಟಿವಿ ಸರಣಿಯನ್ನು ಹುಡುಕಿ"
+
+msgid "Search timeout"
+msgstr "ಹುಡುಕಾಟದ ಅವಧಿ ಮೀರಿದೆ"
+
+msgid "Searching for: '%s'"
+msgstr "ಇದಕ್ಕಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ: '%s'"
+
+msgid "Searching..."
+msgstr "ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
+
+msgid "Season %d"
+msgstr "ಸೀಸನ್ %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "ಸೀಸನ್ %d (%d ಸಂಚಿಕೆಗಳು)"
+
+msgid "Seasons"
+msgstr "ಋತುಗಳು"
+
+msgid "Seasons:"
+msgstr "ಋತುಗಳು:"
+
+msgid "Series URL not found"
+msgstr "ಸರಣಿ URL ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "Series URL not found."
+msgstr "ಸರಣಿ URL ಕಂಡುಬಂದಿಲ್ಲ."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API ಕೀ ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API ಕೀ ಕಂಡುಬಂದಿಲ್ಲ ಅಥವಾ ಅಮಾನ್ಯವಾಗಿದೆ!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID ಕಂಡುಬಂದಿಲ್ಲ"
+
+msgid "TV Series History"
+msgstr "ಟಿವಿ ಸರಣಿಯ ಇತಿಹಾಸ"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "ಹುಡುಕಾಟ ವಿನಂತಿಗಳಿಗಾಗಿ ಸಮಯ ಮೀರಿದೆ (ಸೆಕೆಂಡ್‌ಗಳು)"
+
+msgid "Title"
+msgstr "ಶೀರ್ಷಿಕೆ"
+
+msgid "Type: %s"
+msgstr "ಪ್ರಕಾರ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN ಗುಂಪುಗಳು | ಎಡ/ಬಲ ಕಾರ್ಡ್‌ಗಳು | ಸರಿ ತೆರೆಯಿರಿ"
+
+msgid "Unable to get stream for this episode"
+msgstr "ಈ ಸಂಚಿಕೆಗಾಗಿ ಸ್ಟ್ರೀಮ್ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+
+msgid "Unable to get streaming URL"
+msgstr "ಸ್ಟ್ರೀಮಿಂಗ್ URL ಪಡೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"
+
+msgid "Unable to load content details"
+msgstr "ವಿಷಯ ವಿವರಗಳನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"
+
+msgid "Unable to open details for this content"
+msgstr "ಈ ವಿಷಯದ ವಿವರಗಳನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB ಯಿಂದ ಮಾಹಿತಿಯನ್ನು ಹಿಂಪಡೆಯಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ."
+
+msgid "Unknown"
+msgstr "ಅಜ್ಞಾತ"
+
+msgid "Updated, %d groups unavailable"
+msgstr "ನವೀಕರಿಸಲಾಗಿದೆ, %d ಗುಂಪುಗಳು ಲಭ್ಯವಿಲ್ಲ"
+
+msgid "Updating"
+msgstr "ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ"
+
+msgid "Updating cards %d/%d"
+msgstr "%d/%d ಕಾರ್ಡ್‌ಗಳನ್ನು ನವೀಕರಿಸಲಾಗುತ್ತಿದೆ"
+
+msgid "[Altadefinizione] %s"
+msgstr "[ಉನ್ನತ ವ್ಯಾಖ್ಯಾನ] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "ದೋಷ"
+
+msgid "loading"
+msgstr "ಲೋಡ್ ಆಗುತ್ತಿದೆ"

@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:09+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d titles"
+msgstr "%d titler"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILM ---"
+
+msgid "--- New search ---"
+msgstr "--- Ny søgning ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV-SERIE ---"
+
+msgid "0 titles"
+msgstr "0 titler"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Afsnit <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Årstider <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione afspilningsfejl: %s"
+
+msgid "Available links:"
+msgstr "Tilgængelige links:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Gennemse grupper og kort med vandret rulning"
+
+msgid "CANCEL"
+msgstr "OPHÆVE"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 afspilningsfejl: %s"
+
+msgid "CONFIRM"
+msgstr "BEKRÆFTE"
+
+msgid "CONTENTS"
+msgstr "INDHOLD"
+
+msgid "Card error"
+msgstr "Kort fejl"
+
+msgid "Cards updated"
+msgstr "Kort opdateret"
+
+msgid "Code:"
+msgstr "Kode:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kode: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Indhold fra Altadefinizione - Tryk på OK for at åbne..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Indhold fra CB01 - Tryk på OK for at åbne..."
+
+msgid "Description not available."
+msgstr "Beskrivelse ikke tilgængelig."
+
+msgid "Details for: '%s'"
+msgstr "Detaljer for: '%s'"
+
+msgid "Details not available"
+msgstr "Detaljer ikke tilgængelige"
+
+msgid "EXIT"
+msgstr "UDGANG"
+
+msgid "Enable debug"
+msgstr "Aktiver fejlretning"
+
+msgid "Enable debug output in logs"
+msgstr "Aktiver fejlretningsoutput i logfiler"
+
+msgid "Enter Captcha Code"
+msgstr "Indtast Captcha-kode"
+
+msgid "Episode %d"
+msgstr "Afsnit %d"
+
+msgid "Episode %d: %s"
+msgstr "Afsnit %d: %s"
+
+msgid "Episodes"
+msgstr "Episoder"
+
+msgid "Episodes:"
+msgstr "Afsnit:"
+
+msgid "Error loading CB01 series"
+msgstr "Fejl ved indlæsning af CB01-serien"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Fejl ved indlæsning af OnlineSerieTV-serien"
+
+msgid "Error loading TMDB"
+msgstr "Fejl ved indlæsning af TMDB"
+
+msgid "Error loading details"
+msgstr "Fejl ved indlæsning af detaljer"
+
+msgid "Error playing episode: %s"
+msgstr "Fejl ved afspilning af afsnit: %s"
+
+msgid "Error updating UI"
+msgstr "Fejl under opdatering af brugergrænsefladen"
+
+msgid "Exit"
+msgstr "Udgang"
+
+msgid "GROUPS"
+msgstr "GRUPPER"
+
+msgid "History"
+msgstr "Historie"
+
+msgid "Invalid streaming URL"
+msgstr "Ugyldig streaming-URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "VENSTRE/HØJRE naviger | OK åben | OP tilbage til grupper"
+
+msgid "Load error"
+msgstr "Fejl ved indlæsning"
+
+msgid "Loading details from TMDB..."
+msgstr "Indlæser detaljer fra TMDB..."
+
+msgid "Loading details..."
+msgstr "Indlæser detaljer..."
+
+msgid "Loading..."
+msgstr "Indlæser..."
+
+msgid "Max results"
+msgstr "Max resultater"
+
+msgid "Maximum number of results to display"
+msgstr "Maksimalt antal resultater at vise"
+
+msgid "Movie History"
+msgstr "Filmhistorie"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Ny søgning..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Ingen Altadefinizione episode fundet"
+
+msgid "No CB01 episode found"
+msgstr "Ingen CB01 episode fundet"
+
+msgid "No content"
+msgstr "Intet indhold"
+
+msgid "No content selected"
+msgstr "Intet indhold er valgt"
+
+msgid "No episodes available"
+msgstr "Ingen tilgængelige episoder"
+
+msgid "No previous searches found"
+msgstr "Ingen tidligere søgninger fundet"
+
+msgid "No relevant results found."
+msgstr "Ingen relevante resultater fundet."
+
+msgid "No results found on SC."
+msgstr "Ingen resultater fundet på SC."
+
+msgid "No streaming links found"
+msgstr "Ingen streaminglinks fundet"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - TV-serie"
+
+msgid "PLAY"
+msgstr "SPIL"
+
+msgid "Playback error: %s"
+msgstr "Afspilningsfejl: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Tryk på GRØN (film) eller GUL (tv-serie) for at søge..."
+
+msgid "Press OK"
+msgstr "Tryk på OK"
+
+msgid "Press OK to view full details..."
+msgstr "Tryk på OK for at se alle detaljer..."
+
+msgid "REFRESH"
+msgstr "OPFRISKE"
+
+msgid "Refresh"
+msgstr "Opfriske"
+
+msgid "Retry"
+msgstr "Prøv igen"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "SØGE"
+
+msgid "Search History"
+msgstr "Søgehistorik"
+
+msgid "Search Movie"
+msgstr "Søg film"
+
+msgid "Search TV Series"
+msgstr "Søg i tv-serier"
+
+msgid "Search timeout"
+msgstr "Søg timeout"
+
+msgid "Searching for: '%s'"
+msgstr "Søger efter: '%s'"
+
+msgid "Searching..."
+msgstr "Søger..."
+
+msgid "Season %d"
+msgstr "Sæson %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Sæson %d (%d episoder)"
+
+msgid "Seasons"
+msgstr "Årstider"
+
+msgid "Seasons:"
+msgstr "Årstider:"
+
+msgid "Series URL not found"
+msgstr "Seriens URL blev ikke fundet"
+
+msgid "Series URL not found."
+msgstr "Seriens URL blev ikke fundet."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API-nøgle blev ikke fundet"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API-nøgle ikke fundet eller ugyldig!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID ikke fundet"
+
+msgid "TV Series History"
+msgstr "TV-seriens historie"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout for søgeanmodninger (sekunder)"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Type: %s"
+msgstr ""
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "OP/NED grupper | VENSTRE/HØJRE kort | OK åben"
+
+msgid "Unable to get stream for this episode"
+msgstr "Kan ikke hente stream for dette afsnit"
+
+msgid "Unable to get streaming URL"
+msgstr "Kan ikke hente streaming-URL"
+
+msgid "Unable to load content details"
+msgstr "Kan ikke indlæse indholdsdetaljer"
+
+msgid "Unable to open details for this content"
+msgstr "Kan ikke åbne detaljer for dette indhold"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Kan ikke hente oplysninger fra TMDB."
+
+msgid "Unknown"
+msgstr "Ukendt"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Opdateret, %d grupper er ikke tilgængelige"
+
+msgid "Updating"
+msgstr "Opdatering"
+
+msgid "Updating cards %d/%d"
+msgstr "Opdaterer kort %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "fejl"
+
+msgid "loading"
+msgstr "indlæsning"

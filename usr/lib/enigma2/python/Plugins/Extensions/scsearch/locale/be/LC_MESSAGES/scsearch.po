@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 10:58+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "%d titles"
+msgstr "%d назвы"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ФІЛЬМЫ ---"
+
+msgid "--- New search ---"
+msgstr "--- Новы пошук ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ТЭЛЕСЕРЫЯЛ ---"
+
+msgid "0 titles"
+msgstr "0 назваў"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Эпізоды <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Поры года <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Памылка прайгравання Altadefinizione: %s"
+
+msgid "Available links:"
+msgstr "Даступныя спасылкі:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Прагляд груп і карт з дапамогай гарызантальнай пракруткі"
+
+msgid "CANCEL"
+msgstr "СКАСАВАЦЬ"
+
+msgid "CB01 playback error: %s"
+msgstr "Памылка прайгравання CB01: %s"
+
+msgid "CONFIRM"
+msgstr "ПАЦВЕРДЗІЦЬ"
+
+msgid "CONTENTS"
+msgstr "ЗМЕСТ"
+
+msgid "Card error"
+msgstr "Памылка карты"
+
+msgid "Cards updated"
+msgstr "Карты абноўлены"
+
+msgid "Code:"
+msgstr "Код:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Код: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Змесціва з Altadefinizione - націсніце OK, каб адкрыць..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Змесціва з CB01 - націсніце OK, каб адкрыць..."
+
+msgid "Description not available."
+msgstr "Апісанне недаступнае."
+
+msgid "Details for: '%s'"
+msgstr "Падрабязнасці для: '%s'"
+
+msgid "Details not available"
+msgstr "Падрабязнасці недаступныя"
+
+msgid "EXIT"
+msgstr "ВЫХОД"
+
+msgid "Enable debug"
+msgstr "Уключыць адладку"
+
+msgid "Enable debug output in logs"
+msgstr "Уключыць вывад адладкі ў журналах"
+
+msgid "Enter Captcha Code"
+msgstr "Увядзіце код Captcha"
+
+msgid "Episode %d"
+msgstr "Эпізод %d"
+
+msgid "Episode %d: %s"
+msgstr "Эпізод %d: %s"
+
+msgid "Episodes"
+msgstr "Эпізоды"
+
+msgid "Episodes:"
+msgstr "эпізоды:"
+
+msgid "Error loading CB01 series"
+msgstr "Памылка загрузкі серыі CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Памылка загрузкі серыяла OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Памылка загрузкі TMDB"
+
+msgid "Error loading details"
+msgstr "Памылка загрузкі дэталяў"
+
+msgid "Error playing episode: %s"
+msgstr "Памылка прайгравання серыі: %s"
+
+msgid "Error updating UI"
+msgstr "Памылка абнаўлення інтэрфейсу"
+
+msgid "Exit"
+msgstr "Выхад"
+
+msgid "GROUPS"
+msgstr "ГРУПЫ"
+
+msgid "History"
+msgstr "Гісторыя"
+
+msgid "Invalid streaming URL"
+msgstr "Няправільны URL плыні"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "навігацыя НАЛЕВА/НАПРАВА | ОК адкрыць | УВЕРХ назад да груп"
+
+msgid "Load error"
+msgstr "Памылка загрузкі"
+
+msgid "Loading details from TMDB..."
+msgstr "Загрузка звестак з TMDB..."
+
+msgid "Loading details..."
+msgstr "Загрузка звестак..."
+
+msgid "Loading..."
+msgstr "Загрузка..."
+
+msgid "Max results"
+msgstr "Максімальныя вынікі"
+
+msgid "Maximum number of results to display"
+msgstr "Максімальная колькасць вынікаў для адлюстравання"
+
+msgid "Movie History"
+msgstr "Гісторыя кіно"
+
+msgid "N/A"
+msgstr "Н/Д"
+
+msgid "New search..."
+msgstr "Новы пошук..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Эпізод Altadefinizione не знойдзены"
+
+msgid "No CB01 episode found"
+msgstr "Эпізод CB01 не знойдзены"
+
+msgid "No content"
+msgstr "Няма кантэнту"
+
+msgid "No content selected"
+msgstr "Змесціва не выбрана"
+
+msgid "No episodes available"
+msgstr "Серый няма"
+
+msgid "No previous searches found"
+msgstr "Папярэднія пошукі не знойдзены"
+
+msgid "No relevant results found."
+msgstr "Адпаведных вынікаў не знойдзена."
+
+msgid "No results found on SC."
+msgstr "Нічога не знойдзена на SC."
+
+msgid "No streaming links found"
+msgstr "Спасылкі на трансляцыю не знойдзены"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - серыял"
+
+msgid "PLAY"
+msgstr "ГУЛЬНЯ"
+
+msgid "Playback error: %s"
+msgstr "Памылка прайгравання: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Каб шукаць..."
+
+msgid "Press OK"
+msgstr "Націсніце OK"
+
+msgid "Press OK to view full details..."
+msgstr "Націсніце OK, каб прагледзець поўную інфармацыю..."
+
+msgid "REFRESH"
+msgstr "АБНАЎЛЕННЕ"
+
+msgid "Refresh"
+msgstr "Абнавіць"
+
+msgid "Retry"
+msgstr "Паўтарыць"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ПОШУК"
+
+msgid "Search History"
+msgstr "Гісторыя пошуку"
+
+msgid "Search Movie"
+msgstr "Пошук фільма"
+
+msgid "Search TV Series"
+msgstr "Пошук серыялаў"
+
+msgid "Search timeout"
+msgstr "Тайм-аўт пошуку"
+
+msgid "Searching for: '%s'"
+msgstr "Пошук: "%s""
+
+msgid "Searching..."
+msgstr "Пошук..."
+
+msgid "Season %d"
+msgstr "Сезон %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Сезон %d (серый: %d)"
+
+msgid "Seasons"
+msgstr "Поры года"
+
+msgid "Seasons:"
+msgstr "Поры года:"
+
+msgid "Series URL not found"
+msgstr "URL серыі не знойдзены"
+
+msgid "Series URL not found."
+msgstr "URL серыі не знойдзены."
+
+msgid "TMDB API key not found"
+msgstr "Ключ API TMDB не знойдзены"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Ключ API TMDB не знойдзены або несапраўдны!"
+
+msgid "TMDB ID not found"
+msgstr "Ідэнтыфікатар TMDB не знойдзены"
+
+msgid "TV Series History"
+msgstr "Гісторыя серыялаў"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Тайм-аўт пошукавых запытаў (секунды)"
+
+msgid "Title"
+msgstr "Назва"
+
+msgid "Type: %s"
+msgstr "Увядзіце: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Групы УВЕРХ/УНІЗ | ЛЕВАЯ/ПРАВАЯ карты | ОК адкрыта"
+
+msgid "Unable to get stream for this episode"
+msgstr "Немагчыма атрымаць паток для гэтай серыі"
+
+msgid "Unable to get streaming URL"
+msgstr "Немагчыма атрымаць URL-адрас трансляцыі"
+
+msgid "Unable to load content details"
+msgstr "Немагчыма загрузіць дэталі змесціва"
+
+msgid "Unable to open details for this content"
+msgstr "Немагчыма адкрыць дэталі для гэтага змесціва"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Немагчыма атрымаць інфармацыю з TMDB."
+
+msgid "Unknown"
+msgstr "Невядомы"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Абноўлена, %d групы недаступныя"
+
+msgid "Updating"
+msgstr "Абнаўленне"
+
+msgid "Updating cards %d/%d"
+msgstr "Абнаўленне карт %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Высокая выразнасць] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "памылка"
+
+msgid "loading"
+msgstr "загрузка"

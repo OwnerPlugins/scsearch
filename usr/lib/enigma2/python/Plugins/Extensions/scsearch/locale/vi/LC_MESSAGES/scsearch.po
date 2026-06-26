@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:54+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Vietnamese <translation-team-vi@lists.sourceforge.net>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%d titles"
+msgstr "%d tựa đề"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- PHIM ---"
+
+msgid "--- New search ---"
+msgstr "--- Tìm kiếm mới ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- SERIES TRUYỀN HÌNH ---"
+
+msgid "0 titles"
+msgstr "0 danh hiệu"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Các tập <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Các mùa <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Lỗi phát lại Altadefinizione: %s"
+
+msgid "Available links:"
+msgstr "Liên kết có sẵn:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Duyệt các nhóm và thẻ bằng cách cuộn ngang"
+
+msgid "CANCEL"
+msgstr "HỦY BỎ"
+
+msgid "CB01 playback error: %s"
+msgstr "Lỗi phát lại CB01: %s"
+
+msgid "CONFIRM"
+msgstr "XÁC NHẬN"
+
+msgid "CONTENTS"
+msgstr "NỘI DUNG"
+
+msgid "Card error"
+msgstr "Lỗi thẻ"
+
+msgid "Cards updated"
+msgstr "Đã cập nhật thẻ"
+
+msgid "Code:"
+msgstr "Mã số:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Mã: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Nội dung từ Altadefinizione - Nhấn OK để mở..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Nội dung từ CB01 - Nhấn OK để mở..."
+
+msgid "Description not available."
+msgstr "Mô tả không có sẵn."
+
+msgid "Details for: '%s'"
+msgstr "Thông tin chi tiết về: '%s'"
+
+msgid "Details not available"
+msgstr "Thông tin chi tiết không có sẵn"
+
+msgid "EXIT"
+msgstr "RA"
+
+msgid "Enable debug"
+msgstr "Bật gỡ lỗi"
+
+msgid "Enable debug output in logs"
+msgstr "Bật đầu ra gỡ lỗi trong nhật ký"
+
+msgid "Enter Captcha Code"
+msgstr "Nhập mã Captcha"
+
+msgid "Episode %d"
+msgstr "Tập %d"
+
+msgid "Episode %d: %s"
+msgstr "Tập %d: %s"
+
+msgid "Episodes"
+msgstr "tập phim"
+
+msgid "Episodes:"
+msgstr "Các tập:"
+
+msgid "Error loading CB01 series"
+msgstr "Lỗi tải dòng CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Lỗi tải loạt phim OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Lỗi tải TMDB"
+
+msgid "Error loading details"
+msgstr "Lỗi tải chi tiết"
+
+msgid "Error playing episode: %s"
+msgstr "Lỗi khi phát tập: %s"
+
+msgid "Error updating UI"
+msgstr "Lỗi cập nhật giao diện người dùng"
+
+msgid "Exit"
+msgstr "Ra"
+
+msgid "GROUPS"
+msgstr "NHÓM"
+
+msgid "History"
+msgstr "Lịch sử"
+
+msgid "Invalid streaming URL"
+msgstr "URL phát trực tuyến không hợp lệ"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "Điều hướng TRÁI/PHẢI | Được rồi mở | LÊN trở lại nhóm"
+
+msgid "Load error"
+msgstr "Lỗi tải"
+
+msgid "Loading details from TMDB..."
+msgstr "Đang tải chi tiết từ TMDB..."
+
+msgid "Loading details..."
+msgstr "Đang tải chi tiết..."
+
+msgid "Loading..."
+msgstr "Đang tải..."
+
+msgid "Max results"
+msgstr "Kết quả tối đa"
+
+msgid "Maximum number of results to display"
+msgstr "Số lượng kết quả tối đa để hiển thị"
+
+msgid "Movie History"
+msgstr "Lịch sử phim"
+
+msgid "N/A"
+msgstr "không áp dụng"
+
+msgid "New search..."
+msgstr "Tìm kiếm mới..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Không tìm thấy tập Altadefinizione nào"
+
+msgid "No CB01 episode found"
+msgstr "Không tìm thấy tập CB01"
+
+msgid "No content"
+msgstr "Không có nội dung"
+
+msgid "No content selected"
+msgstr "Không có nội dung nào được chọn"
+
+msgid "No episodes available"
+msgstr "Không có tập nào"
+
+msgid "No previous searches found"
+msgstr "Không tìm thấy tìm kiếm trước đó"
+
+msgid "No relevant results found."
+msgstr "Không tìm thấy kết quả có liên quan."
+
+msgid "No results found on SC."
+msgstr "Không tìm thấy kết quả nào trên SC."
+
+msgid "No streaming links found"
+msgstr "Không tìm thấy liên kết phát trực tuyến"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Phim Truyền Hình"
+
+msgid "PLAY"
+msgstr "CHƠI"
+
+msgid "Playback error: %s"
+msgstr "Lỗi phát lại: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Nhấn XANH (Phim) hoặc VÀNG (Phim truyền hình) để tìm kiếm..."
+
+msgid "Press OK"
+msgstr "Nhấn OK"
+
+msgid "Press OK to view full details..."
+msgstr "Nhấn OK để xem đầy đủ chi tiết..."
+
+msgid "REFRESH"
+msgstr "LÀM CHO KHỎE LẠI"
+
+msgid "Refresh"
+msgstr "Làm cho khỏe lại"
+
+msgid "Retry"
+msgstr "Thử lại"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "TÌM KIẾM"
+
+msgid "Search History"
+msgstr "Lịch sử tìm kiếm"
+
+msgid "Search Movie"
+msgstr "Tìm kiếm phim"
+
+msgid "Search TV Series"
+msgstr "Tìm kiếm phim truyền hình"
+
+msgid "Search timeout"
+msgstr "Hết thời gian tìm kiếm"
+
+msgid "Searching for: '%s'"
+msgstr "Đang tìm kiếm: '%s'"
+
+msgid "Searching..."
+msgstr "Đang tìm kiếm..."
+
+msgid "Season %d"
+msgstr "Phần %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Phần %d (%d tập)"
+
+msgid "Seasons"
+msgstr "Mùa"
+
+msgid "Seasons:"
+msgstr "Mùa:"
+
+msgid "Series URL not found"
+msgstr "Không tìm thấy URL bộ truyện"
+
+msgid "Series URL not found."
+msgstr "Không tìm thấy URL bộ sách."
+
+msgid "TMDB API key not found"
+msgstr "Không tìm thấy khóa API TMDB"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Không tìm thấy khóa API TMDB hoặc không hợp lệ!"
+
+msgid "TMDB ID not found"
+msgstr "Không tìm thấy ID TMDB"
+
+msgid "TV Series History"
+msgstr "Lịch sử phim truyền hình"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Thời gian chờ cho yêu cầu tìm kiếm (giây)"
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Type: %s"
+msgstr "Loại: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
+
+msgid "Unable to get stream for this episode"
+msgstr "Không thể nhận luồng cho tập này"
+
+msgid "Unable to get streaming URL"
+msgstr "Không thể lấy URL phát trực tuyến"
+
+msgid "Unable to load content details"
+msgstr "Không thể tải chi tiết nội dung"
+
+msgid "Unable to open details for this content"
+msgstr "Không thể mở chi tiết cho nội dung này"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Không thể lấy thông tin từ TMDB."
+
+msgid "Unknown"
+msgstr "Không xác định"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Đã cập nhật, %d nhóm không có sẵn"
+
+msgid "Updating"
+msgstr "Đang cập nhật"
+
+msgid "Updating cards %d/%d"
+msgstr "Đang cập nhật thẻ %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Độ phân giải cao] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "lỗi"
+
+msgid "loading"
+msgstr "đang tải"

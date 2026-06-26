@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:17+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Estonian <linux-ee@lists.eenet.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d titles"
+msgstr "%d pealkirja"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMID ---"
+
+msgid "--- New search ---"
+msgstr "--- Uus otsing ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TELESARJAD ---"
+
+msgid "0 titles"
+msgstr "0 pealkirja"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Episoodid <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Aastaajad <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione taasesituse viga: %s"
+
+msgid "Available links:"
+msgstr "Saadaolevad lingid:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Sirvige rühmi ja kaarte horisontaalse kerimisega"
+
+msgid "CANCEL"
+msgstr "TÜHISTA"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 taasesituse viga: %s"
+
+msgid "CONFIRM"
+msgstr "KINNITA"
+
+msgid "CONTENTS"
+msgstr "SISUKORD"
+
+msgid "Card error"
+msgstr "Kaardi viga"
+
+msgid "Cards updated"
+msgstr "Kaardid uuendatud"
+
+msgid "Code:"
+msgstr "Kood:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kood: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione'i sisu – avamiseks vajutage nuppu OK..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Sisu CB01-st – avamiseks vajutage nuppu OK..."
+
+msgid "Description not available."
+msgstr "Kirjeldus pole saadaval."
+
+msgid "Details for: '%s'"
+msgstr "Üksikasjad: '%s'"
+
+msgid "Details not available"
+msgstr "Üksikasjad pole saadaval"
+
+msgid "EXIT"
+msgstr "VÄLJU"
+
+msgid "Enable debug"
+msgstr "Luba silumine"
+
+msgid "Enable debug output in logs"
+msgstr "Luba logides silumisväljund"
+
+msgid "Enter Captcha Code"
+msgstr "Sisestage Captcha kood"
+
+msgid "Episode %d"
+msgstr "%d jagu"
+
+msgid "Episode %d: %s"
+msgstr "Jagu %d: %s"
+
+msgid "Episodes"
+msgstr "Episoodid"
+
+msgid "Episodes:"
+msgstr "Episoodid:"
+
+msgid "Error loading CB01 series"
+msgstr "Viga CB01 seeria laadimisel"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Viga OnlineSerieTV sarja laadimisel"
+
+msgid "Error loading TMDB"
+msgstr "Viga TMDB laadimisel"
+
+msgid "Error loading details"
+msgstr "Viga üksikasjade laadimisel"
+
+msgid "Error playing episode: %s"
+msgstr "Viga jao esitamisel: %s"
+
+msgid "Error updating UI"
+msgstr "Viga kasutajaliidese värskendamisel"
+
+msgid "Exit"
+msgstr "Välju"
+
+msgid "GROUPS"
+msgstr "RÜHMAD"
+
+msgid "History"
+msgstr "Ajalugu"
+
+msgid "Invalid streaming URL"
+msgstr "Vale voogesituse URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "VASAKULE/PAREMALE navigeerimine | OK avatud | ÜLES tagasi rühmadesse"
+
+msgid "Load error"
+msgstr "Laadimisviga"
+
+msgid "Loading details from TMDB..."
+msgstr "Üksikasjade laadimine TMDB-st..."
+
+msgid "Loading details..."
+msgstr "Üksikasjade laadimine..."
+
+msgid "Loading..."
+msgstr "Laadimine..."
+
+msgid "Max results"
+msgstr "Maksimaalsed tulemused"
+
+msgid "Maximum number of results to display"
+msgstr "Kuvatavate tulemuste maksimaalne arv"
+
+msgid "Movie History"
+msgstr "Filmi ajalugu"
+
+msgid "N/A"
+msgstr "Ei kehti"
+
+msgid "New search..."
+msgstr "Uus otsing..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Ühtegi Altadefinizione episoodi ei leitud"
+
+msgid "No CB01 episode found"
+msgstr "CB01 jagu ei leitud"
+
+msgid "No content"
+msgstr "Sisu puudub"
+
+msgid "No content selected"
+msgstr "Sisu pole valitud"
+
+msgid "No episodes available"
+msgstr "Saadaval pole ühtegi episoodi"
+
+msgid "No previous searches found"
+msgstr "Varasemaid otsinguid ei leitud"
+
+msgid "No relevant results found."
+msgstr "Asjakohaseid tulemusi ei leitud."
+
+msgid "No results found on SC."
+msgstr "SC kohta tulemusi ei leitud."
+
+msgid "No streaming links found"
+msgstr "Voogesituse linke ei leitud"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV – telesari"
+
+msgid "PLAY"
+msgstr "MÄNGI"
+
+msgid "Playback error: %s"
+msgstr "Taasesituse viga: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Otsimiseks vajutage ROHELIST (film) või KOLLAST (telesari)..."
+
+msgid "Press OK"
+msgstr "Vajutage nuppu OK"
+
+msgid "Press OK to view full details..."
+msgstr "Täielike üksikasjade vaatamiseks vajutage OK..."
+
+msgid "REFRESH"
+msgstr "VÄRSKENDAMINE"
+
+msgid "Refresh"
+msgstr "Värskenda"
+
+msgid "Retry"
+msgstr "Proovi uuesti"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "OTSI"
+
+msgid "Search History"
+msgstr "Otsinguajalugu"
+
+msgid "Search Movie"
+msgstr "Otsi filmist"
+
+msgid "Search TV Series"
+msgstr "Otsige teleseriaale"
+
+msgid "Search timeout"
+msgstr "Otsingu ajalõpp"
+
+msgid "Searching for: '%s'"
+msgstr "Otsin: '%s'"
+
+msgid "Searching..."
+msgstr "Otsimine..."
+
+msgid "Season %d"
+msgstr "Hooaeg %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d hooaeg (%d jagu)"
+
+msgid "Seasons"
+msgstr "Aastaajad"
+
+msgid "Seasons:"
+msgstr "Aastaajad:"
+
+msgid "Series URL not found"
+msgstr "Sarja URL-i ei leitud"
+
+msgid "Series URL not found."
+msgstr "Sarja URL-i ei leitud."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API võtit ei leitud"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API võtit ei leitud või see on kehtetu!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID-d ei leitud"
+
+msgid "TV Series History"
+msgstr "Telesarjade ajalugu"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Otsingupäringute ajalõpp (sekundites)"
+
+msgid "Title"
+msgstr "Pealkiri"
+
+msgid "Type: %s"
+msgstr "Tüüp: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
+
+msgid "Unable to get stream for this episode"
+msgstr "Selle jao voogesitust ei saa hankida"
+
+msgid "Unable to get streaming URL"
+msgstr "Voogesituse URL-i ei saa hankida"
+
+msgid "Unable to load content details"
+msgstr "Sisu üksikasju ei saa laadida"
+
+msgid "Unable to open details for this content"
+msgstr "Selle sisu üksikasju ei saa avada"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB-st ei saa teavet hankida."
+
+msgid "Unknown"
+msgstr "Tundmatu"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Värskendatud, %d gruppi pole saadaval"
+
+msgid "Updating"
+msgstr "Värskendamine"
+
+msgid "Updating cards %d/%d"
+msgstr "Kaartide värskendamine %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Kõrglahutus] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "viga"
+
+msgid "loading"
+msgstr "laadimine"

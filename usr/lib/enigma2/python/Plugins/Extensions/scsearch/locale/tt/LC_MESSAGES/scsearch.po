@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:46+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tatar\n"
+"Language: tt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "% d исемнәр"
+
+msgid "%s %s"
+msgstr "% s% s"
+
+msgid "--- MOVIES ---"
+msgstr "--- Фильмнар ---"
+
+msgid "--- New search ---"
+msgstr "--- Яңа эзләү ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- Телевизион сериаллар ---"
+
+msgid "0 titles"
+msgstr "0 титул"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Эпизодлар <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Сезоннар <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione уйнау хата:% s"
+
+msgid "Available links:"
+msgstr "Мөмкин булган сылтамалар:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Төркемнәрне һәм карточкаларны горизонталь әйләндерү белән карагыз"
+
+msgid "CANCEL"
+msgstr "БАСТЫРУ"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 уйнау хата:% s"
+
+msgid "CONFIRM"
+msgstr "КОНФИРМ"
+
+msgid "CONTENTS"
+msgstr "Эчтәлек"
+
+msgid "Card error"
+msgstr "Карта хата"
+
+msgid "Cards updated"
+msgstr "Карточкалар яңартылды"
+
+msgid "Code:"
+msgstr "Код:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Код: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione эчтәлеге - ачу өчен ОК басыгыз ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 эчтәлеге - ачу өчен ОК басыгыз ..."
+
+msgid "Description not available."
+msgstr "Тасвирлау мөмкин түгел."
+
+msgid "Details for: '%s'"
+msgstr "Детальләр: '% s'"
+
+msgid "Details not available"
+msgstr "Детальләр юк"
+
+msgid "EXIT"
+msgstr "ЧЫГЫШ"
+
+msgid "Enable debug"
+msgstr "Чишүне рөхсәт итегез"
+
+msgid "Enable debug output in logs"
+msgstr "Бүрәнәләрдә төзәтүне чыгаруны рөхсәт итегез"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha кодын кертегез"
+
+msgid "Episode %d"
+msgstr "Эпизод% d"
+
+msgid "Episode %d: %s"
+msgstr "Эпизод% d:% s"
+
+msgid "Episodes"
+msgstr "Эпизодлар"
+
+msgid "Episodes:"
+msgstr "Эпизодлар:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 сериясен йөкләүдә хата"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV сериясен йөкләүдә хата"
+
+msgid "Error loading TMDB"
+msgstr "TMDB йөкләүдә хата"
+
+msgid "Error loading details"
+msgstr "Детальләрне йөкләүдә хата"
+
+msgid "Error playing episode: %s"
+msgstr "Эпизод уйнауда хата:% s"
+
+msgid "Error updating UI"
+msgstr "UI яңартуда хата"
+
+msgid "Exit"
+msgstr "Чык"
+
+msgid "GROUPS"
+msgstr "Төркемнәр"
+
+msgid "History"
+msgstr "Тарих"
+
+msgid "Invalid streaming URL"
+msgstr "Яраксыз агым URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "Сул / Хокук юл | Ярар ачык | Төркемнәргә кире кайту"
+
+msgid "Load error"
+msgstr "Йөк хата"
+
+msgid "Loading details from TMDB..."
+msgstr "ТМДБдан детальләр йөкләү ..."
+
+msgid "Loading details..."
+msgstr "Детальләрне йөкләү ..."
+
+msgid "Loading..."
+msgstr "Йөкләү ..."
+
+msgid "Max results"
+msgstr "Максималь нәтиҗәләр"
+
+msgid "Maximum number of results to display"
+msgstr "Күрсәтү өчен максималь нәтиҗәләр"
+
+msgid "Movie History"
+msgstr "Кино тарихы"
+
+msgid "N/A"
+msgstr "N / A."
+
+msgid "New search..."
+msgstr "Яңа эзләү ..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione эпизоды табылмады"
+
+msgid "No CB01 episode found"
+msgstr "CB01 эпизоды табылмады"
+
+msgid "No content"
+msgstr "Эчтәлек юк"
+
+msgid "No content selected"
+msgstr "Эчтәлек сайланмаган"
+
+msgid "No episodes available"
+msgstr "Эпизодлар юк"
+
+msgid "No previous searches found"
+msgstr "Элекке эзләнүләр табылмады"
+
+msgid "No relevant results found."
+msgstr "Тиешле нәтиҗәләр табылмады."
+
+msgid "No results found on SC."
+msgstr "СКда нәтиҗәләр табылмады."
+
+msgid "No streaming links found"
+msgstr "Агымдагы сылтамалар табылмады"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - сериаллар"
+
+msgid "PLAY"
+msgstr "Уйна"
+
+msgid "Playback error: %s"
+msgstr "Уйнау хата:% s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Эзләү өчен яшел (кино) яки YELLOW (сериал) басыгыз ..."
+
+msgid "Press OK"
+msgstr "Ярар"
+
+msgid "Press OK to view full details..."
+msgstr "Тулы мәгълүматны карау өчен ОК басыгыз ..."
+
+msgid "REFRESH"
+msgstr "РЕФРЕШ"
+
+msgid "Refresh"
+msgstr "Яңарту"
+
+msgid "Retry"
+msgstr "Кабатлап карагыз"
+
+msgid "SC"
+msgstr "СК"
+
+msgid "SEARCH"
+msgstr "Эзләү"
+
+msgid "Search History"
+msgstr "Эзләү тарихы"
+
+msgid "Search Movie"
+msgstr "Кино эзләү"
+
+msgid "Search TV Series"
+msgstr "Телевизион сериалларны эзләү"
+
+msgid "Search timeout"
+msgstr "Эзләү вакыты"
+
+msgid "Searching for: '%s'"
+msgstr "Эзләү: '% s'"
+
+msgid "Searching..."
+msgstr "Эзләү ..."
+
+msgid "Season %d"
+msgstr "Сезон% d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Сезон% d (% d эпизодлар)"
+
+msgid "Seasons"
+msgstr "Фасыллар"
+
+msgid "Seasons:"
+msgstr "Фасыллар:"
+
+msgid "Series URL not found"
+msgstr "Серия URL табылмады"
+
+msgid "Series URL not found."
+msgstr "Серия URL табылмады."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API ачкычы табылмады"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API ачкычы табылмады яки яраксыз!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID табылмады"
+
+msgid "TV Series History"
+msgstr "Телевизион серияләр тарихы"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Эзләү соравы вакыты (секундлар)"
+
+msgid "Title"
+msgstr "Титул"
+
+msgid "Type: %s"
+msgstr "Төре:% s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP / DOWN төркемнәре | Сул / Уң карточкалар | Ярар"
+
+msgid "Unable to get stream for this episode"
+msgstr "Бу эпизод өчен агым ала алмый"
+
+msgid "Unable to get streaming URL"
+msgstr "Агымдагы URL ала алмый"
+
+msgid "Unable to load content details"
+msgstr "Эчтәлек детальләрен йөкләп булмый"
+
+msgid "Unable to open details for this content"
+msgstr "Бу эчтәлек өчен детальләр ача алмый"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "ТМДБдан мәгълүмат алып булмый."
+
+msgid "Unknown"
+msgstr "Билгесез"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Яңартылды,% d төркемнәре мөмкин түгел"
+
+msgid "Updating"
+msgstr "Яңарту"
+
+msgid "Updating cards %d/%d"
+msgstr "Карточкаларны яңарту% d /% d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Defгары төшенчә]% s"
+
+msgid "[CB01] %s"
+msgstr "[CB01]% s"
+
+msgid "error"
+msgstr "хата"
+
+msgid "loading"
+msgstr "йөкләү"

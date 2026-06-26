@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:38+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Thai <(nothing)>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d เรื่อง"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ภาพยนตร์ ---"
+
+msgid "--- New search ---"
+msgstr "--- การค้นหาใหม่ ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ละครโทรทัศน์ ---"
+
+msgid "0 titles"
+msgstr "0 เรื่อง"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> ตอน <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> ฤดูกาล <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "ข้อผิดพลาดในการเล่น Altadefinizione: %s"
+
+msgid "Available links:"
+msgstr "ลิงค์ที่มี:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "เรียกดูกลุ่มและการ์ดด้วยการเลื่อนแนวนอน"
+
+msgid "CANCEL"
+msgstr "ยกเลิก"
+
+msgid "CB01 playback error: %s"
+msgstr "ข้อผิดพลาดในการเล่น CB01: %s"
+
+msgid "CONFIRM"
+msgstr "ยืนยัน"
+
+msgid "CONTENTS"
+msgstr "สารบัญ"
+
+msgid "Card error"
+msgstr "ข้อผิดพลาดของการ์ด"
+
+msgid "Cards updated"
+msgstr "อัปเดตการ์ดแล้ว"
+
+msgid "Code:"
+msgstr "รหัส:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "รหัส: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "เนื้อหาจาก Altadefinizione - กดตกลงเพื่อเปิด..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "เนื้อหาจาก CB01 - กด OK เพื่อเปิด..."
+
+msgid "Description not available."
+msgstr "คำอธิบายไม่พร้อมใช้งาน"
+
+msgid "Details for: '%s'"
+msgstr "รายละเอียดสำหรับ: '%s'"
+
+msgid "Details not available"
+msgstr "ไม่มีรายละเอียด"
+
+msgid "EXIT"
+msgstr "ออก"
+
+msgid "Enable debug"
+msgstr "เปิดใช้งานการแก้ไขข้อบกพร่อง"
+
+msgid "Enable debug output in logs"
+msgstr "เปิดใช้งานเอาต์พุตการแก้ไขข้อบกพร่องในบันทึก"
+
+msgid "Enter Captcha Code"
+msgstr "ป้อนรหัสแคปต์ชา"
+
+msgid "Episode %d"
+msgstr "ตอนที่ %d"
+
+msgid "Episode %d: %s"
+msgstr "ตอนที่ %d: %s"
+
+msgid "Episodes"
+msgstr "ตอน"
+
+msgid "Episodes:"
+msgstr "ตอน:"
+
+msgid "Error loading CB01 series"
+msgstr "เกิดข้อผิดพลาดในการโหลดซีรีย์ CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "เกิดข้อผิดพลาดในการโหลดซีรีส์ OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "เกิดข้อผิดพลาดในการโหลด TMDB"
+
+msgid "Error loading details"
+msgstr "เกิดข้อผิดพลาดในการโหลดรายละเอียด"
+
+msgid "Error playing episode: %s"
+msgstr "เกิดข้อผิดพลาดในการเล่นตอน: %s"
+
+msgid "Error updating UI"
+msgstr "เกิดข้อผิดพลาดในการอัปเดต UI"
+
+msgid "Exit"
+msgstr "ออก"
+
+msgid "GROUPS"
+msgstr "กลุ่ม"
+
+msgid "History"
+msgstr "ประวัติศาสตร์"
+
+msgid "Invalid streaming URL"
+msgstr "URL การสตรีมไม่ถูกต้อง"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "นำทางซ้าย/ขวา | ตกลง เปิด | ขึ้นกลับเข้ากลุ่ม"
+
+msgid "Load error"
+msgstr "โหลดผิดพลาด"
+
+msgid "Loading details from TMDB..."
+msgstr "กำลังโหลดรายละเอียดจาก TMDB..."
+
+msgid "Loading details..."
+msgstr "กำลังโหลดรายละเอียด..."
+
+msgid "Loading..."
+msgstr "กำลังโหลด..."
+
+msgid "Max results"
+msgstr "ผลลัพธ์สูงสุด"
+
+msgid "Maximum number of results to display"
+msgstr "จำนวนผลลัพธ์สูงสุดที่จะแสดง"
+
+msgid "Movie History"
+msgstr "ประวัติภาพยนตร์"
+
+msgid "N/A"
+msgstr "ไม่มี"
+
+msgid "New search..."
+msgstr "ค้นหาใหม่..."
+
+msgid "No Altadefinizione episode found"
+msgstr "ไม่พบตอนของ Altadefinizione"
+
+msgid "No CB01 episode found"
+msgstr "ไม่พบตอน CB01"
+
+msgid "No content"
+msgstr "ไม่มีเนื้อหา"
+
+msgid "No content selected"
+msgstr "ไม่ได้เลือกเนื้อหา"
+
+msgid "No episodes available"
+msgstr "ไม่มีตอนที่มีอยู่"
+
+msgid "No previous searches found"
+msgstr "ไม่พบการค้นหาก่อนหน้านี้"
+
+msgid "No relevant results found."
+msgstr "ไม่พบผลลัพธ์ที่เกี่ยวข้อง"
+
+msgid "No results found on SC."
+msgstr "ไม่พบผลลัพธ์ใน SC"
+
+msgid "No streaming links found"
+msgstr "ไม่พบลิงก์สตรีมมิ่ง"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - ละครโทรทัศน์"
+
+msgid "PLAY"
+msgstr "เล่น"
+
+msgid "Playback error: %s"
+msgstr "ข้อผิดพลาดในการเล่น: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "กด สีเขียว (ภาพยนตร์) หรือ สีเหลือง (ละครโทรทัศน์) เพื่อค้นหา..."
+
+msgid "Press OK"
+msgstr "กดตกลง"
+
+msgid "Press OK to view full details..."
+msgstr "กด OK เพื่อดูรายละเอียดทั้งหมด..."
+
+msgid "REFRESH"
+msgstr "รีเฟรช"
+
+msgid "Refresh"
+msgstr "รีเฟรช"
+
+msgid "Retry"
+msgstr "ลองอีกครั้ง"
+
+msgid "SC"
+msgstr "เอสซี"
+
+msgid "SEARCH"
+msgstr "ค้นหา"
+
+msgid "Search History"
+msgstr "ประวัติการค้นหา"
+
+msgid "Search Movie"
+msgstr "ค้นหาภาพยนตร์"
+
+msgid "Search TV Series"
+msgstr "ค้นหาละครทีวี"
+
+msgid "Search timeout"
+msgstr "หมดเวลาการค้นหา"
+
+msgid "Searching for: '%s'"
+msgstr "กำลังค้นหา: '%s'"
+
+msgid "Searching..."
+msgstr "กำลังค้นหา..."
+
+msgid "Season %d"
+msgstr "ฤดูกาล %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "ซีซัน %d (%d ตอน)"
+
+msgid "Seasons"
+msgstr "ฤดูกาล"
+
+msgid "Seasons:"
+msgstr "ฤดูกาล:"
+
+msgid "Series URL not found"
+msgstr "ไม่พบ URL ซีรีส์"
+
+msgid "Series URL not found."
+msgstr "ไม่พบ URL ซีรีส์"
+
+msgid "TMDB API key not found"
+msgstr "ไม่พบคีย์ TMDB API"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "ไม่พบคีย์ TMDB API หรือไม่ถูกต้อง!"
+
+msgid "TMDB ID not found"
+msgstr "ไม่พบรหัส TMDB"
+
+msgid "TV Series History"
+msgstr "ประวัติละครโทรทัศน์"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "หมดเวลาสำหรับคำขอค้นหา (วินาที)"
+
+msgid "Title"
+msgstr "ชื่อ"
+
+msgid "Type: %s"
+msgstr "ประเภท: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "กลุ่มขึ้น/ลง | การ์ดซ้าย/ขวา | โอเค เปิดเลย"
+
+msgid "Unable to get stream for this episode"
+msgstr "ไม่สามารถรับสตรีมสำหรับตอนนี้ได้"
+
+msgid "Unable to get streaming URL"
+msgstr "ไม่สามารถรับ URL การสตรีมได้"
+
+msgid "Unable to load content details"
+msgstr "ไม่สามารถโหลดรายละเอียดเนื้อหาได้"
+
+msgid "Unable to open details for this content"
+msgstr "ไม่สามารถเปิดรายละเอียดสำหรับเนื้อหานี้ได้"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "ไม่สามารถดึงข้อมูลจาก TMDB"
+
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+msgid "Updated, %d groups unavailable"
+msgstr "อัปเดตแล้ว %d กลุ่มไม่พร้อมใช้งาน"
+
+msgid "Updating"
+msgstr "กำลังอัปเดต"
+
+msgid "Updating cards %d/%d"
+msgstr "กำลังอัปเดตการ์ด %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[ความคมชัดสูง] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "ข้อผิดพลาด"
+
+msgid "loading"
+msgstr "กำลังโหลด"

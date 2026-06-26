@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:55+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "%d titles"
+msgstr "%d pavadinimų"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMAI ---"
+
+msgid "--- New search ---"
+msgstr "--- Nauja paieška ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV Serialas ---"
+
+msgid "0 titles"
+msgstr "0 pavadinimų"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Epizodai <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Metų laikai <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione atkūrimo klaida: %s"
+
+msgid "Available links:"
+msgstr "Galimos nuorodos:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Naršykite grupes ir korteles su horizontaliu slinkimu"
+
+msgid "CANCEL"
+msgstr "ATŠAUKTI"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 atkūrimo klaida: %s"
+
+msgid "CONFIRM"
+msgstr "PATVIRTINTI"
+
+msgid "CONTENTS"
+msgstr "TURINYS"
+
+msgid "Card error"
+msgstr "Kortelės klaida"
+
+msgid "Cards updated"
+msgstr "Kortelės atnaujintos"
+
+msgid "Code:"
+msgstr "Kodas:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kodas: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Turinys iš Altadefinizione – paspauskite OK, kad atidarytumėte..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Turinys iš CB01 – paspauskite OK, kad atidarytumėte..."
+
+msgid "Description not available."
+msgstr "Aprašymas nepasiekiamas."
+
+msgid "Details for: '%s'"
+msgstr "Išsami informacija apie: „%s“"
+
+msgid "Details not available"
+msgstr "Išsamios informacijos nėra"
+
+msgid "EXIT"
+msgstr "IŠĖJIMAS"
+
+msgid "Enable debug"
+msgstr "Įgalinti derinimą"
+
+msgid "Enable debug output in logs"
+msgstr "Įgalinti derinimo išvestį žurnaluose"
+
+msgid "Enter Captcha Code"
+msgstr "Įveskite „Captcha“ kodą"
+
+msgid "Episode %d"
+msgstr "%d serija"
+
+msgid "Episode %d: %s"
+msgstr "%d serija: %s"
+
+msgid "Episodes"
+msgstr "Epizodai"
+
+msgid "Episodes:"
+msgstr "Epizodai:"
+
+msgid "Error loading CB01 series"
+msgstr "Įkeliant CB01 seriją įvyko klaida"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Įkeliant OnlineSerieTV serialą įvyko klaida"
+
+msgid "Error loading TMDB"
+msgstr "Įkeliant TMDB įvyko klaida"
+
+msgid "Error loading details"
+msgstr "Įkeliant išsamią informaciją įvyko klaida"
+
+msgid "Error playing episode: %s"
+msgstr "Klaida leidžiant seriją: %s"
+
+msgid "Error updating UI"
+msgstr "Klaida atnaujinant vartotojo sąsają"
+
+msgid "Exit"
+msgstr "Išeiti"
+
+msgid "GROUPS"
+msgstr "GRUPĖS"
+
+msgid "History"
+msgstr "Istorija"
+
+msgid "Invalid streaming URL"
+msgstr "Netinkamas srautinio perdavimo URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "KAIRĖ / DEŠINĖ naršyti | Gerai atidaryti | UP atgal į grupes"
+
+msgid "Load error"
+msgstr "Įkėlimo klaida"
+
+msgid "Loading details from TMDB..."
+msgstr "Įkeliama informacija iš TMDB..."
+
+msgid "Loading details..."
+msgstr "Įkeliama informacija..."
+
+msgid "Loading..."
+msgstr "Įkeliama..."
+
+msgid "Max results"
+msgstr "Maksimalus rezultatas"
+
+msgid "Maximum number of results to display"
+msgstr "Maksimalus rodomų rezultatų skaičius"
+
+msgid "Movie History"
+msgstr "Filmo istorija"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Nauja paieška..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione epizodas nerastas"
+
+msgid "No CB01 episode found"
+msgstr "CB01 serija nerasta"
+
+msgid "No content"
+msgstr "Nėra turinio"
+
+msgid "No content selected"
+msgstr "Nepasirinktas joks turinys"
+
+msgid "No episodes available"
+msgstr "Nėra pasiekiamų serijų"
+
+msgid "No previous searches found"
+msgstr "Ankstesnių paieškų nerasta"
+
+msgid "No relevant results found."
+msgstr "Atitinkamų rezultatų nerasta."
+
+msgid "No results found on SC."
+msgstr "SC rezultatų nerasta."
+
+msgid "No streaming links found"
+msgstr "Srautinio perdavimo nuorodų nerasta"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV – TV serialas"
+
+msgid "PLAY"
+msgstr "ŽAISTI"
+
+msgid "Playback error: %s"
+msgstr "Atkūrimo klaida: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Norėdami ieškoti, paspauskite ŽALIĄ (filmas) arba GELTONĄ (TV serialas)..."
+
+msgid "Press OK"
+msgstr "Paspauskite OK"
+
+msgid "Press OK to view full details..."
+msgstr "Norėdami pamatyti visą informaciją, paspauskite OK..."
+
+msgid "REFRESH"
+msgstr "ATNAUJINTI"
+
+msgid "Refresh"
+msgstr "Atnaujinti"
+
+msgid "Retry"
+msgstr "Bandykite dar kartą"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "PAIEŠKA"
+
+msgid "Search History"
+msgstr "Paieškos istorija"
+
+msgid "Search Movie"
+msgstr "Ieškoti Filmas"
+
+msgid "Search TV Series"
+msgstr "Ieškoti TV serialų"
+
+msgid "Search timeout"
+msgstr "Paieškos skirtasis laikas"
+
+msgid "Searching for: '%s'"
+msgstr "Ieškoma: '%s'"
+
+msgid "Searching..."
+msgstr "Ieškoma..."
+
+msgid "Season %d"
+msgstr "%d sezonas"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d sezonas (%d serijų)"
+
+msgid "Seasons"
+msgstr "Metų laikai"
+
+msgid "Seasons:"
+msgstr "Sezonai:"
+
+msgid "Series URL not found"
+msgstr "Serijos URL nerastas"
+
+msgid "Series URL not found."
+msgstr "Serijos URL nerastas."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API raktas nerastas"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API raktas nerastas arba neteisingas!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID nerastas"
+
+msgid "TV Series History"
+msgstr "TV serialų istorija"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Paieškos užklausų skirtasis laikas (sekundėmis)"
+
+msgid "Title"
+msgstr "Pavadinimas"
+
+msgid "Type: %s"
+msgstr "Tipas: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "AUKŠTYN/ŽEMYN grupės | KAIRĖS/DEŠINĖS kortelės | Gerai atidaryta"
+
+msgid "Unable to get stream for this episode"
+msgstr "Nepavyko gauti šios serijos srauto"
+
+msgid "Unable to get streaming URL"
+msgstr "Nepavyko gauti srautinio URL"
+
+msgid "Unable to load content details"
+msgstr "Nepavyko įkelti išsamios turinio informacijos"
+
+msgid "Unable to open details for this content"
+msgstr "Nepavyko atidaryti išsamios šio turinio informacijos"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Nepavyko gauti informacijos iš TMDB."
+
+msgid "Unknown"
+msgstr "Nežinoma"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Atnaujinta, %d grupės nepasiekiamos"
+
+msgid "Updating"
+msgstr "Atnaujinama"
+
+msgid "Updating cards %d/%d"
+msgstr "Atnaujinamos kortelės %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "klaida"
+
+msgid "loading"
+msgstr "pakrovimas"

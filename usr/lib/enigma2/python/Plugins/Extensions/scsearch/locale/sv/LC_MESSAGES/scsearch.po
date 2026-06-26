@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:32+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d titles"
+msgstr "%d titlar"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMER ---"
+
+msgid "--- New search ---"
+msgstr "--- Ny sökning ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV-SERIE ---"
+
+msgid "0 titles"
+msgstr "0 titlar"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Avsnitt <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Årstider <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione uppspelningsfel: %s"
+
+msgid "Available links:"
+msgstr "Tillgängliga länkar:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Bläddra bland grupper och kort med horisontell rullning"
+
+msgid "CANCEL"
+msgstr "AVBOKA"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 uppspelningsfel: %s"
+
+msgid "CONFIRM"
+msgstr "BEKRÄFTA"
+
+msgid "CONTENTS"
+msgstr "INNEHÅLL"
+
+msgid "Card error"
+msgstr "Kortfel"
+
+msgid "Cards updated"
+msgstr "Kort uppdaterade"
+
+msgid "Code:"
+msgstr "Koda:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Innehåll från Altadefinizione - Tryck på OK för att öppna..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Innehåll från CB01 - Tryck på OK för att öppna..."
+
+msgid "Description not available."
+msgstr "Beskrivning inte tillgänglig."
+
+msgid "Details for: '%s'"
+msgstr "Detaljer för: '%s'"
+
+msgid "Details not available"
+msgstr "Detaljer inte tillgängliga"
+
+msgid "EXIT"
+msgstr "UTGÅNG"
+
+msgid "Enable debug"
+msgstr "Aktivera felsökning"
+
+msgid "Enable debug output in logs"
+msgstr "Aktivera felsökningsutdata i loggar"
+
+msgid "Enter Captcha Code"
+msgstr "Ange Captcha-kod"
+
+msgid "Episode %d"
+msgstr "Avsnitt %d"
+
+msgid "Episode %d: %s"
+msgstr "Avsnitt %d: %s"
+
+msgid "Episodes"
+msgstr "Avsnitt"
+
+msgid "Episodes:"
+msgstr "Avsnitt:"
+
+msgid "Error loading CB01 series"
+msgstr "Fel vid laddning av CB01-serien"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Det gick inte att läsa in OnlineSerieTV-serien"
+
+msgid "Error loading TMDB"
+msgstr "Det gick inte att läsa in TMDB"
+
+msgid "Error loading details"
+msgstr "Det gick inte att läsa in detaljer"
+
+msgid "Error playing episode: %s"
+msgstr "Fel vid uppspelning av avsnitt: %s"
+
+msgid "Error updating UI"
+msgstr "Fel vid uppdatering av användargränssnittet"
+
+msgid "Exit"
+msgstr "Utgång"
+
+msgid "GROUPS"
+msgstr "GRUPPER"
+
+msgid "History"
+msgstr "Historia"
+
+msgid "Invalid streaming URL"
+msgstr "Ogiltig webbadress för streaming"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "VÄNSTER/HÖGER navigera | OK öppen | UPP tillbaka till grupper"
+
+msgid "Load error"
+msgstr "Ladda fel"
+
+msgid "Loading details from TMDB..."
+msgstr "Laddar detaljer från TMDB..."
+
+msgid "Loading details..."
+msgstr "Läser in detaljer..."
+
+msgid "Loading..."
+msgstr "Belastning..."
+
+msgid "Max results"
+msgstr "Max resultat"
+
+msgid "Maximum number of results to display"
+msgstr "Maximalt antal resultat att visa"
+
+msgid "Movie History"
+msgstr "Filmhistoria"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Ny sökning..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Inget Altadefinizione-avsnitt hittades"
+
+msgid "No CB01 episode found"
+msgstr "Inget avsnitt av CB01 hittades"
+
+msgid "No content"
+msgstr "Inget innehåll"
+
+msgid "No content selected"
+msgstr "Inget innehåll valt"
+
+msgid "No episodes available"
+msgstr "Inga avsnitt tillgängliga"
+
+msgid "No previous searches found"
+msgstr "Inga tidigare sökningar hittades"
+
+msgid "No relevant results found."
+msgstr "Inga relevanta resultat hittades."
+
+msgid "No results found on SC."
+msgstr "Inga resultat hittades på SC."
+
+msgid "No streaming links found"
+msgstr "Inga strömmande länkar hittades"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - TV-serie"
+
+msgid "PLAY"
+msgstr "SPELA"
+
+msgid "Playback error: %s"
+msgstr "Uppspelningsfel: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Tryck GRÖN (film) eller GUL (TV-serie) för att söka..."
+
+msgid "Press OK"
+msgstr "Tryck på OK"
+
+msgid "Press OK to view full details..."
+msgstr "Tryck på OK för att se alla detaljer..."
+
+msgid "REFRESH"
+msgstr "UPPDATERA"
+
+msgid "Refresh"
+msgstr "Uppdatera"
+
+msgid "Retry"
+msgstr "Försöka igen"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "SÖKA"
+
+msgid "Search History"
+msgstr "Sökhistorik"
+
+msgid "Search Movie"
+msgstr "Sök film"
+
+msgid "Search TV Series"
+msgstr "Sök TV-serier"
+
+msgid "Search timeout"
+msgstr "Sök timeout"
+
+msgid "Searching for: '%s'"
+msgstr "Söker efter: '%s'"
+
+msgid "Searching..."
+msgstr "Sökande..."
+
+msgid "Season %d"
+msgstr "Säsong %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Säsong %d (%d avsnitt)"
+
+msgid "Seasons"
+msgstr "Årstider"
+
+msgid "Seasons:"
+msgstr "Årstider:"
+
+msgid "Series URL not found"
+msgstr "Seriens URL hittades inte"
+
+msgid "Series URL not found."
+msgstr "Seriens URL hittades inte."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API-nyckel hittades inte"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API-nyckel hittades inte eller ogiltig!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID hittades inte"
+
+msgid "TV Series History"
+msgstr "TV-seriens historia"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout för sökförfrågningar (sekunder)"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Type: %s"
+msgstr "Typ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UPP/NER grupper | VÄNSTER/HÖGER kort | OK öppen"
+
+msgid "Unable to get stream for this episode"
+msgstr "Det gick inte att hämta stream för det här avsnittet"
+
+msgid "Unable to get streaming URL"
+msgstr "Det gick inte att hämta webbadressen för streaming"
+
+msgid "Unable to load content details"
+msgstr "Det gick inte att ladda innehållsinformation"
+
+msgid "Unable to open details for this content"
+msgstr "Det gick inte att öppna detaljer för detta innehåll"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Det gick inte att hämta information från TMDB."
+
+msgid "Unknown"
+msgstr "Okänd"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Uppdaterad, %d grupper är inte tillgängliga"
+
+msgid "Updating"
+msgstr "Uppdaterar"
+
+msgid "Updating cards %d/%d"
+msgstr "Uppdaterar kort %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "fel"
+
+msgid "loading"
+msgstr "belastning"

@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 10:54+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Arabic <(nothing)>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d عنوان"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- أفلام ---"
+
+msgid "--- New search ---"
+msgstr "--- بحث جديد ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- مسلسلات ---"
+
+msgid "0 titles"
+msgstr "0 ألقاب"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> الحلقات <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> المواسم <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "خطأ في التعريف البديل في التشغيل: %s"
+
+msgid "Available links:"
+msgstr "الروابط المتاحة:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "تصفح المجموعات والبطاقات بالتمرير الأفقي"
+
+msgid "CANCEL"
+msgstr "يلغي"
+
+msgid "CB01 playback error: %s"
+msgstr "خطأ في تشغيل CB01: %s"
+
+msgid "CONFIRM"
+msgstr "يتأكد"
+
+msgid "CONTENTS"
+msgstr "محتويات"
+
+msgid "Card error"
+msgstr "خطأ في البطاقة"
+
+msgid "Cards updated"
+msgstr "تم تحديث البطاقات"
+
+msgid "Code:"
+msgstr "شفرة:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "الرمز: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "محتوى من Altadefinizione - اضغط على "موافق" لفتح..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "محتوى من CB01 - اضغط على "موافق" لفتح..."
+
+msgid "Description not available."
+msgstr "الوصف غير متوفر."
+
+msgid "Details for: '%s'"
+msgstr "تفاصيل لـ: '%s'"
+
+msgid "Details not available"
+msgstr "التفاصيل غير متوفرة"
+
+msgid "EXIT"
+msgstr "مخرج"
+
+msgid "Enable debug"
+msgstr "تمكين التصحيح"
+
+msgid "Enable debug output in logs"
+msgstr "تمكين إخراج التصحيح في السجلات"
+
+msgid "Enter Captcha Code"
+msgstr "أدخل رمز الكابتشا"
+
+msgid "Episode %d"
+msgstr "الحلقة %د"
+
+msgid "Episode %d: %s"
+msgstr "الحلقة %d: %s"
+
+msgid "Episodes"
+msgstr "الحلقات"
+
+msgid "Episodes:"
+msgstr "الحلقات:"
+
+msgid "Error loading CB01 series"
+msgstr "حدث خطأ أثناء تحميل سلسلة CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "حدث خطأ أثناء تحميل مسلسل OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "حدث خطأ أثناء تحميل TMDB"
+
+msgid "Error loading details"
+msgstr "حدث خطأ أثناء تحميل التفاصيل"
+
+msgid "Error playing episode: %s"
+msgstr "حدث خطأ أثناء تشغيل الحلقة: %s"
+
+msgid "Error updating UI"
+msgstr "حدث خطأ أثناء تحديث واجهة المستخدم"
+
+msgid "Exit"
+msgstr "مخرج"
+
+msgid "GROUPS"
+msgstr "المجموعات"
+
+msgid "History"
+msgstr "تاريخ"
+
+msgid "Invalid streaming URL"
+msgstr "عنوان URL للبث غير صالح"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "التنقل يسارًا/يمينًا | طيب افتح | العودة إلى المجموعات"
+
+msgid "Load error"
+msgstr "خطأ في التحميل"
+
+msgid "Loading details from TMDB..."
+msgstr "جارٍ تحميل التفاصيل من TMDB..."
+
+msgid "Loading details..."
+msgstr "جارٍ تحميل التفاصيل..."
+
+msgid "Loading..."
+msgstr "تحميل..."
+
+msgid "Max results"
+msgstr "النتائج القصوى"
+
+msgid "Maximum number of results to display"
+msgstr "الحد الأقصى لعدد النتائج التي سيتم عرضها"
+
+msgid "Movie History"
+msgstr "تاريخ الفيلم"
+
+msgid "N/A"
+msgstr "لا يوجد"
+
+msgid "New search..."
+msgstr "بحث جديد..."
+
+msgid "No Altadefinizione episode found"
+msgstr "لم يتم العثور على حلقة التعريف"
+
+msgid "No CB01 episode found"
+msgstr "لم يتم العثور على حلقة CB01"
+
+msgid "No content"
+msgstr "لا يوجد محتوى"
+
+msgid "No content selected"
+msgstr "لم يتم تحديد أي محتوى"
+
+msgid "No episodes available"
+msgstr "لا توجد حلقات متاحة"
+
+msgid "No previous searches found"
+msgstr "لم يتم العثور على عمليات بحث سابقة"
+
+msgid "No relevant results found."
+msgstr "لم يتم العثور على نتائج ذات صلة."
+
+msgid "No results found on SC."
+msgstr "لم يتم العثور على نتائج في SC."
+
+msgid "No streaming links found"
+msgstr "لم يتم العثور على روابط البث"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - مسلسل تلفزيوني"
+
+msgid "PLAY"
+msgstr "يلعب"
+
+msgid "Playback error: %s"
+msgstr "خطأ في التشغيل: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "اضغط على GREEN (فيلم) أو YELLOW (مسلسل تلفزيوني) للبحث..."
+
+msgid "Press OK"
+msgstr "اضغط موافق"
+
+msgid "Press OK to view full details..."
+msgstr "اضغط موافق لعرض التفاصيل الكاملة..."
+
+msgid "REFRESH"
+msgstr "ينعش"
+
+msgid "Refresh"
+msgstr "ينعش"
+
+msgid "Retry"
+msgstr "أعد المحاولة"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "يبحث"
+
+msgid "Search History"
+msgstr "سجل البحث"
+
+msgid "Search Movie"
+msgstr "بحث الفيلم"
+
+msgid "Search TV Series"
+msgstr "بحث في مسلسلات تلفزيونية"
+
+msgid "Search timeout"
+msgstr "مهلة البحث"
+
+msgid "Searching for: '%s'"
+msgstr "البحث عن: '%s'"
+
+msgid "Searching..."
+msgstr "جارٍ البحث..."
+
+msgid "Season %d"
+msgstr "الموسم %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "الموسم %d (%d حلقة)"
+
+msgid "Seasons"
+msgstr "المواسم"
+
+msgid "Seasons:"
+msgstr "المواسم:"
+
+msgid "Series URL not found"
+msgstr "لم يتم العثور على عنوان URL للسلسلة"
+
+msgid "Series URL not found."
+msgstr "لم يتم العثور على عنوان URL للسلسلة."
+
+msgid "TMDB API key not found"
+msgstr "لم يتم العثور على مفتاح TMDB API"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "لم يتم العثور على مفتاح TMDB API أو أنه غير صالح!"
+
+msgid "TMDB ID not found"
+msgstr "لم يتم العثور على معرف TMDB"
+
+msgid "TV Series History"
+msgstr "تاريخ المسلسلات التلفزيونية"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "مهلة طلبات البحث (بالثواني)"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Type: %s"
+msgstr "النوع: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "مجموعات أعلى/أسفل | بطاقات يسار/يمين | موافق مفتوحة"
+
+msgid "Unable to get stream for this episode"
+msgstr "غير قادر على الحصول على تيار لهذه الحلقة"
+
+msgid "Unable to get streaming URL"
+msgstr "غير قادر على الحصول على عنوان URL للبث"
+
+msgid "Unable to load content details"
+msgstr "غير قادر على تحميل تفاصيل المحتوى"
+
+msgid "Unable to open details for this content"
+msgstr "غير قادر على فتح التفاصيل لهذا المحتوى"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "غير قادر على استرداد المعلومات من TMDB."
+
+msgid "Unknown"
+msgstr "مجهول"
+
+msgid "Updated, %d groups unavailable"
+msgstr "تم التحديث، %d مجموعة غير متاحة"
+
+msgid "Updating"
+msgstr "تحديث"
+
+msgid "Updating cards %d/%d"
+msgstr "تحديث البطاقات %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[عالية الوضوح] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "خطأ"
+
+msgid "loading"
+msgstr "تحميل"

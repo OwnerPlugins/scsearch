@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:01+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Bengali <(nothing)>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%dটি শিরোনাম"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- সিনেমা ---"
+
+msgid "--- New search ---"
+msgstr "--- নতুন অনুসন্ধান ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- টিভি সিরিজ ---"
+
+msgid "0 titles"
+msgstr "০টি শিরোনাম"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> পর্ব <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> ঋতু <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "আল্টাডেফাইন প্লেব্যাক ত্রুটি: %s"
+
+msgid "Available links:"
+msgstr "উপলব্ধ লিঙ্ক:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "অনুভূমিক স্ক্রোলিং সহ গ্রুপ এবং কার্ডগুলি ব্রাউজ করুন"
+
+msgid "CANCEL"
+msgstr "বাতিল করুন"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 প্লেব্যাক ত্রুটি: %s"
+
+msgid "CONFIRM"
+msgstr "নিশ্চিত করুন"
+
+msgid "CONTENTS"
+msgstr "বিষয়বস্তু"
+
+msgid "Card error"
+msgstr "কার্ড ত্রুটি"
+
+msgid "Cards updated"
+msgstr "কার্ড আপডেট করা হয়েছে"
+
+msgid "Code:"
+msgstr "কোড:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "কোড: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione থেকে বিষয়বস্তু - খুলতে ওকে টিপুন..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 থেকে বিষয়বস্তু - খুলতে ওকে টিপুন..."
+
+msgid "Description not available."
+msgstr "বর্ণনা উপলব্ধ নেই."
+
+msgid "Details for: '%s'"
+msgstr "এর জন্য বিশদ বিবরণ: '%s'"
+
+msgid "Details not available"
+msgstr "বিস্তারিত পাওয়া যায় না"
+
+msgid "EXIT"
+msgstr "প্রস্থান করুন"
+
+msgid "Enable debug"
+msgstr "ডিবাগ সক্ষম করুন"
+
+msgid "Enable debug output in logs"
+msgstr "লগগুলিতে ডিবাগ আউটপুট সক্ষম করুন৷"
+
+msgid "Enter Captcha Code"
+msgstr "ক্যাপচা কোড লিখুন"
+
+msgid "Episode %d"
+msgstr "পর্ব %d"
+
+msgid "Episode %d: %s"
+msgstr "পর্ব %d: %s"
+
+msgid "Episodes"
+msgstr "পর্বগুলি"
+
+msgid "Episodes:"
+msgstr "পর্ব:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 সিরিজ লোড করার সময় ত্রুটি"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV সিরিজ লোড করার সময় ত্রুটি৷"
+
+msgid "Error loading TMDB"
+msgstr "TMDB লোড করার সময় ত্রুটি৷"
+
+msgid "Error loading details"
+msgstr "বিশদ লোড করার সময় ত্রুটি"
+
+msgid "Error playing episode: %s"
+msgstr "পর্ব চালানোর সময় ত্রুটি: %s"
+
+msgid "Error updating UI"
+msgstr "UI আপডেট করার সময় ত্রুটি৷"
+
+msgid "Exit"
+msgstr "প্রস্থান করুন"
+
+msgid "GROUPS"
+msgstr "গ্রুপ"
+
+msgid "History"
+msgstr "ইতিহাস"
+
+msgid "Invalid streaming URL"
+msgstr "অবৈধ স্ট্রিমিং URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "বাম/ডান নেভিগেট | ঠিক আছে খোলা | ইউপি গ্রুপে ফিরে যান"
+
+msgid "Load error"
+msgstr "লোড ত্রুটি"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB থেকে বিশদ লোড হচ্ছে..."
+
+msgid "Loading details..."
+msgstr "বিশদ লোড হচ্ছে..."
+
+msgid "Loading..."
+msgstr "লোড হচ্ছে..."
+
+msgid "Max results"
+msgstr "সর্বোচ্চ ফলাফল"
+
+msgid "Maximum number of results to display"
+msgstr "প্রদর্শনের জন্য সর্বাধিক সংখ্যক ফলাফল"
+
+msgid "Movie History"
+msgstr "সিনেমার ইতিহাস"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "নতুন অনুসন্ধান..."
+
+msgid "No Altadefinizione episode found"
+msgstr "কোন Altadefinizione পর্ব পাওয়া গেছে"
+
+msgid "No CB01 episode found"
+msgstr "কোনো CB01 পর্ব পাওয়া যায়নি"
+
+msgid "No content"
+msgstr "কোন বিষয়বস্তু নেই"
+
+msgid "No content selected"
+msgstr "কোন বিষয়বস্তু নির্বাচন করা হয়নি"
+
+msgid "No episodes available"
+msgstr "কোন পর্ব উপলব্ধ নেই"
+
+msgid "No previous searches found"
+msgstr "কোনো পূর্ববর্তী অনুসন্ধান পাওয়া যায়নি"
+
+msgid "No relevant results found."
+msgstr "কোন প্রাসঙ্গিক ফলাফল পাওয়া যায়নি."
+
+msgid "No results found on SC."
+msgstr "SC এ কোন ফলাফল পাওয়া যায়নি."
+
+msgid "No streaming links found"
+msgstr "কোনো স্ট্রিমিং লিঙ্ক পাওয়া যায়নি"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - টিভি সিরিজ"
+
+msgid "PLAY"
+msgstr "খেলা"
+
+msgid "Playback error: %s"
+msgstr "প্লেব্যাক ত্রুটি: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "অনুসন্ধান করতে সবুজ (মুভি) বা ইয়েলো (টিভি সিরিজ) টিপুন..."
+
+msgid "Press OK"
+msgstr "ঠিক আছে টিপুন"
+
+msgid "Press OK to view full details..."
+msgstr "সম্পূর্ণ বিবরণ দেখতে ঠিক আছে টিপুন..."
+
+msgid "REFRESH"
+msgstr "রিফ্রেশ"
+
+msgid "Refresh"
+msgstr "রিফ্রেশ"
+
+msgid "Retry"
+msgstr "আবার চেষ্টা করুন"
+
+msgid "SC"
+msgstr "এসসি"
+
+msgid "SEARCH"
+msgstr "অনুসন্ধান করুন"
+
+msgid "Search History"
+msgstr "অনুসন্ধান ইতিহাস"
+
+msgid "Search Movie"
+msgstr "মুভি অনুসন্ধান করুন"
+
+msgid "Search TV Series"
+msgstr "টিভি সিরিজ অনুসন্ধান করুন"
+
+msgid "Search timeout"
+msgstr "অনুসন্ধানের সময়সীমা"
+
+msgid "Searching for: '%s'"
+msgstr "অনুসন্ধান করা হচ্ছে: '%s'"
+
+msgid "Searching..."
+msgstr "অনুসন্ধান করা হচ্ছে..."
+
+msgid "Season %d"
+msgstr "সিজন %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "সিজন %d (%d পর্ব)"
+
+msgid "Seasons"
+msgstr "ঋতু"
+
+msgid "Seasons:"
+msgstr "ঋতু:"
+
+msgid "Series URL not found"
+msgstr "সিরিজ URL পাওয়া যায়নি"
+
+msgid "Series URL not found."
+msgstr "সিরিজ URL পাওয়া যায়নি."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API কী পাওয়া যায়নি"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API কী পাওয়া যায়নি বা অবৈধ!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB আইডি পাওয়া যায়নি"
+
+msgid "TV Series History"
+msgstr "টিভি সিরিজের ইতিহাস"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "অনুসন্ধানের অনুরোধের সময়সীমা (সেকেন্ড)"
+
+msgid "Title"
+msgstr "শিরোনাম"
+
+msgid "Type: %s"
+msgstr "প্রকার: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN গোষ্ঠী | বাম/ডান কার্ড | ঠিক আছে খোলা"
+
+msgid "Unable to get stream for this episode"
+msgstr "এই পর্বের জন্য স্ট্রিম পেতে অক্ষম"
+
+msgid "Unable to get streaming URL"
+msgstr "স্ট্রিমিং URL পেতে অক্ষম"
+
+msgid "Unable to load content details"
+msgstr "বিষয়বস্তুর বিবরণ লোড করতে অক্ষম৷"
+
+msgid "Unable to open details for this content"
+msgstr "এই বিষয়বস্তুর বিবরণ খুলতে অক্ষম"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB থেকে তথ্য পুনরুদ্ধার করতে অক্ষম।"
+
+msgid "Unknown"
+msgstr "অজানা"
+
+msgid "Updated, %d groups unavailable"
+msgstr "আপডেট করা হয়েছে, %d গ্রুপ অনুপলব্ধ৷"
+
+msgid "Updating"
+msgstr "আপডেট করা হচ্ছে"
+
+msgid "Updating cards %d/%d"
+msgstr "কার্ড আপডেট করা হচ্ছে %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[হাই ডেফিনিশন] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "ত্রুটি"
+
+msgid "loading"
+msgstr "লোড হচ্ছে"

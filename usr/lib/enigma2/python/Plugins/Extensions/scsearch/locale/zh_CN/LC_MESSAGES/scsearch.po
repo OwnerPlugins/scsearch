@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:58+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Language zh-CN\n"
+"Language: zh-CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d 个标题"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- 电影 ---"
+
+msgid "--- New search ---"
+msgstr "--- 新搜索 ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- 电视剧 ---"
+
+msgid "0 titles"
+msgstr "0 标题"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> 剧集 <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> 季节 <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "其他定义播放错误：%s"
+
+msgid "Available links:"
+msgstr "可用链接："
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "通过水平滚动浏览组和卡片"
+
+msgid "CANCEL"
+msgstr "取消"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 播放错误：%s"
+
+msgid "CONFIRM"
+msgstr "确认"
+
+msgid "CONTENTS"
+msgstr "内容"
+
+msgid "Card error"
+msgstr "卡错误"
+
+msgid "Cards updated"
+msgstr "卡片已更新"
+
+msgid "Code:"
+msgstr "代码："
+
+msgid "Code: {self.captcha_code}"
+msgstr "代码：{self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "来自 Altadefinizone 的内容 - 按“确定”打开..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 的内容 - 按“确定”打开..."
+
+msgid "Description not available."
+msgstr "描述不可用。"
+
+msgid "Details for: '%s'"
+msgstr "详细信息：“%s”"
+
+msgid "Details not available"
+msgstr "详细信息不详"
+
+msgid "EXIT"
+msgstr "出口"
+
+msgid "Enable debug"
+msgstr "启用调试"
+
+msgid "Enable debug output in logs"
+msgstr "在日志中启用调试输出"
+
+msgid "Enter Captcha Code"
+msgstr "输入验证码"
+
+msgid "Episode %d"
+msgstr "第 %d 集"
+
+msgid "Episode %d: %s"
+msgstr "第 %d 集：%s"
+
+msgid "Episodes"
+msgstr "剧集数"
+
+msgid "Episodes:"
+msgstr "集数："
+
+msgid "Error loading CB01 series"
+msgstr "加载CB01系列时出错"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "加载 OnlineSeriesTV 系列时出错"
+
+msgid "Error loading TMDB"
+msgstr "加载 TMDB 时出错"
+
+msgid "Error loading details"
+msgstr "加载详细信息时出错"
+
+msgid "Error playing episode: %s"
+msgstr "播放剧集时出错：%s"
+
+msgid "Error updating UI"
+msgstr "更新用户界面时出错"
+
+msgid "Exit"
+msgstr "出口"
+
+msgid "GROUPS"
+msgstr "团体"
+
+msgid "History"
+msgstr "历史"
+
+msgid "Invalid streaming URL"
+msgstr "流媒体 URL 无效"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "左/右导航 | 确定打开 | UP 返回群组"
+
+msgid "Load error"
+msgstr "负载错误"
+
+msgid "Loading details from TMDB..."
+msgstr "正在从 TMDB 加载详细信息..."
+
+msgid "Loading details..."
+msgstr "正在加载详细信息..."
+
+msgid "Loading..."
+msgstr "加载中..."
+
+msgid "Max results"
+msgstr "最大结果"
+
+msgid "Maximum number of results to display"
+msgstr "显示的最大结果数"
+
+msgid "Movie History"
+msgstr "电影史"
+
+msgid "N/A"
+msgstr "不适用"
+
+msgid "New search..."
+msgstr "新搜索..."
+
+msgid "No Altadefinizione episode found"
+msgstr "未找到 Altadefinizone 剧集"
+
+msgid "No CB01 episode found"
+msgstr "未找到 CB01 剧集"
+
+msgid "No content"
+msgstr "没有内容"
+
+msgid "No content selected"
+msgstr "未选择内容"
+
+msgid "No episodes available"
+msgstr "没有可用的剧集"
+
+msgid "No previous searches found"
+msgstr "没有找到以前的搜索"
+
+msgid "No relevant results found."
+msgstr "没有找到相关结果。"
+
+msgid "No results found on SC."
+msgstr "SC 上未找到结果。"
+
+msgid "No streaming links found"
+msgstr "未找到流媒体链接"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSeriesTV - 电视剧"
+
+msgid "PLAY"
+msgstr "玩"
+
+msgid "Playback error: %s"
+msgstr "播放错误：%s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "按绿色（电影）或黄色（电视剧）搜索..."
+
+msgid "Press OK"
+msgstr "按确定"
+
+msgid "Press OK to view full details..."
+msgstr "按“确定”查看完整详细信息..."
+
+msgid "REFRESH"
+msgstr "刷新"
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Retry"
+msgstr "重试"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "搜索"
+
+msgid "Search History"
+msgstr "搜索历史"
+
+msgid "Search Movie"
+msgstr "搜索电影"
+
+msgid "Search TV Series"
+msgstr "搜索电视剧"
+
+msgid "Search timeout"
+msgstr "搜索超时"
+
+msgid "Searching for: '%s'"
+msgstr "正在搜索：“%s”"
+
+msgid "Searching..."
+msgstr "正在寻找..."
+
+msgid "Season %d"
+msgstr "第%d季"
+
+msgid "Season %d (%d episodes)"
+msgstr "第 %d 季（%d 集）"
+
+msgid "Seasons"
+msgstr "季节"
+
+msgid "Seasons:"
+msgstr "季节："
+
+msgid "Series URL not found"
+msgstr "找不到系列网址"
+
+msgid "Series URL not found."
+msgstr "找不到系列 URL。"
+
+msgid "TMDB API key not found"
+msgstr "未找到 TMDB API 密钥"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API 密钥未找到或无效！"
+
+msgid "TMDB ID not found"
+msgstr "未找到 TMDB ID"
+
+msgid "TV Series History"
+msgstr "电视剧历史"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "搜索请求超时（秒）"
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Type: %s"
+msgstr "类型：%s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "上/下组 | 左/右卡 | 确定打开"
+
+msgid "Unable to get stream for this episode"
+msgstr "无法观看该集的直播"
+
+msgid "Unable to get streaming URL"
+msgstr "无法获取直播地址"
+
+msgid "Unable to load content details"
+msgstr "无法加载内容详细信息"
+
+msgid "Unable to open details for this content"
+msgstr "无法打开此内容的详细信息"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "无法从 TMDB 检索信息。"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Updated, %d groups unavailable"
+msgstr "已更新，%d 个组不可用"
+
+msgid "Updating"
+msgstr "更新中"
+
+msgid "Updating cards %d/%d"
+msgstr "正在更新卡片 %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[高清] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01]%s"
+
+msgid "error"
+msgstr "错误"
+
+msgid "loading"
+msgstr "加载中"

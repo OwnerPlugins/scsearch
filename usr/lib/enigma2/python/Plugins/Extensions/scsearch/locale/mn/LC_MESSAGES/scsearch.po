@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:00+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Mongolian <openmn-translation@lists.sourceforge.net>\n"
+"Language: mn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d гарчиг"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- КИНО ---"
+
+msgid "--- New search ---"
+msgstr "--- Шинэ хайлт ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ЦУВРАЛТ ---"
+
+msgid "0 titles"
+msgstr "0 гарчиг"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Ангиуд <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Улирал <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione тоглуулах алдаа: %s"
+
+msgid "Available links:"
+msgstr "Боломжтой холбоосууд:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Бүлэг болон картуудыг хэвтээ гүйлгэх боломжтой"
+
+msgid "CANCEL"
+msgstr "Цуцлах"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 тоглуулах алдаа: %s"
+
+msgid "CONFIRM"
+msgstr "БАТАЛГААХ"
+
+msgid "CONTENTS"
+msgstr "АГУУЛГА"
+
+msgid "Card error"
+msgstr "Картын алдаа"
+
+msgid "Cards updated"
+msgstr "Картууд шинэчлэгдсэн"
+
+msgid "Code:"
+msgstr "Код:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Код: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione-н контент - OK товчийг дарж нээнэ үү..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01-ийн агуулга - OK товчийг дарж нээх..."
+
+msgid "Description not available."
+msgstr "Тодорхойлолт байхгүй байна."
+
+msgid "Details for: '%s'"
+msgstr "Дэлгэрэнгүй: '%s'"
+
+msgid "Details not available"
+msgstr "Дэлгэрэнгүй мэдээлэл байхгүй байна"
+
+msgid "EXIT"
+msgstr "ГАРАХ"
+
+msgid "Enable debug"
+msgstr "Дибаг хийхийг идэвхжүүлэх"
+
+msgid "Enable debug output in logs"
+msgstr "Лог дахь дибаг хийх гаралтыг идэвхжүүлэх"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha кодыг оруулна уу"
+
+msgid "Episode %d"
+msgstr "Анги %d"
+
+msgid "Episode %d: %s"
+msgstr "Анги %d: %s"
+
+msgid "Episodes"
+msgstr "Ангиуд"
+
+msgid "Episodes:"
+msgstr "Ангиуд:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 цувралыг ачаалахад алдаа гарлаа"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV цувралыг ачаалахад алдаа гарлаа"
+
+msgid "Error loading TMDB"
+msgstr "TMDB-г ачаалахад алдаа гарлаа"
+
+msgid "Error loading details"
+msgstr "Дэлгэрэнгүйг ачаалахад алдаа гарлаа"
+
+msgid "Error playing episode: %s"
+msgstr "Ангийг тоглуулахад алдаа гарлаа: %s"
+
+msgid "Error updating UI"
+msgstr "UI-г шинэчлэхэд алдаа гарлаа"
+
+msgid "Exit"
+msgstr "Гарах"
+
+msgid "GROUPS"
+msgstr "БҮЛЭГ"
+
+msgid "History"
+msgstr "Түүх"
+
+msgid "Invalid streaming URL"
+msgstr "Хүчингүй урсгал URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ЗҮҮН/БАРуун тийш чиглүүлэх | За нээх | Бүлэг рүү буцах"
+
+msgid "Load error"
+msgstr "Ачаалах алдаа"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB-ээс дэлгэрэнгүй мэдээллийг ачаалж байна..."
+
+msgid "Loading details..."
+msgstr "Дэлгэрэнгүйг ачаалж байна..."
+
+msgid "Loading..."
+msgstr "Ачааж байна..."
+
+msgid "Max results"
+msgstr "Хамгийн их үр дүн"
+
+msgid "Maximum number of results to display"
+msgstr "Үзүүлэх үр дүнгийн дээд тоо"
+
+msgid "Movie History"
+msgstr "Киноны түүх"
+
+msgid "N/A"
+msgstr "Үгүй"
+
+msgid "New search..."
+msgstr "Шинэ хайлт..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione анги олдсонгүй"
+
+msgid "No CB01 episode found"
+msgstr "CB01 анги олдсонгүй"
+
+msgid "No content"
+msgstr "Агуулга байхгүй"
+
+msgid "No content selected"
+msgstr "Сонгосон контент алга"
+
+msgid "No episodes available"
+msgstr "Анги байхгүй"
+
+msgid "No previous searches found"
+msgstr "Өмнөх хайлт олдсонгүй"
+
+msgid "No relevant results found."
+msgstr "Холбогдох илэрц олдсонгүй."
+
+msgid "No results found on SC."
+msgstr "SC дээр илэрц олдсонгүй."
+
+msgid "No streaming links found"
+msgstr "Дамжуулах холбоос олдсонгүй"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Телевизийн цуврал"
+
+msgid "PLAY"
+msgstr "ТОГЛОХ"
+
+msgid "Playback error: %s"
+msgstr "Тоглуулах алдаа: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "НОГООН (Кино) эсвэл ШАР (ТВ цуврал) дээр дарж хайлт хийнэ үү..."
+
+msgid "Press OK"
+msgstr "OK дарна уу"
+
+msgid "Press OK to view full details..."
+msgstr "Бүрэн дэлгэрэнгүйг үзэхийн тулд OK дарна уу..."
+
+msgid "REFRESH"
+msgstr "Сэргээх"
+
+msgid "Refresh"
+msgstr "Сэргээх"
+
+msgid "Retry"
+msgstr "Дахин оролдоно уу"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ХАЙХ"
+
+msgid "Search History"
+msgstr "Хайлтын түүх"
+
+msgid "Search Movie"
+msgstr "Кино хайх"
+
+msgid "Search TV Series"
+msgstr "Телевизийн цуврал хайх"
+
+msgid "Search timeout"
+msgstr "Хайлтын завсарлага"
+
+msgid "Searching for: '%s'"
+msgstr "Хайж байна: '%s'"
+
+msgid "Searching..."
+msgstr "Хайж байна..."
+
+msgid "Season %d"
+msgstr "%d улирал"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d улирал (%d анги)"
+
+msgid "Seasons"
+msgstr "Улирал"
+
+msgid "Seasons:"
+msgstr "Улирал:"
+
+msgid "Series URL not found"
+msgstr "Цуврал URL олдсонгүй"
+
+msgid "Series URL not found."
+msgstr "Цуврал URL олдсонгүй."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API түлхүүр олдсонгүй"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API түлхүүр олдсонгүй эсвэл хүчингүй байна!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID олдсонгүй"
+
+msgid "TV Series History"
+msgstr "Телевизийн цуврал түүх"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Хайлтын хүсэлт гаргах хугацаа (секунд)"
+
+msgid "Title"
+msgstr "Гарчиг"
+
+msgid "Type: %s"
+msgstr "Төрөл: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ДЭЭШ/ДООШ бүлгүүд | ЗҮҮН/БАРУУН картууд | За нээ"
+
+msgid "Unable to get stream for this episode"
+msgstr "Энэ ангийн дамжуулалтыг авах боломжгүй"
+
+msgid "Unable to get streaming URL"
+msgstr "Урсгал URL авах боломжгүй"
+
+msgid "Unable to load content details"
+msgstr "Агуулгын дэлгэрэнгүйг ачаалах боломжгүй"
+
+msgid "Unable to open details for this content"
+msgstr "Энэ агуулгын дэлгэрэнгүй мэдээллийг нээх боломжгүй байна"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB-ээс мэдээлэл авах боломжгүй."
+
+msgid "Unknown"
+msgstr "Тодорхойгүй"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Шинэчлэгдсэн, %d бүлгийг ашиглах боломжгүй"
+
+msgid "Updating"
+msgstr "Шинэчилж байна"
+
+msgid "Updating cards %d/%d"
+msgstr "%d/%d картуудыг шинэчилж байна"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Өндөр тодорхойлолт] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "алдаа"
+
+msgid "loading"
+msgstr "ачаалж байна"

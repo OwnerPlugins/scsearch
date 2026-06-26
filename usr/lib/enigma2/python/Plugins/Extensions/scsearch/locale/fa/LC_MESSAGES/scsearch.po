@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:21+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Persian <translation-team-fa@lists.sourceforge.net>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d عنوان"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- فیلم ---"
+
+msgid "--- New search ---"
+msgstr "--- جستجوی جدید ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- سریال های تلویزیونی ---"
+
+msgid "0 titles"
+msgstr "0 عنوان"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> قسمت ها <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> فصول <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "خطای پخش Altadefinizone: %s"
+
+msgid "Available links:"
+msgstr "لینک های موجود:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "گروه ها و کارت ها را با پیمایش افقی مرور کنید"
+
+msgid "CANCEL"
+msgstr "لغو"
+
+msgid "CB01 playback error: %s"
+msgstr "خطای پخش CB01: %s"
+
+msgid "CONFIRM"
+msgstr "تایید کنید"
+
+msgid "CONTENTS"
+msgstr "مطالب"
+
+msgid "Card error"
+msgstr "خطای کارت"
+
+msgid "Cards updated"
+msgstr "کارت ها به روز شد"
+
+msgid "Code:"
+msgstr "کد:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "کد: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "محتوا از Altadefinizone - برای باز کردن OK را فشار دهید..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "محتوای CB01 - برای باز کردن OK را فشار دهید..."
+
+msgid "Description not available."
+msgstr "توضیحات موجود نیست"
+
+msgid "Details for: '%s'"
+msgstr "جزئیات برای: '%s'"
+
+msgid "Details not available"
+msgstr "جزئیات در دسترس نیست"
+
+msgid "EXIT"
+msgstr "خروج"
+
+msgid "Enable debug"
+msgstr "اشکال زدایی را فعال کنید"
+
+msgid "Enable debug output in logs"
+msgstr "خروجی اشکال زدایی را در گزارش ها فعال کنید"
+
+msgid "Enter Captcha Code"
+msgstr "کد کپچا را وارد کنید"
+
+msgid "Episode %d"
+msgstr "قسمت %d"
+
+msgid "Episode %d: %s"
+msgstr "قسمت %d: %s"
+
+msgid "Episodes"
+msgstr "اپیزودها"
+
+msgid "Episodes:"
+msgstr "اپیزودها:"
+
+msgid "Error loading CB01 series"
+msgstr "خطا در بارگیری سری CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "خطا در بارگیری سریال OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "خطا در بارگیری TMDB"
+
+msgid "Error loading details"
+msgstr "خطا در بارگیری جزئیات"
+
+msgid "Error playing episode: %s"
+msgstr "خطا در پخش قسمت: %s"
+
+msgid "Error updating UI"
+msgstr "خطا در به‌روزرسانی رابط کاربری"
+
+msgid "Exit"
+msgstr "خارج شوید"
+
+msgid "GROUPS"
+msgstr "گروه ها"
+
+msgid "History"
+msgstr "تاریخچه"
+
+msgid "Invalid streaming URL"
+msgstr "URL پخش جریانی نامعتبر است"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "چپ/راست پیمایش | باشه باز | بازگشت به گروه ها"
+
+msgid "Load error"
+msgstr "خطای بارگذاری"
+
+msgid "Loading details from TMDB..."
+msgstr "در حال بارگیری جزئیات از TMDB..."
+
+msgid "Loading details..."
+msgstr "در حال بارگیری جزئیات..."
+
+msgid "Loading..."
+msgstr "در حال بارگیری..."
+
+msgid "Max results"
+msgstr "حداکثر نتایج"
+
+msgid "Maximum number of results to display"
+msgstr "حداکثر تعداد نتایج برای نمایش"
+
+msgid "Movie History"
+msgstr "تاریخچه فیلم"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "جستجوی جدید..."
+
+msgid "No Altadefinizione episode found"
+msgstr "هیچ قسمت Altadefinizione یافت نشد"
+
+msgid "No CB01 episode found"
+msgstr "هیچ قسمت CB01 یافت نشد"
+
+msgid "No content"
+msgstr "بدون محتوا"
+
+msgid "No content selected"
+msgstr "هیچ محتوایی انتخاب نشده است"
+
+msgid "No episodes available"
+msgstr "هیچ قسمتی در دسترس نیست"
+
+msgid "No previous searches found"
+msgstr "هیچ جستجوی قبلی پیدا نشد"
+
+msgid "No relevant results found."
+msgstr "هیچ نتیجه مرتبطی یافت نشد"
+
+msgid "No results found on SC."
+msgstr "هیچ نتیجه ای در SC یافت نشد."
+
+msgid "No streaming links found"
+msgstr "هیچ پیوند پخشی یافت نشد"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - سریال های تلویزیونی"
+
+msgid "PLAY"
+msgstr "بازی کنید"
+
+msgid "Playback error: %s"
+msgstr "خطای پخش: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "سبز (فیلم) یا زرد (سریال تلویزیونی) را برای جستجو فشار دهید..."
+
+msgid "Press OK"
+msgstr "OK را فشار دهید"
+
+msgid "Press OK to view full details..."
+msgstr "برای مشاهده جزئیات کامل دکمه OK را فشار دهید..."
+
+msgid "REFRESH"
+msgstr "تازه کردن"
+
+msgid "Refresh"
+msgstr "تازه کردن"
+
+msgid "Retry"
+msgstr "دوباره امتحان کنید"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "جستجو"
+
+msgid "Search History"
+msgstr "تاریخچه جستجو"
+
+msgid "Search Movie"
+msgstr "جستجوی فیلم"
+
+msgid "Search TV Series"
+msgstr "جستجوی سریال های تلویزیونی"
+
+msgid "Search timeout"
+msgstr "مهلت جستجو"
+
+msgid "Searching for: '%s'"
+msgstr "جستجو برای: '%s'"
+
+msgid "Searching..."
+msgstr "در حال جستجو..."
+
+msgid "Season %d"
+msgstr "فصل %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "فصل %d (%d قسمت)"
+
+msgid "Seasons"
+msgstr "فصل ها"
+
+msgid "Seasons:"
+msgstr "فصل ها:"
+
+msgid "Series URL not found"
+msgstr "URL سری پیدا نشد"
+
+msgid "Series URL not found."
+msgstr "URL سری پیدا نشد."
+
+msgid "TMDB API key not found"
+msgstr "کلید TMDB API یافت نشد"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "کلید TMDB API پیدا نشد یا نامعتبر است!"
+
+msgid "TMDB ID not found"
+msgstr "شناسه TMDB یافت نشد"
+
+msgid "TV Series History"
+msgstr "تاریخچه سریال های تلویزیونی"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "مهلت زمانی برای درخواست های جستجو (ثانیه)"
+
+msgid "Title"
+msgstr "عنوان"
+
+msgid "Type: %s"
+msgstr "نوع: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "گروه های UP/DOWN | کارت های چپ/راست | باشه باز"
+
+msgid "Unable to get stream for this episode"
+msgstr "پخش جریانی برای این قسمت ممکن نیست"
+
+msgid "Unable to get streaming URL"
+msgstr "دریافت URL پخش جریانی ممکن نیست"
+
+msgid "Unable to load content details"
+msgstr "جزئیات محتوا بارگیری نشد"
+
+msgid "Unable to open details for this content"
+msgstr "جزئیات این محتوا باز نشد"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "نمی توان اطلاعات را از TMDB بازیابی کرد."
+
+msgid "Unknown"
+msgstr "ناشناس"
+
+msgid "Updated, %d groups unavailable"
+msgstr "به روز شد، %d گروه در دسترس نیست"
+
+msgid "Updating"
+msgstr "به روز رسانی"
+
+msgid "Updating cards %d/%d"
+msgstr "در حال به‌روزرسانی کارت‌های %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[با کیفیت] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "خطا"
+
+msgid "loading"
+msgstr "در حال بارگذاری"

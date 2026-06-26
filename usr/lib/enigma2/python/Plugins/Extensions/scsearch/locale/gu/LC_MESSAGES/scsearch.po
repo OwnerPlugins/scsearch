@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:32+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Gujarati\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d શીર્ષકો"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ફિલ્મો ---"
+
+msgid "--- New search ---"
+msgstr "--- નવી શોધ ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ટીવી શ્રેણી ---"
+
+msgid "0 titles"
+msgstr "0 ટાઇટલ"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> એપિસોડ્સ <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> ઋતુઓ <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "અલ્ટાડેફાઇનાઇઝન પ્લેબેક ભૂલ: %s"
+
+msgid "Available links:"
+msgstr "ઉપલબ્ધ લિંક્સ:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "આડી સ્ક્રોલિંગ સાથે જૂથો અને કાર્ડ્સ બ્રાઉઝ કરો"
+
+msgid "CANCEL"
+msgstr "રદ કરો"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 પ્લેબેક ભૂલ: %s"
+
+msgid "CONFIRM"
+msgstr "કન્ફર્મ કરો"
+
+msgid "CONTENTS"
+msgstr "સામગ્રી"
+
+msgid "Card error"
+msgstr "કાર્ડ ભૂલ"
+
+msgid "Cards updated"
+msgstr "કાર્ડ અપડેટ કર્યા"
+
+msgid "Code:"
+msgstr "કોડ:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "કોડ: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione માંથી સામગ્રી - ખોલવા માટે OK દબાવો..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 માંથી સામગ્રી - ખોલવા માટે OK દબાવો..."
+
+msgid "Description not available."
+msgstr "વર્ણન ઉપલબ્ધ નથી."
+
+msgid "Details for: '%s'"
+msgstr "માટે વિગતો: '%s'"
+
+msgid "Details not available"
+msgstr "વિગતો ઉપલબ્ધ નથી"
+
+msgid "EXIT"
+msgstr "બહાર નીકળો"
+
+msgid "Enable debug"
+msgstr "ડીબગ સક્ષમ કરો"
+
+msgid "Enable debug output in logs"
+msgstr "લોગમાં ડીબગ આઉટપુટ સક્ષમ કરો"
+
+msgid "Enter Captcha Code"
+msgstr "કેપ્ચા કોડ દાખલ કરો"
+
+msgid "Episode %d"
+msgstr "એપિસોડ %d"
+
+msgid "Episode %d: %s"
+msgstr "એપિસોડ %d: %s"
+
+msgid "Episodes"
+msgstr "એપિસોડ્સ"
+
+msgid "Episodes:"
+msgstr "એપિસોડ્સ:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 શ્રેણી લોડ કરવામાં ભૂલ"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV શ્રેણી લોડ કરવામાં ભૂલ"
+
+msgid "Error loading TMDB"
+msgstr "TMDB લોડ કરવામાં ભૂલ"
+
+msgid "Error loading details"
+msgstr "વિગતો લોડ કરવામાં ભૂલ"
+
+msgid "Error playing episode: %s"
+msgstr "એપિસોડ ચલાવવામાં ભૂલ: %s"
+
+msgid "Error updating UI"
+msgstr "UI અપડેટ કરવામાં ભૂલ"
+
+msgid "Exit"
+msgstr "બહાર નીકળો"
+
+msgid "GROUPS"
+msgstr "જૂથો"
+
+msgid "History"
+msgstr "ઈતિહાસ"
+
+msgid "Invalid streaming URL"
+msgstr "અમાન્ય સ્ટ્રીમિંગ URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ડાબે/જમણે નેવિગેટ કરો | બરાબર ખોલો | યુપી પાછા જૂથોમાં"
+
+msgid "Load error"
+msgstr "લોડ ભૂલ"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB માંથી વિગતો લોડ કરી રહ્યું છે..."
+
+msgid "Loading details..."
+msgstr "વિગતો લોડ કરી રહ્યું છે..."
+
+msgid "Loading..."
+msgstr "લોડ કરી રહ્યું છે..."
+
+msgid "Max results"
+msgstr "મહત્તમ પરિણામો"
+
+msgid "Maximum number of results to display"
+msgstr "પ્રદર્શિત કરવા માટે પરિણામોની મહત્તમ સંખ્યા"
+
+msgid "Movie History"
+msgstr "મૂવી ઇતિહાસ"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "નવી શોધ..."
+
+msgid "No Altadefinizione episode found"
+msgstr "કોઈ Altadefinizione એપિસોડ મળ્યો નથી"
+
+msgid "No CB01 episode found"
+msgstr "કોઈ CB01 એપિસોડ મળ્યો નથી"
+
+msgid "No content"
+msgstr "કોઈ સામગ્રી નથી"
+
+msgid "No content selected"
+msgstr "કોઈ સામગ્રી પસંદ કરી નથી"
+
+msgid "No episodes available"
+msgstr "કોઈ એપિસોડ ઉપલબ્ધ નથી"
+
+msgid "No previous searches found"
+msgstr "અગાઉની કોઈ શોધ મળી નથી"
+
+msgid "No relevant results found."
+msgstr "કોઈ સંબંધિત પરિણામો મળ્યાં નથી."
+
+msgid "No results found on SC."
+msgstr "SC પર કોઈ પરિણામો મળ્યા નથી."
+
+msgid "No streaming links found"
+msgstr "કોઈ સ્ટ્રીમિંગ લિંક્સ મળી નથી"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - ટીવી શ્રેણી"
+
+msgid "PLAY"
+msgstr "રમો"
+
+msgid "Playback error: %s"
+msgstr "પ્લેબેક ભૂલ: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "શોધવા માટે લીલી (મૂવી) અથવા યલો (ટીવી શ્રેણી) દબાવો..."
+
+msgid "Press OK"
+msgstr "ઓકે દબાવો"
+
+msgid "Press OK to view full details..."
+msgstr "સંપૂર્ણ વિગતો જોવા માટે ઓકે દબાવો..."
+
+msgid "REFRESH"
+msgstr "તાજું કરો"
+
+msgid "Refresh"
+msgstr "તાજું કરો"
+
+msgid "Retry"
+msgstr "ફરી પ્રયાસ કરો"
+
+msgid "SC"
+msgstr "એસસી"
+
+msgid "SEARCH"
+msgstr "શોધો"
+
+msgid "Search History"
+msgstr "શોધ ઇતિહાસ"
+
+msgid "Search Movie"
+msgstr "મૂવી શોધો"
+
+msgid "Search TV Series"
+msgstr "ટીવી શ્રેણી શોધો"
+
+msgid "Search timeout"
+msgstr "શોધ સમયસમાપ્તિ"
+
+msgid "Searching for: '%s'"
+msgstr "શોધી રહ્યાં છીએ: '%s'"
+
+msgid "Searching..."
+msgstr "શોધી રહ્યાં છીએ..."
+
+msgid "Season %d"
+msgstr "સીઝન %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "સીઝન %d (%d એપિસોડ્સ)"
+
+msgid "Seasons"
+msgstr "ઋતુઓ"
+
+msgid "Seasons:"
+msgstr "ઋતુઓ:"
+
+msgid "Series URL not found"
+msgstr "શ્રેણી URL મળ્યું નથી"
+
+msgid "Series URL not found."
+msgstr "શ્રેણી URL મળ્યું નથી."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API કી મળી નથી"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API કી મળી નથી અથવા અમાન્ય છે!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID મળ્યું નથી"
+
+msgid "TV Series History"
+msgstr "ટીવી શ્રેણી ઇતિહાસ"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "શોધ વિનંતીઓ માટે સમયસમાપ્તિ (સેકંડ)"
+
+msgid "Title"
+msgstr "શીર્ષક"
+
+msgid "Type: %s"
+msgstr "પ્રકાર: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN જૂથો | ડાબે/જમણે કાર્ડ્સ | બરાબર ખોલો"
+
+msgid "Unable to get stream for this episode"
+msgstr "આ એપિસોડ માટે સ્ટ્રીમ મેળવવામાં અસમર્થ"
+
+msgid "Unable to get streaming URL"
+msgstr "સ્ટ્રીમિંગ URL મેળવવામાં અસમર્થ"
+
+msgid "Unable to load content details"
+msgstr "સામગ્રી વિગતો લોડ કરવામાં અસમર્થ"
+
+msgid "Unable to open details for this content"
+msgstr "આ સામગ્રી માટે વિગતો ખોલવામાં અસમર્થ"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB માંથી માહિતી પુનઃપ્રાપ્ત કરવામાં અસમર્થ."
+
+msgid "Unknown"
+msgstr "અજ્ઞાત"
+
+msgid "Updated, %d groups unavailable"
+msgstr "અપડેટ કર્યું, %d જૂથો અનુપલબ્ધ"
+
+msgid "Updating"
+msgstr "અપડેટ કરી રહ્યું છે"
+
+msgid "Updating cards %d/%d"
+msgstr "કાર્ડ અપડેટ કરી રહ્યાં છીએ %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[હાઇ ડેફિનેશન] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "ભૂલ"
+
+msgid "loading"
+msgstr "લોડિંગ"

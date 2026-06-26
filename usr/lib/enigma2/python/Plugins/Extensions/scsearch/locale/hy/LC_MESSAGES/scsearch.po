@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:38+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Armenian\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d վերնագիր"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ՖԻԼՄԵՐ ---"
+
+msgid "--- New search ---"
+msgstr "--- Նոր որոնում ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- ՍԵՐԻԱԼ ---"
+
+msgid "0 titles"
+msgstr "0 վերնագիր"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> դրվագներ <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Սեզոններ <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizone նվագարկման սխալ՝ %s"
+
+msgid "Available links:"
+msgstr "Հասանելի հղումներ."
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Թերթիր խմբերը և քարտերը հորիզոնական ոլորմամբ"
+
+msgid "CANCEL"
+msgstr "ՉԵՂԱՐԿԵԼ"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 նվագարկման սխալ՝ %s"
+
+msgid "CONFIRM"
+msgstr "ՀԱՍՏԱՏԵԼ"
+
+msgid "CONTENTS"
+msgstr "ԲՈՎԱՆԴԱԿՈՒԹՅՈՒՆ"
+
+msgid "Card error"
+msgstr "Քարտի սխալ"
+
+msgid "Cards updated"
+msgstr "Քարտերը թարմացվել են"
+
+msgid "Code:"
+msgstr "Կոդ:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Կոդ՝ {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Բովանդակություն Altadefinizone-ից - Սեղմեք OK՝ բացելու համար..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Բովանդակություն CB01-ից – Սեղմեք OK՝ բացելու համար..."
+
+msgid "Description not available."
+msgstr "Նկարագրությունը հասանելի չէ:"
+
+msgid "Details for: '%s'"
+msgstr "Մանրամասներ՝ «%s»-ի համար"
+
+msgid "Details not available"
+msgstr "Մանրամասները հասանելի չեն"
+
+msgid "EXIT"
+msgstr "ԵԼՔ"
+
+msgid "Enable debug"
+msgstr "Միացնել վրիպազերծումը"
+
+msgid "Enable debug output in logs"
+msgstr "Միացնել վրիպազերծման ելքը գրանցամատյաններում"
+
+msgid "Enter Captcha Code"
+msgstr "Մուտքագրեք Captcha կոդը"
+
+msgid "Episode %d"
+msgstr "Դրվագ %d"
+
+msgid "Episode %d: %s"
+msgstr "Դրվագ %d՝ %s"
+
+msgid "Episodes"
+msgstr "Դրվագներ"
+
+msgid "Episodes:"
+msgstr "Դրվագներ:"
+
+msgid "Error loading CB01 series"
+msgstr "Չհաջողվեց բեռնել CB01 շարքը"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Չհաջողվեց բեռնել OnlineSerieTV շարքը"
+
+msgid "Error loading TMDB"
+msgstr "TMDB-ի բեռնման սխալ"
+
+msgid "Error loading details"
+msgstr "Չհաջողվեց բեռնել մանրամասները"
+
+msgid "Error playing episode: %s"
+msgstr "Սխալ՝ դրվագ խաղալիս՝ %s"
+
+msgid "Error updating UI"
+msgstr "Սխալ՝ միջերեսը թարմացնելիս"
+
+msgid "Exit"
+msgstr "Ելք"
+
+msgid "GROUPS"
+msgstr "ԽՄԲԵՐ"
+
+msgid "History"
+msgstr "Պատմություն"
+
+msgid "Invalid streaming URL"
+msgstr "Անվավեր հոսքային URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ՁԱԽ/ԱՋ նավարկություն | Լավ բաց | Վերադարձ դեպի խմբեր"
+
+msgid "Load error"
+msgstr "Բեռնման սխալ"
+
+msgid "Loading details from TMDB..."
+msgstr "Մանրամասների բեռնում TMDB-ից..."
+
+msgid "Loading details..."
+msgstr "Մանրամասների բեռնում..."
+
+msgid "Loading..."
+msgstr "Բեռնվում է..."
+
+msgid "Max results"
+msgstr "Առավելագույն արդյունքներ"
+
+msgid "Maximum number of results to display"
+msgstr "Ցուցադրվող արդյունքների առավելագույն քանակը"
+
+msgid "Movie History"
+msgstr "Ֆիլմի պատմություն"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Նոր որոնում..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione դրվագ չի գտնվել"
+
+msgid "No CB01 episode found"
+msgstr "CB01 դրվագ չի գտնվել"
+
+msgid "No content"
+msgstr "Բովանդակություն չկա"
+
+msgid "No content selected"
+msgstr "Բովանդակություն ընտրված չէ"
+
+msgid "No episodes available"
+msgstr "Հասանելի դրվագներ չկան"
+
+msgid "No previous searches found"
+msgstr "Նախորդ որոնումներ չեն գտնվել"
+
+msgid "No relevant results found."
+msgstr "Համապատասխան արդյունքներ չեն գտնվել:"
+
+msgid "No results found on SC."
+msgstr "SC-ում արդյունքներ չեն գտնվել:"
+
+msgid "No streaming links found"
+msgstr "Հոսքային հղումներ չեն գտնվել"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Հեռուստասերիալ"
+
+msgid "PLAY"
+msgstr "ԽԱՂԱԼ"
+
+msgid "Playback error: %s"
+msgstr "Նվագարկման սխալ՝ %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Սեղմեք ԿԱՆԱՉ (Ֆիլմ) կամ ԴԵՂԻՆ (Հեռուստասերիալ) որոնելու համար..."
+
+msgid "Press OK"
+msgstr "Սեղմեք OK"
+
+msgid "Press OK to view full details..."
+msgstr "Ամբողջական մանրամասները դիտելու համար սեղմեք OK..."
+
+msgid "REFRESH"
+msgstr "ԹԱՐՄԱՑՆԵԼ"
+
+msgid "Refresh"
+msgstr "Թարմացնել"
+
+msgid "Retry"
+msgstr "Կրկին փորձեք"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ՈՐՈՆՈՒՄ"
+
+msgid "Search History"
+msgstr "Որոնման պատմություն"
+
+msgid "Search Movie"
+msgstr "Որոնել ֆիլմ"
+
+msgid "Search TV Series"
+msgstr "Որոնել հեռուստասերիալներ"
+
+msgid "Search timeout"
+msgstr "Որոնման ժամանակի ավարտը"
+
+msgid "Searching for: '%s'"
+msgstr "Որոնում՝ «%s»"
+
+msgid "Searching..."
+msgstr "Որոնում..."
+
+msgid "Season %d"
+msgstr "%d սեզոն"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d եթերաշրջան (%d դրվագ)"
+
+msgid "Seasons"
+msgstr "Սեզոններ"
+
+msgid "Seasons:"
+msgstr "Սեզոններ:"
+
+msgid "Series URL not found"
+msgstr "Սերիայի URL-ը չի գտնվել"
+
+msgid "Series URL not found."
+msgstr "Սերիայի URL-ը չի գտնվել:"
+
+msgid "TMDB API key not found"
+msgstr "TMDB API բանալին չի գտնվել"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API բանալին չի գտնվել կամ անվավեր է:"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID-ն չի գտնվել"
+
+msgid "TV Series History"
+msgstr "Հեռուստասերիալների պատմություն"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Որոնման հարցումների ժամանակի ավարտ (վայրկյան)"
+
+msgid "Title"
+msgstr "Վերնագիր"
+
+msgid "Type: %s"
+msgstr "Տեսակը՝ %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN խմբեր | ՁԱԽ/ԱՋ քարտեր | Լավ բաց"
+
+msgid "Unable to get stream for this episode"
+msgstr "Չհաջողվեց հեռարձակել այս դրվագի համար"
+
+msgid "Unable to get streaming URL"
+msgstr "Հնարավոր չէ ստանալ հոսքային URL"
+
+msgid "Unable to load content details"
+msgstr "Չհաջողվեց բեռնել բովանդակության մանրամասները"
+
+msgid "Unable to open details for this content"
+msgstr "Չհաջողվեց բացել այս բովանդակության մանրամասները"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Հնարավոր չէ առբերել տեղեկատվություն TMDB-ից:"
+
+msgid "Unknown"
+msgstr "Անհայտ"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Թարմացվել է, %d խումբ անհասանելի է"
+
+msgid "Updating"
+msgstr "Թարմացվում է"
+
+msgid "Updating cards %d/%d"
+msgstr "%d/%d քարտերի թարմացում"
+
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "սխալ"
+
+msgid "loading"
+msgstr "բեռնում"

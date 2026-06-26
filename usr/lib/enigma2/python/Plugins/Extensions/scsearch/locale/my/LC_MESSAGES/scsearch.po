@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:07+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Burmese\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "ခေါင်းစဉ် %d ခု"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- ရုပ်ရှင်များ ---"
+
+msgid "--- New search ---"
+msgstr "--- ရှာဖွေမှုအသစ် ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- တီဗီစီးရီးများ ---"
+
+msgid "0 titles"
+msgstr "၀တ္ထုခေါင်းစဉ်များ"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> ဇာတ်လမ်းတွဲများ <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> ရာသီများ <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione ပြန်ဖွင့်ခြင်း အမှား- %s"
+
+msgid "Available links:"
+msgstr "ရနိုင်သောလင့်ခ်များ-"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "အလျားလိုက် လှိမ့်ခြင်းဖြင့် အုပ်စုများနှင့် ကတ်များကို ရှာဖွေပါ။"
+
+msgid "CANCEL"
+msgstr "မလုပ်တော့ပါ။"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 ပြန်ဖွင့်ခြင်း အမှား- %s"
+
+msgid "CONFIRM"
+msgstr "အတည်ပြုပါ။"
+
+msgid "CONTENTS"
+msgstr "အကြောင်းအရာများ"
+
+msgid "Card error"
+msgstr "ကတ်အမှား"
+
+msgid "Cards updated"
+msgstr "ကတ်များကို အပ်ဒိတ်လုပ်ထားသည်။"
+
+msgid "Code:"
+msgstr "ကုဒ်-"
+
+msgid "Code: {self.captcha_code}"
+msgstr "ကုဒ်- {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione မှ အကြောင်းအရာ - ဖွင့်ရန် OK ကိုနှိပ်ပါ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 မှ အကြောင်းအရာ - ဖွင့်ရန် OK ကိုနှိပ်ပါ..."
+
+msgid "Description not available."
+msgstr "ဖော်ပြချက် မရရှိနိုင်ပါ။"
+
+msgid "Details for: '%s'"
+msgstr "အသေးစိတ်အချက်များ- '%s'"
+
+msgid "Details not available"
+msgstr "အသေးစိတ်အချက်အလက်များကို မရရှိနိုင်ပါ။"
+
+msgid "EXIT"
+msgstr "ထွက်ပေါက်"
+
+msgid "Enable debug"
+msgstr "အမှားရှာပြင်ခြင်းကို ဖွင့်ပါ။"
+
+msgid "Enable debug output in logs"
+msgstr "မှတ်တမ်းများတွင် အမှားရှာအထွက်ကို ဖွင့်ပါ။"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha ကုဒ်ကိုရိုက်ထည့်ပါ။"
+
+msgid "Episode %d"
+msgstr "အပိုင်း %d"
+
+msgid "Episode %d: %s"
+msgstr "အပိုင်း %d- %s"
+
+msgid "Episodes"
+msgstr "ဇာတ်လမ်းတွဲများ"
+
+msgid "Episodes:"
+msgstr "အပိုင်းများ-"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 စီးရီးကို ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်။"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV စီးရီးကို ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်။"
+
+msgid "Error loading TMDB"
+msgstr "TMDB ကို ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်။"
+
+msgid "Error loading details"
+msgstr "အသေးစိတ်အချက်အလက်များကို ဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်။"
+
+msgid "Error playing episode: %s"
+msgstr "ဇာတ်လမ်းပိုင်းကို ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်- %s"
+
+msgid "Error updating UI"
+msgstr "UI ကို အပ်ဒိတ်လုပ်ရာတွင် အမှားအယွင်းရှိသည်။"
+
+msgid "Exit"
+msgstr "ထွက်ပေါက်"
+
+msgid "GROUPS"
+msgstr "အုပ်စုများ"
+
+msgid "History"
+msgstr "သမိုင်း"
+
+msgid "Invalid streaming URL"
+msgstr "မမှန်ကန်သော တိုက်ရိုက်လွှင့်ခြင်း URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ဘယ်/ညာ လမ်းညွှန် | အိုကေဖွင့် | အဖွဲ့များထံ ပြန်ပို့ပါ။"
+
+msgid "Load error"
+msgstr "Load အမှား"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB မှ အသေးစိတ်အချက်အလက်များကို တင်နေသည်..."
+
+msgid "Loading details..."
+msgstr "အသေးစိတ်ကို ဖွင့်နေသည်..."
+
+msgid "Loading..."
+msgstr "ဖွင့်နေသည်..."
+
+msgid "Max results"
+msgstr "အများဆုံးရလဒ်များ"
+
+msgid "Maximum number of results to display"
+msgstr "ပြသရန် အများဆုံးရလဒ်များ"
+
+msgid "Movie History"
+msgstr "ရုပ်ရှင်သမိုင်း"
+
+msgid "N/A"
+msgstr "မရှိ"
+
+msgid "New search..."
+msgstr "ရှာဖွေမှုအသစ်..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione အပိုင်းကို ရှာမတွေ့ပါ။"
+
+msgid "No CB01 episode found"
+msgstr "CB01 အပိုင်းကို ရှာမတွေ့ပါ။"
+
+msgid "No content"
+msgstr "အကြောင်းအရာမရှိပါ။"
+
+msgid "No content selected"
+msgstr "အကြောင်းအရာမရွေးပါ။"
+
+msgid "No episodes available"
+msgstr "အပိုင်းများ မရရှိနိုင်ပါ။"
+
+msgid "No previous searches found"
+msgstr "ယခင်ရှာဖွေမှုများမတွေ့ပါ။"
+
+msgid "No relevant results found."
+msgstr "သက်ဆိုင်ရာ ရလဒ်များ မတွေ့ပါ။"
+
+msgid "No results found on SC."
+msgstr "SC တွင် မည်သည့်ရလဒ်မျှ မတွေ့ပါ။"
+
+msgid "No streaming links found"
+msgstr "တိုက်ရိုက်လွှင့်လင့်ခ်များကို ရှာမတွေ့ပါ။"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - တီဗီစီးရီး"
+
+msgid "PLAY"
+msgstr "ကစားပါ။"
+
+msgid "Playback error: %s"
+msgstr "ပြန်ဖွင့်မှု အမှား- %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "ရှာရန် GREEN (ရုပ်ရှင်) သို့မဟုတ် YELLOW (TV Series) ကိုနှိပ်ပါ..."
+
+msgid "Press OK"
+msgstr "OK ကိုနှိပ်ပါ။"
+
+msgid "Press OK to view full details..."
+msgstr "အသေးစိတ်အချက်အလက်များကိုကြည့်ရှုရန် OK ကိုနှိပ်ပါ..."
+
+msgid "REFRESH"
+msgstr "ပြန်လည်စတင်ပါ။"
+
+msgid "Refresh"
+msgstr "ပြန်လည်စတင်ပါ။"
+
+msgid "Retry"
+msgstr "ပြန်ကြိုးစားပါ။"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "ရှာဖွေရန်"
+
+msgid "Search History"
+msgstr "ရှာဖွေမှုမှတ်တမ်း"
+
+msgid "Search Movie"
+msgstr "ရုပ်ရှင်ရှာပါ။"
+
+msgid "Search TV Series"
+msgstr "တီဗီစီးရီးရှာပါ။"
+
+msgid "Search timeout"
+msgstr "ရှာရန် အချိန်ကုန်သွားသည်။"
+
+msgid "Searching for: '%s'"
+msgstr "ရှာဖွေနေသည်- '%s'"
+
+msgid "Searching..."
+msgstr "ရှာဖွေနေသည်..."
+
+msgid "Season %d"
+msgstr "ရာသီ %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "ဇာတ်လမ်းတွဲ %d (အပိုင်း %d ပိုင်း)"
+
+msgid "Seasons"
+msgstr "ဥတု"
+
+msgid "Seasons:"
+msgstr "ရာသီများ-"
+
+msgid "Series URL not found"
+msgstr "စီးရီး URL ကို ရှာမတွေ့ပါ။"
+
+msgid "Series URL not found."
+msgstr "စီးရီး URL ကို ရှာမတွေ့ပါ။"
+
+msgid "TMDB API key not found"
+msgstr "TMDB API သော့ကို ရှာမတွေ့ပါ။"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API သော့ကို ရှာမတွေ့ပါ သို့မဟုတ် မမှန်ကန်ပါ။"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID မတွေ့ပါ။"
+
+msgid "TV Series History"
+msgstr "တီဗီစီးရီးမှတ်တမ်း"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "ရှာဖွေမှုတောင်းဆိုမှုများအတွက် အချိန်ကုန်သွားသည် (စက္ကန့်)"
+
+msgid "Title"
+msgstr "ခေါင်းစဉ်"
+
+msgid "Type: %s"
+msgstr "အမျိုးအစား- %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN အဖွဲ့များ | ဘယ်/ညာ ကတ်များ | အိုကေ ဖွင့်လိုက်ပါ။"
+
+msgid "Unable to get stream for this episode"
+msgstr "ဤဇာတ်လမ်းတွဲအတွက် တိုက်ရိုက်ထုတ်လွှင့်မှုကို ရယူ၍မရပါ။"
+
+msgid "Unable to get streaming URL"
+msgstr "တိုက်ရိုက်လွှင့် URL ကို မရပါ။"
+
+msgid "Unable to load content details"
+msgstr "အကြောင်းအရာအသေးစိတ်များကို တင်၍မရပါ။"
+
+msgid "Unable to open details for this content"
+msgstr "ဤအကြောင်းအရာအတွက် အသေးစိတ်အချက်အလက်များကို ဖွင့်၍မရပါ။"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB မှ အချက်အလက်များကို ရယူ၍မရပါ။"
+
+msgid "Unknown"
+msgstr "မသိ"
+
+msgid "Updated, %d groups unavailable"
+msgstr "အပ်ဒိတ်လုပ်ထားသည်၊ %d အဖွဲ့များ မရရှိနိုင်ပါ။"
+
+msgid "Updating"
+msgstr "အဆင့်မြှင့်တင်ခြင်း။"
+
+msgid "Updating cards %d/%d"
+msgstr "ကတ်များ %d/%d ကို အပ်ဒိတ်လုပ်နေသည်။"
+
+msgid "[Altadefinizione] %s"
+msgstr "[ High Definition ] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "အမှား"
+
+msgid "loading"
+msgstr ""

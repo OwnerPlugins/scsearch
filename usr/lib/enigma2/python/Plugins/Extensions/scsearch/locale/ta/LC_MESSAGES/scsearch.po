@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:35+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Tamil <tamil@systemreboot.net>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d தலைப்புகள்"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- திரைப்படங்கள் ---"
+
+msgid "--- New search ---"
+msgstr "--- புதிய தேடல் ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- தொலைக்காட்சி தொடர் ---"
+
+msgid "0 titles"
+msgstr "0 தலைப்புகள்"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> அத்தியாயங்கள் <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> பருவங்கள் <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione பின்னணி பிழை: %s"
+
+msgid "Available links:"
+msgstr "கிடைக்கும் இணைப்புகள்:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "கிடைமட்ட ஸ்க்ரோலிங் மூலம் குழுக்கள் மற்றும் அட்டைகளை உலாவவும்"
+
+msgid "CANCEL"
+msgstr "ரத்துசெய்"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 பின்னணி பிழை: %s"
+
+msgid "CONFIRM"
+msgstr "உறுதிப்படுத்தவும்"
+
+msgid "CONTENTS"
+msgstr "உள்ளடக்கங்கள்"
+
+msgid "Card error"
+msgstr "அட்டை பிழை"
+
+msgid "Cards updated"
+msgstr "கார்டுகள் புதுப்பிக்கப்பட்டன"
+
+msgid "Code:"
+msgstr "குறியீடு:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "குறியீடு: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizion இலிருந்து உள்ளடக்கம் - திறக்க சரி என்பதை அழுத்தவும்..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 இலிருந்து உள்ளடக்கம் - திறக்க சரி என்பதை அழுத்தவும்..."
+
+msgid "Description not available."
+msgstr "விளக்கம் கிடைக்கவில்லை."
+
+msgid "Details for: '%s'"
+msgstr "இதற்கான விவரங்கள்: '%s'"
+
+msgid "Details not available"
+msgstr "விவரங்கள் கிடைக்கவில்லை"
+
+msgid "EXIT"
+msgstr "வெளியேறு"
+
+msgid "Enable debug"
+msgstr "பிழைத்திருத்தத்தை இயக்கு"
+
+msgid "Enable debug output in logs"
+msgstr "பதிவுகளில் பிழைத்திருத்த வெளியீட்டை இயக்கவும்"
+
+msgid "Enter Captcha Code"
+msgstr "கேப்ட்சா குறியீட்டை உள்ளிடவும்"
+
+msgid "Episode %d"
+msgstr "எபிசோட் %d"
+
+msgid "Episode %d: %s"
+msgstr "எபிசோட் %d: %s"
+
+msgid "Episodes"
+msgstr "அத்தியாயங்கள்"
+
+msgid "Episodes:"
+msgstr "அத்தியாயங்கள்:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 தொடரை ஏற்றுவதில் பிழை"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV தொடரை ஏற்றுவதில் பிழை"
+
+msgid "Error loading TMDB"
+msgstr "TMDBஐ ஏற்றுவதில் பிழை"
+
+msgid "Error loading details"
+msgstr "விவரங்களை ஏற்றுவதில் பிழை"
+
+msgid "Error playing episode: %s"
+msgstr "எபிசோடை இயக்குவதில் பிழை: %s"
+
+msgid "Error updating UI"
+msgstr "UIஐப் புதுப்பிப்பதில் பிழை"
+
+msgid "Exit"
+msgstr "வெளியேறு"
+
+msgid "GROUPS"
+msgstr "குழுக்கள்"
+
+msgid "History"
+msgstr "வரலாறு"
+
+msgid "Invalid streaming URL"
+msgstr "தவறான ஸ்ட்ரீமிங் URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "இடது/வலது வழிசெலுத்தல் | ஓகே ஓபன் | குழுக்களுக்குத் திரும்பு"
+
+msgid "Load error"
+msgstr "ஏற்றுவதில் பிழை"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB இலிருந்து விவரங்களை ஏற்றுகிறது..."
+
+msgid "Loading details..."
+msgstr "விவரங்களை ஏற்றுகிறது..."
+
+msgid "Loading..."
+msgstr "ஏற்றுகிறது..."
+
+msgid "Max results"
+msgstr "அதிகபட்ச முடிவுகள்"
+
+msgid "Maximum number of results to display"
+msgstr "காட்ட வேண்டிய முடிவுகளின் அதிகபட்ச எண்ணிக்கை"
+
+msgid "Movie History"
+msgstr "திரைப்பட வரலாறு"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "புதிய தேடல்..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione எபிசோட் எதுவும் இல்லை"
+
+msgid "No CB01 episode found"
+msgstr "CB01 எபிசோட் எதுவும் இல்லை"
+
+msgid "No content"
+msgstr "உள்ளடக்கம் இல்லை"
+
+msgid "No content selected"
+msgstr "உள்ளடக்கம் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+msgid "No episodes available"
+msgstr "எபிசோடுகள் இல்லை"
+
+msgid "No previous searches found"
+msgstr "முந்தைய தேடல்கள் எதுவும் இல்லை"
+
+msgid "No relevant results found."
+msgstr "தொடர்புடைய முடிவுகள் எதுவும் கிடைக்கவில்லை."
+
+msgid "No results found on SC."
+msgstr "SC இல் முடிவுகள் எதுவும் கிடைக்கவில்லை."
+
+msgid "No streaming links found"
+msgstr "ஸ்ட்ரீமிங் இணைப்புகள் எதுவும் இல்லை"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - TV தொடர்"
+
+msgid "PLAY"
+msgstr "விளையாடு"
+
+msgid "Playback error: %s"
+msgstr "பின்னணி பிழை: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "தேட பச்சை (திரைப்படம்) அல்லது மஞ்சள் (டிவி தொடர்) அழுத்தவும்..."
+
+msgid "Press OK"
+msgstr "சரி என்பதை அழுத்தவும்"
+
+msgid "Press OK to view full details..."
+msgstr "முழு விவரங்களைப் பார்க்க சரி என்பதை அழுத்தவும்..."
+
+msgid "REFRESH"
+msgstr "புதுப்பிக்கவும்"
+
+msgid "Refresh"
+msgstr "புதுப்பிக்கவும்"
+
+msgid "Retry"
+msgstr "மீண்டும் முயற்சிக்கவும்"
+
+msgid "SC"
+msgstr "எஸ்சி"
+
+msgid "SEARCH"
+msgstr "தேடு"
+
+msgid "Search History"
+msgstr "தேடல் வரலாறு"
+
+msgid "Search Movie"
+msgstr "திரைப்படத்தைத் தேடுங்கள்"
+
+msgid "Search TV Series"
+msgstr "டிவி தொடர்களைத் தேடுங்கள்"
+
+msgid "Search timeout"
+msgstr "தேடல் நேரம் முடிந்தது"
+
+msgid "Searching for: '%s'"
+msgstr "தேடுகிறது: '%s'"
+
+msgid "Searching..."
+msgstr "தேடுகிறது..."
+
+msgid "Season %d"
+msgstr "சீசன் %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "சீசன் %d (%d அத்தியாயங்கள்)"
+
+msgid "Seasons"
+msgstr "பருவங்கள்"
+
+msgid "Seasons:"
+msgstr "பருவங்கள்:"
+
+msgid "Series URL not found"
+msgstr "தொடர் URL கிடைக்கவில்லை"
+
+msgid "Series URL not found."
+msgstr "தொடர் URL கிடைக்கவில்லை."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API விசை கிடைக்கவில்லை"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API விசை கிடைக்கவில்லை அல்லது தவறானது!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ஐடி கிடைக்கவில்லை"
+
+msgid "TV Series History"
+msgstr "தொலைக்காட்சி தொடர் வரலாறு"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "தேடல் கோரிக்கைகளுக்கான நேரம் முடிந்தது (வினாடிகள்)"
+
+msgid "Title"
+msgstr "தலைப்பு"
+
+msgid "Type: %s"
+msgstr "வகை: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "மேல்/கீழ் குழுக்கள் | இடது/வலது அட்டைகள் | சரி ஓபன்"
+
+msgid "Unable to get stream for this episode"
+msgstr "இந்த அத்தியாயத்திற்கான ஸ்ட்ரீமைப் பெற முடியவில்லை"
+
+msgid "Unable to get streaming URL"
+msgstr "ஸ்ட்ரீமிங் URL ஐப் பெற முடியவில்லை"
+
+msgid "Unable to load content details"
+msgstr "உள்ளடக்க விவரங்களை ஏற்ற முடியவில்லை"
+
+msgid "Unable to open details for this content"
+msgstr "இந்த உள்ளடக்கத்திற்கான விவரங்களைத் திறக்க முடியவில்லை"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB இலிருந்து தகவலை மீட்டெடுக்க முடியவில்லை."
+
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgid "Updated, %d groups unavailable"
+msgstr "புதுப்பிக்கப்பட்டது, %d குழுக்கள் கிடைக்கவில்லை"
+
+msgid "Updating"
+msgstr "புதுப்பிக்கிறது"
+
+msgid "Updating cards %d/%d"
+msgstr "%d/%d கார்டுகளைப் புதுப்பிக்கிறது"
+
+msgid "[Altadefinizione] %s"
+msgstr "[உயர் வரையறை] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "பிழை"
+
+msgid "loading"
+msgstr "ஏற்றுகிறது"

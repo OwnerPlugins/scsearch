@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:48+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Uighur\n"
+"Language: ug\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "% d ماۋزۇ"
+
+msgid "%s %s"
+msgstr "% s% s"
+
+msgid "--- MOVIES ---"
+msgstr ""
+
+msgid "--- New search ---"
+msgstr "--- يېڭى ئىزدەش ---"
+
+msgid "--- TV SERIES ---"
+msgstr ""
+
+msgid "0 titles"
+msgstr "0 ماۋزۇ"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> بۆلەكلەر <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> پەسىللەر <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione قويۇش خاتالىقى:% s"
+
+msgid "Available links:"
+msgstr "ئىشلەتكىلى بولىدىغان ئۇلىنىشلار:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "گورىزونتال سىيرىلما گۇرۇپپا ۋە كارتىلارنى كۆرۈڭ"
+
+msgid "CANCEL"
+msgstr ""
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 قويۇش خاتالىقى:% s"
+
+msgid "CONFIRM"
+msgstr ""
+
+msgid "CONTENTS"
+msgstr "مەزمۇنى"
+
+msgid "Card error"
+msgstr "كارتا خاتالىقى"
+
+msgid "Cards updated"
+msgstr "كارتا يېڭىلاندى"
+
+msgid "Code:"
+msgstr "كود:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "كود: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione دىكى مەزمۇن - ئېچىش ئۈچۈن OK نى بېسىڭ ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 دىكى مەزمۇن - جەزىملەشتۈرۈش كۇنۇپكىسىنى بېسىڭ ..."
+
+msgid "Description not available."
+msgstr "چۈشەندۈرۈش يوق."
+
+msgid "Details for: '%s'"
+msgstr "تەپسىلاتى: '% s'"
+
+msgid "Details not available"
+msgstr "تەپسىلاتى يوق"
+
+msgid "EXIT"
+msgstr ""
+
+msgid "Enable debug"
+msgstr "قوزغىتىشنى قوزغىتىڭ"
+
+msgid "Enable debug output in logs"
+msgstr "خاتىرىلەردە خاتالىق چىقىرىشنى قوزغىتىڭ"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha كودىنى كىرگۈزۈڭ"
+
+msgid "Episode %d"
+msgstr "Episode% d"
+
+msgid "Episode %d: %s"
+msgstr "Episode% d:% s"
+
+msgid "Episodes"
+msgstr ""
+
+msgid "Episodes:"
+msgstr ""
+
+msgid "Error loading CB01 series"
+msgstr "CB01 يۈرۈشلۈكىنى يۈكلەشتە خاتالىق"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV يۈرۈشلۈكلىرىنى يۈكلەشتە خاتالىق"
+
+msgid "Error loading TMDB"
+msgstr "TMDB نى يۈكلەشتە خاتالىق"
+
+msgid "Error loading details"
+msgstr "تەپسىلاتلارنى يۈكلەشتە خاتالىق"
+
+msgid "Error playing episode: %s"
+msgstr "بۆلەك ئويناشتىكى خاتالىق:% s"
+
+msgid "Error updating UI"
+msgstr "UI نى يېڭىلاشتا خاتالىق"
+
+msgid "Exit"
+msgstr "چىقىش"
+
+msgid "GROUPS"
+msgstr ""
+
+msgid "History"
+msgstr "تارىخ"
+
+msgid "Invalid streaming URL"
+msgstr "ئىناۋەتلىك ئېقىم URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "LEFT / RIGHT يول باشلاش | بولىدۇ ئوچۇق | گۇرۇپپىلارغا قايتىڭ"
+
+msgid "Load error"
+msgstr "يۈك خاتالىق"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB دىن تەپسىلاتلارنى يۈكلەۋاتىدۇ ..."
+
+msgid "Loading details..."
+msgstr "يۈكلەۋاتقان تەپسىلاتلار ..."
+
+msgid "Loading..."
+msgstr "Loading ..."
+
+msgid "Max results"
+msgstr "ئەڭ چوڭ نەتىجە"
+
+msgid "Maximum number of results to display"
+msgstr "كۆرسىتىلىدىغان ئەڭ چوڭ نەتىجە"
+
+msgid "Movie History"
+msgstr "كىنو تارىخى"
+
+msgid "N/A"
+msgstr "N / A."
+
+msgid "New search..."
+msgstr "يېڭى ئىزدەش ..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione بۆلۈمى تېپىلمىدى"
+
+msgid "No CB01 episode found"
+msgstr "CB01 بۆلۈمى تېپىلمىدى"
+
+msgid "No content"
+msgstr "ھېچقانداق مەزمۇن يوق"
+
+msgid "No content selected"
+msgstr "ھېچقانداق مەزمۇن تاللانمىدى"
+
+msgid "No episodes available"
+msgstr "ھېچقانداق بۆلەك يوق"
+
+msgid "No previous searches found"
+msgstr "ئىلگىرىكى ئىزدەشلەر تېپىلمىدى"
+
+msgid "No relevant results found."
+msgstr "مۇناسىۋەتلىك نەتىجە تېپىلمىدى."
+
+msgid "No results found on SC."
+msgstr "SC دا ھېچقانداق نەتىجە تېپىلمىدى."
+
+msgid "No streaming links found"
+msgstr "ئاقما ئۇلىنىش تېپىلمىدى"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - تېلېۋىزىيە تىياتىرى"
+
+msgid "PLAY"
+msgstr ""
+
+msgid "Playback error: %s"
+msgstr "قويۇش خاتالىقى:% s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "ئىزدەش ئۈچۈن GREEN (كىنو) ياكى سېرىق (تېلېۋىزىيە يۈرۈشلۈكلىرى) نى بېسىڭ ..."
+
+msgid "Press OK"
+msgstr "OK نى بېسىڭ"
+
+msgid "Press OK to view full details..."
+msgstr "تولۇق كۇنۇپكىنى كۆرۈش ئۈچۈن OK نى بېسىڭ ..."
+
+msgid "REFRESH"
+msgstr ""
+
+msgid "Refresh"
+msgstr "يېڭىلاش"
+
+msgid "Retry"
+msgstr "قايتا سىناڭ"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr ""
+
+msgid "Search History"
+msgstr "ئىزدەش تارىخى"
+
+msgid "Search Movie"
+msgstr "كىنو ئىزدەش"
+
+msgid "Search TV Series"
+msgstr "تېلېۋىزىيە يۈرۈشلۈكلىرىنى ئىزدەڭ"
+
+msgid "Search timeout"
+msgstr "ئىزدەش ۋاقتى"
+
+msgid "Searching for: '%s'"
+msgstr "ئىزدەش: '% s'"
+
+msgid "Searching..."
+msgstr "ئىزدەش ..."
+
+msgid "Season %d"
+msgstr "پەسىل% d"
+
+msgid "Season %d (%d episodes)"
+msgstr "پەسىل% d (% d قىسىم)"
+
+msgid "Seasons"
+msgstr "پەسىللەر"
+
+msgid "Seasons:"
+msgstr "پەسىللەر:"
+
+msgid "Series URL not found"
+msgstr "يۈرۈشلۈك URL تېپىلمىدى"
+
+msgid "Series URL not found."
+msgstr "يۈرۈشلۈك URL تېپىلمىدى."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API ئاچقۇچى تېپىلمىدى"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API ئاچقۇچى تېپىلمىدى ياكى ئىناۋەتسىز!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB كىملىكى تېپىلمىدى"
+
+msgid "TV Series History"
+msgstr ""
+
+msgid "Timeout for search requests (seconds)"
+msgstr "ئىزدەش تەلەپلىرىنىڭ ۋاقتى (سېكۇنت)"
+
+msgid "Title"
+msgstr "ماۋزۇ"
+
+msgid "Type: %s"
+msgstr "تىپى:% s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP / DOWN گۇرۇپپىلىرى | LEFT / RIGHT كارتا | ماقۇل"
+
+msgid "Unable to get stream for this episode"
+msgstr "بۇ بۆلۈمنىڭ ئېقىمىغا ئېرىشەلمىدى"
+
+msgid "Unable to get streaming URL"
+msgstr "ئاقما URL غا ئېرىشەلمىدى"
+
+msgid "Unable to load content details"
+msgstr "مەزمۇن تەپسىلاتلىرىنى يۈكلىيەلمىدى"
+
+msgid "Unable to open details for this content"
+msgstr "بۇ مەزمۇننىڭ تەپسىلاتلىرىنى ئاچالمىدى"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB دىن ئۇچۇرغا ئېرىشەلمىدى."
+
+msgid "Unknown"
+msgstr "نامەلۇم"
+
+msgid "Updated, %d groups unavailable"
+msgstr "يېڭىلاندى ،% d گۇرۇپپىسىنى ئىشلەتكىلى بولمايدۇ"
+
+msgid "Updating"
+msgstr "يېڭىلاش"
+
+msgid "Updating cards %d/%d"
+msgstr "كارتا يېڭىلاش% d /% d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[يۇقىرى ئېنىقلىما]% s"
+
+msgid "[CB01] %s"
+msgstr "[CB01]% s"
+
+msgid "error"
+msgstr "خاتالىق"
+
+msgid "loading"
+msgstr "يۈكلەۋاتىدۇ"

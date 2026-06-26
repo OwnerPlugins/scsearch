@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:25+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Western Frisian\n"
+"Language: fy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d titels"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMS ---"
+
+msgid "--- New search ---"
+msgstr "--- Nije sykaksje ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TV SERIE ---"
+
+msgid "0 titles"
+msgstr "0 titels"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Ofleverings <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Seizoenen <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione ôfspielflater: %s"
+
+msgid "Available links:"
+msgstr "Beskikbere keppelings:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Blêdzje troch groepen en kaarten mei horizontaal rôljen"
+
+msgid "CANCEL"
+msgstr ""
+
+msgid "CB01 playback error: %s"
+msgstr "CB01-ôfspielflater: %s"
+
+msgid "CONFIRM"
+msgstr "BEVESTIGJE"
+
+msgid "CONTENTS"
+msgstr "Ynhâld"
+
+msgid "Card error"
+msgstr "Kaart flater"
+
+msgid "Cards updated"
+msgstr "Kaarten bywurke"
+
+msgid "Code:"
+msgstr "Koade:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Koade: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Ynhâld fan Altadefinizione - Druk op OK om te iepenjen ..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Ynhâld fan CB01 - Druk op OK om te iepenjen ..."
+
+msgid "Description not available."
+msgstr "Beskriuwing net beskikber."
+
+msgid "Details for: '%s'"
+msgstr "Details foar: '%s'"
+
+msgid "Details not available"
+msgstr "Details net beskikber"
+
+msgid "EXIT"
+msgstr "ÚTGONG"
+
+msgid "Enable debug"
+msgstr "Debug ynskeakelje"
+
+msgid "Enable debug output in logs"
+msgstr "Debug útfier yn logs ynskeakelje"
+
+msgid "Enter Captcha Code"
+msgstr "Fier Captcha Code yn"
+
+msgid "Episode %d"
+msgstr "Oflevering %d"
+
+msgid "Episode %d: %s"
+msgstr "Oflevering %d: %s"
+
+msgid "Episodes"
+msgstr ""
+
+msgid "Episodes:"
+msgstr "Ofleverings:"
+
+msgid "Error loading CB01 series"
+msgstr "Flater by it laden fan CB01-searje"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Flater by it laden fan OnlineSerieTV-searje"
+
+msgid "Error loading TMDB"
+msgstr "Flater by it laden fan TMDB"
+
+msgid "Error loading details"
+msgstr "Flater by it laden fan details"
+
+msgid "Error playing episode: %s"
+msgstr "Flater by it spyljen fan ôflevering: %s"
+
+msgid "Error updating UI"
+msgstr "Flater by it bywurkjen fan UI"
+
+msgid "Exit"
+msgstr "Útgong"
+
+msgid "GROUPS"
+msgstr "GROEPEN"
+
+msgid "History"
+msgstr "Skiednis"
+
+msgid "Invalid streaming URL"
+msgstr "Unjildige streaming-URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "LEFT / RIGHT navigearje | OK iepen | UP werom nei groepen"
+
+msgid "Load error"
+msgstr "Laad flater"
+
+msgid "Loading details from TMDB..."
+msgstr "Details laden fan TMDB..."
+
+msgid "Loading details..."
+msgstr "Details laden..."
+
+msgid "Loading..."
+msgstr ""
+
+msgid "Max results"
+msgstr "Max resultaten"
+
+msgid "Maximum number of results to display"
+msgstr "Maksimum oantal resultaten te werjaan"
+
+msgid "Movie History"
+msgstr "Movie Skiednis"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Nije sykaksje..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Gjin Altadefinizione ôflevering fûn"
+
+msgid "No CB01 episode found"
+msgstr "Gjin CB01-ôflevering fûn"
+
+msgid "No content"
+msgstr "Gjin ynhâld"
+
+msgid "No content selected"
+msgstr "Gjin ynhâld selektearre"
+
+msgid "No episodes available"
+msgstr "Gjin ôfleverings beskikber"
+
+msgid "No previous searches found"
+msgstr "Gjin eardere sykopdrachten fûn"
+
+msgid "No relevant results found."
+msgstr "Gjin relevante resultaten fûn."
+
+msgid "No results found on SC."
+msgstr "Gjin resultaten fûn op SC."
+
+msgid "No streaming links found"
+msgstr "Gjin streamingkeppelings fûn"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr ""
+
+msgid "PLAY"
+msgstr "TOANIELSTIK"
+
+msgid "Playback error: %s"
+msgstr "Ofspielflater: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Druk op GREEN (film) of YEL (TV-searje) om te sykjen ..."
+
+msgid "Press OK"
+msgstr "Druk op OK"
+
+msgid "Press OK to view full details..."
+msgstr "Druk op OK om folsleine details te besjen ..."
+
+msgid "REFRESH"
+msgstr ""
+
+msgid "Refresh"
+msgstr "Ferfarskje"
+
+msgid "Retry"
+msgstr "Opnij besykje"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "SYKJE"
+
+msgid "Search History"
+msgstr ""
+
+msgid "Search Movie"
+msgstr "Sykje Movie"
+
+msgid "Search TV Series"
+msgstr ""
+
+msgid "Search timeout"
+msgstr ""
+
+msgid "Searching for: '%s'"
+msgstr "Op syk nei: '%s'"
+
+msgid "Searching..."
+msgstr "It sykjen..."
+
+msgid "Season %d"
+msgstr "Seizoen %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Seizoen %d (%d ôfleverings)"
+
+msgid "Seasons"
+msgstr "Seizoenen"
+
+msgid "Seasons:"
+msgstr "Seizoenen:"
+
+msgid "Series URL not found"
+msgstr "Searje URL net fûn"
+
+msgid "Series URL not found."
+msgstr "Searje URL net fûn."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API-kaai net fûn"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API-kaai net fûn of ûnjildich!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID net fûn"
+
+msgid "TV Series History"
+msgstr "TV Series Skiednis"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout foar sykopdrachten (sekonden)"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Type: %s"
+msgstr "Typ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN groepen | LEFT / RIGHT cards | OK iepen"
+
+msgid "Unable to get stream for this episode"
+msgstr "Koe gjin stream krije foar dizze ôflevering"
+
+msgid "Unable to get streaming URL"
+msgstr "Net mooglik om de streamende URL te krijen"
+
+msgid "Unable to load content details"
+msgstr "Kin ynhâldsdetails net laden"
+
+msgid "Unable to open details for this content"
+msgstr "Kin details foar dizze ynhâld net iepenje"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Kin ynformaasje net ophelje fan TMDB."
+
+msgid "Unknown"
+msgstr "Ûnbekend"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Bywurke, %d groepen net beskikber"
+
+msgid "Updating"
+msgstr "Fernijing"
+
+msgid "Updating cards %d/%d"
+msgstr "Kaarten %d/%d bywurkje"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Hege definysje] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "fersin"
+
+msgid "loading"
+msgstr "laden"

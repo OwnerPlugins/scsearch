@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:44+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%d titles"
+msgstr "%d タイトル"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- 映画 ---"
+
+msgid "--- New search ---"
+msgstr "--- 新規検索 ---"
+
+msgid "--- TV SERIES ---"
+msgstr "- - 連続テレビ番組 - -"
+
+msgid "0 titles"
+msgstr "0タイトル"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> エピソード <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> 季節 <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "アルタ定義再生エラー: %s"
+
+msgid "Available links:"
+msgstr "利用可能なリンク:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "水平スクロールでグループとカードを閲覧"
+
+msgid "CANCEL"
+msgstr "キャンセル"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 再生エラー: %s"
+
+msgid "CONFIRM"
+msgstr "確認する"
+
+msgid "CONTENTS"
+msgstr "コンテンツ"
+
+msgid "Card error"
+msgstr "カードエラー"
+
+msgid "Cards updated"
+msgstr "カードが更新されました"
+
+msgid "Code:"
+msgstr "コード："
+
+msgid "Code: {self.captcha_code}"
+msgstr "コード: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione のコンテンツ - [OK] を押して開きます..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 のコンテンツ - [OK] を押して開きます..."
+
+msgid "Description not available."
+msgstr "説明はありません。"
+
+msgid "Details for: '%s'"
+msgstr "詳細: '%s'"
+
+msgid "Details not available"
+msgstr "詳細は不明"
+
+msgid "EXIT"
+msgstr "出口"
+
+msgid "Enable debug"
+msgstr "デバッグを有効にする"
+
+msgid "Enable debug output in logs"
+msgstr "ログでのデバッグ出力を有効にする"
+
+msgid "Enter Captcha Code"
+msgstr "キャプチャコードを入力してください"
+
+msgid "Episode %d"
+msgstr "エピソード %d"
+
+msgid "Episode %d: %s"
+msgstr "エピソード %d: %s"
+
+msgid "Episodes"
+msgstr "エピソード"
+
+msgid "Episodes:"
+msgstr "エピソード:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01シリーズの読み込みエラー"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV シリーズの読み込みエラー"
+
+msgid "Error loading TMDB"
+msgstr "TMDB のロード中にエラーが発生しました"
+
+msgid "Error loading details"
+msgstr "詳細の読み込みエラー"
+
+msgid "Error playing episode: %s"
+msgstr "エピソードの再生中にエラーが発生しました: %s"
+
+msgid "Error updating UI"
+msgstr "UIの更新中にエラーが発生しました"
+
+msgid "Exit"
+msgstr "出口"
+
+msgid "GROUPS"
+msgstr "グループ"
+
+msgid "History"
+msgstr "歴史"
+
+msgid "Invalid streaming URL"
+msgstr "無効なストリーミング URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "左/右に移動 | OK 開きます | UPしてグループに戻る"
+
+msgid "Load error"
+msgstr "ロードエラー"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB から詳細をロードしています..."
+
+msgid "Loading details..."
+msgstr "詳細を読み込んでいます..."
+
+msgid "Loading..."
+msgstr "読み込み中..."
+
+msgid "Max results"
+msgstr "最大の結果"
+
+msgid "Maximum number of results to display"
+msgstr "表示する結果の最大数"
+
+msgid "Movie History"
+msgstr "映画の歴史"
+
+msgid "N/A"
+msgstr "該当なし"
+
+msgid "New search..."
+msgstr "新しい検索..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione エピソードが見つかりませんでした"
+
+msgid "No CB01 episode found"
+msgstr "CB01 エピソードが見つかりませんでした"
+
+msgid "No content"
+msgstr "コンテンツなし"
+
+msgid "No content selected"
+msgstr "コンテンツが選択されていません"
+
+msgid "No episodes available"
+msgstr "利用できるエピソードはありません"
+
+msgid "No previous searches found"
+msgstr "以前の検索は見つかりませんでした"
+
+msgid "No relevant results found."
+msgstr "関連する結果が見つかりませんでした。"
+
+msgid "No results found on SC."
+msgstr "SC で結果が見つかりませんでした。"
+
+msgid "No streaming links found"
+msgstr "ストリーミング リンクが見つかりません"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "オンラインSerieTV - テレビシリーズ"
+
+msgid "PLAY"
+msgstr "遊ぶ"
+
+msgid "Playback error: %s"
+msgstr "再生エラー: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "緑 (映画) または黄色 (TV シリーズ) を押して検索します..."
+
+msgid "Press OK"
+msgstr "「OK」を押します"
+
+msgid "Press OK to view full details..."
+msgstr "[OK] を押して詳細を表示します..."
+
+msgid "REFRESH"
+msgstr "リフレッシュ"
+
+msgid "Refresh"
+msgstr "リフレッシュ"
+
+msgid "Retry"
+msgstr "リトライ"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "検索"
+
+msgid "Search History"
+msgstr "検索履歴"
+
+msgid "Search Movie"
+msgstr "動画を検索"
+
+msgid "Search TV Series"
+msgstr "テレビシリーズを検索"
+
+msgid "Search timeout"
+msgstr "検索タイムアウト"
+
+msgid "Searching for: '%s'"
+msgstr "検索中: '%s'"
+
+msgid "Searching..."
+msgstr "検索中..."
+
+msgid "Season %d"
+msgstr "シーズン %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "シーズン %d (%d エピソード)"
+
+msgid "Seasons"
+msgstr "季節"
+
+msgid "Seasons:"
+msgstr "季節:"
+
+msgid "Series URL not found"
+msgstr "シリーズの URL が見つかりません"
+
+msgid "Series URL not found."
+msgstr "シリーズの URL が見つかりません。"
+
+msgid "TMDB API key not found"
+msgstr "TMDB API キーが見つかりません"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API キーが見つからないか無効です。"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID が見つかりません"
+
+msgid "TV Series History"
+msgstr "TVシリーズの歴史"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "検索リクエストのタイムアウト (秒)"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Type: %s"
+msgstr "種類"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN グループ | 左/右のカード | OK オープン"
+
+msgid "Unable to get stream for this episode"
+msgstr "このエピソードのストリームを取得できません"
+
+msgid "Unable to get streaming URL"
+msgstr "ストリーミング URL を取得できません"
+
+msgid "Unable to load content details"
+msgstr "コンテンツの詳細を読み込めません"
+
+msgid "Unable to open details for this content"
+msgstr "このコンテンツの詳細を開けません"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB から情報を取得できません。"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Updated, %d groups unavailable"
+msgstr "更新されました。%d グループは利用できません"
+
+msgid "Updating"
+msgstr "更新中"
+
+msgid "Updating cards %d/%d"
+msgstr "カード %d/%d を更新しています"
+
+msgid "[Altadefinizione] %s"
+msgstr "[高解像度] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "エラー"
+
+msgid "loading"
+msgstr "読み込み中"

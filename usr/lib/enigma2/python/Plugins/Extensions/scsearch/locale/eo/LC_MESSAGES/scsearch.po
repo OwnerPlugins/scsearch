@@ -1,0 +1,333 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:14+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Esperanto <translation-team-eo@lists.sourceforge.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "%d titles"
+msgstr "%d titoloj"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILMOJ ---"
+
+msgid "--- New search ---"
+msgstr "--- Nova serĉo ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- TELEVIDA SERIO ---"
+
+msgid "0 titles"
+msgstr "0 titoloj"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Epizodoj <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Sezonoj <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadifina reprodukta eraro: %s"
+
+msgid "Available links:"
+msgstr "Disponeblaj ligiloj:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Foliumu grupojn kaj kartojn per horizontala movo"
+
+msgid "CANCEL"
+msgstr "NULIGI"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 reprodukta eraro: %s"
+
+msgid "CONFIRM"
+msgstr "KONFIRMI"
+
+msgid "CONTENTS"
+msgstr "ENHAVO"
+
+msgid "Card error"
+msgstr "Karto-eraro"
+
+msgid "Cards updated"
+msgstr "Kartoj ĝisdatigitaj"
+
+msgid "Code:"
+msgstr "Kodo:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kodo: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Enhavo de Altadefinizione - Premu OK por malfermi..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Enhavo de CB01 - Premu OK por malfermi..."
+
+msgid "Description not available."
+msgstr "Priskribo ne havebla."
+
+msgid "Details for: '%s'"
+msgstr "Detaloj por: '%s'"
+
+msgid "Details not available"
+msgstr "Detaloj ne haveblaj"
+
+msgid "EXIT"
+msgstr "ELIRO"
+
+msgid "Enable debug"
+msgstr "Ebligu sencimigon"
+
+msgid "Enable debug output in logs"
+msgstr "Ebligu sencimigan eligon en protokoloj"
+
+msgid "Enter Captcha Code"
+msgstr "Enigu Captcha Kodon"
+
+msgid "Episode %d"
+msgstr "Epizodo %d"
+
+msgid "Episode %d: %s"
+msgstr "Epizodo %d: %s"
+
+msgid "Episodes"
+msgstr "Epizodoj"
+
+msgid "Episodes:"
+msgstr "Epizodoj:"
+
+msgid "Error loading CB01 series"
+msgstr "Eraro dum ŝarĝo de CB01-serio"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Eraro dum ŝarĝo de la serio OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Eraro dum ŝarĝo de TMDB"
+
+msgid "Error loading details"
+msgstr "Eraro dum ŝarĝo de detaloj"
+
+msgid "Error playing episode: %s"
+msgstr "Eraro dum la ludado de epizodo: %s"
+
+msgid "Error updating UI"
+msgstr "Eraro dum ĝisdatigo de UI"
+
+msgid "Exit"
+msgstr "Eliro"
+
+msgid "GROUPS"
+msgstr "GRUPOJ"
+
+msgid "History"
+msgstr "Historio"
+
+msgid "Invalid streaming URL"
+msgstr "Nevalida streaming URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "maldekstre/dekstre navigi | OK malfermi | SUPREN reen al grupoj"
+
+msgid "Load error"
+msgstr "Ŝargi eraron"
+
+msgid "Loading details from TMDB..."
+msgstr "Ŝarĝante detalojn de TMDB..."
+
+msgid "Loading details..."
+msgstr "Ŝarĝante detalojn..."
+
+msgid "Loading..."
+msgstr "Ŝarĝante..."
+
+msgid "Max results"
+msgstr "Maksimumaj rezultoj"
+
+msgid "Maximum number of results to display"
+msgstr "Maksimuma nombro de rezultoj por montri"
+
+msgid "Movie History"
+msgstr "Filmhistorio"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Nova serĉo..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Neniu Altadefinizione epizodo trovita"
+
+msgid "No CB01 episode found"
+msgstr "Neniu CB01 epizodo trovita"
+
+msgid "No content"
+msgstr "Neniu enhavo"
+
+msgid "No content selected"
+msgstr "Neniu enhavo elektita"
+
+msgid "No episodes available"
+msgstr "Neniuj epizodoj haveblaj"
+
+msgid "No previous searches found"
+msgstr "Neniuj antaŭaj serĉoj trovitaj"
+
+msgid "No relevant results found."
+msgstr "Neniuj rilataj rezultoj trovitaj."
+
+msgid "No results found on SC."
+msgstr "Neniuj rezultoj trovitaj pri SC."
+
+msgid "No streaming links found"
+msgstr "Neniuj fluaj ligiloj trovitaj"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Televidserio"
+
+msgid "PLAY"
+msgstr "LUDU"
+
+msgid "Playback error: %s"
+msgstr "Eraro de reprodukto: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Premu VERDA (Filmo) aŭ FLAVA (Televido-Serio) por serĉi..."
+
+msgid "Press OK"
+msgstr "Premu OK"
+
+msgid "Press OK to view full details..."
+msgstr "Premu OK por vidi plenajn detalojn..."
+
+msgid "REFRESH"
+msgstr "Refreŝigi"
+
+msgid "Refresh"
+msgstr "Refreŝigi"
+
+msgid "Retry"
+msgstr "Reprovi"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "SERĈI"
+
+msgid "Search History"
+msgstr "Serĉhistorio"
+
+msgid "Search Movie"
+msgstr "Serĉu Filmon"
+
+msgid "Search TV Series"
+msgstr "Serĉu Televidserio"
+
+msgid "Search timeout"
+msgstr "Serĉa tempodaŭro"
+
+msgid "Searching for: '%s'"
+msgstr "Serĉante: '%s'"
+
+msgid "Searching..."
+msgstr "Serĉante..."
+
+msgid "Season %d"
+msgstr "Sezono %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Sezono %d (%d epizodoj)"
+
+msgid "Seasons"
+msgstr "Sezonoj"
+
+msgid "Seasons:"
+msgstr "Sezonoj:"
+
+msgid "Series URL not found"
+msgstr "Serio URL ne trovita"
+
+msgid "Series URL not found."
+msgstr "Serio URL ne trovita."
+
+msgid "TMDB API key not found"
+msgstr "TMDB-API-ŝlosilo ne trovita"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB-API-ŝlosilo ne trovita aŭ nevalida!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB-ID ne trovita"
+
+msgid "TV Series History"
+msgstr "Televidserio Historio"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Tempo por serĉpetoj (sekundoj)"
+
+msgid "Title"
+msgstr "Titolo"
+
+msgid "Type: %s"
+msgstr "Tajpu: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN grupoj | kartoj maldekstre/dekstre | Bone malfermita"
+
+msgid "Unable to get stream for this episode"
+msgstr "Ne eblas ricevi fluon por ĉi tiu epizodo"
+
+msgid "Unable to get streaming URL"
+msgstr "Ne eblas akiri la retsendan URL"
+
+msgid "Unable to load content details"
+msgstr "Ne eblas ŝargi enhavajn detalojn"
+
+msgid "Unable to open details for this content"
+msgstr "Ne eblas malfermi detalojn por ĉi tiu enhavo"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Ne eblas preni informojn de TMDB."
+
+msgid "Unknown"
+msgstr "Nekonata"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Ĝisdatigita, %d grupoj nedisponeblaj"
+
+msgid "Updating"
+msgstr "Ĝisdatigo"
+
+msgid "Updating cards %d/%d"
+msgstr "Ĝisdatigante kartojn %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Alta Difino] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "eraro"
+
+msgid "loading"
+msgstr "ŝarĝo"

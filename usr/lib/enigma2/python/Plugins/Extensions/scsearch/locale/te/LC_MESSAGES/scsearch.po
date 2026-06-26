@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 12:36+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Telugu <(nothing)>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d శీర్షికలు"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- సినిమాలు ---"
+
+msgid "--- New search ---"
+msgstr "--- కొత్త శోధన ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- టీవీ సిరీస్ ---"
+
+msgid "0 titles"
+msgstr "0 శీర్షికలు"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> ఎపిసోడ్‌లు <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> సీజన్లు <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "ఆల్టాడెఫినిజియోన్ ప్లేబ్యాక్ లోపం: %s"
+
+msgid "Available links:"
+msgstr "అందుబాటులో ఉన్న లింకులు:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "క్షితిజ సమాంతర స్క్రోలింగ్‌తో సమూహాలు మరియు కార్డ్‌లను బ్రౌజ్ చేయండి"
+
+msgid "CANCEL"
+msgstr "రద్దు చేయి"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 ప్లేబ్యాక్ లోపం: %s"
+
+msgid "CONFIRM"
+msgstr "నిర్ధారించండి"
+
+msgid "CONTENTS"
+msgstr "కంటెంట్‌లు"
+
+msgid "Card error"
+msgstr "కార్డ్ లోపం"
+
+msgid "Cards updated"
+msgstr "కార్డ్‌లు నవీకరించబడ్డాయి"
+
+msgid "Code:"
+msgstr "కోడ్:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "కోడ్: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione నుండి కంటెంట్ - తెరవడానికి సరే నొక్కండి..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 నుండి కంటెంట్ - తెరవడానికి సరే నొక్కండి..."
+
+msgid "Description not available."
+msgstr "వివరణ అందుబాటులో లేదు."
+
+msgid "Details for: '%s'"
+msgstr "దీని వివరాలు: '%s'"
+
+msgid "Details not available"
+msgstr "వివరాలు అందుబాటులో లేవు"
+
+msgid "EXIT"
+msgstr "నిష్క్రమించు"
+
+msgid "Enable debug"
+msgstr "డీబగ్‌ని ప్రారంభించండి"
+
+msgid "Enable debug output in logs"
+msgstr "లాగ్‌లలో డీబగ్ అవుట్‌పుట్‌ని ప్రారంభించండి"
+
+msgid "Enter Captcha Code"
+msgstr "క్యాప్చా కోడ్‌ని నమోదు చేయండి"
+
+msgid "Episode %d"
+msgstr "ఎపిసోడ్ %d"
+
+msgid "Episode %d: %s"
+msgstr "ఎపిసోడ్ %d: %s"
+
+msgid "Episodes"
+msgstr "ఎపిసోడ్‌లు"
+
+msgid "Episodes:"
+msgstr "ఎపిసోడ్‌లు:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 సిరీస్‌ను లోడ్ చేయడంలో లోపం"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV సిరీస్‌ను లోడ్ చేయడంలో లోపం"
+
+msgid "Error loading TMDB"
+msgstr "TMDBని లోడ్ చేయడంలో లోపం"
+
+msgid "Error loading details"
+msgstr "వివరాలను లోడ్ చేయడంలో లోపం"
+
+msgid "Error playing episode: %s"
+msgstr "ఎపిసోడ్ ప్లే చేయడంలో లోపం: %s"
+
+msgid "Error updating UI"
+msgstr "UIని అప్‌డేట్ చేయడంలో లోపం"
+
+msgid "Exit"
+msgstr "నిష్క్రమించు"
+
+msgid "GROUPS"
+msgstr "సమూహాలు"
+
+msgid "History"
+msgstr "చరిత్ర"
+
+msgid "Invalid streaming URL"
+msgstr "చెల్లని స్ట్రీమింగ్ URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ఎడమ/కుడి నావిగేట్ | సరే ఓపెన్ | UP తిరిగి సమూహాలకు"
+
+msgid "Load error"
+msgstr "లోడ్ లోపం"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB నుండి వివరాలను లోడ్ చేస్తోంది..."
+
+msgid "Loading details..."
+msgstr "వివరాలను లోడ్ చేస్తోంది..."
+
+msgid "Loading..."
+msgstr "లోడ్ అవుతోంది..."
+
+msgid "Max results"
+msgstr "గరిష్ట ఫలితాలు"
+
+msgid "Maximum number of results to display"
+msgstr "ప్రదర్శించడానికి గరిష్ట సంఖ్యలో ఫలితాలు"
+
+msgid "Movie History"
+msgstr "సినిమా చరిత్ర"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "కొత్త శోధన..."
+
+msgid "No Altadefinizione episode found"
+msgstr "ఆల్టాడెఫినిజియోన్ ఎపిసోడ్ కనుగొనబడలేదు"
+
+msgid "No CB01 episode found"
+msgstr "CB01 ఎపిసోడ్ కనుగొనబడలేదు"
+
+msgid "No content"
+msgstr "కంటెంట్ లేదు"
+
+msgid "No content selected"
+msgstr "కంటెంట్ ఏదీ ఎంచుకోబడలేదు"
+
+msgid "No episodes available"
+msgstr "ఎపిసోడ్‌లు ఏవీ అందుబాటులో లేవు"
+
+msgid "No previous searches found"
+msgstr "మునుపటి శోధనలు ఏవీ కనుగొనబడలేదు"
+
+msgid "No relevant results found."
+msgstr "సంబంధిత ఫలితాలు ఏవీ కనుగొనబడలేదు."
+
+msgid "No results found on SC."
+msgstr "SCలో ఫలితాలు కనుగొనబడలేదు."
+
+msgid "No streaming links found"
+msgstr "స్ట్రీమింగ్ లింక్‌లు ఏవీ కనుగొనబడలేదు"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - TV సిరీస్"
+
+msgid "PLAY"
+msgstr "ఆడండి"
+
+msgid "Playback error: %s"
+msgstr "ప్లేబ్యాక్ లోపం: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "శోధించడానికి GREEN (మూవీ) లేదా పసుపు (TV సిరీస్) నొక్కండి..."
+
+msgid "Press OK"
+msgstr "సరే నొక్కండి"
+
+msgid "Press OK to view full details..."
+msgstr "పూర్తి వివరాలను వీక్షించడానికి సరే నొక్కండి..."
+
+msgid "REFRESH"
+msgstr "రిఫ్రెష్ చేయండి"
+
+msgid "Refresh"
+msgstr "రిఫ్రెష్ చేయండి"
+
+msgid "Retry"
+msgstr "మళ్లీ ప్రయత్నించండి"
+
+msgid "SC"
+msgstr "ఎస్సీ"
+
+msgid "SEARCH"
+msgstr "శోధించు"
+
+msgid "Search History"
+msgstr "శోధన చరిత్ర"
+
+msgid "Search Movie"
+msgstr "సినిమాని శోధించండి"
+
+msgid "Search TV Series"
+msgstr "TV సిరీస్‌ని శోధించండి"
+
+msgid "Search timeout"
+msgstr "శోధన సమయం ముగిసింది"
+
+msgid "Searching for: '%s'"
+msgstr "దీని కోసం వెతుకుతోంది: '%s'"
+
+msgid "Searching..."
+msgstr "శోధిస్తోంది..."
+
+msgid "Season %d"
+msgstr "సీజన్ %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "సీజన్ %d (%d ఎపిసోడ్‌లు)"
+
+msgid "Seasons"
+msgstr "సీజన్లు"
+
+msgid "Seasons:"
+msgstr "సీజన్లు:"
+
+msgid "Series URL not found"
+msgstr "సిరీస్ URL కనుగొనబడలేదు"
+
+msgid "Series URL not found."
+msgstr "సిరీస్ URL కనుగొనబడలేదు."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API కీ కనుగొనబడలేదు"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API కీ కనుగొనబడలేదు లేదా చెల్లదు!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID కనుగొనబడలేదు"
+
+msgid "TV Series History"
+msgstr "TV సిరీస్ చరిత్ర"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "శోధన అభ్యర్థనల గడువు ముగిసింది (సెకన్లు)"
+
+msgid "Title"
+msgstr "శీర్షిక"
+
+msgid "Type: %s"
+msgstr "రకం: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN సమూహాలు | ఎడమ/కుడి కార్డ్‌లు | సరే తెరవండి"
+
+msgid "Unable to get stream for this episode"
+msgstr "ఈ ఎపిసోడ్ కోసం స్ట్రీమ్ పొందడం సాధ్యపడలేదు"
+
+msgid "Unable to get streaming URL"
+msgstr "స్ట్రీమింగ్ URLని పొందడం సాధ్యం కాలేదు"
+
+msgid "Unable to load content details"
+msgstr "కంటెంట్ వివరాలను లోడ్ చేయడం సాధ్యపడలేదు"
+
+msgid "Unable to open details for this content"
+msgstr "ఈ కంటెంట్ కోసం వివరాలను తెరవడం సాధ్యం కాలేదు"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB నుండి సమాచారాన్ని తిరిగి పొందడం సాధ్యం కాలేదు."
+
+msgid "Unknown"
+msgstr "తెలియదు"
+
+msgid "Updated, %d groups unavailable"
+msgstr "నవీకరించబడింది, %d సమూహాలు అందుబాటులో లేవు"
+
+msgid "Updating"
+msgstr "అప్‌డేట్ చేస్తోంది"
+
+msgid "Updating cards %d/%d"
+msgstr "%d/%d కార్డ్‌లను నవీకరిస్తోంది"
+
+msgid "[Altadefinizione] %s"
+msgstr "[హై డెఫినిషన్] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "లోపం"
+
+msgid "loading"
+msgstr "లోడ్ అవుతోంది"

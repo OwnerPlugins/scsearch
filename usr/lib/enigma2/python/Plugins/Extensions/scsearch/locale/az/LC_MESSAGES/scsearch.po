@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 10:56+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Azerbaijani\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d başlıq"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FİLMLER ---"
+
+msgid "--- New search ---"
+msgstr "--- Yeni axtarış ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- Seriallar ---"
+
+msgid "0 titles"
+msgstr "0 başlıq"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Epizodlar <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Mövsümlər <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione oxutma xətası: %s"
+
+msgid "Available links:"
+msgstr "Mövcud bağlantılar:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Üfüqi sürüşmə ilə qrupları və kartları gözdən keçirin"
+
+msgid "CANCEL"
+msgstr "LƏĞV EDİN"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 oxutma xətası: %s"
+
+msgid "CONFIRM"
+msgstr "TƏSDİQ EDİN"
+
+msgid "CONTENTS"
+msgstr "MÜNDƏRİCAT"
+
+msgid "Card error"
+msgstr "Kart xətası"
+
+msgid "Cards updated"
+msgstr "Kartlar yeniləndi"
+
+msgid "Code:"
+msgstr "Kod:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Altadefinizione məzmunu - Açmaq üçün OK düyməsini basın..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "CB01 məzmunu - Açmaq üçün OK düyməsini basın..."
+
+msgid "Description not available."
+msgstr "Təsvir mövcud deyil."
+
+msgid "Details for: '%s'"
+msgstr "'%s' üçün təfərrüatlar"
+
+msgid "Details not available"
+msgstr "Detallar mövcud deyil"
+
+msgid "EXIT"
+msgstr "ÇIXIŞ"
+
+msgid "Enable debug"
+msgstr "Debaqı aktivləşdirin"
+
+msgid "Enable debug output in logs"
+msgstr "Qeydlərdə sazlama çıxışını aktivləşdirin"
+
+msgid "Enter Captcha Code"
+msgstr "Captcha kodunu daxil edin"
+
+msgid "Episode %d"
+msgstr "Epizod %d"
+
+msgid "Episode %d: %s"
+msgstr "Epizod %d: %s"
+
+msgid "Episodes"
+msgstr "Epizodlar"
+
+msgid "Episodes:"
+msgstr "Epizodlar:"
+
+msgid "Error loading CB01 series"
+msgstr "CB01 seriyasını yükləmə xətası"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "OnlineSerieTV seriyasını yükləmə xətası"
+
+msgid "Error loading TMDB"
+msgstr "TMDB yüklənərkən xəta baş verdi"
+
+msgid "Error loading details"
+msgstr "Detalları yükləmə xətası"
+
+msgid "Error playing episode: %s"
+msgstr "Epizodu oynatma xətası: %s"
+
+msgid "Error updating UI"
+msgstr "UI yenilənərkən xəta baş verdi"
+
+msgid "Exit"
+msgstr "Çıx"
+
+msgid "GROUPS"
+msgstr "QRUPLAR"
+
+msgid "History"
+msgstr "Tarix"
+
+msgid "Invalid streaming URL"
+msgstr "Yanlış yayım URL"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "SOL/SAĞ naviqasiya | OK aç | Qruplara qayıt"
+
+msgid "Load error"
+msgstr "Yükləmə xətası"
+
+msgid "Loading details from TMDB..."
+msgstr "TMDB-dən təfərrüatlar yüklənir..."
+
+msgid "Loading details..."
+msgstr "Detallar yüklənir..."
+
+msgid "Loading..."
+msgstr "Yüklənir..."
+
+msgid "Max results"
+msgstr "Maksimum nəticələr"
+
+msgid "Maximum number of results to display"
+msgstr "Göstəriləcək nəticələrin maksimum sayı"
+
+msgid "Movie History"
+msgstr "Kino Tarixi"
+
+msgid "N/A"
+msgstr "Yoxdur"
+
+msgid "New search..."
+msgstr "Yeni axtarış..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione epizodu tapılmadı"
+
+msgid "No CB01 episode found"
+msgstr "CB01 epizodu tapılmadı"
+
+msgid "No content"
+msgstr "Məzmun yoxdur"
+
+msgid "No content selected"
+msgstr "Heç bir məzmun seçilməyib"
+
+msgid "No episodes available"
+msgstr "Heç bir epizod əlçatan deyil"
+
+msgid "No previous searches found"
+msgstr "Əvvəlki axtarışlar tapılmadı"
+
+msgid "No relevant results found."
+msgstr "Müvafiq nəticə tapılmadı."
+
+msgid "No results found on SC."
+msgstr "SC-də heç bir nəticə tapılmadı."
+
+msgid "No streaming links found"
+msgstr "Axın keçidləri tapılmadı"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Televiziya serialı"
+
+msgid "PLAY"
+msgstr "OYNA"
+
+msgid "Playback error: %s"
+msgstr "Oxutma xətası: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Axtarmaq üçün YAŞIL (Film) və ya SARI (TV Seriyası) düyməsini basın..."
+
+msgid "Press OK"
+msgstr "OK düyməsini basın"
+
+msgid "Press OK to view full details..."
+msgstr "Tam təfərrüatlara baxmaq üçün OK düyməsini basın..."
+
+msgid "REFRESH"
+msgstr "TƏZİL EDİN"
+
+msgid "Refresh"
+msgstr "Yeniləyin"
+
+msgid "Retry"
+msgstr "Yenidən cəhd edin"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "AXTAR"
+
+msgid "Search History"
+msgstr "Axtarış Tarixçəsi"
+
+msgid "Search Movie"
+msgstr "Film axtar"
+
+msgid "Search TV Series"
+msgstr "Televiziya seriallarını axtarın"
+
+msgid "Search timeout"
+msgstr "Axtarış fasiləsi"
+
+msgid "Searching for: '%s'"
+msgstr "Axtarılır: '%s'"
+
+msgid "Searching..."
+msgstr "Axtarılır..."
+
+msgid "Season %d"
+msgstr "Mövsüm %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "%d mövsüm (%d epizod)"
+
+msgid "Seasons"
+msgstr "Fəsillər"
+
+msgid "Seasons:"
+msgstr "Fəsillər:"
+
+msgid "Series URL not found"
+msgstr "Seriyanın URL-i tapılmadı"
+
+msgid "Series URL not found."
+msgstr "Seriyanın URL-i tapılmadı."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API açarı tapılmadı"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API açarı tapılmadı və ya etibarsızdır!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID-si tapılmadı"
+
+msgid "TV Series History"
+msgstr "Televiziya serialının tarixi"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Axtarış sorğuları üçün fasilə (saniyə)"
+
+msgid "Title"
+msgstr "Başlıq"
+
+msgid "Type: %s"
+msgstr "Növ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
+
+msgid "Unable to get stream for this episode"
+msgstr "Bu epizod üçün yayım əldə etmək mümkün deyil"
+
+msgid "Unable to get streaming URL"
+msgstr "Axın URL-i əldə etmək mümkün deyil"
+
+msgid "Unable to load content details"
+msgstr "Məzmun təfərrüatlarını yükləmək mümkün deyil"
+
+msgid "Unable to open details for this content"
+msgstr "Bu məzmunun təfərrüatlarını açmaq mümkün deyil"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "TMDB-dən məlumat əldə etmək mümkün deyil."
+
+msgid "Unknown"
+msgstr "Naməlum"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Yenilənib, %d qrup əlçatan deyil"
+
+msgid "Updating"
+msgstr "Yenilənir"
+
+msgid "Updating cards %d/%d"
+msgstr "Kartlar yenilənir %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Yüksək Tərifli] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "səhv"
+
+msgid "loading"
+msgstr "yüklənir"

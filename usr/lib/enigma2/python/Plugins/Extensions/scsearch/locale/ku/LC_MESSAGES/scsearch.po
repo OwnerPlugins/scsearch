@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:52+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Kurdish <translation-team-ku (at) ferheng.org>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d sernav"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- FILM ---"
+
+msgid "--- New search ---"
+msgstr "--- Lêgerîna nû ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- RÊZE TV ---"
+
+msgid "0 titles"
+msgstr "0 sernav"
+
+msgid ">>> Episodes <<<"
+msgstr ""
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Demsal <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Çewtiya lêdanê ya Altadefinizion: %s"
+
+msgid "Available links:"
+msgstr "Girêdanên berdest:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Kom û kartên bi geroka horizontal bigerin"
+
+msgid "CANCEL"
+msgstr "BIŞÛNDEKIRIN"
+
+msgid "CB01 playback error: %s"
+msgstr "Çewtiya lîstika CB01: %s"
+
+msgid "CONFIRM"
+msgstr "TESDÎQKIRIN"
+
+msgid "CONTENTS"
+msgstr "NAVEROK"
+
+msgid "Card error"
+msgstr "Çewtiya kartê"
+
+msgid "Cards updated"
+msgstr "Kartên nûve kirin"
+
+msgid "Code:"
+msgstr "Navê dizî:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Naveroka ji Altadefinizone - OK bikirtînin da ku vekin..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Naveroka ji CB01 - OK bikirtînin da ku vekin..."
+
+msgid "Description not available."
+msgstr "Danasîn peyda nabe."
+
+msgid "Details for: '%s'"
+msgstr "Agahiyên ji bo: '%s'"
+
+msgid "Details not available"
+msgstr "Hûrgulî ne berdest in"
+
+msgid "EXIT"
+msgstr "DERÎ"
+
+msgid "Enable debug"
+msgstr "Debugkirinê çalak bike"
+
+msgid "Enable debug output in logs"
+msgstr "Di têketinan de derketina debugkirinê çalak bike"
+
+msgid "Enter Captcha Code"
+msgstr "Koda Captcha binivîse"
+
+msgid "Episode %d"
+msgstr "Beş %d"
+
+msgid "Episode %d: %s"
+msgstr "Beşa %d: %s"
+
+msgid "Episodes"
+msgstr ""
+
+msgid "Episodes:"
+msgstr ""
+
+msgid "Error loading CB01 series"
+msgstr "Di barkirina rêzikên CB01 de çewtî"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Di barkirina rêzefîlmên OnlineSerieTV de çewtî"
+
+msgid "Error loading TMDB"
+msgstr "Di barkirina TMDB de çewtî"
+
+msgid "Error loading details"
+msgstr "Di barkirina hûragahiyan de çewtî"
+
+msgid "Error playing episode: %s"
+msgstr "Di lîstika beşê de çewtî: %s"
+
+msgid "Error updating UI"
+msgstr "Di nûvekirina UI de çewtî"
+
+msgid "Exit"
+msgstr "Derî"
+
+msgid "GROUPS"
+msgstr ""
+
+msgid "History"
+msgstr "Dîrok"
+
+msgid "Invalid streaming URL"
+msgstr "URL-ya weşana nederbasdar"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "ÇEP/RAST navîgasyon | OK vekirî | UP vegere koman"
+
+msgid "Load error"
+msgstr "Çewtiya barkirinê"
+
+msgid "Loading details from TMDB..."
+msgstr "Barkirina hûragahiyan ji TMDB..."
+
+msgid "Loading details..."
+msgstr "Barkirina hûragahiyan..."
+
+msgid "Loading..."
+msgstr "Barkirin..."
+
+msgid "Max results"
+msgstr "Encamên herî zêde"
+
+msgid "Maximum number of results to display"
+msgstr "Hejmara herî zêde ya encamên ku têne xuyang kirin"
+
+msgid "Movie History"
+msgstr "Dîroka Fîlm"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Lêgerîna nû..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Beşek Altadefinizone nehat dîtin"
+
+msgid "No CB01 episode found"
+msgstr "Episode CB01 nehat dîtin"
+
+msgid "No content"
+msgstr "Naverok tune"
+
+msgid "No content selected"
+msgstr "Naverok nehat hilbijartin"
+
+msgid "No episodes available"
+msgstr "No episodes berdest in"
+
+msgid "No previous searches found"
+msgstr "Lêgerînên berê nehatin dîtin"
+
+msgid "No relevant results found."
+msgstr "Encamên têkildar nehatin dîtin."
+
+msgid "No results found on SC."
+msgstr "Ti encam li ser SC nehat dîtin."
+
+msgid "No streaming links found"
+msgstr "Girêdanên weşanê nehat dîtin"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - Rêzefîlmên TV"
+
+msgid "PLAY"
+msgstr "BAZÎ"
+
+msgid "Playback error: %s"
+msgstr "Çewtiya lêdanê: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Ji bo lêgerînê KESK (Fîlm) an ZER (Rêzika TV) bikirtînin..."
+
+msgid "Press OK"
+msgstr "Bitikîne OK"
+
+msgid "Press OK to view full details..."
+msgstr "Bitikîne OK ji bo dîtina hûrguliyên tevahî..."
+
+msgid "REFRESH"
+msgstr "HÊNIKKIRIN"
+
+msgid "Refresh"
+msgstr "Hênikkirin"
+
+msgid "Retry"
+msgstr "Ji nû ve biceribîne"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "GERR"
+
+msgid "Search History"
+msgstr "Dîroka Lêgerînê"
+
+msgid "Search Movie"
+msgstr "Fîlm bigerin"
+
+msgid "Search TV Series"
+msgstr "Lêgerîna Rêze TV"
+
+msgid "Search timeout"
+msgstr "Wextê lêgerînê"
+
+msgid "Searching for: '%s'"
+msgstr "Li: '%s' digere"
+
+msgid "Searching..."
+msgstr "Lêgerîn..."
+
+msgid "Season %d"
+msgstr "Demsal %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Demsal %d (%d beş)"
+
+msgid "Seasons"
+msgstr "Demsal"
+
+msgid "Seasons:"
+msgstr "Demsal:"
+
+msgid "Series URL not found"
+msgstr "URL Series nehat dîtin"
+
+msgid "Series URL not found."
+msgstr "URL rêzê nehat dîtin."
+
+msgid "TMDB API key not found"
+msgstr "Mifteya API-ya TMDB nehat dîtin"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Mifteya API-ya TMDB nehat dîtin an nederbasdar e!"
+
+msgid "TMDB ID not found"
+msgstr "Nasnameya TMDB nehat dîtin"
+
+msgid "TV Series History"
+msgstr "Dîroka Rêzefîlma TV"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Demjimêr ji bo daxwazên lêgerînê (çirk)"
+
+msgid "Title"
+msgstr "Nav"
+
+msgid "Type: %s"
+msgstr "Cure: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Komên jor/jêr | kartên ÇEP/RAST | OK vekirî"
+
+msgid "Unable to get stream for this episode"
+msgstr "Nekarî ji bo vê beşê weşana xwe bigire"
+
+msgid "Unable to get streaming URL"
+msgstr "Nikare URL-ya weşana xwe bigire"
+
+msgid "Unable to load content details"
+msgstr "Nikare hûrguliyên naverokê bar bike"
+
+msgid "Unable to open details for this content"
+msgstr "Nikare hûrguliyên vê naverokê veke"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Nikare agahiyê ji TMDB bigire."
+
+msgid "Unknown"
+msgstr "Nenas"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Hat nûvekirin, %d kom ne berdest in"
+
+msgid "Updating"
+msgstr "Nûvekirin"
+
+msgid "Updating cards %d/%d"
+msgstr "Kartên %d/%d nûvekirin"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Pênaseya Bilind] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "şaşî"
+
+msgid "loading"
+msgstr "barkirin"

@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:41+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
+"Language: is\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d titlar"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- KVIKMYNDIR ---"
+
+msgid "--- New search ---"
+msgstr "--- Ný leit ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- SJÓNVARPSRÖÐ ---"
+
+msgid "0 titles"
+msgstr "0 titlar"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Þættir <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Árstíðir <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione spilunarvilla: %s"
+
+msgid "Available links:"
+msgstr "Tiltækir tenglar:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Skoðaðu hópa og spil með láréttri skrun"
+
+msgid "CANCEL"
+msgstr "HÆTTA við"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 spilunarvilla: %s"
+
+msgid "CONFIRM"
+msgstr "STEFNA"
+
+msgid "CONTENTS"
+msgstr "INNIHALD"
+
+msgid "Card error"
+msgstr "Kortavilla"
+
+msgid "Cards updated"
+msgstr "Kort uppfært"
+
+msgid "Code:"
+msgstr "Kóði:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Kóði: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Efni frá Altadefinizione - Ýttu á OK til að opna..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Efni frá CB01 - Ýttu á OK til að opna..."
+
+msgid "Description not available."
+msgstr "Lýsing ekki tiltæk."
+
+msgid "Details for: '%s'"
+msgstr "Upplýsingar um: '%s'"
+
+msgid "Details not available"
+msgstr "Upplýsingar ekki tiltækar"
+
+msgid "EXIT"
+msgstr "HLUTA"
+
+msgid "Enable debug"
+msgstr "Virkja villuleit"
+
+msgid "Enable debug output in logs"
+msgstr "Virkja villuúttak í annálum"
+
+msgid "Enter Captcha Code"
+msgstr "Sláðu inn Captcha kóða"
+
+msgid "Episode %d"
+msgstr "Þáttur %d"
+
+msgid "Episode %d: %s"
+msgstr "Þáttur %d: %s"
+
+msgid "Episodes"
+msgstr "Þættir"
+
+msgid "Episodes:"
+msgstr "Þættir:"
+
+msgid "Error loading CB01 series"
+msgstr "Villa við að hlaða CB01 röð"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Villa við að hlaða OnlineSerieTV seríu"
+
+msgid "Error loading TMDB"
+msgstr "Villa við að hlaða TMDB"
+
+msgid "Error loading details"
+msgstr "Villa við að hlaða upplýsingar"
+
+msgid "Error playing episode: %s"
+msgstr "Villa við að spila þátt: %s"
+
+msgid "Error updating UI"
+msgstr "Villa við að uppfæra notendaviðmót"
+
+msgid "Exit"
+msgstr "Hætta"
+
+msgid "GROUPS"
+msgstr "HÓPAR"
+
+msgid "History"
+msgstr "Saga"
+
+msgid "Invalid streaming URL"
+msgstr "Ógild straumslóð"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "VINSTRI/HÆGRI vafra | OK opið | UPP aftur í hópa"
+
+msgid "Load error"
+msgstr "Hleðsluvilla"
+
+msgid "Loading details from TMDB..."
+msgstr "Hleður upplýsingum frá TMDB..."
+
+msgid "Loading details..."
+msgstr "Hleður upplýsingum..."
+
+msgid "Loading..."
+msgstr "Hleður..."
+
+msgid "Max results"
+msgstr "Hámarks árangur"
+
+msgid "Maximum number of results to display"
+msgstr "Hámarksfjöldi niðurstaðna til að birta"
+
+msgid "Movie History"
+msgstr "Saga kvikmynda"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Ný leit..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Enginn Altadefinizione þáttur fannst"
+
+msgid "No CB01 episode found"
+msgstr "Enginn CB01 þáttur fannst"
+
+msgid "No content"
+msgstr "Ekkert efni"
+
+msgid "No content selected"
+msgstr "Ekkert efni valið"
+
+msgid "No episodes available"
+msgstr "Engir þættir í boði"
+
+msgid "No previous searches found"
+msgstr "Engar fyrri leitir fundust"
+
+msgid "No relevant results found."
+msgstr "Engar viðeigandi niðurstöður fundust."
+
+msgid "No results found on SC."
+msgstr "Engar niðurstöður fundust á SC."
+
+msgid "No streaming links found"
+msgstr "Engir streymistenglar fundust"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSerieTV - sjónvarpsþættir"
+
+msgid "PLAY"
+msgstr "SPILA"
+
+msgid "Playback error: %s"
+msgstr "Spilunarvilla: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Ýttu á GRÆNT (kvikmynd) eða GUL (sjónvarpsþáttaröð) til að leita..."
+
+msgid "Press OK"
+msgstr "Ýttu á OK"
+
+msgid "Press OK to view full details..."
+msgstr "Ýttu á OK til að skoða allar upplýsingar..."
+
+msgid "REFRESH"
+msgstr "UPPFÆRSLA"
+
+msgid "Refresh"
+msgstr "Endurnýja"
+
+msgid "Retry"
+msgstr "Reyndu aftur"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "LEIT"
+
+msgid "Search History"
+msgstr "Leitarferill"
+
+msgid "Search Movie"
+msgstr "Leita að kvikmynd"
+
+msgid "Search TV Series"
+msgstr "Leitaðu að sjónvarpsþáttum"
+
+msgid "Search timeout"
+msgstr "Leitartími"
+
+msgid "Searching for: '%s'"
+msgstr "Leitar að: '%s'"
+
+msgid "Searching..."
+msgstr "Leitar..."
+
+msgid "Season %d"
+msgstr "Tímabil %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Þáttaröð %d (%d þættir)"
+
+msgid "Seasons"
+msgstr "Árstíðir"
+
+msgid "Seasons:"
+msgstr "Árstíðir:"
+
+msgid "Series URL not found"
+msgstr "Slóð seríunnar fannst ekki"
+
+msgid "Series URL not found."
+msgstr "Slóð seríunnar fannst ekki."
+
+msgid "TMDB API key not found"
+msgstr "TMDB API lykill fannst ekki"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API lykill fannst ekki eða ógildur!"
+
+msgid "TMDB ID not found"
+msgstr "TMDB auðkenni fannst ekki"
+
+msgid "TV Series History"
+msgstr "Saga sjónvarpsþátta"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Tímamörk fyrir leitarbeiðnir (sekúndur)"
+
+msgid "Title"
+msgstr "Titill"
+
+msgid "Type: %s"
+msgstr "Tegund: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
+
+msgid "Unable to get stream for this episode"
+msgstr "Ekki er hægt að sækja streymi fyrir þennan þátt"
+
+msgid "Unable to get streaming URL"
+msgstr "Ekki er hægt að ná í vefslóð streymis"
+
+msgid "Unable to load content details"
+msgstr "Ekki er hægt að hlaða efnisupplýsingum"
+
+msgid "Unable to open details for this content"
+msgstr "Ekki er hægt að opna upplýsingar um þetta efni"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Ekki er hægt að sækja upplýsingar úr TMDB."
+
+msgid "Unknown"
+msgstr "Óþekkt"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Uppfært, %d hópar ekki tiltækir"
+
+msgid "Updating"
+msgstr "Uppfærsla"
+
+msgid "Updating cards %d/%d"
+msgstr "Uppfærir kort %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Háskerpu] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "villa"
+
+msgid "loading"
+msgstr "hleðsla"

@@ -1,0 +1,332 @@
+# scsearch translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scsearch\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-06-26 11:30+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Galician <proxecto@trasno.gal>\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%d titles"
+msgstr "%d títulos"
+
+msgid "%s %s"
+msgstr ""
+
+msgid "--- MOVIES ---"
+msgstr "--- PELÍCULAS ---"
+
+msgid "--- New search ---"
+msgstr "--- Nova busca ---"
+
+msgid "--- TV SERIES ---"
+msgstr "--- SERIE DE TV ---"
+
+msgid "0 titles"
+msgstr "0 títulos"
+
+msgid ">>> Episodes <<<"
+msgstr ">>> Episodios <<<"
+
+msgid ">>> Seasons <<<"
+msgstr ">>> Temporadas <<<"
+
+msgid "Altadefinizione playback error: %s"
+msgstr "Erro de reprodución de alta definición: %s"
+
+msgid "Available links:"
+msgstr "Ligazóns dispoñibles:"
+
+msgid "Browse groups and cards with horizontal scrolling"
+msgstr "Explora grupos e tarxetas con desprazamento horizontal"
+
+msgid "CANCEL"
+msgstr "CANCELAR"
+
+msgid "CB01 playback error: %s"
+msgstr "Erro de reprodución CB01: %s"
+
+msgid "CONFIRM"
+msgstr "CONFIRMAR"
+
+msgid "CONTENTS"
+msgstr "CONTIDOS"
+
+msgid "Card error"
+msgstr "Erro na tarxeta"
+
+msgid "Cards updated"
+msgstr "Tarxetas actualizadas"
+
+msgid "Code:"
+msgstr "Código:"
+
+msgid "Code: {self.captcha_code}"
+msgstr "Código: {self.captcha_code}"
+
+msgid "Content from Altadefinizione - Press OK to open..."
+msgstr "Contido de Altadefinizione: preme Aceptar para abrir..."
+
+msgid "Content from CB01 - Press OK to open..."
+msgstr "Contido de CB01: preme Aceptar para abrir..."
+
+msgid "Description not available."
+msgstr "Descrición non dispoñible."
+
+msgid "Details for: '%s'"
+msgstr "Detalles para: '%s'"
+
+msgid "Details not available"
+msgstr "Detalles non dispoñibles"
+
+msgid "EXIT"
+msgstr "SAÍR"
+
+msgid "Enable debug"
+msgstr "Activar a depuración"
+
+msgid "Enable debug output in logs"
+msgstr "Activa a saída de depuración nos rexistros"
+
+msgid "Enter Captcha Code"
+msgstr "Introduce o código Captcha"
+
+msgid "Episode %d"
+msgstr "Episodio %d"
+
+msgid "Episode %d: %s"
+msgstr "Episodio %d: %s"
+
+msgid "Episodes"
+msgstr "Episodios"
+
+msgid "Episodes:"
+msgstr "Episodios:"
+
+msgid "Error loading CB01 series"
+msgstr "Erro ao cargar a serie CB01"
+
+msgid "Error loading OnlineSerieTV series"
+msgstr "Erro ao cargar a serie OnlineSerieTV"
+
+msgid "Error loading TMDB"
+msgstr "Erro ao cargar TMDB"
+
+msgid "Error loading details"
+msgstr "Produciuse un erro ao cargar os detalles"
+
+msgid "Error playing episode: %s"
+msgstr "Erro ao reproducir o episodio: %s"
+
+msgid "Error updating UI"
+msgstr "Produciuse un erro ao actualizar a IU"
+
+msgid "Exit"
+msgstr "Saír"
+
+msgid "GROUPS"
+msgstr "GRUPOS"
+
+msgid "History"
+msgstr "Historia"
+
+msgid "Invalid streaming URL"
+msgstr "URL de transmisión non válido"
+
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgstr "navegar ESQUERDA/DEREITA | Aceptar abrir | ARRIBA de volta aos grupos"
+
+msgid "Load error"
+msgstr "Erro de carga"
+
+msgid "Loading details from TMDB..."
+msgstr "Cargando detalles de TMDB..."
+
+msgid "Loading details..."
+msgstr "Cargando detalles..."
+
+msgid "Loading..."
+msgstr "Cargando..."
+
+msgid "Max results"
+msgstr "Resultados máximos"
+
+msgid "Maximum number of results to display"
+msgstr "Número máximo de resultados para mostrar"
+
+msgid "Movie History"
+msgstr "Historia do cine"
+
+msgid "N/A"
+msgstr ""
+
+msgid "New search..."
+msgstr "Nova busca..."
+
+msgid "No Altadefinizione episode found"
+msgstr "Non se atopou ningún episodio de Altadefinizione"
+
+msgid "No CB01 episode found"
+msgstr "Non se atopou ningún episodio de CB01"
+
+msgid "No content"
+msgstr "Sen contido"
+
+msgid "No content selected"
+msgstr "Non se seleccionou ningún contido"
+
+msgid "No episodes available"
+msgstr "Non hai episodios dispoñibles"
+
+msgid "No previous searches found"
+msgstr "Non se atoparon buscas anteriores"
+
+msgid "No relevant results found."
+msgstr "Non se atoparon resultados relevantes."
+
+msgid "No results found on SC."
+msgstr "Non se atoparon resultados en SC."
+
+msgid "No streaming links found"
+msgstr "Non se atoparon ligazóns de streaming"
+
+msgid "OnlineSerieTV - TV Series"
+msgstr "OnlineSeriesTV - Serie de TV"
+
+msgid "PLAY"
+msgstr "XOGAR"
+
+msgid "Playback error: %s"
+msgstr "Erro de reprodución: %s"
+
+msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
+msgstr "Preme VERDE (película) ou AMARELLO (serie de TV) para buscar..."
+
+msgid "Press OK"
+msgstr "Preme Aceptar"
+
+msgid "Press OK to view full details..."
+msgstr "Preme Aceptar para ver todos os detalles..."
+
+msgid "REFRESH"
+msgstr "ACTUALIZAR"
+
+msgid "Refresh"
+msgstr "Actualizar"
+
+msgid "Retry"
+msgstr "Volve tentar"
+
+msgid "SC"
+msgstr ""
+
+msgid "SEARCH"
+msgstr "BUSCAR"
+
+msgid "Search History"
+msgstr "Historial de busca"
+
+msgid "Search Movie"
+msgstr "Busca película"
+
+msgid "Search TV Series"
+msgstr "Busca series de TV"
+
+msgid "Search timeout"
+msgstr "Tempo de espera da busca"
+
+msgid "Searching for: '%s'"
+msgstr "Buscando: '%s'"
+
+msgid "Searching..."
+msgstr "Buscando..."
+
+msgid "Season %d"
+msgstr "Tempada %d"
+
+msgid "Season %d (%d episodes)"
+msgstr "Tempada %d (%d episodios)"
+
+msgid "Seasons"
+msgstr "Estacións"
+
+msgid "Seasons:"
+msgstr "Estacións:"
+
+msgid "Series URL not found"
+msgstr "Non se atopou o URL da serie"
+
+msgid "Series URL not found."
+msgstr "Non se atopou o URL da serie."
+
+msgid "TMDB API key not found"
+msgstr "Non se atopou a chave da API de TMDB"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "A chave da API de TMDB non se atopou ou non é válida."
+
+msgid "TMDB ID not found"
+msgstr "Non se atopou o ID de TMDB"
+
+msgid "TV Series History"
+msgstr "Historia da serie de TV"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "Tempo de espera para as solicitudes de busca (segundos)"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Type: %s"
+msgstr "Tipo: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grupos ARRIBA/ABAIXO | Tarxetas ESQUERDA/DEREITA | Aceptar aberto"
+
+msgid "Unable to get stream for this episode"
+msgstr "Non se pode obter a emisión para este episodio"
+
+msgid "Unable to get streaming URL"
+msgstr "Non se puido obter o URL de transmisión"
+
+msgid "Unable to load content details"
+msgstr "Non se poden cargar os detalles do contido"
+
+msgid "Unable to open details for this content"
+msgstr "Non se poden abrir os detalles deste contido"
+
+msgid "Unable to retrieve information from TMDB."
+msgstr "Non se puido recuperar información de TMDB."
+
+msgid "Unknown"
+msgstr "Descoñecido"
+
+msgid "Updated, %d groups unavailable"
+msgstr "Actualizado, %d grupos non dispoñibles"
+
+msgid "Updating"
+msgstr "Actualizando"
+
+msgid "Updating cards %d/%d"
+msgstr "Actualizando tarxetas %d/%d"
+
+msgid "[Altadefinizione] %s"
+msgstr "[Alta definición] %s"
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr "erro"
+
+msgid "loading"
+msgstr "cargando"
