@@ -83,15 +83,15 @@ def load_search_history():
                     if movies:
                         history['movie'] = [s.strip()
                                             for s in movies.split('|') if s.strip()]
-                    log.info(
-                        "Movie history loaded: {} items".format(len(history['movie'])))
+                    log.info("Movie history loaded: {} items".format(
+                        len(history['movie'])))
                 elif line.strip().startswith('TV_HISTORY='):
                     tvs = line.strip().split('=', 1)[1].strip()
                     if tvs:
                         history['tv'] = [s.strip()
                                          for s in tvs.split('|') if s.strip()]
-                    log.info(
-                        "TV series history loaded: {} items".format(len(history['tv'])))
+                    log.info("TV series history loaded: {} items".format(
+                        len(history['tv'])))
         return history
     except Exception as e:
         log.error("Error loading history: {}".format(e))
@@ -658,7 +658,9 @@ class SCSearchMain(Screen):
             self._pending_details_request = None
             title = item_data.get('sc_name', 'N/A')
             poster_url = item_data.get('poster')
-            log.info("OSTV_SELECTION: Title={}, Poster={}".format(title, poster_url))
+            log.info(
+                "OSTV_SELECTION: Title={}, Poster={}".format(
+                    title, poster_url))
             self["details_title"].setText(title)
             self["details_year"].setText(_("OnlineSerieTV - TV Series"))
             self["details_description"].setText(
@@ -675,7 +677,9 @@ class SCSearchMain(Screen):
             self._pending_details_request = None
             title = item_data.get('sc_name', 'N/A').replace('[CB01] ', '')
             poster_url = raw_data.get('poster')
-            log.info("CB01_SELECTION: Title={}, Poster={}".format(title, poster_url))
+            log.info(
+                "CB01_SELECTION: Title={}, Poster={}".format(
+                    title, poster_url))
             self["details_title"].setText(_("[CB01] %s") % title)
             self["details_year"].setText("CB01")
             self["details_description"].setText(
@@ -694,7 +698,8 @@ class SCSearchMain(Screen):
                 'sc_name', 'N/A').replace('[Altadefinizione] ', '')
             poster_url = raw_data.get('poster')
             log.info(
-                "ALTADEFINIZIONE_SELECTION: Title={}, Poster={}".format(title, poster_url))
+                "ALTADEFINIZIONE_SELECTION: Title={}, Poster={}".format(
+                    title, poster_url))
             self["details_title"].setText(_("[Altadefinizione] %s") % title)
             self["details_year"].setText("Altadefinizione")
             self["details_description"].setText(
@@ -868,7 +873,8 @@ class SCSearchMain(Screen):
             data.get('descrizione', _('Description not available.')))
 
         if poster_url:
-            log.info("TMDB_DETAILS: Loading poster from TMDB: {}".format(poster_url))
+            log.info(
+                "TMDB_DETAILS: Loading poster from TMDB: {}".format(poster_url))
             self.show_cover_image(poster_url)
         else:
             log.warning("TMDB_DETAILS: No poster URL in TMDB data")
@@ -895,7 +901,8 @@ class SCSearchMain(Screen):
         if source == 'cb01':
             movie_url = raw_data.get('url')
             log.info(
-                "OK_PRESSED: CB01 movie selected: '{}', URL: '{}'".format(sc_name, movie_url))
+                "OK_PRESSED: CB01 movie selected: '{}', URL: '{}'".format(
+                    sc_name, movie_url))
 
             cb01_data = {
                 'source': 'cb01',
@@ -911,7 +918,8 @@ class SCSearchMain(Screen):
         if source == 'altadefinizione':
             movie_url = raw_data.get('url')
             log.info(
-                "OK_PRESSED: Altadefinizione selected: '{}', URL: '{}'".format(sc_name, movie_url))
+                "OK_PRESSED: Altadefinizione selected: '{}', URL: '{}'".format(
+                    sc_name, movie_url))
 
             altadef_data = {
                 'source': 'altadefinizione',
@@ -966,7 +974,8 @@ class SCSearchMain(Screen):
             self.session.open(SCDetailsScreen, str(tmdb_id), sc_name, sc_data)
             return
 
-        log.warning("OK_PRESSED: No action available for: '{}'".format(sc_name))
+        log.warning(
+            "OK_PRESSED: No action available for: '{}'".format(sc_name))
         self.session.open(
             MessageBox,
             _("Unable to open details for this content"),
@@ -1052,7 +1061,8 @@ class SCSearchMain(Screen):
         except Exception as e:
             log.error("COVER_DOWNLOAD: Error - {}".format(e))
             import traceback
-            log.error("COVER_DOWNLOAD: Traceback - {}".format(traceback.format_exc()))
+            log.error(
+                "COVER_DOWNLOAD: Traceback - {}".format(traceback.format_exc()))
             self.hide_cover_image()
 
     def _download_cover_image(self, url, target_path):
@@ -1086,7 +1096,9 @@ class SCSearchMain(Screen):
                 return
             except Exception as e:
                 last_error = e
-                log.warning("COVER: Download failed for {}: {}".format(candidate, e))
+                log.warning(
+                    "COVER: Download failed for {}: {}".format(
+                        candidate, e))
 
         raise last_error
 
@@ -1115,7 +1127,9 @@ class SCSearchMain(Screen):
 
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=10) as response:
-                log.info("OSTV_COVER: Response status: {}".format(response.getcode()))
+                log.info(
+                    "OSTV_COVER: Response status: {}".format(
+                        response.getcode()))
 
                 # Read content
                 content = response.read()
@@ -1137,7 +1151,9 @@ class SCSearchMain(Screen):
                 with open(self.cover_temp_path, 'wb') as f:
                     f.write(content)
 
-            log.info("OSTV_COVER: Image saved to {}".format(self.cover_temp_path))
+            log.info(
+                "OSTV_COVER: Image saved to {}".format(
+                    self.cover_temp_path))
             self._ostv_cover_success = True
 
         except Exception as e:
@@ -1282,8 +1298,8 @@ class SCSearchMain(Screen):
                 return True
 
             # Accept any binary content that is not HTML
-            log.info(
-                "OSTV_COVER: Unknown image format, accepting anyway. Header: {}".format(content[:20]))
+            log.info("OSTV_COVER: Unknown image format, accepting anyway. Header: {}".format(
+                content[:20]))
             return True
 
         except Exception as e:
@@ -1335,7 +1351,8 @@ class SCSearchMain(Screen):
         """Try to convert an image to JPEG using PIL/Pillow."""
         try:
             from PIL import Image
-            log.info("COVER_CONVERT: Trying PIL conversion for {}".format(image_path))
+            log.info(
+                "COVER_CONVERT: Trying PIL conversion for {}".format(image_path))
 
             img = Image.open(image_path)
 
