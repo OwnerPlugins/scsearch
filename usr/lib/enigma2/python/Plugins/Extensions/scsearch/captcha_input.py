@@ -38,7 +38,8 @@ class CaptchaInputScreen(Screen):
         self["title"] = Label(_("Enter Captcha Code"))
         self["captcha_image"] = Pixmap()
         self["code_display"] = Label(_("Code: "))
-        self["instructions"] = Label(_("Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"))
+        self["instructions"] = Label(
+            _("Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"))
         self["key_green"] = Label(_("CONFIRM"))
         self["key_red"] = Label(_("CANCEL"))
 
@@ -135,7 +136,9 @@ class CaptchaInputScreen(Screen):
             log.info(f"CAPTCHA: Code confirmed: {self.captcha_code}")
             self.cleanup()
             if self.callback:
-                log.info(f"CAPTCHA: Calling callback with code: {self.captcha_code}")
+                log.info(
+                    f"CAPTCHA: Calling callback with code: {
+                        self.captcha_code}")
                 self.callback(self.captcha_code)
             self.close()
         else:
