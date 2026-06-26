@@ -256,7 +256,9 @@ class MaxStreamExtractor:
             # Check for captcha
             captcha_pattern = r'data:image/[^;]+;base64,([A-Za-z0-9+/=]+)'
             captcha_match = re.search(captcha_pattern, html)
-            log.info("MAXSTREAM_UPROT: Captcha found: {}".format(captcha_match is not None))
+            log.info(
+                "MAXSTREAM_UPROT: Captcha found: {}".format(
+                    captcha_match is not None))
             if captcha_match:
                 log.info(
                     "MAXSTREAM_UPROT: Captcha detected - requesting user interaction")

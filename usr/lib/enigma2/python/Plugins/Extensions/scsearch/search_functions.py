@@ -449,7 +449,8 @@ def perform_search(query, domain=None, search_type=None):
                 continue
             release_date = r.get('release_date') or r.get('first_air_date', '')
             vixsrc_media_type = 'movie' if media_type == 'movie' else 'tv'
-            vixsrc_url = "https://vixsrc.to/{}/{}".format(vixsrc_media_type, tmdb_id)
+            vixsrc_url = "https://vixsrc.to/{}/{}".format(
+                vixsrc_media_type, tmdb_id)
             normalized_list.append({
                 'name': name,
                 'release_date': release_date,

@@ -259,7 +259,9 @@ class SCDetailsScreen(Screen):
         if not episodes:
             # Check if we parsed seasons from the page
             if hasattr(self, 'parsed_seasons') and self.parsed_seasons:
-                log.info("DETAILS: Using parsed seasons: {}".format(self.parsed_seasons))
+                log.info(
+                    "DETAILS: Using parsed seasons: {}".format(
+                        self.parsed_seasons))
                 seasons = sorted(self.parsed_seasons.keys())
                 season_items = [
                     _("Season %d (%d episodes)") %
