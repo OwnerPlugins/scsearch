@@ -12,9 +12,6 @@ except ImportError:
     import logging
     log = logging.getLogger(__name__)
 
-# For potential UI translations (not used in this module)
-from . import _
-
 
 def _read_cb01_urls():
     """Read CB01 base URLs from config.txt file."""
