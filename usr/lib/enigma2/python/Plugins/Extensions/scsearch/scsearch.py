@@ -483,9 +483,7 @@ class SCSearchMain(Screen):
                         ostv_result['release_date'] = ''
 
                     sc_results.extend(ostv_results)
-                    log.info(
-                        f"SEARCH: Added {
-                            len(ostv_results)} OnlineSerieTV results")
+                    log.info("SEARCH: Added {} OnlineSerieTV results".format(len(ostv_results)))
 
                 except Exception as e:
                     log.error(f"OnlineSerieTV search error: {e}")

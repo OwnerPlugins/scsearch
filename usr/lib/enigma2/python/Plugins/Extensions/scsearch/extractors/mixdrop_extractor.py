@@ -122,9 +122,7 @@ class MixdropExtractor:
                 log.info(f"MIXDROP: Found iframe: {iframe_url}")
                 iframe_html = self._fetch_page(iframe_url, embed_url)
                 if iframe_html:
-                    log.info(
-                        f"MIXDROP: Iframe downloaded (length: {
-                            len(iframe_html)})")
+                    log.info("MIXDROP: Iframe downloaded (length: {})".format(len(iframe_html)))
                     return self._extract_video_from_embed(
                         iframe_html, iframe_url)
 

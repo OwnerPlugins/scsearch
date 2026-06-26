@@ -253,11 +253,9 @@ class API:
 
     def get_links(self, vixsrc_url, tmdb_id, tv=None):
         # headers = self.session.headers.copy()
-        vixsrc_iframe_url = f'https://{vixsrc_url}/{
-            "tv" if tv else "movie"}/{tmdb_id}{
-            "/" + str(
-                tv[0]) + "/" + str(
-                tv[1]) if tv else ""}'
+        media_type = "tv" if tv else "movie"
+        episode_path = "/" + str(tv[0]) + "/" + str(tv[1]) if tv else ""
+        vixsrc_iframe_url = "https://{}/{}/{}{}".format(vixsrc_url, media_type, tmdb_id, episode_path)
         log.info(f"GET_LINKS: Fetching iframe_page: {vixsrc_iframe_url}")
         iframe_page = self._wbpage_as_text(vixsrc_iframe_url)
 
