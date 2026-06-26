@@ -19,21 +19,21 @@ class (Screen):
     Displays the captcha image and allows digit-by-digit entry.
     """
     # skin = '''
-        # <screen name="CaptchaInputScreen" position="center,center" size="800,600" title="Enter Captcha">
-            # <widget name="title" position="20,20" size="760,40" font="Regular;24" foregroundColor="#ffffff" halign="center" />
-            # <widget name="captcha_image" position="200,80" size="400,200" zPosition="3" alphatest="on" />
-            # <widget name="code_display" position="20,300" size="760,60" font="Regular;32" foregroundColor="#00ff00" halign="center" />
-            # <widget name="instructions" position="20,380" size="760,80" font="Regular;18" foregroundColor="#cccccc" halign="center" />
-            # <widget name="key_green" position="150,500" size="100,40" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#00ff00" />
-            # <widget name="key_red" position="550,500" size="100,40" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#ff0000" />
-        # </screen>'''
+    # <screen name="CaptchaInputScreen" position="center,center" size="800,600" title="Enter Captcha">
+    # <widget name="title" position="20,20" size="760,40" font="Regular;24" foregroundColor="#ffffff" halign="center" />
+    # <widget name="captcha_image" position="200,80" size="400,200" zPosition="3" alphatest="on" />
+    # <widget name="code_display" position="20,300" size="760,60" font="Regular;32" foregroundColor="#00ff00" halign="center" />
+    # <widget name="instructions" position="20,380" size="760,80" font="Regular;18" foregroundColor="#cccccc" halign="center" />
+    # <widget name="key_green" position="150,500" size="100,40" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#00ff00" />
+    # <widget name="key_red" position="550,500" size="100,40" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#ff0000" />
+    # </screen>'''
 
     def __init__(self, session, captcha_data, callback):
-        
+
         skin_data = load_skin("CaptchaInputScreen")
         if skin_data:
             self.skin = skin_data
-        
+
         Screen.__init__(self, session)
         self.captcha_data = captcha_data
         self.callback = callback
