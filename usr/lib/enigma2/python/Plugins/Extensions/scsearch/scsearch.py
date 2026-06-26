@@ -640,132 +640,6 @@ class SCSearchMain(Screen):
 
         self["results_list"].setList(items)
 
-    """
-    def display_sc_results(self, results):
-        if not results:
-            self["results_list"].setList([("No results found on SC.", {})])
-            return
-
-        search_words = self.current_search.strip().split()
-        filtered_results = []
-        try:
-            patterns = [re.compile(r'\b' + re.escape(word) + r'\b', re.IGNORECASE) for word in search_words]
-            for r in results:
-                name = r.get("name", "")
-                if all(p.search(name) for p in patterns):
-                    raw_data = r.get('_raw', {})
-                    item_type = raw_data.get('type')
-                    log.info(f"FILTER: Item '{name}' has type '{item_type}', searching for '{self.search_type}'")
-
-                    # Filter by type
-                    if self.search_type == "tv":
-                        # If it's from OnlineSerieTV, it's already a TV series
-                        if raw_data.get('source') == 'onlineserietv':
-                            log.info(f"FILTER: Accepting OnlineSerieTV item: {name}")
-                            filtered_results.append(r)
-                        else:
-                            # Check that it's a TV series on StreamingCommunity
-                            if item_type == 'tv':
-                                log.info(f"FILTER: Accepting TV item: {name}")
-                                filtered_results.append(r)
-                            else:
-                                log.info(f"FILTER: Rejecting non-TV item: {name} (type: {item_type})")
-                    elif self.search_type == "movie":
-                        # Filter only movies
-                        if item_type == 'movie':
-                            log.info(f"FILTER: Accepting movie item: {name}")
-                            filtered_results.append(r)
-                        else:
-                            log.info(f"FILTER: Rejecting non-movie item: {name} (type: {item_type})")
-                    else:
-                        # No type filter
-                        log.info(f"FILTER: Accepting item (no type filter): {name}")
-                        filtered_results.append(r)
-        except re.error as e:
-            log.error(f"Regex error: {e}")
-            filtered_results = []
-
-        if not filtered_results:
-            log.info("FILTER: No results after filtering, trying fallback search")
-            # Try fallback search on streaming-community.cool
-            try:
-                from .search_functions import search_streaming_community_cool
-                fallback_results = search_streaming_community_cool(self.current_search)
-                if fallback_results:
-                    log.info(f"FALLBACK: Found {len(fallback_results)} results from streaming-community.cool")
-                    # Filter fallback results by type
-                    for fb_result in fallback_results:
-                        fb_raw = fb_result.get('_raw', {})
-                        fb_type = fb_raw.get('type')
-                        if (self.search_type == 'movie' and fb_type == 'movie') or \
-                           (self.search_type == 'tv' and fb_type == 'tv') or \
-                           self.search_type not in ['movie', 'tv']:
-                            filtered_results.append(fb_result)
-                    log.info(f"FALLBACK: {len(filtered_results)} results after type filtering")
-            except Exception as e:
-                log.error(f"FALLBACK: Error in fallback search: {e}")
-
-            if not filtered_results:
-                self["results_list"].setList([("No relevant results found.", {})])
-                return
-
-        items = []
-        for r in filtered_results:
-            raw_data = r.get('_raw', {})
-
-            # Special handling for OnlineSerieTV
-            if raw_data.get('source') == 'onlineserietv':
-                name = r.get("name", "N/A").replace(' (ostv)', '')
-                display_text = f"[OSTV] {name}"
-
-                item_data = {
-                    "sc_name": name,
-                    "sc_slug": r.get('slug', ''),
-                    "media_type": self.search_type,
-                    "_raw": raw_data,
-                    "url": r.get('url', ''),
-                    "poster": r.get('poster', ''),
-                    "slug": r.get('slug', '')
-                }
-                items.append((display_text, item_data))
-            # Special handling for CB01
-            elif raw_data.get('source') == 'cb01':
-                name = r.get("name", "N/A")
-                display_text = name
-
-                item_data = {
-                    "sc_name": name,
-                    "sc_slug": raw_data.get('url', ''),
-                    "media_type": self.search_type,
-                    "_raw": raw_data
-                }
-                items.append((display_text, item_data))
-            else:
-                # StreamingCommunity via TMDB
-                tmdb_id = raw_data.get('tmdb_id')
-                vixsrc_url = raw_data.get('vixsrc_url')
-
-                if not tmdb_id or not vixsrc_url:
-                    log.warning(f"Skipping result due to missing tmdb_id or vixsrc_url: {raw_data}")
-                    continue
-
-                name = r.get("name", "N/A")
-                year = (r.get("release_date", "")[:4]) if r.get("release_date") else ""
-                display_text = f"{name} ({year})" if year else name
-
-                item_data = {
-                    "sc_name": name,
-                    "sc_slug": str(tmdb_id),
-                    "media_type": self.search_type,
-                    "tmdb_id": tmdb_id,
-                    "vixsrc_url": vixsrc_url,
-                    "_raw": raw_data,
-                }
-                items.append((display_text, item_data))
-
-        self["results_list"].setList(items)
-    """
-
     def on_result_selected(self):
         sel = self["results_list"].getCurrent()
         if not sel or not isinstance(sel[1], dict):
@@ -1010,8 +884,10 @@ class SCSearchMain(Screen):
         source = raw_data.get('source')
         media_type = item_data.get("media_type")
         sc_name = item_data.get("sc_name", "N/A")
-        # sc_slug = item_data.get("sc_slug")
         tmdb_id = item_data.get("tmdb_id")
+
+        # Import needed only when opening details
+        from .scdetails import SCDetailsScreen
 
         # PRIORITY 1: CB01 handling - open details screen
         if source == 'cb01':
@@ -1042,21 +918,15 @@ class SCSearchMain(Screen):
                 'poster': raw_data.get('poster', '')
             }
 
-            from .scdetails import SCDetailsScreen
-            self.session.open(
-                SCDetailsScreen,
-                movie_url,
-                sc_name,
-                altadef_data)
+            self.session.open(SCDetailsScreen, movie_url, sc_name, altadef_data)
             return
 
         # PRIORITY 3: OnlineSerieTV handling
         if source == 'onlineserietv':
             log.info(
-                f"OK_PRESSED: Opening OnlineSerieTV details screen for: '{sc_name}', URL: '{
-                    item_data.get(
-                        'url',
-                        '')}'")
+                "OK_PRESSED: Opening OnlineSerieTV details screen for: '{}', URL: '{}'".format(
+                    sc_name, item_data.get('url', '')))
+
             ostv_data = {
                 'source': 'onlineserietv',
                 'url': item_data.get('url', ''),
@@ -1064,9 +934,7 @@ class SCSearchMain(Screen):
                 'title': sc_name,
                 'slug': item_data.get('slug', '')
             }
-            self.session.open(
-                SCDetailsScreen, item_data.get(
-                    'url', ''), sc_name, ostv_data)
+            self.session.open(SCDetailsScreen, item_data.get('url', ''), sc_name, ostv_data)
             return
 
         # PRIORITY 4: Movies and TV series via TMDB/vixsrc
@@ -1074,7 +942,9 @@ class SCSearchMain(Screen):
         vixsrc_url = item_data.get("vixsrc_url")
         if tmdb_id and vixsrc_url:
             log.info(
-                f"OK_PRESSED: Opening TMDB details: '{sc_name}', tmdb_id={tmdb_id}")
+                "OK_PRESSED: Opening TMDB details: '{}', tmdb_id={}".format(
+                    sc_name, tmdb_id))
+
             sc_data = {
                 'source': 'streamingcommunity',
                 'tmdb_id': tmdb_id,
