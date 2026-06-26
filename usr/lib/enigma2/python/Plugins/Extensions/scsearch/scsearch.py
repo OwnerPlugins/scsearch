@@ -20,7 +20,6 @@ from enigma import eTimer
 from .logger import get_logger
 from .TmdbFetcher import TmdbFetcher
 from .search_functions import perform_search, get_title_details
-from .scdetails import SCDetailsScreen
 from . import _  # translation function
 
 log = get_logger()
