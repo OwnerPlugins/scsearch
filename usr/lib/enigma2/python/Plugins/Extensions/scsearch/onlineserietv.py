@@ -61,7 +61,9 @@ class OnlineSerieTV:
                     continue  # Retry
 
                 resp.raise_for_status()
-                log.info("OLSTV: Request successful with status {}".format(resp.status_code))
+                log.info(
+                    "OLSTV: Request successful with status {}".format(
+                        resp.status_code))
                 return resp.text
 
             except requests.exceptions.RequestException as e:

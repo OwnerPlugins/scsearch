@@ -120,7 +120,9 @@ class CB01:
                 r'<p[^>]*>(.*?)</p>',
                 season_content,
                 re.IGNORECASE | re.DOTALL)
-            log.info("CB01_DETAILS: Season {}, episode rows found: {}".format(season_num, len(rows)))
+            log.info(
+                "CB01_DETAILS: Season {}, episode rows found: {}".format(
+                    season_num, len(rows)))
 
             for row in rows:
                 row_text = html_module.unescape(re.sub(r'<[^>]+>', ' ', row))

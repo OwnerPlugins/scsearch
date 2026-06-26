@@ -385,7 +385,10 @@ class SCSearchMain(Screen):
         movie_history = self.search_history.get('movie', [])
         tv_history = self.search_history.get('tv', [])
 
-        log.info("Showing history: {} movies, {} TV series".format(len(movie_history), len(tv_history)))
+        log.info(
+            "Showing history: {} movies, {} TV series".format(
+                len(movie_history),
+                len(tv_history)))
 
         if not movie_history and not tv_history:
             self.session.open(

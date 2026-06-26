@@ -159,7 +159,9 @@ class API:
                     log.error(f"TMDB API.search: Error parsing card: {e}")
                     continue
 
-            log.info("TMDB API.search: Successfully parsed {} results".format(len(results)))
+            log.info(
+                "TMDB API.search: Successfully parsed {} results".format(
+                    len(results)))
             return {'data': results}
 
         except Exception as e:
