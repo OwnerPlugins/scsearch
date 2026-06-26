@@ -146,7 +146,7 @@ msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
 msgstr "左/右导航 | 确定打开 | UP 返回群组"
 
 msgid "Load error"
-msgstr ""
+msgstr "负载错误"
 
 msgid "Loading details from TMDB..."
 msgstr "正在从 TMDB 加载详细信息..."
@@ -164,7 +164,7 @@ msgid "Maximum number of results to display"
 msgstr "显示的最大结果数"
 
 msgid "Movie History"
-msgstr ""
+msgstr "电影史"
 
 msgid "N/A"
 msgstr "不适用"

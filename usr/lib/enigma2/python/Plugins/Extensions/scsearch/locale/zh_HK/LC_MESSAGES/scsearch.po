@@ -26,7 +26,7 @@ msgid "--- MOVIES ---"
 msgstr "--- 電影 ---"
 
 msgid "--- New search ---"
-msgstr ""
+msgstr "--- 新搜尋 ---"
 
 msgid "--- TV SERIES ---"
 msgstr "--- 電視劇 ---"
@@ -86,7 +86,7 @@ msgid "Details for: '%s'"
 msgstr "詳細資料：“%s”"
 
 msgid "Details not available"
-msgstr ""
+msgstr "詳細資訊不詳"
 
 msgid "EXIT"
 msgstr "出口"
@@ -152,7 +152,7 @@ msgid "Loading details from TMDB..."
 msgstr "正在從 TMDB 加載詳細信息..."
 
 msgid "Loading details..."
-msgstr ""
+msgstr "正在加載詳細資訊..."
 
 msgid "Loading..."
 msgstr "載入中..."
@@ -320,10 +320,10 @@ msgid "Updating cards %d/%d"
 msgstr "正在更新卡片 %d/%d"
 
 msgid "[Altadefinizione] %s"
-msgstr ""
+msgstr "[高畫質] %s"
 
 msgid "[CB01] %s"
-msgstr ""
+msgstr "[CB01]%s"
 
 msgid "error"
 msgstr "錯誤"

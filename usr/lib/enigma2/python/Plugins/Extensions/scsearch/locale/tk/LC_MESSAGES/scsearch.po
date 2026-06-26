@@ -44,10 +44,10 @@ msgid "Altadefinizione playback error: %s"
 msgstr "“Altadefinizione” oýnamak ýalňyşlygy:% s"
 
 msgid "Available links:"
-msgstr ""
+msgstr "Elýeterli baglanyşyklar:"
 
 msgid "Browse groups and cards with horizontal scrolling"
-msgstr ""
+msgstr "Gorizontal aýlaw bilen toparlara we kartalara göz aýlaň"
 
 msgid "CANCEL"
 msgstr "ANCATY .."
@@ -68,7 +68,7 @@ msgid "Cards updated"
 msgstr "Kartlar täzelendi"
 
 msgid "Code:"
-msgstr ""
+msgstr "Kod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
@@ -86,13 +86,13 @@ msgid "Details for: '%s'"
 msgstr "Jikme-jiklikler: '% s'"
 
 msgid "Details not available"
-msgstr ""
+msgstr "Jikme-jiklikler ýok"
 
 msgid "EXIT"
-msgstr ""
+msgstr "Çyk"
 
 msgid "Enable debug"
-msgstr ""
+msgstr "Düzediş işini açyň"
 
 msgid "Enable debug output in logs"
 msgstr "Surnallarda düzediş çykyşyny işjeňleşdiriň"
@@ -101,16 +101,16 @@ msgid "Enter Captcha Code"
 msgstr "Captcha koduny giriziň"
 
 msgid "Episode %d"
-msgstr ""
+msgstr "Bölüm% d"
 
 msgid "Episode %d: %s"
-msgstr ""
+msgstr "Bölüm% d:% s"
 
 msgid "Episodes"
 msgstr "Bölümler"
 
 msgid "Episodes:"
-msgstr ""
+msgstr "Bölümler:"
 
 msgid "Error loading CB01 series"
 msgstr "CB01 seriýasyny ýüklemekde säwlik"
@@ -119,7 +119,7 @@ msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV seriýasyny ýüklemekde säwlik"
 
 msgid "Error loading TMDB"
-msgstr ""
+msgstr "TMDB ýüklemekde säwlik"
 
 msgid "Error loading details"
 msgstr "Jikme-jiklikleri ýüklemekde säwlik"
@@ -131,7 +131,7 @@ msgid "Error updating UI"
 msgstr "UI täzelenmekde säwlik"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çyk"
 
 msgid "GROUPS"
 msgstr ""
@@ -140,67 +140,67 @@ msgid "History"
 msgstr "Taryh"
 
 msgid "Invalid streaming URL"
-msgstr ""
+msgstr "Nädogry akym URL"
 
 msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
-msgstr ""
+msgstr "Çep / HUKUK gezmek | Bolýar açyk | Toparlara gaýdyp geliň"
 
 msgid "Load error"
-msgstr ""
+msgstr "Erroralňyşlyk"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB-den jikme-jiklikleri ýüklemek ..."
 
 msgid "Loading details..."
-msgstr ""
+msgstr "Jikme-jiklikler ..."
 
 msgid "Loading..."
-msgstr ""
+msgstr "Adingüklenýär ..."
 
 msgid "Max results"
 msgstr "Iň ýokary netijeler"
 
 msgid "Maximum number of results to display"
-msgstr ""
+msgstr "Görkezilmeli netijeleriň iň köp sany"
 
 msgid "Movie History"
 msgstr "Kino taryhy"
 
 msgid "N/A"
-msgstr ""
+msgstr "N / A."
 
 msgid "New search..."
 msgstr "Täze gözleg ..."
 
 msgid "No Altadefinizione episode found"
-msgstr ""
+msgstr "“Altadefinizione” bölümi tapylmady"
 
 msgid "No CB01 episode found"
-msgstr ""
+msgstr "CB01 bölümi tapylmady"
 
 msgid "No content"
 msgstr "Mazmuny ýok"
 
 msgid "No content selected"
-msgstr ""
+msgstr "Mazmun saýlanmady"
 
 msgid "No episodes available"
 msgstr "Bölüm ýok"
 
 msgid "No previous searches found"
-msgstr ""
+msgstr "Öňki gözlegler tapylmady"
 
 msgid "No relevant results found."
-msgstr ""
+msgstr "Degişli netijeler tapylmady"
 
 msgid "No results found on SC."
-msgstr ""
+msgstr "SC-de hiç hili netije tapylmady"
 
 msgid "No streaming links found"
 msgstr "Akym baglanyşyklary tapylmady"
 
 msgid "OnlineSerieTV - TV Series"
-msgstr ""
+msgstr "OnlineSerieTV - teleseriallar"
 
 msgid "PLAY"
 msgstr "Oýun"
@@ -215,16 +215,16 @@ msgid "Press OK"
 msgstr "OK basyň"
 
 msgid "Press OK to view full details..."
-msgstr ""
+msgstr "Doly maglumatlary görmek üçin OK basyň ..."
 
 msgid "REFRESH"
-msgstr ""
+msgstr "GÖRNÜŞ"
 
 msgid "Refresh"
 msgstr "Täzele"
 
 msgid "Retry"
-msgstr ""
+msgstr "Gaýtadan synanyşyň"
 
 msgid "SC"
 msgstr ""
@@ -233,7 +233,7 @@ msgid "SEARCH"
 msgstr "Gözleg"
 
 msgid "Search History"
-msgstr ""
+msgstr "Gözleg taryhy"
 
 msgid "Search Movie"
 msgstr "Kino gözläň"
@@ -254,22 +254,22 @@ msgid "Season %d"
 msgstr "Möwsüm% d"
 
 msgid "Season %d (%d episodes)"
-msgstr ""
+msgstr "Möwsüm% d (% d bölümler)"
 
 msgid "Seasons"
 msgstr "Möwsümler"
 
 msgid "Seasons:"
-msgstr ""
+msgstr "Möwsümler:"
 
 msgid "Series URL not found"
-msgstr ""
+msgstr "Seriýa URL tapylmady"
 
 msgid "Series URL not found."
-msgstr ""
+msgstr "Seriýa URL tapylmady"
 
 msgid "TMDB API key not found"
-msgstr ""
+msgstr "TMDB API açary tapylmady"
 
 msgid "TMDB API key not found or invalid!"
 msgstr "TMDB API açary tapylmady ýa-da nädogry!"
@@ -278,34 +278,34 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID tapylmady"
 
 msgid "TV Series History"
-msgstr ""
+msgstr "Teleseriallaryň taryhy"
 
 msgid "Timeout for search requests (seconds)"
-msgstr ""
+msgstr "Gözleg haýyşlarynyň wagty (sekuntlar)"
 
 msgid "Title"
-msgstr ""
+msgstr "Ady"
 
 msgid "Type: %s"
-msgstr ""
+msgstr "Görnüşi:% s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr ""
+msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu bölüm üçin akym alyp bolmaýar"
 
 msgid "Unable to get streaming URL"
-msgstr ""
+msgstr "Akym URL-ni alyp bolmaýar"
 
 msgid "Unable to load content details"
 msgstr "Mazmun jikme-jikliklerini ýükläp bolmaýar"
 
 msgid "Unable to open details for this content"
-msgstr ""
+msgstr "Bu mazmun üçin jikme-jiklikleri açyp bolmaýar"
 
 msgid "Unable to retrieve information from TMDB."
-msgstr ""
+msgstr "TMDB-den maglumat alyp bolmaýar."
 
 msgid "Unknown"
 msgstr "Näbelli"
@@ -314,16 +314,16 @@ msgid "Updated, %d groups unavailable"
 msgstr "Täzelendi,% d toparlary elýeterli däl"
 
 msgid "Updating"
-msgstr ""
+msgstr "Täzelenme"
 
 msgid "Updating cards %d/%d"
 msgstr "Kartalary täzelemek% d /% d"
 
 msgid "[Altadefinizione] %s"
-msgstr ""
+msgstr "[Defokary kesgitleme]% s"
 
 msgid "[CB01] %s"
-msgstr ""
+msgstr "[CB01]% s"
 
 msgid "error"
 msgstr "ýalňyşlyk"

@@ -120,7 +120,7 @@ msgid "Error loading OnlineSerieTV series"
 msgstr "Ielādējot OnlineSerieTV seriālu, radās kļūda"
 
 msgid "Error loading TMDB"
-msgstr ""
+msgstr "Ielādējot TMDB, radās kļūda"
 
 msgid "Error loading details"
 msgstr "Ielādējot informāciju, radās kļūda"

@@ -72,7 +72,7 @@ msgid "Code:"
 msgstr "Kód:"
 
 msgid "Code: {self.captcha_code}"
-msgstr ""
+msgstr "Kód: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Tartalom az Altadefinizione-ból - Nyomja meg az OK gombot a megnyitáshoz..."

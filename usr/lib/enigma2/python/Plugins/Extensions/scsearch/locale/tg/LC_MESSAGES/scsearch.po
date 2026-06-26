@@ -287,7 +287,7 @@ msgid "Title"
 msgstr "Унвон"
 
 msgid "Type: %s"
-msgstr ""
+msgstr "Навъи: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Гуруҳҳои ТО/ПОЁН | Кортҳои ЧАП/РАСТ | Хуб кушоед"
