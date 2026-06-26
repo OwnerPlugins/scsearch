@@ -185,10 +185,7 @@ class CB01:
 
             log.info("CB01: Movie search response received. Status: {}".format(response.status_code))
             html = response.text
-            log.info(
-                f"CB01: HTML length: {
-                    len(html)}, final URL: {
-                    response.url}")
+            log.info("CB01: HTML length: {}, final URL: {}".format(len(html), response.url))
 
             movie_pattern = re.compile(
                 r'<div class="card mp-post horizontal">.*?'
