@@ -75,13 +75,47 @@ ERROR_CARD = {
     "source": "SC Search",
 }
 
-CARD_SLOTS = [
-    {"x": 356, "y": 204, "w": 130, "h": 306, "poster_w": 110, "poster_h": 176, "font": 15, "focus": False},
-    {"x": 500, "y": 184, "w": 150, "h": 346, "poster_w": 128, "poster_h": 204, "font": 16, "focus": False},
-    {"x": 664, "y": 154, "w": 196, "h": 406, "poster_w": 160, "poster_h": 256, "font": 18, "focus": True},
-    {"x": 874, "y": 184, "w": 150, "h": 346, "poster_w": 128, "poster_h": 204, "font": 16, "focus": False},
-    {"x": 1038, "y": 204, "w": 130, "h": 306, "poster_w": 110, "poster_h": 176, "font": 15, "focus": False},
-]
+CARD_SLOTS = [{"x": 356,
+               "y": 204,
+               "w": 130,
+               "h": 306,
+               "poster_w": 110,
+               "poster_h": 176,
+               "font": 15,
+               "focus": False},
+              {"x": 500,
+               "y": 184,
+               "w": 150,
+               "h": 346,
+               "poster_w": 128,
+               "poster_h": 204,
+               "font": 16,
+               "focus": False},
+              {"x": 664,
+               "y": 154,
+               "w": 196,
+               "h": 406,
+               "poster_w": 160,
+               "poster_h": 256,
+               "font": 18,
+               "focus": True},
+              {"x": 874,
+               "y": 184,
+               "w": 150,
+               "h": 346,
+               "poster_w": 128,
+               "poster_h": 204,
+               "font": 16,
+               "focus": False},
+              {"x": 1038,
+               "y": 204,
+               "w": 130,
+               "h": 306,
+               "poster_w": 110,
+               "poster_h": 176,
+               "font": 15,
+               "focus": False},
+              ]
 
 POSTER_CACHE_DIR = "/tmp/scsearch_browse_posters"
 
@@ -171,12 +205,14 @@ class SCBrowseMain(Screen):
         self["side_panel"] = Label()
         self["content_panel"] = Label()
         self["brand"] = Label("SC Search")
-        self["subtitle"] = Label(_("Browse groups and cards with horizontal scrolling"))
+        self["subtitle"] = Label(
+            _("Browse groups and cards with horizontal scrolling"))
         self["status"] = Label("")
         self["category_title"] = Label(_("GROUPS"))
         self["carousel_title"] = Label(_("CONTENTS"))
         self["counter"] = Label("")
-        self["hint"] = Label(_("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
+        self["hint"] = Label(
+            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
         self["key_red"] = Label(_("EXIT"))
         self["key_green"] = Label(_("SEARCH"))
         self["key_blue"] = Label(_("REFRESH"))
@@ -189,10 +225,14 @@ class SCBrowseMain(Screen):
             self["card_title_%d" % index] = Label("")
             self["card_meta_%d" % index] = Label("")
             self._poster_picloads.append(None)
-        self.placeholder_path = os.path.join(os.path.dirname(__file__), "placeholder.png")
+        self.placeholder_path = os.path.join(
+            os.path.dirname(__file__), "placeholder.png")
         if not os.path.exists(self.placeholder_path):
-            self.placeholder_path = os.path.join(os.path.dirname(__file__), "sc_search.png")
-        log.info("BROWSE: fixed carousel widgets created placeholder=%s" % self.placeholder_path)
+            self.placeholder_path = os.path.join(
+                os.path.dirname(__file__), "sc_search.png")
+        log.info(
+            "BROWSE: fixed carousel widgets created placeholder=%s" %
+            self.placeholder_path)
 
         self.poster_timer = eTimer()
         self.poster_timer.callback.append(self.process_poster_updates)
@@ -209,7 +249,8 @@ class SCBrowseMain(Screen):
             "down": self.keyDown,
         }, -2)
 
-        self["category_list"].onSelectionChanged.append(self.on_category_selected)
+        self["category_list"].onSelectionChanged.append(
+            self.on_category_selected)
 
         self.ui_timer = eTimer()
         self.ui_timer.callback.append(self.process_pending_updates)
@@ -230,7 +271,9 @@ class SCBrowseMain(Screen):
                 for line in config_file:
                     if line.strip().startswith("TMDB_API_KEY="):
                         api_key = line.strip().split("=", 1)[1].strip()
-                        log.info(f"BROWSE: TMDB API key available: {bool(api_key)}")
+                        log.info(
+                            f"BROWSE: TMDB API key available: {
+                                bool(api_key)}")
                         return api_key
         except Exception as e:
             log.error(f"BROWSE: Error reading TMDB API key: {e}")
@@ -250,7 +293,8 @@ class SCBrowseMain(Screen):
     def start_scraping(self):
         self._queue = Queue()
         current = self["category_list"].getCurrent() or self.category_names[0]
-        ordered = [current] + [name for name in self.category_names if name != current]
+        ordered = [current] + \
+            [name for name in self.category_names if name != current]
         for name in ordered:
             self._queue.put((name, CATEGORIES[name]))
 
@@ -258,7 +302,10 @@ class SCBrowseMain(Screen):
         worker_count = min(3, len(ordered))
         generation = self._load_generation
         for index in range(worker_count):
-            thread = threading.Thread(target=self._scrape_worker, args=(generation,), name="SCBrowseWorker%d" % index)
+            thread = threading.Thread(
+                target=self._scrape_worker, args=(
+                    generation,), name="SCBrowseWorker%d" %
+                index)
             thread.daemon = True
             self._workers.append(thread)
             thread.start()
@@ -279,8 +326,10 @@ class SCBrowseMain(Screen):
                 items = scrape_category_page(category_url)
                 if getattr(self, '_load_generation', None) != generation:
                     return
-                self.category_data[category_name] = self._normalize_items(items)
-                log.info("BROWSE: %s loaded with %d items" % (category_name, len(self.category_data[category_name])))
+                self.category_data[category_name] = self._normalize_items(
+                    items)
+                log.info("BROWSE: %s loaded with %d items" %
+                         (category_name, len(self.category_data[category_name])))
             except Exception as e:
                 log.error("BROWSE: error scraping %s: %s" % (category_name, e))
                 if getattr(self, '_load_generation', None) != generation:
@@ -321,8 +370,10 @@ class SCBrowseMain(Screen):
         if self.dirty_categories:
             dirty = set(self.dirty_categories)
             self.dirty_categories.clear()
-            self.loaded_count = len([name for name in self.category_names if self.category_data.get(name) is not None])
-            current = self["category_list"].getCurrent() or self.category_names[0]
+            self.loaded_count = len(
+                [name for name in self.category_names if self.category_data.get(name) is not None])
+            current = self["category_list"].getCurrent(
+            ) or self.category_names[0]
             if current in dirty:
                 self.update_poster_carousel()
             self.update_status()
@@ -334,11 +385,15 @@ class SCBrowseMain(Screen):
     def update_status(self):
         total = len(self.category_names)
         if self.loaded_count < total:
-            self["status"].setText(_("Updating cards %d/%d") % (self.loaded_count, total))
+            self["status"].setText(
+                _("Updating cards %d/%d") %
+                (self.loaded_count, total))
         else:
             errors = len(self.category_errors)
             if errors:
-                self["status"].setText(_("Updated, %d groups unavailable") % errors)
+                self["status"].setText(
+                    _("Updated, %d groups unavailable") %
+                    errors)
             else:
                 self["status"].setText(_("Cards updated"))
 
@@ -349,10 +404,13 @@ class SCBrowseMain(Screen):
 
     def update_poster_carousel(self):
         try:
-            current_category = self["category_list"].getCurrent() or self.category_names[0]
+            current_category = self["category_list"].getCurrent(
+            ) or self.category_names[0]
             items = self.category_data.get(current_category)
             self["carousel_title"].setText(current_category)
-            log.info("BROWSE: update_poster_carousel category=%s items=%s" % (current_category, "None" if items is None else len(items)))
+            log.info(
+                "BROWSE: update_poster_carousel category=%s items=%s" %
+                (current_category, "None" if items is None else len(items)))
 
             if items is None:
                 self.current_items = []
@@ -381,7 +439,9 @@ class SCBrowseMain(Screen):
     def update_carousel_cards(self, items):
         self.visible_carousel_items = items or []
         total = len(items or [])
-        log.info("BROWSE_CAROUSEL: render total=%d center_index=%d" % (total, self.carousel_index))
+        log.info(
+            "BROWSE_CAROUSEL: render total=%d center_index=%d" %
+            (total, self.carousel_index))
         if total:
             self.carousel_index = self.carousel_index % total
         for slot in range(5):
@@ -394,7 +454,8 @@ class SCBrowseMain(Screen):
                 self._clear_card(slot)
 
     def _can_scroll_carousel(self):
-        if not self.visible_carousel_items or len(self.visible_carousel_items) < 2:
+        if not self.visible_carousel_items or len(
+                self.visible_carousel_items) < 2:
             return False
         first_slug = (self.visible_carousel_items[0].get("slug") or "")
         if first_slug.startswith("_"):
@@ -403,7 +464,8 @@ class SCBrowseMain(Screen):
 
     def _render_card(self, slot, item, item_index):
         title = item.get("title") or item.get("name") or _("N/A")
-        source = item.get("source") or item.get("provider") or "StreamingCommunity"
+        source = item.get("source") or item.get(
+            "provider") or "StreamingCommunity"
         meta = item.get("type") or item.get("media_type") or _("Press OK")
         poster_url = item.get("poster_url") or item.get("poster") or ""
         slug = item.get("slug") or "item_%d" % item_index
@@ -413,48 +475,70 @@ class SCBrowseMain(Screen):
         self["card_meta_%d" % slot].setText(meta)
         if not poster_url:
             poster_url = self._poster_url_cache.get(slug, "")
-        if poster_url and poster_url.lower().split("?", 1)[0].endswith(".webp") and self.tmdb_api_key:
+        if poster_url and poster_url.lower().split(
+                "?", 1)[0].endswith(".webp") and self.tmdb_api_key:
             cached_url = self._poster_url_cache.get(slug, "")
             if cached_url:
                 poster_url = cached_url
             else:
-                log.info("BROWSE_CAROUSEL: webp poster detected, resolving jpg fallback slug=%s url=%s" % (slug, poster_url))
+                log.info(
+                    "BROWSE_CAROUSEL: webp poster detected, resolving jpg fallback slug=%s url=%s" %
+                    (slug, poster_url))
                 self._resolve_missing_poster(slot, item, slug)
                 poster_url = ""
         if not poster_url:
             self._resolve_missing_poster(slot, item, slug)
         self._set_card_poster(slot, poster_url, slug)
-        log.info("BROWSE_CAROUSEL: slot=%d item_index=%d title=%s slug=%s poster=%s" % (
-            slot,
-            item_index,
-            title,
-            slug,
-            bool(poster_url),
-        ))
+        log.info(
+            "BROWSE_CAROUSEL: slot=%d item_index=%d title=%s slug=%s poster=%s" %
+            (slot, item_index, title, slug, bool(poster_url), ))
 
     def _clear_card(self, slot):
         self["card_source_%d" % slot].setText("")
         self["card_title_%d" % slot].setText("")
         self["card_meta_%d" % slot].setText("")
-        self._set_pixmap_from_path(slot, self.placeholder_path, CARD_SLOTS[slot]["poster_w"], CARD_SLOTS[slot]["poster_h"])
+        self._set_pixmap_from_path(
+            slot,
+            self.placeholder_path,
+            CARD_SLOTS[slot]["poster_w"],
+            CARD_SLOTS[slot]["poster_h"])
 
     def _set_card_poster(self, slot, poster_url, slug):
         if not poster_url:
             self._slot_poster_paths[slot] = self.placeholder_path
-            self._set_pixmap_from_path(slot, self.placeholder_path, CARD_SLOTS[slot]["poster_w"], CARD_SLOTS[slot]["poster_h"])
+            self._set_pixmap_from_path(
+                slot,
+                self.placeholder_path,
+                CARD_SLOTS[slot]["poster_w"],
+                CARD_SLOTS[slot]["poster_h"])
             return
-        log.info("BROWSE_CAROUSEL: set poster slot=%d slug=%s url=%s" % (slot, slug, poster_url))
+        log.info(
+            "BROWSE_CAROUSEL: set poster slot=%d slug=%s url=%s" %
+            (slot, slug, poster_url))
         path = self._poster_cache_path(poster_url, slug)
         self._slot_poster_paths[slot] = path
         if os.path.exists(path):
-            self._set_pixmap_from_path(slot, path, CARD_SLOTS[slot]["poster_w"], CARD_SLOTS[slot]["poster_h"])
+            self._set_pixmap_from_path(
+                slot,
+                path,
+                CARD_SLOTS[slot]["poster_w"],
+                CARD_SLOTS[slot]["poster_h"])
             return
-        self._set_pixmap_from_path(slot, self.placeholder_path, CARD_SLOTS[slot]["poster_w"], CARD_SLOTS[slot]["poster_h"])
+        self._set_pixmap_from_path(
+            slot,
+            self.placeholder_path,
+            CARD_SLOTS[slot]["poster_w"],
+            CARD_SLOTS[slot]["poster_h"])
         key = "%s_%d" % (slug, slot)
         if self._poster_jobs.get(key):
             return
-        self._poster_jobs[key] = {"slot": slot, "url": poster_url, "path": path, "done": False}
-        thread = threading.Thread(target=self._download_card_poster, args=(key,))
+        self._poster_jobs[key] = {
+            "slot": slot,
+            "url": poster_url,
+            "path": path,
+            "done": False}
+        thread = threading.Thread(
+            target=self._download_card_poster, args=(key,))
         thread.daemon = True
         thread.start()
         self.poster_timer.start(250, False)
@@ -474,15 +558,15 @@ class SCBrowseMain(Screen):
             "media_hint": media_hint,
             "done": False,
         }
-        thread = threading.Thread(target=self._resolve_missing_poster_worker, args=(slug,))
+        thread = threading.Thread(
+            target=self._resolve_missing_poster_worker, args=(
+                slug,))
         thread.daemon = True
         thread.start()
         self.poster_timer.start(250, False)
-        log.info("BROWSE_CAROUSEL: resolving missing poster slug=%s slot=%d title=%s" % (
-            slug,
-            slot,
-            self._poster_resolve_jobs[slug]["title"],
-        ))
+        log.info(
+            "BROWSE_CAROUSEL: resolving missing poster slug=%s slot=%d title=%s" %
+            (slug, slot, self._poster_resolve_jobs[slug]["title"], ))
 
     def _resolve_missing_poster_worker(self, slug):
         if not self.tmdb_api_key:
@@ -517,33 +601,32 @@ class SCBrowseMain(Screen):
                 if poster_path:
                     poster_url = "%s%s" % (TmdbFetcher.IMAGE_BASE, poster_path)
                     job["poster_url"] = poster_url
-                    log.info("BROWSE_CAROUSEL: resolved poster via tmdb search slug=%s title=%s tmdb_id=%s media=%s poster=True" % (
-                        slug,
-                        title,
-                        tmdb_id,
-                        media_type,
-                    ))
+                    log.info(
+                        "BROWSE_CAROUSEL: resolved poster via tmdb search slug=%s title=%s tmdb_id=%s media=%s poster=True" %
+                        (slug, title, tmdb_id, media_type, ))
                     return
 
             details = get_title_details(slug, title_name=title)
             tmdb_id = details.get("tmdb_id") if details else None
-            media_type = "tv" if (details and details.get("type") == "TvSeries") else media_type
+            media_type = "tv" if (details and details.get(
+                "type") == "TvSeries") else media_type
             if not tmdb_id:
-                log.info("BROWSE_CAROUSEL: resolve poster no tmdb_id slug=%s details=%s" % (slug, bool(details)))
+                log.info(
+                    "BROWSE_CAROUSEL: resolve poster no tmdb_id slug=%s details=%s" %
+                    (slug, bool(details)))
                 job["poster_url"] = None
                 return
             tmdb_details = tmdb.get_details(tmdb_id, media_type)
             poster_url = tmdb_details.get("poster") if tmdb_details else None
             job["poster_url"] = poster_url
-            log.info("BROWSE_CAROUSEL: resolved poster slug=%s tmdb_id=%s media=%s poster=%s" % (
-                slug,
-                tmdb_id,
-                media_type,
-                bool(poster_url),
-            ))
+            log.info(
+                "BROWSE_CAROUSEL: resolved poster slug=%s tmdb_id=%s media=%s poster=%s" %
+                (slug, tmdb_id, media_type, bool(poster_url), ))
         except Exception as e:
             job["poster_url"] = None
-            log.error("BROWSE_CAROUSEL: resolve poster failed slug=%s error=%s" % (slug, e))
+            log.error(
+                "BROWSE_CAROUSEL: resolve poster failed slug=%s error=%s" %
+                (slug, e))
         finally:
             job["done"] = True
 
@@ -553,7 +636,8 @@ class SCBrowseMain(Screen):
                 os.makedirs(POSTER_CACHE_DIR)
         except Exception:
             pass
-        digest = hashlib.md5(("%s_%s" % (slug, url)).encode("utf-8")).hexdigest()
+        digest = hashlib.md5(("%s_%s" %
+                              (slug, url)).encode("utf-8")).hexdigest()
         return os.path.join(POSTER_CACHE_DIR, "%s.jpg" % digest)
 
     def _download_card_poster(self, key):
@@ -561,16 +645,22 @@ class SCBrowseMain(Screen):
         if not job:
             return
         try:
-            req = urllib.request.Request(job["url"], headers={"User-Agent": "Mozilla/5.0"})
+            req = urllib.request.Request(
+                job["url"], headers={
+                    "User-Agent": "Mozilla/5.0"})
             data = urllib.request.urlopen(req, timeout=8).read()
             if data and len(data) > 512:
                 with open(job["path"], "wb") as poster_file:
                     poster_file.write(data)
                 job["ok"] = True
-                log.info("BROWSE_CAROUSEL: poster downloaded slot=%d bytes=%d path=%s url=%s" % (job["slot"], len(data), job["path"], job["url"]))
+                log.info(
+                    "BROWSE_CAROUSEL: poster downloaded slot=%d bytes=%d path=%s url=%s" %
+                    (job["slot"], len(data), job["path"], job["url"]))
         except Exception as e:
             job["ok"] = False
-            log.error("BROWSE_CAROUSEL: poster download failed url=%s error=%s" % (job.get("url"), e))
+            log.error(
+                "BROWSE_CAROUSEL: poster download failed url=%s error=%s" %
+                (job.get("url"), e))
         job["done"] = True
 
     def process_poster_updates(self):
@@ -587,7 +677,9 @@ class SCBrowseMain(Screen):
                 for slot, slot_slug in enumerate(self._slot_slugs):
                     if slot_slug == slug:
                         self._set_card_poster(slot, poster_url, slug)
-                        log.info("BROWSE_CAROUSEL: applied resolved poster slot=%d slug=%s" % (slot, slug))
+                        log.info(
+                            "BROWSE_CAROUSEL: applied resolved poster slot=%d slug=%s" %
+                            (slot, slug))
             del self._poster_resolve_jobs[slug]
         for key, job in list(self._poster_jobs.items()):
             if not job.get("done"):
@@ -596,7 +688,11 @@ class SCBrowseMain(Screen):
             if job.get("ok") and os.path.exists(job["path"]):
                 slot = job["slot"]
                 if self._slot_poster_paths[slot] == job["path"]:
-                    self._set_pixmap_from_path(slot, job["path"], CARD_SLOTS[slot]["poster_w"], CARD_SLOTS[slot]["poster_h"])
+                    self._set_pixmap_from_path(
+                        slot,
+                        job["path"],
+                        CARD_SLOTS[slot]["poster_w"],
+                        CARD_SLOTS[slot]["poster_h"])
             del self._poster_jobs[key]
         if pending:
             self.poster_timer.start(250, False)
@@ -607,35 +703,44 @@ class SCBrowseMain(Screen):
             self._poster_picloads[slot] = picload
             picload.setPara([width, height, 1, 1, False, 1, "#00000000"])
             result = picload.startDecode(path, 0, 0, False)
-            log.info("BROWSE_CAROUSEL: decode slot=%d result=%s path=%s exists=%s size=%s" % (
-                slot,
-                result,
-                path,
-                os.path.exists(path),
-                os.path.getsize(path) if os.path.exists(path) else 0,
-            ))
+            log.info(
+                "BROWSE_CAROUSEL: decode slot=%d result=%s path=%s exists=%s size=%s" %
+                (slot,
+                 result,
+                 path,
+                 os.path.exists(path),
+                 os.path.getsize(path) if os.path.exists(path) else 0,
+                 ))
             if result != 0:
-                log.error("BROWSE_CAROUSEL: decode start failed slot=%d path=%s" % (slot, path))
+                log.error(
+                    "BROWSE_CAROUSEL: decode start failed slot=%d path=%s" %
+                    (slot, path))
                 return
             ptr = picload.getData()
-            log.info("BROWSE_CAROUSEL: decode data slot=%d ptr=%s" % (slot, bool(ptr)))
+            log.info(
+                "BROWSE_CAROUSEL: decode data slot=%d ptr=%s" %
+                (slot, bool(ptr)))
             if ptr:
                 self["card_poster_%d" % slot].instance.setPixmap(ptr)
                 self["card_poster_%d" % slot].show()
         except Exception as e:
-            log.error("BROWSE_CAROUSEL: decode failed slot=%d path=%s error=%s" % (slot, path, e))
+            log.error(
+                "BROWSE_CAROUSEL: decode failed slot=%d path=%s error=%s" %
+                (slot, path, e))
 
     def ok_pressed(self):
         if self.active_list == "categories":
             self.active_list = "carousel"
-            self["hint"].setText(_("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
+            self["hint"].setText(
+                _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
             return
         self.poster_selected()
 
     def poster_selected(self):
         try:
             selection = None
-            if self.visible_carousel_items and 0 <= self.carousel_index < len(self.visible_carousel_items):
+            if self.visible_carousel_items and 0 <= self.carousel_index < len(
+                    self.visible_carousel_items):
                 selection = self.visible_carousel_items[self.carousel_index]
             if not selection:
                 return
@@ -661,7 +766,8 @@ class SCBrowseMain(Screen):
                 media_type = "movie"  # default SC
 
             vixsrc_type = "tv" if media_type == "tv" else "movie"
-            vixsrc_url = "https://vixsrc.to/%s/%s" % (vixsrc_type, tmdb_id) if tmdb_id else ""
+            vixsrc_url = "https://vixsrc.to/%s/%s" % (
+                vixsrc_type, tmdb_id) if tmdb_id else ""
 
             sc_data = {
                 "source": "streamingcommunity",
@@ -673,7 +779,9 @@ class SCBrowseMain(Screen):
                 "poster_url": selection.get("poster_url") or selection.get("poster") or "",
             }
 
-            log.info("BROWSE: opening details slug=%s tmdb_id=%s type=%s" % (slug, tmdb_id, media_type))
+            log.info(
+                "BROWSE: opening details slug=%s tmdb_id=%s type=%s" %
+                (slug, tmdb_id, media_type))
             from .scdetails import SCDetailsScreen
             self.session.open(SCDetailsScreen, slug, title, sc_data)
         except Exception as e:
@@ -685,12 +793,14 @@ class SCBrowseMain(Screen):
 
     def keyUp(self):
         self.active_list = "categories"
-        self["hint"].setText(_("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
+        self["hint"].setText(
+            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
         self["category_list"].up()
 
     def keyDown(self):
         self.active_list = "categories"
-        self["hint"].setText(_("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
+        self["hint"].setText(
+            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
         self["category_list"].down()
 
     def keyLeft(self):
@@ -698,17 +808,23 @@ class SCBrowseMain(Screen):
             log.info("BROWSE_CAROUSEL: keyLeft ignored, carousel not ready")
             return
         self.active_list = "carousel"
-        self["hint"].setText(_("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
-        self.carousel_index = (self.carousel_index - 1) % len(self.visible_carousel_items)
-        log.info("BROWSE_CAROUSEL: keyLeft new_center=%d total=%d" % (self.carousel_index, len(self.visible_carousel_items)))
+        self["hint"].setText(
+            _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
+        self.carousel_index = (self.carousel_index -
+                               1) % len(self.visible_carousel_items)
+        log.info("BROWSE_CAROUSEL: keyLeft new_center=%d total=%d" %
+                 (self.carousel_index, len(self.visible_carousel_items)))
         self.update_carousel_cards(self.visible_carousel_items)
 
     def keyRight(self):
         self.active_list = "carousel"
-        self["hint"].setText(_("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
+        self["hint"].setText(
+            _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
         if self._can_scroll_carousel():
-            self.carousel_index = (self.carousel_index + 1) % len(self.visible_carousel_items)
-            log.info("BROWSE_CAROUSEL: keyRight new_center=%d total=%d" % (self.carousel_index, len(self.visible_carousel_items)))
+            self.carousel_index = (
+                self.carousel_index + 1) % len(self.visible_carousel_items)
+            log.info("BROWSE_CAROUSEL: keyRight new_center=%d total=%d" %
+                     (self.carousel_index, len(self.visible_carousel_items)))
             self.update_carousel_cards(self.visible_carousel_items)
 
     def close(self):

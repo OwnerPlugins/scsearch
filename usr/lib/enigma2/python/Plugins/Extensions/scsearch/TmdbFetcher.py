@@ -50,7 +50,8 @@ class TmdbFetcher:
 
     def _format_result(self, details, media_type="movie"):
         """Format the data into a compact dictionary."""
-        titolo = details.get("title") if media_type == "movie" else details.get("name")
+        titolo = details.get(
+            "title") if media_type == "movie" else details.get("name")
         poster_path = details.get("poster_path")
         trailer = None
 

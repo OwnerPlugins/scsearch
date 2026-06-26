@@ -37,7 +37,12 @@ CONFIG = read_config()
 
 
 def normalize_domain(value):
-    domain = (value or '').strip().replace('https://', '').replace('http://', '').strip('/')
+    domain = (
+        value or '').strip().replace(
+        'https://',
+        '').replace(
+            'http://',
+        '').strip('/')
     return domain or 'streamingcommunity.bingo'
 
 
@@ -64,7 +69,9 @@ class API:
     def __init__(self, domain):
         self.domain = domain
         self.session = requests.Session()
-        user_agent = CONFIG.get('USER_AGENT', "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        user_agent = CONFIG.get(
+            'USER_AGENT',
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         self.session.headers.update({"User-Agent": user_agent})
         log.info(f"API initialized for domain: {domain}")
 
@@ -107,7 +114,8 @@ class API:
             for card in cards:
                 try:
                     # Extract href and data-media-type
-                    href_match = re.search(r'href="/(movie|tv)/(\d+)-([^"]+)"', card)
+                    href_match = re.search(
+                        r'href="/(movie|tv)/(\d+)-([^"]+)"', card)
                     if not href_match:
                         continue
 
@@ -116,17 +124,20 @@ class API:
                     slug = href_match.group(3)
 
                     # Extract title
-                    title_match = re.search(r'<h2>([^<]+?)(?:\s*<span[^>]*>.*?</span>)?</h2>', card)
+                    title_match = re.search(
+                        r'<h2>([^<]+?)(?:\s*<span[^>]*>.*?</span>)?</h2>', card)
                     if not title_match:
                         continue
                     title = title_match.group(1).strip()
 
                     # Extract release date
-                    date_match = re.search(r'<span class="release_date">([^<]+)</span>', card)
+                    date_match = re.search(
+                        r'<span class="release_date">([^<]+)</span>', card)
                     release_date = ''
                     if date_match:
                         date_str = date_match.group(1).strip()
-                        # Convert format "28 settembre, 1989" to "1989-09-28" (simplified)
+                        # Convert format "28 settembre, 1989" to "1989-09-28"
+                        # (simplified)
                         date_parts = date_str.split(', ')
                         if len(date_parts) == 2:
                             year = date_parts[1]
@@ -141,13 +152,16 @@ class API:
                         'first_air_date': release_date if media_type == 'tv' else ''
                     })
 
-                    log.info(f"TMDB API.search: Parsed - ID: {item_id}, Title: {title}, Type: {media_type}")
+                    log.info(
+                        f"TMDB API.search: Parsed - ID: {item_id}, Title: {title}, Type: {media_type}")
 
                 except Exception as e:
                     log.error(f"TMDB API.search: Error parsing card: {e}")
                     continue
 
-            log.info(f"TMDB API.search: Successfully parsed {len(results)} results")
+            log.info(
+                f"TMDB API.search: Successfully parsed {
+                    len(results)} results")
             return {'data': results}
 
         except Exception as e:
@@ -169,38 +183,46 @@ class API:
             for pattern in json_patterns:
                 match = re.search(pattern, html_content, re.DOTALL)
                 if match:
-                    log.info(f"API.load: Found potential JSON with pattern: {pattern[:30]}...")
+                    log.info(
+                        f"API.load: Found potential JSON with pattern: {pattern[:30]}...")
                     try:
                         group_index = 2 if 'data-page' in pattern else 1
                         json_str_raw = match.group(group_index)
-                        json_str = html.unescape(json_str_raw) if 'data-page' in pattern else json_str_raw
+                        json_str = html.unescape(
+                            json_str_raw) if 'data-page' in pattern else json_str_raw
 
                         parsed_json = json.loads(json_str)
 
                         props = parsed_json.get('props', {})
                         title_data_check = props.get('title', {})
-                        if title_data_check.get('type') == 'tv' and not title_data_check.get('seasons'):
-                            log.warning(f"API.load: JSON from pattern '{pattern[:30]}' is incomplete. Trying next pattern.")
+                        if title_data_check.get(
+                                'type') == 'tv' and not title_data_check.get('seasons'):
+                            log.warning(
+                                f"API.load: JSON from pattern '{pattern[:30]}' is incomplete. Trying next pattern.")
                             continue
 
                         data = parsed_json
-                        log.info("API.load: Successfully parsed complete JSON data.")
+                        log.info(
+                            "API.load: Successfully parsed complete JSON data.")
                         break
                     except (json.JSONDecodeError, IndexError, Exception) as e:
-                        log.debug(f"API.load: Failed to parse JSON from pattern '{pattern[:30]}': {e}")
+                        log.debug(
+                            f"API.load: Failed to parse JSON from pattern '{pattern[:30]}': {e}")
                         continue
         except Exception as e:
             log.error(f"API.load: Error parsing {url}: {e}")
             data = None
 
         if not data:
-            log.error(f"API.load: Unable to find or parse JSON data-page in {url}")
+            log.error(
+                f"API.load: Unable to find or parse JSON data-page in {url}")
             return None
 
         props = data.get("props", {})
         title_data = props.get("title", {})
 
-        media_type = "Movie" if title_data.get("type") == "movie" else "TvSeries"
+        media_type = "Movie" if title_data.get(
+            "type") == "movie" else "TvSeries"
         name = title_data.get("name")
         vix_url = props.get("vix_url")
         log.info(f"API.load: Vix URL found: {vix_url}")
@@ -233,21 +255,37 @@ class API:
 
     def get_links(self, vixsrc_url, tmdb_id, tv=None):
         # headers = self.session.headers.copy()
-        vixsrc_iframe_url = f'https://{vixsrc_url}/{"tv" if tv else "movie"}/{tmdb_id}{"/" + str(tv[0]) + "/" + str(tv[1]) if tv else ""}'
+        vixsrc_iframe_url = f'https://{vixsrc_url}/{
+            "tv" if tv else "movie"}/{tmdb_id}{
+            "/" + str(
+                tv[0]) + "/" + str(
+                tv[1]) if tv else ""}'
         log.info(f"GET_LINKS: Fetching iframe_page: {vixsrc_iframe_url}")
         iframe_page = self._wbpage_as_text(vixsrc_iframe_url)
 
         try:
-            playlist_params_match = re.search(r"window\\.masterPlaylist[^:]+params:[^{]+({[^<]+?})", iframe_page)
-            playlist_url_match = re.search(r"window\\.masterPlaylist[^<]+url:[^<]+\'([^<]+?)\'", iframe_page)
-            can_play_fhd_match = re.search(r"window\\.canPlayFHD\\s+?=\\s+?(\\w+)", iframe_page)
+            playlist_params_match = re.search(
+                r"window\\.masterPlaylist[^:]+params:[^{]+({[^<]+?})", iframe_page)
+            playlist_url_match = re.search(
+                r"window\\.masterPlaylist[^<]+url:[^<]+\'([^<]+?)\'", iframe_page)
+            can_play_fhd_match = re.search(
+                r"window\\.canPlayFHD\\s+?=\\s+?(\\w+)", iframe_page)
 
-            playlist_params = json.loads(re.sub(r',[^\\\"]+}', "}", playlist_params_match.group(1).replace("'", '"'))) if playlist_params_match else {}
-            playlist_url = playlist_url_match.group(1) if playlist_url_match else None
-            can_play_fhd = can_play_fhd_match and can_play_fhd_match.group(1) == "true"
+            playlist_params = json.loads(
+                re.sub(
+                    r',[^\\\"]+}',
+                    "}",
+                    playlist_params_match.group(1).replace(
+                        "'",
+                        '"'))) if playlist_params_match else {}
+            playlist_url = playlist_url_match.group(
+                1) if playlist_url_match else None
+            can_play_fhd = can_play_fhd_match and can_play_fhd_match.group(
+                1) == "true"
 
             if not playlist_url or not playlist_params.get("token"):
-                log.error("GET_LINKS: Unable to extract playlist_url or token from page.")
+                log.error(
+                    "GET_LINKS: Unable to extract playlist_url or token from page.")
                 return None
 
             dl_url = (
@@ -282,8 +320,7 @@ def search_streaming_community_cool(query):
             'Accept-Language': 'it-IT,it;q=0.9,en;q=0.8',
             'Accept-Encoding': 'gzip, deflate',
             'Referer': 'https://streaming-community.cool/',
-            'DNT': '1'
-        }
+            'DNT': '1'}
 
         req = urllib.request.Request(url, headers=headers)
 
@@ -301,10 +338,18 @@ def search_streaming_community_cool(query):
 
             # Patterns to find titles and links
             title_patterns = [
-                r'<a[^>]+href=["\']([^"\'>]+)["\'][^>]*>([^<]*' + re.escape(query.lower()) + r'[^<]*)</a>',
-                r'<h[1-6][^>]*>([^<]*' + re.escape(query.lower()) + r'[^<]*)</h[1-6]>',
-                r'title=["\']([^"\'>]*' + re.escape(query.lower()) + r'[^"\'>]*)["\']'
-            ]
+                r'<a[^>]+href=["\']([^"\'>]+)["\'][^>]*>([^<]*' +
+                re.escape(
+                    query.lower()) +
+                r'[^<]*)</a>',
+                r'<h[1-6][^>]*>([^<]*' +
+                re.escape(
+                    query.lower()) +
+                r'[^<]*)</h[1-6]>',
+                r'title=["\']([^"\'>]*' +
+                re.escape(
+                    query.lower()) +
+                r'[^"\'>]*)["\']']
 
             for pattern in title_patterns:
                 matches = re.findall(pattern, html, re.IGNORECASE)
@@ -318,20 +363,33 @@ def search_streaming_community_cool(query):
 
                     if title and len(title.strip()) > 2:
                         # Determine type with improved logic for TV series
-                        tv_keywords = ['serie', 'season', 'stagione', 'episod', 'puntata', 'ep.', 's01', 's02', 's03', 's04', 's05', 'streaming']
-                        item_type = 'tv' if any(word in title.lower() for word in tv_keywords) else 'movie'
+                        tv_keywords = [
+                            'serie',
+                            'season',
+                            'stagione',
+                            'episod',
+                            'puntata',
+                            'ep.',
+                            's01',
+                            's02',
+                            's03',
+                            's04',
+                            's05',
+                            'streaming']
+                        item_type = 'tv' if any(
+                            word in title.lower() for word in tv_keywords) else 'movie'
 
-                        results.append({
-                            'name': title.strip(),
-                            'release_date': '' if item_type == 'tv' else '',
-                            '_raw': {
-                                'id': 'sc_cool',
-                                'slug': url_part.replace(' ', '-').replace('--', '-') if url_part else title.lower().replace(' ', '-').replace('--', '-'),
-                                'type': item_type,
-                                'source': 'streaming-community.cool',
-                                'first_air_date': '' if item_type == 'movie' else ''
-                            }
-                        })
+                        results.append({'name': title.strip(),
+                                        'release_date': '' if item_type == 'tv' else '',
+                                        '_raw': {'id': 'sc_cool',
+                                                 'slug': url_part.replace(' ',
+                                                                          '-').replace('--',
+                                                                                       '-') if url_part else title.lower().replace(' ',
+                                                                                                                                   '-').replace('--',
+                                                                                                                                                '-'),
+                                                 'type': item_type,
+                                                 'source': 'streaming-community.cool',
+                                                 'first_air_date': '' if item_type == 'movie' else ''}})
 
             # Remove duplicates
             seen = set()
@@ -374,7 +432,8 @@ def perform_search(query, domain=None, search_type=None):
         log.info(f"SEARCH: Searching TMDB for '{query}', type={media_type}")
 
         session = requests.Session()
-        session.headers.update({'User-Agent': config.get('USER_AGENT', 'Mozilla/5.0')})
+        session.headers.update(
+            {'User-Agent': config.get('USER_AGENT', 'Mozilla/5.0')})
 
         url = f"https://api.themoviedb.org/3/search/{media_type}"
         params = {'api_key': api_key, 'language': 'it-IT', 'query': query}
@@ -390,7 +449,8 @@ def perform_search(query, domain=None, search_type=None):
             if not tmdb_id or not name:
                 continue
             release_date = r.get('release_date') or r.get('first_air_date', '')
-            vixsrc_url = f"https://vixsrc.to/{'movie' if media_type == 'movie' else 'tv'}/{tmdb_id}"
+            vixsrc_url = f"https://vixsrc.to/{
+                'movie' if media_type == 'movie' else 'tv'}/{tmdb_id}"
             normalized_list.append({
                 'name': name,
                 'release_date': release_date,
@@ -456,11 +516,15 @@ def perform_search(query, domain=None, search_type=None):
                         'url': altadef_item['url']
                     }
                 })
-            log.info(f"SEARCH: Added {len(altadef_results)} results from Altadefinizione")
+            log.info(
+                f"SEARCH: Added {
+                    len(altadef_results)} results from Altadefinizione")
         except Exception as e:
             log.error(f"SEARCH: Altadefinizione search failed - {e}")
 
-        log.info(f"SEARCH: Returning {len(normalized_list)} normalized results")
+        log.info(
+            f"SEARCH: Returning {
+                len(normalized_list)} normalized results")
         return {'data': normalized_list}
     except Exception as e:
         log.error(f"perform_search failed for query: {query} - {e}")
@@ -490,7 +554,8 @@ def _find_first_value(data, key_names):
     if isinstance(data, dict):
         for key, value in data.items():
             key_lower = str(key).lower()
-            if key_lower in key_names and isinstance(value, str) and value.strip():
+            if key_lower in key_names and isinstance(
+                    value, str) and value.strip():
                 return value.strip()
         for value in data.values():
             found = _find_first_value(value, key_names)
@@ -509,7 +574,8 @@ def _extract_poster_url(title_data, base_url, cdn_url=None):
     if isinstance(images, list):
         selected = None
         for image in images:
-            if isinstance(image, dict) and image.get('type') == 'poster' and image.get('lang') == 'it':
+            if isinstance(image, dict) and image.get(
+                    'type') == 'poster' and image.get('lang') == 'it':
                 selected = image
                 break
         if not selected:
@@ -518,12 +584,14 @@ def _extract_poster_url(title_data, base_url, cdn_url=None):
                     selected = image
                     break
         if selected:
-            direct_url = selected.get('url') or selected.get('src') or selected.get('original_url_field')
+            direct_url = selected.get('url') or selected.get(
+                'src') or selected.get('original_url_field')
             filename = selected.get('filename')
             if direct_url:
                 poster = direct_url
             elif filename and cdn_url:
-                poster = "%s/images/%s" % (cdn_url.rstrip('/'), filename.lstrip('/'))
+                poster = "%s/images/%s" % (cdn_url.rstrip('/'),
+                                           filename.lstrip('/'))
             elif filename:
                 poster = urljoin(base_url, "/images/%s" % filename.lstrip('/'))
             else:
@@ -575,8 +643,7 @@ def scrape_category_page(category_url, domain=None):
             r'window\.__NUXT__\s*=\s*({.+?});',
             r"data-page=(['\"])(.*?)\1",
             r'window\.__INITIAL_STATE__\s*=\s*({.+?});',
-            r'__NEXT_DATA__[\'\"]\s*type\s*=\s*[\'"]application/json[\'"]\s*[^>]*>([^<]+)<'
-        ]
+            r'__NEXT_DATA__[\'\"]\s*type\s*=\s*[\'"]application/json[\'"]\s*[^>]*>([^<]+)<']
 
         for pattern in json_patterns:
             matches = re.findall(pattern, html_content, re.DOTALL)
@@ -606,10 +673,12 @@ def scrape_category_page(category_url, domain=None):
 
                         for title_data in titles[:20]:
                             if isinstance(title_data, dict):
-                                name = title_data.get('name') or title_data.get('title')
+                                name = title_data.get(
+                                    'name') or title_data.get('title')
                                 slug = None
 
-                                href = title_data.get('href') or title_data.get('url')
+                                href = title_data.get(
+                                    'href') or title_data.get('url')
                                 if href and ('/titles/' in href):
                                     slug = href.split('/')[-1]
 
@@ -619,7 +688,8 @@ def scrape_category_page(category_url, domain=None):
                                     if slug_part:
                                         slug = f"{item_id}-{slug_part}" if item_id else slug_part
 
-                                poster = _extract_poster_url(title_data, base_url, cdn_url)
+                                poster = _extract_poster_url(
+                                    title_data, base_url, cdn_url)
 
                                 if name and slug:
                                     item_type = title_data.get('type')
@@ -670,7 +740,9 @@ def scrape_category_page(category_url, domain=None):
                             'type': None
                         })
 
-        log.info(f"Successfully extracted {len(items)} items from category page")
+        log.info(
+            f"Successfully extracted {
+                len(items)} items from category page")
 
     except Exception as e:
         log.error(f"Failed to scrape category page {category_url}: {e}")
