@@ -257,7 +257,8 @@ class API:
         # headers = self.session.headers.copy()
         media_type = "tv" if tv else "movie"
         episode_path = "/" + str(tv[0]) + "/" + str(tv[1]) if tv else ""
-        vixsrc_iframe_url = "https://{}/{}/{}{}".format(vixsrc_url, media_type, tmdb_id, episode_path)
+        vixsrc_iframe_url = "https://{}/{}/{}{}".format(
+            vixsrc_url, media_type, tmdb_id, episode_path)
         log.info(f"GET_LINKS: Fetching iframe_page: {vixsrc_iframe_url}")
         iframe_page = self._wbpage_as_text(vixsrc_iframe_url)
 

@@ -123,7 +123,9 @@ class SCDetailsScreen(Screen):
 
     def _fetch_details(self):
         try:
-            log.info("DETAILS: Fetching details for slug='{}', title='{}'".format(self.slug, self.title))
+            log.info(
+                "DETAILS: Fetching details for slug='{}', title='{}'".format(
+                    self.slug, self.title))
 
             # --- OnlineSerieTV ---
             if self.ostv_data and self.ostv_data.get(

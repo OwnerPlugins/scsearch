@@ -136,7 +136,9 @@ class CaptchaInputScreen(Screen):
             log.info(f"CAPTCHA: Code confirmed: {self.captcha_code}")
             self.cleanup()
             if self.callback:
-                log.info("CAPTCHA: Calling callback with code: {}".format(self.captcha_code))
+                log.info(
+                    "CAPTCHA: Calling callback with code: {}".format(
+                        self.captcha_code))
                 self.callback(self.captcha_code)
             self.close()
         else:

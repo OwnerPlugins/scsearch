@@ -104,7 +104,9 @@ class OnlineSerieTV:
             # Find all movie elements directly in the HTML
             movie_pattern = r'<div class="movie">.*?<img src="([^"]+)".*?<a href="([^"]+)">.*?<h2>([^<]+)</h2>.*?</div>'
             movie_matches = re.findall(movie_pattern, html, re.DOTALL)
-            log.info("ONLINESERIETV: Found {} results".format(len(movie_matches)))
+            log.info(
+                "ONLINESERIETV: Found {} results".format(
+                    len(movie_matches)))
 
             for i, (poster, url, title) in enumerate(movie_matches):
                 try:
