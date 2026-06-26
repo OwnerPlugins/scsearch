@@ -18,7 +18,7 @@ class CaptchaInputScreen(Screen):
     Screen for entering a CAPTCHA code using numeric remote keys.
     Displays the captcha image and allows digit-by-digit entry.
     """
-   def __init__(self, session, captcha_data, callback):
+    def __init__(self, session, captcha_data, callback):
 
         skin_data = load_skin("CaptchaInputScreen")
         if skin_data:
