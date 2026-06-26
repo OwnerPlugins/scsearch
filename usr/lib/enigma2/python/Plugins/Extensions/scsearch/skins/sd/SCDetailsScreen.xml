@@ -1,0 +1,23 @@
+<screen name="SCDetailsScreen" position="center,center" size="720,576" title="SC Search - Details" backgroundColor="#101216">
+    <widget name="title" position="22,22" size="676,32" font="Regular;22" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
+    <widget name="type_info" position="22,50" size="338,24" font="Regular;16" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" />
+
+    <!-- Larger cover on the left -->
+    <widget name="cover_pixmap" position="22,80" size="170,255" zPosition="3" alphatest="on" />
+
+    <!-- Smaller detailed info -->
+    <widget name="info_panel" position="202,80" size="158,120" font="Regular;14" foregroundColor="#ffffff" backgroundColor="#1b2028" />
+
+    <!-- Even wider description -->
+    <widget name="description_panel" position="370,80" size="328,120" font="Regular;13" foregroundColor="#aab2c0" backgroundColor="#151922" />
+
+    <!-- Seasons and episodes below -->
+    <widget name="season_label" position="202,210" size="170,24" font="Regular;16" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
+    <widget name="season_list" position="202,240" size="170,100" itemHeight="28" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;14" selectionPixmap="skin_default/sel.png" />
+
+    <widget name="episode_label" position="382,210" size="170,24" font="Regular;16" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
+    <widget name="episode_list" position="382,240" size="170,100" itemHeight="28" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;14" selectionPixmap="skin_default/sel.png" />
+
+    <widget name="key_red" position="22,520" size="56,24" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
+    <widget name="key_green" position="84,520" size="74,24" font="Regular;14" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
+</screen>

@@ -1,0 +1,21 @@
+<screen name="SCSearchMain" position="center,center" size="1920,1080" title="SC Search - Streaming Community">
+    <ePixmap position="0,0" size="1920,1080" pixmap="skin_default/background.png" zPosition="-1" />
+    <widget name="background" position="0,0" size="1920,1080" backgroundColor="#0d1117" zPosition="0" />
+    <widget name="divider" position="960,60" size="2,960" zPosition="1" backgroundColor="#30363d" />
+
+    <!-- Left Panel: Search & Results -->
+    <widget name="search_term" position="60,60" size="850,45" font="Regular;36" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#0d1117" transparent="1" />
+    <widget name="results_list" position="60,135" size="850,825" itemHeight="60" scrollbarMode="showOnDemand" backgroundColor="#161b22" foregroundColor="#f0f6fc" selectionPixmap="skin_default/sel.png" transparent="0" />
+
+    <!-- Right Panel: Details -->
+    <widget name="cover_pixmap" position="1005,135" size="300,450" zPosition="3" alphatest="on" cornerRadius="26" scale="1" />
+    <widget name="details_title" position="1335,135" size="525,135" font="Regular;39" halign="left" valign="top" foregroundColor="#ffffff" backgroundColor="#0d1117" transparent="1" />
+    <widget name="details_year" position="1335,277" size="525,45" font="Regular;30" halign="left" valign="center" foregroundColor="#8b949e" backgroundColor="#0d1117" transparent="1" />
+    <widget name="details_description" position="1005,615" size="855,345" font="Regular;27" foregroundColor="#f0f6fc" backgroundColor="#0d1117" transparent="1" />
+
+    <!-- Control Bar -->
+    <widget name="key_red" position="60,1027" size="225,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
+    <widget name="key_green" position="300,1027" size="225,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
+    <widget name="key_yellow" position="540,1027" size="225,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
+    <widget name="key_blue" position="780,1027" size="225,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
+</screen>

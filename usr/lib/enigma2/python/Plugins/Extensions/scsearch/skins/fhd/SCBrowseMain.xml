@@ -1,0 +1,56 @@
+<screen name="SCBrowseMain" position="center,center" size="1920,1080" title="SC Search - Home">
+    <widget name="bg" position="0,0" size="1920,1080" backgroundColor="#101216" zPosition="-2" />
+    <widget name="top_band" position="0,0" size="1920,129" backgroundColor="#171b22" zPosition="-1" />
+    <widget name="brand" position="51,27" size="540,48" font="Regular;42" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
+    <widget name="subtitle" position="54,78" size="930,33" font="Regular;25" halign="left" valign="center" foregroundColor="#aab2c0" backgroundColor="#171b22" transparent="1" />
+    <widget name="status" position="1290,45" size="570,45" font="Regular;27" halign="right" valign="center" foregroundColor="#f0c36a" backgroundColor="#171b22" transparent="1" />
+
+    <widget name="side_panel" position="36,156" size="432,822" backgroundColor="#1b2028" zPosition="-1" />
+    <widget name="category_title" position="63,183" size="375,42" font="Regular;30" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" />
+    <widget name="category_list" position="63,246" size="375,696" itemHeight="48" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f3f5f7" selectionPixmap="skin_default/sel.png" transparent="0" font="Regular; 24" />
+
+    <widget name="content_panel" position="495,156" size="1374,822" backgroundColor="#151922" zPosition="-1" />
+    <widget name="carousel_title" position="534,183" size="975,48" font="Regular;36" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#151922" transparent="1" />
+    <widget name="counter" position="1530,189" size="300,39" font="Regular;25" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#151922" transparent="1" />
+
+    <!-- Card 0 -->
+    <widget name="card_bg_0" position="534,306" size="195,459" backgroundColor="#1b2028" zPosition="0" />
+    <widget name="card_poster_0" position="549,328" size="165,264" zPosition="2" alphatest="on" cornerRadius="26" scale="1" />
+    <widget name="card_source_0" position="549,603" size="165,33" font="Regular;19" halign="center" valign="center" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_title_0" position="549,642" size="165,81" font="Regular;22" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_meta_0" position="549,726" size="165,33" font="Regular;19" halign="center" valign="center" foregroundColor="#aab2c0" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+
+    <!-- Card 1 -->
+    <widget name="card_bg_1" position="750,276" size="225,519" backgroundColor="#1b2028" zPosition="0" />
+    <widget name="card_poster_1" position="766,298" size="192,306" zPosition="2" alphatest="on" cornerRadius="26" scale="1" />
+    <widget name="card_source_1" position="766,618" size="192,33" font="Regular;19" halign="center" valign="center" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_title_1" position="766,657" size="192,90" font="Regular;24" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_meta_1" position="766,751" size="192,33" font="Regular;19" halign="center" valign="center" foregroundColor="#aab2c0" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+
+    <!-- Card 2 (centrale) -->
+    <widget name="card_bg_2" position="996,231" size="294,609" backgroundColor="#263142" zPosition="1" />
+    <widget name="card_poster_2" position="1023,258" size="240,384" zPosition="3" alphatest="on" cornerRadius="26" scale="1" />
+    <widget name="card_source_2" position="1023,657" size="240,36" font="Regular;21" halign="center" valign="center" foregroundColor="#f0c36a" backgroundColor="#263142" transparent="1" zPosition="4" />
+    <widget name="card_title_2" position="1023,699" size="240,99" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#263142" transparent="1" zPosition="4" />
+    <widget name="card_meta_2" position="1023,798" size="240,36" font="Regular;21" halign="center" valign="center" foregroundColor="#6ed47f" backgroundColor="#263142" transparent="1" zPosition="4" />
+
+    <!-- Card 3 -->
+    <widget name="card_bg_3" position="1311,276" size="225,519" backgroundColor="#1b2028" zPosition="0" />
+    <widget name="card_poster_3" position="1327,298" size="192,306" zPosition="2" alphatest="on" cornerRadius="26" scale="1" />
+    <widget name="card_source_3" position="1327,618" size="192,33" font="Regular;19" halign="center" valign="center" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_title_3" position="1327,657" size="192,90" font="Regular;24" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_meta_3" position="1327,751" size="192,33" font="Regular;19" halign="center" valign="center" foregroundColor="#aab2c0" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+
+    <!-- Card 4 -->
+    <widget name="card_bg_4" position="1557,306" size="195,459" backgroundColor="#1b2028" zPosition="0" />
+    <widget name="card_poster_4" position="1572,327" size="165,264" zPosition="2" alphatest="on" cornerRadius="26" scale="1" />
+    <widget name="card_source_4" position="1572,603" size="165,33" font="Regular;19" halign="center" valign="center" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_title_4" position="1572,642" size="165,81" font="Regular;22" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+    <widget name="card_meta_4" position="1572,726" size="165,33" font="Regular;19" halign="center" valign="center" foregroundColor="#aab2c0" backgroundColor="#1b2028" transparent="1" zPosition="3" />
+
+    <!-- Controls -->
+    <widget name="key_red" position="54,1011" size="192,42" font="Regular;25" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
+    <widget name="key_green" position="261,1011" size="192,42" font="Regular;25" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
+    <widget name="key_blue" position="468,1011" size="192,42" font="Regular;25" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#3f7fe8" />
+    <widget name="hint" position="705,1011" size="1125,42" font="Regular;25" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+</screen>
