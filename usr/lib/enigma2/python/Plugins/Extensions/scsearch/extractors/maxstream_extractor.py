@@ -277,8 +277,8 @@ class MaxStreamExtractor:
             # Look for MaxStream link in the page
             maxstream_pattern = r'https://maxstream\.video/[^"\s]+'
             maxstream_match = re.search(maxstream_pattern, html)
-            log.info(
-                "MAXSTREAM_UPROT: Searching for MaxStream URL with pattern: {}".format(maxstream_pattern))
+            log.info("MAXSTREAM_UPROT: Searching for MaxStream URL with pattern: {}".format(
+                maxstream_pattern))
             log.info(
                 "MAXSTREAM_UPROT: MaxStream URL found: {}".format(
                     maxstream_match is not None))
@@ -305,7 +305,9 @@ class MaxStreamExtractor:
         except Exception as e:
             log.error("MAXSTREAM_UPROT: Error bypassing uprot: {}".format(e))
             import traceback
-            log.error("MAXSTREAM_UPROT: Traceback: {}".format(traceback.format_exc()))
+            log.error(
+                "MAXSTREAM_UPROT: Traceback: {}".format(
+                    traceback.format_exc()))
             log.info("MAXSTREAM_UPROT: ===== ENDING UPROT BYPASS (ERROR) =====")
             if callback:
                 callback(None)
