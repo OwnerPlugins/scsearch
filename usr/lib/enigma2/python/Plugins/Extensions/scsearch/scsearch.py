@@ -1198,7 +1198,7 @@ class SCSearchMain(Screen):
                     with open(self.cover_temp_path, 'rb') as f:
                         header = f.read(20)
                         log.error(f"OSTV_COVER: File header: {header}")
-                except:
+                except Exception:
                     pass
 
         except Exception as e:
@@ -1241,9 +1241,8 @@ class SCSearchMain(Screen):
                 if hasattr(service_ref, 'setInfo'):
                     service_ref.setInfo(iServiceInformation.sDescription, description)
                 elif hasattr(service_ref, 'setData'):
-                    # Alternative for some decoders
                     service_ref.setData(1, description)  # 1 = description
-            except:
+            except Exception:
                 # If advanced methods are not supported, add description to name
                 if description and len(description) < 100:
                     extended_name = f"{name}\n{description}"
@@ -1268,7 +1267,7 @@ class SCSearchMain(Screen):
                 if '<html' in content_str or '<!doctype' in content_str:
                     log.error("OSTV_COVER: Received HTML instead of image")
                     return False
-            except:
+            except Exception:
                 pass
 
             # Check magic bytes for common image formats

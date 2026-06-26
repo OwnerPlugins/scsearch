@@ -1250,7 +1250,7 @@ class SCDetailsScreen(Screen):
                     with open(self.cover_temp_path, 'rb') as f:
                         header = f.read(20)
                         log.error(f"OSTV_DETAILS_COVER: File header: {header}")
-                except:
+                except Exception:
                     pass
 
         except Exception as e:
@@ -1298,14 +1298,12 @@ class SCDetailsScreen(Screen):
                 if hasattr(service_ref, 'setInfo'):
                     service_ref.setInfo(iServiceInformation.sDescription, description)
                 elif hasattr(service_ref, 'setData'):
-                    # Alternative for some decoders
                     service_ref.setData(1, description)  # 1 = description
-            except:
+            except Exception:
                 # If advanced methods are not supported, add description to name
                 if description and len(description) < 100:
                     extended_name = f"{name}\n{description}"
                     service_ref.setName(extended_name)
-
             log.info(f"EPG_INFO: Set service info - Name: {name}, Description: {description[:50]}...")
 
         except Exception as e:

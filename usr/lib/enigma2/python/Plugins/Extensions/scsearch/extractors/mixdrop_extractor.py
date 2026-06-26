@@ -217,7 +217,7 @@ class MixdropExtractor:
                     idx = int(word, base) if base <= 36 else int(word)
                     if 0 <= idx < len(keywords) and keywords[idx]:
                         return keywords[idx]
-                except:
+                except Exception:
                     pass
                 return word
 

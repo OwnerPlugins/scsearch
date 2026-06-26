@@ -384,7 +384,7 @@ class MaxStreamExtractor:
                         if line.startswith('cf_clearance='):
                             cf_clearance = line.split('=', 1)[1].strip()
                             break
-            except:
+            except Exception:
                 pass
 
             # Build cookies using the PHPSESSID passed as parameter

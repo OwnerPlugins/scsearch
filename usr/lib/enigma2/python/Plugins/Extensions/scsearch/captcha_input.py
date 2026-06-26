@@ -156,5 +156,5 @@ class CaptchaInputScreen(Screen):
         try:
             if os.path.exists(self.temp_image_path):
                 os.remove(self.temp_image_path)
-        except:
+        except Exception:
             pass
