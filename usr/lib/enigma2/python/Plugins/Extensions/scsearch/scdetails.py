@@ -107,7 +107,8 @@ class SCDetailsScreen(Screen):
 
         self.active_list = "seasons"
         self["season_list"].onSelectionChanged.append(self.on_season_selected)
-        self["episode_list"].onSelectionChanged.append(self.on_episode_selected)
+        self["episode_list"].onSelectionChanged.append(
+            self.on_episode_selected)
         self.onLayoutFinish.append(self.load_details)
 
         # Reference for playback end callback
@@ -122,10 +123,14 @@ class SCDetailsScreen(Screen):
 
     def _fetch_details(self):
         try:
-            log.info(f"DETAILS: Fetching details for slug='{self.slug}', title='{self.title}'")
+            log.info(
+                f"DETAILS: Fetching details for slug='{
+                    self.slug}', title='{
+                    self.title}'")
 
             # --- OnlineSerieTV ---
-            if self.ostv_data and self.ostv_data.get('source') == 'onlineserietv':
+            if self.ostv_data and self.ostv_data.get(
+                    'source') == 'onlineserietv':
                 log.info("DETAILS: OnlineSerieTV content detected")
                 from .onlineserietv import get_onlineserietv_details
                 url = self.ostv_data.get('url', '')
@@ -182,7 +187,8 @@ class SCDetailsScreen(Screen):
 
             # --- Default: get_title_details ---
             else:
-                self.details = get_title_details(self.slug, title_name=self.title)
+                self.details = get_title_details(
+                    self.slug, title_name=self.title)
 
             # If it's a TV series with no episodes, try to parse the page
             if (self.details and
@@ -254,16 +260,23 @@ class SCDetailsScreen(Screen):
         if not episodes:
             # Check if we parsed seasons from the page
             if hasattr(self, 'parsed_seasons') and self.parsed_seasons:
-                log.info(f"DETAILS: Using parsed seasons: {self.parsed_seasons}")
+                log.info(
+                    f"DETAILS: Using parsed seasons: {
+                        self.parsed_seasons}")
                 seasons = sorted(self.parsed_seasons.keys())
-                season_items = [_("Season %d (%d episodes)") % (s, self.parsed_seasons[s]) for s in seasons]
+                season_items = [
+                    _("Season %d (%d episodes)") %
+                    (s, self.parsed_seasons[s]) for s in seasons]
                 self["season_list"].setList(season_items)
 
                 # Episodes for the first season
                 if seasons:
                     self.selected_season = seasons[0]
                     episode_count = self.parsed_seasons[self.selected_season]
-                    episode_items = [_("Episode %d") % i for i in range(1, episode_count + 1)]
+                    episode_items = [
+                        _("Episode %d") %
+                        i for i in range(
+                            1, episode_count + 1)]
                     self["episode_list"].setList(episode_items)
                     self.selected_episode = 1
 
@@ -273,9 +286,11 @@ class SCDetailsScreen(Screen):
                 # Load TMDB details
                 tmdb_id = self.details.get("tmdb_id")
                 if tmdb_id:
-                    self._load_tmdb_info(tmdb_id, total_seasons, total_episodes)
+                    self._load_tmdb_info(
+                        tmdb_id, total_seasons, total_episodes)
                 else:
-                    info_text = _("TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play") % (total_seasons, total_episodes)
+                    info_text = _("TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play") % (
+                        total_seasons, total_episodes)
                     self["info_panel"].setText(info_text)
 
                 self.update_labels()
@@ -286,7 +301,8 @@ class SCDetailsScreen(Screen):
             if self.details.get('source') == 'streamingcommunity':
                 tmdb_id = self.details.get("tmdb_id")
                 if tmdb_id:
-                    log.info(f"DETAILS: Loading TMDB info for StreamingCommunity series: {tmdb_id}")
+                    log.info(
+                        f"DETAILS: Loading TMDB info for StreamingCommunity series: {tmdb_id}")
                     self._load_tmdb_info_streamingcommunity(tmdb_id)
                     return
 
@@ -301,7 +317,12 @@ class SCDetailsScreen(Screen):
                 self.seasons_data[season] = []
             self.seasons_data[season].append(ep)
 
-        log.info(f"DETAILS: Grouped episodes into {len(self.seasons_data)} seasons: {list(self.seasons_data.keys())}")
+        log.info(
+            f"DETAILS: Grouped episodes into {
+                len(
+                    self.seasons_data)} seasons: {
+                list(
+                    self.seasons_data.keys())}")
 
         # Populate season list
         seasons = sorted(self.seasons_data.keys())
@@ -317,7 +338,8 @@ class SCDetailsScreen(Screen):
         # Show info
         total_seasons = len(seasons)
         total_episodes = len(episodes)
-        info_text = _("TV Series\nSeasons: %d\nTotal episodes: %d") % (total_seasons, total_episodes)
+        info_text = _("TV Series\nSeasons: %d\nTotal episodes: %d") % (
+            total_seasons, total_episodes)
         log.info(f"DETAILS: TV series info: {info_text}")
         self["info_panel"].setText(info_text)
 
@@ -334,19 +356,22 @@ class SCDetailsScreen(Screen):
             link_count = len(streaming_links)
 
             info_text = _("CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play") % (
-                self.details.get('year', _('N/A')),
-                self.details.get('genre', _('N/A')),
-                link_count
-            )
+                self.details.get('year', _('N/A')), self.details.get('genre', _('N/A')), link_count)
             self["info_panel"].setText(info_text)
 
-            description = self.details.get('description', _('Description not available.'))
-            self["description_panel"].setText(_("Description:\n\n%s") % description)
+            description = self.details.get(
+                'description', _('Description not available.'))
+            self["description_panel"].setText(
+                _("Description:\n\n%s") % description)
 
             # Show links in the season list
             if streaming_links:
                 self["season_label"].setText(_("Available links:"))
-                link_items = [_("%s %s") % (link.get('type', 'Hoster').title(), link.get('quality', 'SD')) for link in streaming_links]
+                link_items = [
+                    _("%s %s") %
+                    (link.get(
+                        'type', 'Hoster').title(), link.get(
+                        'quality', 'SD')) for link in streaming_links]
                 self["season_list"].setList(link_items)
                 self.selected_cb01_link_index = 0
 
@@ -371,21 +396,35 @@ class SCDetailsScreen(Screen):
                 extra_episode = 1 if self.selected_season <= self.remaining_episodes else 0
                 season_episodes = base_episodes + extra_episode
 
-                episode_items = [_("Episode %d") % i for i in range(1, season_episodes + 1)]
+                episode_items = [
+                    _("Episode %d") %
+                    i for i in range(
+                        1, season_episodes + 1)]
                 self["episode_list"].setList(episode_items)
                 self.selected_episode = 1
             return
 
-        if hasattr(self, 'seasons_data') and self.selected_season in self.seasons_data:
+        if hasattr(
+                self,
+                'seasons_data') and self.selected_season in self.seasons_data:
             episodes = self.seasons_data[self.selected_season]
-            episode_items = [_("Episode %d: %s") % (ep.get('episode', 1), ep.get('name', _('N/A'))) for ep in episodes]
+            episode_items = [
+                _("Episode %d: %s") %
+                (ep.get(
+                    'episode', 1), ep.get(
+                    'name', _('N/A'))) for ep in episodes]
             self["episode_list"].setList(episode_items)
             if episodes:
                 self.selected_episode = episodes[0].get("episode", 1)
         elif hasattr(self, 'parsed_seasons') and self.selected_season in self.parsed_seasons:
             # Use data parsed from the page
             episode_count = self.parsed_seasons[self.selected_season]
-            episode_items = [_("Episode %d") % i for i in range(1, episode_count + 1)]
+            episode_items = [
+                _("Episode %d") %
+                i for i in range(
+                    1,
+                    episode_count +
+                    1)]
             self["episode_list"].setList(episode_items)
             self.selected_episode = 1
 
@@ -393,8 +432,10 @@ class SCDetailsScreen(Screen):
         try:
             selection = self["season_list"].getCurrent()
             if selection:
-                # For CB01, the selection is the link index, not a season number
-                if self.details and self.details.get('source') == 'cb01' and self.details.get('type') == 'TvSeries':
+                # For CB01, the selection is the link index, not a season
+                # number
+                if self.details and self.details.get(
+                        'source') == 'cb01' and self.details.get('type') == 'TvSeries':
                     # Extract season number from "Season X (Y episodes)"
                     import re
                     match = re.search(r'Season\s+(\d+)', selection)
@@ -407,10 +448,12 @@ class SCDetailsScreen(Screen):
                     # Find the selected link index
                     streaming_links = self.details.get('streaming_links', [])
                     for i, link in enumerate(streaming_links):
-                        link_label = _("%s %s") % (link.get('type', 'Hoster').title(), link.get('quality', 'SD'))
+                        link_label = _("%s %s") % (
+                            link.get('type', 'Hoster').title(), link.get('quality', 'SD'))
                         if link_label == selection:
                             self.selected_cb01_link_index = i
-                            log.info(f"CB01: Selected link index {i} ({selection})")
+                            log.info(
+                                f"CB01: Selected link index {i} ({selection})")
                             break
                 else:
                     # Extract season number
@@ -420,8 +463,12 @@ class SCDetailsScreen(Screen):
                         season_num = int(match.group(1))
                         self.selected_season = season_num
                         # For StreamingCommunity, update episodes per season
-                        if self.details and self.details.get('source') == 'streamingcommunity' and hasattr(self, 'sc_episodes_per_season'):
-                            episode_items = [_("Episode %d") % i for i in range(1, self.sc_episodes_per_season + 1)]
+                        if self.details and self.details.get(
+                                'source') == 'streamingcommunity' and hasattr(self, 'sc_episodes_per_season'):
+                            episode_items = [
+                                _("Episode %d") %
+                                i for i in range(
+                                    1, self.sc_episodes_per_season + 1)]
                             self["episode_list"].setList(episode_items)
                             self.selected_episode = 1
                         else:
@@ -433,14 +480,17 @@ class SCDetailsScreen(Screen):
         try:
             selection = self["episode_list"].getCurrent()
             if selection:
-                if self.details and self.details.get('source') == 'cb01' and self.details.get('type') == 'TvSeries':
+                if self.details and self.details.get(
+                        'source') == 'cb01' and self.details.get('type') == 'TvSeries':
                     episodes = self.seasons_data.get(self.selected_season, [])
                     for i, episode in enumerate(episodes):
-                        label = _("Episode %d: %s") % (episode.get('episode', 1), episode.get('name', _('N/A')))
+                        label = _("Episode %d: %s") % (episode.get(
+                            'episode', 1), episode.get('name', _('N/A')))
                         if label == selection:
                             self.selected_cb01_episode_index = i
                             self.selected_episode = episode.get('episode', 1)
-                            log.info(f"CB01: Selected episode link index {i} ({selection})")
+                            log.info(
+                                f"CB01: Selected episode link index {i} ({selection})")
                             return
 
                 # Extract episode number
@@ -477,13 +527,18 @@ class SCDetailsScreen(Screen):
         else:
             tmdb_id = self.details.get("tmdb_id")
             if not tmdb_id:
-                self.session.open(MessageBox, _("TMDB ID not found"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("TMDB ID not found"),
+                    MessageBox.TYPE_ERROR)
                 return
 
             if self.details.get("type") == "Movie":
                 stream_url = f"https://vixsrc.to/movie/{tmdb_id}"
             else:
-                stream_url = f"https://vixsrc.to/tv/{tmdb_id}/{self.selected_season}/{self.selected_episode}"
+                stream_url = f"https://vixsrc.to/tv/{tmdb_id}/{
+                    self.selected_season}/{
+                    self.selected_episode}"
 
             log.info(f"PLAY: Built URL: {stream_url}")
             service_ref = eServiceReference(4097, 0, stream_url)
@@ -491,10 +546,14 @@ class SCDetailsScreen(Screen):
             if self.details.get("type") == "Movie":
                 service_ref.setName(self.title)
             else:
-                service_name = f"{self.title} - S{self.selected_season:02d}E{self.selected_episode:02d}"
+                service_name = f"{
+                    self.title} - S{
+                    self.selected_season:02d}E{
+                    self.selected_episode:02d}"
                 service_ref.setName(service_name)
 
-            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
+            self.session.openWithCallback(
+                self.on_playback_stopped, MoviePlayer, service_ref)
 
     def _setup_onlineserietv_series(self):
         """Setup for OnlineSerieTV TV series."""
@@ -509,9 +568,11 @@ class SCDetailsScreen(Screen):
                 self.details.get('rating', _('N/A')),
                 self.details.get('creator', _('N/A'))
             )
-            description = self.details.get('description', _('Description not available.'))
+            description = self.details.get(
+                'description', _('Description not available.'))
 
-            self["description_panel"].setText(_("Description:\n\n%s") % description)
+            self["description_panel"].setText(
+                _("Description:\n\n%s") % description)
 
             poster_url = self.details.get('poster')
             if poster_url:
@@ -522,7 +583,10 @@ class SCDetailsScreen(Screen):
                 total_seasons = seasons_info.get('total_seasons', 1)
                 total_episodes = seasons_info.get('total_episodes', 1)
 
-                season_items = [_("Season %d") % i for i in range(1, total_seasons + 1)]
+                season_items = [
+                    _("Season %d") %
+                    i for i in range(
+                        1, total_seasons + 1)]
                 self["season_list"].setList(season_items)
 
                 self.selected_season = 1
@@ -530,8 +594,12 @@ class SCDetailsScreen(Screen):
                 episodes_per_season = total_episodes // total_seasons
                 remaining_episodes = total_episodes % total_seasons
 
-                first_season_episodes = episodes_per_season + (1 if remaining_episodes > 0 else 0)
-                episode_items = [_("Episode %d") % i for i in range(1, first_season_episodes + 1)]
+                first_season_episodes = episodes_per_season + \
+                    (1 if remaining_episodes > 0 else 0)
+                episode_items = [
+                    _("Episode %d") %
+                    i for i in range(
+                        1, first_season_episodes + 1)]
                 self["episode_list"].setList(episode_items)
                 self.selected_episode = 1
 
@@ -541,7 +609,8 @@ class SCDetailsScreen(Screen):
                 self.total_episodes = total_episodes
 
                 # Add season info to panel
-                info_text += _("\n\nSeasons: %d\nTotal episodes: %d") % (total_seasons, total_episodes)
+                info_text += _("\n\nSeasons: %d\nTotal episodes: %d") % (
+                    total_seasons, total_episodes)
 
                 self.update_labels()
                 log.info("DETAILS: OnlineSerieTV series setup completed")
@@ -564,7 +633,10 @@ class SCDetailsScreen(Screen):
             # Get the series URL from details
             series_url = self.details.get('altadef_url', '')
             if not series_url:
-                self.session.open(MessageBox, _("Series URL not found"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("Series URL not found"),
+                    MessageBox.TYPE_ERROR)
                 return
 
             # Get stream for selected episode
@@ -575,20 +647,30 @@ class SCDetailsScreen(Screen):
             )
 
             if not stream_data or not stream_data.get('url'):
-                self.session.open(MessageBox, _("Unable to get stream for this episode"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("Unable to get stream for this episode"),
+                    MessageBox.TYPE_ERROR)
                 return
 
             stream_url = stream_data['url']
-            service_name = f"{self.title} - S{self.selected_season:02d}E{self.selected_episode:02d} [Altadefinizione]"
+            service_name = f"{
+                self.title} - S{
+                self.selected_season:02d}E{
+                self.selected_episode:02d} [Altadefinizione]"
 
-            log.info(f"ALTADEFINIZIONE_EPISODE: Playing episode: {service_name}")
+            log.info(
+                f"ALTADEFINIZIONE_EPISODE: Playing episode: {service_name}")
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
-            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
+            self.session.openWithCallback(
+                self.on_playback_stopped, MoviePlayer, service_ref)
 
         except Exception as e:
             log.error(f"ALTADEFINIZIONE_EPISODE: Error: {e}")
-            self.session.open(MessageBox, _("Error playing episode: %s") % e, MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("Error playing episode: %s") %
+                e, MessageBox.TYPE_ERROR)
 
     def _play_altadefinizione_content(self):
         """Send Altadefinizione hoster link to decoder without decrypting."""
@@ -597,25 +679,36 @@ class SCDetailsScreen(Screen):
                 # For TV series
                 episodes = self.seasons_data.get(self.selected_season, [])
                 selected_episode_data = None
-                selected_index = getattr(self, 'selected_altadef_episode_index', 0)
+                selected_index = getattr(
+                    self, 'selected_altadef_episode_index', 0)
                 if 0 <= selected_index < len(episodes):
                     selected_episode_data = episodes[selected_index]
                 if not selected_episode_data and episodes:
                     selected_episode_data = episodes[0]
 
                 if not selected_episode_data:
-                    self.session.open(MessageBox, _("No Altadefinizione episode found"), MessageBox.TYPE_ERROR)
+                    self.session.open(
+                        MessageBox,
+                        _("No Altadefinizione episode found"),
+                        MessageBox.TYPE_ERROR)
                     return
 
                 stream_url = selected_episode_data.get('url', '')
                 quality = selected_episode_data.get('quality', 'Maxstream')
                 service = selected_episode_data.get('type', 'maxstream')
-                service_name = f"{self.title} - S{self.selected_season:02d}E{self.selected_episode:02d} [{service.title()}]"
+                service_name = f"{
+                    self.title} - S{
+                    self.selected_season:02d}E{
+                    self.selected_episode:02d} [{
+                    service.title()}]"
             else:
                 # For movies
                 streaming_links = self.details.get('streaming_links', [])
                 if not streaming_links:
-                    self.session.open(MessageBox, _("No streaming links found"), MessageBox.TYPE_ERROR)
+                    self.session.open(
+                        MessageBox,
+                        _("No streaming links found"),
+                        MessageBox.TYPE_ERROR)
                     return
 
                 link_index = getattr(self, 'selected_altadef_link_index', 0)
@@ -623,27 +716,38 @@ class SCDetailsScreen(Screen):
                     link_index = 0
 
                 selected_link = streaming_links[link_index]
-                log.info(f"ALTADEFINIZIONE_PLAY: Using link index {link_index}: {selected_link}")
+                log.info(
+                    f"ALTADEFINIZIONE_PLAY: Using link index {link_index}: {selected_link}")
 
                 stream_url = selected_link['url']
                 quality = selected_link.get('quality', 'SD')
-                service = selected_link.get('type') or selected_link.get('service') or 'hoster'
+                service = selected_link.get(
+                    'type') or selected_link.get('service') or 'hoster'
                 service_name = f"{self.title} [{service.title()} {quality}]"
 
             if not stream_url:
-                self.session.open(MessageBox, _("Invalid streaming URL"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("Invalid streaming URL"),
+                    MessageBox.TYPE_ERROR)
                 return
 
-            log.info(f"ALTADEFINIZIONE_PLAY: Sending {service} URL to decoder: {stream_url}")
+            log.info(
+                f"ALTADEFINIZIONE_PLAY: Sending {service} URL to decoder: {stream_url}")
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
-            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
+            self.session.openWithCallback(
+                self.on_playback_stopped, MoviePlayer, service_ref)
 
         except Exception as e:
             log.error(f"ALTADEFINIZIONE_PLAY: Error: {e}")
             import traceback
-            log.error(f"ALTADEFINIZIONE_PLAY: Traceback: {traceback.format_exc()}")
-            self.session.open(MessageBox, _("Altadefinizione playback error: %s") % e, MessageBox.TYPE_ERROR)
+            log.error(
+                f"ALTADEFINIZIONE_PLAY: Traceback: {
+                    traceback.format_exc()}")
+            self.session.open(
+                MessageBox, _("Altadefinizione playback error: %s") %
+                e, MessageBox.TYPE_ERROR)
 
     def _setup_cb01_series(self):
         """Setup for CB01 TV series with already extracted hoster links."""
@@ -659,7 +763,8 @@ class SCDetailsScreen(Screen):
                     episode_number = episode.get('episode_number', 1)
                     service = episode.get('type', 'maxstream')
                     quality = episode.get('quality', service.title())
-                    display_name = service.title() if quality.lower() == service.lower() else f"{service.title()} {quality}"
+                    display_name = service.title() if quality.lower(
+                    ) == service.lower() else f"{service.title()} {quality}"
                     episodes.append({
                         'episode': episode_number,
                         'name': display_name,
@@ -672,25 +777,32 @@ class SCDetailsScreen(Screen):
                     self.seasons_data[season_number] = episodes
 
             season_numbers = sorted(self.seasons_data.keys())
-            self["season_list"].setList([_("Season %d") % s for s in season_numbers])
+            self["season_list"].setList(
+                [_("Season %d") % s for s in season_numbers])
 
             if season_numbers:
                 self.selected_season = season_numbers[0]
                 self.update_episodes()
 
-            total_episodes = sum(len(episodes) for episodes in self.seasons_data.values())
-            info_text = _("CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play") % (len(season_numbers), total_episodes)
+            total_episodes = sum(len(episodes)
+                                 for episodes in self.seasons_data.values())
+            info_text = _("CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play") % (
+                len(season_numbers), total_episodes)
             self["info_panel"].setText(info_text)
 
-            description = self.details.get('description', _('Description not available.'))
-            self["description_panel"].setText(_("Description:\n\n%s") % description)
+            description = self.details.get(
+                'description', _('Description not available.'))
+            self["description_panel"].setText(
+                _("Description:\n\n%s") % description)
 
             poster_url = self.details.get('poster')
             if poster_url:
                 self._load_cover(poster_url)
 
             self.update_labels()
-            log.info(f"DETAILS: CB01 series setup completed: {len(season_numbers)} seasons, {total_episodes} episodes")
+            log.info(
+                f"DETAILS: CB01 series setup completed: {
+                    len(season_numbers)} seasons, {total_episodes} episodes")
         except Exception as e:
             log.error(f"DETAILS: Error setting up CB01 series: {e}")
             self["info_panel"].setText(_("Error loading CB01 series"))
@@ -701,25 +813,36 @@ class SCDetailsScreen(Screen):
             if self.details.get('type') == 'TvSeries':
                 episodes = self.seasons_data.get(self.selected_season, [])
                 selected_episode_data = None
-                selected_index = getattr(self, 'selected_cb01_episode_index', 0)
+                selected_index = getattr(
+                    self, 'selected_cb01_episode_index', 0)
                 if 0 <= selected_index < len(episodes):
                     selected_episode_data = episodes[selected_index]
                 if not selected_episode_data and episodes:
                     selected_episode_data = episodes[0]
 
                 if not selected_episode_data:
-                    self.session.open(MessageBox, _("No CB01 episode found"), MessageBox.TYPE_ERROR)
+                    self.session.open(
+                        MessageBox,
+                        _("No CB01 episode found"),
+                        MessageBox.TYPE_ERROR)
                     return
 
                 stream_url = selected_episode_data.get('url', '')
                 quality = selected_episode_data.get('quality', 'Maxstream')
                 service = selected_episode_data.get('type', 'maxstream')
-                service_name = f"{self.title} - S{self.selected_season:02d}E{self.selected_episode:02d} [{service.title()}]"
+                service_name = f"{
+                    self.title} - S{
+                    self.selected_season:02d}E{
+                    self.selected_episode:02d} [{
+                    service.title()}]"
             else:
                 streaming_links = self.details.get('streaming_links', [])
 
                 if not streaming_links:
-                    self.session.open(MessageBox, _("No streaming links found"), MessageBox.TYPE_ERROR)
+                    self.session.open(
+                        MessageBox,
+                        _("No streaming links found"),
+                        MessageBox.TYPE_ERROR)
                     return
 
                 link_index = getattr(self, 'selected_cb01_link_index', 0)
@@ -727,34 +850,46 @@ class SCDetailsScreen(Screen):
                     link_index = 0
 
                 selected_link = streaming_links[link_index]
-                log.info(f"CB01_PLAY: Using link index {link_index}: {selected_link}")
+                log.info(
+                    f"CB01_PLAY: Using link index {link_index}: {selected_link}")
 
                 stream_url = selected_link['url']
                 quality = selected_link.get('quality', 'SD')
-                service = selected_link.get('type') or selected_link.get('service') or 'hoster'
+                service = selected_link.get(
+                    'type') or selected_link.get('service') or 'hoster'
                 service_name = f"{self.title} [{service.title()} {quality}]"
 
             if not stream_url:
-                self.session.open(MessageBox, _("Invalid streaming URL"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("Invalid streaming URL"),
+                    MessageBox.TYPE_ERROR)
                 return
 
-            log.info(f"CB01_PLAY: Sending {service} URL to decoder: {stream_url}")
+            log.info(
+                f"CB01_PLAY: Sending {service} URL to decoder: {stream_url}")
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
-            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
+            self.session.openWithCallback(
+                self.on_playback_stopped, MoviePlayer, service_ref)
 
         except Exception as e:
             log.error(f"CB01_PLAY: Error: {e}")
             import traceback
             log.error(f"CB01_PLAY: Traceback: {traceback.format_exc()}")
-            self.session.open(MessageBox, _("CB01 playback error: %s") % e, MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("CB01 playback error: %s") %
+                e, MessageBox.TYPE_ERROR)
 
     def _build_onlineserietv_url(self):
         """Start asynchronous M3U8 URL extraction from OnlineSerieTV."""
         series_main_url = self.details.get('url')
         if not series_main_url:
             log.error("DETAILS: Main series URL not found for extraction.")
-            self.session.open(MessageBox, _("Series URL not found."), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox,
+                _("Series URL not found."),
+                MessageBox.TYPE_ERROR)
             return
 
         def stream_callback(stream_url):
@@ -763,10 +898,18 @@ class SCDetailsScreen(Screen):
                 self._play_stream_url(stream_url)
             else:
                 log.error("DETAILS: No stream URL received")
-                self.session.open(MessageBox, _("Unable to get streaming URL"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("Unable to get streaming URL"),
+                    MessageBox.TYPE_ERROR)
 
         from .onlineserietv import get_onlineserietv_stream_url
-        get_onlineserietv_stream_url(series_main_url, self.selected_season, self.selected_episode, self.session, stream_callback)
+        get_onlineserietv_stream_url(
+            series_main_url,
+            self.selected_season,
+            self.selected_episode,
+            self.session,
+            stream_callback)
 
     def _play_stream_url(self, stream_url):
         """Play the received stream URL."""
@@ -776,15 +919,21 @@ class SCDetailsScreen(Screen):
             service_ref = self._create_ostv_service_ref(stream_url)
 
             # Set service name
-            service_name = f"{self.title} - S{self.selected_season:02d}E{self.selected_episode:02d}"
+            service_name = f"{
+                self.title} - S{
+                self.selected_season:02d}E{
+                self.selected_episode:02d}"
             service_ref.setName(service_name)
 
             # Open player with callback for when it's closed
-            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
+            self.session.openWithCallback(
+                self.on_playback_stopped, MoviePlayer, service_ref)
 
         except Exception as e:
             log.error(f"PLAY: Playback error: {e}")
-            self.session.open(MessageBox, _("Playback error: %s") % e, MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("Playback error: %s") %
+                e, MessageBox.TYPE_ERROR)
 
     def _create_ostv_service_ref(self, url):
         """Create service reference for M3U8 URL extracted from MaxStream."""
@@ -797,19 +946,20 @@ class SCDetailsScreen(Screen):
                 return eServiceReference(4097, 0, url)
             else:
                 # Fallback for non-M3U8 URLs (compatibility)
-                log.warning("OSTV_SERVICE: Non-M3U8 URL, using with OnlineSerieTV headers")
+                log.warning(
+                    "OSTV_SERVICE: Non-M3U8 URL, using with OnlineSerieTV headers")
                 from .onlineserietv import load_olstv_cookie
 
                 headers = {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36',
-                    'Referer': 'https://onlineserietv.com/'
-                }
+                    'Referer': 'https://onlineserietv.com/'}
 
                 cookie = load_olstv_cookie()
                 if cookie:
                     headers['Cookie'] = cookie
 
-                headers_str = '&'.join([f"{k}={v}" for k, v in headers.items()])
+                headers_str = '&'.join(
+                    [f"{k}={v}" for k, v in headers.items()])
                 url_with_headers = f"{url}#{headers_str}"
 
                 log.info(f"OSTV_SERVICE: URL with headers: {url_with_headers}")
@@ -824,7 +974,8 @@ class SCDetailsScreen(Screen):
         Callback executed when MoviePlayer is closed.
         Does nothing; Enigma2 will automatically return to this screen.
         """
-        log.info(f"DETAILS: Playback stopped callback - args: {args}, kwargs: {kwargs}")
+        log.info(
+            f"DETAILS: Playback stopped callback - args: {args}, kwargs: {kwargs}")
         log.info("DETAILS: Returning to details screen.")
         # No action needed, Enigma2 handles the return.
 
@@ -883,7 +1034,8 @@ class SCDetailsScreen(Screen):
                     season = int(season_num)
                     episodes = int(episode_count)
                     self.parsed_seasons[season] = episodes
-                    log.info(f"DETAILS: Season {season} has {episodes} episodes")
+                    log.info(
+                        f"DETAILS: Season {season} has {episodes} episodes")
 
         except Exception as e:
             log.error(f"DETAILS: Error parsing seasons: {e}")
@@ -893,7 +1045,9 @@ class SCDetailsScreen(Screen):
         self._tmdb_sc_ready = False
         self._tmdb_sc_result = None
         self._tmdb_sc_timer.start(100, False)
-        threading.Thread(target=self._fetch_tmdb_sc, args=(tmdb_id,), daemon=True).start()
+        threading.Thread(
+            target=self._fetch_tmdb_sc, args=(
+                tmdb_id,), daemon=True).start()
 
     def _fetch_tmdb_sc(self, tmdb_id):
         try:
@@ -930,7 +1084,8 @@ class SCDetailsScreen(Screen):
         self._tmdb_sc_result = None
 
         if not details or 'error' in details:
-            error_msg = details.get('error', _('Error loading TMDB')) if details else _('Error loading TMDB')
+            error_msg = details.get(
+                'error', _('Error loading TMDB')) if details else _('Error loading TMDB')
             self["info_panel"].setText(_("TV Series\n%s") % error_msg)
             return
 
@@ -944,7 +1099,12 @@ class SCDetailsScreen(Screen):
 
         # Populate episodes for first season (estimate)
         episodes_per_season = max(1, num_episodes // num_seasons)
-        episode_items = [_("Episode %d") % i for i in range(1, episodes_per_season + 1)]
+        episode_items = [
+            _("Episode %d") %
+            i for i in range(
+                1,
+                episodes_per_season +
+                1)]
         self["episode_list"].setList(episode_items)
         self.selected_episode = 1
 
@@ -962,17 +1122,25 @@ class SCDetailsScreen(Screen):
         )
         self["info_panel"].setText(info_text)
 
-        description = details.get('descrizione', _('Description not available.'))
-        self["description_panel"].setText(_("Description:\n\n%s") % description)
+        description = details.get(
+            'descrizione', _('Description not available.'))
+        self["description_panel"].setText(
+            _("Description:\n\n%s") % description)
 
         poster_url = details.get('poster')
         if poster_url:
             self._load_cover(poster_url)
 
         self.update_labels()
-        log.info(f"DETAILS: StreamingCommunity TV series setup completed: {num_seasons} seasons, {num_episodes} episodes")
+        log.info(
+            f"DETAILS: StreamingCommunity TV series setup completed: {num_seasons} seasons, {num_episodes} episodes")
 
-    def _load_tmdb_info(self, tmdb_id, total_seasons=0, total_episodes=0, is_movie=False):
+    def _load_tmdb_info(
+            self,
+            tmdb_id,
+            total_seasons=0,
+            total_episodes=0,
+            is_movie=False):
         self._tmdb_info_ready = False
         self._tmdb_info_result = None
         self._tmdb_info_context = {
@@ -981,7 +1149,12 @@ class SCDetailsScreen(Screen):
             "is_movie": is_movie,
         }
         self._tmdb_info_timer.start(100, False)
-        threading.Thread(target=self._fetch_tmdb_info, args=(tmdb_id, is_movie), daemon=True).start()
+        threading.Thread(
+            target=self._fetch_tmdb_info,
+            args=(
+                tmdb_id,
+                is_movie),
+            daemon=True).start()
 
     def _fetch_tmdb_info(self, tmdb_id, is_movie=False):
         try:
@@ -1035,8 +1208,10 @@ class SCDetailsScreen(Screen):
             )
 
         self["info_panel"].setText(info_text)
-        description = details.get('descrizione', _('Description not available.'))
-        self["description_panel"].setText(_("Description:\n\n%s") % description)
+        description = details.get(
+            'descrizione', _('Description not available.'))
+        self["description_panel"].setText(
+            _("Description:\n\n%s") % description)
         poster_url = details.get('poster')
         if poster_url:
             self._load_cover(poster_url)
@@ -1045,7 +1220,9 @@ class SCDetailsScreen(Screen):
         self._cover_ready = False
         self._cover_success = False
         self._cover_timer.start(100, False)
-        threading.Thread(target=self._load_cover_async, args=(url,), daemon=True).start()
+        threading.Thread(
+            target=self._load_cover_async, args=(
+                url,), daemon=True).start()
 
     def _load_cover_async(self, url):
         try:
@@ -1062,7 +1239,11 @@ class SCDetailsScreen(Screen):
         candidates = [url]
         resized_match = re.search(r'(-\d+x\d+)(\.[a-zA-Z0-9]+)(?:\?.*)?$', url)
         if resized_match:
-            candidates.append(url.replace(resized_match.group(1) + resized_match.group(2), resized_match.group(2)))
+            candidates.append(
+                url.replace(
+                    resized_match.group(1) +
+                    resized_match.group(2),
+                    resized_match.group(2)))
 
         last_error = None
         for candidate in dict.fromkeys(candidates):
@@ -1078,7 +1259,8 @@ class SCDetailsScreen(Screen):
                     with open(target_path, 'wb') as image_file:
                         image_file.write(response.read())
                 if candidate != url:
-                    log.info(f"COVER: Fallback poster download successful: {candidate}")
+                    log.info(
+                        f"COVER: Fallback poster download successful: {candidate}")
                 return
             except Exception as e:
                 last_error = e
@@ -1099,7 +1281,9 @@ class SCDetailsScreen(Screen):
         try:
             from enigma import ePicLoad
 
-            log.info(f"DETAILS_COVER: Updating cover from {self.cover_temp_path}")
+            log.info(
+                f"DETAILS_COVER: Updating cover from {
+                    self.cover_temp_path}")
 
             # Check and convert format if necessary
             if os.path.exists(self.cover_temp_path):
@@ -1108,7 +1292,8 @@ class SCDetailsScreen(Screen):
 
                 # Convert WebP to JPEG if needed
                 if content.startswith(b'RIFF') and b'WEBP' in content[:12]:
-                    log.info("DETAILS_COVER: WebP format detected, converting to JPEG")
+                    log.info(
+                        "DETAILS_COVER: WebP format detected, converting to JPEG")
                     content = self._convert_webp_to_jpeg(content)
                     if content:
                         with open(self.cover_temp_path, 'wb') as f:
@@ -1119,7 +1304,8 @@ class SCDetailsScreen(Screen):
                 self.picload = ePicLoad()
 
             self.picload.setPara([300, 450, 1, 1, False, 1, "#00000000"])
-            decode_result = self.picload.startDecode(self.cover_temp_path, 0, 0, False)
+            decode_result = self.picload.startDecode(
+                self.cover_temp_path, 0, 0, False)
             log.info(f"DETAILS_COVER: Decode result: {decode_result}")
 
             if decode_result == 0:
@@ -1131,21 +1317,27 @@ class SCDetailsScreen(Screen):
                 else:
                     log.error("DETAILS_COVER: Failed to get pixmap data")
             else:
-                log.error("DETAILS_COVER: Failed to decode image, trying PIL conversion")
+                log.error(
+                    "DETAILS_COVER: Failed to decode image, trying PIL conversion")
                 # Try to convert to JPEG using PIL/Pillow if available
                 if self._try_convert_to_jpeg_pil(self.cover_temp_path):
-                    log.info("DETAILS_COVER: Retrying decode after PIL conversion")
-                    decode_result = self.picload.startDecode(self.cover_temp_path, 0, 0, False)
+                    log.info(
+                        "DETAILS_COVER: Retrying decode after PIL conversion")
+                    decode_result = self.picload.startDecode(
+                        self.cover_temp_path, 0, 0, False)
                     if decode_result == 0:
                         ptr = self.picload.getData()
                         if ptr:
                             self["cover_pixmap"].instance.setPixmap(ptr)
                             self["cover_pixmap"].show()
-                            log.info("DETAILS_COVER: Image displayed successfully after conversion")
+                            log.info(
+                                "DETAILS_COVER: Image displayed successfully after conversion")
                         else:
-                            log.error("DETAILS_COVER: Failed to get pixmap data after conversion")
+                            log.error(
+                                "DETAILS_COVER: Failed to get pixmap data after conversion")
                     else:
-                        log.error(f"DETAILS_COVER: Still failed to decode after conversion: {decode_result}")
+                        log.error(
+                            f"DETAILS_COVER: Still failed to decode after conversion: {decode_result}")
         except Exception as e:
             log.error(f"DETAILS_COVER: Error updating cover: {e}")
             import traceback
@@ -1155,7 +1347,9 @@ class SCDetailsScreen(Screen):
         self._ostv_cover_ready = False
         self._ostv_cover_success = False
         self._ostv_cover_timer.start(100, False)
-        threading.Thread(target=self._load_ostv_cover_async, args=(url,), daemon=True).start()
+        threading.Thread(
+            target=self._load_ostv_cover_async, args=(
+                url,), daemon=True).start()
 
     def _load_ostv_cover_async(self, url):
         try:
@@ -1175,14 +1369,17 @@ class SCDetailsScreen(Screen):
 
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=10) as response:
-                log.info(f"OSTV_DETAILS_COVER: Response status: {response.getcode()}")
+                log.info(
+                    f"OSTV_DETAILS_COVER: Response status: {
+                        response.getcode()}")
 
                 # Read the content
                 content = response.read()
 
                 # Verify it's a valid image
                 if not self._is_valid_image(content):
-                    log.error("OSTV_DETAILS_COVER: Downloaded content is not a valid image")
+                    log.error(
+                        "OSTV_DETAILS_COVER: Downloaded content is not a valid image")
                     return
 
                 # Convert WebP to JPEG if needed
@@ -1196,7 +1393,9 @@ class SCDetailsScreen(Screen):
                 with open(self.cover_temp_path, 'wb') as f:
                     f.write(content)
 
-            log.info(f"OSTV_DETAILS_COVER: Image saved to {self.cover_temp_path}")
+            log.info(
+                f"OSTV_DETAILS_COVER: Image saved to {
+                    self.cover_temp_path}")
             self._ostv_cover_success = True
 
         except Exception as e:
@@ -1225,7 +1424,8 @@ class SCDetailsScreen(Screen):
             # Check file size
             file_size = os.path.getsize(self.cover_temp_path)
             if file_size < 1024:  # Less than 1KB likely not an image
-                log.error(f"OSTV_DETAILS_COVER: Image file too small: {file_size} bytes")
+                log.error(
+                    f"OSTV_DETAILS_COVER: Image file too small: {file_size} bytes")
                 return
 
             if self.picload is None:
@@ -1233,7 +1433,8 @@ class SCDetailsScreen(Screen):
                 self.picload = ePicLoad()
 
             self.picload.setPara([300, 450, 1, 1, False, 1, "#00000000"])
-            decode_result = self.picload.startDecode(self.cover_temp_path, 0, 0, False)
+            decode_result = self.picload.startDecode(
+                self.cover_temp_path, 0, 0, False)
 
             if decode_result == 0:
                 ptr = self.picload.getData()
@@ -1244,7 +1445,8 @@ class SCDetailsScreen(Screen):
                 else:
                     log.error("OSTV_DETAILS_COVER: Failed to get pixmap data")
             else:
-                log.error(f"OSTV_DETAILS_COVER: Failed to decode image, result: {decode_result}")
+                log.error(
+                    f"OSTV_DETAILS_COVER: Failed to decode image, result: {decode_result}")
                 # Try to read file content for debug
                 try:
                     with open(self.cover_temp_path, 'rb') as f:
@@ -1271,7 +1473,8 @@ class SCDetailsScreen(Screen):
                 return None
 
             tmdb = TmdbFetcher(api_key)
-            media_type = "movie" if self.details.get("type") == "Movie" else "tv"
+            media_type = "movie" if self.details.get(
+                "type") == "Movie" else "tv"
             details = tmdb.get_details(tmdb_id, media_type)
 
             if details:
@@ -1296,15 +1499,18 @@ class SCDetailsScreen(Screen):
             try:
                 from enigma import iServiceInformation
                 if hasattr(service_ref, 'setInfo'):
-                    service_ref.setInfo(iServiceInformation.sDescription, description)
+                    service_ref.setInfo(
+                        iServiceInformation.sDescription, description)
                 elif hasattr(service_ref, 'setData'):
                     service_ref.setData(1, description)  # 1 = description
             except Exception:
-                # If advanced methods are not supported, add description to name
+                # If advanced methods are not supported, add description to
+                # name
                 if description and len(description) < 100:
                     extended_name = f"{name}\n{description}"
                     service_ref.setName(extended_name)
-            log.info(f"EPG_INFO: Set service info - Name: {name}, Description: {description[:50]}...")
+            log.info(
+                f"EPG_INFO: Set service info - Name: {name}, Description: {description[:50]}...")
 
         except Exception as e:
             log.error(f"Error setting service info: {e}")
@@ -1324,13 +1530,15 @@ class SCDetailsScreen(Screen):
                 return True
             elif content.startswith(b'GIF87a') or content.startswith(b'GIF89a'):  # GIF
                 return True
-            elif content.startswith(b'RIFF') and b'WEBP' in content[:12]:  # WebP
+            # WebP
+            elif content.startswith(b'RIFF') and b'WEBP' in content[:12]:
                 return True
             elif content.startswith(b'BM'):  # BMP
                 return True
 
             # Check if it's HTML (common error)
-            content_str = content[:200].decode('utf-8', errors='ignore').lower()
+            content_str = content[:200].decode(
+                'utf-8', errors='ignore').lower()
             if '<html' in content_str or '<!doctype' in content_str:
                 log.error("OSTV_DETAILS_COVER: Received HTML instead of image")
                 return False
@@ -1374,7 +1582,8 @@ class SCDetailsScreen(Screen):
                 return jpeg_data
 
             except (subprocess.CalledProcessError, FileNotFoundError):
-                log.warning("OSTV_DETAILS_COVER: ffmpeg not available, trying alternative")
+                log.warning(
+                    "OSTV_DETAILS_COVER: ffmpeg not available, trying alternative")
 
                 # Fallback: save as is and hope Enigma2 handles it
                 os.unlink(webp_path)
@@ -1388,7 +1597,8 @@ class SCDetailsScreen(Screen):
         """Try to convert an image to JPEG using PIL/Pillow."""
         try:
             from PIL import Image
-            log.info(f"DETAILS_COVER_CONVERT: Trying PIL conversion for {image_path}")
+            log.info(
+                f"DETAILS_COVER_CONVERT: Trying PIL conversion for {image_path}")
 
             img = Image.open(image_path)
 
@@ -1397,7 +1607,8 @@ class SCDetailsScreen(Screen):
                 background = Image.new('RGB', img.size, (255, 255, 255))
                 if img.mode == 'P':
                     img = img.convert('RGBA')
-                background.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
+                background.paste(img, mask=img.split()
+                                 [-1] if img.mode in ('RGBA', 'LA') else None)
                 img = background
             elif img.mode != 'RGB':
                 img = img.convert('RGB')
