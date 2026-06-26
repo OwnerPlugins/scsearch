@@ -123,7 +123,9 @@ class Altadefinizione:
                 )
                 matches = movie_pattern.findall(html)
 
-            log.info("Altadefinizione: Found {} results from pattern".format(len(matches)))
+            log.info(
+                "Altadefinizione: Found {} results from pattern".format(
+                    len(matches)))
 
             results = []
             for match in matches:
