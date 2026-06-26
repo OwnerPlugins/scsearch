@@ -1,0 +1,14 @@
+#!/bin/sh
+
+PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/scsearch"
+
+if [ -d "$PLUGIN_DIR" ]; then
+    chmod 755 "$PLUGIN_DIR"
+    find "$PLUGIN_DIR" -type d -exec chmod 755 {} \;
+    find "$PLUGIN_DIR" -type f -exec chmod 644 {} \;
+fi
+
+echo "SC Search plugin installed successfully."
+echo "Restart Enigma2 manually when convenient."
+
+exit 0

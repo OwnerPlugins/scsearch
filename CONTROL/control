@@ -1,0 +1,10 @@
+Package: enigma2-plugin-extensions-scsearch
+Version: 1.24
+Description: SC Search - Search for streaming content for Enigma2
+Section: extras
+Priority: optional
+Maintainer: SC Plugin Team
+License: GPL-3.0
+Architecture: all
+OE: enigma2
+Depends: enigma2 (>= 3.0), python3, python3-requests, python3-beautifulsoup4, python3-pillow

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/scsearch"
+
+echo "Removing SC Search plugin..."
+rm -rf "$PLUGIN_DIR"
+rm -f /tmp/scLog.txt
+rm -f /home/root/logs/scLog.txt
+
+exit 0
