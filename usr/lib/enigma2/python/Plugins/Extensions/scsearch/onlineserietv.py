@@ -108,9 +108,7 @@ class OnlineSerieTV:
 
             for i, (poster, url, title) in enumerate(movie_matches):
                 try:
-                    log.info(
-                        f"ONLINESERIETV: Element {
-                            i + 1} - Title: '{title}', URL: {url}")
+                    log.info("ONLINESERIETV: Element {} - Title: '{}', URL: {}".format(i + 1, title, url))
 
                     # Filter only TV series
                     if '/serietv/' in url:

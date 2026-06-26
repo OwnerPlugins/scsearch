@@ -199,9 +199,7 @@ class MixdropExtractor:
                     f"MIXDROP: URL found with pattern #{i} ({name}): {url[:100]}...")
                 return url
 
-        log.warning(
-            f"MIXDROP: No URL found in {
-                len(patterns)} tested patterns")
+            log.warning("MIXDROP: No URL found in {} tested patterns".format(len(patterns)))
         return None
 
     def _unpack_js(self, html_content):
