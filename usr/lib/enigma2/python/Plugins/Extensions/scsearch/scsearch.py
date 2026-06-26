@@ -49,24 +49,24 @@ TV_HISTORY=
 """
             with open(config_path, 'w', encoding='utf-8') as f:
                 f.write(default_config)
-            log.info(f"Config file created: {config_path}")
+            log.info("Config file created: {}".format(config_path))
         except Exception as e:
-            log.error(f"Error creating config.txt: {e}")
+            log.error("Error creating config.txt: {}".format(e))
 
 
 def load_api_key():
     try:
         ensure_config_exists()
         config_path = get_config_path()
-        log.info(f"Loading API key from: {config_path}")
+        log.info("Loading API key from: {}".format(config_path))
         with open(config_path, 'r', encoding='utf-8') as f:
             for line in f:
                 if line.strip().startswith('TMDB_API_KEY='):
                     api_key = line.strip().split('=', 1)[1].strip()
-                    log.info(f"API key loaded: {bool(api_key)}")
+                    log.info("API key loaded: {}".format(bool(api_key)))
                     return api_key
     except Exception as e:
-        log.error(f"Unable to read API key from config file: {e}")
+        log.error("Unable to read API key from config file: {}".format(e))
     return None
 
 
@@ -74,7 +74,7 @@ def load_search_history():
     try:
         ensure_config_exists()
         config_path = get_config_path()
-        log.info(f"Loading history from: {config_path}")
+        log.info("Loading history from: {}".format(config_path))
         history = {'movie': [], 'tv': []}
         with open(config_path, 'r', encoding='utf-8') as f:
             for line in f:
@@ -84,17 +84,17 @@ def load_search_history():
                         history['movie'] = [s.strip()
                                             for s in movies.split('|') if s.strip()]
                     log.info(
-                        f"Movie history loaded: {len(history['movie'])} items")
+                        "Movie history loaded: {} items".format(len(history['movie'])))
                 elif line.strip().startswith('TV_HISTORY='):
                     tvs = line.strip().split('=', 1)[1].strip()
                     if tvs:
                         history['tv'] = [s.strip()
                                          for s in tvs.split('|') if s.strip()]
                     log.info(
-                        f"TV series history loaded: {len(history['tv'])} items")
+                        "TV series history loaded: {} items".format(len(history['tv'])))
         return history
     except Exception as e:
-        log.error(f"Error loading history: {e}")
+        log.error("Error loading history: {}".format(e))
         return {'movie': [], 'tv': []}
 
 
@@ -102,7 +102,7 @@ def save_search_history(history):
     try:
         ensure_config_exists()
         config_path = get_config_path()
-        log.info(f"Saving history to: {config_path}")
+        log.info("Saving history to: {}".format(config_path))
         lines = []
 
         # Read existing file
@@ -110,7 +110,7 @@ def save_search_history(history):
             with open(config_path, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
         except Exception as e:
-            log.warning(f"Unable to read existing config.txt: {e}")
+            log.warning("Unable to read existing config.txt: {}".format(e))
 
         # Update lines
         movie_line = 'MOVIE_HISTORY=' + '|'.join(history['movie'][:10]) + '\n'
@@ -127,9 +127,10 @@ def save_search_history(history):
         with open(config_path, 'w', encoding='utf-8') as f:
             f.writelines(lines)
         log.info(
-            f"History saved: {len(history['movie'])} movies, {len(history['tv'])} TV series")
+            "History saved: {} movies, {} TV series".format(
+                len(history['movie']), len(history['tv'])))
     except Exception as e:
-        log.error(f"Error saving history: {e}")
+        log.error("Error saving history: {}".format(e))
 
 
 API_KEY = load_api_key()
@@ -301,7 +302,7 @@ class SCSearchMain(Screen):
                 self._initial_details_result = None
 
         except Exception as e:
-            log.error(f"Error fetching initial details: {e}")
+            log.error("Error fetching initial details: {}".format(e))
             self._initial_details_result = None
         finally:
             self._initial_details_ready = True
@@ -337,7 +338,8 @@ class SCSearchMain(Screen):
         history_list = self.search_history.get(self.search_type, [])
 
         log.info(
-            f"show_search_with_history: {self.search_type} - {len(history_list)} items")
+            "show_search_with_history: {} - {} items".format(
+                self.search_type, len(history_list)))
 
         if not history_list:
             self.open_virtual_keyboard()
@@ -403,13 +405,13 @@ class SCSearchMain(Screen):
         if movie_history:
             choices.append((_("--- MOVIES ---"), None))
             for term in movie_history:
-                choices.append((f"🎬 {term}", ("movie", term)))
+                choices.append(("🎬 {}".format(term), ("movie", term)))
 
         # Add TV series history
         if tv_history:
             choices.append((_("--- TV SERIES ---"), None))
             for term in tv_history:
-                choices.append((f"📺 {term}", ("tv", term)))
+                choices.append(("📺 {}".format(term), ("tv", term)))
 
         choices.append((_("New search..."), "new"))
 
@@ -490,12 +492,12 @@ class SCSearchMain(Screen):
                             len(ostv_results)))
 
                 except Exception as e:
-                    log.error(f"OnlineSerieTV search error: {e}")
+                    log.error("OnlineSerieTV search error: {}".format(e))
 
             self._search_results = sc_results
 
         except Exception as e:
-            log.error(f"SC search error: {e}")
+            log.error("SC search error: {}".format(e))
             self._search_results = []
         finally:
             self._search_ready = True
@@ -530,7 +532,8 @@ class SCSearchMain(Screen):
                     item_type = raw_data.get('type')
                     source = raw_data.get('source')
                     log.info(
-                        f"FILTER: Item '{name}' type={item_type} source={source}")
+                        "FILTER: Item '{}' type={} source={}".format(
+                            name, item_type, source))
 
                     # Filter by search type
                     if self.search_type == "tv":
@@ -548,7 +551,7 @@ class SCSearchMain(Screen):
                     else:
                         filtered_results.append(r)
         except re.error as e:
-            log.error(f"Regex error: {e}")
+            log.error("Regex error: {}".format(e))
             filtered_results = []
 
         if not filtered_results:
@@ -566,7 +569,7 @@ class SCSearchMain(Screen):
                            self.search_type not in ['movie', 'tv']:
                             filtered_results.append(fb_result)
             except Exception as e:
-                log.error(f"FALLBACK: Error: {e}")
+                log.error("FALLBACK: Error: {}".format(e))
 
             if not filtered_results:
                 self["results_list"].setList(
@@ -604,7 +607,7 @@ class SCSearchMain(Screen):
             # --- OnlineSerieTV ---
             elif source == 'onlineserietv':
                 name_clean = name.replace(' (ostv)', '').replace('[OSTV] ', '')
-                display_text = f"[OSTV] {name_clean}"
+                display_text = "[OSTV] {}".format(name_clean)
                 item_data = {
                     "sc_name": name_clean,
                     "sc_slug": r.get('slug', ''),
@@ -622,11 +625,11 @@ class SCSearchMain(Screen):
                 vixsrc_url = raw_data.get('vixsrc_url')
                 if not tmdb_id or not vixsrc_url:
                     log.warning(
-                        f"Skipping result missing tmdb_id/vixsrc_url: {raw_data}")
+                        "Skipping result missing tmdb_id/vixsrc_url: {}".format(raw_data))
                     continue
                 year = (r.get("release_date", "")[:4]) if r.get(
                     "release_date") else ""
-                display_text = f"{name} ({year})" if year else name
+                display_text = "{} ({})".format(name, year) if year else name
                 item_data = {
                     "sc_name": name,
                     "sc_slug": str(tmdb_id),
@@ -655,7 +658,7 @@ class SCSearchMain(Screen):
             self._pending_details_request = None
             title = item_data.get('sc_name', 'N/A')
             poster_url = item_data.get('poster')
-            log.info(f"OSTV_SELECTION: Title={title}, Poster={poster_url}")
+            log.info("OSTV_SELECTION: Title={}, Poster={}".format(title, poster_url))
             self["details_title"].setText(title)
             self["details_year"].setText(_("OnlineSerieTV - TV Series"))
             self["details_description"].setText(
@@ -672,7 +675,7 @@ class SCSearchMain(Screen):
             self._pending_details_request = None
             title = item_data.get('sc_name', 'N/A').replace('[CB01] ', '')
             poster_url = raw_data.get('poster')
-            log.info(f"CB01_SELECTION: Title={title}, Poster={poster_url}")
+            log.info("CB01_SELECTION: Title={}, Poster={}".format(title, poster_url))
             self["details_title"].setText(_("[CB01] %s") % title)
             self["details_year"].setText("CB01")
             self["details_description"].setText(
@@ -691,7 +694,7 @@ class SCSearchMain(Screen):
                 'sc_name', 'N/A').replace('[Altadefinizione] ', '')
             poster_url = raw_data.get('poster')
             log.info(
-                f"ALTADEFINIZIONE_SELECTION: Title={title}, Poster={poster_url}")
+                "ALTADEFINIZIONE_SELECTION: Title={}, Poster={}".format(title, poster_url))
             self["details_title"].setText(_("[Altadefinizione] %s") % title)
             self["details_year"].setText("Altadefinizione")
             self["details_description"].setText(
@@ -754,7 +757,7 @@ class SCSearchMain(Screen):
             if existing_tmdb_id:
                 # Use existing tmdb_id directly
                 log.info(
-                    f"TMDB_FETCH: Using existing tmdb_id: {existing_tmdb_id}")
+                    "TMDB_FETCH: Using existing tmdb_id: {}".format(existing_tmdb_id))
                 item_data['tmdb_id'] = existing_tmdb_id
                 result = self.tmdb_fetcher.get_details(
                     existing_tmdb_id, media_type)
@@ -774,7 +777,7 @@ class SCSearchMain(Screen):
                         if year_match:
                             year = year_match.group(1)
                             log.info(
-                                f"TMDB_FETCH: Year extracted from SC display: {year}")
+                                "TMDB_FETCH: Year extracted from SC display: {}".format(year))
 
                 # Search TMDB
                 search_results = self.tmdb_fetcher.search(title, media_type)
@@ -789,7 +792,7 @@ class SCSearchMain(Screen):
                             if result_year == year:
                                 item_id = result.get('id')
                                 log.info(
-                                    f"TMDB_FETCH: Exact year match found: {year}")
+                                    "TMDB_FETCH: Exact year match found: {}".format(year))
                                 break
 
                     # If we didn't find a year match or don't have the year,
@@ -802,7 +805,7 @@ class SCSearchMain(Screen):
                             if result_title == title_lower:
                                 item_id = result.get('id')
                                 log.info(
-                                    f"TMDB_FETCH: Exact title match found: '{result_title}'")
+                                    "TMDB_FETCH: Exact title match found: '{}'".format(result_title))
                                 break
 
                     # Fallback: use first result
@@ -816,7 +819,7 @@ class SCSearchMain(Screen):
                         result = self.tmdb_fetcher.get_details(
                             item_id, media_type)
         except Exception as e:
-            log.error(f"Error fetching TMDB details: {e}")
+            log.error("Error fetching TMDB details: {}".format(e))
         finally:
             self._details_result = (request_id, result)
             self._details_ready = True
@@ -856,10 +859,8 @@ class SCSearchMain(Screen):
 
         poster_url = data.get('poster')
         log.info(
-            f"TMDB_DETAILS: Displaying details - Title: {
-                data.get(
-                    'titolo',
-                    'N/A')}, Poster: {poster_url}")
+            "TMDB_DETAILS: Displaying details - Title: {}, Poster: {}".format(
+                data.get('titolo', 'N/A'), poster_url))
 
         self["details_title"].setText(data.get('titolo', _('N/A')))
         self["details_year"].setText((data.get('data_uscita') or '')[:4])
@@ -867,7 +868,7 @@ class SCSearchMain(Screen):
             data.get('descrizione', _('Description not available.')))
 
         if poster_url:
-            log.info(f"TMDB_DETAILS: Loading poster from TMDB: {poster_url}")
+            log.info("TMDB_DETAILS: Loading poster from TMDB: {}".format(poster_url))
             self.show_cover_image(poster_url)
         else:
             log.warning("TMDB_DETAILS: No poster URL in TMDB data")
@@ -894,7 +895,7 @@ class SCSearchMain(Screen):
         if source == 'cb01':
             movie_url = raw_data.get('url')
             log.info(
-                f"OK_PRESSED: CB01 movie selected: '{sc_name}', URL: '{movie_url}'")
+                "OK_PRESSED: CB01 movie selected: '{}', URL: '{}'".format(sc_name, movie_url))
 
             cb01_data = {
                 'source': 'cb01',
@@ -910,7 +911,7 @@ class SCSearchMain(Screen):
         if source == 'altadefinizione':
             movie_url = raw_data.get('url')
             log.info(
-                f"OK_PRESSED: Altadefinizione selected: '{sc_name}', URL: '{movie_url}'")
+                "OK_PRESSED: Altadefinizione selected: '{}', URL: '{}'".format(sc_name, movie_url))
 
             altadef_data = {
                 'source': 'altadefinizione',
@@ -965,7 +966,7 @@ class SCSearchMain(Screen):
             self.session.open(SCDetailsScreen, str(tmdb_id), sc_name, sc_data)
             return
 
-        log.warning(f"OK_PRESSED: No action available for: '{sc_name}'")
+        log.warning("OK_PRESSED: No action available for: '{}'".format(sc_name))
         self.session.open(
             MessageBox,
             _("Unable to open details for this content"),
@@ -986,7 +987,7 @@ class SCSearchMain(Screen):
 
     def show_cover_image(self, url):
         try:
-            log.info(f"COVER_DOWNLOAD: Starting download from {url}")
+            log.info("COVER_DOWNLOAD: Starting download from {}".format(url))
 
             if self.picload is None:
                 from enigma import ePicLoad
@@ -995,8 +996,8 @@ class SCSearchMain(Screen):
 
             self._download_cover_image(url, self.cover_temp_path)
             log.info(
-                f"COVER_DOWNLOAD: Image downloaded to {
-                    self.cover_temp_path}")
+                "COVER_DOWNLOAD: Image downloaded to {}".format(
+                    self.cover_temp_path))
 
             # Check and convert format if necessary
             if os.path.exists(self.cover_temp_path):
@@ -1016,7 +1017,7 @@ class SCSearchMain(Screen):
             self.picload.setPara([200, 300, 1, 1, False, 1, "#00000000"])
             decode_result = self.picload.startDecode(
                 self.cover_temp_path, 0, 0, False)
-            log.info(f"COVER_DOWNLOAD: Decode result: {decode_result}")
+            log.info("COVER_DOWNLOAD: Decode result: {}".format(decode_result))
 
             if decode_result == 0:
                 ptr = self.picload.getData()
@@ -1047,11 +1048,11 @@ class SCSearchMain(Screen):
                                 "COVER_DOWNLOAD: Failed to get pixmap data after conversion")
                     else:
                         log.error(
-                            f"COVER_DOWNLOAD: Still failed to decode after conversion: {decode_result}")
+                            "COVER_DOWNLOAD: Still failed to decode after conversion: {}".format(decode_result))
         except Exception as e:
-            log.error(f"COVER_DOWNLOAD: Error - {e}")
+            log.error("COVER_DOWNLOAD: Error - {}".format(e))
             import traceback
-            log.error(f"COVER_DOWNLOAD: Traceback - {traceback.format_exc()}")
+            log.error("COVER_DOWNLOAD: Traceback - {}".format(traceback.format_exc()))
             self.hide_cover_image()
 
     def _download_cover_image(self, url, target_path):
@@ -1072,7 +1073,7 @@ class SCSearchMain(Screen):
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
                 'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-                'Referer': f"{parts.scheme}://{parts.netloc}/",
+                'Referer': "{}://{}/".format(parts.scheme, parts.netloc),
             }
             try:
                 req = urllib.request.Request(candidate, headers=headers)
@@ -1081,11 +1082,11 @@ class SCSearchMain(Screen):
                         image_file.write(response.read())
                 if candidate != url:
                     log.info(
-                        f"COVER: Fallback poster download succeeded: {candidate}")
+                        "COVER: Fallback poster download succeeded: {}".format(candidate))
                 return
             except Exception as e:
                 last_error = e
-                log.warning(f"COVER: Download failed for {candidate}: {e}")
+                log.warning("COVER: Download failed for {}: {}".format(candidate, e))
 
         raise last_error
 
@@ -1099,7 +1100,7 @@ class SCSearchMain(Screen):
 
     def _load_ostv_cover_async(self, url):
         try:
-            log.info(f"OSTV_COVER: Starting download from {url}")
+            log.info("OSTV_COVER: Starting download from {}".format(url))
             from .onlineserietv import load_olstv_cookie
 
             headers = {
@@ -1114,7 +1115,7 @@ class SCSearchMain(Screen):
 
             req = urllib.request.Request(url, headers=headers)
             with urllib.request.urlopen(req, timeout=10) as response:
-                log.info(f"OSTV_COVER: Response status: {response.getcode()}")
+                log.info("OSTV_COVER: Response status: {}".format(response.getcode()))
 
                 # Read content
                 content = response.read()
@@ -1136,11 +1137,11 @@ class SCSearchMain(Screen):
                 with open(self.cover_temp_path, 'wb') as f:
                     f.write(content)
 
-            log.info(f"OSTV_COVER: Image saved to {self.cover_temp_path}")
+            log.info("OSTV_COVER: Image saved to {}".format(self.cover_temp_path))
             self._ostv_cover_success = True
 
         except Exception as e:
-            log.error(f"OSTV_COVER: Error downloading: {e}")
+            log.error("OSTV_COVER: Error downloading: {}".format(e))
         finally:
             self._ostv_cover_ready = True
 
@@ -1163,7 +1164,7 @@ class SCSearchMain(Screen):
             file_size = os.path.getsize(self.cover_temp_path)
             if file_size < 1024:  # Less than 1KB likely not an image
                 log.error(
-                    f"OSTV_COVER: Image file too small: {file_size} bytes")
+                    "OSTV_COVER: Image file too small: {} bytes".format(file_size))
                 return
 
             if self.picload is None:
@@ -1184,23 +1185,23 @@ class SCSearchMain(Screen):
                     log.error("OSTV_COVER: Failed to get pixmap data")
             else:
                 log.error(
-                    f"OSTV_COVER: Failed to decode image, result: {decode_result}")
+                    "OSTV_COVER: Failed to decode image, result: {}".format(decode_result))
                 # Try to read file content for debug
                 try:
                     with open(self.cover_temp_path, 'rb') as f:
                         header = f.read(20)
-                        log.error(f"OSTV_COVER: File header: {header}")
-                except BaseException:
+                        log.error("OSTV_COVER: File header: {}".format(header))
+                except Exception:
                     pass
 
         except Exception as e:
-            log.error(f"OSTV_COVER: Error updating UI: {e}")
+            log.error("OSTV_COVER: Error updating UI: {}".format(e))
 
     def hide_cover_image(self):
         try:
             self["cover_pixmap"].hide()
         except Exception as e:
-            log.error(f"hide_cover_image error: {e}")
+            log.error("hide_cover_image error: {}".format(e))
 
     def _get_tmdb_description_for_epg(self, tmdb_id, media_type):
         """Get content description from TMDB for EPG."""
@@ -1217,7 +1218,7 @@ class SCSearchMain(Screen):
                 return description
 
         except Exception as e:
-            log.error(f"Error getting TMDB description for EPG: {e}")
+            log.error("Error getting TMDB description for EPG: {}".format(e))
 
         return None
 
@@ -1235,18 +1236,19 @@ class SCSearchMain(Screen):
                         iServiceInformation.sDescription, description)
                 elif hasattr(service_ref, 'setData'):
                     service_ref.setData(1, description)  # 1 = description
-            except BaseException:
+            except Exception:
                 # If advanced methods are not supported, add description to
                 # name
                 if description and len(description) < 100:
-                    extended_name = f"{name}\n{description}"
+                    extended_name = "{}\n{}".format(name, description)
                     service_ref.setName(extended_name)
 
             log.info(
-                f"EPG_INFO: Set service info - Name: {name}, Description: {description[:50]}...")
+                "EPG_INFO: Set service info - Name: {}, Description: {}...".format(
+                    name, description[:50]))
 
         except Exception as e:
-            log.error(f"Error setting service info for EPG: {e}")
+            log.error("Error setting service info for EPG: {}".format(e))
             # Fallback: use only the name
             service_ref.setName(name)
 
@@ -1263,7 +1265,7 @@ class SCSearchMain(Screen):
                 if '<html' in content_str or '<!doctype' in content_str:
                     log.error("OSTV_COVER: Received HTML instead of image")
                     return False
-            except BaseException:
+            except Exception:
                 pass
 
             # Check magic bytes for common image formats
@@ -1281,11 +1283,11 @@ class SCSearchMain(Screen):
 
             # Accept any binary content that is not HTML
             log.info(
-                f"OSTV_COVER: Unknown image format, accepting anyway. Header: {content[:20]}")
+                "OSTV_COVER: Unknown image format, accepting anyway. Header: {}".format(content[:20]))
             return True
 
         except Exception as e:
-            log.error(f"OSTV_COVER: Error validating image: {e}")
+            log.error("OSTV_COVER: Error validating image: {}".format(e))
             return True  # In case of error, accept anyway
 
     def _convert_webp_to_jpeg(self, webp_data):
@@ -1326,14 +1328,14 @@ class SCSearchMain(Screen):
                 return webp_data
 
         except Exception as e:
-            log.error(f"OSTV_COVER: Error converting WebP: {e}")
+            log.error("OSTV_COVER: Error converting WebP: {}".format(e))
             return webp_data
 
     def _try_convert_to_jpeg_pil(self, image_path):
         """Try to convert an image to JPEG using PIL/Pillow."""
         try:
             from PIL import Image
-            log.info(f"COVER_CONVERT: Trying PIL conversion for {image_path}")
+            log.info("COVER_CONVERT: Trying PIL conversion for {}".format(image_path))
 
             img = Image.open(image_path)
 
@@ -1357,7 +1359,7 @@ class SCSearchMain(Screen):
             log.warning("COVER_CONVERT: PIL/Pillow not available")
             return False
         except Exception as e:
-            log.error(f"COVER_CONVERT: PIL conversion failed: {e}")
+            log.error("COVER_CONVERT: PIL conversion failed: {}".format(e))
             return False
 
     def close(self):
