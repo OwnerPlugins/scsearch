@@ -919,14 +919,21 @@ class SCSearchMain(Screen):
                 'poster': raw_data.get('poster', '')
             }
 
-            self.session.open(SCDetailsScreen, movie_url, sc_name, altadef_data)
+            self.session.open(
+                SCDetailsScreen,
+                movie_url,
+                sc_name,
+                altadef_data)
             return
 
         # PRIORITY 3: OnlineSerieTV handling
         if source == 'onlineserietv':
             log.info(
                 "OK_PRESSED: Opening OnlineSerieTV details screen for: '{}', URL: '{}'".format(
-                    sc_name, item_data.get('url', '')))
+                    sc_name,
+                    item_data.get(
+                        'url',
+                        '')))
 
             ostv_data = {
                 'source': 'onlineserietv',
@@ -935,7 +942,9 @@ class SCSearchMain(Screen):
                 'title': sc_name,
                 'slug': item_data.get('slug', '')
             }
-            self.session.open(SCDetailsScreen, item_data.get('url', ''), sc_name, ostv_data)
+            self.session.open(
+                SCDetailsScreen, item_data.get(
+                    'url', ''), sc_name, ostv_data)
             return
 
         # PRIORITY 4: Movies and TV series via TMDB/vixsrc
