@@ -24,8 +24,7 @@ class MixdropExtractor:
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'it-IT,it;q=0.9,en;q=0.8',
-            'DNT': '1'
-        }
+            'DNT': '1'}
 
     def supports(self, url):
         """Check if the URL is supported."""
@@ -43,7 +42,10 @@ class MixdropExtractor:
                 log.error("MIXDROP: Unable to download embed page")
                 return None
 
-            if re.search(r"can't find the (file|video)|not found|unavailable", embed_html, re.IGNORECASE):
+            if re.search(
+                r"can't find the (file|video)|not found|unavailable",
+                embed_html,
+                    re.IGNORECASE):
                 log.warning("MIXDROP: Video not available or not found")
                 return None
 
@@ -111,7 +113,8 @@ class MixdropExtractor:
             log.info(f"MIXDROP: Starting extraction (length: {len(html)})")
 
             # Step 1: Look for iframe and follow it
-            iframe_match = re.search(r'<iframe[^>]+src=["\']([^"\'\s]+)["\']', html, re.IGNORECASE)
+            iframe_match = re.search(
+                r'<iframe[^>]+src=["\']([^"\'\s]+)["\']', html, re.IGNORECASE)
             if iframe_match:
                 iframe_url = iframe_match.group(1)
                 if iframe_url.startswith('//'):
@@ -119,11 +122,15 @@ class MixdropExtractor:
                 log.info(f"MIXDROP: Found iframe: {iframe_url}")
                 iframe_html = self._fetch_page(iframe_url, embed_url)
                 if iframe_html:
-                    log.info(f"MIXDROP: Iframe downloaded (length: {len(iframe_html)})")
-                    return self._extract_video_from_embed(iframe_html, iframe_url)
+                    log.info(
+                        f"MIXDROP: Iframe downloaded (length: {
+                            len(iframe_html)})")
+                    return self._extract_video_from_embed(
+                        iframe_html, iframe_url)
 
             # Step 2: Look for redirect location
-            location_match = re.search(r'''location\s*=\s*["']([^'"]+)''', html)
+            location_match = re.search(
+                r'''location\s*=\s*["']([^'"]+)''', html)
             if location_match:
                 redirect_path = location_match.group(1)
                 log.info(f"MIXDROP: Found redirect: {redirect_path}")
@@ -150,7 +157,8 @@ class MixdropExtractor:
                 log.info(f"MIXDROP: URL found (MDCore.wurl): {surl[:80]}...")
                 return surl
 
-            match = re.search(r'(?:vsr|wurl|surl)[^=]*=\s*["\']([^"\']+)["\']', html)
+            match = re.search(
+                r'(?:vsr|wurl|surl)[^=]*=\s*["\']([^"\']+)["\']', html)
             if match:
                 surl = match.group(1)
                 if surl.startswith('//'):
@@ -189,10 +197,13 @@ class MixdropExtractor:
                     url = 'https:' + url
                 # Decode HTML entities (&amp; -> &)
                 url = unescape(url)
-                log.info(f"MIXDROP: URL found with pattern #{i} ({name}): {url[:100]}...")
+                log.info(
+                    f"MIXDROP: URL found with pattern #{i} ({name}): {url[:100]}...")
                 return url
 
-        log.warning(f"MIXDROP: No URL found in {len(patterns)} tested patterns")
+        log.warning(
+            f"MIXDROP: No URL found in {
+                len(patterns)} tested patterns")
         return None
 
     def _unpack_js(self, html_content):
@@ -201,8 +212,7 @@ class MixdropExtractor:
             match = re.search(
                 r"eval\(function\(p,a,c,k,e,(?:d|r)\).*?\}\('([^']+)',(\d+),(\d+),'([^']+)'\.split\('\|'\)",
                 html_content,
-                re.DOTALL
-            )
+                re.DOTALL)
             if not match:
                 return html_content
 
@@ -217,7 +227,7 @@ class MixdropExtractor:
                     idx = int(word, base) if base <= 36 else int(word)
                     if 0 <= idx < len(keywords) and keywords[idx]:
                         return keywords[idx]
-                except:
+                except BaseException:
                     pass
                 return word
 

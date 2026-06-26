@@ -53,7 +53,8 @@ class PosterCarousel(GUIComponent):
         self.listbox_content.setFont(1, gFont("Regular", 15))
         self.listbox_content.setFont(2, gFont("Regular", 42))
         try:
-            self.listbox_content.setOrientation(getattr(eListboxPythonMultiContent, "orHorizontal", 1))
+            self.listbox_content.setOrientation(
+                getattr(eListboxPythonMultiContent, "orHorizontal", 1))
         except Exception as e:
             log.error("CAROUSEL: content setOrientation failed: %s" % e)
         self.onSelectionChanged = []
@@ -68,18 +69,17 @@ class PosterCarousel(GUIComponent):
             if not os.path.exists(placeholder_path):
                 placeholder_path = os.path.join(base_dir, "sc_search.png")
             self.placeholder = LoadPixmap(placeholder_path)
-            log.info("CAROUSEL: placeholder loaded from %s, ok=%s" % (placeholder_path, bool(self.placeholder)))
+            log.info("CAROUSEL: placeholder loaded from %s, ok=%s" %
+                     (placeholder_path, bool(self.placeholder)))
         except Exception:
             self.placeholder = None
             log.error("CAROUSEL: placeholder load failed")
-        log.info("CAROUSEL: init itemWidth=%s itemHeight=%s content=%s has_setList=%s has_setBuildFunc=%s has_getCurrentSelection=%s" % (
-            self.itemWidth,
-            self.itemHeight,
-            self.listbox_content.__class__.__name__,
-            hasattr(self.listbox_content, "setList"),
-            hasattr(self.listbox_content, "setBuildFunc"),
-            hasattr(self.listbox_content, "getCurrentSelection"),
-        ))
+        log.info(
+            "CAROUSEL: init itemWidth=%s itemHeight=%s content=%s has_setList=%s has_setBuildFunc=%s has_getCurrentSelection=%s" %
+            (self.itemWidth, self.itemHeight, self.listbox_content.__class__.__name__, hasattr(
+                self.listbox_content, "setList"), hasattr(
+                self.listbox_content, "setBuildFunc"), hasattr(
+                self.listbox_content, "getCurrentSelection"), ))
 
     def build_entry(self, *item_data):
         """
@@ -91,29 +91,73 @@ class PosterCarousel(GUIComponent):
                 item_data = item_data[0]
             slug, title, poster_url, meta, source = item_data
             if self._build_log_count < 10:
-                log.info("CAROUSEL: build_entry #%d slug=%s title=%s poster=%s" % (
-                    self._build_log_count + 1,
-                    slug,
-                    title,
-                    bool(poster_url),
-                ))
+                log.info(
+                    "CAROUSEL: build_entry #%d slug=%s title=%s poster=%s" %
+                    (self._build_log_count + 1, slug, title, bool(poster_url), ))
                 self._build_log_count += 1
             width = self.itemWidth
             poster_pixmap = self.get_poster(poster_url, slug)
             entry = [
                 None,
-                (eListboxPythonMultiContent.TYPE_TEXT, 8, 8, width - 16, 28, 1, RT_HALIGN_CENTER | RT_VALIGN_CENTER, source),
-                (eListboxPythonMultiContent.TYPE_TEXT, 10, self.posterHeight + 48, width - 20, 72, 0, RT_HALIGN_CENTER | RT_VALIGN_CENTER, title),
-                (eListboxPythonMultiContent.TYPE_TEXT, 12, self.posterHeight + 126, width - 24, 30, 1, RT_HALIGN_CENTER | RT_VALIGN_CENTER, meta),
+                (eListboxPythonMultiContent.TYPE_TEXT,
+                 8,
+                 8,
+                 width - 16,
+                 28,
+                 1,
+                 RT_HALIGN_CENTER | RT_VALIGN_CENTER,
+                 source),
+                (eListboxPythonMultiContent.TYPE_TEXT,
+                 10,
+                 self.posterHeight + 48,
+                 width - 20,
+                 72,
+                 0,
+                 RT_HALIGN_CENTER | RT_VALIGN_CENTER,
+                 title),
+                (eListboxPythonMultiContent.TYPE_TEXT,
+                 12,
+                 self.posterHeight + 126,
+                 width - 24,
+                 30,
+                 1,
+                 RT_HALIGN_CENTER | RT_VALIGN_CENTER,
+                 meta),
             ]
             if poster_pixmap:
-                entry.insert(1, (eListboxPythonMultiContent.TYPE_PIXMAP_ALPHATEST, 10, 42, width - 20, self.posterHeight, poster_pixmap))
+                entry.insert(
+                    1,
+                    (eListboxPythonMultiContent.TYPE_PIXMAP_ALPHATEST,
+                     10,
+                     42,
+                     width - 20,
+                     self.posterHeight,
+                     poster_pixmap))
             else:
-                entry.insert(1, (eListboxPythonMultiContent.TYPE_TEXT, 10, 42, width - 20, self.posterHeight, 2, RT_HALIGN_CENTER | RT_VALIGN_CENTER, _("SC")))
+                entry.insert(
+                    1,
+                    (eListboxPythonMultiContent.TYPE_TEXT,
+                     10,
+                     42,
+                     width - 20,
+                     self.posterHeight,
+                     2,
+                     RT_HALIGN_CENTER | RT_VALIGN_CENTER,
+                     _("SC")))
             return entry
         except Exception as e:
-            log.error("CAROUSEL: build_entry error: %s item=%s" % (e, str(item_data)[:160]))
-            return [None, (eListboxPythonMultiContent.TYPE_TEXT, 8, 8, 150, 40, 0, RT_HALIGN_CENTER, _("Card error"))]
+            log.error("CAROUSEL: build_entry error: %s item=%s" %
+                      (e, str(item_data)[:160]))
+            return [
+                None,
+                (eListboxPythonMultiContent.TYPE_TEXT,
+                 8,
+                 8,
+                 150,
+                 40,
+                 0,
+                 RT_HALIGN_CENTER,
+                 _("Card error"))]
 
     def get_poster(self, url, slug):
         """
@@ -128,19 +172,28 @@ class PosterCarousel(GUIComponent):
         if key not in picloads:
             if len(picloads) >= MAX_POSTER_CACHE:
                 cleanup_picloads()
-            picloads[key] = {"ptr": None, "url": url, "path": self._poster_path(url, slug)}
+            picloads[key] = {
+                "ptr": None,
+                "url": url,
+                "path": self._poster_path(
+                    url,
+                    slug)}
 
         local_path = picloads[key].get("path")
-        if url.startswith("http") and local_path and not os.path.exists(local_path):
+        if url.startswith(
+                "http") and local_path and not os.path.exists(local_path):
             if not picloads[key].get("downloading"):
                 picloads[key]["downloading"] = True
-                thread = threading.Thread(target=self._download_poster, args=(url, local_path, key))
+                thread = threading.Thread(
+                    target=self._download_poster, args=(
+                        url, local_path, key))
                 thread.daemon = True
                 thread.start()
                 self._download_timer.start(500, False)
             return self.placeholder
 
-        decode_path = local_path if local_path and os.path.exists(local_path) else url
+        decode_path = local_path if local_path and os.path.exists(
+            local_path) else url
         if not picloads[key].get("picload"):
             picload = ePicLoad()
 
@@ -149,7 +202,8 @@ class PosterCarousel(GUIComponent):
 
             picloads[key]["callback"] = callback
             picload.PictureData.get().append(callback)
-            picload.setPara([self.itemWidth - 20, self.posterHeight, 1, 1, False, 1, "#00000000"])
+            picload.setPara(
+                [self.itemWidth - 20, self.posterHeight, 1, 1, False, 1, "#00000000"])
             if picload.startDecode(decode_path, 0, 0, False) != 0:
                 del picloads[key]
                 return self.placeholder
@@ -163,7 +217,8 @@ class PosterCarousel(GUIComponent):
                 os.makedirs(POSTER_CACHE_DIR)
         except Exception:
             pass
-        digest = hashlib.md5(("%s_%s" % (slug, url)).encode("utf-8")).hexdigest()
+        digest = hashlib.md5(("%s_%s" %
+                              (slug, url)).encode("utf-8")).hexdigest()
         return os.path.join(POSTER_CACHE_DIR, "%s.jpg" % digest)
 
     def _download_poster(self, url, path, key):
@@ -177,11 +232,15 @@ class PosterCarousel(GUIComponent):
                     f.write(data)
                 if key in picloads:
                     picloads[key]["downloaded"] = True
-                log.info("CAROUSEL: poster downloaded key=%s bytes=%d" % (key, len(data)))
+                log.info(
+                    "CAROUSEL: poster downloaded key=%s bytes=%d" %
+                    (key, len(data)))
         except Exception:
             if key in picloads:
                 picloads[key]["failed"] = True
-            log.error("CAROUSEL: poster download failed key=%s url=%s" % (key, url))
+            log.error(
+                "CAROUSEL: poster download failed key=%s url=%s" %
+                (key, url))
         finally:
             if key in picloads:
                 picloads[key]["downloading"] = False
@@ -231,15 +290,17 @@ class PosterCarousel(GUIComponent):
 
     def createWidget(self, parent):
         """Create the underlying eListbox widget."""
-        log.info("CAROUSEL: createWidget called parent=%s" % parent.__class__.__name__)
+        log.info(
+            "CAROUSEL: createWidget called parent=%s" %
+            parent.__class__.__name__)
         widget = eListbox(parent)
-        log.info("CAROUSEL: createWidget returned widget=%s has_setContent=%s has_setItemWidth=%s has_invalidate=%s has_show=%s" % (
-            widget.__class__.__name__,
-            hasattr(widget, "setContent"),
-            hasattr(widget, "setItemWidth"),
-            hasattr(widget, "invalidate"),
-            hasattr(widget, "show"),
-        ))
+        log.info(
+            "CAROUSEL: createWidget returned widget=%s has_setContent=%s has_setItemWidth=%s has_invalidate=%s has_show=%s" %
+            (widget.__class__.__name__, hasattr(
+                widget, "setContent"), hasattr(
+                widget, "setItemWidth"), hasattr(
+                widget, "invalidate"), hasattr(
+                    widget, "show"), ))
         return widget
 
     def postWidgetCreate(self, instance):
@@ -247,11 +308,13 @@ class PosterCarousel(GUIComponent):
         log.info("CAROUSEL: postWidgetCreate called")
         self.instance = instance
         instance.setContent(self.listbox_content)
-        log.info("CAROUSEL: setContent done instance=%s content=%s same_content_object=%s" % (
-            instance.__class__.__name__,
-            self.listbox_content.__class__.__name__,
-            bool(self.listbox_content),
-        ))
+        log.info(
+            "CAROUSEL: setContent done instance=%s content=%s same_content_object=%s" %
+            (instance.__class__.__name__,
+             self.listbox_content.__class__.__name__,
+             bool(
+                 self.listbox_content),
+             ))
         try:
             instance.setItemHeight(self.itemHeight)
             log.info("CAROUSEL: setItemHeight OK")
@@ -308,7 +371,8 @@ class PosterCarousel(GUIComponent):
                 title = item.get("title") or item.get("name") or "N/A"
                 poster_url = item.get("poster_url") or item.get("poster") or ""
                 item_type = item.get("type") or item.get("media_type") or ""
-                source = item.get("source") or item.get("provider") or "StreamingCommunity"
+                source = item.get("source") or item.get(
+                    "provider") or "StreamingCommunity"
                 meta = item_type if item_type else _("Press OK")
                 self.list.append((slug, title, poster_url, meta, source))
 
@@ -346,11 +410,12 @@ class PosterCarousel(GUIComponent):
             before_count = self._build_log_count
             built = self.build_entry(first)
             self._build_log_count = before_count
-            log.info("CAROUSEL_DIAG: manual_build OK len=%d first_type=%s entry0=%s" % (
-                len(built),
-                type(built[0]).__name__ if built else "none",
-                str(built[0])[:80] if built else "none",
-            ))
+            log.info(
+                "CAROUSEL_DIAG: manual_build OK len=%d first_type=%s entry0=%s" %
+                (len(built), type(
+                    built[0]).__name__ if built else "none", str(
+                    built[0])[
+                    :80] if built else "none", ))
         except Exception as e:
             log.error("CAROUSEL_DIAG: manual_build FAILED: %s" % e)
 
@@ -358,40 +423,60 @@ class PosterCarousel(GUIComponent):
         """Log geometry information of the widget for debugging."""
         try:
             size = self.instance.size()
-            log.info("CAROUSEL_DIAG: %s size=%sx%s" % (where, size.width(), size.height()))
+            log.info(
+                "CAROUSEL_DIAG: %s size=%sx%s" %
+                (where, size.width(), size.height()))
         except Exception as e:
             log.error("CAROUSEL_DIAG: %s size unavailable: %s" % (where, e))
         try:
             position = self.instance.position()
-            log.info("CAROUSEL_DIAG: %s position=%s,%s" % (where, position.x(), position.y()))
+            log.info(
+                "CAROUSEL_DIAG: %s position=%s,%s" %
+                (where, position.x(), position.y()))
         except Exception as e:
-            log.error("CAROUSEL_DIAG: %s position unavailable: %s" % (where, e))
+            log.error(
+                "CAROUSEL_DIAG: %s position unavailable: %s" %
+                (where, e))
         for method_name in ("isVisible", "isEnabled"):
             try:
                 method = getattr(self.instance, method_name)
-                log.info("CAROUSEL_DIAG: %s %s=%s" % (where, method_name, method()))
+                log.info(
+                    "CAROUSEL_DIAG: %s %s=%s" %
+                    (where, method_name, method()))
             except Exception as e:
-                log.info("CAROUSEL_DIAG: %s %s unavailable: %s" % (where, method_name, e))
+                log.info(
+                    "CAROUSEL_DIAG: %s %s unavailable: %s" %
+                    (where, method_name, e))
 
     def _debug_probe(self):
         """Periodic debug probe to check widget status."""
-        log.info("CAROUSEL_DIAG: delayed_probe start list_len=%d build_calls_logged=%d instance=%s" % (
-            len(self.list),
-            self._build_log_count,
-            bool(getattr(self, "instance", None)),
-        ))
+        log.info(
+            "CAROUSEL_DIAG: delayed_probe start list_len=%d build_calls_logged=%d instance=%s" %
+            (len(
+                self.list), self._build_log_count, bool(
+                getattr(
+                    self, "instance", None)), ))
         self._log_instance_geometry("delayed_probe")
         try:
             current = self.listbox_content.getCurrentSelection()
-            log.info("CAROUSEL_DIAG: delayed_probe content_current=%s" % (str(current)[:180],))
+            log.info(
+                "CAROUSEL_DIAG: delayed_probe content_current=%s" %
+                (str(current)[
+                    :180],))
         except Exception as e:
-            log.error("CAROUSEL_DIAG: delayed_probe content_current failed: %s" % e)
+            log.error(
+                "CAROUSEL_DIAG: delayed_probe content_current failed: %s" %
+                e)
         for method_name in ("getCurrentIndex", "getSelectionIndex"):
             try:
                 method = getattr(self.instance, method_name)
-                log.info("CAROUSEL_DIAG: delayed_probe instance_%s=%s" % (method_name, method()))
+                log.info(
+                    "CAROUSEL_DIAG: delayed_probe instance_%s=%s" %
+                    (method_name, method()))
             except Exception as e:
-                log.info("CAROUSEL_DIAG: delayed_probe instance_%s unavailable: %s" % (method_name, e))
+                log.info(
+                    "CAROUSEL_DIAG: delayed_probe instance_%s unavailable: %s" %
+                    (method_name, e))
         if self.list:
             self._manual_build_entry_probe(self.list[0])
         log.info("CAROUSEL_DIAG: delayed_probe end")
@@ -401,7 +486,12 @@ class PosterCarousel(GUIComponent):
         current_selection = self.listbox_content.getCurrentSelection()
         if current_selection:
             slug, title, poster_url, meta, source = current_selection
-            return {"slug": slug, "title": title, "poster_url": poster_url, "type": meta, "source": source}
+            return {
+                "slug": slug,
+                "title": title,
+                "poster_url": poster_url,
+                "type": meta,
+                "source": source}
         return None
 
     def moveLeft(self):

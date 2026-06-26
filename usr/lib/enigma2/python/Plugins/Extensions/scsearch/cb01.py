@@ -81,7 +81,12 @@ class CB01:
             return 'mixdrop'
         return 'hoster'
 
-    def _make_streaming_link(self, url, quality='SD', label='', original_url=None):
+    def _make_streaming_link(
+            self,
+            url,
+            quality='SD',
+            label='',
+            original_url=None):
         """Build a streaming link dictionary."""
         service = self._detect_service(url, label)
         return {
@@ -101,8 +106,7 @@ class CB01:
             r'<div class="sp-head[^"]*"[^>]*>\s*STAGIONE\s+(\d+).*?</div>\s*'
             r'<div class="sp-body">(.*?)(?:<div class="spdiv">|</div>\s*</div>)',
             html,
-            re.IGNORECASE | re.DOTALL
-        )
+            re.IGNORECASE | re.DOTALL)
 
         log.info(f"CB01_DETAILS: Found {len(season_blocks)} sp-wrap blocks")
 
@@ -112,8 +116,13 @@ class CB01:
                 'episodes': []
             }
 
-            rows = re.findall(r'<p[^>]*>(.*?)</p>', season_content, re.IGNORECASE | re.DOTALL)
-            log.info(f"CB01_DETAILS: Season {season_num}, episode rows found: {len(rows)}")
+            rows = re.findall(
+                r'<p[^>]*>(.*?)</p>',
+                season_content,
+                re.IGNORECASE | re.DOTALL)
+            log.info(
+                f"CB01_DETAILS: Season {season_num}, episode rows found: {
+                    len(rows)}")
 
             for row in rows:
                 row_text = html_module.unescape(re.sub(r'<[^>]+>', ' ', row))
@@ -122,18 +131,24 @@ class CB01:
                     continue
 
                 episode_number = int(episode_match.group(2))
-                links = re.findall(r'<a\s+href="([^"]+)"[^>]*>(.*?)</a>', row, re.IGNORECASE | re.DOTALL)
+                links = re.findall(
+                    r'<a\s+href="([^"]+)"[^>]*>(.*?)</a>',
+                    row,
+                    re.IGNORECASE | re.DOTALL)
 
                 for url, label in links:
-                    label = html_module.unescape(re.sub(r'<[^>]+>', '', label)).strip()
+                    label = html_module.unescape(
+                        re.sub(r'<[^>]+>', '', label)).strip()
                     service = self._detect_service(url, label)
                     if service not in ('mixdrop', 'maxstream'):
                         continue
 
-                    resolved_url = self.resolve_stayonline_url(url) if 'stayonline.pro' in url.lower() else url
+                    resolved_url = self.resolve_stayonline_url(
+                        url) if 'stayonline.pro' in url.lower() else url
                     if not resolved_url:
                         resolved_url = url
-                        log.warning(f"CB01_DETAILS: Using unresolved page link for {label}: {url}")
+                        log.warning(
+                            f"CB01_DETAILS: Using unresolved page link for {label}: {url}")
 
                     season_data['episodes'].append({
                         'episode_number': episode_number,
@@ -142,7 +157,8 @@ class CB01:
                         'type': self._detect_service(resolved_url, label),
                         'quality': label or service.title()
                     })
-                    log.info(f"CB01_DETAILS: Episode {episode_number} {label}: {resolved_url}")
+                    log.info(
+                        f"CB01_DETAILS: Episode {episode_number} {label}: {resolved_url}")
 
             if season_data['episodes']:
                 seasons.append(season_data)
@@ -163,12 +179,18 @@ class CB01:
             search_url = f"{self.base_film}/?s={encoded_query}"
             log.info(f"CB01: Movie search URL: {search_url}")
 
-            response = self.session.get(search_url, timeout=15, allow_redirects=True)
+            response = self.session.get(
+                search_url, timeout=15, allow_redirects=True)
             response.raise_for_status()
 
-            log.info(f"CB01: Movie search response received. Status: {response.status_code}")
+            log.info(
+                f"CB01: Movie search response received. Status: {
+                    response.status_code}")
             html = response.text
-            log.info(f"CB01: HTML length: {len(html)}, final URL: {response.url}")
+            log.info(
+                f"CB01: HTML length: {
+                    len(html)}, final URL: {
+                    response.url}")
 
             movie_pattern = re.compile(
                 r'<div class="card mp-post horizontal">.*?'
@@ -218,10 +240,13 @@ class CB01:
             search_url = f"{self.base_serie}/?s={encoded_query}"
             log.info(f"CB01: TV series search URL: {search_url}")
 
-            response = self.session.get(search_url, timeout=15, allow_redirects=True)
+            response = self.session.get(
+                search_url, timeout=15, allow_redirects=True)
             response.raise_for_status()
 
-            log.info(f"CB01: TV series search response received. Status: {response.status_code}")
+            log.info(
+                f"CB01: TV series search response received. Status: {
+                    response.status_code}")
             html = response.text
 
             series_pattern = re.compile(
@@ -282,7 +307,8 @@ class CB01:
                 'Referer': 'https://stayonline.pro/'
             }
 
-            response = self.session.post(ajax_url, data=data, headers=headers, timeout=10)
+            response = self.session.post(
+                ajax_url, data=data, headers=headers, timeout=10)
             log.info(f"CB01: Stayonline AJAX status: {response.status_code}")
 
             if response.ok:
@@ -290,7 +316,8 @@ class CB01:
                 value = json_data.get('data', {}).get('value', '')
 
                 if value:
-                    log.info(f"CB01: Stayonline value received (first 200 chars): {value[:200]}")
+                    log.info(
+                        f"CB01: Stayonline value received (first 200 chars): {value[:200]}")
 
                     hoster_url = self._find_hoster_url(value)
                     if hoster_url:
@@ -325,22 +352,35 @@ class CB01:
 
             # Log HTML for debug (first 2000 chars)
             log.info(f"CB01_PLAY: HTML (first 2000 chars): {html[:2000]}")
-            log.info(f"CB01_PLAY: HTML contains 'stayonline': {'stayonline' in html.lower()}")
-            log.info(f"CB01_PLAY: HTML contains 'streaming': {'streaming' in html.lower()}")
-            log.info(f"CB01_PLAY: HTML contains 'stagione': {'stagione' in html.lower()}")
-            log.info(f"CB01_PLAY: HTML contains 'episodio': {'episodio' in html.lower()}")
-            log.info(f"CB01_PLAY: URL contains '/serietv/': {'/serietv/' in movie_url}")
+            log.info(
+                f"CB01_PLAY: HTML contains 'stayonline': {
+                    'stayonline' in html.lower()}")
+            log.info(
+                f"CB01_PLAY: HTML contains 'streaming': {
+                    'streaming' in html.lower()}")
+            log.info(
+                f"CB01_PLAY: HTML contains 'stagione': {
+                    'stagione' in html.lower()}")
+            log.info(
+                f"CB01_PLAY: HTML contains 'episodio': {
+                    'episodio' in html.lower()}")
+            log.info(
+                f"CB01_PLAY: URL contains '/serietv/': {'/serietv/' in movie_url}")
 
-            # Look for stayonline links (for movies) or uprot/maxstream (for series)
+            # Look for stayonline links (for movies) or uprot/maxstream (for
+            # series)
             stayonline_pattern = r'https?://stayonline\.pro/[^"\'<>]+'
-            stayonline_links = re.findall(stayonline_pattern, html, re.IGNORECASE)
+            stayonline_links = re.findall(
+                stayonline_pattern, html, re.IGNORECASE)
 
             # If no stayonline, look for uprot/maxstream (TV series)
             if not stayonline_links:
                 uprot_pattern = r'https?://uprot\.net/[^"\'<>]+'
                 uprot_links = re.findall(uprot_pattern, html, re.IGNORECASE)
                 if uprot_links:
-                    log.info(f"CB01_PLAY: Found {len(uprot_links)} uprot/maxstream links (TV series)")
+                    log.info(
+                        f"CB01_PLAY: Found {
+                            len(uprot_links)} uprot/maxstream links (TV series)")
                     return [
                         {'url': url, 'quality': 'Maxstream', 'service': 'maxstream'}
                         for url in dict.fromkeys(uprot_links)
@@ -352,7 +392,9 @@ class CB01:
                 log.warning("CB01_PLAY: No stayonline or uprot links found")
                 return []
 
-            log.info(f"CB01_PLAY: Found {len(stayonline_links)} stayonline links")
+            log.info(
+                f"CB01_PLAY: Found {
+                    len(stayonline_links)} stayonline links")
 
             results = []
             for link in stayonline_links:
@@ -362,8 +404,10 @@ class CB01:
 
                 quality = self._extract_quality(resolved)
                 service = self._detect_service(resolved)
-                results.append({'url': resolved, 'quality': quality, 'service': service})
-                log.info(f"CB01_PLAY: {service} URL added ({quality}): {resolved}")
+                results.append(
+                    {'url': resolved, 'quality': quality, 'service': service})
+                log.info(
+                    f"CB01_PLAY: {service} URL added ({quality}): {resolved}")
 
             return results
 
@@ -400,7 +444,8 @@ class CB01:
             html = response.text
 
             log.info(f"CB01_DETAILS: HTML length: {len(html)}")
-            log.info(f"CB01_DETAILS: HTML sample (first 3000 chars): {html[:3000]}")
+            log.info(
+                f"CB01_DETAILS: HTML sample (first 3000 chars): {html[:3000]}")
 
             details = {
                 'title': '',
@@ -417,38 +462,53 @@ class CB01:
             title = ''
 
             # First try og:title (most reliable)
-            og_title_match = re.search(r'<meta property="og:title" content="([^"]+)"', html, re.IGNORECASE)
+            og_title_match = re.search(
+                r'<meta property="og:title" content="([^"]+)"', html, re.IGNORECASE)
             if og_title_match:
                 title = og_title_match.group(1).strip()
                 # Remove " Streaming - FILM GRATIS by CB01 OFFICIAL"
-                title = re.sub(r'\s+Streaming.*$', '', title, flags=re.IGNORECASE)
+                title = re.sub(
+                    r'\s+Streaming.*$',
+                    '',
+                    title,
+                    flags=re.IGNORECASE)
                 log.info(f"CB01_DETAILS: Title from og:title: {title}")
 
             # Fallback: <title> tag
             if not title:
-                title_match = re.search(r'<title>([^<]+)</title>', html, re.IGNORECASE)
+                title_match = re.search(
+                    r'<title>([^<]+)</title>', html, re.IGNORECASE)
                 if title_match:
                     title = title_match.group(1).strip()
                     # Remove " Streaming - FILM GRATIS by CB01 OFFICIAL"
-                    title = re.sub(r'\s+Streaming.*$', '', title, flags=re.IGNORECASE)
+                    title = re.sub(
+                        r'\s+Streaming.*$', '', title, flags=re.IGNORECASE)
                     log.info(f"CB01_DETAILS: Title from <title>: {title}")
 
             details['title'] = title
 
             # Extract year from title
-            year_match = re.search(r'\[(HD|SD)\]\s*\((\d{4})\)', details['title'])
+            year_match = re.search(
+                r'\[(HD|SD)\]\s*\((\d{4})\)',
+                details['title'])
             if year_match:
                 details['year'] = year_match.group(2)
                 log.info(f"CB01_DETAILS: Year found: {details['year']}")
 
             # Extract poster from og:image
-            poster_match = re.search(r'<meta property="og:image" content="([^"]+)"', html, re.IGNORECASE)
+            poster_match = re.search(
+                r'<meta property="og:image" content="([^"]+)"',
+                html,
+                re.IGNORECASE)
             if poster_match:
                 details['poster'] = poster_match.group(1)
                 log.info(f"CB01_DETAILS: Poster found: {details['poster']}")
 
             # Extract description from og:description
-            desc_match = re.search(r'<meta property="og:description" content="([^"]+)"', html, re.IGNORECASE)
+            desc_match = re.search(
+                r'<meta property="og:description" content="([^"]+)"',
+                html,
+                re.IGNORECASE)
             if desc_match:
                 desc_text = desc_match.group(1).strip()
                 # Decode HTML entities
@@ -459,23 +519,27 @@ class CB01:
                 desc_text = desc_text.replace('&quot;', '"')
 
                 # Extract genre from description (first uppercase word(s))
-                genre_match = re.match(r'^([A-Z]+(?:\s+[A-Z]+)*)\s+', desc_text)
+                genre_match = re.match(
+                    r'^([A-Z]+(?:\s+[A-Z]+)*)\s+', desc_text)
                 if genre_match:
                     details['genre'] = genre_match.group(1)
                     # Remove genre from description
                     desc_text = desc_text[len(details['genre']):].strip()
                     # Remove "– DURATA XX' – PAESE" pattern
-                    desc_text = re.sub(r'^–\s+DURATA\s+\d+[^–]*–\s+[A-Z]+\s+', '', desc_text)
+                    desc_text = re.sub(
+                        r'^–\s+DURATA\s+\d+[^–]*–\s+[A-Z]+\s+', '', desc_text)
                     log.info(f"CB01_DETAILS: Genre found: {details['genre']}")
 
                 details['description'] = desc_text.strip()
-                log.info(f"CB01_DETAILS: Description: {details['description'][:100]}...")
+                log.info(
+                    f"CB01_DETAILS: Description: {details['description'][:100]}...")
 
             # If it's a TV series, extract seasons and uprot links
             if details['type'] == 'TvSeries':
                 log.info("CB01_DETAILS: Parsing TV series...")
                 details['seasons'] = self._extract_cb01_series_seasons(html)
-                log.info(f"CB01_DETAILS: Found {len(details['seasons'])} seasons")
+                log.info(
+                    f"CB01_DETAILS: Found {len(details['seasons'])} seasons")
             else:
                 # For movies, extract Mixdrop/Maxstream links with quality
                 log.info("CB01_DETAILS: Parsing movie...")
@@ -502,17 +566,23 @@ class CB01:
 
                     resolved_url = self.resolve_stayonline_url(url)
                     if not resolved_url:
-                        log.warning(f"CB01_DETAILS: Unresolved link, skipping: {url}")
+                        log.warning(
+                            f"CB01_DETAILS: Unresolved link, skipping: {url}")
                         continue
                     seen_urls.add(resolved_url)
 
                     details['streaming_links'].append(
-                        self._make_streaming_link(resolved_url, quality, link_text, url)
-                    )
-                    log.info(f"CB01_DETAILS: Added {self._detect_service(resolved_url, link_text)} {quality} link: {resolved_url}")
+                        self._make_streaming_link(
+                            resolved_url, quality, link_text, url))
+                    log.info(
+                        f"CB01_DETAILS: Added {
+                            self._detect_service(
+                                resolved_url,
+                                link_text)} {quality} link: {resolved_url}")
 
                 direct_link_pattern = r'href="(https?://(?:[^"]*(?:m1xdrop|mixdrop|mdy48tn97|maxstream|uprot)[^"]*))"[^>]*>([^<]*)</a>'
-                for url, link_text in re.findall(direct_link_pattern, html, re.IGNORECASE):
+                for url, link_text in re.findall(
+                        direct_link_pattern, html, re.IGNORECASE):
                     if url in seen_urls:
                         continue
                     seen_urls.add(url)
@@ -520,11 +590,21 @@ class CB01:
                     details['streaming_links'].append(
                         self._make_streaming_link(url, quality, link_text)
                     )
-                    log.info(f"CB01_DETAILS: Added direct {self._detect_service(url, link_text)} {quality} link: {url}")
+                    log.info(
+                        f"CB01_DETAILS: Added direct {
+                            self._detect_service(
+                                url, link_text)} {quality} link: {url}")
 
-                log.info(f"CB01_DETAILS: Total {len(details['streaming_links'])} unique hoster links")
+                log.info(
+                    f"CB01_DETAILS: Total {len(details['streaming_links'])} unique hoster links")
 
-            log.info(f"CB01_DETAILS: Extracted details - Title: {details['title']}, Year: {details['year']}, Genre: {details['genre']}, Seasons: {len(details['seasons'])}")
+            log.info(
+                f"CB01_DETAILS: Extracted details - Title: {
+                    details['title']}, Year: {
+                    details['year']}, Genre: {
+                    details['genre']}, Seasons: {
+                    len(
+                        details['seasons'])}")
             return details
 
         except Exception as e:

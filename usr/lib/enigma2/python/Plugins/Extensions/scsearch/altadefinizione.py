@@ -44,7 +44,7 @@ class Altadefinizione:
         Reads URLs from config.txt (same as CB01).
         """
         base_url, fallback_url = _read_altadefinizione_urls()
-        
+
         # Check if URL is configured
         if not base_url or base_url == 'https://':
             log.error("Altadefinizione: URL not configured in config.txt")
@@ -96,7 +96,8 @@ class Altadefinizione:
             search_url = f"{self.base_film}/?s={encoded_query}"
             log.info(f"Altadefinizione: Movie search URL: {search_url}")
 
-            response = self.session.get(search_url, timeout=15, allow_redirects=True)
+            response = self.session.get(
+                search_url, timeout=15, allow_redirects=True)
             response.raise_for_status()
             html = response.text
 
@@ -122,7 +123,9 @@ class Altadefinizione:
                 )
                 matches = movie_pattern.findall(html)
 
-            log.info(f"Altadefinizione: Found {len(matches)} results from pattern")
+            log.info(
+                f"Altadefinizione: Found {
+                    len(matches)} results from pattern")
 
             results = []
             for match in matches:
@@ -169,7 +172,8 @@ class Altadefinizione:
             search_url = f"{self.base_film}/?s={encoded_query}"
             log.info(f"Altadefinizione: TV series search URL: {search_url}")
 
-            response = self.session.get(search_url, timeout=15, allow_redirects=True)
+            response = self.session.get(
+                search_url, timeout=15, allow_redirects=True)
             response.raise_for_status()
             html = response.text
 
@@ -238,7 +242,8 @@ class Altadefinizione:
 
         # Look in URL (pattern /film-title-123/ or /tv-title-123/)
         if url:
-            id_match = re.search(r'/(?:film|tv)-[^/]+-(\d+)/', url, re.IGNORECASE)
+            id_match = re.search(
+                r'/(?:film|tv)-[^/]+-(\d+)/', url, re.IGNORECASE)
             if id_match:
                 return id_match.group(1)
 
@@ -247,7 +252,8 @@ class Altadefinizione:
     def _get_embed_url(self, page_url):
         """Extract the VixSrc embed URL from the movie/series page"""
         if not self.base_film:
-            log.error("Altadefinizione: Cannot get embed, base URL not configured")
+            log.error(
+                "Altadefinizione: Cannot get embed, base URL not configured")
             return None
 
         try:
@@ -257,7 +263,8 @@ class Altadefinizione:
             html = response.text
 
             # Look for iframe with vixsrc
-            iframe_match = re.search(r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
+            iframe_match = re.search(
+                r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
             if iframe_match:
                 return iframe_match.group(1)
 
@@ -307,7 +314,8 @@ class Altadefinizione:
                     stream_url = matches[0].strip()
                     if stream_url.startswith('//'):
                         stream_url = 'https:' + stream_url
-                    log.info(f"Altadefinizione: Stream URL found: {stream_url}")
+                    log.info(
+                        f"Altadefinizione: Stream URL found: {stream_url}")
                     return stream_url
 
             log.warning("Altadefinizione: No stream URL found")
@@ -326,11 +334,13 @@ class Altadefinizione:
         Returns a list of dicts with: url, quality, service
         """
         if not self.base_film:
-            log.error("Altadefinizione: Cannot get streaming links, base URL not configured")
+            log.error(
+                "Altadefinizione: Cannot get streaming links, base URL not configured")
             return []
 
         try:
-            log.info(f"Altadefinizione: Extracting streaming links from {movie_url}")
+            log.info(
+                f"Altadefinizione: Extracting streaming links from {movie_url}")
 
             embed_url = self._get_embed_url(movie_url)
             if not embed_url:
@@ -346,7 +356,8 @@ class Altadefinizione:
             return [{'url': stream_url, 'quality': quality, 'service': 'vixsrc'}]
 
         except Exception as e:
-            log.error(f"Altadefinizione: Error extracting streaming links: {e}")
+            log.error(
+                f"Altadefinizione: Error extracting streaming links: {e}")
             return []
 
     # ---------------------------------------------------------------------
@@ -357,7 +368,8 @@ class Altadefinizione:
         Extract details from the page (movie or TV series).
         """
         if not self.base_film:
-            log.error("Altadefinizione: Cannot get page details, base URL not configured")
+            log.error(
+                "Altadefinizione: Cannot get page details, base URL not configured")
             return None
 
         try:
@@ -374,30 +386,40 @@ class Altadefinizione:
                 'type': 'TvSeries' if self._is_tv_series(page_url) else 'Movie',
                 'genre': '',
                 'seasons': [],
-                'streaming_links': []
-            }
+                'streaming_links': []}
 
             # Extract title
-            title_match = re.search(r'<h1[^>]*>([^<]+)</h1>', html, re.IGNORECASE)
+            title_match = re.search(
+                r'<h1[^>]*>([^<]+)</h1>', html, re.IGNORECASE)
             if title_match:
                 details['title'] = self.clean_html(title_match.group(1))
             else:
-                title_match = re.search(r'<meta property="og:title" content="([^"]+)"', html, re.IGNORECASE)
+                title_match = re.search(
+                    r'<meta property="og:title" content="([^"]+)"', html, re.IGNORECASE)
                 if title_match:
                     details['title'] = self.clean_html(title_match.group(1))
 
             # Extract year
-            year_match = re.search(r'<span class="meta-item">(\d{4})</span>', html, re.IGNORECASE)
+            year_match = re.search(
+                r'<span class="meta-item">(\d{4})</span>',
+                html,
+                re.IGNORECASE)
             if year_match:
                 details['year'] = year_match.group(1)
 
             # Extract description
-            desc_match = re.search(r'<p class="detail-overview">([^<]+)</p>', html, re.IGNORECASE)
+            desc_match = re.search(
+                r'<p class="detail-overview">([^<]+)</p>',
+                html,
+                re.IGNORECASE)
             if desc_match:
                 details['description'] = self.clean_html(desc_match.group(1))
 
             # Extract poster
-            poster_match = re.search(r'<img[^>]+src="([^"]+)"[^>]*class="[^"]*poster[^"]*"', html, re.IGNORECASE)
+            poster_match = re.search(
+                r'<img[^>]+src="([^"]+)"[^>]*class="[^"]*poster[^"]*"',
+                html,
+                re.IGNORECASE)
             if poster_match:
                 details['poster'] = poster_match.group(1)
 
@@ -416,7 +438,8 @@ class Altadefinizione:
         Get streaming link for a specific episode of a series.
         """
         if not self.base_film:
-            log.error("Altadefinizione: Cannot get episode stream, base URL not configured")
+            log.error(
+                "Altadefinizione: Cannot get episode stream, base URL not configured")
             return None
 
         try:

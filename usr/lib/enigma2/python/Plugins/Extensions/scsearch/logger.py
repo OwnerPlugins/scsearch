@@ -126,7 +126,8 @@ def setup_logger(name="scsearch"):
         print("[SCLogger] CRITICAL: Cannot create file handler: %s" % e)
         # Fallback: console logging
         console_handler = logging.StreamHandler()
-        console_handler.setFormatter(logging.Formatter("%(levelname)s - %(message)s"))
+        console_handler.setFormatter(
+            logging.Formatter("%(levelname)s - %(message)s"))
         logger.addHandler(console_handler)
         logger.error("File logging failed, using console: %s" % e)
 
@@ -148,7 +149,8 @@ def get_log_path():
 
 def configure_logging(config_dict):
     """Configure logging from a configuration dictionary."""
-    _log_config["enabled"] = config_dict.get("LOG_ENABLED", "true").lower() == "true"
+    _log_config["enabled"] = config_dict.get(
+        "LOG_ENABLED", "true").lower() == "true"
     level_str = config_dict.get("LOG_LEVEL", "INFO").upper()
     _log_config["level"] = getattr(logging, level_str, logging.INFO)
     _log_config["max_size"] = int(config_dict.get("LOG_MAX_SIZE", "1048576"))

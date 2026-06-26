@@ -21,8 +21,7 @@ class MaxStreamExtractor:
             'DNT': '1',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
-            'Cache-Control': 'max-age=0'
-        }
+            'Cache-Control': 'max-age=0'}
 
     def _unpack_js(self, packed_js):
         """Simple JavaScript unpacker for eval(function(p,a,c,k,e,d))"""
@@ -30,7 +29,8 @@ class MaxStreamExtractor:
             # Basic unpacker - handles most common packed JS
             if 'eval(function(p,a,c,k,e,d)' in packed_js:
                 # Extract packed data
-                match = re.search(r"'([^']+)'\s*\.\s*split\s*\(\s*'\|'\s*\)", packed_js)
+                match = re.search(
+                    r"'([^']+)'\s*\.\s*split\s*\(\s*'\|'\s*\)", packed_js)
                 if match:
                     data = match.group(1)
                     words = data.split('|')
@@ -81,7 +81,8 @@ class MaxStreamExtractor:
                 return video_url
 
         # Look for packed JavaScript
-        js_match = self._find_match(html, r'(eval\s*\(\s*function\s*\([^}]+\}\s*\([^)]+\)\s*\))')
+        js_match = self._find_match(
+            html, r'(eval\s*\(\s*function\s*\([^}]+\}\s*\([^)]+\)\s*\))')
         if js_match:
             log.info(f"MAXSTREAM (extract): Found packed HTML: {js_match}")
             unpacked = self._unpack_js(js_match)
@@ -91,7 +92,8 @@ class MaxStreamExtractor:
                 matches = re.findall(pattern, unpacked, re.IGNORECASE)
                 if matches:
                     video_url = matches[0]
-                    log.info(f"MAXSTREAM (extract): Resolved HTML, new URL: {video_url}")
+                    log.info(
+                        f"MAXSTREAM (extract): Resolved HTML, new URL: {video_url}")
                     if '.m3u8' in video_url:
                         return self._get_best_quality(video_url)
                     return video_url
@@ -130,7 +132,8 @@ class MaxStreamExtractor:
                 log.error("MAXSTREAM: End of packed script not found")
                 return None
 
-            packed_script = "eval(function(p,a,c,k,e,d)" + script_part[:script_end] + ")"
+            packed_script = "eval(function(p,a,c,k,e,d)" + \
+                script_part[:script_end] + ")"
 
             # Unpack the script
             unpacked = self._unpack_script(packed_script)
@@ -169,7 +172,9 @@ class MaxStreamExtractor:
     def _unpack_script(self, packed_script):
         """Unpack the packed JavaScript script"""
         try:
-            params_match = re.search(r"eval\(function\(p,a,c,k,e,d\)\{.*?\}\('([^']+)',(\d+),(\d+),'([^']+)'\.split\('\|'\)", packed_script)
+            params_match = re.search(
+                r"eval\(function\(p,a,c,k,e,d\)\{.*?\}\('([^']+)',(\d+),(\d+),'([^']+)'\.split\('\|'\)",
+                packed_script)
             if not params_match:
                 return None
 
@@ -184,7 +189,8 @@ class MaxStreamExtractor:
                 if i < len(keywords) and keywords[i]:
                     if base > 10:
                         if i < base:
-                            replacement = str(i) if i < 10 else chr(ord('a') + i - 10)
+                            replacement = str(i) if i < 10 else chr(
+                                ord('a') + i - 10)
                         else:
                             replacement = self._to_base(i, base)
                     else:
@@ -227,52 +233,71 @@ class MaxStreamExtractor:
 
             phpsessid = None
             with urllib.request.urlopen(req, timeout=15) as response:
-                log.info(f"MAXSTREAM_UPROT: Response status: {response.getcode()}")
+                log.info(
+                    f"MAXSTREAM_UPROT: Response status: {
+                        response.getcode()}")
                 # Extract PHPSESSID from response cookies
                 cookies_header = response.getheader('Set-Cookie')
-                log.info(f"MAXSTREAM_UPROT: Set-Cookie header: {cookies_header}")
+                log.info(
+                    f"MAXSTREAM_UPROT: Set-Cookie header: {cookies_header}")
                 if cookies_header:
-                    phpsessid_match = re.search(r'PHPSESSID=([^;\s]+)', cookies_header)
+                    phpsessid_match = re.search(
+                        r'PHPSESSID=([^;\s]+)', cookies_header)
                     if phpsessid_match:
                         phpsessid = phpsessid_match.group(1)
-                        log.info(f"MAXSTREAM_UPROT: PHPSESSID extracted: {phpsessid}")
+                        log.info(
+                            f"MAXSTREAM_UPROT: PHPSESSID extracted: {phpsessid}")
                 html = response.read().decode('utf-8')
-                log.info(f"MAXSTREAM_UPROT: HTML received - Length: {len(html)}")
-                log.info(f"MAXSTREAM_UPROT: HTML (first 2000 chars): {html[:2000]}")
+                log.info(
+                    f"MAXSTREAM_UPROT: HTML received - Length: {len(html)}")
+                log.info(
+                    f"MAXSTREAM_UPROT: HTML (first 2000 chars): {html[:2000]}")
 
             # Check for captcha
             captcha_pattern = r'data:image/[^;]+;base64,([A-Za-z0-9+/=]+)'
             captcha_match = re.search(captcha_pattern, html)
-            log.info(f"MAXSTREAM_UPROT: Captcha found: {captcha_match is not None}")
+            log.info(
+                f"MAXSTREAM_UPROT: Captcha found: {
+                    captcha_match is not None}")
 
             if captcha_match:
-                log.info("MAXSTREAM_UPROT: Captcha detected - requesting user interaction")
-                captcha_data = "data:image/png;base64," + captcha_match.group(1)
+                log.info(
+                    "MAXSTREAM_UPROT: Captcha detected - requesting user interaction")
+                captcha_data = "data:image/png;base64," + \
+                    captcha_match.group(1)
 
                 if session and callback:
-                    self._handle_captcha_async(session, captcha_data, uprot_url, html, callback, phpsessid)
+                    self._handle_captcha_async(
+                        session, captcha_data, uprot_url, html, callback, phpsessid)
                     return
                 else:
-                    log.error("MAXSTREAM: Session or callback not available for captcha")
+                    log.error(
+                        "MAXSTREAM: Session or callback not available for captcha")
                     return None
 
             # Look for MaxStream link in the page
             maxstream_pattern = r'https://maxstream\.video/[^"\s]+'
             maxstream_match = re.search(maxstream_pattern, html)
-            log.info(f"MAXSTREAM_UPROT: Searching for MaxStream URL with pattern: {maxstream_pattern}")
-            log.info(f"MAXSTREAM_UPROT: MaxStream URL found: {maxstream_match is not None}")
+            log.info(
+                f"MAXSTREAM_UPROT: Searching for MaxStream URL with pattern: {maxstream_pattern}")
+            log.info(
+                f"MAXSTREAM_UPROT: MaxStream URL found: {
+                    maxstream_match is not None}")
 
             if maxstream_match:
                 maxstream_url = maxstream_match.group(0)
-                log.info(f"MAXSTREAM_UPROT: MaxStream URL extracted: {maxstream_url}")
-                log.info("MAXSTREAM_UPROT: ===== ENDING UPROT BYPASS (SUCCESS) =====")
+                log.info(
+                    f"MAXSTREAM_UPROT: MaxStream URL extracted: {maxstream_url}")
+                log.info(
+                    "MAXSTREAM_UPROT: ===== ENDING UPROT BYPASS (SUCCESS) =====")
                 if callback:
                     callback(maxstream_url)
                 else:
                     return maxstream_url
             else:
                 log.error("MAXSTREAM_UPROT: MaxStream URL not found in page")
-                log.info("MAXSTREAM_UPROT: ===== ENDING UPROT BYPASS (FAILED) =====")
+                log.info(
+                    "MAXSTREAM_UPROT: ===== ENDING UPROT BYPASS (FAILED) =====")
                 if callback:
                     callback(None)
                 else:
@@ -287,7 +312,14 @@ class MaxStreamExtractor:
                 callback(None)
             return None
 
-    def _handle_captcha_async(self, session, captcha_data, uprot_url, html, callback, phpsessid=None):
+    def _handle_captcha_async(
+            self,
+            session,
+            captcha_data,
+            uprot_url,
+            html,
+            callback,
+            phpsessid=None):
         """Handle captcha asynchronously with callback"""
         try:
             from threading import Thread
@@ -295,17 +327,23 @@ class MaxStreamExtractor:
 
             def submit_in_thread(captcha_code):
                 """Run network operations in a separate thread to avoid blocking the UI."""
-                log.info(f"MAXSTREAM: Starting captcha submit in thread with code: {captcha_code}")
-                maxstream_url = self._submit_captcha_and_retry(uprot_url, captcha_code, html, phpsessid)
-                log.info(f"MAXSTREAM: Captcha submit completed, MaxStream URL: {maxstream_url}")
+                log.info(
+                    f"MAXSTREAM: Starting captcha submit in thread with code: {captcha_code}")
+                maxstream_url = self._submit_captcha_and_retry(
+                    uprot_url, captcha_code, html, phpsessid)
+                log.info(
+                    f"MAXSTREAM: Captcha submit completed, MaxStream URL: {maxstream_url}")
 
                 if maxstream_url:
-                    log.info(f"MAXSTREAM: Extracting video URL from: {maxstream_url}")
+                    log.info(
+                        f"MAXSTREAM: Extracting video URL from: {maxstream_url}")
                     video_url = self.extract(maxstream_url)
-                    log.info(f"MAXSTREAM: Final video URL extracted: {video_url}")
+                    log.info(
+                        f"MAXSTREAM: Final video URL extracted: {video_url}")
                     callback(video_url)
                 else:
-                    log.error("MAXSTREAM: No MaxStream URL obtained after submit")
+                    log.error(
+                        "MAXSTREAM: No MaxStream URL obtained after submit")
                     callback(None)
 
             # Flag to ensure the process is executed only once
@@ -314,7 +352,8 @@ class MaxStreamExtractor:
             def captcha_callback(result=None):
                 nonlocal submitted
                 if submitted:
-                    log.info("MAXSTREAM: Captcha callback ignored (already submitted)")
+                    log.info(
+                        "MAXSTREAM: Captcha callback ignored (already submitted)")
                     return
 
                 log.info(f"MAXSTREAM: Captcha callback received: {result}")
@@ -324,22 +363,35 @@ class MaxStreamExtractor:
                     thread = Thread(target=submit_in_thread, args=(result,))
                     thread.start()
                 else:
-                    log.error("MAXSTREAM: Captcha cancelled or callback without result")
+                    log.error(
+                        "MAXSTREAM: Captcha cancelled or callback without result")
                     callback(None)
 
             # Open the captcha input screen with callback
-            session.openWithCallback(captcha_callback, CaptchaInputScreen, captcha_data, captcha_callback)
+            session.openWithCallback(
+                captcha_callback,
+                CaptchaInputScreen,
+                captcha_data,
+                captcha_callback)
         except Exception as e:
             log.error(f"MAXSTREAM: Error handling captcha asynchronously: {e}")
             callback(None)
 
-    def _submit_captcha_and_retry(self, uprot_url, captcha_code, original_html, phpsessid=None):
+    def _submit_captcha_and_retry(
+            self,
+            uprot_url,
+            captcha_code,
+            original_html,
+            phpsessid=None):
         """Submit captcha and retry the bypass"""
         try:
             log.info(f"MAXSTREAM: Submitting captcha: {captcha_code}")
 
             # Look for the captcha form
-            form_match = re.search(r'<form[^>]*>(.*?)</form>', original_html, re.DOTALL | re.IGNORECASE)
+            form_match = re.search(
+                r'<form[^>]*>(.*?)</form>',
+                original_html,
+                re.DOTALL | re.IGNORECASE)
             if not form_match:
                 log.error("MAXSTREAM: Captcha form not found")
                 return None
@@ -349,7 +401,10 @@ class MaxStreamExtractor:
 
             # Look for the captcha field
             captcha_field = 'captcha'
-            input_matches = re.findall(r'<input[^>]*name=["\']([^"\']*)["\'][^>]*>', form_content, re.IGNORECASE)
+            input_matches = re.findall(
+                r'<input[^>]*name=["\']([^"\']*)["\'][^>]*>',
+                form_content,
+                re.IGNORECASE)
             for match in input_matches:
                 if 'captcha' in match.lower():
                     captcha_field = match
@@ -364,11 +419,15 @@ class MaxStreamExtractor:
             }
 
             # Look for submit button to include its data
-            submit_match = re.search(r'<(?:input|button)[^>]*type=["\']submit["\'][^>]*>', form_content, re.IGNORECASE)
+            submit_match = re.search(
+                r'<(?:input|button)[^>]*type=["\']submit["\'][^>]*>',
+                form_content,
+                re.IGNORECASE)
             if submit_match:
                 submit_tag = submit_match.group(0)
                 name_match = re.search(r'name=["\']([^"\']*)["\']', submit_tag)
-                value_match = re.search(r'value=["\']([^"\']*)["\']', submit_tag)
+                value_match = re.search(
+                    r'value=["\']([^"\']*)["\']', submit_tag)
                 if name_match and value_match:
                     form_data[name_match.group(1)] = value_match.group(1)
 
@@ -384,7 +443,7 @@ class MaxStreamExtractor:
                         if line.startswith('cf_clearance='):
                             cf_clearance = line.split('=', 1)[1].strip()
                             break
-            except:
+            except BaseException:
                 pass
 
             # Build cookies using the PHPSESSID passed as parameter
@@ -411,49 +470,66 @@ class MaxStreamExtractor:
             encoded_data = urllib.parse.urlencode(form_data).encode('utf-8')
 
             # Send POST request
-            req = urllib.request.Request(uprot_url, data=encoded_data, headers=submit_headers)
+            req = urllib.request.Request(
+                uprot_url, data=encoded_data, headers=submit_headers)
 
             with urllib.request.urlopen(req, timeout=15) as response:
                 response_html = response.read().decode('utf-8')
-                log.info(f"MAXSTREAM: Response received - Length: {len(response_html)}")
+                log.info(
+                    f"MAXSTREAM: Response received - Length: {len(response_html)}")
                 # log.info(f"MAXSTREAM: COMPLETE RESPONSE HTML:\n{response_html}")
                 log.info("MAXSTREAM: ===== END OF COMPLETE HTML =====")
 
             # Look specifically for URL in ad_space div with button id="buttok"
             # Simplified pattern to find the correct URL
             buttok_pattern = r'<button[^>]*id=["\']buttok["\'][^>]*>.*?</button>'
-            buttok_match = re.search(buttok_pattern, response_html, re.IGNORECASE | re.DOTALL)
+            buttok_match = re.search(
+                buttok_pattern,
+                response_html,
+                re.IGNORECASE | re.DOTALL)
 
             if buttok_match:
                 # Look for URL in the area around the buttok button
-                buttok_area = response_html[max(0, buttok_match.start() - 200):buttok_match.end() + 200]
+                buttok_area = response_html[max(
+                    0, buttok_match.start() - 200):buttok_match.end() + 200]
                 url_pattern = r'href=["\']([^"\']+ maxstream\.video[^"\']+ )["\']'
                 url_match = re.search(url_pattern, buttok_area, re.IGNORECASE)
 
                 if url_match:
                     maxstream_url = url_match.group(1)
-                    log.info(f"MAXSTREAM: URL found near buttok: {maxstream_url}")
+                    log.info(
+                        f"MAXSTREAM: URL found near buttok: {maxstream_url}")
                     return maxstream_url
 
             # Look for all MaxStream URLs and take the one in the ad_space div
-            all_maxstream_urls = re.findall(r'https://maxstream\.video/[^"\s<>]+', response_html, re.IGNORECASE)
-            log.info(f"MAXSTREAM: Found {len(all_maxstream_urls)} total MaxStream URLs")
+            all_maxstream_urls = re.findall(
+                r'https://maxstream\.video/[^"\s<>]+',
+                response_html,
+                re.IGNORECASE)
+            log.info(
+                f"MAXSTREAM: Found {
+                    len(all_maxstream_urls)} total MaxStream URLs")
 
             # Look for the ad_space div
-            ad_space_match = re.search(r'<div[^>]*id=["\']аd_spаce["\'][^>]*>(.*?)</div>', response_html, re.IGNORECASE | re.DOTALL)
+            ad_space_match = re.search(
+                r'<div[^>]*id=["\']аd_spаce["\'][^>]*>(.*?)</div>',
+                response_html,
+                re.IGNORECASE | re.DOTALL)
 
             if ad_space_match and all_maxstream_urls:
                 ad_space_content = ad_space_match.group(1)
                 # Look for MaxStream URL in the ad_space div content
                 for url in all_maxstream_urls:
                     if url in ad_space_content:
-                        log.info(f"MAXSTREAM: URL found in ad_space div: {url}")
+                        log.info(
+                            f"MAXSTREAM: URL found in ad_space div: {url}")
                         return url
 
             # If nothing found, use the first MaxStream URL
             if all_maxstream_urls:
                 maxstream_url = all_maxstream_urls[0]
-                log.info(f"MAXSTREAM: URL found with fallback (first available): {maxstream_url}")
+                log.info(
+                    f"MAXSTREAM: URL found with fallback (first available): {maxstream_url}")
                 return maxstream_url
 
             log.error("MAXSTREAM: No MaxStream URL found")
@@ -470,7 +546,8 @@ class MaxStreamExtractor:
             req = urllib.request.Request(url, headers=self.headers)
             with urllib.request.urlopen(req, timeout=15) as response:
                 content = response.read().decode('utf-8', errors='ignore')
-                log.info(f"MAXSTREAM: Content downloaded - Length: {len(content)}")
+                log.info(
+                    f"MAXSTREAM: Content downloaded - Length: {len(content)}")
                 return content
         except Exception as e:
             log.error(f"MAXSTREAM: Download error: {e}")
@@ -511,11 +588,13 @@ class MaxStreamExtractor:
                                 'bandwidth': bandwidth,
                                 'url': next_line
                             })
-                            log.info(f"MAXSTREAM: Stream found - Bandwidth: {bandwidth}")
+                            log.info(
+                                f"MAXSTREAM: Stream found - Bandwidth: {bandwidth}")
 
             if streams:
                 best = max(streams, key=lambda x: x['bandwidth'])
-                log.info(f"MAXSTREAM: Best quality selected - Bandwidth: {best['bandwidth']}")
+                log.info(
+                    f"MAXSTREAM: Best quality selected - Bandwidth: {best['bandwidth']}")
                 return best['url']
 
             log.warning("MAXSTREAM: No streams found, using original URL")
@@ -536,7 +615,8 @@ class MaxStreamExtractor:
             headers_copy['Cookie'] = '_ga=GA1.1.1699191900.1758982925; _ga_PXCHK654EC=GS2.1.s1758985666$o2$g0$t1758985666$j60$l0$h0; prefetchAd_5867823=true; dw=1'
 
             class NoRedirectHandler(urllib.request.HTTPRedirectHandler):
-                def redirect_request(self, req, fp, code, msg, headers, newurl):
+                def redirect_request(
+                        self, req, fp, code, msg, headers, newurl):
                     return None
 
             opener = urllib.request.build_opener(NoRedirectHandler)
@@ -550,7 +630,8 @@ class MaxStreamExtractor:
                 if e.code in [301, 302, 303, 307, 308]:
                     location = e.headers.get('Location')
                     if location:
-                        log.info(f"MAXSTREAM: Location header found: {location}")
+                        log.info(
+                            f"MAXSTREAM: Location header found: {location}")
 
                         # GET request with browser headers for the Location URL
                         browser_headers = {
@@ -558,43 +639,53 @@ class MaxStreamExtractor:
                             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
                             'Accept-Language': 'it-IT,it;q=0.9',
                             'Cache-Control': 'no-cache',
-                            'DNT': '1'
-                        }
-                        req2 = urllib.request.Request(location, headers=browser_headers)
+                            'DNT': '1'}
+                        req2 = urllib.request.Request(
+                            location, headers=browser_headers)
                         with urllib.request.urlopen(req2, timeout=15) as response2:
                             html = response2.read().decode('utf-8', errors='ignore')
-                            log.info(f"MAXSTREAM: Location page downloaded - Length: {len(html)}")
+                            log.info(
+                                f"MAXSTREAM: Location page downloaded - Length: {len(html)}")
 
                         # Decode obfuscated script in the Location page
-                        log.info("MAXSTREAM: Attempting to decode obfuscated script in Location page")
+                        log.info(
+                            "MAXSTREAM: Attempting to decode obfuscated script in Location page")
                         decoded_url = self._decode_obfuscated_script(html)
                         if decoded_url:
                             return decoded_url
 
                         # Look for iframe in the page as fallback
-                        iframe_match = re.search(r'<iframe[^>]+src=["\']([^"\']+ )["\']', html, re.IGNORECASE)
+                        iframe_match = re.search(
+                            r'<iframe[^>]+src=["\']([^"\']+ )["\']', html, re.IGNORECASE)
                         if not iframe_match:
-                            iframe_match = re.search(r'src=["\']([^"\']+ maxstream\.video[^"\']+ )["\']', html, re.IGNORECASE)
+                            iframe_match = re.search(
+                                r'src=["\']([^"\']+ maxstream\.video[^"\']+ )["\']', html, re.IGNORECASE)
 
                         if iframe_match:
                             iframe_url = iframe_match.group(1)
                             log.info(f"MAXSTREAM: Iframe found: {iframe_url}")
 
                             # Download iframe content
-                            req3 = urllib.request.Request(iframe_url, headers=headers_copy)
+                            req3 = urllib.request.Request(
+                                iframe_url, headers=headers_copy)
                             with urllib.request.urlopen(req3, timeout=15) as response3:
                                 iframe_html = response3.read().decode('utf-8')
-                                log.info(f"MAXSTREAM: Iframe HTML downloaded - Length: {len(iframe_html)}")
+                                log.info(
+                                    f"MAXSTREAM: Iframe HTML downloaded - Length: {len(iframe_html)}")
 
                             # Decode obfuscated script in the iframe
-                            iframe_decoded_url = self._decode_obfuscated_script(iframe_html)
+                            iframe_decoded_url = self._decode_obfuscated_script(
+                                iframe_html)
                             if iframe_decoded_url:
                                 return iframe_decoded_url
                         else:
-                            log.error("MAXSTREAM: No iframe found in Location page")
-                            log.info(f"MAXSTREAM: First 1000 chars for debug: {html[:1000]}")
+                            log.error(
+                                "MAXSTREAM: No iframe found in Location page")
+                            log.info(
+                                f"MAXSTREAM: First 1000 chars for debug: {html[:1000]}")
                     else:
-                        log.error("MAXSTREAM: Redirect without Location header")
+                        log.error(
+                            "MAXSTREAM: Redirect without Location header")
                         return None
                 else:
                     log.error(f"MAXSTREAM: HTTP error {e.code}")
@@ -619,7 +710,8 @@ class MaxStreamExtractor:
                 return None
 
             obfuscated_string = script_match.group(1)
-            log.info(f"MAXSTREAM: Obfuscated string found: {obfuscated_string[:100]}...")
+            log.info(
+                f"MAXSTREAM: Obfuscated string found: {obfuscated_string[:100]}...")
 
             # Decode according to the pattern from the log
             # split("").reduce((v,g,L)=>L%2?v+g:g+v).split("z")
@@ -640,7 +732,8 @@ class MaxStreamExtractor:
 
             # Reconstruct JavaScript code from parts
             js_code = ''.join(parts)
-            log.info(f"MAXSTREAM: Decoded JS code (first 500 chars): {js_code[:500]}")
+            log.info(
+                f"MAXSTREAM: Decoded JS code (first 500 chars): {js_code[:500]}")
 
             # Look for video URL in the decoded code
             video_patterns = [
@@ -655,7 +748,8 @@ class MaxStreamExtractor:
                 match = re.search(pattern, js_code, re.IGNORECASE)
                 if match:
                     video_url = match.group(1)
-                    log.info(f"MAXSTREAM: Video URL found with decoding: {video_url}")
+                    log.info(
+                        f"MAXSTREAM: Video URL found with decoding: {video_url}")
                     if '.m3u8' in video_url:
                         return self._get_best_quality(video_url)
                     return video_url
