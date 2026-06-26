@@ -271,9 +271,7 @@ class SCBrowseMain(Screen):
                 for line in config_file:
                     if line.strip().startswith("TMDB_API_KEY="):
                         api_key = line.strip().split("=", 1)[1].strip()
-                        log.info(
-                            f"BROWSE: TMDB API key available: {
-                                bool(api_key)}")
+                        log.info("BROWSE: TMDB API key available: {}".format(bool(api_key)))
                         return api_key
         except Exception as e:
             log.error(f"BROWSE: Error reading TMDB API key: {e}")
