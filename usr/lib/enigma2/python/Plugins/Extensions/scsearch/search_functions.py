@@ -93,7 +93,8 @@ class API:
         import urllib.parse
 
         encoded_query = urllib.parse.quote(query)
-        url = "https://www.themoviedb.org/search?query={}".format(encoded_query)
+        url = "https://www.themoviedb.org/search?query={}".format(
+            encoded_query)
         log.info("TMDB API.search: Searching on {}".format(url))
 
         try:
@@ -101,7 +102,9 @@ class API:
             response.raise_for_status()
             html_content = response.text
 
-            log.info("TMDB API.search: HTML length: {}".format(len(html_content)))
+            log.info(
+                "TMDB API.search: HTML length: {}".format(
+                    len(html_content)))
 
             results = []
 
@@ -157,7 +160,8 @@ class API:
                             item_id, title, media_type))
 
                 except Exception as e:
-                    log.error("TMDB API.search: Error parsing card: {}".format(e))
+                    log.error(
+                        "TMDB API.search: Error parsing card: {}".format(e))
                     continue
 
             log.info(
@@ -168,7 +172,9 @@ class API:
         except Exception as e:
             log.error("TMDB API.search: Error - {}".format(e))
             import traceback
-            log.error("TMDB API.search: Traceback: {}".format(traceback.format_exc()))
+            log.error(
+                "TMDB API.search: Traceback: {}".format(
+                    traceback.format_exc()))
             return {'data': []}
 
     def load(self, content_slug):
@@ -207,8 +213,8 @@ class API:
                             "API.load: Successfully parsed complete JSON data.")
                         break
                     except (json.JSONDecodeError, IndexError, Exception) as e:
-                        log.debug(
-                            "API.load: Failed to parse JSON from pattern '{}': {}".format(pattern[:30], e))
+                        log.debug("API.load: Failed to parse JSON from pattern '{}': {}".format(
+                            pattern[:30], e))
                         continue
         except Exception as e:
             log.error("API.load: Error parsing {}: {}".format(url, e))
@@ -322,8 +328,7 @@ def search_streaming_community_cool(query):
             'Accept-Language': 'it-IT,it;q=0.9,en;q=0.8',
             'Accept-Encoding': 'gzip, deflate',
             'Referer': 'https://streaming-community.cool/',
-            'DNT': '1'
-        }
+            'DNT': '1'}
 
         req = urllib.request.Request(url, headers=headers)
 
@@ -383,17 +388,17 @@ def search_streaming_community_cool(query):
                         item_type = 'tv' if any(
                             word in title.lower() for word in tv_keywords) else 'movie'
 
-                        results.append({
-                            'name': title.strip(),
-                            'release_date': '' if item_type == 'tv' else '',
-                            '_raw': {
-                                'id': 'sc_cool',
-                                'slug': url_part.replace(' ', '-').replace('--', '-') if url_part else title.lower().replace(' ', '-').replace('--', '-'),
-                                'type': item_type,
-                                'source': 'streaming-community.cool',
-                                'first_air_date': '' if item_type == 'movie' else ''
-                            }
-                        })
+                        results.append({'name': title.strip(),
+                                        'release_date': '' if item_type == 'tv' else '',
+                                        '_raw': {'id': 'sc_cool',
+                                                 'slug': url_part.replace(' ',
+                                                                          '-').replace('--',
+                                                                                       '-') if url_part else title.lower().replace(' ',
+                                                                                                                                   '-').replace('--',
+                                                                                                                                                '-'),
+                                                 'type': item_type,
+                                                 'source': 'streaming-community.cool',
+                                                 'first_air_date': '' if item_type == 'movie' else ''}})
 
             # Remove duplicates
             seen = set()
@@ -404,7 +409,9 @@ def search_streaming_community_cool(query):
                     seen.add(title_key)
                     unique_results.append(result)
 
-            log.info("SC_COOL: Found {} unique results".format(len(unique_results)))
+            log.info(
+                "SC_COOL: Found {} unique results".format(
+                    len(unique_results)))
             return unique_results[:10]  # Limit to 10 results
 
     except Exception as e:
@@ -433,7 +440,9 @@ def perform_search(query, domain=None, search_type=None):
             return {'data': []}
 
         media_type = search_type if search_type in ('movie', 'tv') else 'movie'
-        log.info("SEARCH: Searching TMDB for '{}', type={}".format(query, media_type))
+        log.info(
+            "SEARCH: Searching TMDB for '{}', type={}".format(
+                query, media_type))
 
         session = requests.Session()
         session.headers.update(
@@ -467,7 +476,8 @@ def perform_search(query, domain=None, search_type=None):
                     'vixsrc_url': vixsrc_url,
                 }
             })
-            log.info("SEARCH: {} (tmdb_id={}) -> {}".format(name, tmdb_id, vixsrc_url))
+            log.info(
+                "SEARCH: {} (tmdb_id={}) -> {}".format(name, tmdb_id, vixsrc_url))
 
         # CB01
         try:
@@ -493,7 +503,9 @@ def perform_search(query, domain=None, search_type=None):
                         'url': cb01_item['url']
                     }
                 })
-            log.info("SEARCH: Added {} results from CB01".format(len(cb01_results)))
+            log.info(
+                "SEARCH: Added {} results from CB01".format(
+                    len(cb01_results)))
         except Exception as e:
             log.error("SEARCH: CB01 search failed - {}".format(e))
 
@@ -521,11 +533,15 @@ def perform_search(query, domain=None, search_type=None):
                         'url': altadef_item['url']
                     }
                 })
-            log.info("SEARCH: Added {} results from Altadefinizione".format(len(altadef_results)))
+            log.info(
+                "SEARCH: Added {} results from Altadefinizione".format(
+                    len(altadef_results)))
         except Exception as e:
             log.error("SEARCH: Altadefinizione search failed - {}".format(e))
 
-        log.info("SEARCH: Returning {} normalized results".format(len(normalized_list)))
+        log.info(
+            "SEARCH: Returning {} normalized results".format(
+                len(normalized_list)))
         return {'data': normalized_list}
     except Exception as e:
         log.error("perform_search failed for query: {} - {}".format(query, e))
@@ -594,7 +610,8 @@ def _extract_poster_url(title_data, base_url, cdn_url=None):
                 poster = "{}/images/{}".format(cdn_url.rstrip('/'),
                                                filename.lstrip('/'))
             elif filename:
-                poster = urljoin(base_url, "/images/{}".format(filename.lstrip('/')))
+                poster = urljoin(base_url,
+                                 "/images/{}".format(filename.lstrip('/')))
             else:
                 poster = None
             if poster:
@@ -644,13 +661,13 @@ def scrape_category_page(category_url, domain=None):
             r'window\.__NUXT__\s*=\s*({.+?});',
             r"data-page=(['\"])(.*?)\1",
             r'window\.__INITIAL_STATE__\s*=\s*({.+?});',
-            r'__NEXT_DATA__[\'\"]\s*type\s*=\s*[\'"]application/json[\'"]\s*[^>]*>([^<]+)<'
-        ]
+            r'__NEXT_DATA__[\'\"]\s*type\s*=\s*[\'"]application/json[\'"]\s*[^>]*>([^<]+)<']
 
         for pattern in json_patterns:
             matches = re.findall(pattern, html_content, re.DOTALL)
             if matches:
-                log.info("Found JSON data using pattern: {}...".format(pattern[:30]))
+                log.info(
+                    "Found JSON data using pattern: {}...".format(pattern[:30]))
                 for match in matches:
                     try:
                         if 'data-page' in pattern:
@@ -688,7 +705,8 @@ def scrape_category_page(category_url, domain=None):
                                     slug_part = title_data.get('slug')
                                     item_id = title_data.get('id')
                                     if slug_part:
-                                        slug = "{}-{}".format(item_id, slug_part) if item_id else slug_part
+                                        slug = "{}-{}".format(
+                                            item_id, slug_part) if item_id else slug_part
 
                                 poster = _extract_poster_url(
                                     title_data, base_url, cdn_url)
@@ -704,12 +722,7 @@ def scrape_category_page(category_url, domain=None):
                                     })
                                     if len(items) <= 3:
                                         log.info("CATEGORY_PARSE: title={} slug={} type={} poster={} keys={}".format(
-                                            name,
-                                            slug,
-                                            item_type,
-                                            bool(poster),
-                                            sorted(title_data.keys())[:20],
-                                        ))
+                                            name, slug, item_type, bool(poster), sorted(title_data.keys())[:20], ))
 
                         if items:
                             break
@@ -742,9 +755,13 @@ def scrape_category_page(category_url, domain=None):
                             'type': None
                         })
 
-        log.info("Successfully extracted {} items from category page".format(len(items)))
+        log.info(
+            "Successfully extracted {} items from category page".format(
+                len(items)))
 
     except Exception as e:
-        log.error("Failed to scrape category page {}: {}".format(category_url, e))
+        log.error(
+            "Failed to scrape category page {}: {}".format(
+                category_url, e))
 
     return items
