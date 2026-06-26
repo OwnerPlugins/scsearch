@@ -47,7 +47,7 @@ class SCDetailsScreen(Screen):
         self["info_panel"] = Label("")
         self["description_panel"] = Label("")
         self["key_red"] = Label(_("EXIT"))
-        self["key_green"] = Label(_("PLAY"))
+        self["key_green"] = Label(_("PLAY MEDIA"))
 
         self.picload = None
         self.cover_temp_path = "/tmp/scdetails_cover.jpg"
