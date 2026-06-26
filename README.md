@@ -230,11 +230,11 @@ For OnlineSerieTV to work, you need a Cloudflare bypass cookie:
 
 ```
 scsearch/
-├── __init__.py               # Localization & translation
+├── __init__.py               # Localization, translation, e carica le skin
 ├── plugin.py                 # Plugin entry point
-├── scsearch.py               # Main search UI
-├── scbrowse.py               # Category browser UI
-├── scdetails.py              # Details & playback UI
+├── scsearch.py               # Main search UI (ora usa load_skin)
+├── scbrowse.py               # Category browser UI (ora usa load_skin)
+├── scdetails.py              # Details & playback UI (ora usa load_skin)
 ├── search_functions.py       # Multi-source search logic
 ├── cb01.py                   # CB01 extraction
 ├── altadefinizione.py        # Altadefinizione extraction
@@ -245,15 +245,47 @@ scsearch/
 ├── components.py             # GUI components
 ├── maxstream_extractor.py    # Maxstream URL extraction
 ├── mixdrop_extractor.py      # Mixdrop URL extraction
-├── captcha_input.py          # Captcha input screen
+├── captcha_input.py          # Captcha input screen (ora usa load_skin)
+├── captcha_screen.py         # Captcha screen (ora usa load_skin)
 ├── config.txt                # User configuration
-└── locale/                   # Translation files
-    ├── en/
-    │   └── LC_MESSAGES/
-    │       └── scsearch.mo
-    └── it/
-        └── LC_MESSAGES/
-            └── scsearch.mo
+├── locale/                   # Translation files
+│   ├── en/
+│   │   └── LC_MESSAGES/
+│   │       └── scsearch.mo
+│   └── it/
+│       └── LC_MESSAGES/
+│           └── scsearch.mo
+└── skins/                    # 🆕 NUOVA CARTELLA PER LE SKIN
+    ├── hd/                   # 1280x720
+    │   ├── SCSearchMain.xml
+    │   ├── SCBrowseMain.xml
+    │   ├── SCDetailsScreen.xml
+    │   ├── CaptchaInputScreen.xml
+    │   └── CaptchaScreen.xml
+    ├── wqhd/                 # 2560x1440
+    │   ├── SCSearchMain.xml
+    │   ├── SCBrowseMain.xml
+    │   ├── SCDetailsScreen.xml
+    │   ├── CaptchaInputScreen.xml
+    │   └── CaptchaScreen.xml
+    ├── fhd/                  # 1920x1080
+    │   ├── SCSearchMain.xml
+    │   ├── SCBrowseMain.xml
+    │   ├── SCDetailsScreen.xml
+    │   ├── CaptchaInputScreen.xml
+    │   └── CaptchaScreen.xml
+    ├── uhd/                  # 3840x2160
+    │   ├── SCSearchMain.xml
+    │   ├── SCBrowseMain.xml
+    │   ├── SCDetailsScreen.xml
+    │   ├── CaptchaInputScreen.xml
+    │   └── CaptchaScreen.xml
+    └── sd/                   # 720x576
+        ├── SCSearchMain.xml
+        ├── SCBrowseMain.xml
+        ├── SCDetailsScreen.xml
+        ├── CaptchaInputScreen.xml
+        └── CaptchaScreen.xml
 ```
 
 ---
@@ -364,7 +396,7 @@ Target path: /usr/lib/enigma2/python/Plugins/Extensions/scsearch
 
 # 📚 Changelog
 
-## v1.23 – 2026-06-26
+## v1.24 – 2026-06-26
 - Full English localization
 - Added Altadefinizione support
 - Improved OnlineSerieTV captcha handling
