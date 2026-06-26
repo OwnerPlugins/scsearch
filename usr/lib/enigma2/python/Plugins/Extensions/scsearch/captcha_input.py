@@ -13,7 +13,7 @@ from . import _, load_skin
 log = get_logger()
 
 
-class (Screen):
+class(Screen):
     """
     Screen for entering a CAPTCHA code using numeric remote keys.
     Displays the captcha image and allows digit-by-digit entry.
