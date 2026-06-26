@@ -14,38 +14,41 @@ from Components.Pixmap import Pixmap
 from Screens.InfoBar import MoviePlayer
 from .logger import get_logger
 from .search_functions import get_title_details
-from . import _  # translation function
+from . import _, load_skin
 
 log = get_logger()
 
 
 class SCDetailsScreen(Screen):
-    skin = '''
-        <screen name="SCDetailsScreen" position="center,center" size="1280,720" title="SC Search - Details" backgroundColor="#101216">
-            <widget name="title" position="40,40" size="1200,40" font="Regular;28" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
-            <widget name="type_info" position="40,90" size="600,30" font="Regular;20" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" />
+    # skin = '''
+        # <screen name="SCDetailsScreen" position="center,center" size="1280,720" title="SC Search - Details" backgroundColor="#101216">
+            # <widget name="title" position="40,40" size="1200,40" font="Regular;28" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
+            # <widget name="type_info" position="40,90" size="600,30" font="Regular;20" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" />
 
-            <!-- Larger cover on the left -->
-            <widget name="cover_pixmap" position="40,140" size="300,450" zPosition="3" alphatest="on" />
+            # <!-- Larger cover on the left -->
+            # <widget name="cover_pixmap" position="40,140" size="300,450" zPosition="3" alphatest="on" />
 
-            <!-- Smaller detailed info -->
-            <widget name="info_panel" position="360,140" size="280,200" font="Regular;18" foregroundColor="#ffffff" backgroundColor="#1b2028" />
+            # <!-- Smaller detailed info -->
+            # <widget name="info_panel" position="360,140" size="280,200" font="Regular;18" foregroundColor="#ffffff" backgroundColor="#1b2028" />
 
-            <!-- Even wider description -->
-            <widget name="description_panel" position="660,140" size="580,200" font="Regular;16" foregroundColor="#aab2c0" backgroundColor="#151922" />
+            # <!-- Even wider description -->
+            # <widget name="description_panel" position="660,140" size="580,200" font="Regular;16" foregroundColor="#aab2c0" backgroundColor="#151922" />
 
-            <!-- Seasons and episodes below -->
-            <widget name="season_label" position="360,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
-            <widget name="season_list" position="360,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" selectionPixmap="skin_default/sel.png" />
+            # <!-- Seasons and episodes below -->
+            # <widget name="season_label" position="360,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
+            # <widget name="season_list" position="360,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" selectionPixmap="skin_default/sel.png" />
 
-            <widget name="episode_label" position="680,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
-            <widget name="episode_list" position="680,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" selectionPixmap="skin_default/sel.png" />
+            # <widget name="episode_label" position="680,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
+            # <widget name="episode_list" position="680,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" selectionPixmap="skin_default/sel.png" />
 
-            <widget name="key_red" position="40,650" size="100,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
-            <widget name="key_green" position="150,650" size="130,30" font="Regular;18" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
-        </screen>'''
+            # <widget name="key_red" position="40,650" size="100,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
+            # <widget name="key_green" position="150,650" size="130,30" font="Regular;18" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
+        # </screen>'''
 
     def __init__(self, session, slug, title, ostv_data=None):
+        skin_data = load_skin("SCDetailsScreen")
+        if skin_data:
+            self.skin = skin_data
         Screen.__init__(self, session)
         self.session = session
         self.slug = slug
