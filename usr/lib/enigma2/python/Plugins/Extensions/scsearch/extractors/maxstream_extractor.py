@@ -233,7 +233,9 @@ class MaxStreamExtractor:
 
             phpsessid = None
             with urllib.request.urlopen(req, timeout=15) as response:
-                log.info("MAXSTREAM_UPROT: Response status: {}".format(response.getcode()))
+                log.info(
+                    "MAXSTREAM_UPROT: Response status: {}".format(
+                        response.getcode()))
                 # Extract PHPSESSID from response cookies
                 cookies_header = response.getheader('Set-Cookie')
                 log.info(

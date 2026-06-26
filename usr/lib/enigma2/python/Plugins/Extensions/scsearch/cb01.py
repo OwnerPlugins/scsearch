@@ -183,7 +183,9 @@ class CB01:
                 search_url, timeout=15, allow_redirects=True)
             response.raise_for_status()
 
-            log.info("CB01: Movie search response received. Status: {}".format(response.status_code))
+            log.info(
+                "CB01: Movie search response received. Status: {}".format(
+                    response.status_code))
             html = response.text
             log.info("CB01: HTML length: {}, final URL: {}".format(len(html), response.url))
 
