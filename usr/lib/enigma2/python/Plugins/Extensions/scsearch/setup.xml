@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setup>
+    <item level="0" text="Enable debug" description="Enable debug output in logs">config.plugins.scsearch.debug</item>
+    <item level="0" text="Search timeout" description="Timeout for search requests (seconds)">config.plugins.scsearch.timeout</item>
+    <item level="0" text="Max results" description="Maximum number of results to display">config.plugins.scsearch.max_results</item>
+</setup>

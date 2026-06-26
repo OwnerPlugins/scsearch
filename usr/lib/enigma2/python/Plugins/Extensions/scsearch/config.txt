@@ -1,0 +1,46 @@
+# SC Search Plugin Configuration
+# This file contains base URLs for Streaming Community
+
+# Main Streaming Community URL
+STREAMING_COMMUNITY_URL=https://streamingcommunityz.us/
+
+# CB01 URLs
+CB01_URL=https://cb01uno.pics/
+CB01_URL_FALLBACK=https://
+
+# Altadefinizione URLs
+ALTADEFINIZIONE_URL=https://altadefinizione.you/
+ALTADEFINIZIONE_URL_FALLBACK=https://altadefinizione.you/
+
+# Alternative URLs (if needed)
+BACKUP_URL=https://
+BACKUP_URL2=https://
+
+# Request timeout (in seconds)
+REQUEST_TIMEOUT=30
+
+# User Agent for HTTP requests
+USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+
+# Logging Configuration
+# Enable/disable logging (true/false)
+LOG_ENABLED=true
+
+# Log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+LOG_LEVEL=INFO
+
+# Maximum log file size in bytes (default: 1MB)
+LOG_MAX_SIZE=1048576
+
+# Number of backup log files to keep
+LOG_BACKUP_COUNT=3
+
+# TMDB API Key
+# Enter your API key for The Movie Database (TMDB)
+TMDB_API_KEY=3c3efcf47c3577558812bb9d64019d65
+
+# OnlineSerieTV Cookie for Cloudflare bypass
+# Update this cookie when needed
+CookieOLSTV=
+MOVIE_HISTORY=
+TV_HISTORY=
