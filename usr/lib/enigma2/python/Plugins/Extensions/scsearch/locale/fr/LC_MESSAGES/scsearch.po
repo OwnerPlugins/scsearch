@@ -203,8 +203,8 @@ msgstr "Aucun lien de diffusion trouvé"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Série TV"
 
-msgid "PLAY"
-msgstr "JOUER"
+msgid "PLAY MEDIA"
+msgstr "JOUER LES MÉDIAS"
 
 msgid "Playback error: %s"
 msgstr "Erreur de lecture : %s"
@@ -331,3 +331,6 @@ msgstr "erreur"
 
 msgid "loading"
 msgstr "chargement"
+
+#~ msgid "PLAY"
+#~ msgstr "JOUER"

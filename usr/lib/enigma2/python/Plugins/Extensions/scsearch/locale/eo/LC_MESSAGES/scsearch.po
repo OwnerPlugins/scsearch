@@ -203,8 +203,8 @@ msgstr "Neniuj fluaj ligiloj trovitaj"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Televidserio"
 
-msgid "PLAY"
-msgstr "LUDU"
+msgid "PLAY MEDIA"
+msgstr "LUDU MEDIOJN"
 
 msgid "Playback error: %s"
 msgstr "Eraro de reprodukto: %s"
@@ -331,3 +331,6 @@ msgstr "eraro"
 
 msgid "loading"
 msgstr "ŝarĝo"
+
+#~ msgid "PLAY"
+#~ msgstr "LUDU"

@@ -203,8 +203,8 @@ msgstr "ストリーミング リンクが見つかりません"
 msgid "OnlineSerieTV - TV Series"
 msgstr "オンラインSerieTV - テレビシリーズ"
 
-msgid "PLAY"
-msgstr "遊ぶ"
+msgid "PLAY MEDIA"
+msgstr "メディアを再生する"
 
 msgid "Playback error: %s"
 msgstr "再生エラー: %s"
@@ -331,3 +331,6 @@ msgstr "エラー"
 
 msgid "loading"
 msgstr "読み込み中"
+
+#~ msgid "PLAY"
+#~ msgstr "遊ぶ"

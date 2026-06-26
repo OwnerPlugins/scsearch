@@ -203,8 +203,8 @@ msgstr "스트리밍 링크를 찾을 수 없습니다."
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV 시리즈"
 
-msgid "PLAY"
-msgstr "놀다"
+msgid "PLAY MEDIA"
+msgstr "미디어 플레이"
 
 msgid "Playback error: %s"
 msgstr "재생 오류: %s"
@@ -331,3 +331,6 @@ msgstr "오류"
 
 msgid "loading"
 msgstr "로드 중"
+
+#~ msgid "PLAY"
+#~ msgstr "놀다"

@@ -202,8 +202,8 @@ msgstr "တိုက်ရိုက်လွှင့်လင့်ခ်မျ
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - တီဗီစီးရီး"
 
-msgid "PLAY"
-msgstr "ကစားပါ။"
+msgid "PLAY MEDIA"
+msgstr "မီဒီယာကိုဖွင့်ပါ။"
 
 msgid "Playback error: %s"
 msgstr "ပြန်ဖွင့်မှု အမှား- %s"
@@ -330,3 +330,6 @@ msgstr "အမှား"
 
 msgid "loading"
 msgstr ""
+
+#~ msgid "PLAY"
+#~ msgstr "ကစားပါ။"

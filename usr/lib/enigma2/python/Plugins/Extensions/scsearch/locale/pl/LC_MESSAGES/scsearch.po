@@ -203,8 +203,8 @@ msgstr "Nie znaleziono linków do transmisji strumieniowej"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - seriale telewizyjne"
 
-msgid "PLAY"
-msgstr "GRAĆ"
+msgid "PLAY MEDIA"
+msgstr "ODtwórz multimedia"
 
 msgid "Playback error: %s"
 msgstr "Błąd odtwarzania: %s"
@@ -331,3 +331,6 @@ msgstr "błąd"
 
 msgid "loading"
 msgstr "załadunek"
+
+#~ msgid "PLAY"
+#~ msgstr "GRAĆ"

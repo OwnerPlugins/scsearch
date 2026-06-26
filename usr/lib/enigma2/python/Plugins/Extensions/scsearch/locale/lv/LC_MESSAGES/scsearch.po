@@ -203,8 +203,8 @@ msgstr "Straumēšanas saites nav atrastas"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV — TV seriāls"
 
-msgid "PLAY"
-msgstr "SPĒLĒT"
+msgid "PLAY MEDIA"
+msgstr "ATSKAŅOT MEDIJU"
 
 msgid "Playback error: %s"
 msgstr "Atskaņošanas kļūda: %s"
@@ -331,3 +331,6 @@ msgstr "kļūda"
 
 msgid "loading"
 msgstr "iekraušana"
+
+#~ msgid "PLAY"
+#~ msgstr "SPĒLĒT"

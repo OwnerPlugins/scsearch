@@ -202,8 +202,8 @@ msgstr "קיין סטרימינג לינקס געפונען"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - טעלעוויזיע סעריע"
 
-msgid "PLAY"
-msgstr "שפּיל"
+msgid "PLAY MEDIA"
+msgstr "שפּיל מעדיע"
 
 msgid "Playback error: %s"
 msgstr "פּלייבאַק טעות: %s"
@@ -330,3 +330,6 @@ msgstr "טעות"
 
 msgid "loading"
 msgstr ""
+
+#~ msgid "PLAY"
+#~ msgstr "שפּיל"

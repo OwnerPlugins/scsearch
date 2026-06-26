@@ -202,8 +202,8 @@ msgstr "Gjin streamingkeppelings fûn"
 msgid "OnlineSerieTV - TV Series"
 msgstr ""
 
-msgid "PLAY"
-msgstr "TOANIELSTIK"
+msgid "PLAY MEDIA"
+msgstr ""
 
 msgid "Playback error: %s"
 msgstr "Ofspielflater: %s"
@@ -330,3 +330,6 @@ msgstr "fersin"
 
 msgid "loading"
 msgstr "laden"
+
+#~ msgid "PLAY"
+#~ msgstr "TOANIELSTIK"

@@ -202,8 +202,8 @@ msgstr "స్ట్రీమింగ్ లింక్‌లు ఏవీ క
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV సిరీస్"
 
-msgid "PLAY"
-msgstr "ఆడండి"
+msgid "PLAY MEDIA"
+msgstr "మీడియా ప్లే చేయండి"
 
 msgid "Playback error: %s"
 msgstr "ప్లేబ్యాక్ లోపం: %s"
@@ -330,3 +330,6 @@ msgstr "లోపం"
 
 msgid "loading"
 msgstr "లోడ్ అవుతోంది"
+
+#~ msgid "PLAY"
+#~ msgstr "ఆడండి"

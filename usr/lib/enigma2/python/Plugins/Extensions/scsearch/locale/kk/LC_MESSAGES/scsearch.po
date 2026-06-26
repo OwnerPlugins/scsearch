@@ -202,8 +202,8 @@ msgstr "Ағындық сілтемелер табылмады"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Телехикая"
 
-msgid "PLAY"
-msgstr "ОЙНАУ"
+msgid "PLAY MEDIA"
+msgstr "МЕДИЯНЫ ОЙНАТУ"
 
 msgid "Playback error: %s"
 msgstr "Ойнату қатесі: %s"
@@ -330,3 +330,6 @@ msgstr "қате"
 
 msgid "loading"
 msgstr "жүктеу"
+
+#~ msgid "PLAY"
+#~ msgstr "ОЙНАУ"

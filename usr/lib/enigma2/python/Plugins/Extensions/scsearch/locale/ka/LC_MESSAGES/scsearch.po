@@ -202,8 +202,8 @@ msgstr "ნაკადის ბმულები ვერ მოიძებ
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - სერიალი"
 
-msgid "PLAY"
-msgstr "ითამაშე"
+msgid "PLAY MEDIA"
+msgstr ""
 
 msgid "Playback error: %s"
 msgstr "დაკვრის შეცდომა: %s"
@@ -330,3 +330,6 @@ msgstr "შეცდომა"
 
 msgid "loading"
 msgstr "ჩატვირთვა"
+
+#~ msgid "PLAY"
+#~ msgstr "ითამაშე"

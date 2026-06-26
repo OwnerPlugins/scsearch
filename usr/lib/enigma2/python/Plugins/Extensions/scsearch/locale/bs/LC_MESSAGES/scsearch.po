@@ -202,8 +202,8 @@ msgstr "Nisu pronađeni linkovi za streaming"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV serije"
 
-msgid "PLAY"
-msgstr "IGRAJ"
+msgid "PLAY MEDIA"
+msgstr ""
 
 msgid "Playback error: %s"
 msgstr "Greška pri reprodukciji: %s"
@@ -330,3 +330,6 @@ msgstr "greška"
 
 msgid "loading"
 msgstr ""
+
+#~ msgid "PLAY"
+#~ msgstr "IGRAJ"

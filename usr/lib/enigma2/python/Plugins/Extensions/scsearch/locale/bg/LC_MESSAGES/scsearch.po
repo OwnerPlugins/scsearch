@@ -203,8 +203,8 @@ msgstr "Няма намерени връзки за стрийминг"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - ТВ сериали"
 
-msgid "PLAY"
-msgstr "ИГРАЙТЕ"
+msgid "PLAY MEDIA"
+msgstr "ПУСКАНЕ НА МЕДИЯ"
 
 msgid "Playback error: %s"
 msgstr "Грешка при възпроизвеждане: %s"
@@ -331,3 +331,6 @@ msgstr "грешка"
 
 msgid "loading"
 msgstr "зареждане"
+
+#~ msgid "PLAY"
+#~ msgstr "ИГРАЙТЕ"
