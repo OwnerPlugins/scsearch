@@ -202,8 +202,8 @@ msgstr "No s'han trobat enllaços de transmissió"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Sèrie de televisió"
 
-msgid "PLAY"
-msgstr "JUGAR"
+msgid "PLAY MEDIA"
+msgstr ""
 
 msgid "Playback error: %s"
 msgstr "Error de reproducció: %s"
@@ -330,3 +330,6 @@ msgstr ""
 
 msgid "loading"
 msgstr "carregant"
+
+#~ msgid "PLAY"
+#~ msgstr "JUGAR"

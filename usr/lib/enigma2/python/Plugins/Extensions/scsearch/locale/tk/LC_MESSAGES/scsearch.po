@@ -202,8 +202,8 @@ msgstr "Akym baglanyşyklary tapylmady"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - teleseriallar"
 
-msgid "PLAY"
-msgstr "Oýun"
+msgid "PLAY MEDIA"
+msgstr "Mediýa oýnamak"
 
 msgid "Playback error: %s"
 msgstr "Aýtdyrmak säwligi:% s"
@@ -330,3 +330,6 @@ msgstr "ýalňyşlyk"
 
 msgid "loading"
 msgstr "ýüklemek"
+
+#~ msgid "PLAY"
+#~ msgstr "Oýun"

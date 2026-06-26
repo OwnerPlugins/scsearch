@@ -203,8 +203,8 @@ msgstr "Nem található streaming link"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV sorozat"
 
-msgid "PLAY"
-msgstr "JÁTÉK"
+msgid "PLAY MEDIA"
+msgstr "MÉDIA LEJÁTSZÁSA"
 
 msgid "Playback error: %s"
 msgstr "Lejátszási hiba: %s"
@@ -331,3 +331,6 @@ msgstr "hiba"
 
 msgid "loading"
 msgstr "terhelés"
+
+#~ msgid "PLAY"
+#~ msgstr "JÁTÉK"

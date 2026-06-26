@@ -202,8 +202,8 @@ msgstr "کوئی سلسلہ بندی کے لنکس نہیں ملے"
 msgid "OnlineSerieTV - TV Series"
 msgstr "آن لائن سیری ٹی وی - ٹی وی سیریز"
 
-msgid "PLAY"
-msgstr "کھیلیں"
+msgid "PLAY MEDIA"
+msgstr "میڈیا چلائیں۔"
 
 msgid "Playback error: %s"
 msgstr "پلے بیک کی خرابی: %s"
@@ -330,3 +330,6 @@ msgstr "غلطی"
 
 msgid "loading"
 msgstr "لوڈ ہو رہا ہے"
+
+#~ msgid "PLAY"
+#~ msgstr "کھیلیں"

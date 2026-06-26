@@ -202,8 +202,8 @@ msgstr "Engir streymistenglar fundust"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - sjónvarpsþættir"
 
-msgid "PLAY"
-msgstr "SPILA"
+msgid "PLAY MEDIA"
+msgstr "SPILA FJÖLMIÐLAR"
 
 msgid "Playback error: %s"
 msgstr "Spilunarvilla: %s"
@@ -330,3 +330,6 @@ msgstr "villa"
 
 msgid "loading"
 msgstr "hleðsla"
+
+#~ msgid "PLAY"
+#~ msgstr "SPILA"

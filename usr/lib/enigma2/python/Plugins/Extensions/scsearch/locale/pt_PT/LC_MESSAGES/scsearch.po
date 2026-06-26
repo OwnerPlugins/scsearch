@@ -202,8 +202,8 @@ msgstr "Nenhum link de streaming encontrado"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Série de TV"
 
-msgid "PLAY"
-msgstr "JOGAR"
+msgid "PLAY MEDIA"
+msgstr "REPRODUZIR MÍDIA"
 
 msgid "Playback error: %s"
 msgstr "Erro de reprodução: %s"
@@ -330,3 +330,6 @@ msgstr "erro"
 
 msgid "loading"
 msgstr "carregando"
+
+#~ msgid "PLAY"
+#~ msgstr "JOGAR"

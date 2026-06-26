@@ -203,8 +203,8 @@ msgstr "Inga strömmande länkar hittades"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV-serie"
 
-msgid "PLAY"
-msgstr "SPELA"
+msgid "PLAY MEDIA"
+msgstr "SPELA MEDIA"
 
 msgid "Playback error: %s"
 msgstr "Uppspelningsfel: %s"
@@ -331,3 +331,6 @@ msgstr "fel"
 
 msgid "loading"
 msgstr "belastning"
+
+#~ msgid "PLAY"
+#~ msgstr "SPELA"

@@ -202,8 +202,8 @@ msgstr "Heb ganfod dolenni ffrydio"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Cyfres Deledu"
 
-msgid "PLAY"
-msgstr "CHWARAE"
+msgid "PLAY MEDIA"
+msgstr "CYFRYNGAU CHWARAE"
 
 msgid "Playback error: %s"
 msgstr "Gwall chwarae: %s"
@@ -330,3 +330,6 @@ msgstr "gwall"
 
 msgid "loading"
 msgstr "llwytho"
+
+#~ msgid "PLAY"
+#~ msgstr "CHWARAE"

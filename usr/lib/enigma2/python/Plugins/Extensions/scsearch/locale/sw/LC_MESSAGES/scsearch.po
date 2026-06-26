@@ -202,8 +202,8 @@ msgstr "Hakuna viungo vya kutiririsha vilivyopatikana"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Mfululizo wa TV"
 
-msgid "PLAY"
-msgstr "CHEZA"
+msgid "PLAY MEDIA"
+msgstr "CHEZA VYOMBO VYA HABARI"
 
 msgid "Playback error: %s"
 msgstr "Hitilafu ya kucheza tena: %s"
@@ -330,3 +330,6 @@ msgstr "kosa"
 
 msgid "loading"
 msgstr "kupakia"
+
+#~ msgid "PLAY"
+#~ msgstr "CHEZA"

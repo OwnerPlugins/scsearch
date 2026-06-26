@@ -202,8 +202,8 @@ msgstr "Oqimli havolalar topilmadi"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Seriallar"
 
-msgid "PLAY"
-msgstr "O‘YNA"
+msgid "PLAY MEDIA"
+msgstr "MEDIA OYNATING"
 
 msgid "Playback error: %s"
 msgstr "Ijro xatosi: %s"
@@ -330,3 +330,6 @@ msgstr "xato"
 
 msgid "loading"
 msgstr "yuklash"
+
+#~ msgid "PLAY"
+#~ msgstr "O‘YNA"

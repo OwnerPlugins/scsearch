@@ -203,8 +203,8 @@ msgstr "Fant ingen lenker for strømming"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV-serie"
 
-msgid "PLAY"
-msgstr "SPILLE"
+msgid "PLAY MEDIA"
+msgstr "SPILL MEDIA"
 
 msgid "Playback error: %s"
 msgstr "Avspillingsfeil: %s"
@@ -331,3 +331,6 @@ msgstr "feil"
 
 msgid "loading"
 msgstr "lasting"
+
+#~ msgid "PLAY"
+#~ msgstr "SPILLE"

@@ -202,8 +202,8 @@ msgstr "Nuk u gjetën lidhje transmetimi"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Seriale televizive"
 
-msgid "PLAY"
-msgstr "LUAJ"
+msgid "PLAY MEDIA"
+msgstr "LUANI MEDIA"
 
 msgid "Playback error: %s"
 msgstr "Gabim riprodhimi: %s"
@@ -330,3 +330,6 @@ msgstr "gabim"
 
 msgid "loading"
 msgstr "ngarkim"
+
+#~ msgid "PLAY"
+#~ msgstr "LUAJ"

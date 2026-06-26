@@ -202,8 +202,8 @@ msgstr "कुनै स्ट्रिमिङ लिङ्कहरू फे
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - टिभी श्रृंखला"
 
-msgid "PLAY"
-msgstr "खेल्नुहोस्"
+msgid "PLAY MEDIA"
+msgstr "मिडिया प्ले गर्नुहोस्"
 
 msgid "Playback error: %s"
 msgstr "प्लेब्याक त्रुटि: %s"
@@ -330,3 +330,6 @@ msgstr "त्रुटि"
 
 msgid "loading"
 msgstr "लोड गर्दै"
+
+#~ msgid "PLAY"
+#~ msgstr "खेल्नुहोस्"

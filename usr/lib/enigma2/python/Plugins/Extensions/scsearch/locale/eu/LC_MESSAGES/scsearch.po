@@ -202,8 +202,8 @@ msgstr "Ez da aurkitu streaming estekarik"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Telesaila"
 
-msgid "PLAY"
-msgstr "JOLASTU"
+msgid "PLAY MEDIA"
+msgstr "JOLAS MEDIA"
 
 msgid "Playback error: %s"
 msgstr "Erreprodukzio-errorea: %s"
@@ -330,3 +330,6 @@ msgstr "akatsa"
 
 msgid "loading"
 msgstr "kargatzen"
+
+#~ msgid "PLAY"
+#~ msgstr "JOLASTU"

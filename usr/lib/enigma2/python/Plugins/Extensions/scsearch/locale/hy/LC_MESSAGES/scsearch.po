@@ -202,8 +202,8 @@ msgstr "Հոսքային հղումներ չեն գտնվել"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Հեռուստասերիալ"
 
-msgid "PLAY"
-msgstr "ԽԱՂԱԼ"
+msgid "PLAY MEDIA"
+msgstr ""
 
 msgid "Playback error: %s"
 msgstr "Նվագարկման սխալ՝ %s"
@@ -330,3 +330,6 @@ msgstr "սխալ"
 
 msgid "loading"
 msgstr "բեռնում"
+
+#~ msgid "PLAY"
+#~ msgstr "ԽԱՂԱԼ"

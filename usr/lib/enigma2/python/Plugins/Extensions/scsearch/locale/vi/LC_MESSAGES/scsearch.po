@@ -203,8 +203,8 @@ msgstr "Không tìm thấy liên kết phát trực tuyến"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Phim Truyền Hình"
 
-msgid "PLAY"
-msgstr "CHƠI"
+msgid "PLAY MEDIA"
+msgstr "CHƠI PHƯƠNG TIỆN"
 
 msgid "Playback error: %s"
 msgstr "Lỗi phát lại: %s"
@@ -331,3 +331,6 @@ msgstr "lỗi"
 
 msgid "loading"
 msgstr "đang tải"
+
+#~ msgid "PLAY"
+#~ msgstr "CHƠI"

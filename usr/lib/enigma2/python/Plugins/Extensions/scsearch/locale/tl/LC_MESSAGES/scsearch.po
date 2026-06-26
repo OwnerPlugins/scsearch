@@ -202,8 +202,8 @@ msgstr "Walang nakitang streaming link"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serye sa TV"
 
-msgid "PLAY"
-msgstr "MAGLARO"
+msgid "PLAY MEDIA"
+msgstr "MAGLARO NG MEDIA"
 
 msgid "Playback error: %s"
 msgstr "Error sa pag-playback: %s"
@@ -330,3 +330,6 @@ msgstr "pagkakamali"
 
 msgid "loading"
 msgstr "naglo-load"
+
+#~ msgid "PLAY"
+#~ msgstr "MAGLARO"

@@ -9,6 +9,7 @@
 
 
 
+
 msgid "%d titles"
 msgstr ""
 
@@ -195,7 +196,7 @@ msgstr ""
 msgid "OnlineSerieTV - TV Series"
 msgstr ""
 
-msgid "PLAY"
+msgid "PLAY MEDIA"
 msgstr ""
 
 msgid "Playback error: %s"

@@ -202,8 +202,8 @@ msgstr "ไม่พบลิงก์สตรีมมิ่ง"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - ละครโทรทัศน์"
 
-msgid "PLAY"
-msgstr "เล่น"
+msgid "PLAY MEDIA"
+msgstr "เล่นสื่อ"
 
 msgid "Playback error: %s"
 msgstr "ข้อผิดพลาดในการเล่น: %s"
@@ -330,3 +330,6 @@ msgstr "ข้อผิดพลาด"
 
 msgid "loading"
 msgstr "กำลังโหลด"
+
+#~ msgid "PLAY"
+#~ msgstr "เล่น"
