@@ -21,8 +21,7 @@ class MaxStreamExtractor:
             'DNT': '1',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
-            'Cache-Control': 'max-age=0'
-        }
+            'Cache-Control': 'max-age=0'}
 
     def _unpack_js(self, packed_js):
         """Simple JavaScript unpacker for eval(function(p,a,c,k,e,d))"""
@@ -50,14 +49,18 @@ class MaxStreamExtractor:
     def extract(self, url):
         """Extract video URL from maxstream page"""
         html = self._download(url)
-        log.info("MAXSTREAM (extract): Downloaded HTML length: {}".format(len(html)))
+        log.info(
+            "MAXSTREAM (extract): Downloaded HTML length: {}".format(
+                len(html)))
         if not html:
             return None
 
         # Look for iframe
         iframe = self._find_match(html, r'<iframe[^>]+src=["\']([^"\']+)["\']')
         if iframe:
-            log.info("MAXSTREAM (extract): Iframe found: {}".format(len(iframe)))
+            log.info(
+                "MAXSTREAM (extract): Iframe found: {}".format(
+                    len(iframe)))
             html = self._download(iframe)
             if not html:
                 log.info("MAXSTREAM (extract): Iframe HTML not found")
@@ -85,7 +88,8 @@ class MaxStreamExtractor:
         js_match = self._find_match(
             html, r'(eval\s*\(\s*function\s*\([^}]+\}\s*\([^)]+\)\s*\))')
         if js_match:
-            log.info("MAXSTREAM (extract): Found packed HTML: {}".format(js_match))
+            log.info(
+                "MAXSTREAM (extract): Found packed HTML: {}".format(js_match))
             unpacked = self._unpack_js(js_match)
 
             # Search in unpacked JS
@@ -93,7 +97,8 @@ class MaxStreamExtractor:
                 matches = re.findall(pattern, unpacked, re.IGNORECASE)
                 if matches:
                     video_url = matches[0]
-                    log.info("MAXSTREAM (extract): Resolved HTML, new URL: {}".format(video_url))
+                    log.info(
+                        "MAXSTREAM (extract): Resolved HTML, new URL: {}".format(video_url))
                     if '.m3u8' in video_url:
                         return self._get_best_quality(video_url)
                     return video_url
@@ -357,7 +362,8 @@ class MaxStreamExtractor:
                         "MAXSTREAM: Captcha callback ignored (already submitted)")
                     return
 
-                log.info("MAXSTREAM: Captcha callback received: {}".format(result))
+                log.info(
+                    "MAXSTREAM: Captcha callback received: {}".format(result))
                 if result:
                     submitted = True
                     # Start the submit process in a new thread
@@ -375,7 +381,8 @@ class MaxStreamExtractor:
                 captcha_data,
                 captcha_callback)
         except Exception as e:
-            log.error("MAXSTREAM: Error handling captcha asynchronously: {}".format(e))
+            log.error(
+                "MAXSTREAM: Error handling captcha asynchronously: {}".format(e))
             callback(None)
 
     def _submit_captcha_and_retry(
@@ -559,7 +566,8 @@ class MaxStreamExtractor:
             match = re.search(pattern, data, re.DOTALL | re.IGNORECASE)
             result = match.group(1) if match else ""
             if result:
-                log.info("MAXSTREAM: Pattern found: {}...".format(pattern[:50]))
+                log.info(
+                    "MAXSTREAM: Pattern found: {}...".format(pattern[:50]))
             return result
         except Exception as e:
             log.error("MAXSTREAM: Pattern search error: {}".format(e))
@@ -607,7 +615,8 @@ class MaxStreamExtractor:
     def extract_video_url(self, url):
         """Extract video URL from maxstream page"""
         try:
-            log.info("MAXSTREAM: Starting video extraction from: {}".format(url))
+            log.info(
+                "MAXSTREAM: Starting video extraction from: {}".format(url))
 
             # First GET request to get Location header
             headers_copy = self.headers.copy()
@@ -663,7 +672,8 @@ class MaxStreamExtractor:
 
                         if iframe_match:
                             iframe_url = iframe_match.group(1)
-                            log.info("MAXSTREAM: Iframe found: {}".format(iframe_url))
+                            log.info(
+                                "MAXSTREAM: Iframe found: {}".format(iframe_url))
 
                             # Download iframe content
                             req3 = urllib.request.Request(
@@ -710,8 +720,8 @@ class MaxStreamExtractor:
                 return None
 
             obfuscated_string = script_match.group(1)
-            log.info(
-                "MAXSTREAM: Obfuscated string found: {}...".format(obfuscated_string[:100]))
+            log.info("MAXSTREAM: Obfuscated string found: {}...".format(
+                obfuscated_string[:100]))
 
             # Decode according to the pattern from the log
             # split("").reduce((v,g,L)=>L%2?v+g:g+v).split("z")
@@ -744,7 +754,9 @@ class MaxStreamExtractor:
             ]
 
             for i, pattern in enumerate(video_patterns, 1):
-                log.info("MAXSTREAM: Testing decode pattern {}: {}".format(i, pattern))
+                log.info(
+                    "MAXSTREAM: Testing decode pattern {}: {}".format(
+                        i, pattern))
                 match = re.search(pattern, js_code, re.IGNORECASE)
                 if match:
                     video_url = match.group(1)
@@ -754,12 +766,14 @@ class MaxStreamExtractor:
                         return self._get_best_quality(video_url)
                     return video_url
                 else:
-                    log.info("MAXSTREAM: Decode pattern {} did not match".format(i))
+                    log.info(
+                        "MAXSTREAM: Decode pattern {} did not match".format(i))
 
             return None
 
         except Exception as e:
-            log.error("MAXSTREAM: Error decoding obfuscated script: {}".format(e))
+            log.error(
+                "MAXSTREAM: Error decoding obfuscated script: {}".format(e))
             return None
 
 
