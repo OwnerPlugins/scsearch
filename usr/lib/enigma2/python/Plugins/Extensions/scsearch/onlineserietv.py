@@ -18,7 +18,7 @@ def load_olstv_cookie():
                 if line.strip().startswith('CookieOLSTV='):
                     return line.strip().split('=', 1)[1].strip()
     except Exception as e:
-        log.error(f"Error loading OLSTV cookie: {e}")
+        log.error("Error loading OLSTV cookie: {}".format(e))
     return None
 
 
@@ -51,12 +51,12 @@ class OnlineSerieTV:
         import time
         for i in range(retries):
             try:
-                log.info(f"OLSTV: Attempt {i + 1}/{retries} for URL: {url}")
+                log.info("OLSTV: Attempt {}/{} for URL: {}".format(i + 1, retries, url))
                 resp = self.session.get(url, timeout=20)
 
                 if resp.status_code == 503 and "cf-browser-verification" in resp.text:
                     log.warning(
-                        f"OLSTV: Cloudflare challenge detected. Waiting {delay} seconds...")
+                        "OLSTV: Cloudflare challenge detected. Waiting {} seconds...".format(delay))
                     time.sleep(delay)
                     continue  # Retry
 
@@ -67,26 +67,26 @@ class OnlineSerieTV:
                 return resp.text
 
             except requests.exceptions.RequestException as e:
-                log.error(f"OLSTV: Attempt {i + 1} failed: {e}")
+                log.error("OLSTV: Attempt {} failed: {}".format(i + 1, e))
                 time.sleep(2)
 
-        log.error(f"OLSTV: Unable to access {url} after {retries} attempts.")
+        log.error("OLSTV: Unable to access {} after {} attempts.".format(url, retries))
         return None
 
     def search_series(self, query):
         """Search for TV series on onlineserietv."""
         log.info("### ONLINESERIETV SEARCH START ###")
-        log.info(f"ONLINESERIETV: Query received: '{query}'")
-        log.info(f"ONLINESERIETV: Headers used: {dict(self.session.headers)}")
+        log.info("ONLINESERIETV: Query received: '{}'".format(query))
+        log.info("ONLINESERIETV: Headers used: {}".format(dict(self.session.headers)))
 
         encoded_query = urllib.parse.quote_plus(query)
-        search_url = f"{self.base_url}/?s={encoded_query}"
+        search_url = "{}/?s={}".format(self.base_url, encoded_query)
 
         html = self._make_request(search_url)
         if html:
-            log.info(f"OLSTV: HTML received - Length: {len(html)}")
+            log.info("OLSTV: HTML received - Length: {}".format(len(html)))
             results = self._parse_search_results(html)
-            log.info(f"ONLINESERIETV: Found {len(results)} results.")
+            log.info("ONLINESERIETV: Found {} results.".format(len(results)))
             log.info("### ONLINESERIETV SEARCH END ###")
             return results
 
@@ -99,7 +99,7 @@ class OnlineSerieTV:
 
         try:
             log.info("ONLINESERIETV: Starting HTML parsing...")
-            log.info(f"ONLINESERIETV: First 500 chars of HTML: {html[:500]}")
+            log.info("ONLINESERIETV: First 500 chars of HTML: {}".format(html[:500]))
 
             # Find all movie elements directly in the HTML
             movie_pattern = r'<div class="movie">.*?<img src="([^"]+)".*?<a href="([^"]+)">.*?<h2>([^<]+)</h2>.*?</div>'
@@ -126,18 +126,16 @@ class OnlineSerieTV:
                             'source': 'onlineserietv'
                         }
                         results.append(result)
-                        log.info(f"ONLINESERIETV: TV series added: '{title}'")
+                        log.info("ONLINESERIETV: TV series added: '{}'".format(title))
                     else:
                         log.info(
-                            f"ONLINESERIETV: '{title}' is a movie, skipped")
+                            "ONLINESERIETV: '{}' is a movie, skipped".format(title))
 
                 except Exception as e:
-                    log.error(
-                        f"ONLINESERIETV: Error parsing element {
-                            i + 1}: {e}")
+                    log.error("ONLINESERIETV: Error parsing element {}: {}".format(i + 1, e))
 
         except Exception as e:
-            log.error(f"ONLINESERIETV: General parsing error: {e}")
+            log.error("ONLINESERIETV: General parsing error: {}".format(e))
 
         return results
 
@@ -145,21 +143,21 @@ class OnlineSerieTV:
         """Get series details by parsing JSON-LD and season/episode info."""
         try:
             log.info("### ONLINESERIETV DETAILS START ###")
-            log.info(f"ONLINESERIETV: Requesting details for URL: {url}")
-            log.info(f"ONLINESERIETV: Title: {title}")
+            log.info("ONLINESERIETV: Requesting details for URL: {}".format(url))
+            log.info("ONLINESERIETV: Title: {}".format(title))
 
             html = self._make_request(url)
             if html:
                 log.info(
-                    f"ONLINESERIETV: Details HTML received - Length: {len(html)}")
+                    "ONLINESERIETV: Details HTML received - Length: {}".format(len(html)))
                 details = self._parse_series_details(html, url, title)
-                log.info(f"ONLINESERIETV: Details extracted: {details}")
+                log.info("ONLINESERIETV: Details extracted: {}".format(details))
                 log.info("### ONLINESERIETV DETAILS END ###")
                 return details
 
         except Exception as e:
             log.error(
-                f"ONLINESERIETV: Error extracting details from {url}: {e}")
+                "ONLINESERIETV: Error extracting details from {}: {}".format(url, e))
             log.error("### ONLINESERIETV DETAILS FAILED ###")
             return None
 
@@ -180,10 +178,10 @@ class OnlineSerieTV:
             try:
                 json_data = json.loads(json_ld_match.group(1))
             except json.JSONDecodeError as je:
-                log.error(f"ONLINESERIETV: Failed to parse JSON-LD: {je}")
+                log.error("ONLINESERIETV: Failed to parse JSON-LD: {}".format(je))
                 return None
 
-            log.info(f"ONLINESERIETV: JSON-LD parsed: {json_data}")
+            log.info("ONLINESERIETV: JSON-LD parsed: {}".format(json_data))
 
             # Extract base info
             series_title = json_data.get('name', title)
@@ -210,7 +208,7 @@ class OnlineSerieTV:
                 rating_value = json_data['aggregateRating'].get(
                     'ratingValue', '')
                 if rating_value:
-                    rating = f"{rating_value}/10"
+                    rating = "{}/10".format(rating_value)
 
             # Extract actors
             actors = []
@@ -244,11 +242,11 @@ class OnlineSerieTV:
                 'url': url
             }
 
-            log.info(f"ONLINESERIETV: Details extracted: {details}")
+            log.info("ONLINESERIETV: Details extracted: {}".format(details))
             return details
 
         except Exception as e:
-            log.error(f"ONLINESERIETV: Error parsing series details: {e}")
+            log.error("ONLINESERIETV: Error parsing series details: {}".format(e))
             return None
 
     def _extract_seasons_info(self, html):
@@ -293,7 +291,7 @@ class OnlineSerieTV:
                     total_episodes = word_to_num.get(episode_str, 1)
 
                 log.info(
-                    f"ONLINESERIETV: Found {total_seasons} seasons and {total_episodes} episodes")
+                    "ONLINESERIETV: Found {} seasons and {} episodes".format(total_seasons, total_episodes))
 
                 return {
                     'total_seasons': total_seasons,
@@ -305,7 +303,7 @@ class OnlineSerieTV:
             return None
 
         except Exception as e:
-            log.error(f"ONLINESERIETV: Error extracting season info: {e}")
+            log.error("ONLINESERIETV: Error extracting season info: {}".format(e))
             return None
 
     def _extract_stream_base_url(self, html):
@@ -319,14 +317,14 @@ class OnlineSerieTV:
             if iframe_match:
                 base_url = iframe_match.group(1)
                 log.info(
-                    f"ONLINESERIETV: Streaming base URL found: {base_url}")
+                    "ONLINESERIETV: Streaming base URL found: {}".format(base_url))
                 return base_url
 
             log.warning("ONLINESERIETV: Streaming base URL not found")
             return None
 
         except Exception as e:
-            log.error(f"ONLINESERIETV: Error extracting base URL: {e}")
+            log.error("ONLINESERIETV: Error extracting base URL: {}".format(e))
             return None
 
     def get_maxstream_url(
@@ -340,12 +338,13 @@ class OnlineSerieTV:
         try:
             log.info("### ONLINESERIETV MAXSTREAM START ###")
             log.info(
-                f"ONLINESERIETV: Requesting MaxStream for {series_main_url} S{season}E{episode}")
+                "ONLINESERIETV: Requesting MaxStream for {} S{}E{}".format(
+                    series_main_url, season, episode))
 
             html = self._make_request(series_main_url)
             if html:
                 log.info(
-                    f"ONLINESERIETV: Series HTML received - Length: {len(html)}")
+                    "ONLINESERIETV: Series HTML received - Length: {}".format(len(html)))
                 maxstream_url = self._extract_maxstream_for_episode(
                     html, season, episode)
             else:
@@ -353,7 +352,7 @@ class OnlineSerieTV:
 
             if maxstream_url:
                 log.info(
-                    f"ONLINESERIETV: MaxStream URL found: {maxstream_url}")
+                    "ONLINESERIETV: MaxStream URL found: {}".format(maxstream_url))
 
                 # Use maxstream_extractor to resolve the URL
                 try:
@@ -361,7 +360,7 @@ class OnlineSerieTV:
                     extractor = MaxStreamExtractor()
                 except Exception as ie:
                     log.error(
-                        f"ONLINESERIETV: Error importing maxstream_extractor: {ie}")
+                        "ONLINESERIETV: Error importing maxstream_extractor: {}".format(ie))
                     return None
 
                 log.info("ONLINESERIETV: Resolving MaxStream with extractor...")
@@ -375,7 +374,7 @@ class OnlineSerieTV:
                     callback(None)
 
         except Exception as e:
-            log.error(f"ONLINESERIETV: Error extracting MaxStream: {e}")
+            log.error("ONLINESERIETV: Error extracting MaxStream: {}".format(e))
             log.error("### ONLINESERIETV MAXSTREAM FAILED ###")
             if callback:
                 callback(None)
@@ -384,17 +383,15 @@ class OnlineSerieTV:
         """Extract MaxStream URL for a specific episode, isolating the correct season block."""
         try:
             log.info(
-                f"ONLINESERIETV: Looking for MaxStream for S{
-                    season:02d}E{
-                    episode:02d}...")
+                "ONLINESERIETV: Looking for MaxStream for S{:02d}E{:02d}...".format(season, episode))
 
             # 1. Isolate the HTML block for the correct season
             season_start_pattern = re.compile(
-                rf"<b>Stagione\s+{season}\s*-", re.IGNORECASE)
+                r"<b>Stagione\s+{}\s*-".format(season), re.IGNORECASE)
             season_start_match = season_start_pattern.search(html)
 
             if not season_start_match:
-                log.error(f"ONLINESERIETV: Season {season} header not found.")
+                log.error("ONLINESERIETV: Season {} header not found.".format(season))
                 return None
 
             # Define search area: from the found season onwards
@@ -402,7 +399,7 @@ class OnlineSerieTV:
 
             # Find the start of the next season to delimit the block
             next_season_start_pattern = re.compile(
-                rf"<b>Stagione\s+{season + 1}\s*-", re.IGNORECASE)
+                r"<b>Stagione\s+{}\s*-".format(season + 1), re.IGNORECASE)
             next_season_match = next_season_start_pattern.search(search_area)
 
             season_block = search_area
@@ -410,10 +407,10 @@ class OnlineSerieTV:
                 season_block = search_area[:next_season_match.start()]
 
             log.info(
-                f"ONLINESERIETV: HTML block for Season {season} isolated.")
+                "ONLINESERIETV: HTML block for Season {} isolated.".format(season))
 
             # 2. Look for the specific episode row within the season block
-            episode_marker = f"{season:02d}x{episode:02d}"
+            episode_marker = "{:02d}x{:02d}".format(season, episode)
 
             pattern = re.compile(
                 re.escape(episode_marker) +
@@ -427,16 +424,16 @@ class OnlineSerieTV:
             if match:
                 url = match.group(1)
                 log.info(
-                    f"ONLINESERIETV: MaxStream URL successfully extracted: {url}")
+                    "ONLINESERIETV: MaxStream URL successfully extracted: {}".format(url))
                 return url
 
             log.error(
-                f"ONLINESERIETV: MaxStream link for episode {episode_marker} not found in Season {season} block.")
+                "ONLINESERIETV: MaxStream link for episode {} not found in Season {} block.".format(episode_marker, season))
             return None
 
         except Exception as e:
             log.error(
-                f"ONLINESERIETV: Error extracting MaxStream for episode: {e}")
+                "ONLINESERIETV: Error extracting MaxStream for episode: {}".format(e))
             return None
 
 
@@ -445,19 +442,19 @@ def search_onlineserietv(query):
     try:
         log.info("### ONLINESERIETV FUNCTION START ###")
         log.info(
-            f"ONLINESERIETV: Calling search function with query: '{query}'")
+            "ONLINESERIETV: Calling search function with query: '{}'".format(query))
 
         ostv = OnlineSerieTV()
         log.info("ONLINESERIETV: OnlineSerieTV instance created")
 
         results = ostv.search_series(query)
         log.info(
-            f"ONLINESERIETV: Function completed - Results: {len(results)}")
+            "ONLINESERIETV: Function completed - Results: {}".format(len(results)))
         log.info("### ONLINESERIETV FUNCTION END ###")
 
         return results
     except Exception as e:
-        log.error(f"ONLINESERIETV: ERROR in search function: {e}")
+        log.error("ONLINESERIETV: ERROR in search function: {}".format(e))
         log.error("### ONLINESERIETV FUNCTION FAILED ###")
         return []
 
@@ -471,7 +468,7 @@ def get_onlineserietv_details(url, title):
         log.info("### ONLINESERIETV GET_DETAILS END ###")
         return details
     except Exception as e:
-        log.error(f"ONLINESERIETV: Error in get_details: {e}")
+        log.error("ONLINESERIETV: Error in get_details: {}".format(e))
         log.error("### ONLINESERIETV GET_DETAILS FAILED ###")
         return None
 
@@ -486,10 +483,10 @@ def get_onlineserietv_stream_url(
     try:
         log.info("### ONLINESERIETV STREAM_URL START ###")
         log.info(
-            f"ONLINESERIETV: Requesting stream for {series_url} S{season}E{episode}")
+            "ONLINESERIETV: Requesting stream for {} S{}E{}".format(series_url, season, episode))
 
         ostv = OnlineSerieTV()
         ostv.get_maxstream_url(series_url, season, episode, session, callback)
     except Exception as e:
-        log.error(f"ONLINESERIETV: Error in get_stream_url: {e}")
+        log.error("ONLINESERIETV: Error in get_stream_url: {}".format(e))
         log.error("### ONLINESERIETV STREAM_URL FAILED ###")

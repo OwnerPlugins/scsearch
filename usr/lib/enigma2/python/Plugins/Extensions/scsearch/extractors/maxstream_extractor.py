@@ -223,11 +223,11 @@ class MaxStreamExtractor:
         """Bypass the uprot link with captcha handling"""
         try:
             log.info("MAXSTREAM_UPROT: ===== STARTING UPROT BYPASS =====")
-            log.info(f"MAXSTREAM_UPROT: URL to bypass: {uprot_url}")
+            log.info("MAXSTREAM_UPROT: URL to bypass: {}".format(uprot_url))
 
             headers_copy = self.headers.copy()
             headers_copy['Referer'] = 'https://onlineserietv.com/'
-            log.info(f"MAXSTREAM_UPROT: Headers: {headers_copy}")
+            log.info("MAXSTREAM_UPROT: Headers: {}".format(headers_copy))
 
             req = urllib.request.Request(uprot_url, headers=headers_copy)
 
@@ -239,19 +239,19 @@ class MaxStreamExtractor:
                 # Extract PHPSESSID from response cookies
                 cookies_header = response.getheader('Set-Cookie')
                 log.info(
-                    f"MAXSTREAM_UPROT: Set-Cookie header: {cookies_header}")
+                    "MAXSTREAM_UPROT: Set-Cookie header: {}".format(cookies_header))
                 if cookies_header:
                     phpsessid_match = re.search(
                         r'PHPSESSID=([^;\s]+)', cookies_header)
                     if phpsessid_match:
                         phpsessid = phpsessid_match.group(1)
                         log.info(
-                            f"MAXSTREAM_UPROT: PHPSESSID extracted: {phpsessid}")
+                            "MAXSTREAM_UPROT: PHPSESSID extracted: {}".format(phpsessid))
                 html = response.read().decode('utf-8')
                 log.info(
-                    f"MAXSTREAM_UPROT: HTML received - Length: {len(html)}")
+                    "MAXSTREAM_UPROT: HTML received - Length: {}".format(len(html)))
                 log.info(
-                    f"MAXSTREAM_UPROT: HTML (first 2000 chars): {html[:2000]}")
+                    "MAXSTREAM_UPROT: HTML (first 2000 chars): {}".format(html[:2000]))
 
             # Check for captcha
             captcha_pattern = r'data:image/[^;]+;base64,([A-Za-z0-9+/=]+)'
@@ -278,15 +278,15 @@ class MaxStreamExtractor:
             maxstream_pattern = r'https://maxstream\.video/[^"\s]+'
             maxstream_match = re.search(maxstream_pattern, html)
             log.info(
-                f"MAXSTREAM_UPROT: Searching for MaxStream URL with pattern: {maxstream_pattern}")
+                "MAXSTREAM_UPROT: Searching for MaxStream URL with pattern: {}".format(maxstream_pattern))
             log.info(
-                f"MAXSTREAM_UPROT: MaxStream URL found: {
-                    maxstream_match is not None}")
+                "MAXSTREAM_UPROT: MaxStream URL found: {}".format(
+                    maxstream_match is not None))
 
             if maxstream_match:
                 maxstream_url = maxstream_match.group(0)
                 log.info(
-                    f"MAXSTREAM_UPROT: MaxStream URL extracted: {maxstream_url}")
+                    "MAXSTREAM_UPROT: MaxStream URL extracted: {}".format(maxstream_url))
                 log.info(
                     "MAXSTREAM_UPROT: ===== ENDING UPROT BYPASS (SUCCESS) =====")
                 if callback:
@@ -303,9 +303,9 @@ class MaxStreamExtractor:
                     return None
 
         except Exception as e:
-            log.error(f"MAXSTREAM_UPROT: Error bypassing uprot: {e}")
+            log.error("MAXSTREAM_UPROT: Error bypassing uprot: {}".format(e))
             import traceback
-            log.error(f"MAXSTREAM_UPROT: Traceback: {traceback.format_exc()}")
+            log.error("MAXSTREAM_UPROT: Traceback: {}".format(traceback.format_exc()))
             log.info("MAXSTREAM_UPROT: ===== ENDING UPROT BYPASS (ERROR) =====")
             if callback:
                 callback(None)
