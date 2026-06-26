@@ -969,7 +969,9 @@ class SCSearchMain(Screen):
         if request_id == self._details_request_id:
             self.display_tmdb_details(data)
         else:
-            log.info("TMDB_FETCH: Obsolete result ignored ({} != {})".format(request_id, self._details_request_id))
+            log.info(
+                "TMDB_FETCH: Obsolete result ignored ({} != {})".format(
+                    request_id, self._details_request_id))
 
     def display_tmdb_details(self, data):
         if not data:
