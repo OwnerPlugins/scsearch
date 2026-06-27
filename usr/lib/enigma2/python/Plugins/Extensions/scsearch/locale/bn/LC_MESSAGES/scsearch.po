@@ -202,8 +202,8 @@ msgstr "কোনো স্ট্রিমিং লিঙ্ক পাওয়
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - টিভি সিরিজ"
 
-msgid "PLAY MEDIA"
-msgstr "মিডিয়া খেলুন"
+msgid "PLAY"
+msgstr "খেলা"
 
 msgid "Playback error: %s"
 msgstr "প্লেব্যাক ত্রুটি: %s"
@@ -331,5 +331,5 @@ msgstr "ত্রুটি"
 msgid "loading"
 msgstr "লোড হচ্ছে"
 
-#~ msgid "PLAY"
-#~ msgstr "খেলা"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "মিডিয়া খেলুন"

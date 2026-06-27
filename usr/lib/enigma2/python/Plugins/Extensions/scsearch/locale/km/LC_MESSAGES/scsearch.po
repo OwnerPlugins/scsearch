@@ -202,8 +202,8 @@ msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - ស៊េរីទូរទស្សន៍"
 
-msgid "PLAY MEDIA"
-msgstr "ចាក់មេឌៀ"
+msgid "PLAY"
+msgstr "លេង"
 
 msgid "Playback error: %s"
 msgstr "កំហុសក្នុងការចាក់សារថ្មី៖ %s"
@@ -331,5 +331,5 @@ msgstr "កំហុស"
 msgid "loading"
 msgstr "ការផ្ទុក"
 
-#~ msgid "PLAY"
-#~ msgstr "លេង"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "ចាក់មេឌៀ"

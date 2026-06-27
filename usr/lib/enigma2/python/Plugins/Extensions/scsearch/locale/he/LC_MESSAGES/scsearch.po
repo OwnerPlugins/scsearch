@@ -203,8 +203,8 @@ msgstr "לא נמצאו קישורי סטרימינג"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - סדרת טלוויזיה"
 
-msgid "PLAY MEDIA"
-msgstr "PLAY Media"
+msgid "PLAY"
+msgstr "לְשַׂחֵק"
 
 msgid "Playback error: %s"
 msgstr "שגיאת השמעה: %s"
@@ -332,5 +332,5 @@ msgstr "שְׁגִיאָה"
 msgid "loading"
 msgstr "טְעִינָה"
 
-#~ msgid "PLAY"
-#~ msgstr "לְשַׂחֵק"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "PLAY Media"

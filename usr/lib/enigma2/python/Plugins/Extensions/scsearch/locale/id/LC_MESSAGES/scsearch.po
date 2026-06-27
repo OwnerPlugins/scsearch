@@ -202,8 +202,8 @@ msgstr "Tidak ada tautan streaming yang ditemukan"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serial TV"
 
-msgid "PLAY MEDIA"
-msgstr "MAINKAN MEDIA"
+msgid "PLAY"
+msgstr "BERMAIN"
 
 msgid "Playback error: %s"
 msgstr "Kesalahan pemutaran: %s"
@@ -331,5 +331,5 @@ msgstr "kesalahan"
 msgid "loading"
 msgstr "memuat"
 
-#~ msgid "PLAY"
-#~ msgstr "BERMAIN"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "MAINKAN MEDIA"

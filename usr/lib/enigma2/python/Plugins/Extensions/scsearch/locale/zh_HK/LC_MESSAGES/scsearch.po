@@ -202,8 +202,8 @@ msgstr "未找到串流媒體鏈接"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSeriesTV - 電視劇"
 
-msgid "PLAY MEDIA"
-msgstr "播放媒體"
+msgid "PLAY"
+msgstr "玩"
 
 msgid "Playback error: %s"
 msgstr "播放錯誤：%s"
@@ -331,5 +331,5 @@ msgstr "錯誤"
 msgid "loading"
 msgstr "載入中"
 
-#~ msgid "PLAY"
-#~ msgstr "玩"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "播放媒體"

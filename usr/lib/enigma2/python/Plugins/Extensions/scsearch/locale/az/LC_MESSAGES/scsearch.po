@@ -202,8 +202,8 @@ msgstr "Axın keçidləri tapılmadı"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Televiziya serialı"
 
-msgid "PLAY MEDIA"
-msgstr "MEDİYA OYNA"
+msgid "PLAY"
+msgstr "OYNA"
 
 msgid "Playback error: %s"
 msgstr "Oxutma xətası: %s"
@@ -331,5 +331,5 @@ msgstr "səhv"
 msgid "loading"
 msgstr "yüklənir"
 
-#~ msgid "PLAY"
-#~ msgstr "OYNA"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "MEDİYA OYNA"

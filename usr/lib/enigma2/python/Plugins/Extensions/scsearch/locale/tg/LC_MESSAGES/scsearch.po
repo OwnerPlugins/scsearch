@@ -202,8 +202,8 @@ msgstr "Истиноди ҷараён ёфт нашуд"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Силсилаи телевизионӣ"
 
-msgid "PLAY MEDIA"
-msgstr "ВАОРО БОЗЕД"
+msgid "PLAY"
+msgstr "БОЗӢ"
 
 msgid "Playback error: %s"
 msgstr "Хатогии навозиш: %s"
@@ -331,5 +331,5 @@ msgstr "хато"
 msgid "loading"
 msgstr "бор кардан"
 
-#~ msgid "PLAY"
-#~ msgstr "БОЗӢ"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "ВАОРО БОЗЕД"

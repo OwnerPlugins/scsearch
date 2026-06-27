@@ -202,8 +202,8 @@ msgstr "Cha deach ceanglaichean sruthadh a lorg"
 msgid "OnlineSerieTV - TV Series"
 msgstr "Sreath Tbh air-loidhne - Sreath Tbh"
 
-msgid "PLAY MEDIA"
-msgstr "CLAR NA MEADHANAN"
+msgid "PLAY"
+msgstr "CLÀRADH"
 
 msgid "Playback error: %s"
 msgstr "Mearachd ath-chluich: %s"
@@ -331,5 +331,5 @@ msgstr "mearachd"
 msgid "loading"
 msgstr "a' luchdachadh"
 
-#~ msgid "PLAY"
-#~ msgstr "CLÀRADH"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "CLAR NA MEADHANAN"

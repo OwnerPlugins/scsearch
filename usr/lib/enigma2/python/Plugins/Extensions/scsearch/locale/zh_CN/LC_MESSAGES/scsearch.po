@@ -202,8 +202,8 @@ msgstr "未找到流媒体链接"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSeriesTV - 电视剧"
 
-msgid "PLAY MEDIA"
-msgstr "播放媒体"
+msgid "PLAY"
+msgstr "玩"
 
 msgid "Playback error: %s"
 msgstr "播放错误：%s"
@@ -331,5 +331,5 @@ msgstr "错误"
 msgid "loading"
 msgstr "加载中"
 
-#~ msgid "PLAY"
-#~ msgstr "玩"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "播放媒体"

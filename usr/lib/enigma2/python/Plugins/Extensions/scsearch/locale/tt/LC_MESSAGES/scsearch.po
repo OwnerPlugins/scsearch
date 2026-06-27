@@ -202,8 +202,8 @@ msgstr "Агымдагы сылтамалар табылмады"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - сериаллар"
 
-msgid "PLAY MEDIA"
-msgstr "Медиа Уйна"
+msgid "PLAY"
+msgstr "Уйна"
 
 msgid "Playback error: %s"
 msgstr "Уйнау хата:% s"
@@ -331,5 +331,5 @@ msgstr "хата"
 msgid "loading"
 msgstr "йөкләү"
 
-#~ msgid "PLAY"
-#~ msgstr "Уйна"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "Медиа Уйна"

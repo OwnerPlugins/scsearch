@@ -204,8 +204,8 @@ msgstr "Nessun collegamento di streaming trovato"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serie TV"
 
-msgid "PLAY MEDIA"
-msgstr "RIPRODUCI MEDIA"
+msgid "PLAY"
+msgstr "RIPRODURRE"
 
 msgid "Playback error: %s"
 msgstr "Errore di riproduzione: %s"
@@ -333,5 +333,5 @@ msgstr "errore"
 msgid "loading"
 msgstr "caricamento"
 
-#~ msgid "PLAY"
-#~ msgstr "RIPRODURRE"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "RIPRODUCI MEDIA"

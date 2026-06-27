@@ -202,8 +202,8 @@ msgstr "Агым шилтемелери табылган жок"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Телесериалдар"
 
-msgid "PLAY MEDIA"
-msgstr "ОЙНОО МЕДИЯ"
+msgid "PLAY"
+msgstr "ОЙНОО"
 
 msgid "Playback error: %s"
 msgstr "Ойнотуу катасы: %s"
@@ -331,5 +331,5 @@ msgstr "ката"
 msgid "loading"
 msgstr "жүктөө"
 
-#~ msgid "PLAY"
-#~ msgstr "ОЙНОО"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "ОЙНОО МЕДИЯ"

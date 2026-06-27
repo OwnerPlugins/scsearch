@@ -202,8 +202,8 @@ msgstr "Дамжуулах холбоос олдсонгүй"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Телевизийн цуврал"
 
-msgid "PLAY MEDIA"
-msgstr "МЕДИА ТОГЛОХ"
+msgid "PLAY"
+msgstr "ТОГЛОХ"
 
 msgid "Playback error: %s"
 msgstr "Тоглуулах алдаа: %s"
@@ -331,5 +331,5 @@ msgstr "алдаа"
 msgid "loading"
 msgstr "ачаалж байна"
 
-#~ msgid "PLAY"
-#~ msgstr "ТОГЛОХ"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "МЕДИА ТОГЛОХ"

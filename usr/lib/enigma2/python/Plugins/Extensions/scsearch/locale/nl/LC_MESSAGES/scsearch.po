@@ -203,8 +203,8 @@ msgstr "Geen streaminglinks gevonden"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - tv-serie"
 
-msgid "PLAY MEDIA"
-msgstr "SPEEL MEDIA"
+msgid "PLAY"
+msgstr "TONEELSTUK"
 
 msgid "Playback error: %s"
 msgstr "Afspeelfout: %s"
@@ -332,5 +332,5 @@ msgstr "fout"
 msgid "loading"
 msgstr "laden"
 
-#~ msgid "PLAY"
-#~ msgstr "TONEELSTUK"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "SPEEL MEDIA"

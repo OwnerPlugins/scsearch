@@ -203,8 +203,8 @@ msgstr "Akış bağlantısı bulunamadı"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV Dizisi"
 
-msgid "PLAY MEDIA"
-msgstr "MEDYA OYNAT"
+msgid "PLAY"
+msgstr "OYNAMAK"
 
 msgid "Playback error: %s"
 msgstr "Oynatma hatası: %s"
@@ -332,5 +332,5 @@ msgstr "hata"
 msgid "loading"
 msgstr "yükleniyor"
 
-#~ msgid "PLAY"
-#~ msgstr "OYNAMAK"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "MEDYA OYNAT"

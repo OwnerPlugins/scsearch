@@ -203,8 +203,8 @@ msgstr "Nu s-au găsit linkuri de streaming"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serial TV"
 
-msgid "PLAY MEDIA"
-msgstr ""
+msgid "PLAY"
+msgstr "JUCA"
 
 msgid "Playback error: %s"
 msgstr "Eroare de redare: %s"
@@ -331,6 +331,3 @@ msgstr "eroare"
 
 msgid "loading"
 msgstr "încărcare"
-
-#~ msgid "PLAY"
-#~ msgstr "JUCA"

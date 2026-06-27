@@ -202,8 +202,8 @@ msgstr "Pas cap de ligam de difusion trobat"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serie de TV"
 
-msgid "PLAY MEDIA"
-msgstr "MÈDIA DE JOGAR"
+msgid "PLAY"
+msgstr "JOGAR"
 
 msgid "Playback error: %s"
 msgstr "Error de lectura : %s"
@@ -331,5 +331,5 @@ msgstr ""
 msgid "loading"
 msgstr "cargament"
 
-#~ msgid "PLAY"
-#~ msgstr "JOGAR"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "MÈDIA DE JOGAR"

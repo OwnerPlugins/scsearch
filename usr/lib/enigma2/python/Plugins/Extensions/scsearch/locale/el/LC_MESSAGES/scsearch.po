@@ -203,8 +203,8 @@ msgstr "Δεν βρέθηκαν σύνδεσμοι ροής"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Τηλεοπτικές σειρές"
 
-msgid "PLAY MEDIA"
-msgstr ""
+msgid "PLAY"
+msgstr "ΠΑΙΧΝΙΔΙ"
 
 msgid "Playback error: %s"
 msgstr "Σφάλμα αναπαραγωγής: %s"
@@ -331,6 +331,3 @@ msgstr "σφάλμα"
 
 msgid "loading"
 msgstr "φόρτωση"
-
-#~ msgid "PLAY"
-#~ msgstr "ΠΑΙΧΝΙΔΙ"

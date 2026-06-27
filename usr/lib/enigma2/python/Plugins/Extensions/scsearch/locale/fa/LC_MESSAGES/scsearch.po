@@ -202,8 +202,8 @@ msgstr "هیچ پیوند پخشی یافت نشد"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - سریال های تلویزیونی"
 
-msgid "PLAY MEDIA"
-msgstr "پخش رسانه"
+msgid "PLAY"
+msgstr "بازی کنید"
 
 msgid "Playback error: %s"
 msgstr "خطای پخش: %s"
@@ -331,5 +331,5 @@ msgstr "خطا"
 msgid "loading"
 msgstr "در حال بارگذاری"
 
-#~ msgid "PLAY"
-#~ msgstr "بازی کنید"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "پخش رسانه"

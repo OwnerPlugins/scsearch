@@ -203,8 +203,8 @@ msgstr "Keine Streaming-Links gefunden"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Fernsehserien"
 
-msgid "PLAY MEDIA"
-msgstr "MEDIEN ABSPIELEN"
+msgid "PLAY"
+msgstr "SPIELEN"
 
 msgid "Playback error: %s"
 msgstr "Wiedergabefehler: %s"
@@ -332,5 +332,5 @@ msgstr "Fehler"
 msgid "loading"
 msgstr "Laden"
 
-#~ msgid "PLAY"
-#~ msgstr "SPIELEN"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "MEDIEN ABSPIELEN"

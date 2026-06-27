@@ -203,8 +203,8 @@ msgstr "Srautinio perdavimo nuorodų nerasta"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV – TV serialas"
 
-msgid "PLAY MEDIA"
-msgstr "ŽAISTI MEDIA"
+msgid "PLAY"
+msgstr "ŽAISTI"
 
 msgid "Playback error: %s"
 msgstr "Atkūrimo klaida: %s"
@@ -332,5 +332,5 @@ msgstr "klaida"
 msgid "loading"
 msgstr "pakrovimas"
 
-#~ msgid "PLAY"
-#~ msgstr "ŽAISTI"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "ŽAISTI MEDIA"

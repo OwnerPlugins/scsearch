@@ -202,7 +202,7 @@ msgstr "ئاقما ئۇلىنىش تېپىلمىدى"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - تېلېۋىزىيە تىياتىرى"
 
-msgid "PLAY MEDIA"
+msgid "PLAY"
 msgstr ""
 
 msgid "Playback error: %s"

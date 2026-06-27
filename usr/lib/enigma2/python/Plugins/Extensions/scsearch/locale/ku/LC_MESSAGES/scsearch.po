@@ -202,8 +202,8 @@ msgstr "Girêdanên weşanê nehat dîtin"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Rêzefîlmên TV"
 
-msgid "PLAY MEDIA"
-msgstr ""
+msgid "PLAY"
+msgstr "BAZÎ"
 
 msgid "Playback error: %s"
 msgstr "Çewtiya lêdanê: %s"
@@ -330,6 +330,3 @@ msgstr "şaşî"
 
 msgid "loading"
 msgstr "barkirin"
-
-#~ msgid "PLAY"
-#~ msgstr "BAZÎ"

@@ -203,8 +203,8 @@ msgstr "Nebyly nalezeny žádné odkazy na streamování"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - televizní seriál"
 
-msgid "PLAY MEDIA"
-msgstr "HRÁT MÉDIA"
+msgid "PLAY"
+msgstr "HRÁT"
 
 msgid "Playback error: %s"
 msgstr "Chyba přehrávání: %s"
@@ -332,5 +332,5 @@ msgstr "chyba"
 msgid "loading"
 msgstr "načítání"
 
-#~ msgid "PLAY"
-#~ msgstr "HRÁT"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "HRÁT MÉDIA"

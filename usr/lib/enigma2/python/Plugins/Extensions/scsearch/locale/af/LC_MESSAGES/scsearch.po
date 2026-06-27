@@ -202,8 +202,8 @@ msgstr "Geen stroomskakels gevind nie"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV-reeks"
 
-msgid "PLAY MEDIA"
-msgstr "SPEEL MEDIA"
+msgid "PLAY"
+msgstr "SPEEL"
 
 msgid "Playback error: %s"
 msgstr "Terugspeelfout: %s"
@@ -331,5 +331,5 @@ msgstr "fout"
 msgid "loading"
 msgstr "laai"
 
-#~ msgid "PLAY"
-#~ msgstr "SPEEL"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "SPEEL MEDIA"

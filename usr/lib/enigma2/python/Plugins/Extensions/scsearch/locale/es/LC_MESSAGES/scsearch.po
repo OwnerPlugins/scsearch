@@ -203,8 +203,8 @@ msgstr "No se encontraron enlaces de transmisión"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serie de TV"
 
-msgid "PLAY MEDIA"
-msgstr "REPRODUCIR MEDIOS"
+msgid "PLAY"
+msgstr "JUGAR"
 
 msgid "Playback error: %s"
 msgstr "Error de reproducción: %s"
@@ -332,5 +332,5 @@ msgstr ""
 msgid "loading"
 msgstr "cargando"
 
-#~ msgid "PLAY"
-#~ msgstr "JUGAR"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "REPRODUCIR MEDIOS"

@@ -202,8 +202,8 @@ msgstr "Tiada pautan penstriman ditemui"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Siri TV"
 
-msgid "PLAY MEDIA"
-msgstr "MAIN MEDIA"
+msgid "PLAY"
+msgstr "BERMAIN"
 
 msgid "Playback error: %s"
 msgstr "Ralat main balik: %s"
@@ -331,5 +331,5 @@ msgstr "kesilapan"
 msgid "loading"
 msgstr "memuatkan"
 
-#~ msgid "PLAY"
-#~ msgstr "BERMAIN"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "MAIN MEDIA"

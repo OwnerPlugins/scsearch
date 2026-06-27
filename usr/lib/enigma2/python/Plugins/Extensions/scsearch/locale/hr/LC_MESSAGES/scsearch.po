@@ -203,8 +203,8 @@ msgstr "Nisu pronađene veze za strujanje"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV serija"
 
-msgid "PLAY MEDIA"
-msgstr "REPRODUKCIJ MEDIJ"
+msgid "PLAY"
+msgstr "IGRATI"
 
 msgid "Playback error: %s"
 msgstr "Pogreška reprodukcije: %s"
@@ -332,5 +332,5 @@ msgstr "greška"
 msgid "loading"
 msgstr "učitavanje"
 
-#~ msgid "PLAY"
-#~ msgstr "IGRATI"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "REPRODUKCIJ MEDIJ"

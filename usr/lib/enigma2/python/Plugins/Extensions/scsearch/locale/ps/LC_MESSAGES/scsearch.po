@@ -202,8 +202,8 @@ msgstr "هیڅ جریان لینکونه ونه موندل شول"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - د تلویزیون لړۍ"
 
-msgid "PLAY MEDIA"
-msgstr "رسنۍ پلی کړئ"
+msgid "PLAY"
+msgstr "لوبه وکړئ"
 
 msgid "Playback error: %s"
 msgstr "د پلې بیک تېروتنه: %s"
@@ -331,5 +331,5 @@ msgstr "تېروتنه"
 msgid "loading"
 msgstr "بار کول"
 
-#~ msgid "PLAY"
-#~ msgstr "لوبه وکړئ"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "رسنۍ پلی کړئ"

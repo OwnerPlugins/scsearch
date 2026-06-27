@@ -203,8 +203,8 @@ msgstr "Suoratoistolinkkejä ei löytynyt"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV-sarja"
 
-msgid "PLAY MEDIA"
-msgstr "PELAA MEDIAA"
+msgid "PLAY"
+msgstr "PELATA"
 
 msgid "Playback error: %s"
 msgstr "Toistovirhe: %s"
@@ -332,5 +332,5 @@ msgstr "virhe"
 msgid "loading"
 msgstr "lastaus"
 
-#~ msgid "PLAY"
-#~ msgstr "PELATA"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "PELAA MEDIAA"

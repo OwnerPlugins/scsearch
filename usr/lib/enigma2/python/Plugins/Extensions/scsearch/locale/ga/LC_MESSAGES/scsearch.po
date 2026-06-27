@@ -203,8 +203,8 @@ msgstr "Níor aimsíodh aon nasc sruthaithe"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Sraith Teilifíse"
 
-msgid "PLAY MEDIA"
-msgstr "PLAY MEÁIN"
+msgid "PLAY"
+msgstr "IMIR"
 
 msgid "Playback error: %s"
 msgstr "Earráid athsheinm: %s"
@@ -332,5 +332,5 @@ msgstr "earráid"
 msgid "loading"
 msgstr "ag lódáil"
 
-#~ msgid "PLAY"
-#~ msgstr "IMIR"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "PLAY MEÁIN"

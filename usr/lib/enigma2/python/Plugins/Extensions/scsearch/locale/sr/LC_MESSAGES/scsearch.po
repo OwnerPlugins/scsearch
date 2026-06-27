@@ -203,8 +203,8 @@ msgstr "Нису пронађене везе за стримовање"
 msgid "OnlineSerieTV - TV Series"
 msgstr "ОнлинеСериеТВ - ТВ серије"
 
-msgid "PLAY MEDIA"
-msgstr "ПЛАИ МЕДИА"
+msgid "PLAY"
+msgstr "ПЛАИ"
 
 msgid "Playback error: %s"
 msgstr "Грешка при репродукцији: %с"
@@ -332,5 +332,5 @@ msgstr "грешка"
 msgid "loading"
 msgstr "лоадинг"
 
-#~ msgid "PLAY"
-#~ msgstr "ПЛАИ"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "ПЛАИ МЕДИА"

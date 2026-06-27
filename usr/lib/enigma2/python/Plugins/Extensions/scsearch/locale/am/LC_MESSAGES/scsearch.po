@@ -202,8 +202,8 @@ msgstr "ምንም የዥረት ማያያዣዎች አልተገኙም።"
 msgid "OnlineSerieTV - TV Series"
 msgstr "የመስመር ላይSerieTV - ተከታታይ የቲቪ"
 
-msgid "PLAY MEDIA"
-msgstr "ሚዲያ አጫውት።"
+msgid "PLAY"
+msgstr "ተጫወት"
 
 msgid "Playback error: %s"
 msgstr "የመልሶ ማጫወት ስህተት፡ %s"
@@ -331,5 +331,5 @@ msgstr "ስህተት"
 msgid "loading"
 msgstr "በመጫን ላይ"
 
-#~ msgid "PLAY"
-#~ msgstr "ተጫወት"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "ሚዲያ አጫውት።"

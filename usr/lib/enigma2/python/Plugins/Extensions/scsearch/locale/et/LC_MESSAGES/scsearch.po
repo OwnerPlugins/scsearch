@@ -203,8 +203,8 @@ msgstr "Voogesituse linke ei leitud"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV – telesari"
 
-msgid "PLAY MEDIA"
-msgstr "MÄNGI MEEDIA"
+msgid "PLAY"
+msgstr "MÄNGI"
 
 msgid "Playback error: %s"
 msgstr "Taasesituse viga: %s"
@@ -332,5 +332,5 @@ msgstr "viga"
 msgid "loading"
 msgstr "laadimine"
 
-#~ msgid "PLAY"
-#~ msgstr "MÄNGI"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "MÄNGI MEEDIA"

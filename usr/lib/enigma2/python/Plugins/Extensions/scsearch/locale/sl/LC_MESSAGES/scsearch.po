@@ -203,8 +203,8 @@ msgstr "Ni povezav za pretakanje"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV serija"
 
-msgid "PLAY MEDIA"
-msgstr "PREDVAJAJ MEDIJ"
+msgid "PLAY"
+msgstr "IGRAJ"
 
 msgid "Playback error: %s"
 msgstr "Napaka pri predvajanju: %s"
@@ -332,5 +332,5 @@ msgstr "napaka"
 msgid "loading"
 msgstr "nalaganje"
 
-#~ msgid "PLAY"
-#~ msgstr "IGRAJ"
+#~ msgid "PLAY MEDIA"
+#~ msgstr "PREDVAJAJ MEDIJ"
