@@ -18,7 +18,14 @@ from Components.Pixmap import Pixmap
 from enigma import eTimer
 
 from .logger import get_logger
-from .TmdbFetcher import TmdbFetcher
+
+try:
+    from .TmdbFetcher import TmdbFetcher
+except ImportError:
+    TmdbFetcher = None
+    log = get_logger()
+    log.error("TmdbFetcher module not found!")
+
 from .search_functions import perform_search, get_title_details
 from . import _, load_skin
 
@@ -43,7 +50,7 @@ LOG_ENABLED=true
 LOG_LEVEL=INFO
 LOG_MAX_SIZE=1048576
 LOG_BACKUP_COUNT=3
-TMDB_API_KEY=bdb97d4c627dd8b10dc48fe7db3cef17
+TMDB_API_KEY=3c3efcf47c3577558812bb9d64019d65
 MOVIE_HISTORY=
 TV_HISTORY=
 """
@@ -55,6 +62,7 @@ TV_HISTORY=
 
 
 def load_api_key():
+    """Load TMDB API key from config.txt file."""
     try:
         ensure_config_exists()
         config_path = get_config_path()
@@ -63,14 +71,33 @@ def load_api_key():
             for line in f:
                 if line.strip().startswith('TMDB_API_KEY='):
                     api_key = line.strip().split('=', 1)[1].strip()
-                    log.info("API key loaded: {}".format(bool(api_key)))
-                    return api_key
+                    if api_key and api_key != "YOUR_API_KEY_HERE":
+                        log.info("API key loaded successfully")
+                        return api_key
     except Exception as e:
         log.error("Unable to read API key from config file: {}".format(e))
-    return None
+    
+    # Fallback hardcoded key
+    log.warning("Using hardcoded TMDB API key")
+    return "3c3efcf47c3577558812bb9d64019d65"
+
+
+# Load API key
+API_KEY = load_api_key()
+
+# Double-check fallback
+if API_KEY is None:
+    API_KEY = "3c3efcf47c3577558812bb9d64019d65"
+    log.warning("TMDB API_KEY not in config, using hardcoded fallback")
+
+
+# Verify TmdbFetcher is available
+if TmdbFetcher is None:
+    log.critical("TmdbFetcher module is not available!")
 
 
 def load_search_history():
+    """Load search history from config file."""
     try:
         ensure_config_exists()
         config_path = get_config_path()
@@ -99,6 +126,7 @@ def load_search_history():
 
 
 def save_search_history(history):
+    """Save search history to config file."""
     try:
         ensure_config_exists()
         config_path = get_config_path()
@@ -133,33 +161,9 @@ def save_search_history(history):
         log.error("Error saving history: {}".format(e))
 
 
-API_KEY = load_api_key()
-
-
 class SCSearchMain(Screen):
-    # skin = '''
-    # <screen name="SCSearchMain" position="center,center" size="1280,720" title="SC Search - Streaming Community">
-    # <ePixmap position="0,0" size="1280,720" pixmap="skin_default/background.png" zPosition="-1" />
-    # <widget name="background" position="0,0" size="1280,720" backgroundColor="#0d1117" zPosition="0" />
-    # <widget name="divider" position="640,40" size="2,640" zPosition="1" backgroundColor="#30363d" />
-
-    # <!-- Left Panel: Search & Results -->
-    # <widget name="search_term" position="40,40" size="580,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#0d1117" transparent="1" />
-    # <widget name="results_list" position="40,90" size="580,550" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#161b22" foregroundColor="#f0f6fc" selectionPixmap="skin_default/sel.png" transparent="0" />
-
-    # <!-- Right Panel: Details -->
-    # <widget name="cover_pixmap" position="670,90" size="200,300" zPosition="3" alphatest="on" />
-    # <widget name="details_title" position="890,90" size="350,90" font="Regular;26" halign="left" valign="top" foregroundColor="#ffffff" backgroundColor="#0d1117" transparent="1" />
-    # <widget name="details_year" position="890,185" size="350,30" font="Regular;20" halign="left" valign="center" foregroundColor="#8b949e" backgroundColor="#0d1117" transparent="1" />
-    # <widget name="details_description" position="670,410" size="570,230" font="Regular;18" foregroundColor="#f0f6fc" backgroundColor="#0d1117" transparent="1" />
-
-    # <!-- Control Bar -->
-    # <widget name="key_red" position="40,685" size="150,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
-    # <widget name="key_green" position="200,685" size="150,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
-    # <widget name="key_yellow" position="360,685" size="150,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
-    # <widget name="key_blue" position="520,685" size="150,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
-    # </screen>'''
-
+    """Main screen for SC Search plugin."""
+    
     def __init__(self, session, initial_item=None, close_callback=None):
         skin_data = load_skin("SCSearchMain")
         if skin_data:
@@ -170,11 +174,24 @@ class SCSearchMain(Screen):
         self.close_callback = close_callback
         self.api_key_error = False
 
+        # Verify API key is valid
         if not API_KEY:
             log.critical("TMDB_API_KEY not found or invalid in config.txt.")
             self.api_key_error = True
 
-        self.tmdb_fetcher = TmdbFetcher(API_KEY)
+        # Initialize TmdbFetcher
+        try:
+            self.tmdb_fetcher = TmdbFetcher(API_KEY) if API_KEY else None
+            if self.tmdb_fetcher is None:
+                log.error("TmdbFetcher initialization failed (API key missing)")
+                self.api_key_error = True
+            else:
+                log.info("TmdbFetcher initialized successfully")
+        except Exception as e:
+            log.error("TmdbFetcher initialization error: {}".format(e))
+            self.tmdb_fetcher = None
+            self.api_key_error = True
+            
         self.current_search = ""
         self.search_type = "movie"
         self.search_history = load_search_history()
@@ -238,6 +255,7 @@ class SCSearchMain(Screen):
         self.cover_temp_path = "/tmp/scsearch_cover.jpg"
 
     def initial_setup(self):
+        """Initialize UI after layout."""
         if self.api_key_error:
             self.session.open(
                 MessageBox,
@@ -252,6 +270,7 @@ class SCSearchMain(Screen):
             self.clear_details_panel()
 
     def _start_initial_details_fetch(self):
+        """Fetch initial details for the selected item."""
         if not self.initial_item:
             return
         if self._initial_details_thread and self._initial_details_thread.is_alive():
@@ -273,6 +292,7 @@ class SCSearchMain(Screen):
         self._initial_details_thread.start()
 
     def _do_initial_details_fetch(self, item):
+        """Threaded initial details fetch."""
         try:
             slug = item.get("slug")
             title = item.get("title")
@@ -289,11 +309,12 @@ class SCSearchMain(Screen):
             media_type = "tv" if sc_type == "TvSeries" else "movie"
 
             tmdb_id = None
-            search_results = self.tmdb_fetcher.search(title, media_type)
-            if search_results:
-                tmdb_id = search_results[0].get("id")
+            if self.tmdb_fetcher:
+                search_results = self.tmdb_fetcher.search(title, media_type)
+                if search_results:
+                    tmdb_id = search_results[0].get("id")
 
-            if tmdb_id:
+            if tmdb_id and self.tmdb_fetcher:
                 details = self.tmdb_fetcher.get_details(tmdb_id, media_type)
                 if details:
                     details['sc_slug'] = slug
@@ -311,6 +332,7 @@ class SCSearchMain(Screen):
             self._initial_details_ready = True
 
     def _on_initial_details_timer(self):
+        """Timer callback for initial details fetch."""
         if not self._initial_details_ready:
             return
         self._initial_details_timer.stop()
@@ -328,10 +350,12 @@ class SCSearchMain(Screen):
         self._initial_details_thread = None
 
     def start_search_movie(self):
+        """Start movie search."""
         self.search_type = "movie"
         self.show_search_with_history()
 
     def start_search_tv(self):
+        """Start TV series search."""
         self.search_type = "tv"
         self.show_search_with_history()
 
@@ -376,6 +400,7 @@ class SCSearchMain(Screen):
             self.run_sc_search(choice[1])
 
     def open_virtual_keyboard(self):
+        """Open virtual keyboard for search input."""
         title = _("Search Movie") if self.search_type == "movie" else _(
             "Search TV Series")
         self.session.openWithCallback(
@@ -384,6 +409,7 @@ class SCSearchMain(Screen):
         )
 
     def show_search_history(self):
+        """Show search history dialog."""
         # Reload history from file
         self.search_history = load_search_history()
         movie_history = self.search_history.get('movie', [])
@@ -426,6 +452,7 @@ class SCSearchMain(Screen):
         )
 
     def on_history_selected(self, choice):
+        """Handle selection from history dialog."""
         if choice and choice[1] == "new":
             self.open_virtual_keyboard()
         elif choice and choice[1] and isinstance(choice[1], tuple):
@@ -437,6 +464,7 @@ class SCSearchMain(Screen):
             pass
 
     def run_sc_search(self, search_term):
+        """Execute search with the given term."""
         term = (search_term or "").strip()
         if not term:
             return
@@ -460,6 +488,7 @@ class SCSearchMain(Screen):
         self._search_thread.start()
 
     def add_to_search_history(self, term):
+        """Add search term to history."""
         history_list = self.search_history[self.search_type]
         if term in history_list:
             history_list.remove(term)
@@ -468,6 +497,7 @@ class SCSearchMain(Screen):
         save_search_history(self.search_history)
 
     def _do_sc_search(self, term):
+        """Threaded search execution."""
         try:
             # Main search on StreamingCommunity and CB01
             response = perform_search(term, search_type=self.search_type)
@@ -506,6 +536,7 @@ class SCSearchMain(Screen):
             self._search_ready = True
 
     def _on_sc_search_timer(self):
+        """Timer callback for search results."""
         if not self._search_ready:
             return
         self._search_timer.stop()
@@ -515,6 +546,7 @@ class SCSearchMain(Screen):
         self._search_thread = None
 
     def display_sc_results(self, results):
+        """Display search results in the list."""
         if not results:
             self["results_list"].setList([(_("No results found on SC."), {})])
             return
@@ -646,6 +678,7 @@ class SCSearchMain(Screen):
         self["results_list"].setList(items)
 
     def on_result_selected(self):
+        """Handle selection change in results list."""
         sel = self["results_list"].getCurrent()
         if not sel or not isinstance(sel[1], dict):
             self.clear_details_panel()
@@ -739,6 +772,7 @@ class SCSearchMain(Screen):
             title_to_search,
             media_type,
             item_data):
+        """Start TMDB details fetch."""
         self._details_request_id += 1
         request_id = self._details_request_id
         self["details_title"].setText(_("Loading details from TMDB..."))
@@ -755,6 +789,7 @@ class SCSearchMain(Screen):
         self._details_thread.start()
 
     def _do_tmdb_fetch(self, title, media_type, item_data, request_id):
+        """Threaded TMDB details fetch."""
         result = None
         try:
             # Check if we already have a tmdb_id in the raw data
@@ -762,14 +797,14 @@ class SCSearchMain(Screen):
             existing_tmdb_id = raw_data.get(
                 'tmdb_id') or item_data.get('tmdb_id')
 
-            if existing_tmdb_id:
+            if existing_tmdb_id and self.tmdb_fetcher:
                 # Use existing tmdb_id directly
                 log.info(
                     "TMDB_FETCH: Using existing tmdb_id: {}".format(existing_tmdb_id))
                 item_data['tmdb_id'] = existing_tmdb_id
                 result = self.tmdb_fetcher.get_details(
                     existing_tmdb_id, media_type)
-            else:
+            elif self.tmdb_fetcher:
                 # Search TMDB by title
                 item_data.pop('tmdb_id', None)
 
@@ -794,11 +829,11 @@ class SCSearchMain(Screen):
                     item_id = None
                     # If we have the year, look for exact match
                     if year:
-                        for result in search_results:
-                            result_year = (result.get('release_date') or result.get(
+                        for search_result in search_results:
+                            result_year = (search_result.get('release_date') or search_result.get(
                                 'first_air_date') or '')[:4]
                             if result_year == year:
-                                item_id = result.get('id')
+                                item_id = search_result.get('id')
                                 log.info(
                                     "TMDB_FETCH: Exact year match found: {}".format(year))
                                 break
@@ -807,11 +842,11 @@ class SCSearchMain(Screen):
                     # look for exact title match
                     if not item_id:
                         title_lower = title.lower().strip()
-                        for result in search_results:
+                        for search_result in search_results:
                             result_title = (
-                                result.get('title') or result.get('name') or '').lower().strip()
+                                search_result.get('title') or search_result.get('name') or '').lower().strip()
                             if result_title == title_lower:
-                                item_id = result.get('id')
+                                item_id = search_result.get('id')
                                 log.info(
                                     "TMDB_FETCH: Exact title match found: '{}'".format(result_title))
                                 break
@@ -826,6 +861,9 @@ class SCSearchMain(Screen):
                         item_data['tmdb_id'] = item_id
                         result = self.tmdb_fetcher.get_details(
                             item_id, media_type)
+            else:
+                log.error("TMDB_FETCH: tmdb_fetcher is not available")
+                
         except Exception as e:
             log.error("Error fetching TMDB details: {}".format(e))
         finally:
@@ -833,6 +871,7 @@ class SCSearchMain(Screen):
             self._details_ready = True
 
     def _on_tmdb_details_timer(self):
+        """Timer callback for TMDB details fetch."""
         if not self._details_ready:
             return
         self._details_timer.stop()
@@ -858,6 +897,7 @@ class SCSearchMain(Screen):
                     request_id, self._details_request_id))
 
     def display_tmdb_details(self, data):
+        """Display TMDB details in UI."""
         if not data:
             self["details_title"].setText(_("Details not available"))
             self["details_description"].setText(
@@ -884,6 +924,7 @@ class SCSearchMain(Screen):
             self.hide_cover_image()
 
     def ok_pressed(self):
+        """Handle OK button press."""
         log.info("OK_PRESSED: OK button pressed.")
         sel = self["results_list"].getCurrent()
         if not sel or not isinstance(sel[1], dict):
@@ -985,12 +1026,14 @@ class SCSearchMain(Screen):
             MessageBox.TYPE_ERROR)
 
     def clear_details_panel(self):
+        """Clear the details panel."""
         self["details_title"].setText(_("No content selected"))
         self["details_year"].setText("")
         self["details_description"].setText("")
         self.hide_cover_image()
 
     def clear_search(self):
+        """Clear search results."""
         self.current_search = ""
         self["search_term"].setText(
             _("Press GREEN (Movie) or YELLOW (TV Series) to search..."))
@@ -998,6 +1041,7 @@ class SCSearchMain(Screen):
         self.clear_details_panel()
 
     def show_cover_image(self, url):
+        """Download and display cover image."""
         try:
             log.info("COVER_DOWNLOAD: Starting download from {}".format(url))
 
@@ -1069,6 +1113,7 @@ class SCSearchMain(Screen):
             self.hide_cover_image()
 
     def _download_cover_image(self, url, target_path):
+        """Download cover image from URL."""
         from urllib.parse import urlsplit
 
         candidates = [url]
@@ -1106,6 +1151,7 @@ class SCSearchMain(Screen):
         raise last_error
 
     def _load_ostv_cover(self, url):
+        """Load OSTV cover image."""
         self._ostv_cover_ready = False
         self._ostv_cover_success = False
         self._ostv_cover_timer.start(100, False)
@@ -1114,6 +1160,7 @@ class SCSearchMain(Screen):
                 url,), daemon=True).start()
 
     def _load_ostv_cover_async(self, url):
+        """Threaded OSTV cover download."""
         try:
             log.info("OSTV_COVER: Starting download from {}".format(url))
             from .onlineserietv import load_olstv_cookie
@@ -1165,6 +1212,7 @@ class SCSearchMain(Screen):
             self._ostv_cover_ready = True
 
     def _update_ostv_cover(self):
+        """Update OSTV cover in UI."""
         if not self._ostv_cover_ready:
             return
         self._ostv_cover_timer.stop()
@@ -1217,6 +1265,7 @@ class SCSearchMain(Screen):
             log.error("OSTV_COVER: Error updating UI: {}".format(e))
 
     def hide_cover_image(self):
+        """Hide cover image widget."""
         try:
             self["cover_pixmap"].hide()
         except Exception as e:
@@ -1225,7 +1274,7 @@ class SCSearchMain(Screen):
     def _get_tmdb_description_for_epg(self, tmdb_id, media_type):
         """Get content description from TMDB for EPG."""
         try:
-            if not tmdb_id:
+            if not tmdb_id or not self.tmdb_fetcher:
                 return None
 
             details = self.tmdb_fetcher.get_details(tmdb_id, media_type)
@@ -1383,6 +1432,7 @@ class SCSearchMain(Screen):
             return False
 
     def close(self):
+        """Close the screen."""
         self._search_timer.stop()
         self._details_timer.stop()
         self._initial_details_timer.stop()
