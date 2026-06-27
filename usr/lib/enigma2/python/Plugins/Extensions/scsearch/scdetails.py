@@ -165,27 +165,39 @@ class SCDetailsScreen(Screen):
                 if self.details:
                     self.details['source'] = 'altadefinizione'
                     self.details['altadef_url'] = altadef_url
-                    log.info("DETAILS: Altadefinizione poster: {}".format(self.details.get('poster')))
-                    log.info("DETAILS: Altadefinizione streaming_links: {}".format(self.details.get('streaming_links')))
+                    log.info(
+                        "DETAILS: Altadefinizione poster: {}".format(
+                            self.details.get('poster')))
+                    log.info(
+                        "DETAILS: Altadefinizione streaming_links: {}".format(
+                            self.details.get('streaming_links')))
                     # --- SE streaming_links è vuoto, prova a estrarre direttamente ---
                     if not self.details.get('streaming_links'):
-                        log.info("DETAILS: Trying to extract streaming links manually from page")
+                        log.info(
+                            "DETAILS: Trying to extract streaming links manually from page")
                         html = altadef_client._get_page(altadef_url)
                         if html:
                             # Cerca iframe VixSrc
                             import re
-                            iframe_match = re.search(r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
+                            iframe_match = re.search(
+                                r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
                             if iframe_match:
                                 embed_url = iframe_match.group(1)
                                 if not embed_url.startswith('http'):
-                                    embed_url = 'https:' + embed_url if embed_url.startswith('//') else 'https://' + embed_url
-                                log.info("DETAILS: Found embed URL in page: {}".format(embed_url))
-                                stream_url = altadef_client._extract_vixsrc_stream(embed_url, altadef_url)
+                                    embed_url = 'https:' + \
+                                        embed_url if embed_url.startswith('//') else 'https://' + embed_url
+                                log.info(
+                                    "DETAILS: Found embed URL in page: {}".format(embed_url))
+                                stream_url = altadef_client._extract_vixsrc_stream(
+                                    embed_url, altadef_url)
                                 if stream_url:
-                                    log.info("DETAILS: Extracted stream URL: {}".format(stream_url))
-                                    self.details['streaming_links'] = [{'url': stream_url, 'quality': 'HD', 'service': 'vixsrc'}]
+                                    log.info(
+                                        "DETAILS: Extracted stream URL: {}".format(stream_url))
+                                    self.details['streaming_links'] = [
+                                        {'url': stream_url, 'quality': 'HD', 'service': 'vixsrc'}]
                                 else:
-                                    log.warning("DETAILS: Could not extract stream from embed")
+                                    log.warning(
+                                        "DETAILS: Could not extract stream from embed")
 
             # --- Default: get_title_details ---
             else:
