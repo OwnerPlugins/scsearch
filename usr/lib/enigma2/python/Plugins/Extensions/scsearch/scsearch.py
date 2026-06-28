@@ -76,7 +76,7 @@ def load_api_key():
                         return api_key
     except Exception as e:
         log.error("Unable to read API key from config file: {}".format(e))
-
+    
     # Fallback hardcoded key
     log.warning("Using hardcoded TMDB API key")
     return "3c3efcf47c3577558812bb9d64019d65"
@@ -163,7 +163,7 @@ def save_search_history(history):
 
 class SCSearchMain(Screen):
     """Main screen for SC Search plugin."""
-
+    
     def __init__(self, session, initial_item=None, close_callback=None):
         skin_data = load_skin("SCSearchMain")
         if skin_data:
@@ -191,7 +191,7 @@ class SCSearchMain(Screen):
             log.error("TmdbFetcher initialization error: {}".format(e))
             self.tmdb_fetcher = None
             self.api_key_error = True
-
+            
         self.current_search = ""
         self.search_type = "movie"
         self.search_history = load_search_history()
@@ -830,8 +830,8 @@ class SCSearchMain(Screen):
                     # If we have the year, look for exact match
                     if year:
                         for search_result in search_results:
-                            result_year = (search_result.get(
-                                'release_date') or search_result.get('first_air_date') or '')[:4]
+                            result_year = (search_result.get('release_date') or search_result.get(
+                                'first_air_date') or '')[:4]
                             if result_year == year:
                                 item_id = search_result.get('id')
                                 log.info(
@@ -863,7 +863,7 @@ class SCSearchMain(Screen):
                             item_id, media_type)
             else:
                 log.error("TMDB_FETCH: tmdb_fetcher is not available")
-
+                
         except Exception as e:
             log.error("Error fetching TMDB details: {}".format(e))
         finally:

@@ -165,39 +165,27 @@ class SCDetailsScreen(Screen):
                 if self.details:
                     self.details['source'] = 'altadefinizione'
                     self.details['altadef_url'] = altadef_url
-                    log.info(
-                        "DETAILS: Altadefinizione poster: {}".format(
-                            self.details.get('poster')))
-                    log.info(
-                        "DETAILS: Altadefinizione streaming_links: {}".format(
-                            self.details.get('streaming_links')))
+                    log.info("DETAILS: Altadefinizione poster: {}".format(self.details.get('poster')))
+                    log.info("DETAILS: Altadefinizione streaming_links: {}".format(self.details.get('streaming_links')))
                     # --- SE streaming_links è vuoto, prova a estrarre direttamente ---
                     if not self.details.get('streaming_links'):
-                        log.info(
-                            "DETAILS: Trying to extract streaming links manually from page")
+                        log.info("DETAILS: Trying to extract streaming links manually from page")
                         html = altadef_client._get_page(altadef_url)
                         if html:
                             # Cerca iframe VixSrc
                             import re
-                            iframe_match = re.search(
-                                r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
+                            iframe_match = re.search(r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
                             if iframe_match:
                                 embed_url = iframe_match.group(1)
                                 if not embed_url.startswith('http'):
-                                    embed_url = 'https:' + \
-                                        embed_url if embed_url.startswith('//') else 'https://' + embed_url
-                                log.info(
-                                    "DETAILS: Found embed URL in page: {}".format(embed_url))
-                                stream_url = altadef_client._extract_vixsrc_stream(
-                                    embed_url, altadef_url)
+                                    embed_url = 'https:' + embed_url if embed_url.startswith('//') else 'https://' + embed_url
+                                log.info("DETAILS: Found embed URL in page: {}".format(embed_url))
+                                stream_url = altadef_client._extract_vixsrc_stream(embed_url, altadef_url)
                                 if stream_url:
-                                    log.info(
-                                        "DETAILS: Extracted stream URL: {}".format(stream_url))
-                                    self.details['streaming_links'] = [
-                                        {'url': stream_url, 'quality': 'HD', 'service': 'vixsrc'}]
+                                    log.info("DETAILS: Extracted stream URL: {}".format(stream_url))
+                                    self.details['streaming_links'] = [{'url': stream_url, 'quality': 'HD', 'service': 'vixsrc'}]
                                 else:
-                                    log.warning(
-                                        "DETAILS: Could not extract stream from embed")
+                                    log.warning("DETAILS: Could not extract stream from embed")
 
             # --- Default: get_title_details ---
             else:
@@ -699,85 +687,60 @@ class SCDetailsScreen(Screen):
                 e, MessageBox.TYPE_ERROR)
 
     def _play_altadefinizione_content(self):
-        """Send Altadefinizione hoster link to decoder without decrypting."""
         try:
-            if self.details.get('type') == 'TvSeries':
-                # For TV series
-                episodes = self.seasons_data.get(self.selected_season, [])
-                selected_episode_data = None
-                selected_index = getattr(
-                    self, 'selected_altadef_episode_index', 0)
-                if 0 <= selected_index < len(episodes):
-                    selected_episode_data = episodes[selected_index]
-                if not selected_episode_data and episodes:
-                    selected_episode_data = episodes[0]
+            log.info("===== ALTADEFINIZIONE PLAY START =====")
+            log.info("self.details: {}".format(self.details))
+            
+            streaming_links = self.details.get('streaming_links', [])
+            log.info("streaming_links: {}".format(streaming_links))
+            
+            if not streaming_links:
+                # TENTA DI ESTRARRE DIRETTAMENTE
+                from .altadefinizione import Altadefinizione
+                altadef_client = Altadefinizione()
+                altadef_url = self.details.get('altadef_url', '')
+                log.info("Trying direct extraction from: {}".format(altadef_url))
+                
+                # Prova a ottenere il link dalla pagina
+                html = altadef_client._get_page(altadef_url)
+                if html:
+                    import re
+                    iframe_match = re.search(r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
+                    if iframe_match:
+                        embed_url = iframe_match.group(1)
+                        if not embed_url.startswith('http'):
+                            embed_url = 'https:' + embed_url if embed_url.startswith('//') else 'https://' + embed_url
+                        log.info("Found embed URL manually: {}".format(embed_url))
+                        
+                        stream_url = altadef_client._extract_vixsrc_stream(embed_url, altadef_url)
+                        log.info("Extracted stream URL: {}".format(stream_url))
+                        
+                        if stream_url:
+                            streaming_links = [{'url': stream_url, 'quality': 'HD', 'service': 'vixsrc'}]
+                            self.details['streaming_links'] = streaming_links
 
-                if not selected_episode_data:
-                    self.session.open(
-                        MessageBox,
-                        _("No Altadefinizione episode found"),
-                        MessageBox.TYPE_ERROR)
-                    return
-
-                stream_url = selected_episode_data.get('url', '')
-                quality = selected_episode_data.get('quality', 'Maxstream')
-                service = selected_episode_data.get('type', 'maxstream')
-                service_name = "{} - S{:02d}E{:02d} [{}]".format(
-                    self.title,
-                    self.selected_season,
-                    self.selected_episode,
-                    service.title()
-                )
-            else:
-                # For movies
-                streaming_links = self.details.get('streaming_links', [])
-                if not streaming_links:
-                    self.session.open(
-                        MessageBox,
-                        _("No streaming links found"),
-                        MessageBox.TYPE_ERROR)
-                    return
-
-                link_index = getattr(self, 'selected_altadef_link_index', 0)
-                if link_index >= len(streaming_links):
-                    link_index = 0
-
-                selected_link = streaming_links[link_index]
-                log.info(
-                    "ALTADEFINIZIONE_PLAY: Using link index {}: {}".format(
-                        link_index, selected_link))
-
-                stream_url = selected_link['url']
-                quality = selected_link.get('quality', 'SD')
-                service = selected_link.get(
-                    'type') or selected_link.get('service') or 'hoster'
-                service_name = "{} [{} {}]".format(
-                    self.title, service.title(), quality)
-
-            if not stream_url:
-                self.session.open(
-                    MessageBox,
-                    _("Invalid streaming URL"),
-                    MessageBox.TYPE_ERROR)
+            if not streaming_links:
+                self.session.open(MessageBox, _("No streaming links found."), MessageBox.TYPE_ERROR)
                 return
 
-            log.info(
-                "ALTADEFINIZIONE_PLAY: Sending {} URL to decoder: {}".format(
-                    service, stream_url))
+            link_index = getattr(self, 'selected_altadef_link_index', 0)
+            if link_index >= len(streaming_links):
+                link_index = 0
+
+            selected_link = streaming_links[link_index]
+            stream_url = selected_link['url']
+            log.info("FINAL STREAM URL: {}".format(stream_url))
+            
+            service_name = "{} [Altadefinizione]".format(self.title)
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
-            self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+            
+            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
 
         except Exception as e:
-            log.error("ALTADEFINIZIONE_PLAY: Error: {}".format(e))
+            log.error("ALTADEFINIZIONE PLAY ERROR: {}".format(e))
             import traceback
-            log.error(
-                "ALTADEFINIZIONE_PLAY: Traceback: {}".format(
-                    traceback.format_exc()))
-            self.session.open(
-                MessageBox, _("Altadefinizione playback error: %s") %
-                e, MessageBox.TYPE_ERROR)
+            log.error(traceback.format_exc())
 
     def _setup_cb01_series(self):
         """Setup for CB01 TV series with already extracted hoster links."""
