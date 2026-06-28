@@ -41,9 +41,6 @@ msgstr ">>> Sērijas <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Gadalaiki <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione atskaņošanas kļūda: %s"
-
 msgid "Available links:"
 msgstr "Pieejamās saites:"
 
@@ -89,6 +86,9 @@ msgstr "Sīkāka informācija par: '%s'"
 msgid "Details not available"
 msgstr "Sīkāka informācija nav pieejama"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "IZIET"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Iespējot atkļūdošanas izvadi žurnālos"
 
 msgid "Enter Captcha Code"
+msgstr "Ievadiet Captcha kodu"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Ievadiet Captcha kodu"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Ielādējot OnlineSerieTV seriālu, radās kļūda"
 
 msgid "Error loading TMDB"
 msgstr "Ielādējot TMDB, radās kļūda"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Ielādējot informāciju, radās kļūda"
 
 msgid "Error loading details"
 msgstr "Ielādējot informāciju, radās kļūda"
@@ -173,9 +181,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Jauna meklēšana..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Netika atrasta neviena Altadefinizione sērija"
-
 msgid "No CB01 episode found"
 msgstr "Nav atrasta neviena CB01 sērija"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Vietnē SC nav atrasts neviens rezultāts."
 
 msgid "No streaming links found"
+msgstr "Straumēšanas saites nav atrastas"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Straumēšanas saites nav atrastas"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,6 +340,12 @@ msgstr "kļūda"
 
 msgid "loading"
 msgstr "iekraušana"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione atskaņošanas kļūda: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Netika atrasta neviena Altadefinizione sērija"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "ATSKAŅOT MEDIJU"

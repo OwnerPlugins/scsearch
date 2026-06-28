@@ -40,9 +40,6 @@ msgstr ">>> Эпизодҳо <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Фаслҳо <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Хатогии бозикунии Altadefinizione: %s"
-
 msgid "Available links:"
 msgstr "Истинодҳои дастрас:"
 
@@ -88,6 +85,9 @@ msgstr "Тафсилот барои: '%s'"
 msgid "Details not available"
 msgstr "Тафсилот дастрас нест"
 
+msgid "ENTER"
+msgstr "ВОРИД"
+
 msgid "EXIT"
 msgstr "БАРОМАДГОҲ"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Натиҷаи ислоҳро дар гузоришҳо фаъол созед"
 
 msgid "Enter Captcha Code"
+msgstr "Рамзи Captcha-ро ворид кунед"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Рамзи Captcha-ро ворид кунед"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "Хатогии боркунии силсилаи OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Хатогӣ ҳангоми боркунии TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Хатогӣ дар боркунии тафсилот"
 
 msgid "Error loading details"
 msgstr "Хатогӣ дар боркунии тафсилот"
@@ -172,9 +180,6 @@ msgstr "Не"
 msgid "New search..."
 msgstr "Ҷустуҷӯи нав..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Ягон эпизоди Altadefinizione ёфт нашуд"
-
 msgid "No CB01 episode found"
 msgstr "Ягон эпизоди CB01 ёфт нашуд"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "Дар SC ягон натиҷае ёфт нашуд."
 
 msgid "No streaming links found"
+msgstr "Истиноди ҷараён ёфт нашуд"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Истиноди ҷараён ёфт нашуд"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,6 +339,12 @@ msgstr "хато"
 
 msgid "loading"
 msgstr "бор кардан"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Хатогии бозикунии Altadefinizione: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Ягон эпизоди Altadefinizione ёфт нашуд"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "ВАОРО БОЗЕД"

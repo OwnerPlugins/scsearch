@@ -40,9 +40,6 @@ msgstr ">>> Atalak <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Urtaroak <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizioa erreproduzitzeko errorea: %s"
-
 msgid "Available links:"
 msgstr "Eskuragarri dauden estekak:"
 
@@ -88,6 +85,9 @@ msgstr "Xehetasunak: '%s'"
 msgid "Details not available"
 msgstr "Xehetasunak ez daude eskuragarri"
 
+msgid "ENTER"
+msgstr "SARTU"
+
 msgid "EXIT"
 msgstr "IRTEN"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Gaitu arazketa-irteera erregistroetan"
 
 msgid "Enter Captcha Code"
+msgstr "Sartu Captcha kodea"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Sartu Captcha kodea"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "Errore bat gertatu da OnlineSerieTV seriea kargatzean"
 
 msgid "Error loading TMDB"
 msgstr "Errore bat gertatu da TMDB kargatzean"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Errore bat gertatu da xehetasunak kargatzean"
 
 msgid "Error loading details"
 msgstr "Errore bat gertatu da xehetasunak kargatzean"
@@ -172,9 +180,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Bilaketa berria..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Ez da Altadefinizione atalik aurkitu"
-
 msgid "No CB01 episode found"
 msgstr "Ez da CB01 atalik aurkitu"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "Ez da emaitzarik aurkitu SC-n."
 
 msgid "No streaming links found"
+msgstr "Ez da aurkitu streaming estekarik"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Ez da aurkitu streaming estekarik"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,6 +339,12 @@ msgstr "akatsa"
 
 msgid "loading"
 msgstr "kargatzen"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizioa erreproduzitzeko errorea: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Ez da Altadefinizione atalik aurkitu"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "JOLAS MEDIA"
