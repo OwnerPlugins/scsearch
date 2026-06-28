@@ -40,6 +40,9 @@ msgstr ">>> Episodji <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Staġuni <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Żball ta' daqq ta' definizzjoni għolja: %s"
+
 msgid "Available links:"
 msgstr "Links disponibbli:"
 
@@ -85,9 +88,6 @@ msgstr "Dettalji għal: '%s'"
 msgid "Details not available"
 msgstr "Dettalji mhux disponibbli"
 
-msgid "ENTER"
-msgstr "DĦUL"
-
 msgid "EXIT"
 msgstr "ĦRUĠ"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Ippermetti l-output tad-debug fir-zkuk"
 
 msgid "Enter Captcha Code"
-msgstr "Daħħal il-Kodiċi Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Daħħal il-Kodiċi Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Żball fit-tagħbija tas-serje OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Żball fit-tagħbija ta' TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Żball fit-tagħbija tad-dettalji"
 
 msgid "Error loading details"
 msgstr "Żball fit-tagħbija tad-dettalji"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Tfittxija ġdida..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Ma nstab l-ebda episodju ta' Altadefinizione"
+
 msgid "No CB01 episode found"
 msgstr "Ma nstab l-ebda episodju CB01"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "L-ebda riżultat ma nstab fuq SC."
 
 msgid "No streaming links found"
-msgstr "Ma nstab l-ebda link ta' streaming"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Ma nstab l-ebda link ta' streaming"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,9 +330,3 @@ msgstr "żball"
 
 msgid "loading"
 msgstr "tagħbija"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Żball ta' daqq ta' definizzjoni għolja: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Ma nstab l-ebda episodju ta' Altadefinizione"

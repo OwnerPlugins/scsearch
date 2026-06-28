@@ -40,6 +40,9 @@ msgstr ">>> ეპიზოდები <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> სეზონები <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizone დაკვრის შეცდომა: %s"
+
 msgid "Available links:"
 msgstr "ხელმისაწვდომი ბმულები:"
 
@@ -85,9 +88,6 @@ msgstr "დეტალები: '%s'"
 msgid "Details not available"
 msgstr "დეტალები მიუწვდომელია"
 
-msgid "ENTER"
-msgstr ""
-
 msgid "EXIT"
 msgstr ""
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "ჩართეთ გამართვის გამომავალი ჟურნალებში"
 
 msgid "Enter Captcha Code"
-msgstr "შეიყვანეთ Captcha კოდი"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "შეიყვანეთ Captcha კოდი"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "შეცდომა OnlineSerieTV სერიების ჩატ�
 
 msgid "Error loading TMDB"
 msgstr "შეცდომა TMDB ჩატვირთვისას"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "შეცდომა დეტალების ჩატვირთვისას"
 
 msgid "Error loading details"
 msgstr "შეცდომა დეტალების ჩატვირთვისას"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "ახალი ძებნა..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizone ეპიზოდი ვერ მოიძებნა"
+
 msgid "No CB01 episode found"
 msgstr "CB01 ეპიზოდი ვერ მოიძებნა"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "SC-ზე შედეგი ვერ მოიძებნა."
 
 msgid "No streaming links found"
-msgstr "ნაკადის ბმულები ვერ მოიძებნა"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "ნაკადის ბმულები ვერ მოიძებნა"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,9 +330,3 @@ msgstr "შეცდომა"
 
 msgid "loading"
 msgstr "ჩატვირთვა"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizone დაკვრის შეცდომა: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizone ეპიზოდი ვერ მოიძებნა"

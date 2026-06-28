@@ -40,6 +40,9 @@ msgstr ">>> ክፍሎች <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> ወቅቶች <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione መልሶ ማጫወት ስህተት፡ %s"
+
 msgid "Available links:"
 msgstr "የሚገኙ ማገናኛዎች፡-"
 
@@ -85,9 +88,6 @@ msgstr "ዝርዝሮች ለ፡ '%s'"
 msgid "Details not available"
 msgstr "ዝርዝሮች አይገኙም።"
 
-msgid "ENTER"
-msgstr "አስገባ"
-
 msgid "EXIT"
 msgstr "ውጣ"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "በምዝግብ ማስታወሻዎች ውስጥ የማረም ውፅዓትን አንቃ"
 
 msgid "Enter Captcha Code"
-msgstr "Captcha ኮድ ያስገቡ"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Captcha ኮድ ያስገቡ"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "የመስመር ላይSerieTV ተከታታዮችን መጫን ላይ ስ
 
 msgid "Error loading TMDB"
 msgstr "TMDB መጫን ላይ ስህተት"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "ዝርዝሮችን መጫን ላይ ስህተት"
 
 msgid "Error loading details"
 msgstr "ዝርዝሮችን መጫን ላይ ስህተት"
@@ -180,6 +172,9 @@ msgstr "ኤን/ኤ"
 msgid "New search..."
 msgstr "አዲስ ፍለጋ..."
 
+msgid "No Altadefinizione episode found"
+msgstr "ምንም Altadefinizione የትዕይንት ክፍል አልተገኘም።"
+
 msgid "No CB01 episode found"
 msgstr "ምንም የCB01 ክፍል አልተገኘም።"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "በ SC ላይ ምንም ውጤቶች አልተገኙም።"
 
 msgid "No streaming links found"
-msgstr "ምንም የዥረት ማያያዣዎች አልተገኙም።"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "ምንም የዥረት ማያያዣዎች አልተገኙም።"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "ስህተት"
 
 msgid "loading"
 msgstr "በመጫን ላይ"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione መልሶ ማጫወት ስህተት፡ %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "ምንም Altadefinizione የትዕይንት ክፍል አልተገኘም።"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "ሚዲያ አጫውት።"

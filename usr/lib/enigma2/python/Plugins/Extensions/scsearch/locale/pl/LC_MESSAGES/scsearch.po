@@ -41,6 +41,9 @@ msgstr ">>> Odcinki <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Pory roku <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione błąd odtwarzania: %s"
+
 msgid "Available links:"
 msgstr "Dostępne linki:"
 
@@ -86,9 +89,6 @@ msgstr "Szczegóły dla: '%s'"
 msgid "Details not available"
 msgstr "Szczegóły niedostępne"
 
-msgid "ENTER"
-msgstr "WCHODZIĆ"
-
 msgid "EXIT"
 msgstr "WYJŚCIE"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "Włącz dane wyjściowe debugowania w dziennikach"
 
 msgid "Enter Captcha Code"
-msgstr "Wprowadź kod Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Wprowadź kod Captcha"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "Błąd podczas ładowania serialu OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Błąd ładowania TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Błąd podczas ładowania szczegółów"
 
 msgid "Error loading details"
 msgstr "Błąd podczas ładowania szczegółów"
@@ -181,6 +173,9 @@ msgstr "Nie dotyczy"
 msgid "New search..."
 msgstr "Nowe wyszukiwanie..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Nie znaleziono odcinka Altadefinizione"
+
 msgid "No CB01 episode found"
 msgstr "Nie znaleziono odcinka CB01"
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "Brak wyników na stronie SC."
 
 msgid "No streaming links found"
-msgstr "Nie znaleziono linków do transmisji strumieniowej"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Nie znaleziono linków do transmisji strumieniowej"
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,12 +331,3 @@ msgstr "błąd"
 
 msgid "loading"
 msgstr "załadunek"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione błąd odtwarzania: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Nie znaleziono odcinka Altadefinizione"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "ODtwórz multimedia"

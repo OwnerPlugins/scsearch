@@ -40,6 +40,9 @@ msgstr ">>> עפּיזאָד <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> סעאַסאָנס <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "אַלט דעפֿיניציע פּלייבאַק טעות: %s"
+
 msgid "Available links:"
 msgstr "בנימצא לינקס:"
 
@@ -85,9 +88,6 @@ msgstr "דעטאַילס פֿאַר: '%s'"
 msgid "Details not available"
 msgstr "דעטאַילס ניט בנימצא"
 
-msgid "ENTER"
-msgstr "אַרייַן"
-
 msgid "EXIT"
 msgstr "אַרויסגאַנג"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "געבן דיבאַג רעזולטאַט אין לאָגס"
 
 msgid "Enter Captcha Code"
-msgstr "אַרייַן קאַפּטטשאַ קאָד"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "אַרייַן קאַפּטטשאַ קאָד"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "טעות לאָודינג OnlineSerieTV סעריע"
 
 msgid "Error loading TMDB"
 msgstr "טעות לאָודינג TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "טעות לאָודינג פרטים"
 
 msgid "Error loading details"
 msgstr "טעות לאָודינג פרטים"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "נײַע זוכן..."
 
+msgid "No Altadefinizione episode found"
+msgstr "קיין אַלטאַ דעפֿיניציע עפּיזאָד געפֿונען"
+
 msgid "No CB01 episode found"
 msgstr "קיין CB01 עפּיזאָד געפֿונען"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "קיין רעזולטאַטן געפֿונען אויף SC."
 
 msgid "No streaming links found"
-msgstr "קיין סטרימינג לינקס געפונען"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "קיין סטרימינג לינקס געפונען"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "טעות"
 
 msgid "loading"
 msgstr ""
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "אַלט דעפֿיניציע פּלייבאַק טעות: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "קיין אַלטאַ דעפֿיניציע עפּיזאָד געפֿונען"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "שפּיל מעדיע"

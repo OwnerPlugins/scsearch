@@ -40,6 +40,9 @@ msgstr ">>> قسطونه <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> فصلونه <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione پلے بیک تېروتنه: %s"
+
 msgid "Available links:"
 msgstr "شته لینکونه:"
 
@@ -85,9 +88,6 @@ msgstr "د دې لپاره توضیحات: '%s'"
 msgid "Details not available"
 msgstr "جزئیات نشته"
 
-msgid "ENTER"
-msgstr "ننوتل"
-
 msgid "EXIT"
 msgstr "وتل"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "په لاګونو کې د ډیبګ محصول فعال کړئ"
 
 msgid "Enter Captcha Code"
-msgstr "د کیپچا کوډ دننه کړئ"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "د کیپچا کوډ دننه کړئ"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "د OnlineSerieTV لړۍ بارولو کې تېروتنه"
 
 msgid "Error loading TMDB"
 msgstr "د TMDB په بارولو کې تېروتنه"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "د جزیاتو په بارولو کې تېروتنه"
 
 msgid "Error loading details"
 msgstr "د جزیاتو په بارولو کې تېروتنه"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "نوې لټون..."
 
+msgid "No Altadefinizione episode found"
+msgstr "هیڅ Altadefinizione قسط ونه موندل شو"
+
 msgid "No CB01 episode found"
 msgstr "هیڅ CB01 قسط ندی موندل شوی"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "په SC کې هیڅ پایلې ونه موندل شوې."
 
 msgid "No streaming links found"
-msgstr "هیڅ جریان لینکونه ونه موندل شول"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "هیڅ جریان لینکونه ونه موندل شول"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "تېروتنه"
 
 msgid "loading"
 msgstr "بار کول"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione پلے بیک تېروتنه: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "هیڅ Altadefinizione قسط ونه موندل شو"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "رسنۍ پلی کړئ"

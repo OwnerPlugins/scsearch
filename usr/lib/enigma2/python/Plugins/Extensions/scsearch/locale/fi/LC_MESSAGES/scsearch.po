@@ -41,6 +41,9 @@ msgstr ">>> Jaksot <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Vuodenajat <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione toistovirhe: %s"
+
 msgid "Available links:"
 msgstr "Käytettävissä olevat linkit:"
 
@@ -86,9 +89,6 @@ msgstr "Tiedot kohteelle: '%s'"
 msgid "Details not available"
 msgstr "Yksityiskohtia ei ole saatavilla"
 
-msgid "ENTER"
-msgstr ""
-
 msgid "EXIT"
 msgstr "POISTU"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "Ota virheenkorjaus käyttöön lokeissa"
 
 msgid "Enter Captcha Code"
-msgstr "Anna Captcha-koodi"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Anna Captcha-koodi"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "Virhe ladattaessa OnlineSerieTV-sarjaa"
 
 msgid "Error loading TMDB"
 msgstr "Virhe ladattaessa TMDB:tä"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Virhe ladattaessa tietoja"
 
 msgid "Error loading details"
 msgstr "Virhe ladattaessa tietoja"
@@ -181,6 +173,9 @@ msgstr "Ei käytössä"
 msgid "New search..."
 msgstr "Uusi haku..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione-jaksoa ei löytynyt"
+
 msgid "No CB01 episode found"
 msgstr "CB01-jaksoa ei löytynyt"
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "Ei tuloksia SC:stä."
 
 msgid "No streaming links found"
-msgstr "Suoratoistolinkkejä ei löytynyt"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Suoratoistolinkkejä ei löytynyt"
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,12 +331,3 @@ msgstr "virhe"
 
 msgid "loading"
 msgstr "lastaus"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione toistovirhe: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizione-jaksoa ei löytynyt"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "PELAA MEDIAA"

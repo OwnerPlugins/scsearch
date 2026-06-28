@@ -40,6 +40,9 @@ msgstr ">>> කථාංග <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> වාර <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizion ප්ලේබැක් දෝෂය: %s"
+
 msgid "Available links:"
 msgstr "පවතින සබැඳි:"
 
@@ -85,9 +88,6 @@ msgstr "සඳහා විස්තර: '%s'"
 msgid "Details not available"
 msgstr "විස්තර නොමැත"
 
-msgid "ENTER"
-msgstr "ඇතුල් කරන්න"
-
 msgid "EXIT"
 msgstr "පිටවීම"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "ලඝු-සටහන් වල නිදොස් කිරීමේ ප්‍රතිදානය සබල කරන්න"
 
 msgid "Enter Captcha Code"
-msgstr "Captcha Code ඇතුලත් කරන්න"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Captcha Code ඇතුලත් කරන්න"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "OnlineSerieTV මාලාව පූරණය කිරීමේ දෝ�
 
 msgid "Error loading TMDB"
 msgstr "TMDB පූරණය කිරීමේ දෝෂයකි"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "විස්තර පූරණය කිරීමේ දෝෂයකි"
 
 msgid "Error loading details"
 msgstr "විස්තර පූරණය කිරීමේ දෝෂයකි"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "නව සෙවීම..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizion කථාංග කිසිවක් හමු නොවීය"
+
 msgid "No CB01 episode found"
 msgstr "CB01 කථාංගයක් හමු නොවීය"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "SC හි ප්‍රතිඵල කිසිවක් හමු නොවීය."
 
 msgid "No streaming links found"
-msgstr "ප්‍රවාහ සබැඳි හමු නොවීය"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "ප්‍රවාහ සබැඳි හමු නොවීය"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "දෝෂය"
 
 msgid "loading"
 msgstr "පැටවීම"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizion ප්ලේබැක් දෝෂය: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizion කථාංග කිසිවක් හමු නොවීය"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "මාධ්‍ය වාදනය කරන්න"

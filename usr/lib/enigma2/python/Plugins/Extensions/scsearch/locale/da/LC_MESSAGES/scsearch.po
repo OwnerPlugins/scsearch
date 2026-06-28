@@ -41,6 +41,9 @@ msgstr ">>> Afsnit <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Årstider <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione afspilningsfejl: %s"
+
 msgid "Available links:"
 msgstr "Tilgængelige links:"
 
@@ -86,9 +89,6 @@ msgstr "Detaljer for: '%s'"
 msgid "Details not available"
 msgstr "Detaljer ikke tilgængelige"
 
-msgid "ENTER"
-msgstr ""
-
 msgid "EXIT"
 msgstr "UDGANG"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "Aktiver fejlretningsoutput i logfiler"
 
 msgid "Enter Captcha Code"
-msgstr "Indtast Captcha-kode"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Indtast Captcha-kode"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "Fejl ved indlæsning af OnlineSerieTV-serien"
 
 msgid "Error loading TMDB"
 msgstr "Fejl ved indlæsning af TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Fejl ved indlæsning af detaljer"
 
 msgid "Error loading details"
 msgstr "Fejl ved indlæsning af detaljer"
@@ -181,6 +173,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Ny søgning..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Ingen Altadefinizione episode fundet"
+
 msgid "No CB01 episode found"
 msgstr "Ingen CB01 episode fundet"
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "Ingen resultater fundet på SC."
 
 msgid "No streaming links found"
-msgstr "Ingen streaminglinks fundet"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Ingen streaminglinks fundet"
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,12 +331,3 @@ msgstr "fejl"
 
 msgid "loading"
 msgstr "indlæsning"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione afspilningsfejl: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Ingen Altadefinizione episode fundet"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "SPIL MEDIE"

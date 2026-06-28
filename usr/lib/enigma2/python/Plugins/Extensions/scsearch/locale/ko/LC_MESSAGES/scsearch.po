@@ -41,6 +41,9 @@ msgstr ">>> 에피소드 <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> 계절 <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione 재생 오류: %s"
+
 msgid "Available links:"
 msgstr "사용 가능한 링크:"
 
@@ -86,9 +89,6 @@ msgstr "세부정보: '%s'"
 msgid "Details not available"
 msgstr "세부정보를 확인할 수 없음"
 
-msgid "ENTER"
-msgstr "입력하다"
-
 msgid "EXIT"
 msgstr "출구"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "로그에서 디버그 출력 활성화"
 
 msgid "Enter Captcha Code"
-msgstr "보안 문자 코드를 입력하세요"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "보안 문자 코드를 입력하세요"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "OnlineSerieTV 시리즈를 로드하는 중 오류가 발생했습니다
 
 msgid "Error loading TMDB"
 msgstr "TMDB를 로드하는 중 오류가 발생했습니다."
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "세부정보를 로드하는 중에 오류가 발생했습니다."
 
 msgid "Error loading details"
 msgstr "세부정보를 로드하는 중에 오류가 발생했습니다."
@@ -181,6 +173,9 @@ msgstr "해당 없음"
 msgid "New search..."
 msgstr "새로운 검색..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione 에피소드를 찾을 수 없습니다."
+
 msgid "No CB01 episode found"
 msgstr "CB01 에피소드를 찾을 수 없습니다."
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "SC에 대한 검색결과가 없습니다."
 
 msgid "No streaming links found"
-msgstr "스트리밍 링크를 찾을 수 없습니다."
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "스트리밍 링크를 찾을 수 없습니다."
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,12 +331,3 @@ msgstr "오류"
 
 msgid "loading"
 msgstr "로드 중"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione 재생 오류: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizione 에피소드를 찾을 수 없습니다."
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "미디어 플레이"

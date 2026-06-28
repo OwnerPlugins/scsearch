@@ -41,6 +41,9 @@ msgstr ">>> Epizódy <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Ročné obdobia <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Chyba prehrávania Altadefinizeone: %s"
+
 msgid "Available links:"
 msgstr "Dostupné odkazy:"
 
@@ -86,9 +89,6 @@ msgstr "Podrobnosti pre: '%s'"
 msgid "Details not available"
 msgstr "Podrobnosti nie sú k dispozícii"
 
-msgid "ENTER"
-msgstr ""
-
 msgid "EXIT"
 msgstr "VÝCHOD"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "Povoliť výstup ladenia v denníkoch"
 
 msgid "Enter Captcha Code"
-msgstr "Zadajte kód Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Zadajte kód Captcha"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "Chyba pri načítavaní seriálu OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Chyba pri načítavaní TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Chyba pri načítavaní podrobností"
 
 msgid "Error loading details"
 msgstr "Chyba pri načítavaní podrobností"
@@ -181,6 +173,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Nové vyhľadávanie..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Nenašla sa žiadna epizóda Altadefinizione"
+
 msgid "No CB01 episode found"
 msgstr "Nenašla sa žiadna epizóda CB01"
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "Na SC sa nenašli žiadne výsledky."
 
 msgid "No streaming links found"
-msgstr "Nenašli sa žiadne odkazy na streamovanie"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Nenašli sa žiadne odkazy na streamovanie"
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,12 +331,3 @@ msgstr "chyba"
 
 msgid "loading"
 msgstr "načítavanie"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Chyba prehrávania Altadefinizeone: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Nenašla sa žiadna epizóda Altadefinizione"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "PREHRAŤ MÉDIÁ"

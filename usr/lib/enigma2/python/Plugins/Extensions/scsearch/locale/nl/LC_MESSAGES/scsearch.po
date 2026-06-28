@@ -41,6 +41,9 @@ msgstr ">>> Afleveringen <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Seizoenen <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione afspeelfout: %s"
+
 msgid "Available links:"
 msgstr "Beschikbare koppelingen:"
 
@@ -86,9 +89,6 @@ msgstr "Details voor: '%s'"
 msgid "Details not available"
 msgstr "Details niet beschikbaar"
 
-msgid "ENTER"
-msgstr "BINNENKOMEN"
-
 msgid "EXIT"
 msgstr "UITGANG"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "Schakel uitvoer van foutopsporing in logboeken in"
 
 msgid "Enter Captcha Code"
-msgstr "Voer Captcha-code in"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Voer Captcha-code in"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "Fout bij het laden van OnlineSerieTV-serie"
 
 msgid "Error loading TMDB"
 msgstr "Fout bij het laden van TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Fout bij laden van details"
 
 msgid "Error loading details"
 msgstr "Fout bij laden van details"
@@ -181,6 +173,9 @@ msgstr "N.v.t"
 msgid "New search..."
 msgstr "Nieuwe zoekopdracht..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Geen Altadefinizione-aflevering gevonden"
+
 msgid "No CB01 episode found"
 msgstr "Geen CB01-aflevering gevonden"
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "Er zijn geen resultaten gevonden op SC."
 
 msgid "No streaming links found"
-msgstr "Geen streaminglinks gevonden"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Geen streaminglinks gevonden"
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,12 +331,3 @@ msgstr "fout"
 
 msgid "loading"
 msgstr "laden"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione afspeelfout: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Geen Altadefinizione-aflevering gevonden"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "SPEEL MEDIA"

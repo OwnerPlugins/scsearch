@@ -40,6 +40,9 @@ msgstr ""
 msgid ">>> Seasons <<<"
 msgstr ""
 
+msgid "Altadefinizione playback error: %s"
+msgstr ""
+
 msgid "Available links:"
 msgstr ""
 
@@ -85,9 +88,6 @@ msgstr ""
 msgid "Details not available"
 msgstr ""
 
-msgid "ENTER"
-msgstr ""
-
 msgid "EXIT"
 msgstr ""
 
@@ -98,9 +98,6 @@ msgid "Enable debug output in logs"
 msgstr ""
 
 msgid "Enter Captcha Code"
-msgstr ""
-
-msgid "Enter captcha code:"
 msgstr ""
 
 msgid "Episode %d"
@@ -122,9 +119,6 @@ msgid "Error loading OnlineSerieTV series"
 msgstr ""
 
 msgid "Error loading TMDB"
-msgstr ""
-
-msgid "Error loading captcha"
 msgstr ""
 
 msgid "Error loading details"
@@ -178,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr ""
 
+msgid "No Altadefinizione episode found"
+msgstr ""
+
 msgid "No CB01 episode found"
 msgstr ""
 
@@ -200,9 +197,6 @@ msgid "No results found on SC."
 msgstr ""
 
 msgid "No streaming links found"
-msgstr ""
-
-msgid "No streaming links found."
 msgstr ""
 
 msgid "OnlineSerieTV - TV Series"

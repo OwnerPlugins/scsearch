@@ -40,6 +40,9 @@ msgstr ">>> اقساط <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> موسم <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione پلے بیک کی خرابی: %s"
+
 msgid "Available links:"
 msgstr "دستیاب لنکس:"
 
@@ -85,9 +88,6 @@ msgstr "تفصیلات برائے: '%s'"
 msgid "Details not available"
 msgstr "تفصیلات دستیاب نہیں ہیں۔"
 
-msgid "ENTER"
-msgstr "داخل کریں۔"
-
 msgid "EXIT"
 msgstr "باہر نکلیں۔"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "لاگز میں ڈیبگ آؤٹ پٹ کو فعال کریں۔"
 
 msgid "Enter Captcha Code"
-msgstr "کیپچا کوڈ درج کریں۔"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "کیپچا کوڈ درج کریں۔"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "OnlineSerieTV سیریز لوڈ کرنے میں خرابی۔"
 
 msgid "Error loading TMDB"
 msgstr "TMDB لوڈ کرنے میں خرابی۔"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "تفصیلات لوڈ کرنے میں خرابی۔"
 
 msgid "Error loading details"
 msgstr "تفصیلات لوڈ کرنے میں خرابی۔"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "نئی تلاش..."
 
+msgid "No Altadefinizione episode found"
+msgstr "کوئی Altadefinizione ایپیسوڈ نہیں ملا"
+
 msgid "No CB01 episode found"
 msgstr "کوئی CB01 ایپی سوڈ نہیں ملا"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "SC پر کوئی نتیجہ نہیں ملا۔"
 
 msgid "No streaming links found"
-msgstr "کوئی سلسلہ بندی کے لنکس نہیں ملے"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "کوئی سلسلہ بندی کے لنکس نہیں ملے"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "غلطی"
 
 msgid "loading"
 msgstr "لوڈ ہو رہا ہے"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione پلے بیک کی خرابی: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "کوئی Altadefinizione ایپیسوڈ نہیں ملا"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "میڈیا چلائیں۔"

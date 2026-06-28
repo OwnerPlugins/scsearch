@@ -40,6 +40,9 @@ msgstr ">>> Episòdis <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Sasons <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Error de lectura Altadefinizione : %s"
+
 msgid "Available links:"
 msgstr "Ligams disponibles:"
 
@@ -85,9 +88,6 @@ msgstr "Detalhs per : « %s »."
 msgid "Details not available"
 msgstr "Los detalhs pas disponibles"
 
-msgid "ENTER"
-msgstr "INTRAR"
-
 msgid "EXIT"
 msgstr "SORTIDA"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Activar la sortida de depuracion dins los jornals"
 
 msgid "Enter Captcha Code"
-msgstr "Picatz lo còde Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Picatz lo còde Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Error al moment del cargament de la seria OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Error al moment de cargament de TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Error al moment de cargament dels detalhs"
 
 msgid "Error loading details"
 msgstr "Error al moment de cargament dels detalhs"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Recèrca novèla..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Cap d'episòdi d'Altadefinizione pas trobat"
+
 msgid "No CB01 episode found"
 msgstr "Cap d'episòdi CB01 pas trobat"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Cap de resultat trobat sus SC."
 
 msgid "No streaming links found"
-msgstr "Pas cap de ligam de difusion trobat"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Pas cap de ligam de difusion trobat"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr ""
 
 msgid "loading"
 msgstr "cargament"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Error de lectura Altadefinizione : %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Cap d'episòdi d'Altadefinizione pas trobat"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "MÈDIA DE JOGAR"

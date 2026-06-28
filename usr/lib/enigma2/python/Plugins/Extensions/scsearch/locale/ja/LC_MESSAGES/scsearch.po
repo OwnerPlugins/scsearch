@@ -41,6 +41,9 @@ msgstr ">>> エピソード <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> 季節 <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "アルタ定義再生エラー: %s"
+
 msgid "Available links:"
 msgstr "利用可能なリンク:"
 
@@ -86,9 +89,6 @@ msgstr "詳細: '%s'"
 msgid "Details not available"
 msgstr "詳細は不明"
 
-msgid "ENTER"
-msgstr "入力"
-
 msgid "EXIT"
 msgstr "出口"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "ログでのデバッグ出力を有効にする"
 
 msgid "Enter Captcha Code"
-msgstr "キャプチャコードを入力してください"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "キャプチャコードを入力してください"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "OnlineSerieTV シリーズの読み込みエラー"
 
 msgid "Error loading TMDB"
 msgstr "TMDB のロード中にエラーが発生しました"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "詳細の読み込みエラー"
 
 msgid "Error loading details"
 msgstr "詳細の読み込みエラー"
@@ -181,6 +173,9 @@ msgstr "該当なし"
 msgid "New search..."
 msgstr "新しい検索..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione エピソードが見つかりませんでした"
+
 msgid "No CB01 episode found"
 msgstr "CB01 エピソードが見つかりませんでした"
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "SC で結果が見つかりませんでした。"
 
 msgid "No streaming links found"
-msgstr "ストリーミング リンクが見つかりません"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "ストリーミング リンクが見つかりません"
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,12 +331,3 @@ msgstr "エラー"
 
 msgid "loading"
 msgstr "読み込み中"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "アルタ定義再生エラー: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizione エピソードが見つかりませんでした"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "メディアを再生する"

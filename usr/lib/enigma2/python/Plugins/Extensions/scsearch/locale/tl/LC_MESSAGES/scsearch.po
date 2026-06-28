@@ -40,6 +40,9 @@ msgstr ">>> Mga Episode <<<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Mga Panahon <<<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Error sa pag-playback ng Altadefinizione: %s"
+
 msgid "Available links:"
 msgstr "Magagamit na mga link:"
 
@@ -85,9 +88,6 @@ msgstr "Mga detalye para sa: '%s'"
 msgid "Details not available"
 msgstr "Hindi available ang mga detalye"
 
-msgid "ENTER"
-msgstr "PUMASOK"
-
 msgid "EXIT"
 msgstr ""
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Paganahin ang output ng debug sa mga log"
 
 msgid "Enter Captcha Code"
-msgstr "Ilagay ang Captcha Code"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Ilagay ang Captcha Code"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Error sa paglo-load ng OnlineSerieTV series"
 
 msgid "Error loading TMDB"
 msgstr "Error sa paglo-load ng TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Error sa paglo-load ng mga detalye"
 
 msgid "Error loading details"
 msgstr "Error sa paglo-load ng mga detalye"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Bagong paghahanap..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Walang nakitang episode ng Altadefinizione"
+
 msgid "No CB01 episode found"
 msgstr "Walang nakitang CB01 episode"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Walang nakitang mga resulta sa SC."
 
 msgid "No streaming links found"
-msgstr "Walang nakitang streaming link"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Walang nakitang streaming link"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "pagkakamali"
 
 msgid "loading"
 msgstr "naglo-load"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Error sa pag-playback ng Altadefinizione: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Walang nakitang episode ng Altadefinizione"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "MAGLARO NG MEDIA"

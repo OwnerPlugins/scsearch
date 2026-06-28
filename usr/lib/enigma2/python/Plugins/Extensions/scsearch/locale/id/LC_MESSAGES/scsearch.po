@@ -40,6 +40,9 @@ msgstr ">>> Episode <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Musim <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Kesalahan pemutaran definisi: %s"
+
 msgid "Available links:"
 msgstr "Tautan yang tersedia:"
 
@@ -85,9 +88,6 @@ msgstr "Detail untuk: '%s'"
 msgid "Details not available"
 msgstr "Detail tidak tersedia"
 
-msgid "ENTER"
-msgstr "MEMASUKI"
-
 msgid "EXIT"
 msgstr "KELUAR"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Aktifkan keluaran debug di log"
 
 msgid "Enter Captcha Code"
-msgstr "Masukkan Kode Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Masukkan Kode Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Terjadi kesalahan saat memuat serial OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Terjadi kesalahan saat memuat TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Terjadi kesalahan saat memuat detail"
 
 msgid "Error loading details"
 msgstr "Terjadi kesalahan saat memuat detail"
@@ -180,6 +172,9 @@ msgstr "T/A"
 msgid "New search..."
 msgstr "Pencarian baru..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Tidak ada episode Altadefinisione yang ditemukan"
+
 msgid "No CB01 episode found"
 msgstr "Tidak ada episode CB01 yang ditemukan"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Tidak ada hasil yang ditemukan di SC."
 
 msgid "No streaming links found"
-msgstr "Tidak ada tautan streaming yang ditemukan"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Tidak ada tautan streaming yang ditemukan"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "kesalahan"
 
 msgid "loading"
 msgstr "memuat"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Kesalahan pemutaran definisi: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Tidak ada episode Altadefinisione yang ditemukan"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "MAINKAN MEDIA"

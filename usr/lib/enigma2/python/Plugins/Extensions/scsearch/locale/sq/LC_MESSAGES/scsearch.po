@@ -40,6 +40,9 @@ msgstr ">>> Episodet <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Stinët <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Gabim riprodhimi Altadefinizion: %s"
+
 msgid "Available links:"
 msgstr "Lidhjet e disponueshme:"
 
@@ -85,9 +88,6 @@ msgstr "Detaje për: '%s'"
 msgid "Details not available"
 msgstr "Detajet nuk disponohen"
 
-msgid "ENTER"
-msgstr "HYN"
-
 msgid "EXIT"
 msgstr "DALJE"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Aktivizo daljen e korrigjimit në regjistra"
 
 msgid "Enter Captcha Code"
-msgstr "Futni kodin Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Futni kodin Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Gabim gjatë ngarkimit të serive OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Gabim gjatë ngarkimit të TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Gabim gjatë ngarkimit të detajeve"
 
 msgid "Error loading details"
 msgstr "Gabim gjatë ngarkimit të detajeve"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Kërkim i ri..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Nuk u gjet asnjë episod Altadefinizion"
+
 msgid "No CB01 episode found"
 msgstr "Nuk u gjet asnjë episod CB01"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Nuk u gjetën rezultate në SC."
 
 msgid "No streaming links found"
-msgstr "Nuk u gjetën lidhje transmetimi"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Nuk u gjetën lidhje transmetimi"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "gabim"
 
 msgid "loading"
 msgstr "ngarkim"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Gabim riprodhimi Altadefinizion: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Nuk u gjet asnjë episod Altadefinizion"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "LUANI MEDIA"

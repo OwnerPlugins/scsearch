@@ -40,6 +40,9 @@ msgstr ">>> Vipindi <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Misimu <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Hitilafu ya kucheza ya Altadefinizione: %s"
+
 msgid "Available links:"
 msgstr "Viungo vinavyopatikana:"
 
@@ -85,9 +88,6 @@ msgstr "Maelezo ya: '%s'"
 msgid "Details not available"
 msgstr "Maelezo hayapatikani"
 
-msgid "ENTER"
-msgstr "INGIA"
-
 msgid "EXIT"
 msgstr "UTGÅNG"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Washa pato la utatuzi katika kumbukumbu"
 
 msgid "Enter Captcha Code"
-msgstr "Ingiza Msimbo wa Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Ingiza Msimbo wa Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Hitilafu katika kupakia mfululizo wa OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Hitilafu katika kupakia TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Hitilafu katika kupakia maelezo"
 
 msgid "Error loading details"
 msgstr "Hitilafu katika kupakia maelezo"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Utafutaji mpya..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Hakuna kipindi cha Altadefinizione kilichopatikana"
+
 msgid "No CB01 episode found"
 msgstr "Hakuna kipindi cha CB01 kilichopatikana"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Hakuna matokeo yaliyopatikana kwenye SC."
 
 msgid "No streaming links found"
-msgstr "Hakuna viungo vya kutiririsha vilivyopatikana"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Hakuna viungo vya kutiririsha vilivyopatikana"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "kosa"
 
 msgid "loading"
 msgstr "kupakia"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Hitilafu ya kucheza ya Altadefinizione: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Hakuna kipindi cha Altadefinizione kilichopatikana"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "CHEZA VYOMBO VYA HABARI"

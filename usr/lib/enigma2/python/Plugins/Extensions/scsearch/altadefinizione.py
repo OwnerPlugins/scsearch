@@ -92,14 +92,12 @@ class Altadefinizione:
                 response = self.session.get(url, timeout=30)
 
                 if response.status_code == 503 and 'cf-browser-verification' in response.text:
-                    log.warning(
-                        "Altadefinizione: Cloudflare detected, waiting...")
+                    log.warning("Altadefinizione: Cloudflare detected, waiting...")
                     time.sleep(5)
                     continue
 
                 if 'Just a moment' in response.text:
-                    log.warning(
-                        "Altadefinizione: Cloudflare challenge, waiting...")
+                    log.warning("Altadefinizione: Cloudflare challenge, waiting...")
                     time.sleep(5)
                     continue
 
@@ -108,9 +106,7 @@ class Altadefinizione:
                 return response.text
 
             except Exception as e:
-                log.warning(
-                    "Altadefinizione: Attempt {} failed: {}".format(
-                        attempt + 1, e))
+                log.warning("Altadefinizione: Attempt {} failed: {}".format(attempt + 1, e))
                 time.sleep(2)
 
         log.error("Altadefinizione: Failed to fetch {}".format(url))
@@ -135,8 +131,7 @@ class Altadefinizione:
             return tmdb_match.group(1)
 
         if url:
-            id_match = re.search(
-                r'/(?:film|tv)-[^/]+-(\d+)/', url, re.IGNORECASE)
+            id_match = re.search(r'/(?:film|tv)-[^/]+-(\d+)/', url, re.IGNORECASE)
             if id_match:
                 return id_match.group(1)
 
@@ -175,22 +170,18 @@ class Altadefinizione:
         try:
             encoded_query = urllib.parse.quote_plus(query)
             search_url = "{}/search?q={}".format(self.base_url, encoded_query)
-            log.info(
-                "Altadefinizione: TV series search URL: {}".format(search_url))
+            log.info("Altadefinizione: TV series search URL: {}".format(search_url))
 
             html = self._get_page(search_url)
             if not html:
                 return []
 
             results = self._parse_search_results(html, 'tv')
-            log.info(
-                "Altadefinizione: Found {} TV series.".format(
-                    len(results)))
+            log.info("Altadefinizione: Found {} TV series.".format(len(results)))
             return results
 
         except Exception as e:
-            log.error(
-                "Altadefinizione: Error searching TV series: {}".format(e))
+            log.error("Altadefinizione: Error searching TV series: {}".format(e))
             return []
 
     def _parse_search_results(self, html, media_type='movie'):
@@ -243,8 +234,7 @@ class Altadefinizione:
         Returns: title, year, description, poster, type, seasons, streaming_links
         """
         if not self.base_url:
-            log.error(
-                "Altadefinizione: Cannot get page details, base URL not configured")
+            log.error("Altadefinizione: Cannot get page details, base URL not configured")
             return None
 
         try:
@@ -261,7 +251,8 @@ class Altadefinizione:
                 'type': 'TvSeries' if self._is_tv_series(page_url) else 'Movie',
                 'genre': '',
                 'seasons': [],
-                'streaming_links': []}
+                'streaming_links': []
+            }
 
             # Extract TMDB ID
             tmdb_id = self._extract_tmdb_id(html, page_url)
@@ -269,44 +260,32 @@ class Altadefinizione:
                 details['tmdb_id'] = tmdb_id
 
             # Extract title
-            title_match = re.search(
-                r'<h1[^>]*>([^<]+)</h1>', html, re.IGNORECASE)
+            title_match = re.search(r'<h1[^>]*>([^<]+)</h1>', html, re.IGNORECASE)
             if title_match:
                 details['title'] = self._clean_html(title_match.group(1))
             else:
-                title_match = re.search(
-                    r'<meta property="og:title" content="([^"]+)"', html, re.IGNORECASE)
+                title_match = re.search(r'<meta property="og:title" content="([^"]+)"', html, re.IGNORECASE)
                 if title_match:
                     details['title'] = self._clean_html(title_match.group(1))
 
             # Extract year
-            year_match = re.search(
-                r'<span class="meta-item">(\d{4})</span>',
-                html,
-                re.IGNORECASE)
+            year_match = re.search(r'<span class="meta-item">(\d{4})</span>', html, re.IGNORECASE)
             if year_match:
                 details['year'] = year_match.group(1)
 
             # Extract description
-            desc_match = re.search(
-                r'<p class="detail-overview">([^<]+)</p>',
-                html,
-                re.IGNORECASE)
+            desc_match = re.search(r'<p class="detail-overview">([^<]+)</p>', html, re.IGNORECASE)
             if desc_match:
                 details['description'] = self._clean_html(desc_match.group(1))
 
             # Extract poster
-            poster_match = re.search(
-                r'<img[^>]+src="([^"]+)"[^>]*class="[^"]*poster[^"]*"',
-                html,
-                re.IGNORECASE)
+            poster_match = re.search(r'<img[^>]+src="([^"]+)"[^>]*class="[^"]*poster[^"]*"', html, re.IGNORECASE)
             if poster_match:
                 details['poster'] = poster_match.group(1)
 
             # If TV series, extract seasons
             if details['type'] == 'TvSeries':
-                details['seasons'] = self._extract_seasons(
-                    html, page_url, tmdb_id)
+                details['seasons'] = self._extract_seasons(html, page_url, tmdb_id)
 
             # If movie, extract streaming links
             if details['type'] == 'Movie':
@@ -315,8 +294,7 @@ class Altadefinizione:
             return details
 
         except Exception as e:
-            log.error(
-                "Altadefinizione: Error extracting details: {}".format(e))
+            log.error("Altadefinizione: Error extracting details: {}".format(e))
             return None
 
     def _extract_seasons(self, html, page_url, tmdb_id=None):
@@ -328,14 +306,10 @@ class Altadefinizione:
 
         if tmdb_id:
             # Extract seasons from page
-            season_items = re.findall(
-                r'data-season="(\d+)"', html, re.IGNORECASE)
+            season_items = re.findall(r'data-season="(\d+)"', html, re.IGNORECASE)
 
             if not season_items:
-                season_items = re.findall(
-                    r'<span[^>]*data-season="(\d+)"[^>]*>Stagione\s*\d+</span>',
-                    html,
-                    re.IGNORECASE)
+                season_items = re.findall(r'<span[^>]*data-season="(\d+)"[^>]*>Stagione\s*\d+</span>', html, re.IGNORECASE)
 
             unique_seasons = sorted(set(season_items))
 
@@ -349,15 +323,9 @@ class Altadefinizione:
                 if ep_matches:
                     episodes = sorted(set([int(e) for e in ep_matches]))
                 else:
-                    ep_count_match = re.search(
-                        r'Stagione\s+{}\s*\((?:[^)]*\s+)?(\d+)\s+episodi?\)'.format(season_num),
-                        html,
-                        re.IGNORECASE)
+                    ep_count_match = re.search(r'Stagione\s+{}\s*\((?:[^)]*\s+)?(\d+)\s+episodi?\)'.format(season_num), html, re.IGNORECASE)
                     if ep_count_match:
-                        episodes = list(
-                            range(
-                                1, int(
-                                    ep_count_match.group(1)) + 1))
+                        episodes = list(range(1, int(ep_count_match.group(1)) + 1))
 
                 if episodes:
                     season_data = {
@@ -383,8 +351,7 @@ class Altadefinizione:
             return []
 
         try:
-            log.info(
-                "Altadefinizione: Extracting streaming links from {}".format(movie_url))
+            log.info("Altadefinizione: Extracting streaming links from {}".format(movie_url))
             html = self._get_page(movie_url)
             if not html:
                 return []
@@ -407,8 +374,7 @@ class Altadefinizione:
             return []
 
         except Exception as e:
-            log.error(
-                "Altadefinizione: Error extracting streaming links: {}".format(e))
+            log.error("Altadefinizione: Error extracting streaming links: {}".format(e))
             return []
 
     def get_episode_stream(self, series_url, season, episode):
@@ -417,9 +383,7 @@ class Altadefinizione:
             return None
 
         try:
-            log.info(
-                "Altadefinizione: Getting episode stream for S{}E{}".format(
-                    season, episode))
+            log.info("Altadefinizione: Getting episode stream for S{}E{}".format(season, episode))
 
             html = self._get_page(series_url)
             if not html:
@@ -429,8 +393,7 @@ class Altadefinizione:
             if not tmdb_id:
                 return None
 
-            embed_url = "https://vixsrc.to/tv/{}/{}/{}?lang=it".format(
-                tmdb_id, season, episode)
+            embed_url = "https://vixsrc.to/tv/{}/{}/{}?lang=it".format(tmdb_id, season, episode)
             stream_url = self._extract_vixsrc_stream(embed_url, series_url)
 
             if stream_url:
@@ -443,15 +406,13 @@ class Altadefinizione:
             return None
 
         except Exception as e:
-            log.error(
-                "Altadefinizione: Error getting episode stream: {}".format(e))
+            log.error("Altadefinizione: Error getting episode stream: {}".format(e))
             return None
 
     def _extract_vixsrc_stream(self, embed_url, referer):
         """Extract M3U8 URL from VixSrc page."""
         try:
-            log.info(
-                "Altadefinizione: Extracting stream from {}".format(embed_url))
+            log.info("Altadefinizione: Extracting stream from {}".format(embed_url))
 
             headers = {
                 'User-Agent': self.session.headers['User-Agent'],
@@ -479,13 +440,11 @@ class Altadefinizione:
                     stream_url = matches[0].strip()
                     if stream_url.startswith('//'):
                         stream_url = 'https:' + stream_url
-                    log.info(
-                        "Altadefinizione: Stream URL found: {}".format(stream_url))
+                    log.info("Altadefinizione: Stream URL found: {}".format(stream_url))
                     return stream_url
 
             return None
 
         except Exception as e:
-            log.error(
-                "Altadefinizione: Error extracting VixSrc stream: {}".format(e))
+            log.error("Altadefinizione: Error extracting VixSrc stream: {}".format(e))
             return None

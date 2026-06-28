@@ -40,6 +40,9 @@ msgstr ">>> Episodios <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Temporadas <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Erro de reprodución de alta definición: %s"
+
 msgid "Available links:"
 msgstr "Ligazóns dispoñibles:"
 
@@ -85,9 +88,6 @@ msgstr "Detalles para: '%s'"
 msgid "Details not available"
 msgstr "Detalles non dispoñibles"
 
-msgid "ENTER"
-msgstr "ENTRAR"
-
 msgid "EXIT"
 msgstr "SAÍR"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Activa a saída de depuración nos rexistros"
 
 msgid "Enter Captcha Code"
-msgstr "Introduce o código Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Introduce o código Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Erro ao cargar a serie OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Erro ao cargar TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Produciuse un erro ao cargar os detalles"
 
 msgid "Error loading details"
 msgstr "Produciuse un erro ao cargar os detalles"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Nova busca..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Non se atopou ningún episodio de Altadefinizione"
+
 msgid "No CB01 episode found"
 msgstr "Non se atopou ningún episodio de CB01"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Non se atoparon resultados en SC."
 
 msgid "No streaming links found"
-msgstr "Non se atoparon ligazóns de streaming"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Non se atoparon ligazóns de streaming"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "erro"
 
 msgid "loading"
 msgstr "cargando"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Erro de reprodución de alta definición: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Non se atopou ningún episodio de Altadefinizione"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "REPRODUCIR MEDIOS"

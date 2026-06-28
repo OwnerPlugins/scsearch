@@ -40,6 +40,9 @@ msgstr ">>> Епизоди <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Сезони <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Алтадефиниција грешка при репродукција: %s"
+
 msgid "Available links:"
 msgstr "Достапни линкови:"
 
@@ -85,9 +88,6 @@ msgstr "Детали за: „%s“"
 msgid "Details not available"
 msgstr "Деталите не се достапни"
 
-msgid "ENTER"
-msgstr "ВЛЕЗЕТЕ"
-
 msgid "EXIT"
 msgstr "ИЗЛЕЗ"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Овозможете излез за отстранување грешки во дневниците"
 
 msgid "Enter Captcha Code"
-msgstr "Внесете го кодот Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Внесете го кодот Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Грешка при вчитување на серијата OnlineSerie
 
 msgid "Error loading TMDB"
 msgstr "Грешка при вчитување на TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Грешка при вчитување детали"
 
 msgid "Error loading details"
 msgstr "Грешка при вчитување детали"
@@ -180,6 +172,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Ново пребарување..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Не е пронајдена епизода на Алтадефиниција"
+
 msgid "No CB01 episode found"
 msgstr "Не е пронајдена епизода на CB01"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Не се пронајдени резултати на SC."
 
 msgid "No streaming links found"
-msgstr "Не се пронајдени врски за стриминг"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Не се пронајдени врски за стриминг"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,9 +330,3 @@ msgstr "грешка"
 
 msgid "loading"
 msgstr "вчитување"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Алтадефиниција грешка при репродукција: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Не е пронајдена епизода на Алтадефиниција"

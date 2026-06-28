@@ -40,6 +40,9 @@ msgstr ">>> Ангиуд <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Улирал <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Altadefinizione тоглуулах алдаа: %s"
+
 msgid "Available links:"
 msgstr "Боломжтой холбоосууд:"
 
@@ -85,9 +88,6 @@ msgstr "Дэлгэрэнгүй: '%s'"
 msgid "Details not available"
 msgstr "Дэлгэрэнгүй мэдээлэл байхгүй байна"
 
-msgid "ENTER"
-msgstr ""
-
 msgid "EXIT"
 msgstr "ГАРАХ"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Лог дахь дибаг хийх гаралтыг идэвхжүүлэх"
 
 msgid "Enter Captcha Code"
-msgstr "Captcha кодыг оруулна уу"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Captcha кодыг оруулна уу"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "OnlineSerieTV цувралыг ачаалахад алдаа гарла�
 
 msgid "Error loading TMDB"
 msgstr "TMDB-г ачаалахад алдаа гарлаа"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Дэлгэрэнгүйг ачаалахад алдаа гарлаа"
 
 msgid "Error loading details"
 msgstr "Дэлгэрэнгүйг ачаалахад алдаа гарлаа"
@@ -180,6 +172,9 @@ msgstr "Үгүй"
 msgid "New search..."
 msgstr "Шинэ хайлт..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Altadefinizione анги олдсонгүй"
+
 msgid "No CB01 episode found"
 msgstr "CB01 анги олдсонгүй"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "SC дээр илэрц олдсонгүй."
 
 msgid "No streaming links found"
-msgstr "Дамжуулах холбоос олдсонгүй"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Дамжуулах холбоос олдсонгүй"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "алдаа"
 
 msgid "loading"
 msgstr "ачаалж байна"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione тоглуулах алдаа: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizione анги олдсонгүй"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "МЕДИА ТОГЛОХ"

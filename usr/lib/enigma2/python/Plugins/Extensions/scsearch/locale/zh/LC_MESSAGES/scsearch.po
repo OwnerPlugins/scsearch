@@ -40,6 +40,9 @@ msgstr ">>> 剧集 <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> 季节 <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "其他定义播放错误：%s"
+
 msgid "Available links:"
 msgstr "可用链接："
 
@@ -85,9 +88,6 @@ msgstr "详细信息：“%s”"
 msgid "Details not available"
 msgstr "详细信息不详"
 
-msgid "ENTER"
-msgstr "进入"
-
 msgid "EXIT"
 msgstr "出口"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "在日志中启用调试输出"
 
 msgid "Enter Captcha Code"
-msgstr "输入验证码"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "输入验证码"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "加载 OnlineSeriesTV 系列时出错"
 
 msgid "Error loading TMDB"
 msgstr "加载 TMDB 时出错"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "加载详细信息时出错"
 
 msgid "Error loading details"
 msgstr "加载详细信息时出错"
@@ -180,6 +172,9 @@ msgstr "不适用"
 msgid "New search..."
 msgstr "新搜索..."
 
+msgid "No Altadefinizione episode found"
+msgstr "未找到 Altadefinizone 剧集"
+
 msgid "No CB01 episode found"
 msgstr "未找到 CB01 剧集"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "SC 上未找到结果。"
 
 msgid "No streaming links found"
-msgstr "未找到流媒体链接"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "未找到流媒体链接"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "错误"
 
 msgid "loading"
 msgstr "加载中"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "其他定义播放错误：%s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "未找到 Altadefinizone 剧集"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "播放媒体"

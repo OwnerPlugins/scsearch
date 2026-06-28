@@ -40,6 +40,9 @@ msgstr ">>> Penodau <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Tymhorau <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Gwall chwarae altadefinizione: %s"
+
 msgid "Available links:"
 msgstr "Dolenni ar gael:"
 
@@ -85,9 +88,6 @@ msgstr "Manylion ar gyfer: '%s'"
 msgid "Details not available"
 msgstr "Manylion ddim ar gael"
 
-msgid "ENTER"
-msgstr "ENWCH"
-
 msgid "EXIT"
 msgstr "YMADAEL"
 
@@ -98,10 +98,6 @@ msgid "Enable debug output in logs"
 msgstr "Galluogi allbwn dadfygio mewn logiau"
 
 msgid "Enter Captcha Code"
-msgstr "Rhowch y Cod Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Rhowch y Cod Captcha"
 
 msgid "Episode %d"
@@ -124,10 +120,6 @@ msgstr "Gwall wrth lwytho cyfresi OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Gwall wrth lwytho TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Gwall wrth lwytho'r manylion"
 
 msgid "Error loading details"
 msgstr "Gwall wrth lwytho'r manylion"
@@ -180,6 +172,9 @@ msgstr "Amh"
 msgid "New search..."
 msgstr "Chwiliad newydd..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Ni chanfuwyd pennod Altadefinizione"
+
 msgid "No CB01 episode found"
 msgstr "Ni chanfuwyd pennod CB01"
 
@@ -202,10 +197,6 @@ msgid "No results found on SC."
 msgstr "Ni chanfuwyd unrhyw ganlyniadau ar SC."
 
 msgid "No streaming links found"
-msgstr "Heb ganfod dolenni ffrydio"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Heb ganfod dolenni ffrydio"
 
 msgid "OnlineSerieTV - TV Series"
@@ -339,12 +330,3 @@ msgstr "gwall"
 
 msgid "loading"
 msgstr "llwytho"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Gwall chwarae altadefinizione: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Ni chanfuwyd pennod Altadefinizione"
-
-#~ msgid "PLAY MEDIA"
-#~ msgstr "CYFRYNGAU CHWARAE"

@@ -41,6 +41,9 @@ msgstr ">>> Επεισόδια <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Εποχές <<<"
 
+msgid "Altadefinizione playback error: %s"
+msgstr "Σφάλμα αναπαραγωγής Altadefinizone: %s"
+
 msgid "Available links:"
 msgstr "Διαθέσιμοι σύνδεσμοι:"
 
@@ -86,9 +89,6 @@ msgstr "Λεπτομέρειες για: '%s'"
 msgid "Details not available"
 msgstr "Λεπτομέρειες δεν είναι διαθέσιμες"
 
-msgid "ENTER"
-msgstr "ΕΙΣΑΓΩ"
-
 msgid "EXIT"
 msgstr "ΕΞΟΔΟΣ"
 
@@ -99,10 +99,6 @@ msgid "Enable debug output in logs"
 msgstr "Ενεργοποίηση εξόδου εντοπισμού σφαλμάτων στα αρχεία καταγραφής"
 
 msgid "Enter Captcha Code"
-msgstr "Εισαγάγετε τον κωδικό Captcha"
-
-#, fuzzy
-msgid "Enter captcha code:"
 msgstr "Εισαγάγετε τον κωδικό Captcha"
 
 msgid "Episode %d"
@@ -125,10 +121,6 @@ msgstr "Σφάλμα κατά τη φόρτωση της σειράς OnlineSeri
 
 msgid "Error loading TMDB"
 msgstr "Σφάλμα κατά τη φόρτωση του TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Σφάλμα φόρτωσης λεπτομερειών"
 
 msgid "Error loading details"
 msgstr "Σφάλμα φόρτωσης λεπτομερειών"
@@ -181,6 +173,9 @@ msgstr ""
 msgid "New search..."
 msgstr "Νέα αναζήτηση..."
 
+msgid "No Altadefinizione episode found"
+msgstr "Δεν βρέθηκε επεισόδιο Altadefinizione"
+
 msgid "No CB01 episode found"
 msgstr "Δεν βρέθηκε επεισόδιο CB01"
 
@@ -203,10 +198,6 @@ msgid "No results found on SC."
 msgstr "Δεν βρέθηκαν αποτελέσματα στο SC."
 
 msgid "No streaming links found"
-msgstr "Δεν βρέθηκαν σύνδεσμοι ροής"
-
-#, fuzzy
-msgid "No streaming links found."
 msgstr "Δεν βρέθηκαν σύνδεσμοι ροής"
 
 msgid "OnlineSerieTV - TV Series"
@@ -340,9 +331,3 @@ msgstr "σφάλμα"
 
 msgid "loading"
 msgstr "φόρτωση"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Σφάλμα αναπαραγωγής Altadefinizone: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Δεν βρέθηκε επεισόδιο Altadefinizione"
