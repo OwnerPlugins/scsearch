@@ -5,7 +5,6 @@ import re
 import urllib.request
 import urllib.error
 import os
-import tempfile
 import subprocess
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
