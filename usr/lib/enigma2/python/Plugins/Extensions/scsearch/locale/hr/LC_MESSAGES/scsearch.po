@@ -41,9 +41,6 @@ msgstr ">>> Epizode <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Godišnja doba <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr ""
-
 msgid "Available links:"
 msgstr "Dostupni linkovi:"
 
@@ -89,6 +86,9 @@ msgstr "Detalji za: '%s'"
 msgid "Details not available"
 msgstr "Detalji nisu dostupni"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "IZLAZ"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Omogući izlaz otklanjanja pogrešaka u zapisima"
 
 msgid "Enter Captcha Code"
+msgstr "Unesite Captcha kod"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Unesite Captcha kod"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Pogreška pri učitavanju serije OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Pogreška pri učitavanju TMDB-a"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Pogreška pri učitavanju detalja"
 
 msgid "Error loading details"
 msgstr "Pogreška pri učitavanju detalja"
@@ -173,9 +181,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Nova pretraga..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Nije pronađena epizoda Altadefinizione"
-
 msgid "No CB01 episode found"
 msgstr "Nije pronađena nijedna epizoda CB01"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Nema rezultata na SC."
 
 msgid "No streaming links found"
+msgstr "Nisu pronađene veze za strujanje"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Nisu pronađene veze za strujanje"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,6 @@ msgstr "greška"
 
 msgid "loading"
 msgstr "učitavanje"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Nije pronađena epizoda Altadefinizione"

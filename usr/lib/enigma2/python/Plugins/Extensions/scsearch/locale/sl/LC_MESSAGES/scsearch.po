@@ -41,9 +41,6 @@ msgstr ">>> Epizode <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Letni čas <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Napaka pri predvajanju Altadefinizione: %s"
-
 msgid "Available links:"
 msgstr "Razpoložljive povezave:"
 
@@ -89,6 +86,9 @@ msgstr "Podrobnosti za: '%s'"
 msgid "Details not available"
 msgstr "Podrobnosti niso na voljo"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "IZHOD"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Omogoči izhod za odpravljanje napak v dnevnikih"
 
 msgid "Enter Captcha Code"
+msgstr "Vnesite kodo Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Vnesite kodo Captcha"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Napaka pri nalaganju serije OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Napaka pri nalaganju TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Napaka pri nalaganju podrobnosti"
 
 msgid "Error loading details"
 msgstr "Napaka pri nalaganju podrobnosti"
@@ -173,9 +181,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Novo iskanje ..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Ni najdene epizode Altadefinizione"
-
 msgid "No CB01 episode found"
 msgstr "Ni najdene epizode CB01"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Ni rezultatov na SC."
 
 msgid "No streaming links found"
+msgstr "Ni povezav za pretakanje"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Ni povezav za pretakanje"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,9 @@ msgstr "napaka"
 
 msgid "loading"
 msgstr "nalaganje"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Napaka pri predvajanju Altadefinizione: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Ni najdene epizode Altadefinizione"

@@ -40,9 +40,6 @@ msgstr ">>> ဇာတ်လမ်းတွဲများ <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> ရာသီများ <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione ပြန်ဖွင့်ခြင်း အမှား- %s"
-
 msgid "Available links:"
 msgstr "ရနိုင်သောလင့်ခ်များ-"
 
@@ -88,6 +85,9 @@ msgstr "အသေးစိတ်အချက်များ- '%s'"
 msgid "Details not available"
 msgstr "အသေးစိတ်အချက်အလက်များကို မရရှိနိုင်ပါ။"
 
+msgid "ENTER"
+msgstr "သွင်းပါ။"
+
 msgid "EXIT"
 msgstr "ထွက်ပေါက်"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "မှတ်တမ်းများတွင် အမှားရှာအထွက်ကို ဖွင့်ပါ။"
 
 msgid "Enter Captcha Code"
+msgstr "Captcha ကုဒ်ကိုရိုက်ထည့်ပါ။"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Captcha ကုဒ်ကိုရိုက်ထည့်ပါ။"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "OnlineSerieTV စီးရီးကို ဖွင့်ရာတွင
 
 msgid "Error loading TMDB"
 msgstr "TMDB ကို ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်။"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "အသေးစိတ်အချက်အလက်များကို ဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်။"
 
 msgid "Error loading details"
 msgstr "အသေးစိတ်အချက်အလက်များကို ဖွင့်ရာတွင် အမှားအယွင်းရှိနေသည်။"
@@ -172,9 +180,6 @@ msgstr "မရှိ"
 msgid "New search..."
 msgstr "ရှာဖွေမှုအသစ်..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Altadefinizione အပိုင်းကို ရှာမတွေ့ပါ။"
-
 msgid "No CB01 episode found"
 msgstr "CB01 အပိုင်းကို ရှာမတွေ့ပါ။"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "SC တွင် မည်သည့်ရလဒ်မျှ မတွေ့ပါ။"
 
 msgid "No streaming links found"
+msgstr "တိုက်ရိုက်လွှင့်လင့်ခ်များကို ရှာမတွေ့ပါ။"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "တိုက်ရိုက်လွှင့်လင့်ခ်များကို ရှာမတွေ့ပါ။"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "အမှား"
 
 msgid "loading"
 msgstr ""
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione ပြန်ဖွင့်ခြင်း အမှား- %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Altadefinizione အပိုင်းကို ရှာမတွေ့ပါ။"

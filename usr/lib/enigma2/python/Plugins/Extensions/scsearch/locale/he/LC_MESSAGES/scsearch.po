@@ -41,9 +41,6 @@ msgstr ">>> פרקים <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> עונות <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "שגיאת השמעה חלופית: %s"
-
 msgid "Available links:"
 msgstr "קישורים זמינים:"
 
@@ -89,6 +86,9 @@ msgstr "פרטים עבור: '%s'"
 msgid "Details not available"
 msgstr "פרטים לא זמינים"
 
+msgid "ENTER"
+msgstr "לְהַכנִיס"
+
 msgid "EXIT"
 msgstr "יְצִיאָה"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "אפשר פלט ניפוי באגים ביומנים"
 
 msgid "Enter Captcha Code"
+msgstr "הזן קוד Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "הזן קוד Captcha"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "שגיאה בטעינת סדרת OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "שגיאה בטעינת TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "שגיאה בטעינת הפרטים"
 
 msgid "Error loading details"
 msgstr "שגיאה בטעינת הפרטים"
@@ -173,9 +181,6 @@ msgstr "לא"
 msgid "New search..."
 msgstr "חיפוש חדש..."
 
-msgid "No Altadefinizione episode found"
-msgstr "לא נמצא פרק של Altadefinizione"
-
 msgid "No CB01 episode found"
 msgstr "לא נמצא פרק CB01"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "לא נמצאו תוצאות ב-SC."
 
 msgid "No streaming links found"
+msgstr "לא נמצאו קישורי סטרימינג"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "לא נמצאו קישורי סטרימינג"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,9 @@ msgstr "שְׁגִיאָה"
 
 msgid "loading"
 msgstr "טְעִינָה"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "שגיאת השמעה חלופית: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "לא נמצא פרק של Altadefinizione"

@@ -41,9 +41,6 @@ msgstr ">>> Bölümler <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Mevsimler <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Alt tanımlamanızı oynatma hatası: %s"
-
 msgid "Available links:"
 msgstr "Mevcut bağlantılar:"
 
@@ -89,6 +86,9 @@ msgstr "Ayrıntılar: '%s'"
 msgid "Details not available"
 msgstr "Ayrıntılar mevcut değil"
 
+msgid "ENTER"
+msgstr "GİRMEK"
+
 msgid "EXIT"
 msgstr "ÇIKIŞ"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Günlüklerde hata ayıklama çıktısını etkinleştir"
 
 msgid "Enter Captcha Code"
+msgstr "Captcha Kodunu Girin"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Captcha Kodunu Girin"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "OnlineSerieTV dizisi yüklenirken hata oluştu"
 
 msgid "Error loading TMDB"
 msgstr "TMDB yüklenirken hata oluştu"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Ayrıntılar yüklenirken hata oluştu"
 
 msgid "Error loading details"
 msgstr "Ayrıntılar yüklenirken hata oluştu"
@@ -173,9 +181,6 @@ msgstr "Yok"
 msgid "New search..."
 msgstr "Yeni arama..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Alt tanımınızı içeren bir bölüm bulunamadı"
-
 msgid "No CB01 episode found"
 msgstr "CB01 bölümü bulunamadı"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "SC'de sonuç bulunamadı."
 
 msgid "No streaming links found"
+msgstr "Akış bağlantısı bulunamadı"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Akış bağlantısı bulunamadı"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,9 @@ msgstr "hata"
 
 msgid "loading"
 msgstr "yükleniyor"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Alt tanımlamanızı oynatma hatası: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Alt tanımınızı içeren bir bölüm bulunamadı"

@@ -40,9 +40,6 @@ msgstr ">>> Episod <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Musim <<<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Ralat main balik Altadefinizione: %s"
-
 msgid "Available links:"
 msgstr "Pautan yang tersedia:"
 
@@ -88,6 +85,9 @@ msgstr "Butiran untuk: '%s'"
 msgid "Details not available"
 msgstr "Butiran tidak tersedia"
 
+msgid "ENTER"
+msgstr "MASUK"
+
 msgid "EXIT"
 msgstr "KELUAR"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Dayakan output nyahpepijat dalam log"
 
 msgid "Enter Captcha Code"
+msgstr "Masukkan Kod Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Masukkan Kod Captcha"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "Ralat memuatkan siri OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Ralat memuatkan TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Ralat memuatkan butiran"
 
 msgid "Error loading details"
 msgstr "Ralat memuatkan butiran"
@@ -172,9 +180,6 @@ msgstr "T/A"
 msgid "New search..."
 msgstr "Carian baharu..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Tiada episod Altadefinizione ditemui"
-
 msgid "No CB01 episode found"
 msgstr "Tiada episod CB01 ditemui"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "Tiada hasil ditemui di SC."
 
 msgid "No streaming links found"
+msgstr "Tiada pautan penstriman ditemui"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Tiada pautan penstriman ditemui"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "kesilapan"
 
 msgid "loading"
 msgstr "memuatkan"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Ralat main balik Altadefinizione: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Tiada episod Altadefinizione ditemui"

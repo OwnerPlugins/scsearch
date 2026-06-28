@@ -40,9 +40,6 @@ msgstr ">>> វគ្គ <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> រដូវ <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "កំហុសក្នុងការចាក់សារថ្មី Altadefinizione៖ %s"
-
 msgid "Available links:"
 msgstr "តំណភ្ជាប់ដែលមាន៖"
 
@@ -88,6 +85,9 @@ msgstr "ព័ត៌មានលម្អិតសម្រាប់៖ '%s'"
 msgid "Details not available"
 msgstr "ព័ត៌មានលម្អិតមិនមានទេ។"
 
+msgid "ENTER"
+msgstr "បញ្ចូល"
+
 msgid "EXIT"
 msgstr "ចេញ"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "បើកដំណើរការលទ្ធផលបំបាត់កំហុសនៅក្នុងកំណត់ហេតុ"
 
 msgid "Enter Captcha Code"
+msgstr "បញ្ចូលលេខកូដ Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "បញ្ចូលលេខកូដ Captcha"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "កំហុសក្នុងការផ្ទុកស៊េរីទ
 
 msgid "Error loading TMDB"
 msgstr "កំហុសក្នុងការផ្ទុក TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
 
 msgid "Error loading details"
 msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
@@ -172,9 +180,6 @@ msgstr "គ្មាន"
 msgid "New search..."
 msgstr "ការស្វែងរកថ្មី..."
 
-msgid "No Altadefinizione episode found"
-msgstr "រកមិនឃើញភាគ Altadefinizione ទេ។"
-
 msgid "No CB01 episode found"
 msgstr "រកមិនឃើញភាគ CB01 ទេ។"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "រកមិនឃើញលទ្ធផលនៅលើ SC ទេ។"
 
 msgid "No streaming links found"
+msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "កំហុស"
 
 msgid "loading"
 msgstr "ការផ្ទុក"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "កំហុសក្នុងការចាក់សារថ្មី Altadefinizione៖ %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "រកមិនឃើញភាគ Altadefinizione ទេ។"

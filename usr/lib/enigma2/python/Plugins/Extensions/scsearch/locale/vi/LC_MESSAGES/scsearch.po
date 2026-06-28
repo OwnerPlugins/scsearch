@@ -41,9 +41,6 @@ msgstr ">>> Các tập <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Các mùa <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Lỗi phát lại Altadefinizione: %s"
-
 msgid "Available links:"
 msgstr "Liên kết có sẵn:"
 
@@ -89,6 +86,9 @@ msgstr "Thông tin chi tiết về: '%s'"
 msgid "Details not available"
 msgstr "Thông tin chi tiết không có sẵn"
 
+msgid "ENTER"
+msgstr "ĐI VÀO"
+
 msgid "EXIT"
 msgstr "RA"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Bật đầu ra gỡ lỗi trong nhật ký"
 
 msgid "Enter Captcha Code"
+msgstr "Nhập mã Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Nhập mã Captcha"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Lỗi tải loạt phim OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Lỗi tải TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Lỗi tải chi tiết"
 
 msgid "Error loading details"
 msgstr "Lỗi tải chi tiết"
@@ -173,9 +181,6 @@ msgstr "không áp dụng"
 msgid "New search..."
 msgstr "Tìm kiếm mới..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Không tìm thấy tập Altadefinizione nào"
-
 msgid "No CB01 episode found"
 msgstr "Không tìm thấy tập CB01"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Không tìm thấy kết quả nào trên SC."
 
 msgid "No streaming links found"
+msgstr "Không tìm thấy liên kết phát trực tuyến"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Không tìm thấy liên kết phát trực tuyến"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,9 @@ msgstr "lỗi"
 
 msgid "loading"
 msgstr "đang tải"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Lỗi phát lại Altadefinizione: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Không tìm thấy tập Altadefinizione nào"

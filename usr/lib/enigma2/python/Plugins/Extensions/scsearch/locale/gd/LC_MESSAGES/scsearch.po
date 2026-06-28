@@ -40,9 +40,6 @@ msgstr ""
 msgid ">>> Seasons <<<"
 msgstr ">>> Ràithean <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Mearachd ath-chluich altadefinizione: %s"
-
 msgid "Available links:"
 msgstr "Ceanglaichean rim faighinn:"
 
@@ -88,6 +85,9 @@ msgstr "Mion-fhiosrachadh airson: '%s'"
 msgid "Details not available"
 msgstr "Chan eil mion-fhiosrachadh ri fhaighinn"
 
+msgid "ENTER"
+msgstr "A steach"
+
 msgid "EXIT"
 msgstr "LAOIDH"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Dèan comas air toradh deasbaid ann an logaichean"
 
 msgid "Enter Captcha Code"
+msgstr "Cuir a-steach Còd Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Cuir a-steach Còd Captcha"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "Thachair mearachd leis an t-sreath air-loidhne TBH"
 
 msgid "Error loading TMDB"
 msgstr "Thachair mearachd le luchdachadh TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Thachair mearachd le luchdachadh mion-fhiosrachaidh"
 
 msgid "Error loading details"
 msgstr "Thachair mearachd le luchdachadh mion-fhiosrachaidh"
@@ -172,9 +180,6 @@ msgstr "Chan eil"
 msgid "New search..."
 msgstr "Lorg ùr..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Cha deach prògram Altadefinizione a lorg"
-
 msgid "No CB01 episode found"
 msgstr "Cha deach prògram CB01 a lorg"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "Cha deach toraidhean a lorg air SC."
 
 msgid "No streaming links found"
+msgstr "Cha deach ceanglaichean sruthadh a lorg"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Cha deach ceanglaichean sruthadh a lorg"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "mearachd"
 
 msgid "loading"
 msgstr "a' luchdachadh"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Mearachd ath-chluich altadefinizione: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Cha deach prògram Altadefinizione a lorg"

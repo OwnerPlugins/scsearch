@@ -40,9 +40,6 @@ msgstr ">>> Bölümler <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Möwsümler <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "“Altadefinizione” oýnamak ýalňyşlygy:% s"
-
 msgid "Available links:"
 msgstr "Elýeterli baglanyşyklar:"
 
@@ -88,6 +85,9 @@ msgstr "Jikme-jiklikler: '% s'"
 msgid "Details not available"
 msgstr "Jikme-jiklikler ýok"
 
+msgid "ENTER"
+msgstr "Giriş"
+
 msgid "EXIT"
 msgstr "Çyk"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Surnallarda düzediş çykyşyny işjeňleşdiriň"
 
 msgid "Enter Captcha Code"
+msgstr "Captcha koduny giriziň"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Captcha koduny giriziň"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "OnlineSerieTV seriýasyny ýüklemekde säwlik"
 
 msgid "Error loading TMDB"
 msgstr "TMDB ýüklemekde säwlik"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Jikme-jiklikleri ýüklemekde säwlik"
 
 msgid "Error loading details"
 msgstr "Jikme-jiklikleri ýüklemekde säwlik"
@@ -172,9 +180,6 @@ msgstr "N / A."
 msgid "New search..."
 msgstr "Täze gözleg ..."
 
-msgid "No Altadefinizione episode found"
-msgstr "“Altadefinizione” bölümi tapylmady"
-
 msgid "No CB01 episode found"
 msgstr "CB01 bölümi tapylmady"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "SC-de hiç hili netije tapylmady"
 
 msgid "No streaming links found"
+msgstr "Akym baglanyşyklary tapylmady"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Akym baglanyşyklary tapylmady"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "ýalňyşlyk"
 
 msgid "loading"
 msgstr "ýüklemek"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "“Altadefinizione” oýnamak ýalňyşlygy:% s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "“Altadefinizione” bölümi tapylmady"

@@ -40,9 +40,6 @@ msgstr ">>> قسمت ها <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> فصول <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "خطای پخش Altadefinizone: %s"
-
 msgid "Available links:"
 msgstr "لینک های موجود:"
 
@@ -88,6 +85,9 @@ msgstr "جزئیات برای: '%s'"
 msgid "Details not available"
 msgstr "جزئیات در دسترس نیست"
 
+msgid "ENTER"
+msgstr "وارد کنید"
+
 msgid "EXIT"
 msgstr "خروج"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "خروجی اشکال زدایی را در گزارش ها فعال کنید"
 
 msgid "Enter Captcha Code"
+msgstr "کد کپچا را وارد کنید"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "کد کپچا را وارد کنید"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "خطا در بارگیری سریال OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "خطا در بارگیری TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "خطا در بارگیری جزئیات"
 
 msgid "Error loading details"
 msgstr "خطا در بارگیری جزئیات"
@@ -172,9 +180,6 @@ msgstr ""
 msgid "New search..."
 msgstr "جستجوی جدید..."
 
-msgid "No Altadefinizione episode found"
-msgstr "هیچ قسمت Altadefinizione یافت نشد"
-
 msgid "No CB01 episode found"
 msgstr "هیچ قسمت CB01 یافت نشد"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "هیچ نتیجه ای در SC یافت نشد."
 
 msgid "No streaming links found"
+msgstr "هیچ پیوند پخشی یافت نشد"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "هیچ پیوند پخشی یافت نشد"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "خطا"
 
 msgid "loading"
 msgstr "در حال بارگذاری"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "خطای پخش Altadefinizone: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "هیچ قسمت Altadefinizione یافت نشد"

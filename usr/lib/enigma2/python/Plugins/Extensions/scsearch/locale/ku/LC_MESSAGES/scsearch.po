@@ -40,9 +40,6 @@ msgstr ""
 msgid ">>> Seasons <<<"
 msgstr ">>> Demsal <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Çewtiya lêdanê ya Altadefinizion: %s"
-
 msgid "Available links:"
 msgstr "Girêdanên berdest:"
 
@@ -88,6 +85,9 @@ msgstr "Agahiyên ji bo: '%s'"
 msgid "Details not available"
 msgstr "Hûrgulî ne berdest in"
 
+msgid "ENTER"
+msgstr "DERBASBÛN"
+
 msgid "EXIT"
 msgstr "DERÎ"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Di têketinan de derketina debugkirinê çalak bike"
 
 msgid "Enter Captcha Code"
+msgstr "Koda Captcha binivîse"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Koda Captcha binivîse"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "Di barkirina rêzefîlmên OnlineSerieTV de çewtî"
 
 msgid "Error loading TMDB"
 msgstr "Di barkirina TMDB de çewtî"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Di barkirina hûragahiyan de çewtî"
 
 msgid "Error loading details"
 msgstr "Di barkirina hûragahiyan de çewtî"
@@ -172,9 +180,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Lêgerîna nû..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Beşek Altadefinizone nehat dîtin"
-
 msgid "No CB01 episode found"
 msgstr "Episode CB01 nehat dîtin"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "Ti encam li ser SC nehat dîtin."
 
 msgid "No streaming links found"
+msgstr "Girêdanên weşanê nehat dîtin"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Girêdanên weşanê nehat dîtin"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "şaşî"
 
 msgid "loading"
 msgstr "barkirin"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Çewtiya lêdanê ya Altadefinizion: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Beşek Altadefinizone nehat dîtin"
