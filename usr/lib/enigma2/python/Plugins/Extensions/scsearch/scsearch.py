@@ -1361,6 +1361,7 @@ class SCSearchMain(Screen):
         """Convert WebP to JPEG using ffmpeg if available."""
         try:
             # Create temporary files
+            import tempfile
             with tempfile.NamedTemporaryFile(suffix='.webp', delete=False) as webp_file:
                 webp_file.write(webp_data)
                 webp_path = webp_file.name
