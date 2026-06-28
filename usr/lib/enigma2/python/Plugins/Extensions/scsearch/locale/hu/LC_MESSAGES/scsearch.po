@@ -41,9 +41,6 @@ msgstr ">>> Epizódok <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Évszakok <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione lejátszási hiba: %s"
-
 msgid "Available links:"
 msgstr "Elérhető linkek:"
 
@@ -89,6 +86,9 @@ msgstr "Részletek: '%s'"
 msgid "Details not available"
 msgstr "Részletek nem állnak rendelkezésre"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "KIJÁRAT"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Hibakeresési kimenet engedélyezése a naplókban"
 
 msgid "Enter Captcha Code"
+msgstr "Írja be a Captcha kódot"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Írja be a Captcha kódot"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Hiba az OnlineSerieTV sorozat betöltésekor"
 
 msgid "Error loading TMDB"
 msgstr "Hiba a TMDB betöltésekor"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Hiba a részletek betöltésekor"
 
 msgid "Error loading details"
 msgstr "Hiba a részletek betöltésekor"
@@ -173,9 +181,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Új keresés..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Nem található Altadefinizione epizód"
-
 msgid "No CB01 episode found"
 msgstr "Nem található CB01 epizód"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Nincs találat az SC-n."
 
 msgid "No streaming links found"
+msgstr "Nem található streaming link"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Nem található streaming link"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,6 +340,12 @@ msgstr "hiba"
 
 msgid "loading"
 msgstr "terhelés"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione lejátszási hiba: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Nem található Altadefinizione epizód"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "MÉDIA LEJÁTSZÁSA"

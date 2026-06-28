@@ -40,9 +40,6 @@ msgstr ">>> ตอน <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> ฤดูกาล <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "ข้อผิดพลาดในการเล่น Altadefinizione: %s"
-
 msgid "Available links:"
 msgstr "ลิงค์ที่มี:"
 
@@ -88,6 +85,9 @@ msgstr "รายละเอียดสำหรับ: '%s'"
 msgid "Details not available"
 msgstr "ไม่มีรายละเอียด"
 
+msgid "ENTER"
+msgstr "เข้า"
+
 msgid "EXIT"
 msgstr "ออก"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "เปิดใช้งานเอาต์พุตการแก้ไขข้อบกพร่องในบันทึก"
 
 msgid "Enter Captcha Code"
+msgstr "ป้อนรหัสแคปต์ชา"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "ป้อนรหัสแคปต์ชา"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "เกิดข้อผิดพลาดในการโหลดซ
 
 msgid "Error loading TMDB"
 msgstr "เกิดข้อผิดพลาดในการโหลด TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "เกิดข้อผิดพลาดในการโหลดรายละเอียด"
 
 msgid "Error loading details"
 msgstr "เกิดข้อผิดพลาดในการโหลดรายละเอียด"
@@ -172,9 +180,6 @@ msgstr "ไม่มี"
 msgid "New search..."
 msgstr "ค้นหาใหม่..."
 
-msgid "No Altadefinizione episode found"
-msgstr "ไม่พบตอนของ Altadefinizione"
-
 msgid "No CB01 episode found"
 msgstr "ไม่พบตอน CB01"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "ไม่พบผลลัพธ์ใน SC"
 
 msgid "No streaming links found"
+msgstr "ไม่พบลิงก์สตรีมมิ่ง"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "ไม่พบลิงก์สตรีมมิ่ง"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,6 +339,12 @@ msgstr "ข้อผิดพลาด"
 
 msgid "loading"
 msgstr "กำลังโหลด"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "ข้อผิดพลาดในการเล่น Altadefinizione: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "ไม่พบตอนของ Altadefinizione"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "เล่นสื่อ"

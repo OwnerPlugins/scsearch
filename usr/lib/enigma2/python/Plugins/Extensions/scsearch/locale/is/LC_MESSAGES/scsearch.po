@@ -40,9 +40,6 @@ msgstr ">>> Þættir <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Árstíðir <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione spilunarvilla: %s"
-
 msgid "Available links:"
 msgstr "Tiltækir tenglar:"
 
@@ -88,6 +85,9 @@ msgstr "Upplýsingar um: '%s'"
 msgid "Details not available"
 msgstr "Upplýsingar ekki tiltækar"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "HLUTA"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Virkja villuúttak í annálum"
 
 msgid "Enter Captcha Code"
+msgstr "Sláðu inn Captcha kóða"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Sláðu inn Captcha kóða"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "Villa við að hlaða OnlineSerieTV seríu"
 
 msgid "Error loading TMDB"
 msgstr "Villa við að hlaða TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Villa við að hlaða upplýsingar"
 
 msgid "Error loading details"
 msgstr "Villa við að hlaða upplýsingar"
@@ -172,9 +180,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Ný leit..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Enginn Altadefinizione þáttur fannst"
-
 msgid "No CB01 episode found"
 msgstr "Enginn CB01 þáttur fannst"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "Engar niðurstöður fundust á SC."
 
 msgid "No streaming links found"
+msgstr "Engir streymistenglar fundust"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Engir streymistenglar fundust"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,6 +339,12 @@ msgstr "villa"
 
 msgid "loading"
 msgstr "hleðsla"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione spilunarvilla: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Enginn Altadefinizione þáttur fannst"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "SPILA FJÖLMIÐLAR"

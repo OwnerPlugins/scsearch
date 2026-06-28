@@ -41,9 +41,6 @@ msgstr ">>> Eipeasóid <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Séasúir <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Earráid athsheinm altadefinizione: %s"
-
 msgid "Available links:"
 msgstr "Naisc ar fáil:"
 
@@ -89,6 +86,9 @@ msgstr "Sonraí le haghaidh: '%s'"
 msgid "Details not available"
 msgstr "Níl sonraí ar fáil"
 
+msgid "ENTER"
+msgstr "ISTEACH"
+
 msgid "EXIT"
 msgstr ""
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Cumasaigh aschur dífhabhtaithe i logaí"
 
 msgid "Enter Captcha Code"
+msgstr "Cuir isteach Cód Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Cuir isteach Cód Captcha"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Earráid agus sraith teilifíse ar líne á lódáil"
 
 msgid "Error loading TMDB"
 msgstr "Earráid agus TMDB á lódáil"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Earráid agus sonraí á lódáil"
 
 msgid "Error loading details"
 msgstr "Earráid agus sonraí á lódáil"
@@ -173,9 +181,6 @@ msgstr "N/B"
 msgid "New search..."
 msgstr "Cuardach nua..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Níor aimsíodh eipeasóid Altadefinizione"
-
 msgid "No CB01 episode found"
 msgstr "Níor aimsíodh eipeasóid CB01"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Níor aimsíodh aon torthaí ar SC."
 
 msgid "No streaming links found"
+msgstr "Níor aimsíodh aon nasc sruthaithe"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Níor aimsíodh aon nasc sruthaithe"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,6 +340,12 @@ msgstr "earráid"
 
 msgid "loading"
 msgstr "ag lódáil"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Earráid athsheinm altadefinizione: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Níor aimsíodh eipeasóid Altadefinizione"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "PLAY MEÁIN"

@@ -40,9 +40,6 @@ msgstr ">>> Qismlar <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Fasllar <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione ijro etish xatosi: %s"
-
 msgid "Available links:"
 msgstr "Mavjud havolalar:"
 
@@ -88,6 +85,9 @@ msgstr "Tafsilotlar: '%s'"
 msgid "Details not available"
 msgstr "Tafsilotlar mavjud emas"
 
+msgid "ENTER"
+msgstr "KIRISH"
+
 msgid "EXIT"
 msgstr "CHIKISh"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Jurnallarda disk raskadrovka chiqishini yoqish"
 
 msgid "Enter Captcha Code"
+msgstr "Captcha kodini kiriting"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Captcha kodini kiriting"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "OnlineSerieTV seriyasini yuklashda xatolik yuz berdi"
 
 msgid "Error loading TMDB"
 msgstr "TMDB yuklashda xatolik yuz berdi"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Tafsilotlarni yuklashda xatolik yuz berdi"
 
 msgid "Error loading details"
 msgstr "Tafsilotlarni yuklashda xatolik yuz berdi"
@@ -172,9 +180,6 @@ msgstr "Yoʻq"
 msgid "New search..."
 msgstr "Yangi qidiruv..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Hech qanday Altadefinizione epizodi topilmadi"
-
 msgid "No CB01 episode found"
 msgstr "Hech qanday CB01 epizod topilmadi"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "SCda hech qanday natija topilmadi."
 
 msgid "No streaming links found"
+msgstr "Oqimli havolalar topilmadi"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Oqimli havolalar topilmadi"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,6 +339,12 @@ msgstr "xato"
 
 msgid "loading"
 msgstr "yuklash"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione ijro etish xatosi: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Hech qanday Altadefinizione epizodi topilmadi"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "MEDIA OYNATING"

@@ -41,9 +41,6 @@ msgstr ">>> Episoodid <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Aastaajad <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione taasesituse viga: %s"
-
 msgid "Available links:"
 msgstr "Saadaolevad lingid:"
 
@@ -89,6 +86,9 @@ msgstr "Üksikasjad: '%s'"
 msgid "Details not available"
 msgstr "Üksikasjad pole saadaval"
 
+msgid "ENTER"
+msgstr "SISESTA"
+
 msgid "EXIT"
 msgstr "VÄLJU"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Luba logides silumisväljund"
 
 msgid "Enter Captcha Code"
+msgstr "Sisestage Captcha kood"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Sisestage Captcha kood"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Viga OnlineSerieTV sarja laadimisel"
 
 msgid "Error loading TMDB"
 msgstr "Viga TMDB laadimisel"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Viga üksikasjade laadimisel"
 
 msgid "Error loading details"
 msgstr "Viga üksikasjade laadimisel"
@@ -173,9 +181,6 @@ msgstr "Ei kehti"
 msgid "New search..."
 msgstr "Uus otsing..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Ühtegi Altadefinizione episoodi ei leitud"
-
 msgid "No CB01 episode found"
 msgstr "CB01 jagu ei leitud"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "SC kohta tulemusi ei leitud."
 
 msgid "No streaming links found"
+msgstr "Voogesituse linke ei leitud"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Voogesituse linke ei leitud"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,6 +340,12 @@ msgstr "viga"
 
 msgid "loading"
 msgstr "laadimine"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione taasesituse viga: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Ühtegi Altadefinizione episoodi ei leitud"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "MÄNGI MEEDIA"

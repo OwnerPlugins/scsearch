@@ -40,9 +40,6 @@ msgstr ">>> Эпизодлар <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Сезоннар <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione уйнау хата:% s"
-
 msgid "Available links:"
 msgstr "Мөмкин булган сылтамалар:"
 
@@ -88,6 +85,9 @@ msgstr "Детальләр: '% s'"
 msgid "Details not available"
 msgstr "Детальләр юк"
 
+msgid "ENTER"
+msgstr "Керү"
+
 msgid "EXIT"
 msgstr "ЧЫГЫШ"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Бүрәнәләрдә төзәтүне чыгаруны рөхсәт итегез"
 
 msgid "Enter Captcha Code"
+msgstr "Captcha кодын кертегез"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Captcha кодын кертегез"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "OnlineSerieTV сериясен йөкләүдә хата"
 
 msgid "Error loading TMDB"
 msgstr "TMDB йөкләүдә хата"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Детальләрне йөкләүдә хата"
 
 msgid "Error loading details"
 msgstr "Детальләрне йөкләүдә хата"
@@ -172,9 +180,6 @@ msgstr "N / A."
 msgid "New search..."
 msgstr "Яңа эзләү ..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Altadefinizione эпизоды табылмады"
-
 msgid "No CB01 episode found"
 msgstr "CB01 эпизоды табылмады"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "СКда нәтиҗәләр табылмады."
 
 msgid "No streaming links found"
+msgstr "Агымдагы сылтамалар табылмады"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Агымдагы сылтамалар табылмады"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,6 +339,12 @@ msgstr "хата"
 
 msgid "loading"
 msgstr "йөкләү"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione уйнау хата:% s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Altadefinizione эпизоды табылмады"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "Медиа Уйна"

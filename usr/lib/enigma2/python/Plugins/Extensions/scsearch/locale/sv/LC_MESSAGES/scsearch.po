@@ -41,9 +41,6 @@ msgstr ">>> Avsnitt <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Årstider <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione uppspelningsfel: %s"
-
 msgid "Available links:"
 msgstr "Tillgängliga länkar:"
 
@@ -89,6 +86,9 @@ msgstr "Detaljer för: '%s'"
 msgid "Details not available"
 msgstr "Detaljer inte tillgängliga"
 
+msgid "ENTER"
+msgstr "SKRIVA IN"
+
 msgid "EXIT"
 msgstr "UTGÅNG"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Aktivera felsökningsutdata i loggar"
 
 msgid "Enter Captcha Code"
+msgstr "Ange Captcha-kod"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Ange Captcha-kod"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Det gick inte att läsa in OnlineSerieTV-serien"
 
 msgid "Error loading TMDB"
 msgstr "Det gick inte att läsa in TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Det gick inte att läsa in detaljer"
 
 msgid "Error loading details"
 msgstr "Det gick inte att läsa in detaljer"
@@ -173,9 +181,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Ny sökning..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Inget Altadefinizione-avsnitt hittades"
-
 msgid "No CB01 episode found"
 msgstr "Inget avsnitt av CB01 hittades"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Inga resultat hittades på SC."
 
 msgid "No streaming links found"
+msgstr "Inga strömmande länkar hittades"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Inga strömmande länkar hittades"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,6 +340,12 @@ msgstr "fel"
 
 msgid "loading"
 msgstr "belastning"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione uppspelningsfel: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Inget Altadefinizione-avsnitt hittades"
 
 #~ msgid "PLAY MEDIA"
 #~ msgstr "SPELA MEDIA"
