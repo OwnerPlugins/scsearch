@@ -42,4 +42,5 @@ TMDB_API_KEY=3c3efcf47c3577558812bb9d64019d65
 # OnlineSerieTV Cookie for Cloudflare bypass
 # Update this cookie when needed
 CookieOLSTV=
-MOVIE_HISTORY=
+MOVIE_HISTORY=super
+TV_HISTORY=
