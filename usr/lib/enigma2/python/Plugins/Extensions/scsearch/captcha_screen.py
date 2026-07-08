@@ -13,6 +13,7 @@ from . import _
 
 log = get_logger()
 
+
 class CaptchaScreen(Screen):
     """
     Screen for displaying a CAPTCHA image and opening a virtual keyboard
@@ -35,13 +36,15 @@ class CaptchaScreen(Screen):
         self.callback = callback
         self.captcha_code = ""
         self.temp_image_path = "/tmp/captcha.jpg"
-        
-        log.info(f"CAPTCHA: Initializing screen with URL: {captcha_url[:100]}...")
+
+        log.info(
+            f"CAPTCHA: Initializing screen with URL: {captcha_url[:100]}...")
 
         self["title"] = Label(_("Enter Captcha Code"))
         self["captcha_image"] = Pixmap()
         self["code_label"] = Label(_("Code: "))
-        self["instructions"] = Label(_("Press GREEN to enter the code\nPress RED to cancel"))
+        self["instructions"] = Label(
+            _("Press GREEN to enter the code\nPress RED to cancel"))
         self["key_green"] = Label(_("ENTER"))
         self["key_red"] = Label(_("CANCEL"))
 
@@ -54,41 +57,41 @@ class CaptchaScreen(Screen):
 
         self.picload = ePicLoad()
         self.picload.PictureData.get().append(self.decode_finished)
-        
+
         self.onLayoutFinish.append(self.load_captcha_image)
 
     def load_captcha_image(self):
         """Download or decode the CAPTCHA image and display it."""
         try:
-            log.info(f"CAPTCHA: Loading image from {self.captcha_url[:100]}...")
-            
+            log.info(
+                f"CAPTCHA: Loading image from {self.captcha_url[:100]}...")
+
             if self.captcha_url.startswith('data:image/'):
                 # Handle base64 encoded image
                 log.info("CAPTCHA: Processing base64 image")
                 import base64
-                
+
                 # Extract base64 data and decode
                 header, data = self.captcha_url.split(',', 1)
                 image_data = base64.b64decode(data)
-                
+
                 with open(self.temp_image_path, 'wb') as f:
                     f.write(image_data)
             else:
                 # Handle normal URL
                 log.info("CAPTCHA: Downloading image from URL")
                 headers = {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-                }
-                
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+
                 req = urllib.request.Request(self.captcha_url, headers=headers)
                 with urllib.request.urlopen(req, timeout=10) as response:
                     with open(self.temp_image_path, 'wb') as f:
                         f.write(response.read())
-            
+
             # Load the image
             self.picload.setPara((400, 200, 1, 1, False, 1, "#00000000"))
             self.picload.startDecode(self.temp_image_path)
-            
+
         except Exception as e:
             log.error(f"CAPTCHA: Error loading image: {e}")
             self["code_label"].setText(_("Error loading captcha"))

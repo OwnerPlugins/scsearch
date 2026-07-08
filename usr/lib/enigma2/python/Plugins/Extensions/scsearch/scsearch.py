@@ -20,7 +20,7 @@ from enigma import eTimer
 from .logger import get_logger
 from .TmdbFetcher import TmdbFetcher
 from .search_functions import perform_search, get_title_details
-from . import _, load_skin                              
+from . import _, load_skin
 
 log = get_logger()
 
@@ -69,7 +69,7 @@ def load_api_key():
                         return api_key
     except Exception as e:
         log.error("Unable to read API key from config file: {}".format(e))
-    
+
     # Fallback hardcoded key
     log.warning("Using hardcoded TMDB API key")
     return "3c3efcf47c3577558812bb9d64019d65"
@@ -140,8 +140,8 @@ def save_search_history(history):
 
 API_KEY = load_api_key()
 
-class SCSearchMain(Screen):
 
+class SCSearchMain(Screen):
 
     def __init__(self, session, initial_item=None, close_callback=None):
         skin_data = load_skin("SCSearchMain")
