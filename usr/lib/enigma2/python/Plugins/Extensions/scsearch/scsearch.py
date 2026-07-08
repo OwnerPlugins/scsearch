@@ -15,7 +15,8 @@ from Components.ScrollLabel import ScrollLabel
 from Components.MenuList import MenuList
 from Components.Pixmap import Pixmap
 from enigma import eTimer
-
+from .search_functions import perform_search, get_title_details
+from . import _, load_skin
 from .logger import get_logger
 
 try:
@@ -25,8 +26,6 @@ except ImportError:
     log = get_logger()
     log.error("TmdbFetcher module not found!")
 
-from .search_functions import perform_search, get_title_details
-from . import _, load_skin
 
 log = get_logger()
 
@@ -75,7 +74,7 @@ def load_api_key():
                         return api_key
     except Exception as e:
         log.error("Unable to read API key from config file: {}".format(e))
-
+    
     # Fallback hardcoded key
     log.warning("Using hardcoded TMDB API key")
     return "3c3efcf47c3577558812bb9d64019d65"
@@ -162,7 +161,7 @@ def save_search_history(history):
 
 class SCSearchMain(Screen):
     """Main screen for SC Search plugin."""
-
+    
     def __init__(self, session, initial_item=None, close_callback=None):
         skin_data = load_skin("SCSearchMain")
         if skin_data:
@@ -188,9 +187,9 @@ class SCSearchMain(Screen):
                 log.info("TmdbFetcher initialized successfully")
         except Exception as e:
             log.error("TmdbFetcher initialization error: {}".format(e))
-            self.tmdb_fetcher = None
+            self.tmdb_fetcher = None   # <-- già presente
             self.api_key_error = True
-
+            
         self.current_search = ""
         self.search_type = "movie"
         self.search_history = load_search_history()
@@ -788,84 +787,89 @@ class SCSearchMain(Screen):
         self._details_thread.start()
 
     def _do_tmdb_fetch(self, title, media_type, item_data, request_id):
-        """Threaded TMDB details fetch."""
+        """
+        Threaded TMDB details fetch.
+        """
         result = None
         try:
-            # Check if we already have a tmdb_id in the raw data
+            # --- SAFETY CHECK: ensure tmdb_fetcher exists and is not None ---
+            if not hasattr(self, 'tmdb_fetcher') or self.tmdb_fetcher is None:
+                log.error("TMDB_FETCH: tmdb_fetcher not available")
+                return
+
             raw_data = item_data.get('_raw', {})
-            existing_tmdb_id = raw_data.get(
-                'tmdb_id') or item_data.get('tmdb_id')
+            existing_tmdb_id = raw_data.get('tmdb_id') or item_data.get('tmdb_id')
 
             if existing_tmdb_id and self.tmdb_fetcher:
-                # Use existing tmdb_id directly
-                log.info(
-                    "TMDB_FETCH: Using existing tmdb_id: {}".format(existing_tmdb_id))
+                # Use existing TMDB ID (from SC or previous search)
+                log.info("TMDB_FETCH: Using existing tmdb_id: {}".format(existing_tmdb_id))
                 item_data['tmdb_id'] = existing_tmdb_id
-                result = self.tmdb_fetcher.get_details(
-                    existing_tmdb_id, media_type)
+                result = self.tmdb_fetcher.get_details(existing_tmdb_id, media_type)
+
             elif self.tmdb_fetcher:
                 # Search TMDB by title
                 item_data.pop('tmdb_id', None)
 
-                # For SC movies, try to extract the year from the original
-                # display_text
+                # Extract year from displayed title (if present)
                 year = None
                 sel = self["results_list"].getCurrent()
                 if sel and isinstance(sel[0], str):
                     display_text = sel[0]
                     source = raw_data.get('source')
+                    # For StreamingCommunity movies, year is often in parentheses
                     if not source and media_type == 'movie':
                         year_match = re.search(r'\((\d{4})\)', display_text)
                         if year_match:
                             year = year_match.group(1)
-                            log.info(
-                                "TMDB_FETCH: Year extracted from SC display: {}".format(year))
+                            log.info("TMDB_FETCH: Year extracted from SC display: {}".format(year))
 
-                # Search TMDB
+                # Perform TMDB search
                 search_results = self.tmdb_fetcher.search(title, media_type)
 
                 if search_results:
                     item_id = None
-                    # If we have the year, look for exact match
+
+                    # 1) If we have the year, look for an exact match
                     if year:
                         for search_result in search_results:
-                            result_year = (search_result.get(
-                                'release_date') or search_result.get('first_air_date') or '')[:4]
+                            result_year = (search_result.get('release_date') or
+                                           search_result.get('first_air_date') or '')[:4]
                             if result_year == year:
                                 item_id = search_result.get('id')
-                                log.info(
-                                    "TMDB_FETCH: Exact year match found: {}".format(year))
+                                log.info("TMDB_FETCH: Exact year match found: {}".format(year))
                                 break
 
-                    # If we didn't find a year match or don't have the year,
-                    # look for exact title match
+                    # 2) If not found by year, look for exact title match
                     if not item_id:
                         title_lower = title.lower().strip()
                         for search_result in search_results:
-                            result_title = (
-                                search_result.get('title') or search_result.get('name') or '').lower().strip()
+                            result_title = (search_result.get('title') or
+                                            search_result.get('name') or '').lower().strip()
                             if result_title == title_lower:
                                 item_id = search_result.get('id')
-                                log.info(
-                                    "TMDB_FETCH: Exact title match found: '{}'".format(result_title))
+                                log.info("TMDB_FETCH: Exact title match found: '{}'".format(result_title))
                                 break
 
-                    # Fallback: use first result
+                    # 3) Fallback: use the first result
                     if not item_id:
                         item_id = search_results[0].get('id')
-                        log.info(
-                            "TMDB_FETCH: No exact match, using first result")
+                        log.info("TMDB_FETCH: No exact match, using first result")
 
                     if item_id:
                         item_data['tmdb_id'] = item_id
-                        result = self.tmdb_fetcher.get_details(
-                            item_id, media_type)
+                        result = self.tmdb_fetcher.get_details(item_id, media_type)
+                else:
+                    log.warning("TMDB_FETCH: No search results for '{}'".format(title))
+
             else:
-                log.error("TMDB_FETCH: tmdb_fetcher is not available")
+                log.error("TMDB_FETCH: tmdb_fetcher is None, cannot fetch details")
 
         except Exception as e:
             log.error("Error fetching TMDB details: {}".format(e))
+            import traceback
+            log.error(traceback.format_exc())
         finally:
+            # Store result for the timer
             self._details_result = (request_id, result)
             self._details_ready = True
 
