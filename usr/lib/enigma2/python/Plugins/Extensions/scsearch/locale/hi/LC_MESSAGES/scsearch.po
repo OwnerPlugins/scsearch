@@ -40,9 +40,6 @@ msgstr ">>> एपिसोड <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> ऋतुएँ <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "अंतिम प्लेबैक त्रुटि: %s"
-
 msgid "Available links:"
 msgstr "उपलब्ध लिंक:"
 
@@ -88,6 +85,9 @@ msgstr "इसके लिए विवरण: '%s'"
 msgid "Details not available"
 msgstr "विवरण उपलब्ध नहीं है"
 
+msgid "ENTER"
+msgstr "प्रवेश करना"
+
 msgid "EXIT"
 msgstr "बाहर निकलना"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "लॉग में डिबग आउटपुट सक्षम करें"
 
 msgid "Enter Captcha Code"
+msgstr "कैप्चा कोड दर्ज करें"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "कैप्चा कोड दर्ज करें"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "OnlineSeriTV श्रृंखला लोड करने में �
 
 msgid "Error loading TMDB"
 msgstr "टीएमडीबी लोड करने में त्रुटि"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "विवरण लोड करने में त्रुटि"
 
 msgid "Error loading details"
 msgstr "विवरण लोड करने में त्रुटि"
@@ -172,9 +180,6 @@ msgstr "एन/ए"
 msgid "New search..."
 msgstr "नई खोज..."
 
-msgid "No Altadefinizione episode found"
-msgstr "कोई Altadefinizione एपिसोड नहीं मिला"
-
 msgid "No CB01 episode found"
 msgstr "कोई CB01 प्रकरण नहीं मिला"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "SC पर कोई परिणाम नहीं मिला."
 
 msgid "No streaming links found"
+msgstr "कोई स्ट्रीमिंग लिंक नहीं मिला"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "कोई स्ट्रीमिंग लिंक नहीं मिला"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "गलती"
 
 msgid "loading"
 msgstr "लोड हो रहा है"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "अंतिम प्लेबैक त्रुटि: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "कोई Altadefinizione एपिसोड नहीं मिला"

@@ -43,4 +43,3 @@ TMDB_API_KEY=3c3efcf47c3577558812bb9d64019d65
 # Update this cookie when needed
 CookieOLSTV=
 MOVIE_HISTORY=
-TV_HISTORY=

@@ -41,9 +41,6 @@ msgstr ">>> Epizodai <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Metų laikai <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione atkūrimo klaida: %s"
-
 msgid "Available links:"
 msgstr "Galimos nuorodos:"
 
@@ -89,6 +86,9 @@ msgstr "Išsami informacija apie: „%s“"
 msgid "Details not available"
 msgstr "Išsamios informacijos nėra"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "IŠĖJIMAS"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Įgalinti derinimo išvestį žurnaluose"
 
 msgid "Enter Captcha Code"
+msgstr "Įveskite „Captcha“ kodą"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Įveskite „Captcha“ kodą"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Įkeliant OnlineSerieTV serialą įvyko klaida"
 
 msgid "Error loading TMDB"
 msgstr "Įkeliant TMDB įvyko klaida"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Įkeliant išsamią informaciją įvyko klaida"
 
 msgid "Error loading details"
 msgstr "Įkeliant išsamią informaciją įvyko klaida"
@@ -173,9 +181,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Nauja paieška..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Altadefinizione epizodas nerastas"
-
 msgid "No CB01 episode found"
 msgstr "CB01 serija nerasta"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "SC rezultatų nerasta."
 
 msgid "No streaming links found"
+msgstr "Srautinio perdavimo nuorodų nerasta"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Srautinio perdavimo nuorodų nerasta"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,9 @@ msgstr "klaida"
 
 msgid "loading"
 msgstr "pakrovimas"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione atkūrimo klaida: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Altadefinizione epizodas nerastas"

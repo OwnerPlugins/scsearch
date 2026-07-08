@@ -41,9 +41,6 @@ msgstr ">>> Episoade <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Anotimpuri <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Eroare de redare Altadefiniție: %s"
-
 msgid "Available links:"
 msgstr "Link-uri disponibile:"
 
@@ -89,6 +86,9 @@ msgstr "Detalii pentru: „%s”"
 msgid "Details not available"
 msgstr "Detalii nu sunt disponibile"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "IEȘIRE"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Activați ieșirea de depanare în jurnale"
 
 msgid "Enter Captcha Code"
+msgstr "Introdu codul Captcha"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Introdu codul Captcha"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Eroare la încărcarea seriei OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Eroare la încărcarea TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Eroare la încărcarea detaliilor"
 
 msgid "Error loading details"
 msgstr "Eroare la încărcarea detaliilor"
@@ -173,9 +181,6 @@ msgstr "N / A"
 msgid "New search..."
 msgstr "Căutare nouă..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Nu a fost găsit niciun episod Altadefinizione"
-
 msgid "No CB01 episode found"
 msgstr "Nu a fost găsit niciun episod CB01"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Nu s-au găsit rezultate pe SC."
 
 msgid "No streaming links found"
+msgstr "Nu s-au găsit linkuri de streaming"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Nu s-au găsit linkuri de streaming"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,9 @@ msgstr "eroare"
 
 msgid "loading"
 msgstr "încărcare"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Eroare de redare Altadefiniție: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Nu a fost găsit niciun episod Altadefinizione"

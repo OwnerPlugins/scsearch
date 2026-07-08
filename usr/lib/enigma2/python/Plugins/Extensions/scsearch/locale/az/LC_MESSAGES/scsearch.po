@@ -40,9 +40,6 @@ msgstr ">>> Epizodlar <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Mövsümlər <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadefinizione oxutma xətası: %s"
-
 msgid "Available links:"
 msgstr "Mövcud bağlantılar:"
 
@@ -88,6 +85,9 @@ msgstr "'%s' üçün təfərrüatlar"
 msgid "Details not available"
 msgstr "Detallar mövcud deyil"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "ÇIXIŞ"
 
@@ -98,6 +98,10 @@ msgid "Enable debug output in logs"
 msgstr "Qeydlərdə sazlama çıxışını aktivləşdirin"
 
 msgid "Enter Captcha Code"
+msgstr "Captcha kodunu daxil edin"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Captcha kodunu daxil edin"
 
 msgid "Episode %d"
@@ -120,6 +124,10 @@ msgstr "OnlineSerieTV seriyasını yükləmə xətası"
 
 msgid "Error loading TMDB"
 msgstr "TMDB yüklənərkən xəta baş verdi"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Detalları yükləmə xətası"
 
 msgid "Error loading details"
 msgstr "Detalları yükləmə xətası"
@@ -172,9 +180,6 @@ msgstr "Yoxdur"
 msgid "New search..."
 msgstr "Yeni axtarış..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Altadefinizione epizodu tapılmadı"
-
 msgid "No CB01 episode found"
 msgstr "CB01 epizodu tapılmadı"
 
@@ -197,6 +202,10 @@ msgid "No results found on SC."
 msgstr "SC-də heç bir nəticə tapılmadı."
 
 msgid "No streaming links found"
+msgstr "Axın keçidləri tapılmadı"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Axın keçidləri tapılmadı"
 
 msgid "OnlineSerieTV - TV Series"
@@ -330,3 +339,9 @@ msgstr "səhv"
 
 msgid "loading"
 msgstr "yüklənir"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadefinizione oxutma xətası: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Altadefinizione epizodu tapılmadı"

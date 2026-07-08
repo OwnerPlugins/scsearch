@@ -41,9 +41,6 @@ msgstr ">>> Epizodoj <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Sezonoj <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "Altadifina reprodukta eraro: %s"
-
 msgid "Available links:"
 msgstr "Disponeblaj ligiloj:"
 
@@ -89,6 +86,9 @@ msgstr "Detaloj por: '%s'"
 msgid "Details not available"
 msgstr "Detaloj ne haveblaj"
 
+msgid "ENTER"
+msgstr ""
+
 msgid "EXIT"
 msgstr "ELIRO"
 
@@ -99,6 +99,10 @@ msgid "Enable debug output in logs"
 msgstr "Ebligu sencimigan eligon en protokoloj"
 
 msgid "Enter Captcha Code"
+msgstr "Enigu Captcha Kodon"
+
+#, fuzzy
+msgid "Enter captcha code:"
 msgstr "Enigu Captcha Kodon"
 
 msgid "Episode %d"
@@ -121,6 +125,10 @@ msgstr "Eraro dum ŝarĝo de la serio OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Eraro dum ŝarĝo de TMDB"
+
+#, fuzzy
+msgid "Error loading captcha"
+msgstr "Eraro dum ŝarĝo de detaloj"
 
 msgid "Error loading details"
 msgstr "Eraro dum ŝarĝo de detaloj"
@@ -173,9 +181,6 @@ msgstr ""
 msgid "New search..."
 msgstr "Nova serĉo..."
 
-msgid "No Altadefinizione episode found"
-msgstr "Neniu Altadefinizione epizodo trovita"
-
 msgid "No CB01 episode found"
 msgstr "Neniu CB01 epizodo trovita"
 
@@ -198,6 +203,10 @@ msgid "No results found on SC."
 msgstr "Neniuj rezultoj trovitaj pri SC."
 
 msgid "No streaming links found"
+msgstr "Neniuj fluaj ligiloj trovitaj"
+
+#, fuzzy
+msgid "No streaming links found."
 msgstr "Neniuj fluaj ligiloj trovitaj"
 
 msgid "OnlineSerieTV - TV Series"
@@ -331,3 +340,9 @@ msgstr "eraro"
 
 msgid "loading"
 msgstr "ŝarĝo"
+
+#~ msgid "Altadefinizione playback error: %s"
+#~ msgstr "Altadifina reprodukta eraro: %s"
+
+#~ msgid "No Altadefinizione episode found"
+#~ msgstr "Neniu Altadefinizione epizodo trovita"
