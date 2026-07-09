@@ -5,7 +5,7 @@
 STREAMING_COMMUNITY_URL=https://streamingcommunityz.us/
 
 # CB01 URLs
-CB01_URL=https://cineblog001.work/
+CB01_URL=https://cb01uno.space/
 CB01_URL_FALLBACK=https://
 
 # Altadefinizione URLs
