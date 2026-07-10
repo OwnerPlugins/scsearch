@@ -216,6 +216,7 @@ class SCSearchMain(Screen):
         # Listeners
         self["results_list"].onSelectionChanged.append(self.on_result_selected)
         self.onLayoutFinish.append(self.initial_setup)
+        self.onClose.append(self.__onClose)
 
         self.picload = None
         self.cover_temp_path = "/tmp/scsearch_cover.jpg"
@@ -1366,6 +1367,21 @@ class SCSearchMain(Screen):
         except Exception as e:
             log.error("COVER_CONVERT: PIL conversion failed: {}".format(e))
             return False
+
+    def __onClose(self):
+        for timer, cb in (
+            (self._search_timer, self._on_sc_search_timer),
+            (self._details_timer, self._on_tmdb_details_timer),
+            (self._initial_details_timer, self._on_initial_details_timer),
+            (self._ostv_cover_timer, self._update_ostv_cover),
+        ):
+            try:
+                timer.stop()
+                if cb in timer.callback:
+                    timer.callback.remove(cb)
+            except Exception:
+                pass
+        self.picload = None
 
     def close(self):
         self._search_timer.stop()

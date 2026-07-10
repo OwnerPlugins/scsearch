@@ -1,23 +1,19 @@
 <screen name="SCDetailsScreen" position="center,center" size="1920,1080" title="SC Search - Details" backgroundColor="#101216">
-    <widget name="title" position="60,60" size="1800,60" font="Regular;42" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
-    <widget name="type_info" position="60,135" size="900,45" font="Regular;30" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" />
+    <eLabel position="0,0" size="1920,1080" backgroundColor="#101216" zPosition="0" />
+    <widget name="title" position="60,60" size="1800,60" font="Regular;42" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
+    <widget name="type_info" position="60,135" size="900,45" font="Regular;30" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" zPosition="1" />
 
-    <!-- Larger cover on the left -->
-    <widget name="cover_pixmap" position="60,210" size="450,675" zPosition="3" alphatest="on" cornerRadius="26" scale="1" />
+    <widget name="cover_pixmap" position="60,210" size="450,675" zPosition="3" alphatest="on" scale="1" />
 
-    <!-- Smaller detailed info -->
-    <widget name="info_panel" position="540,210" size="420,300" font="Regular;27" foregroundColor="#ffffff" backgroundColor="#1b2028" />
+    <widget name="info_panel" position="540,210" size="420,300" font="Regular;27" foregroundColor="#ffffff" backgroundColor="#1b2028" zPosition="1" />
+    <widget name="description_panel" position="990,210" size="870,300" font="Regular;24" foregroundColor="#aab2c0" backgroundColor="#151922" zPosition="1" />
 
-    <!-- Even wider description -->
-    <widget name="description_panel" position="990,210" size="870,300" font="Regular;24" foregroundColor="#aab2c0" backgroundColor="#151922" />
+    <widget name="season_label" position="540,540" size="450,45" font="Regular;30" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
+    <widget name="season_list" position="540,600" size="450,225" itemHeight="52" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;27" zPosition="1" />
 
-    <!-- Seasons and episodes below -->
-    <widget name="season_label" position="540,540" size="450,45" font="Regular;30" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
-    <widget name="season_list" position="540,600" size="450,225" itemHeight="52" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;27" selectionPixmap="skin_default/sel.png" />
+    <widget name="episode_label" position="1020,540" size="450,45" font="Regular;30" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
+    <widget name="episode_list" position="1020,600" size="450,225" itemHeight="52" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;27" zPosition="1" />
 
-    <widget name="episode_label" position="1020,540" size="450,45" font="Regular;30" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" />
-    <widget name="episode_list" position="1020,600" size="450,225" itemHeight="52" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;27" selectionPixmap="skin_default/sel.png" />
-
-    <widget name="key_red" position="60,975" size="150,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
-    <widget name="key_green" position="225,975" size="195,45" font="Regular;27" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
+    <widget name="key_red" position="60,975" size="150,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" zPosition="1" />
+    <widget name="key_green" position="225,975" size="195,45" font="Regular;27" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" zPosition="1" />
 </screen>

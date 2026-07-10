@@ -89,8 +89,8 @@ class SCDetailsScreen(Screen):
         self["episode_list"].onSelectionChanged.append(
             self.on_episode_selected)
         self.onLayoutFinish.append(self.load_details)
+        self.onClose.append(self.__onClose)
 
-        # Reference for playback end callback
         self.playback_session = None
 
     def load_details(self):
@@ -171,33 +171,7 @@ class SCDetailsScreen(Screen):
                     log.info(
                         "DETAILS: Altadefinizione streaming_links: {}".format(
                             self.details.get('streaming_links')))
-                    # --- SE streaming_links è vuoto, prova a estrarre direttamente ---
-                    if not self.details.get('streaming_links'):
-                        log.info(
-                            "DETAILS: Trying to extract streaming links manually from page")
-                        html = altadef_client._get_page(altadef_url)
-                        if html:
-                            # Cerca iframe VixSrc
-                            import re
-                            iframe_match = re.search(
-                                r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
-                            if iframe_match:
-                                embed_url = iframe_match.group(1)
-                                if not embed_url.startswith('http'):
-                                    embed_url = 'https:' + \
-                                        embed_url if embed_url.startswith('//') else 'https://' + embed_url
-                                log.info(
-                                    "DETAILS: Found embed URL in page: {}".format(embed_url))
-                                stream_url = altadef_client._extract_vixsrc_stream(
-                                    embed_url, altadef_url)
-                                if stream_url:
-                                    log.info(
-                                        "DETAILS: Extracted stream URL: {}".format(stream_url))
-                                    self.details['streaming_links'] = [
-                                        {'url': stream_url, 'quality': 'HD', 'service': 'vixsrc'}]
-                                else:
-                                    log.warning(
-                                        "DETAILS: Could not extract stream from embed")
+        
 
             # --- Default: get_title_details ---
             else:
@@ -398,12 +372,36 @@ class SCDetailsScreen(Screen):
                 self._load_cover(poster_url)
             return
 
+        # --- ALTADEFINIZIONE ---
+        if self.details.get('source') == 'altadefinizione':
+            year = self.details.get('year', _('N/A'))
+            genre = self.details.get('genre', _('N/A'))
+            description = self.details.get('description', _('Description not available.'))
+            streaming_links = self.details.get('streaming_links', [])
+
+            info_text = _("Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play") % (
+                year, genre, len(streaming_links))
+            self["info_panel"].setText(info_text)
+            self["description_panel"].setText(_("Description:\n\n%s") % description)
+
+            if streaming_links:
+                self["season_label"].setText(_("Available links:"))
+                self["season_list"].setList([
+                    _("%s %s") % (lnk.get('type', 'Hoster').title(), lnk.get('quality', 'SD'))
+                    for lnk in streaming_links
+                ])
+                self.selected_cb01_link_index = 0
+
+            poster_url = self.details.get('poster')
+            if poster_url:
+                self._load_cover(poster_url)
+            return
+
         tmdb_id = self.details.get("tmdb_id")
         if tmdb_id:
             self._load_tmdb_info(tmdb_id, is_movie=True)
         else:
-            info_text = _("Movie\nTMDB ID: %s\nPress GREEN to play") % tmdb_id
-            self["info_panel"].setText(info_text)
+            self["info_panel"].setText(_("Press GREEN to play"))
 
     def update_episodes(self):
         # For OnlineSerieTV, calculate episodes per season
@@ -521,9 +519,36 @@ class SCDetailsScreen(Screen):
         except Exception as e:
             log.error("Error in episode selection: {}".format(e))
 
+    def _stop_all_timers(self):
+        for timer, cb in (
+            (self.ui_timer, self._on_details_timer),
+            (self._tmdb_info_timer, self._on_tmdb_info_timer),
+            (self._tmdb_sc_timer, self._on_tmdb_sc_timer),
+            (self._cover_timer, self._update_cover),
+            (self._ostv_cover_timer, self._update_ostv_cover),
+        ):
+            try:
+                timer.stop()
+                if cb in timer.callback:
+                    timer.callback.remove(cb)
+            except Exception:
+                pass
+
+    def __onClose(self):
+        self._closed = True
+        self._stop_all_timers()
+        if self.picload is not None:
+            try:
+                self.picload.PictureData.get().remove(self._on_picload_finished) if hasattr(self, '_on_picload_finished') else None
+            except Exception:
+                pass
+            self.picload = None
+
     def play_content(self):
         if not self.details:
             return
+
+        self._stop_all_timers()
 
         # --- OnlineSerieTV ---
         if self.details.get('source') == 'onlineserietv':
@@ -538,7 +563,7 @@ class SCDetailsScreen(Screen):
         # --- ALTADEFINIZIONE ---
         elif self.details.get('source') == 'altadefinizione':
             content_type = self.details.get('type', 'Movie')
-            if content_type == 'TvSeries' or content_type == 'tv':
+            if content_type in ('TvSeries', 'tv'):
                 self._play_altadefinizione_episode()
             else:
                 self._play_altadefinizione_content()
@@ -548,36 +573,22 @@ class SCDetailsScreen(Screen):
         else:
             tmdb_id = self.details.get("tmdb_id")
             if not tmdb_id:
-                self.session.open(
-                    MessageBox,
-                    _("TMDB ID not found"),
-                    MessageBox.TYPE_ERROR)
+                self.session.open(MessageBox, _("TMDB ID not found"), MessageBox.TYPE_ERROR)
                 return
 
             if self.details.get("type") == "Movie":
                 stream_url = "https://vixsrc.to/movie/{}".format(tmdb_id)
+                service_name = self.title
             else:
                 stream_url = "https://vixsrc.to/tv/{}/{}/{}".format(
-                    tmdb_id,
-                    self.selected_season,
-                    self.selected_episode
-                )
-
-            log.info("PLAY: Built URL: {}".format(stream_url))
-            service_ref = eServiceReference(4097, 0, stream_url)
-
-            if self.details.get("type") == "Movie":
-                service_ref.setName(self.title)
-            else:
+                    tmdb_id, self.selected_season, self.selected_episode)
                 service_name = "{} - S{:02d}E{:02d}".format(
-                    self.title,
-                    self.selected_season,
-                    self.selected_episode
-                )
-                service_ref.setName(service_name)
+                    self.title, self.selected_season, self.selected_episode)
 
-            self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+            log.info("PLAY: URL: {}".format(stream_url))
+            service_ref = eServiceReference(4097, 0, stream_url)
+            service_ref.setName(service_name)
+            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
 
     def _setup_onlineserietv_series(self):
         """Setup for OnlineSerieTV TV series."""
@@ -652,6 +663,7 @@ class SCDetailsScreen(Screen):
     def _play_altadefinizione_episode(self):
         """Play a TV series episode from Altadefinizione."""
         try:
+            self._stop_all_timers()
             from .altadefinizione import Altadefinizione
             altadef_client = Altadefinizione()
 
@@ -700,69 +712,26 @@ class SCDetailsScreen(Screen):
 
     def _play_altadefinizione_content(self):
         try:
-            log.info("===== ALTADEFINIZIONE PLAY START =====")
-            log.info("self.details: {}".format(self.details))
-
+            self._stop_all_timers()
             streaming_links = self.details.get('streaming_links', [])
-            log.info("streaming_links: {}".format(streaming_links))
+            log.info("ALTADEFINIZIONE PLAY: {} links".format(len(streaming_links)))
 
             if not streaming_links:
-                # TENTA DI ESTRARRE DIRETTAMENTE
-                from .altadefinizione import Altadefinizione
-                altadef_client = Altadefinizione()
-                altadef_url = self.details.get('altadef_url', '')
-                log.info(
-                    "Trying direct extraction from: {}".format(altadef_url))
-
-                # Prova a ottenere il link dalla pagina
-                html = altadef_client._get_page(altadef_url)
-                if html:
-                    import re
-                    iframe_match = re.search(
-                        r'<iframe[^>]+src="([^"]*vixsrc[^"]+)"', html, re.IGNORECASE)
-                    if iframe_match:
-                        embed_url = iframe_match.group(1)
-                        if not embed_url.startswith('http'):
-                            embed_url = 'https:' + \
-                                embed_url if embed_url.startswith('//') else 'https://' + embed_url
-                        log.info(
-                            "Found embed URL manually: {}".format(embed_url))
-
-                        stream_url = altadef_client._extract_vixsrc_stream(
-                            embed_url, altadef_url)
-                        log.info("Extracted stream URL: {}".format(stream_url))
-
-                        if stream_url:
-                            streaming_links = [
-                                {'url': stream_url, 'quality': 'HD', 'service': 'vixsrc'}]
-                            self.details['streaming_links'] = streaming_links
-
-            if not streaming_links:
-                self.session.open(
-                    MessageBox,
-                    _("No streaming links found."),
-                    MessageBox.TYPE_ERROR)
+                self.session.open(MessageBox, _("No streaming links found."), MessageBox.TYPE_ERROR)
                 return
 
-            link_index = getattr(self, 'selected_altadef_link_index', 0)
+            link_index = getattr(self, 'selected_cb01_link_index', 0)
             if link_index >= len(streaming_links):
                 link_index = 0
 
-            selected_link = streaming_links[link_index]
-            stream_url = selected_link['url']
-            log.info("FINAL STREAM URL: {}".format(stream_url))
-
-            service_name = "{} [Altadefinizione]".format(self.title)
+            stream_url = streaming_links[link_index]['url']
+            log.info("ALTADEFINIZIONE PLAY: URL: {}".format(stream_url))
             service_ref = eServiceReference(4097, 0, stream_url)
-            service_ref.setName(service_name)
-
-            self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+            service_ref.setName("{} [Altadefinizione]".format(self.title))
+            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
 
         except Exception as e:
             log.error("ALTADEFINIZIONE PLAY ERROR: {}".format(e))
-            import traceback
-            log.error(traceback.format_exc())
 
     def _setup_cb01_series(self):
         """Setup for CB01 TV series with already extracted hoster links."""
@@ -826,6 +795,7 @@ class SCDetailsScreen(Screen):
     def _play_cb01_content(self):
         """Send CB01 hoster link to decoder without decrypting."""
         try:
+            self._stop_all_timers()
             if self.details.get('type') == 'TvSeries':
                 episodes = self.seasons_data.get(self.selected_season, [])
                 selected_episode_data = None
@@ -995,14 +965,8 @@ class SCDetailsScreen(Screen):
             return eServiceReference(4097, 0, url)
 
     def on_playback_stopped(self, *args, **kwargs):
-        """
-        Callback executed when MoviePlayer is closed.
-        Does nothing; Enigma2 will automatically return to this screen.
-        """
-        log.info(
-            "DETAILS: Playback stopped callback - args: {}, kwargs: {}".format(args, kwargs))
-        log.info("DETAILS: Returning to details screen.")
-        # No action needed, Enigma2 handles the return.
+        log.info("DETAILS: Playback stopped, returning to details screen")
+        self.show()
 
     def keyLeft(self):
         self.active_list = "seasons"
@@ -1187,18 +1151,21 @@ class SCDetailsScreen(Screen):
 
     def _fetch_tmdb_info(self, tmdb_id, is_movie=False):
         try:
+            log.info("TMDB_INFO: Fetching tmdb_id={} is_movie={}".format(tmdb_id, is_movie))
             from .TmdbFetcher import TmdbFetcher
             from .scsearch import load_api_key
 
             api_key = load_api_key()
             if not api_key:
+                log.warning("TMDB_INFO: No API key")
                 return
 
             tmdb = TmdbFetcher(api_key)
             media_type = "movie" if is_movie else "tv"
             self._tmdb_info_result = tmdb.get_details(tmdb_id, media_type)
+            log.info("TMDB_INFO: Result: {}".format(bool(self._tmdb_info_result)))
         except Exception as e:
-            log.error("Error loading TMDB info: {}".format(e))
+            log.error("TMDB_INFO: Error: {}".format(e))
             self._tmdb_info_result = None
         finally:
             self._tmdb_info_ready = True
@@ -1215,7 +1182,10 @@ class SCDetailsScreen(Screen):
         self._tmdb_info_ready = False
         self._tmdb_info_result = None
 
+        log.info("TMDB_INFO_TIMER: details={}".format(bool(details)))
         if not details:
+            # Show basic info even without TMDB data
+            self["info_panel"].setText(_("Press GREEN to play"))
             return
 
         is_movie = context.get("is_movie", False)
@@ -1666,15 +1636,7 @@ class SCDetailsScreen(Screen):
 
     def close(self):
         self._closed = True
-        for timer in (
-            self.ui_timer,
-            self._tmdb_info_timer,
-            self._tmdb_sc_timer,
-            self._cover_timer,
-            self._ostv_cover_timer,
-        ):
-            try:
-                timer.stop()
-            except Exception:
-                pass
+        self._stop_all_timers()
+        if self.picload is not None:
+            self.picload = None
         Screen.close(self)
