@@ -2,7 +2,7 @@
 ## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/bash
 
 version='1.26'
-changelog="Add screen"
+changelog="Some fix"
 
 TMPPATH=/tmp/scsearch-install
 FILEPATH=/tmp/scsearch-main.tar.gz
