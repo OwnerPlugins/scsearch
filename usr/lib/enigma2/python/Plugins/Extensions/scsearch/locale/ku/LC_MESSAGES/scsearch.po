@@ -220,6 +220,9 @@ msgstr "Çewtiya lêdanê: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Ji bo lêgerînê KESK (Fîlm) an ZER (Rêzika TV) bikirtînin..."
 
+msgid "Press GREEN to play"
+msgstr "Ji bo lîstinê GREEN çap bikin"
+
 msgid "Press OK"
 msgstr "Bitikîne OK"
 

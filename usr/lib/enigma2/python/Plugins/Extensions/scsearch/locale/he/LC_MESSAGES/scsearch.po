@@ -221,6 +221,9 @@ msgstr "שגיאת השמעה: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "לחץ על ירוק (סרט) או צהוב (סדרת טלוויזיה) כדי לחפש..."
 
+msgid "Press GREEN to play"
+msgstr "לחץ על ירוק כדי לשחק"
+
 msgid "Press OK"
 msgstr "לחץ על אישור"
 

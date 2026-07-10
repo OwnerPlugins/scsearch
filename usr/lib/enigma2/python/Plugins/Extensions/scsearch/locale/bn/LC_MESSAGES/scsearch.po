@@ -220,6 +220,9 @@ msgstr "প্লেব্যাক ত্রুটি: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "অনুসন্ধান করতে সবুজ (মুভি) বা ইয়েলো (টিভি সিরিজ) টিপুন..."
 
+msgid "Press GREEN to play"
+msgstr "খেলতে সবুজ টিপুন"
+
 msgid "Press OK"
 msgstr "ঠিক আছে টিপুন"
 

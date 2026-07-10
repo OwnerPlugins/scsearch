@@ -220,6 +220,9 @@ msgstr "Ойнату қатесі: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Іздеу үшін ЖАСЫЛ (фильм) немесе САРЫ (Теледидар сериясы) түймесін басыңыз..."
 
+msgid "Press GREEN to play"
+msgstr "Ойнату үшін ЖАСЫЛ түймесін басыңыз"
+
 msgid "Press OK"
 msgstr "OK түймесін басыңыз"
 

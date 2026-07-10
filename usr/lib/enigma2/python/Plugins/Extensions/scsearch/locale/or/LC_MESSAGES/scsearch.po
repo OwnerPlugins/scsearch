@@ -220,6 +220,9 @@ msgstr "ପ୍ଲେକ୍ ତ୍ରୁଟି:% s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ସନ୍ଧାନ କରିବାକୁ ଗ୍ରୀନ୍ (ଚଳଚ୍ଚିତ୍ର) କିମ୍ବା YELLOW (ଟିଭି ସିରିଜ୍) ଦବାନ୍ତୁ ..."
 
+msgid "Press GREEN to play"
+msgstr "ଖେଳିବାକୁ GREEN ଦବାନ୍ତୁ |"
+
 msgid "Press OK"
 msgstr "ଓକେ ଦବାନ୍ତୁ |"
 

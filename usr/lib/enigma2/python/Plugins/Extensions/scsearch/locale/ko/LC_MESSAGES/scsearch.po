@@ -221,6 +221,9 @@ msgstr "재생 오류: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "검색하려면 녹색(영화) 또는 노란색(TV 시리즈)을 누르세요."
 
+msgid "Press GREEN to play"
+msgstr "재생하려면 녹색을 누르세요."
+
 msgid "Press OK"
 msgstr "확인을 누르세요"
 

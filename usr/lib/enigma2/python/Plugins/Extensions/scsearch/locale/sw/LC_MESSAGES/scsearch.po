@@ -220,6 +220,9 @@ msgstr "Hitilafu ya kucheza tena: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Bonyeza KIJANI (Filamu) au MANJANO (Mfululizo wa TV) ili kutafuta..."
 
+msgid "Press GREEN to play"
+msgstr "Bonyeza KIJANI ili kucheza"
+
 msgid "Press OK"
 msgstr "Bonyeza SAWA"
 

@@ -221,6 +221,9 @@ msgstr "再生エラー: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "緑 (映画) または黄色 (TV シリーズ) を押して検索します..."
 
+msgid "Press GREEN to play"
+msgstr "緑を押して再生します"
+
 msgid "Press OK"
 msgstr "「OK」を押します"
 

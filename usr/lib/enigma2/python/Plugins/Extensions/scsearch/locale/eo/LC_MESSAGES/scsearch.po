@@ -221,6 +221,9 @@ msgstr "Eraro de reprodukto: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Premu VERDA (Filmo) aŭ FLAVA (Televido-Serio) por serĉi..."
 
+msgid "Press GREEN to play"
+msgstr "Premu VERDA por ludi"
+
 msgid "Press OK"
 msgstr "Premu OK"
 

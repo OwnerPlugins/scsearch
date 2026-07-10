@@ -220,6 +220,9 @@ msgstr "பின்னணி பிழை: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "தேட பச்சை (திரைப்படம்) அல்லது மஞ்சள் (டிவி தொடர்) அழுத்தவும்..."
 
+msgid "Press GREEN to play"
+msgstr "விளையாட GREEN ஐ அழுத்தவும்"
+
 msgid "Press OK"
 msgstr "சரி என்பதை அழுத்தவும்"
 

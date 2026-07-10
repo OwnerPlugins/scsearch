@@ -220,6 +220,9 @@ msgstr "Նվագարկման սխալ՝ %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Սեղմեք ԿԱՆԱՉ (Ֆիլմ) կամ ԴԵՂԻՆ (Հեռուստասերիալ) որոնելու համար..."
 
+msgid "Press GREEN to play"
+msgstr "Սեղմեք ԿԱՆԱՉ՝ խաղալու համար"
+
 msgid "Press OK"
 msgstr "Սեղմեք OK"
 

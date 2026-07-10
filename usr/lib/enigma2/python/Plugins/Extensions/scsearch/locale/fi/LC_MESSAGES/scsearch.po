@@ -221,6 +221,9 @@ msgstr "Toistovirhe: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Paina VIHREÄÄ (elokuva) tai KELTAISTA (TV-sarja) etsiäksesi..."
 
+msgid "Press GREEN to play"
+msgstr "Toista painamalla VIHREÄÄ"
+
 msgid "Press OK"
 msgstr "Paina OK"
 

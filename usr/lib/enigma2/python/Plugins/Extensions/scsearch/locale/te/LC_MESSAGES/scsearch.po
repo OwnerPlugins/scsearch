@@ -220,6 +220,9 @@ msgstr "ప్లేబ్యాక్ లోపం: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "శోధించడానికి GREEN (మూవీ) లేదా పసుపు (TV సిరీస్) నొక్కండి..."
 
+msgid "Press GREEN to play"
+msgstr "ఆడటానికి GREEN నొక్కండి"
+
 msgid "Press OK"
 msgstr "సరే నొక్కండి"
 

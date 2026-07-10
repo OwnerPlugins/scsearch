@@ -220,6 +220,9 @@ msgstr "Erreprodukzio-errorea: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Sakatu BERDEA (filma) edo HORIA (telesaila) bilatzeko..."
 
+msgid "Press GREEN to play"
+msgstr "Sakatu BERDEA jolasteko"
+
 msgid "Press OK"
 msgstr "Sakatu Ados"
 

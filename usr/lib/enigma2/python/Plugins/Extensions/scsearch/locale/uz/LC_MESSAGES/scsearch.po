@@ -220,6 +220,9 @@ msgstr "Ijro xatosi: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Qidirish uchun YASIL (Film) yoki SARI (TV seriyasi) tugmasini bosing..."
 
+msgid "Press GREEN to play"
+msgstr "Oʻynash uchun GREEN tugmasini bosing"
+
 msgid "Press OK"
 msgstr "OK tugmasini bosing"
 

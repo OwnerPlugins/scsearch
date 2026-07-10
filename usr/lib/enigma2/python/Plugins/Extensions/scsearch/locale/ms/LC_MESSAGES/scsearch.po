@@ -220,6 +220,9 @@ msgstr "Ralat main balik: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Tekan HIJAU (Filem) atau KUNING (Siri TV) untuk mencari..."
 
+msgid "Press GREEN to play"
+msgstr "Tekan HIJAU untuk bermain"
+
 msgid "Press OK"
 msgstr "Tekan OK"
 

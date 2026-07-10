@@ -221,6 +221,9 @@ msgstr "Taasesituse viga: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Otsimiseks vajutage ROHELIST (film) või KOLLAST (telesari)..."
 
+msgid "Press GREEN to play"
+msgstr "Mängimiseks vajutage ROHELIST"
+
 msgid "Press OK"
 msgstr "Vajutage nuppu OK"
 

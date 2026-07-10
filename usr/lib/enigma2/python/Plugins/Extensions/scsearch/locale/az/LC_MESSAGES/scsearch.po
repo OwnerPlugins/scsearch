@@ -220,6 +220,9 @@ msgstr "Oxutma xətası: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Axtarmaq üçün YAŞIL (Film) və ya SARI (TV Seriyası) düyməsini basın..."
 
+msgid "Press GREEN to play"
+msgstr "Oynamaq üçün YAŞIL düyməsini basın"
+
 msgid "Press OK"
 msgstr "OK düyməsini basın"
 

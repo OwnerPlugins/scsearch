@@ -221,6 +221,9 @@ msgstr "Lejátszási hiba: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Nyomja meg a ZÖLD (film) vagy a SÁRGA (TV-sorozat) gombot a kereséshez..."
 
+msgid "Press GREEN to play"
+msgstr "Nyomja meg a ZÖLD gombot a lejátszáshoz"
+
 msgid "Press OK"
 msgstr "Nyomja meg az OK gombot"
 

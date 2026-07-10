@@ -220,6 +220,9 @@ msgstr "പ്ലേബാക്ക് പിശക്: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "തിരയാൻ GREEN (Movie) അല്ലെങ്കിൽ YELLOW (TV Series) അമർത്തുക..."
 
+msgid "Press GREEN to play"
+msgstr "കളിക്കാൻ GREEN അമർത്തുക"
+
 msgid "Press OK"
 msgstr "ശരി അമർത്തുക"
 

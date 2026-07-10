@@ -217,6 +217,9 @@ msgstr ""
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr ""
 
+msgid "Press GREEN to play"
+msgstr ""
+
 msgid "Press OK"
 msgstr ""
 

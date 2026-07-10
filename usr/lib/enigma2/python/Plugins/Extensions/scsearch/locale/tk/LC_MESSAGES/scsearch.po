@@ -220,6 +220,9 @@ msgstr "Aýtdyrmak säwligi:% s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Gözlemek üçin REaşyl (Kino) ýa-da YELLOW (Teleserial) basyň ..."
 
+msgid "Press GREEN to play"
+msgstr "Oýun etmek üçin REaşyl basyň"
+
 msgid "Press OK"
 msgstr "OK basyň"
 

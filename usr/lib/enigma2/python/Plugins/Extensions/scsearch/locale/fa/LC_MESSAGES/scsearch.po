@@ -220,6 +220,9 @@ msgstr "خطای پخش: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "سبز (فیلم) یا زرد (سریال تلویزیونی) را برای جستجو فشار دهید..."
 
+msgid "Press GREEN to play"
+msgstr "سبز را برای بازی فشار دهید"
+
 msgid "Press OK"
 msgstr "OK را فشار دهید"
 

@@ -220,6 +220,9 @@ msgstr "ਪਲੇਬੈਕ ਗਲਤੀ: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ਖੋਜ ਕਰਨ ਲਈ ਹਰਾ (ਮੂਵੀ) ਜਾਂ ਯੈਲੋ (ਟੀਵੀ ਸੀਰੀਜ਼) ਦਬਾਓ..."
 
+msgid "Press GREEN to play"
+msgstr "ਖੇਡਣ ਲਈ ਹਰਾ ਦਬਾਓ"
+
 msgid "Press OK"
 msgstr "OK ਦਬਾਓ"
 

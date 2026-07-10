@@ -220,6 +220,9 @@ msgstr "កំហុសក្នុងការចាក់សារថ្មី
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ចុច GREEN (ភាពយន្ត) ឬ YELLOW (TV Series) ដើម្បីស្វែងរក..."
 
+msgid "Press GREEN to play"
+msgstr "ចុច GREEN ដើម្បីលេង"
+
 msgid "Press OK"
 msgstr "ចុចយល់ព្រម"
 

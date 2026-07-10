@@ -221,6 +221,9 @@ msgstr "Afspilningsfejl: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Tryk på GRØN (film) eller GUL (tv-serie) for at søge..."
 
+msgid "Press GREEN to play"
+msgstr "Tryk på GRØN for at afspille"
+
 msgid "Press OK"
 msgstr "Tryk på OK"
 

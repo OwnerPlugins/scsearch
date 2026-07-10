@@ -220,6 +220,9 @@ msgstr "Тоглуулах алдаа: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "НОГООН (Кино) эсвэл ШАР (ТВ цуврал) дээр дарж хайлт хийнэ үү..."
 
+msgid "Press GREEN to play"
+msgstr "Тоглуулахын тулд НОГООН дарна уу"
+
 msgid "Press OK"
 msgstr "OK дарна уу"
 

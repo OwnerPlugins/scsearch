@@ -220,6 +220,9 @@ msgstr "Error sa pag-playback: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pindutin ang GREEN (Movie) o YELLOW (TV Series) para maghanap..."
 
+msgid "Press GREEN to play"
+msgstr "Pindutin ang GREEN para maglaro"
+
 msgid "Press OK"
 msgstr "Pindutin ang OK"
 

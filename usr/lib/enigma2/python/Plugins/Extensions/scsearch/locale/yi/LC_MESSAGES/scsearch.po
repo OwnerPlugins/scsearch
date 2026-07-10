@@ -220,6 +220,9 @@ msgstr "פּלייבאַק טעות: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "דרוק גרין (פֿילם) אָדער געל (טעלעוויזיע סעריע) צו זוכן ..."
 
+msgid "Press GREEN to play"
+msgstr "דרוק גרין צו שפּילן"
+
 msgid "Press OK"
 msgstr "דרוק OK"
 

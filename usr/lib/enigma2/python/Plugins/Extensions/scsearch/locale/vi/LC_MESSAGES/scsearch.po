@@ -221,6 +221,9 @@ msgstr "Lỗi phát lại: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Nhấn XANH (Phim) hoặc VÀNG (Phim truyền hình) để tìm kiếm..."
 
+msgid "Press GREEN to play"
+msgstr "Nhấn XANH để chơi"
+
 msgid "Press OK"
 msgstr "Nhấn OK"
 

@@ -220,6 +220,9 @@ msgstr "Error de lectura : %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Picatz VERD (Film) o JAUNE (Sèria de television) per cercar..."
 
+msgid "Press GREEN to play"
+msgstr "Quichatz VERD per jogar"
+
 msgid "Press OK"
 msgstr "Quichatz sus D'acòrdi"
 

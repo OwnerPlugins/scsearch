@@ -221,6 +221,9 @@ msgstr "Napaka pri predvajanju: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pritisnite ZELENO (film) ali RUMENA ​​(TV serija) za iskanje ..."
 
+msgid "Press GREEN to play"
+msgstr "Za predvajanje pritisnite ZELENO"
+
 msgid "Press OK"
 msgstr "Pritisnite OK"
 

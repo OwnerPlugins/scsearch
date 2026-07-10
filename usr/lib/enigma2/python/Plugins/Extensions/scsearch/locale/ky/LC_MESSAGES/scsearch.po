@@ -220,6 +220,9 @@ msgstr "Ойнотуу катасы: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Издөө үчүн ЖАШЫЛ (Тасма) же САРЫ (Телесериалдар) басыңыз..."
 
+msgid "Press GREEN to play"
+msgstr "Ойнотуу үчүн ЖАШЫЛ басыңыз"
+
 msgid "Press OK"
 msgstr "OK басыңыз"
 

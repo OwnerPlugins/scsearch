@@ -220,6 +220,9 @@ msgstr "प्लेब्याक त्रुटि: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "खोज्नको लागि हरियो (चलचित्र) वा पहेंलो (टिभी श्रृंखला) थिच्नुहोस्..."
 
+msgid "Press GREEN to play"
+msgstr "प्ले गर्न GREEN थिच्नुहोस्"
+
 msgid "Press OK"
 msgstr "ठीक थिच्नुहोस्"
 

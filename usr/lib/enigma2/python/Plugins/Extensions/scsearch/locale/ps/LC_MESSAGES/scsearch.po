@@ -220,6 +220,9 @@ msgstr "د پلې بیک تېروتنه: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "د لټون لپاره شنه (فلم) یا ژیړ (تلویزیون لړۍ) فشار ورکړئ ..."
 
+msgid "Press GREEN to play"
+msgstr "د لوبې کولو لپاره شنه فشار ورکړئ"
+
 msgid "Press OK"
 msgstr "OK فشار ورکړئ"
 

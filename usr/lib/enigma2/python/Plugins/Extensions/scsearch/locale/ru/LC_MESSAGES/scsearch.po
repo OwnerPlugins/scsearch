@@ -221,6 +221,9 @@ msgstr "Ошибка воспроизведения: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Нажмите ЗЕЛЕНУЮ (фильм) или ЖЕЛТУЮ (телесериал) для поиска..."
 
+msgid "Press GREEN to play"
+msgstr "Нажмите ЗЕЛЕНУЮ, чтобы начать играть."
+
 msgid "Press OK"
 msgstr "Нажмите ОК"
 

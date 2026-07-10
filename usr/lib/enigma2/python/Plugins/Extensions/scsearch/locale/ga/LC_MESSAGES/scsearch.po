@@ -221,6 +221,9 @@ msgstr "Earráid athsheinm: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Brúigh GREEN (Scannán) nó YELLOW (Sraith Teilifíse) chun cuardach a dhéanamh..."
 
+msgid "Press GREEN to play"
+msgstr "Brúigh GREEN chun imirt"
+
 msgid "Press OK"
 msgstr "Brúigh OK"
 

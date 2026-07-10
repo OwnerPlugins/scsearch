@@ -220,6 +220,9 @@ msgstr "Żball fil-qari: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Agħfas GREEN (Film) jew ISFAR (Serje tat-TV) biex tfittex..."
 
+msgid "Press GREEN to play"
+msgstr "Agħfas GREEN biex tilgħab"
+
 msgid "Press OK"
 msgstr "Agħfas OK"
 

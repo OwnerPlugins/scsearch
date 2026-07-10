@@ -220,6 +220,9 @@ msgstr "Greška pri reprodukciji: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pritisnite ZELENO (film) ili ŽUTO (TV serija) da pretražite..."
 
+msgid "Press GREEN to play"
+msgstr "Pritisnite ZELENO za reprodukciju"
+
 msgid "Press OK"
 msgstr "Pritisnite OK"
 

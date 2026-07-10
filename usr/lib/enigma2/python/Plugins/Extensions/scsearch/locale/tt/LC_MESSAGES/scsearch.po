@@ -220,6 +220,9 @@ msgstr "Уйнау хата:% s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Эзләү өчен яшел (кино) яки YELLOW (сериал) басыгыз ..."
 
+msgid "Press GREEN to play"
+msgstr "Уйнау өчен GREEN басыгыз"
+
 msgid "Press OK"
 msgstr "Ярар"
 

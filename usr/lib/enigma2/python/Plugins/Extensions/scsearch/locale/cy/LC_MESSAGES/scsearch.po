@@ -220,6 +220,9 @@ msgstr "Gwall chwarae: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pwyswch GREEN (Ffilm) neu MELYN (Cyfres Deledu) i chwilio..."
 
+msgid "Press GREEN to play"
+msgstr "Pwyswch GREEN i chwarae"
+
 msgid "Press OK"
 msgstr "Pwyswch OK"
 

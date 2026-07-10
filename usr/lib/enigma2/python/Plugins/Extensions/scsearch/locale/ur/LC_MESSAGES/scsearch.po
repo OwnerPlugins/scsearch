@@ -220,6 +220,9 @@ msgstr "پلے بیک کی خرابی: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "تلاش کرنے کے لیے گرین (مووی) یا ییلو (ٹی وی سیریز) دبائیں..."
 
+msgid "Press GREEN to play"
+msgstr "کھیلنے کے لیے گرین دبائیں۔"
+
 msgid "Press OK"
 msgstr "OK دبائیں"
 

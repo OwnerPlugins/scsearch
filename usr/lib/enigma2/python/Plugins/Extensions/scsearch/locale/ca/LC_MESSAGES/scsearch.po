@@ -220,6 +220,9 @@ msgstr "Error de reproducció: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Premeu VERD (pel·lícula) o GROC (sèrie de televisió) per cercar..."
 
+msgid "Press GREEN to play"
+msgstr "Premeu VERD per jugar"
+
 msgid "Press OK"
 msgstr "Premeu D'acord"
 

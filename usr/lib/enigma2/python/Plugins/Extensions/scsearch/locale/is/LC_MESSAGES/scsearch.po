@@ -220,6 +220,9 @@ msgstr "Spilunarvilla: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Ýttu á GRÆNT (kvikmynd) eða GUL (sjónvarpsþáttaröð) til að leita..."
 
+msgid "Press GREEN to play"
+msgstr "Ýttu á GRÆNA til að spila"
+
 msgid "Press OK"
 msgstr "Ýttu á OK"
 

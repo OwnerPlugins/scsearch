@@ -220,6 +220,9 @@ msgstr "Gabim riprodhimi: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Shtypni GJELBË (Film) ose VERDHË (Seri televizive) për të kërkuar..."
 
+msgid "Press GREEN to play"
+msgstr "Shtypni GREEN për të luajtur"
+
 msgid "Press OK"
 msgstr "Shtypni OK"
 

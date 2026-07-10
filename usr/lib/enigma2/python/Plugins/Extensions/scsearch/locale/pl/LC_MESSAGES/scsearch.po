@@ -221,6 +221,9 @@ msgstr "Błąd odtwarzania: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Naciśnij ZIELONY (film) lub ŻÓŁTY (seria TV), aby wyszukać..."
 
+msgid "Press GREEN to play"
+msgstr "Naciśnij ZIELONY, aby zagrać"
+
 msgid "Press OK"
 msgstr "Naciśnij OK"
 

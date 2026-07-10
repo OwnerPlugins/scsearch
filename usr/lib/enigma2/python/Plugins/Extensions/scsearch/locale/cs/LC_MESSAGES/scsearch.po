@@ -221,6 +221,9 @@ msgstr "Chyba přehrávání: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Stisknutím ZELENÉ (Film) nebo ŽLUTÉ (TV seriál) vyhledáte..."
 
+msgid "Press GREEN to play"
+msgstr "Stiskněte ZELENÉ tlačítko pro přehrávání"
+
 msgid "Press OK"
 msgstr "Stiskněte OK"
 

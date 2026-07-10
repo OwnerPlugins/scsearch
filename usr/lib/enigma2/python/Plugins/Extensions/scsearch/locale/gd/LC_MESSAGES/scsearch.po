@@ -220,6 +220,9 @@ msgstr "Mearachd ath-chluich: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Brùth GREEN (Film) no YELLOW (Sreath Tbh) gus lorg..."
 
+msgid "Press GREEN to play"
+msgstr "Brùth GREEN airson cluich"
+
 msgid "Press OK"
 msgstr "Brùth OK"
 

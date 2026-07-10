@@ -220,6 +220,9 @@ msgstr "قويۇش خاتالىقى:% s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ئىزدەش ئۈچۈن GREEN (كىنو) ياكى سېرىق (تېلېۋىزىيە يۈرۈشلۈكلىرى) نى بېسىڭ ..."
 
+msgid "Press GREEN to play"
+msgstr "ئويناش ئۈچۈن GREEN نى بېسىڭ"
+
 msgid "Press OK"
 msgstr "OK نى بېسىڭ"
 

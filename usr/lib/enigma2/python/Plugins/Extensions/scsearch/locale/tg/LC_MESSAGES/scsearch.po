@@ -220,6 +220,9 @@ msgstr "Хатогии навозиш: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Барои ҷустуҷӯ... Тугмаи САБЗ (Филм) ё ЗАРД (Силсилаи ТВ) -ро пахш кунед..."
 
+msgid "Press GREEN to play"
+msgstr "Барои бозӣ кардан САБЗ -ро пахш кунед"
+
 msgid "Press OK"
 msgstr "OK-ро пахш кунед"
 

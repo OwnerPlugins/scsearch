@@ -220,6 +220,9 @@ msgstr "დაკვრის შეცდომა: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "დააჭირეთ მწვანეს (ფილმი) ან ყვითელს (ტელესერიები) მოსაძებნად..."
 
+msgid "Press GREEN to play"
+msgstr "დააჭირეთ მწვანეს სათამაშოდ"
+
 msgid "Press OK"
 msgstr "დააჭირეთ OK"
 

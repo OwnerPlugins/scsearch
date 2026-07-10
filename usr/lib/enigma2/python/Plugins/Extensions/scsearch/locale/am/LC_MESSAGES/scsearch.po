@@ -220,6 +220,9 @@ msgstr "የመልሶ ማጫወት ስህተት፡ %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ለመፈለግ አረንጓዴ (ፊልም) ወይም ቢጫ (የቲቪ ተከታታይ) ይጫኑ..."
 
+msgid "Press GREEN to play"
+msgstr "ለማጫወት ግሪንን ይጫኑ"
+
 msgid "Press OK"
 msgstr "እሺን ይጫኑ"
 

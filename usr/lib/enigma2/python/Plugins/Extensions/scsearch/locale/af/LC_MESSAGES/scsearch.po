@@ -220,6 +220,9 @@ msgstr "Terugspeelfout: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Druk GROEN (fliek) of GEEL (TV-reeks) om te soek..."
 
+msgid "Press GREEN to play"
+msgstr "Druk GROEN om te speel"
+
 msgid "Press OK"
 msgstr "Druk OK"
 

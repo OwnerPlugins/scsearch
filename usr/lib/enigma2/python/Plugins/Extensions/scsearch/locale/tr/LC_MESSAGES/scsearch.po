@@ -221,6 +221,9 @@ msgstr "Oynatma hatası: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Aramak için YEŞİL (Film) veya SARI (TV Dizisi) tuşuna basın..."
 
+msgid "Press GREEN to play"
+msgstr "Oynamak için YEŞİL'e basın"
+
 msgid "Press OK"
 msgstr "Tamam'a basın"
 

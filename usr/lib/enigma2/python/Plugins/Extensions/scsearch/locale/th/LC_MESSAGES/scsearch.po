@@ -220,6 +220,9 @@ msgstr "ข้อผิดพลาดในการเล่น: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "กด สีเขียว (ภาพยนตร์) หรือ สีเหลือง (ละครโทรทัศน์) เพื่อค้นหา..."
 
+msgid "Press GREEN to play"
+msgstr "กดสีเขียวเพื่อเล่น"
+
 msgid "Press OK"
 msgstr "กดตกลง"
 

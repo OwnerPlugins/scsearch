@@ -220,6 +220,9 @@ msgstr "පසුධාවන දෝෂය: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "සෙවීමට GREEN (චිත්‍රපටය) හෝ YELLOW (රූපවාහිනී කතා මාලාව) ඔබන්න..."
 
+msgid "Press GREEN to play"
+msgstr "සෙල්ලම් කිරීමට GREEN ඔබන්න"
+
 msgid "Press OK"
 msgstr "හරි ඔබන්න"
 

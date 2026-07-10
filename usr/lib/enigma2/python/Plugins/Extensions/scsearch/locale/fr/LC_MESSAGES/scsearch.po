@@ -221,6 +221,9 @@ msgstr "Erreur de lecture : %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Appuyez sur VERT (Film) ou JAUNE (Série TV) pour rechercher..."
 
+msgid "Press GREEN to play"
+msgstr "Appuyez sur VERT pour jouer"
+
 msgid "Press OK"
 msgstr "Appuyez sur OK"
 

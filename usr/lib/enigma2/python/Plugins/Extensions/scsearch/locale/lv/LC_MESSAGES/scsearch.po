@@ -221,6 +221,9 @@ msgstr "Atskaņošanas kļūda: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Nospiediet ZAĻO (filma) vai DZELTENO (TV seriāls), lai meklētu..."
 
+msgid "Press GREEN to play"
+msgstr "Lai atskaņotu, nospiediet ZAĻO"
+
 msgid "Press OK"
 msgstr "Nospiediet OK"
 

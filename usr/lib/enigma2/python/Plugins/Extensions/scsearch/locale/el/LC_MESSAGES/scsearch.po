@@ -221,6 +221,9 @@ msgstr "Σφάλμα αναπαραγωγής: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Πατήστε ΠΡΑΣΙΝΟ (Ταινία) ή ΚΙΤΡΙΝΟ (τηλεοπτική σειρά) για αναζήτηση..."
 
+msgid "Press GREEN to play"
+msgstr "Πατήστε ΠΡΑΣΙΝΟ για να παίξετε"
+
 msgid "Press OK"
 msgstr "Πατήστε OK"
 

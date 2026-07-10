@@ -220,6 +220,9 @@ msgstr "Kesalahan pemutaran: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Tekan HIJAU (Film) atau KUNING (Serial TV) untuk mencari..."
 
+msgid "Press GREEN to play"
+msgstr "Tekan HIJAU untuk memutar"
+
 msgid "Press OK"
 msgstr "Tekan oke"
 

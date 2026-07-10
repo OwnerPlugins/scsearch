@@ -221,6 +221,9 @@ msgstr "Erro de reprodução: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pressione VERDE (Filme) ou AMARELO (Série de TV) para pesquisar..."
 
+msgid "Press GREEN to play"
+msgstr "Pressione VERDE para jogar"
+
 msgid "Press OK"
 msgstr "Pressione OK"
 

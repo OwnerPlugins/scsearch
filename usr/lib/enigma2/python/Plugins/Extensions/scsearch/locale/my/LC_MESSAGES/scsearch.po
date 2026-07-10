@@ -220,6 +220,9 @@ msgstr "ပြန်ဖွင့်မှု အမှား- %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ရှာရန် GREEN (ရုပ်ရှင်) သို့မဟုတ် YELLOW (TV Series) ကိုနှိပ်ပါ..."
 
+msgid "Press GREEN to play"
+msgstr "ကစားရန် GREEN ကိုနှိပ်ပါ။"
+
 msgid "Press OK"
 msgstr "OK ကိုနှိပ်ပါ။"
 

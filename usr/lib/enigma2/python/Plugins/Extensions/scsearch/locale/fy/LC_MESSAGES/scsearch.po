@@ -220,6 +220,9 @@ msgstr "Ofspielflater: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Druk op GREEN (film) of YEL (TV-searje) om te sykjen ..."
 
+msgid "Press GREEN to play"
+msgstr "Druk op GREEN om te spyljen"
+
 msgid "Press OK"
 msgstr "Druk op OK"
 

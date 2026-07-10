@@ -221,6 +221,9 @@ msgstr "Atkūrimo klaida: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Norėdami ieškoti, paspauskite ŽALIĄ (filmas) arba GELTONĄ (TV serialas)..."
 
+msgid "Press GREEN to play"
+msgstr "Norėdami žaisti, paspauskite ŽALIĄ"
+
 msgid "Press OK"
 msgstr "Paspauskite OK"
 

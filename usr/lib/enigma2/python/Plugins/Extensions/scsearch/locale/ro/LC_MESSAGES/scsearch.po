@@ -221,6 +221,9 @@ msgstr "Eroare de redare: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Apăsați VERDE (Film) sau GALBEN (Serial TV) pentru a căuta..."
 
+msgid "Press GREEN to play"
+msgstr "Apăsați VERDE pentru a juca"
+
 msgid "Press OK"
 msgstr "Apăsați OK"
 
