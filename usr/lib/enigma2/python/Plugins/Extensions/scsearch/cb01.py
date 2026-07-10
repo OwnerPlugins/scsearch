@@ -171,119 +171,75 @@ class CB01:
 
         return seasons
 
+    def _fetch_search_html(self, base, query):
+        """Pick search URL format based on domain, fallback to the other if empty."""
+        encoded = urllib.parse.quote_plus(query)
+        domain = base.lower()
+        if 'cineblog' in domain:
+            urls = [
+                "{}/?do=search&subaction=search&story={}".format(base, encoded),
+                "{}/?s={}".format(base, encoded)
+            ]
+        else:
+            urls = [
+                "{}/?s={}".format(base, encoded),
+                "{}/?do=search&subaction=search&story={}".format(base, encoded)
+            ]
+        for url in urls:
+            try:
+                log.info("CB01: Search URL: {}".format(url))
+                r = self.session.get(url, timeout=15, allow_redirects=True)
+                r.raise_for_status()
+                if r.text:
+                    return r.text
+            except Exception as e:
+                log.warning("CB01: Search failed for {}: {}".format(url, e))
+        return ''
+
+    def _parse_cb01_matches(self, html):
+        pattern = re.compile(
+            r'<div class="card mp-post horizontal">.*?'
+            r'<a href="([^"]+)">.*?'
+            r'<img src="([^"]+)" alt="([^"]+)".*?'
+            r'<h3 class="card-title"><a href="[^"]+">([^<]+)</a></h3>',
+            re.DOTALL | re.IGNORECASE
+        )
+        return pattern.findall(html)
+
+    def _build_results(self, matches):
+        results = []
+        for match in matches:
+            title = html_module.unescape(match[3].strip())
+            title = re.sub(r'\s*\[HD\]\s*', '', title)
+            title = re.sub(r'\s*\(\d{4}\)\s*$', '', title)
+            results.append({
+                'url': match[0],
+                'poster': match[1],
+                'title': title,
+                'description': '',
+                'source': 'cb01'
+            })
+        return results
+
+    def _search(self, base_primary, base_fallback, query, label):
+        for base in filter(None, [base_primary, base_fallback]):
+            html = self._fetch_search_html(base, query)
+            matches = self._parse_cb01_matches(html)
+            log.info("CB01: {} raw results from {}".format(len(matches), base))
+            if matches:
+                results = self._build_results(matches)
+                log.info("CB01: Found {} {}.".format(len(results), label))
+                return results
+        log.warning("CB01: No {} found.".format(label))
+        return []
+
     def search_movies(self, query):
-        """
-        Search for movies on CB01 and parse results.
-        Returns a list of result dictionaries.
-        """
-        try:
-            encoded_query = urllib.parse.quote_plus(query)
-            search_url = "{}/?s={}".format(self.base_film, encoded_query)
-            log.info("CB01: Movie search URL: {}".format(search_url))
-
-            response = self.session.get(
-                search_url, timeout=15, allow_redirects=True)
-            response.raise_for_status()
-
-            log.info(
-                "CB01: Movie search response received. Status: {}".format(
-                    response.status_code))
-            html = response.text
-            log.info(
-                "CB01: HTML length: {}, final URL: {}".format(
-                    len(html), response.url))
-
-            movie_pattern = re.compile(
-                r'<div class="card mp-post horizontal">.*?'
-                r'<a href="([^"]+)">.*?'
-                r'<img src="([^"]+)" alt="([^"]+)".*?'
-                r'<h3 class="card-title"><a href="[^"]+">([^<]+)</a></h3>',
-                re.DOTALL | re.IGNORECASE
-            )
-
-            matches = movie_pattern.findall(html)
-            log.info(
-                "CB01: Pattern found {} potential results".format(
-                    len(matches)))
-
-            if not matches:
-                log.warning("CB01: No results found with pattern")
-                return []
-
-            results = []
-            for match in matches:
-                title = match[3].strip()
-                title = re.sub(r'\s*\[HD\]\s*', '', title)
-                title = re.sub(r'\s*\(\d{4}\)\s*$', '', title)
-
-                result = {
-                    'url': match[0],
-                    'poster': match[1],
-                    'title': title,
-                    'description': '',
-                    'source': 'cb01'
-                }
-                results.append(result)
-                log.info("CB01: Parsed movie: {}".format(result['title']))
-
-            log.info("CB01: Found {} movies on page.".format(len(results)))
-            return results
-
-        except requests.exceptions.RequestException as e:
-            log.error("CB01: Error during movie search: {}".format(e))
-            return []
+        return self._search(self.base_film, self.base_fallback, query, 'movies')
 
     def search_series(self, query):
-        """
-        Search for TV series on CB01 and parse results.
-        Returns a list of result dictionaries.
-        """
-        try:
-            encoded_query = urllib.parse.quote_plus(query)
-            search_url = "{}/?s={}".format(self.base_serie, encoded_query)
-            log.info("CB01: TV series search URL: {}".format(search_url))
-
-            response = self.session.get(
-                search_url, timeout=15, allow_redirects=True)
-            response.raise_for_status()
-
-            log.info(
-                "CB01: TV series search response received. Status: {}".format(
-                    response.status_code))
-            html = response.text
-
-            series_pattern = re.compile(
-                r'<div class="card mp-post horizontal">.*?'
-                r'<a href="([^"]+)">.*?'
-                r'<img src="([^"]+)" alt="([^"]+)".*?'
-                r'<h3 class="card-title"><a href="[^"]+">([^<]+)</a></h3>',
-                re.DOTALL | re.IGNORECASE
-            )
-
-            matches = series_pattern.findall(html)
-            log.info("CB01: Found {} TV series on page.".format(len(matches)))
-
-            results = []
-            for match in matches:
-                title = match[3].strip()
-                title = re.sub(r'\s*\[HD\]\s*', '', title)
-                title = re.sub(r'\s*\(\d{4}\)\s*$', '', title)
-
-                result = {
-                    'url': match[0],
-                    'poster': match[1],
-                    'title': title,
-                    'description': '',
-                    'source': 'cb01'
-                }
-                results.append(result)
-                log.info("CB01: Parsed TV series: {}".format(result['title']))
-
-            return results
-
-        except requests.exceptions.RequestException as e:
-            log.error("CB01: Error during TV series search: {}".format(e))
-            return []
+        return self._search(self.base_serie,
+                            self.base_fallback + '/serietv' if self.base_fallback else '',
+                            query, 'TV series')
 
     def resolve_stayonline_url(self, stayonline_url):
         """
@@ -497,15 +453,12 @@ class CB01:
 
             details['title'] = title
 
-            # Extract year from title
-            year_match = re.search(
-                r'\[(HD|SD)\]\s*\((\d{4})\)',
-                details['title'])
+            # Extract year from title — handles both "Title (2026)" and "Title [HD] (2026)"
+            year_match = re.search(r'\((\d{4})\)', details['title'])
             if year_match:
-                details['year'] = year_match.group(2)
-                log.info(
-                    "CB01_DETAILS: Year found: {}".format(
-                        details['year']))
+                details['year'] = year_match.group(1)
+                details['title'] = details['title'][:year_match.start()].strip()
+                log.info("CB01_DETAILS: Year found: {}".format(details['year']))
 
             # Extract poster from og:image
             poster_match = re.search(
@@ -524,13 +477,7 @@ class CB01:
                 html,
                 re.IGNORECASE)
             if desc_match:
-                desc_text = desc_match.group(1).strip()
-                # Decode HTML entities
-                desc_text = desc_text.replace('&#8217;', "'")
-                desc_text = desc_text.replace('&#8230;', '...')
-                desc_text = desc_text.replace('&amp;', '&')
-                desc_text = desc_text.replace('&#8242;', "'")
-                desc_text = desc_text.replace('&quot;', '"')
+                desc_text = html_module.unescape(desc_match.group(1).strip())
 
                 # Extract genre from description (first uppercase word(s))
                 genre_match = re.match(
