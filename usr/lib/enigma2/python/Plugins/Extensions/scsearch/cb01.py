@@ -234,12 +234,19 @@ class CB01:
         return []
 
     def search_movies(self, query):
-        return self._search(self.base_film, self.base_fallback, query, 'movies')
+        return self._search(
+            self.base_film,
+            self.base_fallback,
+            query,
+            'movies')
 
     def search_series(self, query):
-        return self._search(self.base_serie,
-                            self.base_fallback + '/serietv' if self.base_fallback else '',
-                            query, 'TV series')
+        return self._search(
+            self.base_serie,
+            self.base_fallback +
+            '/serietv' if self.base_fallback else '',
+            query,
+            'TV series')
 
     def resolve_stayonline_url(self, stayonline_url):
         """
@@ -453,12 +460,16 @@ class CB01:
 
             details['title'] = title
 
-            # Extract year from title — handles both "Title (2026)" and "Title [HD] (2026)"
+            # Extract year from title — handles both "Title (2026)" and "Title
+            # [HD] (2026)"
             year_match = re.search(r'\((\d{4})\)', details['title'])
             if year_match:
                 details['year'] = year_match.group(1)
-                details['title'] = details['title'][:year_match.start()].strip()
-                log.info("CB01_DETAILS: Year found: {}".format(details['year']))
+                details['title'] = details['title'][:year_match.start()
+                                                    ].strip()
+                log.info(
+                    "CB01_DETAILS: Year found: {}".format(
+                        details['year']))
 
             # Extract poster from og:image
             poster_match = re.search(

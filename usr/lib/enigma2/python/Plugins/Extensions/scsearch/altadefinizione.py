@@ -101,7 +101,8 @@ class Altadefinizione:
 
     def _parse_matches(self, html):
         """Extract (url, img, alt, title) tuples from search result HTML."""
-        # Primary: data-link + img src + h2 > a title (altadefinizione.hot structure)
+        # Primary: data-link + img src + h2 > a title (altadefinizione.hot
+        # structure)
         pattern = re.compile(
             r'<div class="movie"[^>]*data-link="([^"]+)"[^>]*>.*?'
             r'<img[^>]+src="([^"]+)"[^>]*>.*?'
@@ -142,10 +143,13 @@ class Altadefinizione:
         for base in filter(None, [self.base_film, self.base_fallback]):
             html = self._fetch_search_html(base, query)
             matches = self._parse_matches(html)
-            log.info(f"Altadefinizione: {len(matches)} raw results from {base}")
+            log.info(
+                f"Altadefinizione: {
+                    len(matches)} raw results from {base}")
 
             for match in matches:
-                url, img_src, alt, title = match if len(match) == 4 else (match[0], match[1], '', match[2])
+                url, img_src, alt, title = match if len(
+                    match) == 4 else (match[0], match[1], '', match[2])
                 title = self.clean_html(title)
                 if not title:
                     continue
@@ -207,7 +211,8 @@ class Altadefinizione:
             response.raise_for_status()
             html = response.text
 
-            # 1. dle-player script: 'https://v.vidxgo.co/' + 'ttXXXX'.replace('tt','')
+            # 1. dle-player script: 'https://v.vidxgo.co/' +
+            # 'ttXXXX'.replace('tt','')
             m = re.search(
                 r"getElementById\(['\"]dle-player['\"]\)\.src\s*=\s*"
                 r"'([^']+)'\s*\+\s*'(tt\d+)'\.replace\('tt',\s*''\)",
@@ -217,12 +222,18 @@ class Altadefinizione:
                 return m.group(1) + m.group(2).replace('tt', '')
 
             # 3. iframe with vixsrc or vidxgo in src
-            m = re.search(r'<iframe[^>]+src="(https?://[^"]*(?:vixsrc|vidxgo)[^"]+)"', html, re.IGNORECASE)
+            m = re.search(
+                r'<iframe[^>]+src="(https?://[^"]*(?:vixsrc|vidxgo)[^"]+)"',
+                html,
+                re.IGNORECASE)
             if m:
                 return m.group(1)
 
             # 4. any iframe src
-            m = re.search(r'<iframe[^>]+src="(https?://[^"]+)"', html, re.IGNORECASE)
+            m = re.search(
+                r'<iframe[^>]+src="(https?://[^"]+)"',
+                html,
+                re.IGNORECASE)
             if m:
                 return m.group(1)
 
@@ -325,7 +336,8 @@ class Altadefinizione:
         Extract details from the page (movie or TV series).
         """
         if not self.base_film:
-            log.error("Altadefinizione: Cannot get page details, base URL not configured")
+            log.error(
+                "Altadefinizione: Cannot get page details, base URL not configured")
             return None
 
         try:
@@ -342,11 +354,13 @@ class Altadefinizione:
                 'type': 'TvSeries' if self._is_tv_series(page_url) else 'Movie',
                 'genre': '',
                 'seasons': [],
-                'streaming_links': []
-            }
+                'streaming_links': []}
 
             # Title: og:title or h1
-            m = re.search(r'<meta property="og:title" content="([^"]+)"', html, re.IGNORECASE)
+            m = re.search(
+                r'<meta property="og:title" content="([^"]+)"',
+                html,
+                re.IGNORECASE)
             if not m:
                 m = re.search(r'<h1[^>]*>([^<]+)</h1>', html, re.IGNORECASE)
             if m:
@@ -364,7 +378,8 @@ class Altadefinizione:
                 r'Genere:\s*</div>\s*<div[^>]*>(.*?)</div>',
                 html, re.IGNORECASE | re.DOTALL)
             if m:
-                details['genre'] = ', '.join(re.findall(r'>([^<]+)</a>', m.group(1)))
+                details['genre'] = ', '.join(
+                    re.findall(r'>([^<]+)</a>', m.group(1)))
 
             # Description: movie_entry-plot block
             m = re.search(
@@ -374,7 +389,10 @@ class Altadefinizione:
                 details['description'] = self.clean_html(m.group(1))
 
             # Poster: og:image
-            m = re.search(r'<meta property="og:image" content="([^"]+)"', html, re.IGNORECASE)
+            m = re.search(
+                r'<meta property="og:image" content="([^"]+)"',
+                html,
+                re.IGNORECASE)
             if m:
                 details['poster'] = m.group(1)
 
