@@ -297,7 +297,11 @@ class Altadefinizione:
     # Streaming links extraction (for movies)
     # ---------------------------------------------------------------------
     # known embed domains that can be sent directly to the player
-    _DIRECT_DOMAINS = ('vidxgo.co', 'vixsrc.to', 'vidhide.com', 'streamtape.com')
+    _DIRECT_DOMAINS = (
+        'vidxgo.co',
+        'vixsrc.to',
+        'vidhide.com',
+        'streamtape.com')
 
     def get_streaming_links(self, movie_url):
         """
@@ -320,9 +324,13 @@ class Altadefinizione:
 
             # If the embed is a known player domain, use it directly
             if any(d in embed_url for d in self._DIRECT_DOMAINS):
-                log.info(f"Altadefinizione: Using embed URL directly: {embed_url}")
-                service = next((d.split('.')[0] for d in self._DIRECT_DOMAINS if d in embed_url), 'embed')
-                return [{'url': embed_url, 'quality': 'HD', 'service': service, 'type': service}]
+                log.info(
+                    f"Altadefinizione: Using embed URL directly: {embed_url}")
+                service = next(
+                    (d.split('.')[0] for d in self._DIRECT_DOMAINS if d in embed_url),
+                    'embed')
+                return [{'url': embed_url, 'quality': 'HD',
+                         'service': service, 'type': service}]
 
             stream_url = self._extract_vixsrc_stream(embed_url, movie_url)
             if not stream_url:
@@ -330,7 +338,8 @@ class Altadefinizione:
                 return []
 
             quality = 'HD' if '1080' in stream_url else 'SD'
-            return [{'url': stream_url, 'quality': quality, 'service': 'vixsrc', 'type': 'vixsrc'}]
+            return [{'url': stream_url, 'quality': quality,
+                     'service': 'vixsrc', 'type': 'vixsrc'}]
 
         except Exception as e:
             log.error(
@@ -436,7 +445,11 @@ class Altadefinizione:
 
             embed_url = f"https://vixsrc.to/tv/{tmdb_id}/{season}/{episode}?lang=it"
             log.info(f"Altadefinizione: Episode embed URL: {embed_url}")
-            return {'url': embed_url, 'quality': 'HD', 'service': 'vixsrc', 'type': 'vixsrc'}
+            return {
+                'url': embed_url,
+                'quality': 'HD',
+                'service': 'vixsrc',
+                'type': 'vixsrc'}
 
         except Exception as e:
             log.error(f"Altadefinizione: Error extracting episode: {e}")

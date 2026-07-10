@@ -171,7 +171,6 @@ class SCDetailsScreen(Screen):
                     log.info(
                         "DETAILS: Altadefinizione streaming_links: {}".format(
                             self.details.get('streaming_links')))
-        
 
             # --- Default: get_title_details ---
             else:
@@ -376,13 +375,15 @@ class SCDetailsScreen(Screen):
         if self.details.get('source') == 'altadefinizione':
             year = self.details.get('year', _('N/A'))
             genre = self.details.get('genre', _('N/A'))
-            description = self.details.get('description', _('Description not available.'))
+            description = self.details.get(
+                'description', _('Description not available.'))
             streaming_links = self.details.get('streaming_links', [])
 
             info_text = _("Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play") % (
                 year, genre, len(streaming_links))
             self["info_panel"].setText(info_text)
-            self["description_panel"].setText(_("Description:\n\n%s") % description)
+            self["description_panel"].setText(
+                _("Description:\n\n%s") % description)
 
             if streaming_links:
                 self["season_label"].setText(_("Available links:"))
@@ -539,7 +540,9 @@ class SCDetailsScreen(Screen):
         self._stop_all_timers()
         if self.picload is not None:
             try:
-                self.picload.PictureData.get().remove(self._on_picload_finished) if hasattr(self, '_on_picload_finished') else None
+                self.picload.PictureData.get().remove(
+                    self._on_picload_finished) if hasattr(
+                    self, '_on_picload_finished') else None
             except Exception:
                 pass
             self.picload = None
@@ -573,7 +576,10 @@ class SCDetailsScreen(Screen):
         else:
             tmdb_id = self.details.get("tmdb_id")
             if not tmdb_id:
-                self.session.open(MessageBox, _("TMDB ID not found"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("TMDB ID not found"),
+                    MessageBox.TYPE_ERROR)
                 return
 
             if self.details.get("type") == "Movie":
@@ -588,7 +594,8 @@ class SCDetailsScreen(Screen):
             log.info("PLAY: URL: {}".format(stream_url))
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
-            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
+            self.session.openWithCallback(
+                self.on_playback_stopped, MoviePlayer, service_ref)
 
     def _setup_onlineserietv_series(self):
         """Setup for OnlineSerieTV TV series."""
@@ -714,10 +721,15 @@ class SCDetailsScreen(Screen):
         try:
             self._stop_all_timers()
             streaming_links = self.details.get('streaming_links', [])
-            log.info("ALTADEFINIZIONE PLAY: {} links".format(len(streaming_links)))
+            log.info(
+                "ALTADEFINIZIONE PLAY: {} links".format(
+                    len(streaming_links)))
 
             if not streaming_links:
-                self.session.open(MessageBox, _("No streaming links found."), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("No streaming links found."),
+                    MessageBox.TYPE_ERROR)
                 return
 
             link_index = getattr(self, 'selected_cb01_link_index', 0)
@@ -728,7 +740,8 @@ class SCDetailsScreen(Screen):
             log.info("ALTADEFINIZIONE PLAY: URL: {}".format(stream_url))
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName("{} [Altadefinizione]".format(self.title))
-            self.session.openWithCallback(self.on_playback_stopped, MoviePlayer, service_ref)
+            self.session.openWithCallback(
+                self.on_playback_stopped, MoviePlayer, service_ref)
 
         except Exception as e:
             log.error("ALTADEFINIZIONE PLAY ERROR: {}".format(e))
@@ -1151,7 +1164,9 @@ class SCDetailsScreen(Screen):
 
     def _fetch_tmdb_info(self, tmdb_id, is_movie=False):
         try:
-            log.info("TMDB_INFO: Fetching tmdb_id={} is_movie={}".format(tmdb_id, is_movie))
+            log.info(
+                "TMDB_INFO: Fetching tmdb_id={} is_movie={}".format(
+                    tmdb_id, is_movie))
             from .TmdbFetcher import TmdbFetcher
             from .scsearch import load_api_key
 
@@ -1163,7 +1178,10 @@ class SCDetailsScreen(Screen):
             tmdb = TmdbFetcher(api_key)
             media_type = "movie" if is_movie else "tv"
             self._tmdb_info_result = tmdb.get_details(tmdb_id, media_type)
-            log.info("TMDB_INFO: Result: {}".format(bool(self._tmdb_info_result)))
+            log.info(
+                "TMDB_INFO: Result: {}".format(
+                    bool(
+                        self._tmdb_info_result)))
         except Exception as e:
             log.error("TMDB_INFO: Error: {}".format(e))
             self._tmdb_info_result = None
