@@ -144,8 +144,10 @@ class Altadefinizione:
             html = self._fetch_search_html(base, query)
             matches = self._parse_matches(html)
             log.info(
-                f"Altadefinizione: {
-                    len(matches)} raw results from {base}")
+                "Altadefinizione: %d raw results from %s",
+                len(matches),
+                base,
+            )
 
             for match in matches:
                 url, img_src, alt, title = match if len(
