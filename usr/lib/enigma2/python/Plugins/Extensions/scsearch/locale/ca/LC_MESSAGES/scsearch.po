@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d títols"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- PEL·lícules ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Nova cerca ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SÈRIE DE TV ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Alta definició] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nLa informació de la temporada no està disponible"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nTemporades: %d\nCapítols totals: %d"
-
-msgid "%d titles"
-msgstr "%d títols"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 títols"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodis <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Temporades <<<"
-
-msgid "0 titles"
-msgstr "0 títols"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nAny: %s\nGènere: %s\n\nEnllaços disponibles: %d\n\nPremeu VERD per jugar"
 
 msgid "Available links:"
 msgstr "Enllaços disponibles:"
@@ -61,26 +46,26 @@ msgstr "Navega per grups i targetes amb desplaçament horitzontal"
 msgid "CANCEL"
 msgstr "CANCEL·LA"
 
+msgid "CB01 playback error: %s"
+msgstr "Error de reproducció CB01: %s"
+
+msgid "CONFIRM"
+msgstr "CONFIRMAR"
+
+msgid "CONTENTS"
+msgstr "CONTINGUTS"
+
 msgid "Card error"
 msgstr "Error de targeta"
 
 msgid "Cards updated"
 msgstr "Targetes actualitzades"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nAny: %s\nGènere: %s\n\nEnllaços disponibles: %d\n\nPremeu VERD per jugar"
-
-msgid "CB01 playback error: %s"
-msgstr "Error de reproducció CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Sèrie de televisió CB01\n\nTemporades: %d\nCapítols totals: %d\n\nPremeu VERD per jugar"
-
 msgid "Code:"
 msgstr "Codi:"
 
-msgid "CONFIRM"
-msgstr "CONFIRMAR"
+msgid "Code: {self.captcha_code}"
+msgstr "Codi: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Contingut d'Altadefinizione: premeu D'acord per obrir..."
@@ -88,26 +73,26 @@ msgstr "Contingut d'Altadefinizione: premeu D'acord per obrir..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Contingut de CB01: premeu D'acord per obrir..."
 
-msgid "CONTENTS"
-msgstr "CONTINGUTS"
-
 msgid "Description not available."
 msgstr "Descripció no disponible."
 
-msgid "Description:\n\n%s"
-msgstr "Descripció:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Detalls per a: '%s'"
 
 msgid "Details not available"
 msgstr "Detalls no disponibles"
+
+msgid "ENTER"
+msgstr "ENTRAR"
+
+msgid "EXIT"
+msgstr "SORTIR"
 
 msgid "Enable debug"
 msgstr "Activa la depuració"
 
 msgid "Enable debug output in logs"
 msgstr "Habilita la sortida de depuració als registres"
-
-msgid "ENTER"
-msgstr "ENTRAR"
 
 msgid "Enter Captcha Code"
 msgstr "Introduïu el codi Captcha"
@@ -127,23 +112,20 @@ msgstr "Episodis"
 msgid "Episodes:"
 msgstr "Episodis:"
 
-msgid "error"
-msgstr "error"
-
-msgid "Error loading captcha"
-msgstr "S'ha produït un error en carregar els detalls"
-
 msgid "Error loading CB01 series"
 msgstr "S'ha produït un error en carregar la sèrie CB01"
-
-msgid "Error loading details"
-msgstr "S'ha produït un error en carregar els detalls"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "S'ha produït un error en carregar la sèrie OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "S'ha produït un error en carregar TMDB"
+
+msgid "Error loading captcha"
+msgstr "S'ha produït un error en carregar els detalls"
+
+msgid "Error loading details"
+msgstr "S'ha produït un error en carregar els detalls"
 
 msgid "Error playing episode: %s"
 msgstr "S'ha produït un error en reproduir l'episodi: %s"
@@ -153,9 +135,6 @@ msgstr "S'ha produït un error en actualitzar la interfície d'usuari"
 
 msgid "Exit"
 msgstr "Sortida"
-
-msgid "EXIT"
-msgstr "SORTIR"
 
 msgid "GROUPS"
 msgstr "GRUPS"
@@ -171,9 +150,6 @@ msgstr "navega esquerra/dreta | D'acord obre | Tornar a grups"
 
 msgid "Load error"
 msgstr "Error de càrrega"
-
-msgid "loading"
-msgstr "carregant"
 
 msgid "Loading details from TMDB..."
 msgstr "S'estan carregant els detalls de TMDB..."
@@ -192,9 +168,6 @@ msgstr "Nombre màxim de resultats per mostrar"
 
 msgid "Movie History"
 msgstr "Història del cinema"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Pel·lícula\n\nAny: %s\n\nValoració: %s/10\n\nGèneres:\n%s\n\nPremeu VERD per jugar"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "No s'han trobat enllaços de transmissió"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Sèrie de televisió"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nValoració: %s\n\nCreador: %s"
-
 msgid "PLAY"
 msgstr "JUGAR"
 
@@ -243,9 +213,6 @@ msgstr "Error de reproducció: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Premeu VERD (pel·lícula) o GROC (sèrie de televisió) per cercar..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Premeu VERD per introduir el codi\nPremeu VERMELL per cancel·lar"
 
 msgid "Press GREEN to play"
 msgstr "Premeu VERD per jugar"
@@ -256,11 +223,11 @@ msgstr "Premeu D'acord"
 msgid "Press OK to view full details..."
 msgstr "Premeu D'acord per veure tots els detalls..."
 
-msgid "Refresh"
-msgstr "Actualitzar"
-
 msgid "REFRESH"
 msgstr "ACTUALITZAR"
+
+msgid "Refresh"
+msgstr "Actualitzar"
 
 msgid "Retry"
 msgstr "Torna-ho a provar"
@@ -277,11 +244,14 @@ msgstr "Historial de cerques"
 msgid "Search Movie"
 msgstr "Cerca pel·lícula"
 
+msgid "Search TV Series"
+msgstr "Cerca sèries de televisió"
+
 msgid "Search timeout"
 msgstr "Temps d'espera de cerca"
 
-msgid "Search TV Series"
-msgstr "Cerca sèries de televisió"
+msgid "Searching for: '%s'"
+msgstr "Cercant: '%s'"
 
 msgid "Searching..."
 msgstr "S'està buscant..."
@@ -304,12 +274,6 @@ msgstr "No s'ha trobat l'URL de la sèrie"
 msgid "Series URL not found."
 msgstr "No s'ha trobat l'URL de la sèrie."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Temps d'espera per a les sol·licituds de cerca (segons)"
-
-msgid "Title"
-msgstr "Títol"
-
 msgid "TMDB API key not found"
 msgstr "No s'ha trobat la clau de l'API TMDB"
 
@@ -322,20 +286,17 @@ msgstr "No s'ha trobat l'identificador de TMDB"
 msgid "TV Series History"
 msgstr "Història de la sèrie de televisió"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Sèrie de TV\n\nTemporades: %d\nCapítols totals: %d\n\nAny: %s\n\nPlasificació: %s/10\n\nGèneres: \n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Temps d'espera per a les sol·licituds de cerca (segons)"
 
-msgid "TV Series\n%s"
-msgstr "Sèrie de televisió\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Sèries de televisió\nTemporades: %d\nCapítols totals: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Sèries de TV\nTemporades: %d\nCapítols totals: %d\nPremeu VERD per jugar"
+msgid "Title"
+msgstr "Títol"
 
 msgid "Type: %s"
 msgstr "Tipus: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grups UP/DOWN | Targetes ESQUERRA/DRETA | D'acord obert"
 
 msgid "Unable to get stream for this episode"
 msgstr "No es pot obtenir la reproducció d'aquest episodi"
@@ -355,9 +316,6 @@ msgstr "No es pot recuperar informació de TMDB."
 msgid "Unknown"
 msgstr "Desconegut"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grups UP/DOWN | Targetes ESQUERRA/DRETA | D'acord obert"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Actualitzat, %d grups no disponibles"
 
@@ -367,6 +325,200 @@ msgstr "Actualització"
 msgid "Updating cards %d/%d"
 msgstr "S'estan actualitzant les targetes %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Utilitzeu les tecles numèriques del comandament\nper introduir el codi captcha\nVERD = Confirmar, VERMELL = Cancel·lar"
+msgid "[Altadefinizione] %s"
+msgstr "[Alta definició] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "error"
+
+msgid "loading"
+msgstr "carregant"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "La informació de la temporada no està disponible"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Temporades: %d\n"
+#~ "Capítols totals: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Any: %s\n"
+#~ "Gènere: %s\n"
+#~ "\n"
+#~ "Enllaços disponibles: %d\n"
+#~ "\n"
+#~ "Premeu VERD per jugar"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Any: %s\n"
+#~ "Gènere: %s\n"
+#~ "\n"
+#~ "Enllaços disponibles: %d\n"
+#~ "\n"
+#~ "Premeu VERD per jugar"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Sèrie de televisió CB01\n"
+#~ "\n"
+#~ "Temporades: %d\n"
+#~ "Capítols totals: %d\n"
+#~ "\n"
+#~ "Premeu VERD per jugar"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Descripció:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Pel·lícula\n"
+#~ "\n"
+#~ "Any: %s\n"
+#~ "\n"
+#~ "Valoració: %s/10\n"
+#~ "\n"
+#~ "Gèneres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Premeu VERD per jugar"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Valoració: %s\n"
+#~ "\n"
+#~ "Creador: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Premeu VERD per introduir el codi\n"
+#~ "Premeu VERMELL per cancel·lar"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sèrie de TV\n"
+#~ "\n"
+#~ "Temporades: %d\n"
+#~ "Capítols totals: %d\n"
+#~ "\n"
+#~ "Any: %s\n"
+#~ "\n"
+#~ "Plasificació: %s/10\n"
+#~ "\n"
+#~ "Gèneres: \n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sèrie de televisió\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Sèries de televisió\n"
+#~ "Temporades: %d\n"
+#~ "Capítols totals: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Sèries de TV\n"
+#~ "Temporades: %d\n"
+#~ "Capítols totals: %d\n"
+#~ "Premeu VERD per jugar"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Utilitzeu les tecles numèriques del comandament\n"
+#~ "per introduir el codi captcha\n"
+#~ "VERD = Confirmar, VERMELL = Cancel·lar"

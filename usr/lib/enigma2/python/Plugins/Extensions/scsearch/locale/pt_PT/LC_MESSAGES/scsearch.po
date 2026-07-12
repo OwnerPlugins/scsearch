@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d títulos"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMES ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Nova pesquisa ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SÉRIE DE TV ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Alta definição] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nInformações da temporada não disponíveis"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nTemporadas: %d\nTotal de episódios: %d"
-
-msgid "%d titles"
-msgstr "%d títulos"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 títulos"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episódios <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Temporadas <<<"
-
-msgid "0 titles"
-msgstr "0 títulos"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Filme Altadefinizione\n\nAno: %s\nGênero: %s\n\nLinks disponíveis: %d\n\nPressione VERDE para reproduzir"
 
 msgid "Available links:"
 msgstr "Links disponíveis:"
@@ -61,26 +46,26 @@ msgstr "Navegue por grupos e cartões com rolagem horizontal"
 msgid "CANCEL"
 msgstr "CANCELAR"
 
+msgid "CB01 playback error: %s"
+msgstr "Erro de reprodução CB01: %s"
+
+msgid "CONFIRM"
+msgstr "CONFIRMAR"
+
+msgid "CONTENTS"
+msgstr "CONTEÚDO"
+
 msgid "Card error"
 msgstr "Erro no cartão"
 
 msgid "Cards updated"
 msgstr "Cartões atualizados"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Filme\n\nAno: %s\nGênero: %s\n\nLinks disponíveis: %d\n\nPressione VERDE para reproduzir"
-
-msgid "CB01 playback error: %s"
-msgstr "Erro de reprodução CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Série de TV CB01\n\nTemporadas: %d\nTotal de episódios: %d\n\nPressione VERDE para reproduzir"
-
 msgid "Code:"
 msgstr "Código:"
 
-msgid "CONFIRM"
-msgstr "CONFIRMAR"
+msgid "Code: {self.captcha_code}"
+msgstr "Código: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Conteúdo da Altadefinizione - Pressione OK para abrir..."
@@ -88,26 +73,26 @@ msgstr "Conteúdo da Altadefinizione - Pressione OK para abrir..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Conteúdo do CB01 - Pressione OK para abrir..."
 
-msgid "CONTENTS"
-msgstr "CONTEÚDO"
-
 msgid "Description not available."
 msgstr "Descrição não disponível."
 
-msgid "Description:\n\n%s"
-msgstr "Descrição:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Detalhes para: '%s'"
 
 msgid "Details not available"
 msgstr "Detalhes não disponíveis"
+
+msgid "ENTER"
+msgstr "DIGITAR"
+
+msgid "EXIT"
+msgstr "SAÍDA"
 
 msgid "Enable debug"
 msgstr "Habilitar depuração"
 
 msgid "Enable debug output in logs"
 msgstr "Habilitar saída de depuração nos logs"
-
-msgid "ENTER"
-msgstr "DIGITAR"
 
 msgid "Enter Captcha Code"
 msgstr "Digite o código Captcha"
@@ -127,23 +112,20 @@ msgstr "Episódios"
 msgid "Episodes:"
 msgstr "Episódios:"
 
-msgid "error"
-msgstr "erro"
-
-msgid "Error loading captcha"
-msgstr "Erro ao carregar detalhes"
-
 msgid "Error loading CB01 series"
 msgstr "Erro ao carregar a série CB01"
-
-msgid "Error loading details"
-msgstr "Erro ao carregar detalhes"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Erro ao carregar a série OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Erro ao carregar o TMDB"
+
+msgid "Error loading captcha"
+msgstr "Erro ao carregar detalhes"
+
+msgid "Error loading details"
+msgstr "Erro ao carregar detalhes"
 
 msgid "Error playing episode: %s"
 msgstr "Erro ao reproduzir o episódio: %s"
@@ -153,9 +135,6 @@ msgstr "Erro ao atualizar a IU"
 
 msgid "Exit"
 msgstr "Saída"
-
-msgid "EXIT"
-msgstr "SAÍDA"
 
 msgid "GROUPS"
 msgstr "GRUPOS"
@@ -171,9 +150,6 @@ msgstr "navegar ESQUERDA/DIREITA | OK, aberto | UP de volta aos grupos"
 
 msgid "Load error"
 msgstr "Erro de carregamento"
-
-msgid "loading"
-msgstr "carregando"
 
 msgid "Loading details from TMDB..."
 msgstr "Carregando detalhes do TMDB..."
@@ -192,9 +168,6 @@ msgstr "Número máximo de resultados a serem exibidos"
 
 msgid "Movie History"
 msgstr "História do filme"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Filme\n\nAno: %s\n\nClassificação: %s/10\n\nGêneros:\n%s\n\nPressione VERDE para reproduzir"
 
 msgid "N/A"
 msgstr "N / D"
@@ -232,9 +205,6 @@ msgstr "Nenhum link de streaming encontrado"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Série de TV"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nClassificação: %s\n\nCriador: %s"
-
 msgid "PLAY"
 msgstr "JOGAR"
 
@@ -243,9 +213,6 @@ msgstr "Erro de reprodução: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pressione VERDE (Filme) ou AMARELO (Série de TV) para pesquisar..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Pressione VERDE para inserir o código\nPressione VERMELHO para cancelar"
 
 msgid "Press GREEN to play"
 msgstr "Pressione VERDE para jogar"
@@ -256,11 +223,11 @@ msgstr "Pressione OK"
 msgid "Press OK to view full details..."
 msgstr "Pressione OK para ver todos os detalhes..."
 
-msgid "Refresh"
-msgstr "Atualizar"
-
 msgid "REFRESH"
 msgstr "ATUALIZAR"
+
+msgid "Refresh"
+msgstr "Atualizar"
 
 msgid "Retry"
 msgstr "Tentar novamente"
@@ -277,11 +244,14 @@ msgstr "Histórico de pesquisa"
 msgid "Search Movie"
 msgstr "Pesquisar filme"
 
+msgid "Search TV Series"
+msgstr "Pesquisar séries de TV"
+
 msgid "Search timeout"
 msgstr "Tempo limite de pesquisa"
 
-msgid "Search TV Series"
-msgstr "Pesquisar séries de TV"
+msgid "Searching for: '%s'"
+msgstr "Procurando por: '%s'"
 
 msgid "Searching..."
 msgstr "Procurando..."
@@ -304,12 +274,6 @@ msgstr "URL da série não encontrado"
 msgid "Series URL not found."
 msgstr "URL da série não encontrado."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Tempo limite para solicitações de pesquisa (segundos)"
-
-msgid "Title"
-msgstr "Título"
-
 msgid "TMDB API key not found"
 msgstr "Chave de API TMDB não encontrada"
 
@@ -322,20 +286,17 @@ msgstr "ID do TMDB não encontrado"
 msgid "TV Series History"
 msgstr "História da série de TV"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Série de TV\n\nTemporadas: %d\nTotal de episódios: %d\n\nAno: %s\n\nClassificação: %s/10\n\nGêneros:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Tempo limite para solicitações de pesquisa (segundos)"
 
-msgid "TV Series\n%s"
-msgstr "Série de TV\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Série de TV\nTemporadas: %d\nTotal de episódios: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Série de TV\nTemporadas: %d\nTotal de episódios: %d\nPressione VERDE para reproduzir"
+msgid "Title"
+msgstr "Título"
 
 msgid "Type: %s"
 msgstr "Tipo: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grupos PARA CIMA/PARA BAIXO | Cartões ESQUERDA/DIREITA | OK, aberto"
 
 msgid "Unable to get stream for this episode"
 msgstr "Não foi possível obter a transmissão deste episódio"
@@ -355,9 +316,6 @@ msgstr "Não foi possível recuperar informações do TMDB."
 msgid "Unknown"
 msgstr "Desconhecido"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupos PARA CIMA/PARA BAIXO | Cartões ESQUERDA/DIREITA | OK, aberto"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Atualizado, %d grupos indisponíveis"
 
@@ -367,6 +325,200 @@ msgstr "Atualizando"
 msgid "Updating cards %d/%d"
 msgstr "Atualizando cartões %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Use as teclas numéricas do controle remoto\npara inserir o código captcha\nGREEN = Confirmar, RED = Cancelar"
+msgid "[Altadefinizione] %s"
+msgstr "[Alta definição] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "erro"
+
+msgid "loading"
+msgstr "carregando"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Informações da temporada não disponíveis"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Temporadas: %d\n"
+#~ "Total de episódios: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Filme Altadefinizione\n"
+#~ "\n"
+#~ "Ano: %s\n"
+#~ "Gênero: %s\n"
+#~ "\n"
+#~ "Links disponíveis: %d\n"
+#~ "\n"
+#~ "Pressione VERDE para reproduzir"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Filme\n"
+#~ "\n"
+#~ "Ano: %s\n"
+#~ "Gênero: %s\n"
+#~ "\n"
+#~ "Links disponíveis: %d\n"
+#~ "\n"
+#~ "Pressione VERDE para reproduzir"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Série de TV CB01\n"
+#~ "\n"
+#~ "Temporadas: %d\n"
+#~ "Total de episódios: %d\n"
+#~ "\n"
+#~ "Pressione VERDE para reproduzir"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Descrição:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Filme\n"
+#~ "\n"
+#~ "Ano: %s\n"
+#~ "\n"
+#~ "Classificação: %s/10\n"
+#~ "\n"
+#~ "Gêneros:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Pressione VERDE para reproduzir"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Classificação: %s\n"
+#~ "\n"
+#~ "Criador: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Pressione VERDE para inserir o código\n"
+#~ "Pressione VERMELHO para cancelar"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Série de TV\n"
+#~ "\n"
+#~ "Temporadas: %d\n"
+#~ "Total de episódios: %d\n"
+#~ "\n"
+#~ "Ano: %s\n"
+#~ "\n"
+#~ "Classificação: %s/10\n"
+#~ "\n"
+#~ "Gêneros:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Série de TV\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Série de TV\n"
+#~ "Temporadas: %d\n"
+#~ "Total de episódios: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Série de TV\n"
+#~ "Temporadas: %d\n"
+#~ "Total de episódios: %d\n"
+#~ "Pressione VERDE para reproduzir"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Use as teclas numéricas do controle remoto\n"
+#~ "para inserir o código captcha\n"
+#~ "GREEN = Confirmar, RED = Cancelar"

@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d naslova"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMOVI ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Nova pretraga ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV SERIJE ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[High Definition] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nInformacije o sezoni nisu dostupne"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nSezone: %d\nUkupno epizoda: %d"
-
-msgid "%d titles"
-msgstr "%d naslova"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 naslova"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizode <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Godišnja doba <<<"
-
-msgid "0 titles"
-msgstr "0 naslova"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nGodina: %s\nŽanr: %s\n\nDostupni linkovi: %d\n\nPritisnite ZELENO za reprodukciju"
 
 msgid "Available links:"
 msgstr "Dostupni linkovi:"
@@ -61,26 +46,26 @@ msgstr "Pregledajte grupe i kartice s horizontalnim pomicanjem"
 msgid "CANCEL"
 msgstr "OTKAZI"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 greška pri reprodukciji: %s"
+
+msgid "CONFIRM"
+msgstr "POTVRDI"
+
+msgid "CONTENTS"
+msgstr "SADRŽAJ"
+
 msgid "Card error"
 msgstr "Greška kartice"
 
 msgid "Cards updated"
 msgstr "Kartice su ažurirane"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Film\n\nGodina: %s\nŽanr: %s\n\nDostupni linkovi: %d\n\nPritisnite ZELENO za reprodukciju"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 greška pri reprodukciji: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 TV serija\n\nSezone: %d\nUkupno epizoda: %d\n\nPritisnite ZELENO za reprodukciju"
-
 msgid "Code:"
 msgstr "kod:"
 
-msgid "CONFIRM"
-msgstr "POTVRDI"
+msgid "Code: {self.captcha_code}"
+msgstr "Šifra: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Sadržaj iz Altadefinizione - Pritisnite OK da otvorite..."
@@ -88,26 +73,26 @@ msgstr "Sadržaj iz Altadefinizione - Pritisnite OK da otvorite..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Sadržaj iz CB01 - Pritisnite OK da otvorite..."
 
-msgid "CONTENTS"
-msgstr "SADRŽAJ"
-
 msgid "Description not available."
 msgstr "Opis nije dostupan."
 
-msgid "Description:\n\n%s"
-msgstr "Opis:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Detalji za: '%s'"
 
 msgid "Details not available"
 msgstr "Detalji nisu dostupni"
+
+msgid "ENTER"
+msgstr "ENTER"
+
+msgid "EXIT"
+msgstr "IZLAZ"
 
 msgid "Enable debug"
 msgstr "Omogući otklanjanje grešaka"
 
 msgid "Enable debug output in logs"
 msgstr "Omogućite izlaz za otklanjanje grešaka u zapisnicima"
-
-msgid "ENTER"
-msgstr "ENTER"
 
 msgid "Enter Captcha Code"
 msgstr "Unesite Captcha kod"
@@ -127,23 +112,20 @@ msgstr "Epizode"
 msgid "Episodes:"
 msgstr "epizode:"
 
-msgid "error"
-msgstr "greška"
-
-msgid "Error loading captcha"
-msgstr "Greška pri učitavanju detalja"
-
 msgid "Error loading CB01 series"
 msgstr "Greška pri učitavanju serije CB01"
-
-msgid "Error loading details"
-msgstr "Greška pri učitavanju detalja"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Greška pri učitavanju OnlineSerieTV serije"
 
 msgid "Error loading TMDB"
 msgstr "Greška pri učitavanju TMDB"
+
+msgid "Error loading captcha"
+msgstr "Greška pri učitavanju detalja"
+
+msgid "Error loading details"
+msgstr "Greška pri učitavanju detalja"
 
 msgid "Error playing episode: %s"
 msgstr "Greška pri reprodukciji epizode: %s"
@@ -153,9 +135,6 @@ msgstr "Greška pri ažuriranju korisničkog sučelja"
 
 msgid "Exit"
 msgstr "Izađi"
-
-msgid "EXIT"
-msgstr "IZLAZ"
 
 msgid "GROUPS"
 msgstr "GRUPE"
@@ -171,9 +150,6 @@ msgstr "navigacija LIJEVO/DESNO | OK otvori | UP nazad u grupe"
 
 msgid "Load error"
 msgstr "Greška učitavanja"
-
-msgid "loading"
-msgstr "loading"
 
 msgid "Loading details from TMDB..."
 msgstr "Učitavanje detalja iz TMDB..."
@@ -192,9 +168,6 @@ msgstr "Maksimalan broj rezultata za prikaz"
 
 msgid "Movie History"
 msgstr "Filmska istorija"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Film\n\nGodina: %s\n\nOcjena: %s/10\n\nŽanrovi:\n%s\n\nPritisnite ZELENO za reprodukciju"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Nisu pronađeni linkovi za streaming"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV serije"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerijaTV\n\nOcjena: %s\n\nKreator: %s"
-
 msgid "PLAY"
 msgstr "IGRAJ"
 
@@ -243,9 +213,6 @@ msgstr "Greška pri reprodukciji: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pritisnite ZELENO (film) ili ŽUTO (TV serija) da pretražite..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Pritisnite ZELENO za unos koda.\nPritisnite CRVENU za otkazivanje"
 
 msgid "Press GREEN to play"
 msgstr "Pritisnite ZELENO za reprodukciju"
@@ -256,11 +223,11 @@ msgstr "Pritisnite OK"
 msgid "Press OK to view full details..."
 msgstr "Pritisnite OK da vidite sve detalje..."
 
-msgid "Refresh"
-msgstr "Osvježi"
-
 msgid "REFRESH"
 msgstr "REFRESH"
+
+msgid "Refresh"
+msgstr "Osvježi"
 
 msgid "Retry"
 msgstr "Pokušaj ponovo"
@@ -277,11 +244,14 @@ msgstr "Povijest pretraživanja"
 msgid "Search Movie"
 msgstr "Pretraži film"
 
+msgid "Search TV Series"
+msgstr "Pretraži TV serije"
+
 msgid "Search timeout"
 msgstr "Istek vremena za pretragu"
 
-msgid "Search TV Series"
-msgstr "Pretraži TV serije"
+msgid "Searching for: '%s'"
+msgstr "Pretraživanje: '%s'"
 
 msgid "Searching..."
 msgstr "Pretraživanje..."
@@ -304,12 +274,6 @@ msgstr "URL serije nije pronađen"
 msgid "Series URL not found."
 msgstr "URL serije nije pronađen."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Istek vremena za zahtjeve za pretraživanje (sekunde)"
-
-msgid "Title"
-msgstr "Naslov"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API ključ nije pronađen"
 
@@ -322,20 +286,17 @@ msgstr "TMDB ID nije pronađen"
 msgid "TV Series History"
 msgstr "Istorija TV serije"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "TV serija\n\nSezone: %d\nUkupno epizoda: %d\n\nGodina: %s\n\nOcjena: %s/10\n\nŽanrovi:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Istek vremena za zahtjeve za pretraživanje (sekunde)"
 
-msgid "TV Series\n%s"
-msgstr "TV serija\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "TV serija\nSezone: %d\nUkupno epizoda: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "TV serija\nSezone: %d\nUkupno epizoda: %d\nPritisnite ZELENO za reprodukciju"
+msgid "Title"
+msgstr "Naslov"
 
 msgid "Type: %s"
 msgstr "Tip: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "GORE/DOLJE grupe | LIJEVO/DESNO karte | OK otvori"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nije moguće preuzeti prijenos za ovu epizodu"
@@ -355,9 +316,6 @@ msgstr "Nije moguće dohvatiti informacije iz TMDB."
 msgid "Unknown"
 msgstr "Nepoznato"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "GORE/DOLJE grupe | LIJEVO/DESNO karte | OK otvori"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Ažurirano, %d grupe nedostupne"
 
@@ -367,6 +325,200 @@ msgstr "Ažuriranje"
 msgid "Updating cards %d/%d"
 msgstr "Ažuriranje kartica %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Koristite numeričke tipke na daljinskom upravljaču\nda unesete captcha kod\nZELENO = Potvrdite, CRVENI = Otkažite"
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "greška"
+
+msgid "loading"
+msgstr "loading"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Informacije o sezoni nisu dostupne"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sezone: %d\n"
+#~ "Ukupno epizoda: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Godina: %s\n"
+#~ "Žanr: %s\n"
+#~ "\n"
+#~ "Dostupni linkovi: %d\n"
+#~ "\n"
+#~ "Pritisnite ZELENO za reprodukciju"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Film\n"
+#~ "\n"
+#~ "Godina: %s\n"
+#~ "Žanr: %s\n"
+#~ "\n"
+#~ "Dostupni linkovi: %d\n"
+#~ "\n"
+#~ "Pritisnite ZELENO za reprodukciju"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 TV serija\n"
+#~ "\n"
+#~ "Sezone: %d\n"
+#~ "Ukupno epizoda: %d\n"
+#~ "\n"
+#~ "Pritisnite ZELENO za reprodukciju"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Opis:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Film\n"
+#~ "\n"
+#~ "Godina: %s\n"
+#~ "\n"
+#~ "Ocjena: %s/10\n"
+#~ "\n"
+#~ "Žanrovi:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Pritisnite ZELENO za reprodukciju"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerijaTV\n"
+#~ "\n"
+#~ "Ocjena: %s\n"
+#~ "\n"
+#~ "Kreator: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Pritisnite ZELENO za unos koda.\n"
+#~ "Pritisnite CRVENU za otkazivanje"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV serija\n"
+#~ "\n"
+#~ "Sezone: %d\n"
+#~ "Ukupno epizoda: %d\n"
+#~ "\n"
+#~ "Godina: %s\n"
+#~ "\n"
+#~ "Ocjena: %s/10\n"
+#~ "\n"
+#~ "Žanrovi:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV serija\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "TV serija\n"
+#~ "Sezone: %d\n"
+#~ "Ukupno epizoda: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "TV serija\n"
+#~ "Sezone: %d\n"
+#~ "Ukupno epizoda: %d\n"
+#~ "Pritisnite ZELENO za reprodukciju"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Koristite numeričke tipke na daljinskom upravljaču\n"
+#~ "da unesete captcha kod\n"
+#~ "ZELENO = Potvrdite, CRVENI = Otkažite"

@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d titoloj"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMOJ ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Nova serĉo ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TELEVIDA SERIO ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Alta Difino] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nSezoninformoj ne haveblaj"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nSezonoj: %d\nTutaj epizodoj: %d"
-
-msgid "%d titles"
-msgstr "%d titoloj"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 titoloj"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizodoj <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Sezonoj <<<"
-
-msgid "0 titles"
-msgstr "0 titoloj"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadifino Filmo\n\nJaro: %s\nĜenro: %s\n\nHaveblaj ligiloj: %d\n\nPremu VERDA por ludi"
 
 msgid "Available links:"
 msgstr "Disponeblaj ligiloj:"
@@ -61,26 +46,26 @@ msgstr "Foliumu grupojn kaj kartojn per horizontala movo"
 msgid "CANCEL"
 msgstr "NULIGI"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 reprodukta eraro: %s"
+
+msgid "CONFIRM"
+msgstr "KONFIRMI"
+
+msgid "CONTENTS"
+msgstr "ENHAVO"
+
 msgid "Card error"
 msgstr "Karto-eraro"
 
 msgid "Cards updated"
 msgstr "Kartoj ĝisdatigitaj"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Filmo\n\nJaro: %s\nĜenro: %s\n\nHaveblaj ligiloj: %d\n\nPremu VERDA por ludi"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 reprodukta eraro: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 Televidserio\n\nSezonoj: %d\nTutaj epizodoj: %d\n\nPremu VERDA por ludi"
-
 msgid "Code:"
 msgstr "Kodo:"
 
-msgid "CONFIRM"
-msgstr "KONFIRMI"
+msgid "Code: {self.captcha_code}"
+msgstr "Kodo: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Enhavo de Altadefinizione - Premu OK por malfermi..."
@@ -88,26 +73,26 @@ msgstr "Enhavo de Altadefinizione - Premu OK por malfermi..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Enhavo de CB01 - Premu OK por malfermi..."
 
-msgid "CONTENTS"
-msgstr "ENHAVO"
-
 msgid "Description not available."
 msgstr "Priskribo ne havebla."
 
-msgid "Description:\n\n%s"
-msgstr "Priskribo:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Detaloj por: '%s'"
 
 msgid "Details not available"
 msgstr "Detaloj ne haveblaj"
+
+msgid "ENTER"
+msgstr "ENTER"
+
+msgid "EXIT"
+msgstr "ELIRO"
 
 msgid "Enable debug"
 msgstr "Ebligu sencimigon"
 
 msgid "Enable debug output in logs"
 msgstr "Ebligu sencimigan eligon en protokoloj"
-
-msgid "ENTER"
-msgstr "ENTER"
 
 msgid "Enter Captcha Code"
 msgstr "Enigu Captcha Kodon"
@@ -127,23 +112,20 @@ msgstr "Epizodoj"
 msgid "Episodes:"
 msgstr "Epizodoj:"
 
-msgid "error"
-msgstr "eraro"
-
-msgid "Error loading captcha"
-msgstr "Eraro dum ŝarĝo de detaloj"
-
 msgid "Error loading CB01 series"
 msgstr "Eraro dum ŝarĝo de CB01-serio"
-
-msgid "Error loading details"
-msgstr "Eraro dum ŝarĝo de detaloj"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Eraro dum ŝarĝo de la serio OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Eraro dum ŝarĝo de TMDB"
+
+msgid "Error loading captcha"
+msgstr "Eraro dum ŝarĝo de detaloj"
+
+msgid "Error loading details"
+msgstr "Eraro dum ŝarĝo de detaloj"
 
 msgid "Error playing episode: %s"
 msgstr "Eraro dum la ludado de epizodo: %s"
@@ -153,9 +135,6 @@ msgstr "Eraro dum ĝisdatigo de UI"
 
 msgid "Exit"
 msgstr "Eliro"
-
-msgid "EXIT"
-msgstr "ELIRO"
 
 msgid "GROUPS"
 msgstr "GRUPOJ"
@@ -171,9 +150,6 @@ msgstr "maldekstre/dekstre navigi | OK malfermi | SUPREN reen al grupoj"
 
 msgid "Load error"
 msgstr "Ŝargi eraron"
-
-msgid "loading"
-msgstr "ŝarĝo"
 
 msgid "Loading details from TMDB..."
 msgstr "Ŝarĝante detalojn de TMDB..."
@@ -192,9 +168,6 @@ msgstr "Maksimuma nombro de rezultoj por montri"
 
 msgid "Movie History"
 msgstr "Filmhistorio"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Filmo\n\nJaro: %s\n\nTaksado: %s/10\n\nĜenroj:\n%s\n\nPremu VERDA por ludi"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Neniuj fluaj ligiloj trovitaj"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Televidserio"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nTaksado: %s\n\nKreinto: %s"
-
 msgid "PLAY"
 msgstr "LUDU"
 
@@ -243,9 +213,6 @@ msgstr "Eraro de reprodukto: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Premu VERDA (Filmo) aŭ FLAVA (Televido-Serio) por serĉi..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Premu VERDA por enigi la kodon\nPremu RUĜAN por nuligi"
 
 msgid "Press GREEN to play"
 msgstr "Premu VERDA por ludi"
@@ -256,10 +223,10 @@ msgstr "Premu OK"
 msgid "Press OK to view full details..."
 msgstr "Premu OK por vidi plenajn detalojn..."
 
-msgid "Refresh"
+msgid "REFRESH"
 msgstr "Refreŝigi"
 
-msgid "REFRESH"
+msgid "Refresh"
 msgstr "Refreŝigi"
 
 msgid "Retry"
@@ -277,11 +244,14 @@ msgstr "Serĉhistorio"
 msgid "Search Movie"
 msgstr "Serĉu Filmon"
 
+msgid "Search TV Series"
+msgstr "Serĉu Televidserio"
+
 msgid "Search timeout"
 msgstr "Serĉa tempodaŭro"
 
-msgid "Search TV Series"
-msgstr "Serĉu Televidserio"
+msgid "Searching for: '%s'"
+msgstr "Serĉante: '%s'"
 
 msgid "Searching..."
 msgstr "Serĉante..."
@@ -304,12 +274,6 @@ msgstr "Serio URL ne trovita"
 msgid "Series URL not found."
 msgstr "Serio URL ne trovita."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Tempo por serĉpetoj (sekundoj)"
-
-msgid "Title"
-msgstr "Titolo"
-
 msgid "TMDB API key not found"
 msgstr "TMDB-API-ŝlosilo ne trovita"
 
@@ -322,20 +286,17 @@ msgstr "TMDB-ID ne trovita"
 msgid "TV Series History"
 msgstr "Televidserio Historio"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Televidserio\n\nSezonoj: %d\nTutaj epizodoj: %d\n\nJaro: %s\n\nTaksado: %s/10\n\nĜenroj:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Tempo por serĉpetoj (sekundoj)"
 
-msgid "TV Series\n%s"
-msgstr "Televidserio\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Televidserio\nSezonoj: %d\nTutaj epizodoj: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Televidserio\nSezonoj: %d\nTutaj epizodoj: %d\nPremu VERDA por ludi"
+msgid "Title"
+msgstr "Titolo"
 
 msgid "Type: %s"
 msgstr "Tajpu: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN grupoj | kartoj maldekstre/dekstre | Bone malfermita"
 
 msgid "Unable to get stream for this episode"
 msgstr "Ne eblas ricevi fluon por ĉi tiu epizodo"
@@ -355,9 +316,6 @@ msgstr "Ne eblas preni informojn de TMDB."
 msgid "Unknown"
 msgstr "Nekonata"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN grupoj | kartoj maldekstre/dekstre | Bone malfermita"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Ĝisdatigita, %d grupoj nedisponeblaj"
 
@@ -367,6 +325,200 @@ msgstr "Ĝisdatigo"
 msgid "Updating cards %d/%d"
 msgstr "Ĝisdatigante kartojn %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Uzu la numerajn klavojn sur la telerremo\npor enigi la kapĉan kodon\nVERDA = Konfirmi, RUĜA = Nuligi"
+msgid "[Altadefinizione] %s"
+msgstr "[Alta Difino] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "eraro"
+
+msgid "loading"
+msgstr "ŝarĝo"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sezoninformoj ne haveblaj"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sezonoj: %d\n"
+#~ "Tutaj epizodoj: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadifino Filmo\n"
+#~ "\n"
+#~ "Jaro: %s\n"
+#~ "Ĝenro: %s\n"
+#~ "\n"
+#~ "Haveblaj ligiloj: %d\n"
+#~ "\n"
+#~ "Premu VERDA por ludi"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Filmo\n"
+#~ "\n"
+#~ "Jaro: %s\n"
+#~ "Ĝenro: %s\n"
+#~ "\n"
+#~ "Haveblaj ligiloj: %d\n"
+#~ "\n"
+#~ "Premu VERDA por ludi"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Televidserio\n"
+#~ "\n"
+#~ "Sezonoj: %d\n"
+#~ "Tutaj epizodoj: %d\n"
+#~ "\n"
+#~ "Premu VERDA por ludi"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Priskribo:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Filmo\n"
+#~ "\n"
+#~ "Jaro: %s\n"
+#~ "\n"
+#~ "Taksado: %s/10\n"
+#~ "\n"
+#~ "Ĝenroj:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Premu VERDA por ludi"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Taksado: %s\n"
+#~ "\n"
+#~ "Kreinto: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Premu VERDA por enigi la kodon\n"
+#~ "Premu RUĜAN por nuligi"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Televidserio\n"
+#~ "\n"
+#~ "Sezonoj: %d\n"
+#~ "Tutaj epizodoj: %d\n"
+#~ "\n"
+#~ "Jaro: %s\n"
+#~ "\n"
+#~ "Taksado: %s/10\n"
+#~ "\n"
+#~ "Ĝenroj:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Televidserio\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Televidserio\n"
+#~ "Sezonoj: %d\n"
+#~ "Tutaj epizodoj: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Televidserio\n"
+#~ "Sezonoj: %d\n"
+#~ "Tutaj epizodoj: %d\n"
+#~ "Premu VERDA por ludi"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Uzu la numerajn klavojn sur la telerremo\n"
+#~ "por enigi la kapĉan kodon\n"
+#~ "VERDA = Konfirmi, RUĜA = Nuligi"

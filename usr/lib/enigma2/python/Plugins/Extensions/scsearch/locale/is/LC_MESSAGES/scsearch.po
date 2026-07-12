@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d titlar"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- KVIKMYNDIR ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Ný leit ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SJÓNVARPSRÖÐ ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Háskerpu] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nTímabilsupplýsingar ekki tiltækar"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nÁrstíðir: %d\nÞættir samtals: %d"
-
-msgid "%d titles"
-msgstr "%d titlar"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 titlar"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Þættir <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Árstíðir <<<"
-
-msgid "0 titles"
-msgstr "0 titlar"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nÁr: %s\nTegund: %s\n\nTenglar í boði: %d\n\nÝttu á GRÆNA til að spila"
 
 msgid "Available links:"
 msgstr "Tiltækir tenglar:"
@@ -61,26 +46,26 @@ msgstr "Skoðaðu hópa og spil með láréttri skrun"
 msgid "CANCEL"
 msgstr "HÆTTA við"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 spilunarvilla: %s"
+
+msgid "CONFIRM"
+msgstr "STEFNA"
+
+msgid "CONTENTS"
+msgstr "INNIHALD"
+
 msgid "Card error"
 msgstr "Kortavilla"
 
 msgid "Cards updated"
 msgstr "Kort uppfært"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nÁr: %s\nTegund: %s\n\nTenglar í boði: %d\n\nÝttu á GRÆNA til að spila"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 spilunarvilla: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 sjónvarpsþættir\n\nÁrstíðir: %d\nÞættir samtals: %d\n\nÝttu á GRÆNA til að spila"
-
 msgid "Code:"
 msgstr "Kóði:"
 
-msgid "CONFIRM"
-msgstr "STEFNA"
+msgid "Code: {self.captcha_code}"
+msgstr "Kóði: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Efni frá Altadefinizione - Ýttu á OK til að opna..."
@@ -88,26 +73,26 @@ msgstr "Efni frá Altadefinizione - Ýttu á OK til að opna..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Efni frá CB01 - Ýttu á OK til að opna..."
 
-msgid "CONTENTS"
-msgstr "INNIHALD"
-
 msgid "Description not available."
 msgstr "Lýsing ekki tiltæk."
 
-msgid "Description:\n\n%s"
-msgstr "Lýsing:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Upplýsingar um: '%s'"
 
 msgid "Details not available"
 msgstr "Upplýsingar ekki tiltækar"
+
+msgid "ENTER"
+msgstr "ENTER"
+
+msgid "EXIT"
+msgstr "HLUTA"
 
 msgid "Enable debug"
 msgstr "Virkja villuleit"
 
 msgid "Enable debug output in logs"
 msgstr "Virkja villuúttak í annálum"
-
-msgid "ENTER"
-msgstr "ENTER"
 
 msgid "Enter Captcha Code"
 msgstr "Sláðu inn Captcha kóða"
@@ -127,23 +112,20 @@ msgstr "Þættir"
 msgid "Episodes:"
 msgstr "Þættir:"
 
-msgid "error"
-msgstr "villa"
-
-msgid "Error loading captcha"
-msgstr "Villa við að hlaða upplýsingar"
-
 msgid "Error loading CB01 series"
 msgstr "Villa við að hlaða CB01 röð"
-
-msgid "Error loading details"
-msgstr "Villa við að hlaða upplýsingar"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Villa við að hlaða OnlineSerieTV seríu"
 
 msgid "Error loading TMDB"
 msgstr "Villa við að hlaða TMDB"
+
+msgid "Error loading captcha"
+msgstr "Villa við að hlaða upplýsingar"
+
+msgid "Error loading details"
+msgstr "Villa við að hlaða upplýsingar"
 
 msgid "Error playing episode: %s"
 msgstr "Villa við að spila þátt: %s"
@@ -153,9 +135,6 @@ msgstr "Villa við að uppfæra notendaviðmót"
 
 msgid "Exit"
 msgstr "Hætta"
-
-msgid "EXIT"
-msgstr "HLUTA"
 
 msgid "GROUPS"
 msgstr "HÓPAR"
@@ -171,9 +150,6 @@ msgstr "VINSTRI/HÆGRI vafra | OK opið | UPP aftur í hópa"
 
 msgid "Load error"
 msgstr "Hleðsluvilla"
-
-msgid "loading"
-msgstr "hleðsla"
 
 msgid "Loading details from TMDB..."
 msgstr "Hleður upplýsingum frá TMDB..."
@@ -192,9 +168,6 @@ msgstr "Hámarksfjöldi niðurstaðna til að birta"
 
 msgid "Movie History"
 msgstr "Saga kvikmynda"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Kvikmynd\n\nÁr: %s\n\nEinkunn: %s/10\n\nTegund:\n%s\n\nÝttu á GRÆNA til að spila"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Engir streymistenglar fundust"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - sjónvarpsþættir"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nEinkunn: %s\n\n Höfundur: %s"
-
 msgid "PLAY"
 msgstr "SPILA"
 
@@ -243,9 +213,6 @@ msgstr "Spilunarvilla: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Ýttu á GRÆNT (kvikmynd) eða GUL (sjónvarpsþáttaröð) til að leita..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Ýttu á GRÆNN til að slá inn kóðann\nÝttu á RAUÐA til að hætta við"
 
 msgid "Press GREEN to play"
 msgstr "Ýttu á GRÆNA til að spila"
@@ -256,11 +223,11 @@ msgstr "Ýttu á OK"
 msgid "Press OK to view full details..."
 msgstr "Ýttu á OK til að skoða allar upplýsingar..."
 
-msgid "Refresh"
-msgstr "Endurnýja"
-
 msgid "REFRESH"
 msgstr "UPPFÆRSLA"
+
+msgid "Refresh"
+msgstr "Endurnýja"
 
 msgid "Retry"
 msgstr "Reyndu aftur"
@@ -277,11 +244,14 @@ msgstr "Leitarferill"
 msgid "Search Movie"
 msgstr "Leita að kvikmynd"
 
+msgid "Search TV Series"
+msgstr "Leitaðu að sjónvarpsþáttum"
+
 msgid "Search timeout"
 msgstr "Leitartími"
 
-msgid "Search TV Series"
-msgstr "Leitaðu að sjónvarpsþáttum"
+msgid "Searching for: '%s'"
+msgstr "Leitar að: '%s'"
 
 msgid "Searching..."
 msgstr "Leitar..."
@@ -304,12 +274,6 @@ msgstr "Slóð seríunnar fannst ekki"
 msgid "Series URL not found."
 msgstr "Slóð seríunnar fannst ekki."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Tímamörk fyrir leitarbeiðnir (sekúndur)"
-
-msgid "Title"
-msgstr "Titill"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API lykill fannst ekki"
 
@@ -322,20 +286,17 @@ msgstr "TMDB auðkenni fannst ekki"
 msgid "TV Series History"
 msgstr "Saga sjónvarpsþátta"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Sjónvarpsþættir\n\nÁrstíðir: %d\nÞættir samtals: %d\n\nÁr: %s\n\nEinkunn: %s/10\n\nTegund:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Tímamörk fyrir leitarbeiðnir (sekúndur)"
 
-msgid "TV Series\n%s"
-msgstr "Sjónvarpsþáttaröð\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Sjónvarpsþættir\nÁrstíðir: %d\nÞættir samtals: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Sjónvarpsþættir\nÁrstíðir: %d\nÞættir samtals: %d\nÝttu á GRÆNA til að spila"
+msgid "Title"
+msgstr "Titill"
 
 msgid "Type: %s"
 msgstr "Tegund: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
 
 msgid "Unable to get stream for this episode"
 msgstr "Ekki er hægt að sækja streymi fyrir þennan þátt"
@@ -355,9 +316,6 @@ msgstr "Ekki er hægt að sækja upplýsingar úr TMDB."
 msgid "Unknown"
 msgstr "Óþekkt"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Uppfært, %d hópar ekki tiltækir"
 
@@ -367,6 +325,200 @@ msgstr "Uppfærsla"
 msgid "Updating cards %d/%d"
 msgstr "Uppfærir kort %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Notaðu tölutakkana á fjarstýringunni\ntil að slá inn captcha kóða\nGREEN = Staðfesta, RED = Hætta við"
+msgid "[Altadefinizione] %s"
+msgstr "[Háskerpu] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "villa"
+
+msgid "loading"
+msgstr "hleðsla"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Tímabilsupplýsingar ekki tiltækar"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Árstíðir: %d\n"
+#~ "Þættir samtals: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Ár: %s\n"
+#~ "Tegund: %s\n"
+#~ "\n"
+#~ "Tenglar í boði: %d\n"
+#~ "\n"
+#~ "Ýttu á GRÆNA til að spila"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Ár: %s\n"
+#~ "Tegund: %s\n"
+#~ "\n"
+#~ "Tenglar í boði: %d\n"
+#~ "\n"
+#~ "Ýttu á GRÆNA til að spila"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 sjónvarpsþættir\n"
+#~ "\n"
+#~ "Árstíðir: %d\n"
+#~ "Þættir samtals: %d\n"
+#~ "\n"
+#~ "Ýttu á GRÆNA til að spila"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Lýsing:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Kvikmynd\n"
+#~ "\n"
+#~ "Ár: %s\n"
+#~ "\n"
+#~ "Einkunn: %s/10\n"
+#~ "\n"
+#~ "Tegund:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ýttu á GRÆNA til að spila"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Einkunn: %s\n"
+#~ "\n"
+#~ " Höfundur: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Ýttu á GRÆNN til að slá inn kóðann\n"
+#~ "Ýttu á RAUÐA til að hætta við"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sjónvarpsþættir\n"
+#~ "\n"
+#~ "Árstíðir: %d\n"
+#~ "Þættir samtals: %d\n"
+#~ "\n"
+#~ "Ár: %s\n"
+#~ "\n"
+#~ "Einkunn: %s/10\n"
+#~ "\n"
+#~ "Tegund:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sjónvarpsþáttaröð\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Sjónvarpsþættir\n"
+#~ "Árstíðir: %d\n"
+#~ "Þættir samtals: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Sjónvarpsþættir\n"
+#~ "Árstíðir: %d\n"
+#~ "Þættir samtals: %d\n"
+#~ "Ýttu á GRÆNA til að spila"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Notaðu tölutakkana á fjarstýringunni\n"
+#~ "til að slá inn captcha kóða\n"
+#~ "GREEN = Staðfesta, RED = Hætta við"

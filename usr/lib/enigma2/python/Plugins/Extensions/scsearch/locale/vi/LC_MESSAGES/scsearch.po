@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d tựa đề"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- PHIM ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Tìm kiếm mới ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SERIES TRUYỀN HÌNH ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Độ phân giải cao] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nKhông có thông tin về mùa giải"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nPhần: %d\nTổng số tập: %d"
-
-msgid "%d titles"
-msgstr "%d tựa đề"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 danh hiệu"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Các tập <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Các mùa <<<"
-
-msgid "0 titles"
-msgstr "0 danh hiệu"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nNăm: %s\nThể loại: %s\n\nLiên kết có sẵn: %d\n\nNhấn XANH để phát"
 
 msgid "Available links:"
 msgstr "Liên kết có sẵn:"
@@ -61,26 +46,26 @@ msgstr "Duyệt các nhóm và thẻ bằng cách cuộn ngang"
 msgid "CANCEL"
 msgstr "HỦY BỎ"
 
+msgid "CB01 playback error: %s"
+msgstr "Lỗi phát lại CB01: %s"
+
+msgid "CONFIRM"
+msgstr "XÁC NHẬN"
+
+msgid "CONTENTS"
+msgstr "NỘI DUNG"
+
 msgid "Card error"
 msgstr "Lỗi thẻ"
 
 msgid "Cards updated"
 msgstr "Đã cập nhật thẻ"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Phim\n\nNăm: %s\nThể loại: %s\n\nLiên kết có sẵn: %d\n\nNhấn XANH để phát"
-
-msgid "CB01 playback error: %s"
-msgstr "Lỗi phát lại CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Phim truyền hình CB01\n\nPhần: %d\nTổng số tập: %d\n\nNhấn XANH để phát"
-
 msgid "Code:"
 msgstr "Mã số:"
 
-msgid "CONFIRM"
-msgstr "XÁC NHẬN"
+msgid "Code: {self.captcha_code}"
+msgstr "Mã: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Nội dung từ Altadefinizione - Nhấn OK để mở..."
@@ -88,26 +73,26 @@ msgstr "Nội dung từ Altadefinizione - Nhấn OK để mở..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Nội dung từ CB01 - Nhấn OK để mở..."
 
-msgid "CONTENTS"
-msgstr "NỘI DUNG"
-
 msgid "Description not available."
 msgstr "Mô tả không có sẵn."
 
-msgid "Description:\n\n%s"
-msgstr "Mô tả:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Thông tin chi tiết về: '%s'"
 
 msgid "Details not available"
 msgstr "Thông tin chi tiết không có sẵn"
+
+msgid "ENTER"
+msgstr "ĐI VÀO"
+
+msgid "EXIT"
+msgstr "RA"
 
 msgid "Enable debug"
 msgstr "Bật gỡ lỗi"
 
 msgid "Enable debug output in logs"
 msgstr "Bật đầu ra gỡ lỗi trong nhật ký"
-
-msgid "ENTER"
-msgstr "ĐI VÀO"
 
 msgid "Enter Captcha Code"
 msgstr "Nhập mã Captcha"
@@ -127,23 +112,20 @@ msgstr "tập phim"
 msgid "Episodes:"
 msgstr "Các tập:"
 
-msgid "error"
-msgstr "lỗi"
-
-msgid "Error loading captcha"
-msgstr "Lỗi tải chi tiết"
-
 msgid "Error loading CB01 series"
 msgstr "Lỗi tải dòng CB01"
-
-msgid "Error loading details"
-msgstr "Lỗi tải chi tiết"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Lỗi tải loạt phim OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Lỗi tải TMDB"
+
+msgid "Error loading captcha"
+msgstr "Lỗi tải chi tiết"
+
+msgid "Error loading details"
+msgstr "Lỗi tải chi tiết"
 
 msgid "Error playing episode: %s"
 msgstr "Lỗi khi phát tập: %s"
@@ -153,9 +135,6 @@ msgstr "Lỗi cập nhật giao diện người dùng"
 
 msgid "Exit"
 msgstr "Ra"
-
-msgid "EXIT"
-msgstr "RA"
 
 msgid "GROUPS"
 msgstr "NHÓM"
@@ -171,9 +150,6 @@ msgstr "Điều hướng TRÁI/PHẢI | Được rồi mở | LÊN trở lại n
 
 msgid "Load error"
 msgstr "Lỗi tải"
-
-msgid "loading"
-msgstr "đang tải"
 
 msgid "Loading details from TMDB..."
 msgstr "Đang tải chi tiết từ TMDB..."
@@ -192,9 +168,6 @@ msgstr "Số lượng kết quả tối đa để hiển thị"
 
 msgid "Movie History"
 msgstr "Lịch sử phim"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Phim\n\nNăm: %s\n\nXếp hạng: %s/10\n\nThể loại:\n%s\n\nNhấn XANH để phát"
 
 msgid "N/A"
 msgstr "không áp dụng"
@@ -232,9 +205,6 @@ msgstr "Không tìm thấy liên kết phát trực tuyến"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Phim Truyền Hình"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nXếp hạng: %s\n\nNgười tạo: %s"
-
 msgid "PLAY"
 msgstr "CHƠI"
 
@@ -243,9 +213,6 @@ msgstr "Lỗi phát lại: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Nhấn XANH (Phim) hoặc VÀNG (Phim truyền hình) để tìm kiếm..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Nhấn XANH để nhập mã\nNhấn ĐỎ để hủy"
 
 msgid "Press GREEN to play"
 msgstr "Nhấn XANH để chơi"
@@ -256,11 +223,11 @@ msgstr "Nhấn OK"
 msgid "Press OK to view full details..."
 msgstr "Nhấn OK để xem đầy đủ chi tiết..."
 
-msgid "Refresh"
-msgstr "Làm cho khỏe lại"
-
 msgid "REFRESH"
 msgstr "LÀM CHO KHỎE LẠI"
+
+msgid "Refresh"
+msgstr "Làm cho khỏe lại"
 
 msgid "Retry"
 msgstr "Thử lại"
@@ -277,11 +244,14 @@ msgstr "Lịch sử tìm kiếm"
 msgid "Search Movie"
 msgstr "Tìm kiếm phim"
 
+msgid "Search TV Series"
+msgstr "Tìm kiếm phim truyền hình"
+
 msgid "Search timeout"
 msgstr "Hết thời gian tìm kiếm"
 
-msgid "Search TV Series"
-msgstr "Tìm kiếm phim truyền hình"
+msgid "Searching for: '%s'"
+msgstr "Đang tìm kiếm: '%s'"
 
 msgid "Searching..."
 msgstr "Đang tìm kiếm..."
@@ -304,12 +274,6 @@ msgstr "Không tìm thấy URL bộ truyện"
 msgid "Series URL not found."
 msgstr "Không tìm thấy URL bộ sách."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Thời gian chờ cho yêu cầu tìm kiếm (giây)"
-
-msgid "Title"
-msgstr "Tiêu đề"
-
 msgid "TMDB API key not found"
 msgstr "Không tìm thấy khóa API TMDB"
 
@@ -322,20 +286,17 @@ msgstr "Không tìm thấy ID TMDB"
 msgid "TV Series History"
 msgstr "Lịch sử phim truyền hình"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Phim truyền hình\n\nPhần: %d\nTổng số tập: %d\n\nNăm: %s\n\nXếp hạng: %s/10\n\nThể loại:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Thời gian chờ cho yêu cầu tìm kiếm (giây)"
 
-msgid "TV Series\n%s"
-msgstr "Phim truyền hình\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Phim truyền hình\nPhần: %d\nTổng số tập: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Phim truyền hình\nPhần: %d\nTổng số tập: %d\nNhấn XANH để phát"
+msgid "Title"
+msgstr "Tiêu đề"
 
 msgid "Type: %s"
 msgstr "Loại: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
 
 msgid "Unable to get stream for this episode"
 msgstr "Không thể nhận luồng cho tập này"
@@ -355,9 +316,6 @@ msgstr "Không thể lấy thông tin từ TMDB."
 msgid "Unknown"
 msgstr "Không xác định"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Đã cập nhật, %d nhóm không có sẵn"
 
@@ -367,6 +325,200 @@ msgstr "Đang cập nhật"
 msgid "Updating cards %d/%d"
 msgstr "Đang cập nhật thẻ %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Sử dụng các phím số trên remote\n để nhập mã captcha\nGREEN = Xác nhận, RED = Hủy"
+msgid "[Altadefinizione] %s"
+msgstr "[Độ phân giải cao] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "lỗi"
+
+msgid "loading"
+msgstr "đang tải"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Không có thông tin về mùa giải"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Phần: %d\n"
+#~ "Tổng số tập: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Năm: %s\n"
+#~ "Thể loại: %s\n"
+#~ "\n"
+#~ "Liên kết có sẵn: %d\n"
+#~ "\n"
+#~ "Nhấn XANH để phát"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Phim\n"
+#~ "\n"
+#~ "Năm: %s\n"
+#~ "Thể loại: %s\n"
+#~ "\n"
+#~ "Liên kết có sẵn: %d\n"
+#~ "\n"
+#~ "Nhấn XANH để phát"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Phim truyền hình CB01\n"
+#~ "\n"
+#~ "Phần: %d\n"
+#~ "Tổng số tập: %d\n"
+#~ "\n"
+#~ "Nhấn XANH để phát"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Mô tả:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Phim\n"
+#~ "\n"
+#~ "Năm: %s\n"
+#~ "\n"
+#~ "Xếp hạng: %s/10\n"
+#~ "\n"
+#~ "Thể loại:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Nhấn XANH để phát"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Xếp hạng: %s\n"
+#~ "\n"
+#~ "Người tạo: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Nhấn XANH để nhập mã\n"
+#~ "Nhấn ĐỎ để hủy"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Phim truyền hình\n"
+#~ "\n"
+#~ "Phần: %d\n"
+#~ "Tổng số tập: %d\n"
+#~ "\n"
+#~ "Năm: %s\n"
+#~ "\n"
+#~ "Xếp hạng: %s/10\n"
+#~ "\n"
+#~ "Thể loại:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Phim truyền hình\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Phim truyền hình\n"
+#~ "Phần: %d\n"
+#~ "Tổng số tập: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Phim truyền hình\n"
+#~ "Phần: %d\n"
+#~ "Tổng số tập: %d\n"
+#~ "Nhấn XANH để phát"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Sử dụng các phím số trên remote\n"
+#~ " để nhập mã captcha\n"
+#~ "GREEN = Xác nhận, RED = Hủy"

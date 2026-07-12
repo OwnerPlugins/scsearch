@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "Majina %d"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILAMU ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Utafutaji mpya ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV SERIES ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Ufafanuzi wa Juu] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nMaelezo ya msimu hayapatikani"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nMisimu: %d\nJumla ya vipindi: %d"
-
-msgid "%d titles"
-msgstr "Majina %d"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 majina"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Vipindi <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Misimu <<<"
-
-msgid "0 titles"
-msgstr "0 majina"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Filamu ya Altadefinizione\n\nMwaka: %s\nAina: %s\n\nViungo vinapatikana: %d\n\nBonyeza GREEN ili kucheza"
 
 msgid "Available links:"
 msgstr "Viungo vinavyopatikana:"
@@ -61,26 +46,26 @@ msgstr "Vinjari vikundi na kadi kwa kusogeza kwa mlalo"
 msgid "CANCEL"
 msgstr "GHAIRI"
 
+msgid "CB01 playback error: %s"
+msgstr "Hitilafu ya kucheza CB01: %s"
+
+msgid "CONFIRM"
+msgstr "THIBITISHA"
+
+msgid "CONTENTS"
+msgstr "YALIYOMO"
+
 msgid "Card error"
 msgstr "Hitilafu ya kadi"
 
 msgid "Cards updated"
 msgstr "Kadi zimesasishwa"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nMwaka: %s\nAina: %s\n\nViungo vinapatikana: %d\n\nBonyeza GREEN kucheza"
-
-msgid "CB01 playback error: %s"
-msgstr "Hitilafu ya kucheza CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 TV Series\n\nMisimu: %d\nJumla ya vipindi: %d\n\nBonyeza GREEN ili kucheza"
-
 msgid "Code:"
 msgstr "Msimbo:"
 
-msgid "CONFIRM"
-msgstr "THIBITISHA"
+msgid "Code: {self.captcha_code}"
+msgstr "Msimbo: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Maudhui kutoka Altadefinizione - Bonyeza Sawa ili kufungua..."
@@ -88,26 +73,26 @@ msgstr "Maudhui kutoka Altadefinizione - Bonyeza Sawa ili kufungua..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Maudhui kutoka CB01 - Bonyeza Sawa ili kufungua..."
 
-msgid "CONTENTS"
-msgstr "YALIYOMO"
-
 msgid "Description not available."
 msgstr "Maelezo hayapatikani."
 
-msgid "Description:\n\n%s"
-msgstr "Maelezo:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Maelezo ya: '%s'"
 
 msgid "Details not available"
 msgstr "Maelezo hayapatikani"
+
+msgid "ENTER"
+msgstr "INGIA"
+
+msgid "EXIT"
+msgstr "UTGÅNG"
 
 msgid "Enable debug"
 msgstr "Washa utatuzi"
 
 msgid "Enable debug output in logs"
 msgstr "Washa pato la utatuzi katika kumbukumbu"
-
-msgid "ENTER"
-msgstr "INGIA"
 
 msgid "Enter Captcha Code"
 msgstr "Ingiza Msimbo wa Captcha"
@@ -127,23 +112,20 @@ msgstr "Vipindi"
 msgid "Episodes:"
 msgstr "Vipindi:"
 
-msgid "error"
-msgstr "kosa"
-
-msgid "Error loading captcha"
-msgstr "Hitilafu katika kupakia maelezo"
-
 msgid "Error loading CB01 series"
 msgstr "Hitilafu katika kupakia mfululizo wa CB01"
-
-msgid "Error loading details"
-msgstr "Hitilafu katika kupakia maelezo"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Hitilafu katika kupakia mfululizo wa OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Hitilafu katika kupakia TMDB"
+
+msgid "Error loading captcha"
+msgstr "Hitilafu katika kupakia maelezo"
+
+msgid "Error loading details"
+msgstr "Hitilafu katika kupakia maelezo"
 
 msgid "Error playing episode: %s"
 msgstr "Hitilafu katika kucheza kipindi: %s"
@@ -153,9 +135,6 @@ msgstr "Hitilafu katika kusasisha UI"
 
 msgid "Exit"
 msgstr "Utgång"
-
-msgid "EXIT"
-msgstr "UTGÅNG"
 
 msgid "GROUPS"
 msgstr "VIKUNDI"
@@ -171,9 +150,6 @@ msgstr "KUSHOTO/KULIA navigate | Sawa fungua | UP nyuma kwa vikundi"
 
 msgid "Load error"
 msgstr "Hitilafu ya upakiaji"
-
-msgid "loading"
-msgstr "kupakia"
 
 msgid "Loading details from TMDB..."
 msgstr "Inapakia maelezo kutoka kwa TMDB..."
@@ -192,9 +168,6 @@ msgstr "Idadi ya juu zaidi ya matokeo ya kuonyesha"
 
 msgid "Movie History"
 msgstr "Historia ya Filamu"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Movie\n\nMwaka: %s\n\nUkadiriaji: %s/10\n\nAina:\n%s\n\nBonyeza GREEN kucheza"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Hakuna viungo vya kutiririsha vilivyopatikana"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Mfululizo wa TV"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nUkadiriaji: %s\n\nMuundaji: %s"
-
 msgid "PLAY"
 msgstr "CHEZA"
 
@@ -243,9 +213,6 @@ msgstr "Hitilafu ya kucheza tena: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Bonyeza KIJANI (Filamu) au MANJANO (Mfululizo wa TV) ili kutafuta..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Bonyeza GREEN ili kuweka msimbo\nBonyeza RED ili kughairi"
 
 msgid "Press GREEN to play"
 msgstr "Bonyeza KIJANI ili kucheza"
@@ -256,11 +223,11 @@ msgstr "Bonyeza SAWA"
 msgid "Press OK to view full details..."
 msgstr "Bonyeza SAWA ili kuona maelezo kamili..."
 
-msgid "Refresh"
-msgstr "Onyesha upya"
-
 msgid "REFRESH"
 msgstr "UPYA"
+
+msgid "Refresh"
+msgstr "Onyesha upya"
 
 msgid "Retry"
 msgstr "Jaribu tena"
@@ -277,11 +244,14 @@ msgstr "Historia ya Utafutaji"
 msgid "Search Movie"
 msgstr "Tafuta Filamu"
 
+msgid "Search TV Series"
+msgstr "Tafuta Mfululizo wa TV"
+
 msgid "Search timeout"
 msgstr "Muda wa utafutaji umekwisha"
 
-msgid "Search TV Series"
-msgstr "Tafuta Mfululizo wa TV"
+msgid "Searching for: '%s'"
+msgstr "Inatafuta: '%s'"
 
 msgid "Searching..."
 msgstr "Inatafuta..."
@@ -304,12 +274,6 @@ msgstr "URL ya mfululizo haijapatikana"
 msgid "Series URL not found."
 msgstr "URL ya mfululizo haijapatikana."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Muda wa maombi ya utafutaji umekwisha (sekunde)"
-
-msgid "Title"
-msgstr "Kichwa"
-
 msgid "TMDB API key not found"
 msgstr "Kitufe cha API ya TMDB hakijapatikana"
 
@@ -322,20 +286,17 @@ msgstr "Kitambulisho cha TMDB hakijapatikana"
 msgid "TV Series History"
 msgstr "Historia ya Mfululizo wa TV"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Mfululizo wa TV\n\nMisimu: %d\nJumla ya vipindi: %d\n\nMwaka: %s\n\nUkadiriaji: %s/10\n\nMitindo:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Muda wa maombi ya utafutaji umekwisha (sekunde)"
 
-msgid "TV Series\n%s"
-msgstr "Mfululizo wa TV\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Mfululizo wa TV\nMisimu: %d\nJumla ya vipindi: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Mfululizo wa TV\nMisimu: %d\nJumla ya vipindi: %d\nBonyeza GREEN ili kucheza"
+msgid "Title"
+msgstr "Kichwa"
 
 msgid "Type: %s"
 msgstr "Aina: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
 
 msgid "Unable to get stream for this episode"
 msgstr "Imeshindwa kupata mtiririko wa kipindi hiki"
@@ -355,9 +316,6 @@ msgstr "Haiwezi kuepua maelezo kutoka kwa TMDB."
 msgid "Unknown"
 msgstr "Haijulikani"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Imesasishwa, vikundi %d havipatikani"
 
@@ -367,6 +325,200 @@ msgstr "Inasasisha"
 msgid "Updating cards %d/%d"
 msgstr "Inasasisha kadi %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Tumia vitufe vya nambari kwenye kidhibiti cha mbali\nkuweka msimbo wa captcha\nGREEN = Thibitisha, RED = Ghairi"
+msgid "[Altadefinizione] %s"
+msgstr "[Ufafanuzi wa Juu] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "kosa"
+
+msgid "loading"
+msgstr "kupakia"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Maelezo ya msimu hayapatikani"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Misimu: %d\n"
+#~ "Jumla ya vipindi: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Filamu ya Altadefinizione\n"
+#~ "\n"
+#~ "Mwaka: %s\n"
+#~ "Aina: %s\n"
+#~ "\n"
+#~ "Viungo vinapatikana: %d\n"
+#~ "\n"
+#~ "Bonyeza GREEN ili kucheza"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Mwaka: %s\n"
+#~ "Aina: %s\n"
+#~ "\n"
+#~ "Viungo vinapatikana: %d\n"
+#~ "\n"
+#~ "Bonyeza GREEN kucheza"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Misimu: %d\n"
+#~ "Jumla ya vipindi: %d\n"
+#~ "\n"
+#~ "Bonyeza GREEN ili kucheza"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Maelezo:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Mwaka: %s\n"
+#~ "\n"
+#~ "Ukadiriaji: %s/10\n"
+#~ "\n"
+#~ "Aina:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Bonyeza GREEN kucheza"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Ukadiriaji: %s\n"
+#~ "\n"
+#~ "Muundaji: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Bonyeza GREEN ili kuweka msimbo\n"
+#~ "Bonyeza RED ili kughairi"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Mfululizo wa TV\n"
+#~ "\n"
+#~ "Misimu: %d\n"
+#~ "Jumla ya vipindi: %d\n"
+#~ "\n"
+#~ "Mwaka: %s\n"
+#~ "\n"
+#~ "Ukadiriaji: %s/10\n"
+#~ "\n"
+#~ "Mitindo:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Mfululizo wa TV\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Mfululizo wa TV\n"
+#~ "Misimu: %d\n"
+#~ "Jumla ya vipindi: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Mfululizo wa TV\n"
+#~ "Misimu: %d\n"
+#~ "Jumla ya vipindi: %d\n"
+#~ "Bonyeza GREEN ili kucheza"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Tumia vitufe vya nambari kwenye kidhibiti cha mbali\n"
+#~ "kuweka msimbo wa captcha\n"
+#~ "GREEN = Thibitisha, RED = Ghairi"

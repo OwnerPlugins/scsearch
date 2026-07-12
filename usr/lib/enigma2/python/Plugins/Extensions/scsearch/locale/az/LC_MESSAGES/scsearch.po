@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d başlıq"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FİLMLER ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Yeni axtarış ---"
 msgid "--- TV SERIES ---"
 msgstr "--- Seriallar ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Yüksək Tərifli] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nMövsüm məlumatı mövcud deyil"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nMövsümlər: %d\nÜmumi epizod: %d"
-
-msgid "%d titles"
-msgstr "%d başlıq"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 başlıq"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizodlar <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Mövsümlər <<<"
-
-msgid "0 titles"
-msgstr "0 başlıq"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nİl: %s\nJanr: %s\n\nMövcud bağlantılar: %d\n\nOynamaq üçün YAŞIL düyməsini basın"
 
 msgid "Available links:"
 msgstr "Mövcud bağlantılar:"
@@ -61,26 +46,26 @@ msgstr "Üfüqi sürüşmə ilə qrupları və kartları gözdən keçirin"
 msgid "CANCEL"
 msgstr "LƏĞV EDİN"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 oxutma xətası: %s"
+
+msgid "CONFIRM"
+msgstr "TƏSDİQ EDİN"
+
+msgid "CONTENTS"
+msgstr "MÜNDƏRİCAT"
+
 msgid "Card error"
 msgstr "Kart xətası"
 
 msgid "Cards updated"
 msgstr "Kartlar yeniləndi"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nİl: %s\nJanr: %s\n\nMövcud bağlantılar: %d\n\nOynamaq üçün YAŞIL düyməsini basın"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 oxutma xətası: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 TV Seriyası\n\nMövsümlər: %d\nÜmumi epizod: %d\n\nOynamaq üçün YAŞIL düyməsini basın"
-
 msgid "Code:"
 msgstr "Kod:"
 
-msgid "CONFIRM"
-msgstr "TƏSDİQ EDİN"
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione məzmunu - Açmaq üçün OK düyməsini basın..."
@@ -88,26 +73,26 @@ msgstr "Altadefinizione məzmunu - Açmaq üçün OK düyməsini basın..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 məzmunu - Açmaq üçün OK düyməsini basın..."
 
-msgid "CONTENTS"
-msgstr "MÜNDƏRİCAT"
-
 msgid "Description not available."
 msgstr "Təsvir mövcud deyil."
 
-msgid "Description:\n\n%s"
-msgstr "Təsvir:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "'%s' üçün təfərrüatlar"
 
 msgid "Details not available"
 msgstr "Detallar mövcud deyil"
+
+msgid "ENTER"
+msgstr "ENTER"
+
+msgid "EXIT"
+msgstr "ÇIXIŞ"
 
 msgid "Enable debug"
 msgstr "Debaqı aktivləşdirin"
 
 msgid "Enable debug output in logs"
 msgstr "Qeydlərdə sazlama çıxışını aktivləşdirin"
-
-msgid "ENTER"
-msgstr "ENTER"
 
 msgid "Enter Captcha Code"
 msgstr "Captcha kodunu daxil edin"
@@ -127,23 +112,20 @@ msgstr "Epizodlar"
 msgid "Episodes:"
 msgstr "Epizodlar:"
 
-msgid "error"
-msgstr "səhv"
-
-msgid "Error loading captcha"
-msgstr "Detalları yükləmə xətası"
-
 msgid "Error loading CB01 series"
 msgstr "CB01 seriyasını yükləmə xətası"
-
-msgid "Error loading details"
-msgstr "Detalları yükləmə xətası"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV seriyasını yükləmə xətası"
 
 msgid "Error loading TMDB"
 msgstr "TMDB yüklənərkən xəta baş verdi"
+
+msgid "Error loading captcha"
+msgstr "Detalları yükləmə xətası"
+
+msgid "Error loading details"
+msgstr "Detalları yükləmə xətası"
 
 msgid "Error playing episode: %s"
 msgstr "Epizodu oynatma xətası: %s"
@@ -153,9 +135,6 @@ msgstr "UI yenilənərkən xəta baş verdi"
 
 msgid "Exit"
 msgstr "Çıx"
-
-msgid "EXIT"
-msgstr "ÇIXIŞ"
 
 msgid "GROUPS"
 msgstr "QRUPLAR"
@@ -171,9 +150,6 @@ msgstr "SOL/SAĞ naviqasiya | OK aç | Qruplara qayıt"
 
 msgid "Load error"
 msgstr "Yükləmə xətası"
-
-msgid "loading"
-msgstr "yüklənir"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB-dən təfərrüatlar yüklənir..."
@@ -192,9 +168,6 @@ msgstr "Göstəriləcək nəticələrin maksimum sayı"
 
 msgid "Movie History"
 msgstr "Kino Tarixi"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Movie\n\nİl: %s\n\nReytinq: %s/10\n\nJanr:\n%s\n\nOynamaq üçün YAŞIL düyməsini basın"
 
 msgid "N/A"
 msgstr "Yoxdur"
@@ -232,9 +205,6 @@ msgstr "Axın keçidləri tapılmadı"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Televiziya serialı"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nReytinq: %s\n\nYaradıcı: %s"
-
 msgid "PLAY"
 msgstr "OYNA"
 
@@ -243,9 +213,6 @@ msgstr "Oxutma xətası: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Axtarmaq üçün YAŞIL (Film) və ya SARI (TV Seriyası) düyməsini basın..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Kodu daxil etmək üçün YAŞIL düyməsini basın\nLəğv etmək üçün QIRMIZI düyməsini basın"
 
 msgid "Press GREEN to play"
 msgstr "Oynamaq üçün YAŞIL düyməsini basın"
@@ -256,11 +223,11 @@ msgstr "OK düyməsini basın"
 msgid "Press OK to view full details..."
 msgstr "Tam təfərrüatlara baxmaq üçün OK düyməsini basın..."
 
-msgid "Refresh"
-msgstr "Yeniləyin"
-
 msgid "REFRESH"
 msgstr "TƏZİL EDİN"
+
+msgid "Refresh"
+msgstr "Yeniləyin"
 
 msgid "Retry"
 msgstr "Yenidən cəhd edin"
@@ -277,11 +244,14 @@ msgstr "Axtarış Tarixçəsi"
 msgid "Search Movie"
 msgstr "Film axtar"
 
+msgid "Search TV Series"
+msgstr "Televiziya seriallarını axtarın"
+
 msgid "Search timeout"
 msgstr "Axtarış fasiləsi"
 
-msgid "Search TV Series"
-msgstr "Televiziya seriallarını axtarın"
+msgid "Searching for: '%s'"
+msgstr "Axtarılır: '%s'"
 
 msgid "Searching..."
 msgstr "Axtarılır..."
@@ -304,12 +274,6 @@ msgstr "Seriyanın URL-i tapılmadı"
 msgid "Series URL not found."
 msgstr "Seriyanın URL-i tapılmadı."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Axtarış sorğuları üçün fasilə (saniyə)"
-
-msgid "Title"
-msgstr "Başlıq"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API açarı tapılmadı"
 
@@ -322,20 +286,17 @@ msgstr "TMDB ID-si tapılmadı"
 msgid "TV Series History"
 msgstr "Televiziya serialının tarixi"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Televiziya Seriyası\n\nMövsümlər: %d\nÜmumi epizod: %d\n\nİl: %s\n\nReytinq: %s/10\n\nJanr:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Axtarış sorğuları üçün fasilə (saniyə)"
 
-msgid "TV Series\n%s"
-msgstr "TV Seriyası\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Televiziya Seriyası\nMövsümlər: %d\nÜmumi epizod: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "TV Seriyası\nMövsümlər: %d\nÜmumi epizod: %d\nOynamaq üçün YAŞIL düyməsini basın"
+msgid "Title"
+msgstr "Başlıq"
 
 msgid "Type: %s"
 msgstr "Növ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu epizod üçün yayım əldə etmək mümkün deyil"
@@ -355,9 +316,6 @@ msgstr "TMDB-dən məlumat əldə etmək mümkün deyil."
 msgid "Unknown"
 msgstr "Naməlum"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Yenilənib, %d qrup əlçatan deyil"
 
@@ -367,6 +325,200 @@ msgstr "Yenilənir"
 msgid "Updating cards %d/%d"
 msgstr "Kartlar yenilənir %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Captcha kodunu daxil etmək üçün \n pultunda rəqəmli düymələrdən istifadə edin\nYAŞIL = Təsdiq et, QIRMIZI = Ləğv et"
+msgid "[Altadefinizione] %s"
+msgstr "[Yüksək Tərifli] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "səhv"
+
+msgid "loading"
+msgstr "yüklənir"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Mövsüm məlumatı mövcud deyil"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Mövsümlər: %d\n"
+#~ "Ümumi epizod: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "İl: %s\n"
+#~ "Janr: %s\n"
+#~ "\n"
+#~ "Mövcud bağlantılar: %d\n"
+#~ "\n"
+#~ "Oynamaq üçün YAŞIL düyməsini basın"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "İl: %s\n"
+#~ "Janr: %s\n"
+#~ "\n"
+#~ "Mövcud bağlantılar: %d\n"
+#~ "\n"
+#~ "Oynamaq üçün YAŞIL düyməsini basın"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 TV Seriyası\n"
+#~ "\n"
+#~ "Mövsümlər: %d\n"
+#~ "Ümumi epizod: %d\n"
+#~ "\n"
+#~ "Oynamaq üçün YAŞIL düyməsini basın"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Təsvir:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Movie\n"
+#~ "\n"
+#~ "İl: %s\n"
+#~ "\n"
+#~ "Reytinq: %s/10\n"
+#~ "\n"
+#~ "Janr:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Oynamaq üçün YAŞIL düyməsini basın"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Reytinq: %s\n"
+#~ "\n"
+#~ "Yaradıcı: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Kodu daxil etmək üçün YAŞIL düyməsini basın\n"
+#~ "Ləğv etmək üçün QIRMIZI düyməsini basın"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Televiziya Seriyası\n"
+#~ "\n"
+#~ "Mövsümlər: %d\n"
+#~ "Ümumi epizod: %d\n"
+#~ "\n"
+#~ "İl: %s\n"
+#~ "\n"
+#~ "Reytinq: %s/10\n"
+#~ "\n"
+#~ "Janr:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV Seriyası\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Televiziya Seriyası\n"
+#~ "Mövsümlər: %d\n"
+#~ "Ümumi epizod: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "TV Seriyası\n"
+#~ "Mövsümlər: %d\n"
+#~ "Ümumi epizod: %d\n"
+#~ "Oynamaq üçün YAŞIL düyməsini basın"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Captcha kodunu daxil etmək üçün \n"
+#~ " pultunda rəqəmli düymələrdən istifadə edin\n"
+#~ "YAŞIL = Təsdiq et, QIRMIZI = Ləğv et"

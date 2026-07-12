@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d titulu"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMAK ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Bilaketa berria ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TELEBISTA ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Definizio handikoa] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nDenboraldiaren informazioa ez dago eskuragarri"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nDenboraldiak: %d\nAtalak guztira: %d"
-
-msgid "%d titles"
-msgstr "%d titulu"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 titulu"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Atalak <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Urtaroak <<<"
-
-msgid "0 titles"
-msgstr "0 titulu"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nUrtea: %s\nGeneroa: %s\n\nEstekak erabilgarri: %d\n\nSakatu BERDEA erreproduzitzeko"
 
 msgid "Available links:"
 msgstr "Eskuragarri dauden estekak:"
@@ -61,26 +46,26 @@ msgstr "Arakatu taldeak eta txartelak korritze horizontalarekin"
 msgid "CANCEL"
 msgstr "Utzi"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 erreprodukzio-errorea: %s"
+
+msgid "CONFIRM"
+msgstr "KONFIRMATU"
+
+msgid "CONTENTS"
+msgstr "EDUKIAK"
+
 msgid "Card error"
 msgstr "Txartelaren errorea"
 
 msgid "Cards updated"
 msgstr "Txartelak eguneratuta"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nUrtea: %s\nGeneroa: %s\n\nEstekak erabilgarri: %d\n\nSakatu BERDEA erreproduzitzeko"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 erreprodukzio-errorea: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 Telesaila\n\nDenboraldiak: %d\nAtal guztira: %d\n\nSakatu BERDEA erreproduzitzeko"
-
 msgid "Code:"
 msgstr "Kodea:"
 
-msgid "CONFIRM"
-msgstr "KONFIRMATU"
+msgid "Code: {self.captcha_code}"
+msgstr "Kodea: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizioneko edukia - Sakatu Ados irekitzeko..."
@@ -88,26 +73,26 @@ msgstr "Altadefinizioneko edukia - Sakatu Ados irekitzeko..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01-ko edukia - Sakatu Ados irekitzeko..."
 
-msgid "CONTENTS"
-msgstr "EDUKIAK"
-
 msgid "Description not available."
 msgstr "Deskribapena ez dago eskuragarri."
 
-msgid "Description:\n\n%s"
-msgstr "Deskribapena:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Xehetasunak: '%s'"
 
 msgid "Details not available"
 msgstr "Xehetasunak ez daude eskuragarri"
+
+msgid "ENTER"
+msgstr "SARTU"
+
+msgid "EXIT"
+msgstr "IRTEN"
 
 msgid "Enable debug"
 msgstr "Gaitu arazketa"
 
 msgid "Enable debug output in logs"
 msgstr "Gaitu arazketa-irteera erregistroetan"
-
-msgid "ENTER"
-msgstr "SARTU"
 
 msgid "Enter Captcha Code"
 msgstr "Sartu Captcha kodea"
@@ -127,23 +112,20 @@ msgstr "Pasarteak"
 msgid "Episodes:"
 msgstr "Atalak:"
 
-msgid "error"
-msgstr "akatsa"
-
-msgid "Error loading captcha"
-msgstr "Errore bat gertatu da xehetasunak kargatzean"
-
 msgid "Error loading CB01 series"
 msgstr "Errore bat gertatu da CB01 seriea kargatzean"
-
-msgid "Error loading details"
-msgstr "Errore bat gertatu da xehetasunak kargatzean"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Errore bat gertatu da OnlineSerieTV seriea kargatzean"
 
 msgid "Error loading TMDB"
 msgstr "Errore bat gertatu da TMDB kargatzean"
+
+msgid "Error loading captcha"
+msgstr "Errore bat gertatu da xehetasunak kargatzean"
+
+msgid "Error loading details"
+msgstr "Errore bat gertatu da xehetasunak kargatzean"
 
 msgid "Error playing episode: %s"
 msgstr "Errore bat gertatu da atala erreproduzitzean: %s"
@@ -153,9 +135,6 @@ msgstr "Errore bat gertatu da UI eguneratzean"
 
 msgid "Exit"
 msgstr "Irten"
-
-msgid "EXIT"
-msgstr "IRTEN"
 
 msgid "GROUPS"
 msgstr "TALDEAK"
@@ -171,9 +150,6 @@ msgstr "EZKER/ESKUINERA nabigatu | Ados ireki | GORA taldeetara itzuli"
 
 msgid "Load error"
 msgstr "Karga-errorea"
-
-msgid "loading"
-msgstr "kargatzen"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDBtik xehetasunak kargatzen..."
@@ -192,9 +168,6 @@ msgstr "Bistaratzeko gehienezko emaitza kopurua"
 
 msgid "Movie History"
 msgstr "Filmaren historia"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Filma\n\nUrtea: %s\n\nBalorazioa: %s/10\n\nGeneroa: \n%s\n\nSakatu BERDEA erreproduzitzeko"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Ez da aurkitu streaming estekarik"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Telesaila"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nBalorazioa: %s\n\nSortzailea: %s"
-
 msgid "PLAY"
 msgstr "JOLASTU"
 
@@ -243,9 +213,6 @@ msgstr "Erreprodukzio-errorea: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Sakatu BERDEA (filma) edo HORIA (telesaila) bilatzeko..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Sakatu BERDEA kodea sartzeko\nSakatu GORRIA bertan behera uzteko"
 
 msgid "Press GREEN to play"
 msgstr "Sakatu BERDEA jolasteko"
@@ -256,11 +223,11 @@ msgstr "Sakatu Ados"
 msgid "Press OK to view full details..."
 msgstr "Sakatu Ados xehetasun guztiak ikusteko..."
 
-msgid "Refresh"
-msgstr "Freskatu"
-
 msgid "REFRESH"
 msgstr "FRESKATU"
+
+msgid "Refresh"
+msgstr "Freskatu"
 
 msgid "Retry"
 msgstr "Saiatu berriro"
@@ -277,11 +244,14 @@ msgstr "Bilaketa Historia"
 msgid "Search Movie"
 msgstr "Bilatu filma"
 
+msgid "Search TV Series"
+msgstr "Bilatu telesailak"
+
 msgid "Search timeout"
 msgstr "Bilaketa denbora-muga"
 
-msgid "Search TV Series"
-msgstr "Bilatu telesailak"
+msgid "Searching for: '%s'"
+msgstr "Bilatzen: '%s'"
 
 msgid "Searching..."
 msgstr "Bilatzen..."
@@ -304,12 +274,6 @@ msgstr "Ez da aurkitu seriearen URLa"
 msgid "Series URL not found."
 msgstr "Ez da aurkitu seriearen URLa."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Bilaketa-eskaeren denbora-muga (segundo)"
-
-msgid "Title"
-msgstr "Izenburua"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API gakoa ez da aurkitu"
 
@@ -322,20 +286,17 @@ msgstr "TMDB ID ez da aurkitu"
 msgid "TV Series History"
 msgstr "Telesailaren historia"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Telesailak\n\nDenboraldiak: %d\nAtalak guztira: %d\n\nUrtea: %s\n\nBalorazioa: %s/10\n\nGeneroak: \n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Bilaketa-eskaeren denbora-muga (segundo)"
 
-msgid "TV Series\n%s"
-msgstr "Telesailak\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Telesailak\nDenboraldiak: %d\nAtal guztira: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Telesailak\nDenboraldiak: %d\nAtal guztira: %d\nSakatu BERDEA erreproduzitzeko"
+msgid "Title"
+msgstr "Izenburua"
 
 msgid "Type: %s"
 msgstr "Mota: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "GORA/BEHERA taldeak | EZKER/ESKUINERA txartelak | Ados ireki"
 
 msgid "Unable to get stream for this episode"
 msgstr "Ezin da atal honen igorpena jaso"
@@ -355,9 +316,6 @@ msgstr "Ezin da TMDBtik informazioa berreskuratu."
 msgid "Unknown"
 msgstr "Ezezaguna"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "GORA/BEHERA taldeak | EZKER/ESKUINERA txartelak | Ados ireki"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Eguneratu da, %d talde ez daude erabilgarri"
 
@@ -367,6 +325,200 @@ msgstr "Eguneratzea"
 msgid "Updating cards %d/%d"
 msgstr "%d/%d txartelak eguneratzen"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Erabili urruneko zenbakizko teklak\n captcha kodea sartzeko\nGREEN = Berretsi, GORRIA = Utzi"
+msgid "[Altadefinizione] %s"
+msgstr "[Definizio handikoa] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "akatsa"
+
+msgid "loading"
+msgstr "kargatzen"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Denboraldiaren informazioa ez dago eskuragarri"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Denboraldiak: %d\n"
+#~ "Atalak guztira: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Urtea: %s\n"
+#~ "Generoa: %s\n"
+#~ "\n"
+#~ "Estekak erabilgarri: %d\n"
+#~ "\n"
+#~ "Sakatu BERDEA erreproduzitzeko"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Urtea: %s\n"
+#~ "Generoa: %s\n"
+#~ "\n"
+#~ "Estekak erabilgarri: %d\n"
+#~ "\n"
+#~ "Sakatu BERDEA erreproduzitzeko"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Telesaila\n"
+#~ "\n"
+#~ "Denboraldiak: %d\n"
+#~ "Atal guztira: %d\n"
+#~ "\n"
+#~ "Sakatu BERDEA erreproduzitzeko"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Deskribapena:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Filma\n"
+#~ "\n"
+#~ "Urtea: %s\n"
+#~ "\n"
+#~ "Balorazioa: %s/10\n"
+#~ "\n"
+#~ "Generoa: \n"
+#~ "%s\n"
+#~ "\n"
+#~ "Sakatu BERDEA erreproduzitzeko"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Balorazioa: %s\n"
+#~ "\n"
+#~ "Sortzailea: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Sakatu BERDEA kodea sartzeko\n"
+#~ "Sakatu GORRIA bertan behera uzteko"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Telesailak\n"
+#~ "\n"
+#~ "Denboraldiak: %d\n"
+#~ "Atalak guztira: %d\n"
+#~ "\n"
+#~ "Urtea: %s\n"
+#~ "\n"
+#~ "Balorazioa: %s/10\n"
+#~ "\n"
+#~ "Generoak: \n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Telesailak\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Telesailak\n"
+#~ "Denboraldiak: %d\n"
+#~ "Atal guztira: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Telesailak\n"
+#~ "Denboraldiak: %d\n"
+#~ "Atal guztira: %d\n"
+#~ "Sakatu BERDEA erreproduzitzeko"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Erabili urruneko zenbakizko teklak\n"
+#~ " captcha kodea sartzeko\n"
+#~ "GREEN = Berretsi, GORRIA = Utzi"
