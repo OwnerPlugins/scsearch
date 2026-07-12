@@ -1,27 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# pl translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:17+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: pl <ekekaz@gmail.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-msgid "%d titles"
-msgstr "%d tytułów"
-
-msgid "%s %s"
-msgstr "%SS"
 
 msgid "--- MOVIES ---"
 msgstr "--- FILMY ---"
@@ -32,14 +22,35 @@ msgstr "--- Nowe wyszukiwanie ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SERIAL TELEWIZYJNY ---"
 
-msgid "0 titles"
-msgstr "0 tytułów"
+msgid "[Altadefinizione] %s"
+msgstr "[Wysoka rozdzielczość] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nInformacje o sezonie są niedostępne"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nSezony: %d\nWszystkie odcinki: %d"
+
+msgid "%d titles"
+msgstr "%d tytułów"
+
+msgid "%s %s"
+msgstr "%SS"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Odcinki <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Pory roku <<<"
+
+msgid "0 titles"
+msgstr "0 tytułów"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nRok: %s\nGatunek: %s\n\nDostępne linki: %d\n\nNaciśnij ZIELONY, aby odtworzyć"
 
 msgid "Available links:"
 msgstr "Dostępne linki:"
@@ -50,26 +61,26 @@ msgstr "Przeglądaj grupy i karty za pomocą przewijania w poziomie"
 msgid "CANCEL"
 msgstr "ANULOWAĆ"
 
-msgid "CB01 playback error: %s"
-msgstr "Błąd odtwarzania CB01: %s"
-
-msgid "CONFIRM"
-msgstr "POTWIERDZAĆ"
-
-msgid "CONTENTS"
-msgstr "ZAWARTOŚĆ"
-
 msgid "Card error"
 msgstr "Błąd karty"
 
 msgid "Cards updated"
 msgstr "Karty zaktualizowane"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Film\n\nRok: %s\nGatunek: %s\n\nDostępne linki: %d\n\nNaciśnij ZIELONY, aby odtworzyć"
+
+msgid "CB01 playback error: %s"
+msgstr "Błąd odtwarzania CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 Seriale telewizyjne\n\nSezony: %d\nWszystkie odcinki: %d\n\nNaciśnij ZIELONY, aby odtworzyć"
+
 msgid "Code:"
 msgstr "Kod:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kod: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "POTWIERDZAĆ"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Treść z Altadefinizione - Naciśnij OK, aby otworzyć..."
@@ -77,20 +88,17 @@ msgstr "Treść z Altadefinizione - Naciśnij OK, aby otworzyć..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Treść z CB01 - Naciśnij OK, aby otworzyć..."
 
+msgid "CONTENTS"
+msgstr "ZAWARTOŚĆ"
+
 msgid "Description not available."
 msgstr "Opis niedostępny."
 
-msgid "Details for: '%s'"
-msgstr "Szczegóły dla: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Opis:\n\n%s"
 
 msgid "Details not available"
 msgstr "Szczegóły niedostępne"
-
-msgid "ENTER"
-msgstr "WCHODZIĆ"
-
-msgid "EXIT"
-msgstr "WYJŚCIE"
 
 msgid "Enable debug"
 msgstr "Włącz debugowanie"
@@ -98,10 +106,12 @@ msgstr "Włącz debugowanie"
 msgid "Enable debug output in logs"
 msgstr "Włącz dane wyjściowe debugowania w dziennikach"
 
+msgid "ENTER"
+msgstr "WCHODZIĆ"
+
 msgid "Enter Captcha Code"
 msgstr "Wprowadź kod Captcha"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Wprowadź kod Captcha"
 
@@ -117,21 +127,23 @@ msgstr "Odcinki"
 msgid "Episodes:"
 msgstr "Odcinki:"
 
+msgid "error"
+msgstr "błąd"
+
+msgid "Error loading captcha"
+msgstr "Błąd podczas ładowania szczegółów"
+
 msgid "Error loading CB01 series"
 msgstr "Błąd ładowania serii CB01"
+
+msgid "Error loading details"
+msgstr "Błąd podczas ładowania szczegółów"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Błąd podczas ładowania serialu OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Błąd ładowania TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Błąd podczas ładowania szczegółów"
-
-msgid "Error loading details"
-msgstr "Błąd podczas ładowania szczegółów"
 
 msgid "Error playing episode: %s"
 msgstr "Błąd podczas odtwarzania odcinka: %s"
@@ -141,6 +153,9 @@ msgstr "Błąd aktualizacji interfejsu użytkownika"
 
 msgid "Exit"
 msgstr "Wyjście"
+
+msgid "EXIT"
+msgstr "WYJŚCIE"
 
 msgid "GROUPS"
 msgstr "GRUPY"
@@ -156,6 +171,9 @@ msgstr "W LEWO/PRAWO nawigacja | OK, otwórz | W GÓRĘ wróć do grup"
 
 msgid "Load error"
 msgstr "Błąd ładowania"
+
+msgid "loading"
+msgstr "załadunek"
 
 msgid "Loading details from TMDB..."
 msgstr "Ładowanie szczegółów z TMDB..."
@@ -174,6 +192,9 @@ msgstr "Maksymalna liczba wyników do wyświetlenia"
 
 msgid "Movie History"
 msgstr "Historia filmu"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Film\n\nRok: %s\n\nOcena: %s/10\n\nGatunki:\n%s\n\nNaciśnij ZIELONY, aby odtworzyć"
 
 msgid "N/A"
 msgstr "Nie dotyczy"
@@ -205,12 +226,14 @@ msgstr "Brak wyników na stronie SC."
 msgid "No streaming links found"
 msgstr "Nie znaleziono linków do transmisji strumieniowej"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Nie znaleziono linków do transmisji strumieniowej"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - seriale telewizyjne"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nOcena: %s\n\nTwórca: %s"
 
 msgid "PLAY"
 msgstr "GRAĆ"
@@ -221,6 +244,9 @@ msgstr "Błąd odtwarzania: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Naciśnij ZIELONY (film) lub ŻÓŁTY (seria TV), aby wyszukać..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Naciśnij ZIELONY, aby wprowadzić kod\nNaciśnij CZERWONY, aby anulować"
+
 msgid "Press GREEN to play"
 msgstr "Naciśnij ZIELONY, aby zagrać"
 
@@ -230,17 +256,17 @@ msgstr "Naciśnij OK"
 msgid "Press OK to view full details..."
 msgstr "Naciśnij OK, aby wyświetlić wszystkie szczegóły..."
 
-msgid "REFRESH"
-msgstr "ODŚWIEŻAĆ"
-
 msgid "Refresh"
 msgstr "Odświeżać"
+
+msgid "REFRESH"
+msgstr "ODŚWIEŻAĆ"
 
 msgid "Retry"
 msgstr "Spróbować ponownie"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "SZUKAJ"
@@ -251,14 +277,11 @@ msgstr "Historia wyszukiwania"
 msgid "Search Movie"
 msgstr "Wyszukaj film"
 
-msgid "Search TV Series"
-msgstr "Wyszukaj seriale telewizyjne"
-
 msgid "Search timeout"
 msgstr "Przekroczono limit czasu wyszukiwania"
 
-msgid "Searching for: '%s'"
-msgstr "Wyszukiwanie: „%s”"
+msgid "Search TV Series"
+msgstr "Wyszukaj seriale telewizyjne"
 
 msgid "Searching..."
 msgstr "Badawczy..."
@@ -281,6 +304,12 @@ msgstr "Nie znaleziono adresu URL serii"
 msgid "Series URL not found."
 msgstr "Nie znaleziono adresu URL serii."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Limit czasu dla żądań wyszukiwania (sekundy)"
+
+msgid "Title"
+msgstr "Tytuł"
+
 msgid "TMDB API key not found"
 msgstr "Nie znaleziono klucza API TMDB"
 
@@ -293,17 +322,20 @@ msgstr "Nie znaleziono identyfikatora TMDB"
 msgid "TV Series History"
 msgstr "Historia seriali telewizyjnych"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Limit czasu dla żądań wyszukiwania (sekundy)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Seriale telewizyjne\n\nSezony: %d\nŁączna liczba odcinków: %d\n\nRok: %s\n\nOcena: %s/10\n\nGatunki:\n%s"
 
-msgid "Title"
-msgstr "Tytuł"
+msgid "TV Series\n%s"
+msgstr "Seriale telewizyjne\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "Seriale telewizyjne\nSezony: %d\nWszystkie odcinki: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "Seriale telewizyjne\nSezony: %d\nWszystkie odcinki: %d\nNaciśnij ZIELONY, aby odtworzyć"
 
 msgid "Type: %s"
 msgstr "Wpisz: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupy GÓRA/DÓŁ | Karty LEWE/PRAWE | OK, otwórz"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nie można pobrać transmisji tego odcinka"
@@ -323,6 +355,9 @@ msgstr "Nie można pobrać informacji z TMDB."
 msgid "Unknown"
 msgstr "Nieznany"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grupy GÓRA/DÓŁ | Karty LEWE/PRAWE | OK, otwórz"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Zaktualizowano, %d grup jest niedostępnych"
 
@@ -332,20 +367,6 @@ msgstr "Aktualizowanie"
 msgid "Updating cards %d/%d"
 msgstr "Aktualizowanie kart %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Wysoka rozdzielczość] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Użyj klawiszy numerycznych na pilocie\n, aby wprowadzić kod captcha\nZIELONY = Potwierdź, CZERWONY = Anuluj"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "błąd"
-
-msgid "loading"
-msgstr "załadunek"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione błąd odtwarzania: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Nie znaleziono odcinka Altadefinizione"

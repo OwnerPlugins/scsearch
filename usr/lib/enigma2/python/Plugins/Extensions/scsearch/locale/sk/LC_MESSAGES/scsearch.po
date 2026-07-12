@@ -1,27 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# sk translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:25+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: sk <ekekaz@gmail.com>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-
-msgid "%d titles"
-msgstr "%d titulov"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- FILMY ---"
@@ -32,14 +22,35 @@ msgstr "--- Nové vyhľadávanie ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV SERIÁL ---"
 
-msgid "0 titles"
-msgstr "0 titulov"
+msgid "[Altadefinizione] %s"
+msgstr "[Vysoké rozlíšenie] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nInformácie o sezóne nie sú k dispozícii"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nSezóny: %d\nCelkový počet epizód: %d"
+
+msgid "%d titles"
+msgstr "%d titulov"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizódy <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Ročné obdobia <<<"
+
+msgid "0 titles"
+msgstr "0 titulov"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nRok: %s\nŽáner: %s\n\nDostupné odkazy: %d\n\nStlačte ZELENÉ tlačidlo pre prehrávanie"
 
 msgid "Available links:"
 msgstr "Dostupné odkazy:"
@@ -50,26 +61,26 @@ msgstr "Prehliadajte skupiny a karty s horizontálnym posúvaním"
 msgid "CANCEL"
 msgstr "ZRUŠIŤ"
 
-msgid "CB01 playback error: %s"
-msgstr "Chyba prehrávania CB01: %s"
-
-msgid "CONFIRM"
-msgstr "POTVRDIŤ"
-
-msgid "CONTENTS"
-msgstr "OBSAH"
-
 msgid "Card error"
 msgstr "Chyba karty"
 
 msgid "Cards updated"
 msgstr "Karty boli aktualizované"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nRok: %s\nŽáner: %s\n\nDostupné odkazy: %d\n\nStlačte ZELENÉ tlačidlo pre prehrávanie"
+
+msgid "CB01 playback error: %s"
+msgstr "Chyba prehrávania CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "Televízny seriál CB01\n\nSérie: %d\nCelkový počet epizód: %d\n\nStlačte ZELENÉ tlačidlo pre prehrávanie"
+
 msgid "Code:"
 msgstr "kód:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kód: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "POTVRDIŤ"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Obsah z Altadefinizione - Stlačením tlačidla OK otvoríte..."
@@ -77,20 +88,17 @@ msgstr "Obsah z Altadefinizione - Stlačením tlačidla OK otvoríte..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Obsah z CB01 - Stlačením tlačidla OK otvoríte..."
 
+msgid "CONTENTS"
+msgstr "OBSAH"
+
 msgid "Description not available."
 msgstr "Popis nie je k dispozícii."
 
-msgid "Details for: '%s'"
-msgstr "Podrobnosti pre: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Popis:\n\n%s"
 
 msgid "Details not available"
 msgstr "Podrobnosti nie sú k dispozícii"
-
-msgid "ENTER"
-msgstr ""
-
-msgid "EXIT"
-msgstr "VÝCHOD"
 
 msgid "Enable debug"
 msgstr "Povoliť ladenie"
@@ -98,10 +106,12 @@ msgstr "Povoliť ladenie"
 msgid "Enable debug output in logs"
 msgstr "Povoliť výstup ladenia v denníkoch"
 
+msgid "ENTER"
+msgstr "ENTER"
+
 msgid "Enter Captcha Code"
 msgstr "Zadajte kód Captcha"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Zadajte kód Captcha"
 
@@ -117,21 +127,23 @@ msgstr "Epizódy"
 msgid "Episodes:"
 msgstr "Epizódy:"
 
+msgid "error"
+msgstr "chyba"
+
+msgid "Error loading captcha"
+msgstr "Chyba pri načítavaní podrobností"
+
 msgid "Error loading CB01 series"
 msgstr "Chyba pri načítavaní série CB01"
+
+msgid "Error loading details"
+msgstr "Chyba pri načítavaní podrobností"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Chyba pri načítavaní seriálu OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Chyba pri načítavaní TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Chyba pri načítavaní podrobností"
-
-msgid "Error loading details"
-msgstr "Chyba pri načítavaní podrobností"
 
 msgid "Error playing episode: %s"
 msgstr "Chyba pri prehrávaní epizódy: %s"
@@ -140,6 +152,9 @@ msgid "Error updating UI"
 msgstr "Chyba pri aktualizácii používateľského rozhrania"
 
 msgid "Exit"
+msgstr "VÝCHOD"
+
+msgid "EXIT"
 msgstr "VÝCHOD"
 
 msgid "GROUPS"
@@ -156,6 +171,9 @@ msgstr "navigácia DOĽAVA/DOPRAVA | OK otvoriť | HORE späť na skupiny"
 
 msgid "Load error"
 msgstr "Chyba načítania"
+
+msgid "loading"
+msgstr "načítavanie"
 
 msgid "Loading details from TMDB..."
 msgstr "Načítavajú sa podrobnosti z TMDB..."
@@ -175,8 +193,11 @@ msgstr "Maximálny počet výsledkov na zobrazenie"
 msgid "Movie History"
 msgstr "História filmu"
 
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Film\n\nRok: %s\n\nHodnotenie: %s/10\n\nŽánre:\n%s\n\nStlačte ZELENÉ tlačidlo pre prehrávanie"
+
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "New search..."
 msgstr "Nové vyhľadávanie..."
@@ -205,12 +226,14 @@ msgstr "Na SC sa nenašli žiadne výsledky."
 msgid "No streaming links found"
 msgstr "Nenašli sa žiadne odkazy na streamovanie"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Nenašli sa žiadne odkazy na streamovanie"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - televízny seriál"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nHodnotenie: %s\n\nTvorca: %s"
 
 msgid "PLAY"
 msgstr "HRAŤ"
@@ -221,6 +244,9 @@ msgstr "Chyba prehrávania: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Stlačte ZELENÉ (Film) alebo ŽLTÉ (TV seriál) a vyhľadajte..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Stlačením ZELEného tlačidla zadajte kód\nStlačte ČERVENÉ pre zrušenie"
+
 msgid "Press GREEN to play"
 msgstr "Pre prehrávanie stlačte ZELENÉ tlačidlo"
 
@@ -230,17 +256,17 @@ msgstr "Stlačte OK"
 msgid "Press OK to view full details..."
 msgstr "Stlačením OK zobrazíte všetky podrobnosti..."
 
-msgid "REFRESH"
-msgstr "OBNOVIŤ"
-
 msgid "Refresh"
 msgstr "Obnoviť"
+
+msgid "REFRESH"
+msgstr "OBNOVIŤ"
 
 msgid "Retry"
 msgstr "Skúste to znova"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "HĽADAŤ"
@@ -251,14 +277,11 @@ msgstr "História vyhľadávania"
 msgid "Search Movie"
 msgstr "Hľadať film"
 
-msgid "Search TV Series"
-msgstr "Vyhľadajte televízny seriál"
-
 msgid "Search timeout"
 msgstr "Časový limit vyhľadávania"
 
-msgid "Searching for: '%s'"
-msgstr "Hľadá sa: '%s'"
+msgid "Search TV Series"
+msgstr "Vyhľadajte televízny seriál"
 
 msgid "Searching..."
 msgstr "Hľadá sa..."
@@ -281,6 +304,12 @@ msgstr "Adresa URL série sa nenašla"
 msgid "Series URL not found."
 msgstr "Adresa URL série sa nenašla."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Časový limit pre žiadosti o vyhľadávanie (v sekundách)"
+
+msgid "Title"
+msgstr "Názov"
+
 msgid "TMDB API key not found"
 msgstr "Kľúč API TMDB sa nenašiel"
 
@@ -293,17 +322,20 @@ msgstr "ID TMDB sa nenašlo"
 msgid "TV Series History"
 msgstr "História televíznych seriálov"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Časový limit pre žiadosti o vyhľadávanie (v sekundách)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Televízny seriál\n\nSérie: %d\nCelkový počet epizód: %d\n\nRok: %s\n\nHodnotenie: %s/10\n\nŽánre:\n%s"
 
-msgid "Title"
-msgstr "Názov"
+msgid "TV Series\n%s"
+msgstr "Televízny seriál\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "TV seriál\nSezóny: %d\nCelkový počet epizód: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV seriál\nSérie: %d\nCelkový počet epizód: %d\nStlačte ZELENÉ tlačidlo pre prehrávanie"
 
 msgid "Type: %s"
 msgstr "Typ: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN skupiny | LEFT/RIGHT pohľadnice | OK otvorené"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nie je možné získať stream pre túto epizódu"
@@ -323,6 +355,9 @@ msgstr "Nie je možné získať informácie z TMDB."
 msgid "Unknown"
 msgstr "Neznámy"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN skupiny | LEFT/RIGHT pohľadnice | OK otvorené"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Aktualizované, %d skupiny nedostupné"
 
@@ -332,20 +367,6 @@ msgstr "Aktualizuje sa"
 msgid "Updating cards %d/%d"
 msgstr "Aktualizujú sa karty %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Vysoké rozlíšenie] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Pomocou číselných tlačidiel na diaľkovom ovládači \n zadajte kód captcha\n ZELENÉ = Potvrdiť, ČERVENÉ = Zrušiť"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "chyba"
-
-msgid "loading"
-msgstr "načítavanie"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Chyba prehrávania Altadefinizeone: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Nenašla sa žiadna epizóda Altadefinizione"

@@ -1,27 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# no translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:12+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Norwegian\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: no <ekekaz@gmail.com>\n"
 "Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-msgid "%d titles"
-msgstr "%d titler"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- FILMER ---"
@@ -32,14 +22,35 @@ msgstr "--- Nytt søk ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV-SERIE ---"
 
-msgid "0 titles"
-msgstr "0 titler"
+msgid "[Altadefinizione] %s"
+msgstr "[Høydefinisjon] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nSesonginformasjon ikke tilgjengelig"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nSesonger: %d\nTotalt episoder: %d"
+
+msgid "%d titles"
+msgstr "%d titler"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episoder <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Årstider <<<"
+
+msgid "0 titles"
+msgstr "0 titler"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nÅr: %s\nSjanger: %s\n\nLinker tilgjengelig: %d\n\nTrykk GRØNN for å spille av"
 
 msgid "Available links:"
 msgstr "Tilgjengelige lenker:"
@@ -50,26 +61,26 @@ msgstr "Bla gjennom grupper og kort med horisontal rulling"
 msgid "CANCEL"
 msgstr "KANSELLERE"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01-avspillingsfeil: %s"
-
-msgid "CONFIRM"
-msgstr "BEKREFTE"
-
-msgid "CONTENTS"
-msgstr "INNHOLD"
-
 msgid "Card error"
 msgstr "Kortfeil"
 
 msgid "Cards updated"
 msgstr "Kortene er oppdatert"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nÅr: %s\nSjanger: %s\n\nLinker tilgjengelig: %d\n\nTrykk GRØNN for å spille av"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01-avspillingsfeil: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 TV-serie\n\nSesonger: %d\nTotalt episoder: %d\n\nTrykk GRØNN for å spille av"
+
 msgid "Code:"
 msgstr "Kode:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kode: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "BEKREFTE"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Innhold fra Altadefinizione - Trykk OK for å åpne..."
@@ -77,20 +88,17 @@ msgstr "Innhold fra Altadefinizione - Trykk OK for å åpne..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Innhold fra CB01 - Trykk OK for å åpne..."
 
+msgid "CONTENTS"
+msgstr "INNHOLD"
+
 msgid "Description not available."
 msgstr "Beskrivelse ikke tilgjengelig."
 
-msgid "Details for: '%s'"
-msgstr "Detaljer for: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Beskrivelse:\n\n%s"
 
 msgid "Details not available"
 msgstr "Detaljer ikke tilgjengelig"
-
-msgid "ENTER"
-msgstr "GÅ"
-
-msgid "EXIT"
-msgstr "GÅ"
 
 msgid "Enable debug"
 msgstr "Aktiver feilsøking"
@@ -98,18 +106,20 @@ msgstr "Aktiver feilsøking"
 msgid "Enable debug output in logs"
 msgstr "Aktiver feilsøkingsutdata i logger"
 
+msgid "ENTER"
+msgstr "GÅ"
+
 msgid "Enter Captcha Code"
 msgstr "Skriv inn Captcha-kode"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Skriv inn Captcha-kode"
 
 msgid "Episode %d"
-msgstr ""
+msgstr "Episode %d"
 
 msgid "Episode %d: %s"
-msgstr ""
+msgstr "Episode %d: %s"
 
 msgid "Episodes"
 msgstr "Episoder"
@@ -117,21 +127,23 @@ msgstr "Episoder"
 msgid "Episodes:"
 msgstr "Episoder:"
 
+msgid "error"
+msgstr "feil"
+
+msgid "Error loading captcha"
+msgstr "Feil ved innlasting av detaljer"
+
 msgid "Error loading CB01 series"
 msgstr "Feil ved innlasting av CB01-serien"
+
+msgid "Error loading details"
+msgstr "Feil ved innlasting av detaljer"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Feil ved innlasting av OnlineSerieTV-serien"
 
 msgid "Error loading TMDB"
 msgstr "Feil ved innlasting av TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Feil ved innlasting av detaljer"
-
-msgid "Error loading details"
-msgstr "Feil ved innlasting av detaljer"
 
 msgid "Error playing episode: %s"
 msgstr "Feil ved avspilling av episode: %s"
@@ -141,6 +153,9 @@ msgstr "Feil under oppdatering av brukergrensesnittet"
 
 msgid "Exit"
 msgstr "Gå"
+
+msgid "EXIT"
+msgstr "GÅ"
 
 msgid "GROUPS"
 msgstr "GRUPPER"
@@ -156,6 +171,9 @@ msgstr "VENSTRE/HØYRE naviger | OK åpen | OPP tilbake til grupper"
 
 msgid "Load error"
 msgstr "Last feil"
+
+msgid "loading"
+msgstr "lasting"
 
 msgid "Loading details from TMDB..."
 msgstr "Laster inn detaljer fra TMDB..."
@@ -175,8 +193,11 @@ msgstr "Maksimalt antall resultater å vise"
 msgid "Movie History"
 msgstr "Filmhistorie"
 
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Film\n\nÅr: %s\n\nVurdering: %s/10\n\nSjangre:\n%s\n\nTrykk GRØNN for å spille av"
+
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "New search..."
 msgstr "Nytt søk..."
@@ -205,12 +226,14 @@ msgstr "Ingen resultater funnet på SC."
 msgid "No streaming links found"
 msgstr "Fant ingen lenker for strømming"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Fant ingen lenker for strømming"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV-serie"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nVurdering: %s\n\nSkaper: %s"
 
 msgid "PLAY"
 msgstr "SPILLE"
@@ -221,6 +244,9 @@ msgstr "Avspillingsfeil: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Trykk GRØNN (film) eller GUL (TV-serie) for å søke..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Trykk GRØNN for å angi koden\nTrykk RØD for å avbryte"
+
 msgid "Press GREEN to play"
 msgstr "Trykk GRØNN for å spille"
 
@@ -230,17 +256,17 @@ msgstr "Trykk OK"
 msgid "Press OK to view full details..."
 msgstr "Trykk OK for å se alle detaljer..."
 
-msgid "REFRESH"
-msgstr "FORFRISKE"
-
 msgid "Refresh"
 msgstr "Forfriske"
+
+msgid "REFRESH"
+msgstr "FORFRISKE"
 
 msgid "Retry"
 msgstr "Prøv på nytt"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "SØK"
@@ -251,14 +277,11 @@ msgstr "Søkehistorikk"
 msgid "Search Movie"
 msgstr "Søk film"
 
-msgid "Search TV Series"
-msgstr "Søk etter TV-serier"
-
 msgid "Search timeout"
 msgstr "Tidsavbrudd for søk"
 
-msgid "Searching for: '%s'"
-msgstr "Søker etter: '%s'"
+msgid "Search TV Series"
+msgstr "Søk etter TV-serier"
 
 msgid "Searching..."
 msgstr "Søker..."
@@ -281,6 +304,12 @@ msgstr "Seriens URL ikke funnet"
 msgid "Series URL not found."
 msgstr "Seriens URL ikke funnet."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Tidsavbrudd for søkeforespørsler (sekunder)"
+
+msgid "Title"
+msgstr "Tittel"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API-nøkkel ble ikke funnet"
 
@@ -293,17 +322,20 @@ msgstr "TMDB ID ikke funnet"
 msgid "TV Series History"
 msgstr "TV-seriehistorie"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Tidsavbrudd for søkeforespørsler (sekunder)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "TV-serie\n\nSesonger: %d\nTotalt episoder: %d\n\nÅr: %s\n\nVurdering: %s/10\n\nSjangre:\n%s"
 
-msgid "Title"
-msgstr "Tittel"
+msgid "TV Series\n%s"
+msgstr "TV-serie\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "TV-serie\nSesonger: %d\nTotalt episoder: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV-serie\nSesonger: %d\nTotalt episoder: %d\nTrykk GRØNN for å spille av"
 
 msgid "Type: %s"
-msgstr ""
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "OPP/NED grupper | VENSTRE/HØYRE kort | OK åpen"
+msgstr "Type: %s"
 
 msgid "Unable to get stream for this episode"
 msgstr "Kan ikke hente strøm for denne episoden"
@@ -323,6 +355,9 @@ msgstr "Kan ikke hente informasjon fra TMDB."
 msgid "Unknown"
 msgstr "Ukjent"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "OPP/NED grupper | VENSTRE/HØYRE kort | OK åpen"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Oppdatert, %d grupper er ikke tilgjengelig"
 
@@ -332,20 +367,6 @@ msgstr "Oppdaterer"
 msgid "Updating cards %d/%d"
 msgstr "Oppdaterer kort %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Høydefinisjon] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Bruk de numeriske tastene på fjernkontrollen\nfor å skrive inn captcha-koden\nGREEN = Bekreft, RØD = Avbryt"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "feil"
-
-msgid "loading"
-msgstr "lasting"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione avspillingsfeil: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Ingen Altadefinizione-episode funnet"

@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# cy translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 11:07+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Welsh\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: cy <ekekaz@gmail.com>\n"
 "Language: cy\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d teitl"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- Ffilmiau ---"
@@ -31,14 +22,35 @@ msgstr "--- Chwiliad newydd ---"
 msgid "--- TV SERIES ---"
 msgstr "--- CYFRES Deledu ---"
 
-msgid "0 titles"
-msgstr "0 teitl"
+msgid "[Altadefinizione] %s"
+msgstr "[Diffiniad Uchel] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nNid yw gwybodaeth y tymor ar gael"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nSeasons: %d\nCyfanswm penodau: %d"
+
+msgid "%d titles"
+msgstr "%d teitl"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Penodau <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Tymhorau <<<"
+
+msgid "0 titles"
+msgstr "0 teitl"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nDolenni ar gael: %d\n\nPwyswch GREEN i chwarae"
 
 msgid "Available links:"
 msgstr "Dolenni ar gael:"
@@ -49,26 +61,26 @@ msgstr "Pori grwpiau a chardiau gyda sgrolio llorweddol"
 msgid "CANCEL"
 msgstr "CANSLO"
 
-msgid "CB01 playback error: %s"
-msgstr "Gwall chwarae CB01: %s"
-
-msgid "CONFIRM"
-msgstr "CADARNHAU"
-
-msgid "CONTENTS"
-msgstr "CYNNWYS"
-
 msgid "Card error"
 msgstr "Gwall cerdyn"
 
 msgid "Cards updated"
 msgstr "Cardiau wedi'u diweddaru"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nYear: %s\nGenre: %s\n\nDolenni ar gael: %d\n\nPwyswch GREEN i chwarae"
+
+msgid "CB01 playback error: %s"
+msgstr "Gwall chwarae CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 TV Series\n\nSeasons: %d\nCyfanswm penodau: %d\n\nPwyswch GREEN i chwarae"
+
 msgid "Code:"
 msgstr "Cod:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Cod: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "CADARNHAU"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Cynnwys o Altadefinizione - Pwyswch OK i agor..."
@@ -76,20 +88,17 @@ msgstr "Cynnwys o Altadefinizione - Pwyswch OK i agor..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Cynnwys o CB01 - Pwyswch OK i agor..."
 
+msgid "CONTENTS"
+msgstr "CYNNWYS"
+
 msgid "Description not available."
 msgstr "Disgrifiad ddim ar gael."
 
-msgid "Details for: '%s'"
-msgstr "Manylion ar gyfer: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Disgrifiad:\n\n%s"
 
 msgid "Details not available"
 msgstr "Manylion ddim ar gael"
-
-msgid "ENTER"
-msgstr "ENWCH"
-
-msgid "EXIT"
-msgstr "YMADAEL"
 
 msgid "Enable debug"
 msgstr "Galluogi dadfygio"
@@ -97,10 +106,12 @@ msgstr "Galluogi dadfygio"
 msgid "Enable debug output in logs"
 msgstr "Galluogi allbwn dadfygio mewn logiau"
 
+msgid "ENTER"
+msgstr "ENWCH"
+
 msgid "Enter Captcha Code"
 msgstr "Rhowch y Cod Captcha"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Rhowch y Cod Captcha"
 
@@ -116,21 +127,23 @@ msgstr "Penodau"
 msgid "Episodes:"
 msgstr "Penodau:"
 
+msgid "error"
+msgstr "gwall"
+
+msgid "Error loading captcha"
+msgstr "Gwall wrth lwytho'r manylion"
+
 msgid "Error loading CB01 series"
 msgstr "Gwall wrth lwytho cyfres CB01"
+
+msgid "Error loading details"
+msgstr "Gwall wrth lwytho'r manylion"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Gwall wrth lwytho cyfresi OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Gwall wrth lwytho TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Gwall wrth lwytho'r manylion"
-
-msgid "Error loading details"
-msgstr "Gwall wrth lwytho'r manylion"
 
 msgid "Error playing episode: %s"
 msgstr "Gwall wrth chwarae pennod: %s"
@@ -140,6 +153,9 @@ msgstr "Gwall wrth ddiweddaru'r UI"
 
 msgid "Exit"
 msgstr "Ymadael"
+
+msgid "EXIT"
+msgstr "YMADAEL"
 
 msgid "GROUPS"
 msgstr "GRWPIAU"
@@ -155,6 +171,9 @@ msgstr "llywio CHWITH/DE | Iawn agor | UP yn ôl i grwpiau"
 
 msgid "Load error"
 msgstr "Gwall llwytho"
+
+msgid "loading"
+msgstr "llwytho"
 
 msgid "Loading details from TMDB..."
 msgstr "Wrthi'n llwytho manylion o TMDB..."
@@ -173,6 +192,9 @@ msgstr "Uchafswm nifer y canlyniadau i'w dangos"
 
 msgid "Movie History"
 msgstr "Hanes Ffilm"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPwyswch GREEN i chwarae"
 
 msgid "N/A"
 msgstr "Amh"
@@ -204,12 +226,14 @@ msgstr "Ni chanfuwyd unrhyw ganlyniadau ar SC."
 msgid "No streaming links found"
 msgstr "Heb ganfod dolenni ffrydio"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Heb ganfod dolenni ffrydio"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Cyfres Deledu"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nRating: %s\n\nCrëwr: %s"
 
 msgid "PLAY"
 msgstr "CHWARAE"
@@ -220,6 +244,9 @@ msgstr "Gwall chwarae: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pwyswch GREEN (Ffilm) neu MELYN (Cyfres Deledu) i chwilio..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Pwyswch GREEN i fewnbynnu'r cod\nPwyswch RED i ganslo"
+
 msgid "Press GREEN to play"
 msgstr "Pwyswch GREEN i chwarae"
 
@@ -229,17 +256,17 @@ msgstr "Pwyswch OK"
 msgid "Press OK to view full details..."
 msgstr "Pwyswch OK i weld y manylion llawn..."
 
-msgid "REFRESH"
-msgstr "DIWYGIO"
-
 msgid "Refresh"
 msgstr "Adnewyddu"
+
+msgid "REFRESH"
+msgstr "DIWYGIO"
 
 msgid "Retry"
 msgstr "Ceisiwch eto"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "CHWILIO"
@@ -250,14 +277,11 @@ msgstr "Hanes Chwilio"
 msgid "Search Movie"
 msgstr "Chwilio Ffilm"
 
-msgid "Search TV Series"
-msgstr "Chwilio Cyfres Deledu"
-
 msgid "Search timeout"
 msgstr "Goramser chwilio"
 
-msgid "Searching for: '%s'"
-msgstr "Chwilio am: '%s'"
+msgid "Search TV Series"
+msgstr "Chwilio Cyfres Deledu"
 
 msgid "Searching..."
 msgstr "Wrthi'n chwilio..."
@@ -280,6 +304,12 @@ msgstr "URL y gyfres heb ei ganfod"
 msgid "Series URL not found."
 msgstr "URL y gyfres heb ei ganfod."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Cyfnod terfyn ar gyfer ceisiadau chwilio (eiliadau)"
+
+msgid "Title"
+msgstr "Teitl"
+
 msgid "TMDB API key not found"
 msgstr "Heb ganfod allwedd API TMDB"
 
@@ -292,17 +322,20 @@ msgstr "ID TMDB heb ei ganfod"
 msgid "TV Series History"
 msgstr "Hanes Cyfres Deledu"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Cyfnod terfyn ar gyfer ceisiadau chwilio (eiliadau)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "TV Series\n\nSeasons: %d\nCyfanswm penodau: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
 
-msgid "Title"
-msgstr "Teitl"
+msgid "TV Series\n%s"
+msgstr "Cyfres Deledu\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "TV Series\nSeasons: %d\nCyfanswm penodau: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV Series\nSeasons: %d\nCyfanswm penodau: %d\nPwyswch GREEN i chwarae"
 
 msgid "Type: %s"
 msgstr "Math: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grwpiau I FYNY/I LAWR | Cardiau CHWITH/DE | Iawn agor"
 
 msgid "Unable to get stream for this episode"
 msgstr "Methu cael ffrwd ar gyfer y bennod hon"
@@ -322,6 +355,9 @@ msgstr "Methu adalw gwybodaeth o TMDB."
 msgid "Unknown"
 msgstr "Anhysbys"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grwpiau I FYNY/I LAWR | Cardiau CHWITH/DE | Iawn agor"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Wedi'i ddiweddaru, %d grŵp ddim ar gael"
 
@@ -331,20 +367,6 @@ msgstr "Yn diweddaru"
 msgid "Updating cards %d/%d"
 msgstr "Wrthi'n diweddaru cardiau %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Diffiniad Uchel] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Defnyddiwch y bysellau rhifol ar yr remote\n i fewnbynnu'r cod captcha\nGREEN = Cadarnhau, RED = Diddymu"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "gwall"
-
-msgid "loading"
-msgstr "llwytho"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Gwall chwarae altadefinizione: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Ni chanfuwyd pennod Altadefinizione"

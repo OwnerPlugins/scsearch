@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# zh translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:57+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Chinese\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: zh <ekekaz@gmail.com>\n"
 "Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d 个标题"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- 电影 ---"
@@ -31,14 +22,35 @@ msgstr "--- 新搜索 ---"
 msgid "--- TV SERIES ---"
 msgstr "--- 电视剧 ---"
 
-msgid "0 titles"
-msgstr "0 标题"
+msgid "[Altadefinizione] %s"
+msgstr "[高清] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01]%s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\n季节信息不可用"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\n季数：%d\n总集数：%d"
+
+msgid "%d titles"
+msgstr "%d 个标题"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> 剧集 <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> 季节 <<<"
+
+msgid "0 titles"
+msgstr "0 标题"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione 电影\n\n年份：%s\n类型：%s\n\n可用链接：%d\n\n按绿色键播放"
 
 msgid "Available links:"
 msgstr "可用链接："
@@ -49,26 +61,26 @@ msgstr "通过水平滚动浏览组和卡片"
 msgid "CANCEL"
 msgstr "取消"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01 播放错误：%s"
-
-msgid "CONFIRM"
-msgstr "确认"
-
-msgid "CONTENTS"
-msgstr "内容"
-
 msgid "Card error"
 msgstr "卡错误"
 
 msgid "Cards updated"
 msgstr "卡片已更新"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 电影\n\n年份：%s\n类型：%s\n\n可用链接：%d\n\n按绿色键播放"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 播放错误：%s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 电视剧\n\n季数：%d\n总集数：%d\n\n按绿色键播放"
+
 msgid "Code:"
 msgstr "代码："
 
-msgid "Code: {self.captcha_code}"
-msgstr "代码：{self.captcha_code}"
+msgid "CONFIRM"
+msgstr "确认"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "来自 Altadefinizone 的内容 - 按“确定”打开..."
@@ -76,20 +88,17 @@ msgstr "来自 Altadefinizone 的内容 - 按“确定”打开..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 的内容 - 按“确定”打开..."
 
+msgid "CONTENTS"
+msgstr "内容"
+
 msgid "Description not available."
 msgstr "描述不可用。"
 
-msgid "Details for: '%s'"
-msgstr "详细信息：“%s”"
+msgid "Description:\n\n%s"
+msgstr "描述：\n\n%s"
 
 msgid "Details not available"
 msgstr "详细信息不详"
-
-msgid "ENTER"
-msgstr "进入"
-
-msgid "EXIT"
-msgstr "出口"
 
 msgid "Enable debug"
 msgstr "启用调试"
@@ -97,10 +106,12 @@ msgstr "启用调试"
 msgid "Enable debug output in logs"
 msgstr "在日志中启用调试输出"
 
+msgid "ENTER"
+msgstr "进入"
+
 msgid "Enter Captcha Code"
 msgstr "输入验证码"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "输入验证码"
 
@@ -116,21 +127,23 @@ msgstr "剧集数"
 msgid "Episodes:"
 msgstr "集数："
 
+msgid "error"
+msgstr "错误"
+
+msgid "Error loading captcha"
+msgstr "加载详细信息时出错"
+
 msgid "Error loading CB01 series"
 msgstr "加载CB01系列时出错"
+
+msgid "Error loading details"
+msgstr "加载详细信息时出错"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "加载 OnlineSeriesTV 系列时出错"
 
 msgid "Error loading TMDB"
 msgstr "加载 TMDB 时出错"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "加载详细信息时出错"
-
-msgid "Error loading details"
-msgstr "加载详细信息时出错"
 
 msgid "Error playing episode: %s"
 msgstr "播放剧集时出错：%s"
@@ -139,6 +152,9 @@ msgid "Error updating UI"
 msgstr "更新用户界面时出错"
 
 msgid "Exit"
+msgstr "出口"
+
+msgid "EXIT"
 msgstr "出口"
 
 msgid "GROUPS"
@@ -155,6 +171,9 @@ msgstr "左/右导航 | 确定打开 | UP 返回群组"
 
 msgid "Load error"
 msgstr "负载错误"
+
+msgid "loading"
+msgstr "加载中"
 
 msgid "Loading details from TMDB..."
 msgstr "正在从 TMDB 加载详细信息..."
@@ -173,6 +192,9 @@ msgstr "显示的最大结果数"
 
 msgid "Movie History"
 msgstr "电影史"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "电影\n\n年份：%s\n\n评级：%s/10\n\n流派：\n%s\n\n按绿色键播放"
 
 msgid "N/A"
 msgstr "不适用"
@@ -204,12 +226,14 @@ msgstr "SC 上未找到结果。"
 msgid "No streaming links found"
 msgstr "未找到流媒体链接"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "未找到流媒体链接"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSeriesTV - 电视剧"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\n评级：%s\n\n创建者：%s"
 
 msgid "PLAY"
 msgstr "玩"
@@ -220,6 +244,9 @@ msgstr "播放错误：%s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "按绿色（电影）或黄色（电视剧）搜索..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "按绿色键输入代码\n按红色键取消"
+
 msgid "Press GREEN to play"
 msgstr "按绿色键即可播放"
 
@@ -229,17 +256,17 @@ msgstr "按确定"
 msgid "Press OK to view full details..."
 msgstr "按“确定”查看完整详细信息..."
 
-msgid "REFRESH"
+msgid "Refresh"
 msgstr "刷新"
 
-msgid "Refresh"
+msgid "REFRESH"
 msgstr "刷新"
 
 msgid "Retry"
 msgstr "重试"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "搜索"
@@ -250,14 +277,11 @@ msgstr "搜索历史"
 msgid "Search Movie"
 msgstr "搜索电影"
 
-msgid "Search TV Series"
-msgstr "搜索电视剧"
-
 msgid "Search timeout"
 msgstr "搜索超时"
 
-msgid "Searching for: '%s'"
-msgstr "正在搜索：“%s”"
+msgid "Search TV Series"
+msgstr "搜索电视剧"
 
 msgid "Searching..."
 msgstr "正在寻找..."
@@ -280,6 +304,12 @@ msgstr "找不到系列网址"
 msgid "Series URL not found."
 msgstr "找不到系列 URL。"
 
+msgid "Timeout for search requests (seconds)"
+msgstr "搜索请求超时（秒）"
+
+msgid "Title"
+msgstr "标题"
+
 msgid "TMDB API key not found"
 msgstr "未找到 TMDB API 密钥"
 
@@ -292,17 +322,20 @@ msgstr "未找到 TMDB ID"
 msgid "TV Series History"
 msgstr "电视剧历史"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "搜索请求超时（秒）"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "电视剧\n\n季数：%d\n总集数：%d\n\n年份：%s\n\n分级：%s/10\n\n流派：\n%s"
 
-msgid "Title"
-msgstr "标题"
+msgid "TV Series\n%s"
+msgstr "电视剧\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "电视剧\n季数：%d\n总集数：%d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "电视剧\n季数：%d\n总集数：%d\n按绿色键播放"
 
 msgid "Type: %s"
 msgstr "类型：%s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "上/下组 | 左/右卡 | 确定打开"
 
 msgid "Unable to get stream for this episode"
 msgstr "无法观看该集的直播"
@@ -322,6 +355,9 @@ msgstr "无法从 TMDB 检索信息。"
 msgid "Unknown"
 msgstr "未知"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "上/下组 | 左/右卡 | 确定打开"
+
 msgid "Updated, %d groups unavailable"
 msgstr "已更新，%d 个组不可用"
 
@@ -331,20 +367,6 @@ msgstr "更新中"
 msgid "Updating cards %d/%d"
 msgstr "正在更新卡片 %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[高清] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "使用遥控器上的数字键\n输入验证码\n绿色=确认，红色=取消"
 
-msgid "[CB01] %s"
-msgstr "[CB01]%s"
-
-msgid "error"
-msgstr "错误"
-
-msgid "loading"
-msgstr "加载中"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "其他定义播放错误：%s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "未找到 Altadefinizone 剧集"

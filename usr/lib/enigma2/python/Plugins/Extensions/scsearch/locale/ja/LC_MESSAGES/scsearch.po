@@ -1,27 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ja translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 11:44+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Japanese <translation-team-ja@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ja <ekekaz@gmail.com>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
-msgid "%d titles"
-msgstr "%d タイトル"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- 映画 ---"
@@ -32,14 +22,35 @@ msgstr "--- 新規検索 ---"
 msgid "--- TV SERIES ---"
 msgstr "- - 連続テレビ番組 - -"
 
-msgid "0 titles"
-msgstr "0タイトル"
+msgid "[Altadefinizione] %s"
+msgstr "[高解像度] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\n季節情報がありません"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nシーズン: %d\n合計エピソード: %d"
+
+msgid "%d titles"
+msgstr "%d タイトル"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> エピソード <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> 季節 <<<"
+
+msgid "0 titles"
+msgstr "0タイトル"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\n年: %s\nジャンル: %s\n\n利用可能なリンク: %d\n\n再生するには緑を押してください"
 
 msgid "Available links:"
 msgstr "利用可能なリンク:"
@@ -50,26 +61,26 @@ msgstr "水平スクロールでグループとカードを閲覧"
 msgid "CANCEL"
 msgstr "キャンセル"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01 再生エラー: %s"
-
-msgid "CONFIRM"
-msgstr "確認する"
-
-msgid "CONTENTS"
-msgstr "コンテンツ"
-
 msgid "Card error"
 msgstr "カードエラー"
 
 msgid "Cards updated"
 msgstr "カードが更新されました"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 映画\n\n年: %s\nジャンル: %s\n\n利用可能なリンク: %d\n\n再生するには緑を押してください"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 再生エラー: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 TV シリーズ\n\nシーズン: %d\n合計エピソード: %d\n\n再生するには緑を押してください"
+
 msgid "Code:"
 msgstr "コード："
 
-msgid "Code: {self.captcha_code}"
-msgstr "コード: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "確認する"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione のコンテンツ - [OK] を押して開きます..."
@@ -77,20 +88,17 @@ msgstr "Altadefinizione のコンテンツ - [OK] を押して開きます..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 のコンテンツ - [OK] を押して開きます..."
 
+msgid "CONTENTS"
+msgstr "コンテンツ"
+
 msgid "Description not available."
 msgstr "説明はありません。"
 
-msgid "Details for: '%s'"
-msgstr "詳細: '%s'"
+msgid "Description:\n\n%s"
+msgstr "説明:\n\n%s"
 
 msgid "Details not available"
 msgstr "詳細は不明"
-
-msgid "ENTER"
-msgstr "入力"
-
-msgid "EXIT"
-msgstr "出口"
 
 msgid "Enable debug"
 msgstr "デバッグを有効にする"
@@ -98,10 +106,12 @@ msgstr "デバッグを有効にする"
 msgid "Enable debug output in logs"
 msgstr "ログでのデバッグ出力を有効にする"
 
+msgid "ENTER"
+msgstr "入力"
+
 msgid "Enter Captcha Code"
 msgstr "キャプチャコードを入力してください"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "キャプチャコードを入力してください"
 
@@ -117,21 +127,23 @@ msgstr "エピソード"
 msgid "Episodes:"
 msgstr "エピソード:"
 
+msgid "error"
+msgstr "エラー"
+
+msgid "Error loading captcha"
+msgstr "詳細の読み込みエラー"
+
 msgid "Error loading CB01 series"
 msgstr "CB01シリーズの読み込みエラー"
+
+msgid "Error loading details"
+msgstr "詳細の読み込みエラー"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV シリーズの読み込みエラー"
 
 msgid "Error loading TMDB"
 msgstr "TMDB のロード中にエラーが発生しました"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "詳細の読み込みエラー"
-
-msgid "Error loading details"
-msgstr "詳細の読み込みエラー"
 
 msgid "Error playing episode: %s"
 msgstr "エピソードの再生中にエラーが発生しました: %s"
@@ -140,6 +152,9 @@ msgid "Error updating UI"
 msgstr "UIの更新中にエラーが発生しました"
 
 msgid "Exit"
+msgstr "出口"
+
+msgid "EXIT"
 msgstr "出口"
 
 msgid "GROUPS"
@@ -156,6 +171,9 @@ msgstr "左/右に移動 | OK 開きます | UPしてグループに戻る"
 
 msgid "Load error"
 msgstr "ロードエラー"
+
+msgid "loading"
+msgstr "読み込み中"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB から詳細をロードしています..."
@@ -174,6 +192,9 @@ msgstr "表示する結果の最大数"
 
 msgid "Movie History"
 msgstr "映画の歴史"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "映画\n\n年: %s\n\nレーティング: %s/10\n\nジャンル:\n%s\n\n再生するには緑を押してください"
 
 msgid "N/A"
 msgstr "該当なし"
@@ -205,12 +226,14 @@ msgstr "SC で結果が見つかりませんでした。"
 msgid "No streaming links found"
 msgstr "ストリーミング リンクが見つかりません"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "ストリーミング リンクが見つかりません"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "オンラインSerieTV - テレビシリーズ"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "オンラインシリーズTV\n\n評価: %s\n\n作成者: %s"
 
 msgid "PLAY"
 msgstr "遊ぶ"
@@ -221,6 +244,9 @@ msgstr "再生エラー: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "緑 (映画) または黄色 (TV シリーズ) を押して検索します..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "コードを入力するには緑を押してください\nキャンセルするには赤を押してください"
+
 msgid "Press GREEN to play"
 msgstr "緑を押して再生します"
 
@@ -230,17 +256,17 @@ msgstr "「OK」を押します"
 msgid "Press OK to view full details..."
 msgstr "[OK] を押して詳細を表示します..."
 
-msgid "REFRESH"
+msgid "Refresh"
 msgstr "リフレッシュ"
 
-msgid "Refresh"
+msgid "REFRESH"
 msgstr "リフレッシュ"
 
 msgid "Retry"
 msgstr "リトライ"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "検索"
@@ -251,14 +277,11 @@ msgstr "検索履歴"
 msgid "Search Movie"
 msgstr "動画を検索"
 
-msgid "Search TV Series"
-msgstr "テレビシリーズを検索"
-
 msgid "Search timeout"
 msgstr "検索タイムアウト"
 
-msgid "Searching for: '%s'"
-msgstr "検索中: '%s'"
+msgid "Search TV Series"
+msgstr "テレビシリーズを検索"
 
 msgid "Searching..."
 msgstr "検索中..."
@@ -281,6 +304,12 @@ msgstr "シリーズの URL が見つかりません"
 msgid "Series URL not found."
 msgstr "シリーズの URL が見つかりません。"
 
+msgid "Timeout for search requests (seconds)"
+msgstr "検索リクエストのタイムアウト (秒)"
+
+msgid "Title"
+msgstr "タイトル"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API キーが見つかりません"
 
@@ -293,17 +322,20 @@ msgstr "TMDB ID が見つかりません"
 msgid "TV Series History"
 msgstr "TVシリーズの歴史"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "検索リクエストのタイムアウト (秒)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "TV シリーズ\n\nシーズン: %d\n総エピソード数: %d\n\n年: %s\n\nレーティング: %s/10\n\nジャンル:\n%s"
 
-msgid "Title"
-msgstr "タイトル"
+msgid "TV Series\n%s"
+msgstr "TV シリーズ\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "TV シリーズ\nシーズン: %d\n合計エピソード: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV シリーズ\nシーズン: %d\n合計エピソード: %d\n再生するには緑を押してください"
 
 msgid "Type: %s"
 msgstr "種類"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN グループ | 左/右のカード | OK オープン"
 
 msgid "Unable to get stream for this episode"
 msgstr "このエピソードのストリームを取得できません"
@@ -323,6 +355,9 @@ msgstr "TMDB から情報を取得できません。"
 msgid "Unknown"
 msgstr "未知"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN グループ | 左/右のカード | OK オープン"
+
 msgid "Updated, %d groups unavailable"
 msgstr "更新されました。%d グループは利用できません"
 
@@ -332,20 +367,6 @@ msgstr "更新中"
 msgid "Updating cards %d/%d"
 msgstr "カード %d/%d を更新しています"
 
-msgid "[Altadefinizione] %s"
-msgstr "[高解像度] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "リモートの数字キーを使用して\nキャプチャ コードを入力します\n緑 = 確認、赤 = キャンセル"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "エラー"
-
-msgid "loading"
-msgstr "読み込み中"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "アルタ定義再生エラー: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizione エピソードが見つかりませんでした"

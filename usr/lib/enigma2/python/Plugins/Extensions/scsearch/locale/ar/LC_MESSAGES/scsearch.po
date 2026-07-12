@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ar translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 10:54+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Arabic <(nothing)>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ar <ekekaz@gmail.com>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d عنوان"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- أفلام ---"
@@ -31,8 +22,23 @@ msgstr "--- بحث جديد ---"
 msgid "--- TV SERIES ---"
 msgstr "--- مسلسلات ---"
 
-msgid "0 titles"
-msgstr "0 ألقاب"
+msgid "[Altadefinizione] %s"
+msgstr "[عالية الوضوح] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nمعلومات الموسم غير متوفرة"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nالمواسم: %d\nإجمالي الحلقات: %d"
+
+msgid "%d titles"
+msgstr "%d عنوان"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> الحلقات <<<"
@@ -40,8 +46,11 @@ msgstr ">>> الحلقات <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> المواسم <<<"
 
-msgid "Altadefinizione playback error: %s"
-msgstr "خطأ في التعريف البديل في التشغيل: %s"
+msgid "0 titles"
+msgstr "0 ألقاب"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "تعريف الفيلم\n\nالسنة: %s\nالنوع: %s\n\nالروابط المتوفرة: %d\n\nاضغط على الأخضر للتشغيل"
 
 msgid "Available links:"
 msgstr "الروابط المتاحة:"
@@ -52,44 +61,44 @@ msgstr "تصفح المجموعات والبطاقات بالتمرير الأف
 msgid "CANCEL"
 msgstr "يلغي"
 
-msgid "CB01 playback error: %s"
-msgstr "خطأ في تشغيل CB01: %s"
-
-msgid "CONFIRM"
-msgstr "يتأكد"
-
-msgid "CONTENTS"
-msgstr "محتويات"
-
 msgid "Card error"
 msgstr "خطأ في البطاقة"
 
 msgid "Cards updated"
 msgstr "تم تحديث البطاقات"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "فيلم CB01\n\nالعام: %s\nالنوع: %s\n\nالروابط المتاحة: %d\n\nاضغط على اللون الأخضر للتشغيل"
+
+msgid "CB01 playback error: %s"
+msgstr "خطأ في تشغيل CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "مسلسل CB01 التلفزيوني\n\nالمواسم: %d\nإجمالي الحلقات: %d\n\nاضغط على اللون الأخضر للتشغيل"
+
 msgid "Code:"
 msgstr "شفرة:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "الرمز: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "يتأكد"
 
 msgid "Content from Altadefinizione - Press OK to open..."
-msgstr "محتوى من Altadefinizione - اضغط على "موافق" لفتح..."
+msgstr "محتوى من Altadefinizione - اضغط على \"موافق\" لفتح..."
 
 msgid "Content from CB01 - Press OK to open..."
-msgstr "محتوى من CB01 - اضغط على "موافق" لفتح..."
+msgstr "محتوى من CB01 - اضغط على \"موافق\" لفتح..."
+
+msgid "CONTENTS"
+msgstr "محتويات"
 
 msgid "Description not available."
 msgstr "الوصف غير متوفر."
 
-msgid "Details for: '%s'"
-msgstr "تفاصيل لـ: '%s'"
+msgid "Description:\n\n%s"
+msgstr "الوصف:\n\n%s"
 
 msgid "Details not available"
 msgstr "التفاصيل غير متوفرة"
-
-msgid "EXIT"
-msgstr "مخرج"
 
 msgid "Enable debug"
 msgstr "تمكين التصحيح"
@@ -97,8 +106,14 @@ msgstr "تمكين التصحيح"
 msgid "Enable debug output in logs"
 msgstr "تمكين إخراج التصحيح في السجلات"
 
+msgid "ENTER"
+msgstr "يدخل"
+
 msgid "Enter Captcha Code"
 msgstr "أدخل رمز الكابتشا"
+
+msgid "Enter captcha code:"
+msgstr "أدخل رمز التحقق:"
 
 msgid "Episode %d"
 msgstr "الحلقة %د"
@@ -112,17 +127,23 @@ msgstr "الحلقات"
 msgid "Episodes:"
 msgstr "الحلقات:"
 
+msgid "error"
+msgstr "خطأ"
+
+msgid "Error loading captcha"
+msgstr "حدث خطأ أثناء تحميل كلمة التحقق"
+
 msgid "Error loading CB01 series"
 msgstr "حدث خطأ أثناء تحميل سلسلة CB01"
+
+msgid "Error loading details"
+msgstr "حدث خطأ أثناء تحميل التفاصيل"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "حدث خطأ أثناء تحميل مسلسل OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "حدث خطأ أثناء تحميل TMDB"
-
-msgid "Error loading details"
-msgstr "حدث خطأ أثناء تحميل التفاصيل"
 
 msgid "Error playing episode: %s"
 msgstr "حدث خطأ أثناء تشغيل الحلقة: %s"
@@ -131,6 +152,9 @@ msgid "Error updating UI"
 msgstr "حدث خطأ أثناء تحديث واجهة المستخدم"
 
 msgid "Exit"
+msgstr "مخرج"
+
+msgid "EXIT"
 msgstr "مخرج"
 
 msgid "GROUPS"
@@ -147,6 +171,9 @@ msgstr "التنقل يسارًا/يمينًا | طيب افتح | العودة 
 
 msgid "Load error"
 msgstr "خطأ في التحميل"
+
+msgid "loading"
+msgstr "تحميل"
 
 msgid "Loading details from TMDB..."
 msgstr "جارٍ تحميل التفاصيل من TMDB..."
@@ -166,14 +193,14 @@ msgstr "الحد الأقصى لعدد النتائج التي سيتم عرضه
 msgid "Movie History"
 msgstr "تاريخ الفيلم"
 
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "الفيلم\n\nالعام: %s\n\nالتقييم: %s/10\n\nالأنواع:\n%s\n\nاضغط على الأخضر للتشغيل"
+
 msgid "N/A"
 msgstr "لا يوجد"
 
 msgid "New search..."
 msgstr "بحث جديد..."
-
-msgid "No Altadefinizione episode found"
-msgstr "لم يتم العثور على حلقة التعريف"
 
 msgid "No CB01 episode found"
 msgstr "لم يتم العثور على حلقة CB01"
@@ -199,8 +226,14 @@ msgstr "لم يتم العثور على نتائج في SC."
 msgid "No streaming links found"
 msgstr "لم يتم العثور على روابط البث"
 
+msgid "No streaming links found."
+msgstr "لم يتم العثور على روابط البث."
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - مسلسل تلفزيوني"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nالتقييم: %s\n\nالمنشئ: %s"
 
 msgid "PLAY"
 msgstr "يلعب"
@@ -211,23 +244,29 @@ msgstr "خطأ في التشغيل: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "اضغط على GREEN (فيلم) أو YELLOW (مسلسل تلفزيوني) للبحث..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "اضغط على اللون الأخضر لإدخال الرمز\nاضغط على اللون الأحمر للإلغاء"
+
+msgid "Press GREEN to play"
+msgstr "اضغط على اللون الأخضر للعب"
+
 msgid "Press OK"
 msgstr "اضغط موافق"
 
 msgid "Press OK to view full details..."
 msgstr "اضغط موافق لعرض التفاصيل الكاملة..."
 
-msgid "REFRESH"
+msgid "Refresh"
 msgstr "ينعش"
 
-msgid "Refresh"
+msgid "REFRESH"
 msgstr "ينعش"
 
 msgid "Retry"
 msgstr "أعد المحاولة"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "يبحث"
@@ -238,14 +277,11 @@ msgstr "سجل البحث"
 msgid "Search Movie"
 msgstr "بحث الفيلم"
 
-msgid "Search TV Series"
-msgstr "بحث في مسلسلات تلفزيونية"
-
 msgid "Search timeout"
 msgstr "مهلة البحث"
 
-msgid "Searching for: '%s'"
-msgstr "البحث عن: '%s'"
+msgid "Search TV Series"
+msgstr "بحث في مسلسلات تلفزيونية"
 
 msgid "Searching..."
 msgstr "جارٍ البحث..."
@@ -268,6 +304,12 @@ msgstr "لم يتم العثور على عنوان URL للسلسلة"
 msgid "Series URL not found."
 msgstr "لم يتم العثور على عنوان URL للسلسلة."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "مهلة طلبات البحث (بالثواني)"
+
+msgid "Title"
+msgstr "عنوان"
+
 msgid "TMDB API key not found"
 msgstr "لم يتم العثور على مفتاح TMDB API"
 
@@ -280,17 +322,20 @@ msgstr "لم يتم العثور على معرف TMDB"
 msgid "TV Series History"
 msgstr "تاريخ المسلسلات التلفزيونية"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "مهلة طلبات البحث (بالثواني)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "مسلسل تلفزيوني\n\nالمواسم: %d\nإجمالي الحلقات: %d\n\nالسنة: %s\n\nالتقييم: %s/10\n\nالأنواع:\n%s"
 
-msgid "Title"
-msgstr "عنوان"
+msgid "TV Series\n%s"
+msgstr "مسلسلات تلفزيونية\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "مسلسل تلفزيوني\nالمواسم: %d\nإجمالي الحلقات: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "مسلسل تلفزيوني\nالمواسم: %d\nإجمالي الحلقات: %d\nاضغط على اللون الأخضر للتشغيل"
 
 msgid "Type: %s"
 msgstr "النوع: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "مجموعات أعلى/أسفل | بطاقات يسار/يمين | موافق مفتوحة"
 
 msgid "Unable to get stream for this episode"
 msgstr "غير قادر على الحصول على تيار لهذه الحلقة"
@@ -310,6 +355,9 @@ msgstr "غير قادر على استرداد المعلومات من TMDB."
 msgid "Unknown"
 msgstr "مجهول"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "مجموعات أعلى/أسفل | بطاقات يسار/يمين | موافق مفتوحة"
+
 msgid "Updated, %d groups unavailable"
 msgstr "تم التحديث، %d مجموعة غير متاحة"
 
@@ -319,14 +367,6 @@ msgstr "تحديث"
 msgid "Updating cards %d/%d"
 msgstr "تحديث البطاقات %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[عالية الوضوح] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "استخدم المفاتيح الرقمية الموجودة على جهاز التحكم عن بعد\n لإدخال رمز التحقق \nGREEN = تأكيد، RED = إلغاء"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "خطأ"
-
-msgid "loading"
-msgstr "تحميل"

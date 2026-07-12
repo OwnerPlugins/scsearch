@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# id translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 11:39+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: id <ekekaz@gmail.com>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d judul"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- FILM ---"
@@ -31,14 +22,35 @@ msgstr "--- Pencarian baru ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SERI TV ---"
 
-msgid "0 titles"
-msgstr "0 judul"
+msgid "[Altadefinizione] %s"
+msgstr "[Definisi Tinggi] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nInformasi musim tidak tersedia"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nMusim: %d\nTotal episode: %d"
+
+msgid "%d titles"
+msgstr "%d judul"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episode <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Musim <<<"
+
+msgid "0 titles"
+msgstr "0 judul"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinisione Movie\n\nTahun: %s\nGenre: %s\n\nTautan tersedia: %d\n\nTekan HIJAU untuk memutar"
 
 msgid "Available links:"
 msgstr "Tautan yang tersedia:"
@@ -49,26 +61,26 @@ msgstr "Telusuri grup dan kartu dengan pengguliran horizontal"
 msgid "CANCEL"
 msgstr "MEMBATALKAN"
 
-msgid "CB01 playback error: %s"
-msgstr "Kesalahan pemutaran CB01: %s"
-
-msgid "CONFIRM"
-msgstr "MENGONFIRMASI"
-
-msgid "CONTENTS"
-msgstr "ISI"
-
 msgid "Card error"
 msgstr "Kesalahan kartu"
 
 msgid "Cards updated"
 msgstr "Kartu diperbarui"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Film CB01\n\nTahun: %s\nGenre: %s\n\nTautan tersedia: %d\n\nTekan HIJAU untuk memutar"
+
+msgid "CB01 playback error: %s"
+msgstr "Kesalahan pemutaran CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "Serial TV CB01\n\nMusim: %d\nTotal episode: %d\n\nTekan HIJAU untuk memutar"
+
 msgid "Code:"
 msgstr "Kode:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kode: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "MENGONFIRMASI"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Konten dari Altadefinizione - Tekan OK untuk membuka..."
@@ -76,20 +88,17 @@ msgstr "Konten dari Altadefinizione - Tekan OK untuk membuka..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Konten dari CB01 - Tekan OK untuk membuka..."
 
+msgid "CONTENTS"
+msgstr "ISI"
+
 msgid "Description not available."
 msgstr "Deskripsi tidak tersedia."
 
-msgid "Details for: '%s'"
-msgstr "Detail untuk: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Deskripsi:\n\n%s"
 
 msgid "Details not available"
 msgstr "Detail tidak tersedia"
-
-msgid "ENTER"
-msgstr "MEMASUKI"
-
-msgid "EXIT"
-msgstr "KELUAR"
 
 msgid "Enable debug"
 msgstr "Aktifkan debug"
@@ -97,18 +106,20 @@ msgstr "Aktifkan debug"
 msgid "Enable debug output in logs"
 msgstr "Aktifkan keluaran debug di log"
 
+msgid "ENTER"
+msgstr "MEMASUKI"
+
 msgid "Enter Captcha Code"
 msgstr "Masukkan Kode Captcha"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Masukkan Kode Captcha"
 
 msgid "Episode %d"
-msgstr ""
+msgstr "Episode %d"
 
 msgid "Episode %d: %s"
-msgstr ""
+msgstr "Episode %d: %s"
 
 msgid "Episodes"
 msgstr "Episode"
@@ -116,21 +127,23 @@ msgstr "Episode"
 msgid "Episodes:"
 msgstr "Episode:"
 
+msgid "error"
+msgstr "kesalahan"
+
+msgid "Error loading captcha"
+msgstr "Terjadi kesalahan saat memuat detail"
+
 msgid "Error loading CB01 series"
 msgstr "Terjadi kesalahan saat memuat seri CB01"
+
+msgid "Error loading details"
+msgstr "Terjadi kesalahan saat memuat detail"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Terjadi kesalahan saat memuat serial OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Terjadi kesalahan saat memuat TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Terjadi kesalahan saat memuat detail"
-
-msgid "Error loading details"
-msgstr "Terjadi kesalahan saat memuat detail"
 
 msgid "Error playing episode: %s"
 msgstr "Kesalahan saat memutar episode: %s"
@@ -139,6 +152,9 @@ msgid "Error updating UI"
 msgstr "Terjadi kesalahan saat memperbarui UI"
 
 msgid "Exit"
+msgstr "KELUAR"
+
+msgid "EXIT"
 msgstr "KELUAR"
 
 msgid "GROUPS"
@@ -155,6 +171,9 @@ msgstr "Navigasi KIRI/KANAN | Oke buka | NAIK kembali ke kelompok"
 
 msgid "Load error"
 msgstr "Kesalahan pemuatan"
+
+msgid "loading"
+msgstr "memuat"
 
 msgid "Loading details from TMDB..."
 msgstr "Memuat detail dari TMDB..."
@@ -173,6 +192,9 @@ msgstr "Jumlah hasil maksimum untuk ditampilkan"
 
 msgid "Movie History"
 msgstr "Sejarah Film"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Movie\n\nTahun: %s\n\nPeringkat: %s/10\n\nGenre:\n%s\n\nTekan HIJAU untuk memutar"
 
 msgid "N/A"
 msgstr "T/A"
@@ -204,12 +226,14 @@ msgstr "Tidak ada hasil yang ditemukan di SC."
 msgid "No streaming links found"
 msgstr "Tidak ada tautan streaming yang ditemukan"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Tidak ada tautan streaming yang ditemukan"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serial TV"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nPeringkat: %s\n\nPembuat: %s"
 
 msgid "PLAY"
 msgstr "BERMAIN"
@@ -220,6 +244,9 @@ msgstr "Kesalahan pemutaran: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Tekan HIJAU (Film) atau KUNING (Serial TV) untuk mencari..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Tekan HIJAU untuk memasukkan kode\nTekan MERAH untuk membatalkan"
+
 msgid "Press GREEN to play"
 msgstr "Tekan HIJAU untuk memutar"
 
@@ -229,17 +256,17 @@ msgstr "Tekan oke"
 msgid "Press OK to view full details..."
 msgstr "Tekan OK untuk melihat rincian lengkap..."
 
-msgid "REFRESH"
-msgstr "MENYEGARKAN"
-
 msgid "Refresh"
 msgstr "Menyegarkan"
+
+msgid "REFRESH"
+msgstr "MENYEGARKAN"
 
 msgid "Retry"
 msgstr "Mencoba kembali"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "MENCARI"
@@ -250,14 +277,11 @@ msgstr "Riwayat Pencarian"
 msgid "Search Movie"
 msgstr "Cari Film"
 
-msgid "Search TV Series"
-msgstr "Cari Serial TV"
-
 msgid "Search timeout"
 msgstr "Batas waktu pencarian"
 
-msgid "Searching for: '%s'"
-msgstr "Mencari: '%s'"
+msgid "Search TV Series"
+msgstr "Cari Serial TV"
 
 msgid "Searching..."
 msgstr "Mencari..."
@@ -280,6 +304,12 @@ msgstr "URL seri tidak ditemukan"
 msgid "Series URL not found."
 msgstr "URL seri tidak ditemukan."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Batas waktu untuk permintaan pencarian (detik)"
+
+msgid "Title"
+msgstr "Judul"
+
 msgid "TMDB API key not found"
 msgstr "Kunci API TMDB tidak ditemukan"
 
@@ -292,17 +322,20 @@ msgstr "ID TMDB tidak ditemukan"
 msgid "TV Series History"
 msgstr "Sejarah Serial TV"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Batas waktu untuk permintaan pencarian (detik)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Serial TV\n\nMusim: %d\nTotal episode: %d\n\nTahun: %s\n\nPeringkat: %s/10\n\nGenre:\n%s"
 
-msgid "Title"
-msgstr "Judul"
+msgid "TV Series\n%s"
+msgstr "Serial TV\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "Serial TV\nMusim: %d\nTotal episode: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "Serial TV\nMusim: %d\nTotal episode: %d\nTekan HIJAU untuk memutar"
 
 msgid "Type: %s"
 msgstr "Jenis: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka"
 
 msgid "Unable to get stream for this episode"
 msgstr "Tidak dapat memperoleh streaming untuk episode ini"
@@ -322,6 +355,9 @@ msgstr "Tidak dapat mengambil informasi dari TMDB."
 msgid "Unknown"
 msgstr "Tidak dikenal"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Diperbarui, %d grup tidak tersedia"
 
@@ -331,20 +367,6 @@ msgstr "Memperbarui"
 msgid "Updating cards %d/%d"
 msgstr "Memperbarui kartu %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Definisi Tinggi] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Gunakan tombol angka di remote\nuntuk memasukkan kode captcha\nGREEN = Konfirmasi, MERAH = Batal"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "kesalahan"
-
-msgid "loading"
-msgstr "memuat"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Kesalahan pemutaran definisi: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Tidak ada episode Altadefinisione yang ditemukan"

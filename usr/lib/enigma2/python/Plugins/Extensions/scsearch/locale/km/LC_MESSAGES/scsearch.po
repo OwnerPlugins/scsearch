@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# km translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 11:48+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Central Khmer\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: km <ekekaz@gmail.com>\n"
 "Language: km\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "ចំណងជើង %d"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- ភាពយន្ត ---"
@@ -31,14 +22,35 @@ msgstr "--- ស្វែងរកថ្មី ---"
 msgid "--- TV SERIES ---"
 msgstr "--- ស៊េរីទូរទស្សន៍ ---"
 
-msgid "0 titles"
-msgstr "0 ចំណងជើង"
+msgid "[Altadefinizione] %s"
+msgstr "[និយមន័យខ្ពស់] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nព័ត៌មានរដូវកាលមិនមានទេ។"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nរដូវកាល៖ %d\nវគ្គសរុប៖ %d"
+
+msgid "%d titles"
+msgstr "ចំណងជើង %d"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> វគ្គ <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> រដូវ <<<"
+
+msgid "0 titles"
+msgstr "0 ចំណងជើង"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nឆ្នាំ៖ %s\nប្រភេទ៖ %s\n\nតំណភ្ជាប់មាន៖ %d\n\nចុច GREEN ដើម្បីលេង"
 
 msgid "Available links:"
 msgstr "តំណភ្ជាប់ដែលមាន៖"
@@ -49,26 +61,26 @@ msgstr "រកមើលក្រុម និងកាតជាមួយនឹ�
 msgid "CANCEL"
 msgstr "បោះបង់"
 
-msgid "CB01 playback error: %s"
-msgstr "កំហុសក្នុងការចាក់សារថ្មី CB01៖ %s"
-
-msgid "CONFIRM"
-msgstr "បញ្ជាក់"
-
-msgid "CONTENTS"
-msgstr "មាតិកា"
-
 msgid "Card error"
 msgstr "កំហុសកាត"
 
 msgid "Cards updated"
 msgstr "បានធ្វើបច្ចុប្បន្នភាពកាត"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nឆ្នាំ៖ %s\nប្រភេទ៖ %s\n\nតំណភ្ជាប់មាន៖ %d\n\nចុចពណ៌បៃតងដើម្បីលេង"
+
+msgid "CB01 playback error: %s"
+msgstr "កំហុសក្នុងការចាក់សារថ្មី CB01៖ %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 TV Series\n\nSeasons៖ %d\nវគ្គសរុប៖ %d\n\nចុច GREEN ដើម្បីលេង"
+
 msgid "Code:"
 msgstr "លេខកូដ៖"
 
-msgid "Code: {self.captcha_code}"
-msgstr "លេខកូដ៖ {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "បញ្ជាក់"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "ខ្លឹមសារពី Altadefinizione - ចុច OK ដើម្បីបើក..."
@@ -76,20 +88,17 @@ msgstr "ខ្លឹមសារពី Altadefinizione - ចុច OK ដើម�
 msgid "Content from CB01 - Press OK to open..."
 msgstr "មាតិកាពី CB01 - ចុចយល់ព្រមដើម្បីបើក..."
 
+msgid "CONTENTS"
+msgstr "មាតិកា"
+
 msgid "Description not available."
 msgstr "មិនមានការពិពណ៌នាទេ។"
 
-msgid "Details for: '%s'"
-msgstr "ព័ត៌មានលម្អិតសម្រាប់៖ '%s'"
+msgid "Description:\n\n%s"
+msgstr "ការពិពណ៌នា៖\n\n%s"
 
 msgid "Details not available"
 msgstr "ព័ត៌មានលម្អិតមិនមានទេ។"
-
-msgid "ENTER"
-msgstr "បញ្ចូល"
-
-msgid "EXIT"
-msgstr "ចេញ"
 
 msgid "Enable debug"
 msgstr "បើកដំណើរការបំបាត់កំហុស"
@@ -97,10 +106,12 @@ msgstr "បើកដំណើរការបំបាត់កំហុស"
 msgid "Enable debug output in logs"
 msgstr "បើកដំណើរការលទ្ធផលបំបាត់កំហុសនៅក្នុងកំណត់ហេតុ"
 
+msgid "ENTER"
+msgstr "បញ្ចូល"
+
 msgid "Enter Captcha Code"
 msgstr "បញ្ចូលលេខកូដ Captcha"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "បញ្ចូលលេខកូដ Captcha"
 
@@ -116,21 +127,23 @@ msgstr "ភាគ"
 msgid "Episodes:"
 msgstr "ភាគ៖"
 
+msgid "error"
+msgstr "កំហុស"
+
+msgid "Error loading captcha"
+msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
+
 msgid "Error loading CB01 series"
 msgstr "កំហុសក្នុងការផ្ទុកស៊េរី CB01"
+
+msgid "Error loading details"
+msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "កំហុសក្នុងការផ្ទុកស៊េរីទូរទស្សន៍ OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "កំហុសក្នុងការផ្ទុក TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
-
-msgid "Error loading details"
-msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
 
 msgid "Error playing episode: %s"
 msgstr "កំហុសក្នុងការលេងភាគ៖ %s"
@@ -139,6 +152,9 @@ msgid "Error updating UI"
 msgstr "កំហុសក្នុងការធ្វើបច្ចុប្បន្នភាព UI"
 
 msgid "Exit"
+msgstr "ចេញ"
+
+msgid "EXIT"
 msgstr "ចេញ"
 
 msgid "GROUPS"
@@ -155,6 +171,9 @@ msgstr "រុករកឆ្វេង/ស្តាំ | យល់ព្រម�
 
 msgid "Load error"
 msgstr "កំហុសក្នុងការផ្ទុក"
+
+msgid "loading"
+msgstr "ការផ្ទុក"
 
 msgid "Loading details from TMDB..."
 msgstr "កំពុងផ្ទុកព័ត៌មានលម្អិតពី TMDB..."
@@ -173,6 +192,9 @@ msgstr "ចំនួនអតិបរមានៃលទ្ធផលដែលត
 
 msgid "Movie History"
 msgstr "ប្រវត្តិភាពយន្ត"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "ភាពយន្ត\n\nឆ្នាំ៖ %s\n\nការវាយតម្លៃ៖ %s/10\n\nប្រភេទ៖\n%s\n\nចុច GREEN ដើម្បីចាក់"
 
 msgid "N/A"
 msgstr "គ្មាន"
@@ -204,12 +226,14 @@ msgstr "រកមិនឃើញលទ្ធផលនៅលើ SC ទេ។"
 msgid "No streaming links found"
 msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - ស៊េរីទូរទស្សន៍"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nការវាយតម្លៃ៖ %s\n\nអ្នកបង្កើត៖ %s"
 
 msgid "PLAY"
 msgstr "លេង"
@@ -220,6 +244,9 @@ msgstr "កំហុសក្នុងការចាក់សារថ្មី
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ចុច GREEN (ភាពយន្ត) ឬ YELLOW (TV Series) ដើម្បីស្វែងរក..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "ចុច GREEN ដើម្បីបញ្ចូលកូដ\nចុច RED ដើម្បីបោះបង់"
+
 msgid "Press GREEN to play"
 msgstr "ចុច GREEN ដើម្បីលេង"
 
@@ -229,17 +256,17 @@ msgstr "ចុចយល់ព្រម"
 msgid "Press OK to view full details..."
 msgstr "ចុច OK ដើម្បីមើលព័ត៌មានលម្អិត..."
 
-msgid "REFRESH"
+msgid "Refresh"
 msgstr "ធ្វើឱ្យស្រស់"
 
-msgid "Refresh"
+msgid "REFRESH"
 msgstr "ធ្វើឱ្យស្រស់"
 
 msgid "Retry"
 msgstr "ព្យាយាមម្តងទៀត"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "ស្វែងរក"
@@ -250,14 +277,11 @@ msgstr "ប្រវត្តិស្វែងរក"
 msgid "Search Movie"
 msgstr "ស្វែងរកភាពយន្ត"
 
-msgid "Search TV Series"
-msgstr "ស្វែងរកស៊េរីទូរទស្សន៍"
-
 msgid "Search timeout"
 msgstr "អស់ពេលស្វែងរក"
 
-msgid "Searching for: '%s'"
-msgstr "កំពុងស្វែងរក៖ '%s'"
+msgid "Search TV Series"
+msgstr "ស្វែងរកស៊េរីទូរទស្សន៍"
 
 msgid "Searching..."
 msgstr "កំពុងស្វែងរក..."
@@ -280,6 +304,12 @@ msgstr "រកមិនឃើញស៊េរី URL ទេ។"
 msgid "Series URL not found."
 msgstr "រកមិនឃើញស៊េរី URL ទេ។"
 
+msgid "Timeout for search requests (seconds)"
+msgstr "អស់ពេលសម្រាប់សំណើស្វែងរក (វិនាទី)"
+
+msgid "Title"
+msgstr "ចំណងជើង"
+
 msgid "TMDB API key not found"
 msgstr "រកមិនឃើញសោ TMDB API ទេ។"
 
@@ -292,17 +322,20 @@ msgstr "រកមិនឃើញលេខសម្គាល់ TMDB"
 msgid "TV Series History"
 msgstr "ប្រវត្តិស៊េរីទូរទស្សន៍"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "អស់ពេលសម្រាប់សំណើស្វែងរក (វិនាទី)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "ស៊េរីទូរទស្សន៍\n\nរដូវកាល៖ %d\nវគ្គសរុប៖ %d\n\nឆ្នាំ៖ %s\n\nRating៖ %s/10\n\nប្រភេទ៖\n%s"
 
-msgid "Title"
-msgstr "ចំណងជើង"
+msgid "TV Series\n%s"
+msgstr "ស៊េរីទូរទស្សន៍\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "ស៊េរីទូរទស្សន៍\nរដូវកាល៖ %d\nវគ្គសរុប៖ %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV Series\nSeasons៖ %d\nភាគសរុប៖ %d\nចុច GREEN ដើម្បីលេង"
 
 msgid "Type: %s"
 msgstr "ប្រភេទ៖ %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក"
 
 msgid "Unable to get stream for this episode"
 msgstr "មិន​អាច​ទទួល​បាន​ការ​ផ្សាយ​សម្រាប់​ភាគ​នេះ​"
@@ -322,6 +355,9 @@ msgstr "មិនអាចទាញយកព័ត៌មានពី TMDB បា
 msgid "Unknown"
 msgstr "មិនស្គាល់"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក"
+
 msgid "Updated, %d groups unavailable"
 msgstr "បានធ្វើបច្ចុប្បន្នភាព ក្រុម %d មិនអាចប្រើបានទេ។"
 
@@ -331,20 +367,6 @@ msgstr "ការធ្វើបច្ចុប្បន្នភាព"
 msgid "Updating cards %d/%d"
 msgstr "កំពុងអាប់ដេតកាត %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[និយមន័យខ្ពស់] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "ប្រើគ្រាប់ចុចលេខនៅលើ remote\n ដើម្បីបញ្ចូលកូដ captcha\nGREEN = បញ្ជាក់ RED = បោះបង់"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "កំហុស"
-
-msgid "loading"
-msgstr "ការផ្ទុក"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "កំហុសក្នុងការចាក់សារថ្មី Altadefinizione៖ %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "រកមិនឃើញភាគ Altadefinizione ទេ។"

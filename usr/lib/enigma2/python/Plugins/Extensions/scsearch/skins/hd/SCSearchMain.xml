@@ -5,7 +5,7 @@
 
     <!-- Left Panel: Search & Results -->
     <widget name="search_term" position="40,40" size="580,30" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#0d1117" transparent="1" />
-    <widget name="results_list" position="40,90" size="580,550" itemHeight="40" scrollbarMode="showOnDemand" backgroundColor="#161b22" foregroundColor="#f0f6fc" selectionPixmap="skin_default/sel.png" transparent="0" />
+    <widget name="results_list" position="40,90" size="580,550" itemHeight="40" font="Regular;22" scrollbarMode="showOnDemand" backgroundColor="#161b22" foregroundColor="#f0f6fc" selectionPixmap="skin_default/sel.png" transparent="0" />
 
     <!-- Right Panel: Details -->
     <widget name="cover_pixmap" position="670,90" size="200,300" zPosition="3" alphatest="on" />

@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# tl translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:42+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Tagalog\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: tl <ekekaz@gmail.com>\n"
 "Language: tl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d mga pamagat"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- PELIKULA ---"
@@ -29,16 +20,37 @@ msgid "--- New search ---"
 msgstr "--- Bagong paghahanap ---"
 
 msgid "--- TV SERIES ---"
-msgstr ""
+msgstr "--- TV SERIES ---"
 
-msgid "0 titles"
-msgstr "0 mga pamagat"
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nHindi available ang impormasyon ng season"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nMga Season: %d\nKabuuang mga episode: %d"
+
+msgid "%d titles"
+msgstr "%d mga pamagat"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Mga Episode <<<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Mga Panahon <<<<"
+
+msgid "0 titles"
+msgstr "0 mga pamagat"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nTaon: %s\nGenre: %s\n\nAvailable ang mga link: %d\n\nPress GREEN to play"
 
 msgid "Available links:"
 msgstr "Magagamit na mga link:"
@@ -49,26 +61,26 @@ msgstr "Mag-browse ng mga grupo at card na may pahalang na pag-scroll"
 msgid "CANCEL"
 msgstr "KANSELAHIN"
 
-msgid "CB01 playback error: %s"
-msgstr "Error sa pag-playback ng CB01: %s"
-
-msgid "CONFIRM"
-msgstr "KUMPIRMAHIN"
-
-msgid "CONTENTS"
-msgstr "NILALAMAN"
-
 msgid "Card error"
 msgstr "Error sa card"
 
 msgid "Cards updated"
 msgstr "Na-update ang mga card"
 
-msgid "Code:"
-msgstr ""
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nTaon: %s\nGenre: %s\n\nAvailable ang mga link: %d\n\nPindutin ang GREEN para i-play"
 
-msgid "Code: {self.captcha_code}"
-msgstr ""
+msgid "CB01 playback error: %s"
+msgstr "Error sa pag-playback ng CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 Mga Serye sa TV\n\nMga Season: %d\nKabuuang mga episode: %d\n\nPindutin ang GREEN para i-play"
+
+msgid "Code:"
+msgstr "Code:"
+
+msgid "CONFIRM"
+msgstr "KUMPIRMAHIN"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Nilalaman mula sa Altadefinizione - Pindutin ang OK upang buksan..."
@@ -76,20 +88,17 @@ msgstr "Nilalaman mula sa Altadefinizione - Pindutin ang OK upang buksan..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Nilalaman mula sa CB01 - Pindutin ang OK para buksan..."
 
+msgid "CONTENTS"
+msgstr "NILALAMAN"
+
 msgid "Description not available."
 msgstr "Hindi available ang paglalarawan."
 
-msgid "Details for: '%s'"
-msgstr "Mga detalye para sa: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Paglalarawan:\n\n%s"
 
 msgid "Details not available"
 msgstr "Hindi available ang mga detalye"
-
-msgid "ENTER"
-msgstr "PUMASOK"
-
-msgid "EXIT"
-msgstr ""
 
 msgid "Enable debug"
 msgstr "Paganahin ang pag-debug"
@@ -97,18 +106,20 @@ msgstr "Paganahin ang pag-debug"
 msgid "Enable debug output in logs"
 msgstr "Paganahin ang output ng debug sa mga log"
 
+msgid "ENTER"
+msgstr "PUMASOK"
+
 msgid "Enter Captcha Code"
 msgstr "Ilagay ang Captcha Code"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Ilagay ang Captcha Code"
 
 msgid "Episode %d"
-msgstr ""
+msgstr "Episode %d"
 
 msgid "Episode %d: %s"
-msgstr ""
+msgstr "Episode %d: %s"
 
 msgid "Episodes"
 msgstr "Mga episode"
@@ -116,21 +127,23 @@ msgstr "Mga episode"
 msgid "Episodes:"
 msgstr "Mga Episode:"
 
+msgid "error"
+msgstr "pagkakamali"
+
+msgid "Error loading captcha"
+msgstr "Error sa paglo-load ng mga detalye"
+
 msgid "Error loading CB01 series"
 msgstr "Error sa paglo-load ng CB01 series"
+
+msgid "Error loading details"
+msgstr "Error sa paglo-load ng mga detalye"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Error sa paglo-load ng OnlineSerieTV series"
 
 msgid "Error loading TMDB"
 msgstr "Error sa paglo-load ng TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Error sa paglo-load ng mga detalye"
-
-msgid "Error loading details"
-msgstr "Error sa paglo-load ng mga detalye"
 
 msgid "Error playing episode: %s"
 msgstr "Error sa paglalaro ng episode: %s"
@@ -140,6 +153,9 @@ msgstr "Error sa pag-update ng UI"
 
 msgid "Exit"
 msgstr "Lumabas"
+
+msgid "EXIT"
+msgstr "EXIT"
 
 msgid "GROUPS"
 msgstr "MGA GRUPO"
@@ -155,6 +171,9 @@ msgstr "KALIWA/KANAN navigate | OK buksan | UP pabalik sa mga grupo"
 
 msgid "Load error"
 msgstr "Error sa pag-load"
+
+msgid "loading"
+msgstr "naglo-load"
 
 msgid "Loading details from TMDB..."
 msgstr "Nilo-load ang mga detalye mula sa TMDB..."
@@ -174,8 +193,11 @@ msgstr "Pinakamataas na bilang ng mga resultang ipapakita"
 msgid "Movie History"
 msgstr "Kasaysayan ng Pelikula"
 
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Pelikula\n\nTaon: %s\n\nRating: %s/10\n\nGenre:\n%s\n\nPindutin ang GREEN para i-play"
+
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "New search..."
 msgstr "Bagong paghahanap..."
@@ -204,12 +226,14 @@ msgstr "Walang nakitang mga resulta sa SC."
 msgid "No streaming links found"
 msgstr "Walang nakitang streaming link"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Walang nakitang streaming link"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serye sa TV"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
 
 msgid "PLAY"
 msgstr "MAGLARO"
@@ -220,6 +244,9 @@ msgstr "Error sa pag-playback: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Pindutin ang GREEN (Movie) o YELLOW (TV Series) para maghanap..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Pindutin ang GREEN para ilagay ang code\nPindutin ang RED para kanselahin"
+
 msgid "Press GREEN to play"
 msgstr "Pindutin ang GREEN para maglaro"
 
@@ -229,17 +256,17 @@ msgstr "Pindutin ang OK"
 msgid "Press OK to view full details..."
 msgstr "Pindutin ang OK para tingnan ang buong detalye..."
 
-msgid "REFRESH"
-msgstr "I-REFRESH"
-
 msgid "Refresh"
 msgstr "I-refresh"
+
+msgid "REFRESH"
+msgstr "I-REFRESH"
 
 msgid "Retry"
 msgstr "Subukan muli"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "PAGHAHANAP"
@@ -250,20 +277,17 @@ msgstr "Kasaysayan ng Paghahanap"
 msgid "Search Movie"
 msgstr "Maghanap ng Pelikula"
 
-msgid "Search TV Series"
-msgstr "Maghanap ng Serye sa TV"
-
 msgid "Search timeout"
 msgstr "Timeout ng paghahanap"
 
-msgid "Searching for: '%s'"
-msgstr "Naghahanap para sa: '%s'"
+msgid "Search TV Series"
+msgstr "Maghanap ng Serye sa TV"
 
 msgid "Searching..."
 msgstr "Naghahanap..."
 
 msgid "Season %d"
-msgstr ""
+msgstr "Season %d"
 
 msgid "Season %d (%d episodes)"
 msgstr "Season %d (%d episode)"
@@ -280,6 +304,12 @@ msgstr "Hindi nakita ang URL ng serye"
 msgid "Series URL not found."
 msgstr "Hindi nakita ang URL ng serye."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout para sa mga kahilingan sa paghahanap (segundo)"
+
+msgid "Title"
+msgstr "Pamagat"
+
 msgid "TMDB API key not found"
 msgstr "Hindi nakita ang TMDB API key"
 
@@ -292,17 +322,20 @@ msgstr "Hindi nakita ang TMDB ID"
 msgid "TV Series History"
 msgstr "Kasaysayan ng Serye sa TV"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Timeout para sa mga kahilingan sa paghahanap (segundo)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Serye sa TV\n\nMga Season: %d\nKabuuang mga episode: %d\n\nTaon: %s\n\nRating: %s/10\n\nGenre:\n%s"
 
-msgid "Title"
-msgstr "Pamagat"
+msgid "TV Series\n%s"
+msgstr "Serye sa TV\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "Mga Serye sa TV\nMga Season: %d\nKabuuang mga episode: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "Mga Serye sa TV\nSeasons: %d\nKabuuang mga episode: %d\nPindutin ang GREEN para i-play"
 
 msgid "Type: %s"
 msgstr "Uri: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN na grupo | KALIWA/KANAN na mga card | OK bukas"
 
 msgid "Unable to get stream for this episode"
 msgstr "Hindi makakuha ng stream para sa episode na ito"
@@ -322,6 +355,9 @@ msgstr "Hindi makuha ang impormasyon mula sa TMDB."
 msgid "Unknown"
 msgstr "Hindi kilala"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN na grupo | KALIWA/KANAN na mga card | OK bukas"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Na-update, hindi available ang %d na pangkat"
 
@@ -331,20 +367,6 @@ msgstr "Nag-a-update"
 msgid "Updating cards %d/%d"
 msgstr "Ina-update ang mga card %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[High Definition] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Gamitin ang mga numeric key sa remote\nupang ipasok ang captcha code\nGREEN = Kumpirmahin, RED = Kanselahin"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "pagkakamali"
-
-msgid "loading"
-msgstr "naglo-load"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Error sa pag-playback ng Altadefinizione: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Walang nakitang episode ng Altadefinizione"

@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ne translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:10+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Nepali <translation-team-ne@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ne <ekekaz@gmail.com>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d शीर्षकहरू"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- चलचित्रहरू ---"
@@ -31,14 +22,35 @@ msgstr "--- नयाँ खोज ---"
 msgid "--- TV SERIES ---"
 msgstr "--- टिभी श्रृंखला ---"
 
-msgid "0 titles"
-msgstr "० शीर्षकहरू"
+msgid "[Altadefinizione] %s"
+msgstr "[उच्च परिभाषा] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nसिजन जानकारी उपलब्ध छैन"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\n सिजनहरू: %d\n कुल एपिसोडहरू: %d"
+
+msgid "%d titles"
+msgstr "%d शीर्षकहरू"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> एपिसोडहरू <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> सिजनहरू <<<"
+
+msgid "0 titles"
+msgstr "० शीर्षकहरू"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nवर्ष: %s\nविधा: %s\n\nलिङ्कहरू उपलब्ध छन्: %d\n\nप्ले गर्न हरियो थिच्नुहोस्"
 
 msgid "Available links:"
 msgstr "उपलब्ध लिङ्कहरू:"
@@ -49,26 +61,26 @@ msgstr "तेर्सो स्क्रोलिङको साथ समू
 msgid "CANCEL"
 msgstr "रद्द गर्नुहोस्"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01 प्लेब्याक त्रुटि: %s"
-
-msgid "CONFIRM"
-msgstr "पुष्टि गर्नुहोस्"
-
-msgid "CONTENTS"
-msgstr "सामग्री"
-
 msgid "Card error"
 msgstr "कार्ड त्रुटि"
 
 msgid "Cards updated"
 msgstr "कार्डहरू अद्यावधिक गरियो"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nवर्ष: %s\nविधा: %s\n\nलिङ्कहरू उपलब्ध छन्: %d\n\nप्ले गर्न हरियो थिच्नुहोस्"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 प्लेब्याक त्रुटि: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 टिभी शृङ्खला\n\nसिजनहरू: %d\nकुल एपिसोडहरू: %d\n\nप्ले गर्न हरियो थिच्नुहोस्"
+
 msgid "Code:"
 msgstr "कोड:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "कोड: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "पुष्टि गर्नुहोस्"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione बाट सामग्री - खोल्न ठीक थिच्नुहोस्..."
@@ -76,20 +88,17 @@ msgstr "Altadefinizione बाट सामग्री - खोल्न ठी
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 बाट सामग्री - खोल्न ठीक थिच्नुहोस्..."
 
+msgid "CONTENTS"
+msgstr "सामग्री"
+
 msgid "Description not available."
 msgstr "विवरण उपलब्ध छैन।"
 
-msgid "Details for: '%s'"
-msgstr "का लागि विवरण: '%s'"
+msgid "Description:\n\n%s"
+msgstr "विवरण:\n\n%s"
 
 msgid "Details not available"
 msgstr "विवरण उपलब्ध छैन"
-
-msgid "ENTER"
-msgstr "प्रविष्ट गर्नुहोस्"
-
-msgid "EXIT"
-msgstr "बाहिर निस्कनुहोस्"
 
 msgid "Enable debug"
 msgstr "डिबग सक्षम गर्नुहोस्"
@@ -97,10 +106,12 @@ msgstr "डिबग सक्षम गर्नुहोस्"
 msgid "Enable debug output in logs"
 msgstr "लगहरूमा डिबग आउटपुट सक्षम गर्नुहोस्"
 
+msgid "ENTER"
+msgstr "प्रविष्ट गर्नुहोस्"
+
 msgid "Enter Captcha Code"
 msgstr "क्याप्चा कोड प्रविष्ट गर्नुहोस्"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "क्याप्चा कोड प्रविष्ट गर्नुहोस्"
 
@@ -116,21 +127,23 @@ msgstr "एपिसोडहरू"
 msgid "Episodes:"
 msgstr "एपिसोडहरू:"
 
+msgid "error"
+msgstr "त्रुटि"
+
+msgid "Error loading captcha"
+msgstr "विवरण लोड गर्दा त्रुटि भयो"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 श्रृंखला लोड गर्दा त्रुटि"
+
+msgid "Error loading details"
+msgstr "विवरण लोड गर्दा त्रुटि भयो"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV श्रृंखला लोड गर्दा त्रुटि भयो"
 
 msgid "Error loading TMDB"
 msgstr "TMDB लोड गर्दा त्रुटि"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "विवरण लोड गर्दा त्रुटि भयो"
-
-msgid "Error loading details"
-msgstr "विवरण लोड गर्दा त्रुटि भयो"
 
 msgid "Error playing episode: %s"
 msgstr "एपिसोड प्ले गर्दा त्रुटि: %s"
@@ -139,6 +152,9 @@ msgid "Error updating UI"
 msgstr "UI अद्यावधिक गर्दा त्रुटि"
 
 msgid "Exit"
+msgstr "बाहिर निस्कनुहोस्"
+
+msgid "EXIT"
 msgstr "बाहिर निस्कनुहोस्"
 
 msgid "GROUPS"
@@ -155,6 +171,9 @@ msgstr "बायाँ/दायाँ नेभिगेट | ठिक खु
 
 msgid "Load error"
 msgstr "लोड त्रुटि"
+
+msgid "loading"
+msgstr "लोड गर्दै"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB बाट विवरणहरू लोड गर्दै..."
@@ -174,8 +193,11 @@ msgstr "प्रदर्शन गर्न नतिजाहरूको अ
 msgid "Movie History"
 msgstr "चलचित्र इतिहास"
 
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "चलचित्र\n\nवर्ष: %s\n\nरेटिङ: %s/10\n\nविधा:\n%s\n\nप्ले गर्न हरियो थिच्नुहोस्"
+
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "New search..."
 msgstr "नयाँ खोज..."
@@ -204,12 +226,14 @@ msgstr "SC मा कुनै परिणाम फेला परेन।"
 msgid "No streaming links found"
 msgstr "कुनै स्ट्रिमिङ लिङ्कहरू फेला परेन"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "कुनै स्ट्रिमिङ लिङ्कहरू फेला परेन"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - टिभी श्रृंखला"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nरेटिङ: %s\n\nसिर्जनाकर्ता: %s"
 
 msgid "PLAY"
 msgstr "खेल्नुहोस्"
@@ -220,6 +244,9 @@ msgstr "प्लेब्याक त्रुटि: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "खोज्नको लागि हरियो (चलचित्र) वा पहेंलो (टिभी श्रृंखला) थिच्नुहोस्..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "कोड प्रविष्ट गर्न GREEN थिच्नुहोस्\nरद्द गर्न RED थिच्नुहोस्"
+
 msgid "Press GREEN to play"
 msgstr "प्ले गर्न GREEN थिच्नुहोस्"
 
@@ -229,17 +256,17 @@ msgstr "ठीक थिच्नुहोस्"
 msgid "Press OK to view full details..."
 msgstr "पूर्ण विवरण हेर्न ठीक छ थिच्नुहोस्..."
 
-msgid "REFRESH"
+msgid "Refresh"
 msgstr "रिफ्रेस गर्नुहोस्"
 
-msgid "Refresh"
+msgid "REFRESH"
 msgstr "रिफ्रेस गर्नुहोस्"
 
 msgid "Retry"
 msgstr "पुन: प्रयास गर्नुहोस्"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "खोज्नुहोस्"
@@ -250,14 +277,11 @@ msgstr "खोज इतिहास"
 msgid "Search Movie"
 msgstr "चलचित्र खोज्नुहोस्"
 
-msgid "Search TV Series"
-msgstr "टिभी श्रृंखला खोज्नुहोस्"
-
 msgid "Search timeout"
 msgstr "खोज टाइमआउट"
 
-msgid "Searching for: '%s'"
-msgstr "खोज्दै: '%s'"
+msgid "Search TV Series"
+msgstr "टिभी श्रृंखला खोज्नुहोस्"
 
 msgid "Searching..."
 msgstr "खोज्दै..."
@@ -280,6 +304,12 @@ msgstr "शृङ्खला URL फेला परेन"
 msgid "Series URL not found."
 msgstr "शृङ्खला URL फेला परेन।"
 
+msgid "Timeout for search requests (seconds)"
+msgstr "खोज अनुरोधहरूको लागि टाइमआउट (सेकेन्ड)"
+
+msgid "Title"
+msgstr "शीर्षक"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API कुञ्जी फेला परेन"
 
@@ -292,17 +322,20 @@ msgstr "TMDB ID फेला परेन"
 msgid "TV Series History"
 msgstr "टिभी श्रृंखला इतिहास"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "खोज अनुरोधहरूको लागि टाइमआउट (सेकेन्ड)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "टिभी श्रृंखला\n\nसिजनहरू: %d\nकुल एपिसोडहरू: %d\n\nवर्ष: %s\n\nरेटिङ: %s/10\n\nविधाहरू:\n%s"
 
-msgid "Title"
-msgstr "शीर्षक"
+msgid "TV Series\n%s"
+msgstr "टिभी श्रृंखला\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "टिभी श्रृंखला\nसिजनहरू: %d\nकुल एपिसोडहरू: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "टिभी शृङ्खलाहरू\nसिजनहरू: %d\nकुल एपिसोडहरू: %d\n प्ले गर्न हरियो थिच्नुहोस्"
 
 msgid "Type: %s"
 msgstr "प्रकार: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "माथि / तल समूह | बायाँ/दायाँ कार्डहरू | ठीक छ खोल्नुहोस्"
 
 msgid "Unable to get stream for this episode"
 msgstr "यस एपिसोडको लागि स्ट्रिम प्राप्त गर्न असमर्थ"
@@ -322,6 +355,9 @@ msgstr "TMDB बाट जानकारी प्राप्त गर्न 
 msgid "Unknown"
 msgstr "अज्ञात"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "माथि / तल समूह | बायाँ/दायाँ कार्डहरू | ठीक छ खोल्नुहोस्"
+
 msgid "Updated, %d groups unavailable"
 msgstr "अद्यावधिक गरिएको, %d समूहहरू उपलब्ध छैनन्"
 
@@ -331,20 +367,6 @@ msgstr "अद्यावधिक गर्दै"
 msgid "Updating cards %d/%d"
 msgstr "कार्डहरू अद्यावधिक गर्दै %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[उच्च परिभाषा] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "क्याप्चा कोड प्रविष्ट गर्न remote\n मा संख्यात्मक कुञ्जीहरू प्रयोग गर्नुहोस्\nGREEN = पुष्टि गर्नुहोस्, RED = रद्द गर्नुहोस्"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "त्रुटि"
-
-msgid "loading"
-msgstr "लोड गर्दै"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione प्लेब्याक त्रुटि: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "कुनै Altadefinizione एपिसोड फेला परेन"

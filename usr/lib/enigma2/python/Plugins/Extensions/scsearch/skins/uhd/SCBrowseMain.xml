@@ -1,7 +1,7 @@
 <screen name="SCBrowseMain" position="center,center" size="3840,2160" title="SC Search - Home">
     <widget name="bg" position="0,0" size="3840,2160" backgroundColor="#101216" zPosition="-2" />
     <widget name="top_band" position="0,0" size="3840,258" backgroundColor="#171b22" zPosition="-1" />
-    <widget name="brand" position="102,54" size="1080,96" font="Regular;84" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
+    <widget name="brand" position="102,54" size="1860,96" font="Regular;84" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
     <widget name="subtitle" position="108,156" size="1860,66" font="Regular;50" halign="left" valign="center" foregroundColor="#aab2c0" backgroundColor="#171b22" transparent="1" />
     <widget name="status" position="2580,90" size="1140,90" font="Regular;54" halign="right" valign="center" foregroundColor="#f0c36a" backgroundColor="#171b22" transparent="1" />
 

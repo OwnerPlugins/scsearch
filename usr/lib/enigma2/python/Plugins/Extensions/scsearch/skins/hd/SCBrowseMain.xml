@@ -7,7 +7,7 @@
 
     <widget name="side_panel" position="24,104" size="288,548" backgroundColor="#1b2028" zPosition="-1" />
     <widget name="category_title" position="42,122" size="250,28" font="Regular;20" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" />
-    <widget name="category_list" position="42,164" size="250,464" itemHeight="32" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f3f5f7" selectionPixmap="skin_default/sel.png" transparent="0" />
+    <widget name="category_list" position="42,164" size="250,464" itemHeight="40" font="Regular;22" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f3f5f7" selectionPixmap="skin_default/sel.png" transparent="0" />
 
     <widget name="content_panel" position="330,104" size="916,548" backgroundColor="#151922" zPosition="-1" />
     <widget name="carousel_title" position="356,122" size="650,32" font="Regular;24" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#151922" transparent="1" />

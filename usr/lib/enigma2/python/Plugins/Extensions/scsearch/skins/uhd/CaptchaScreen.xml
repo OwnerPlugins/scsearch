@@ -1,8 +1,8 @@
-<screen name="CaptchaScreen" position="center,center" size="2400,1800" title="Enter Captcha">
+<screen name="CaptchaScreen" position="center,center" size="2400,1500" title="Enter Captcha">
     <widget name="title" position="60,60" size="2280,120" font="Regular;72" foregroundColor="#ffffff" halign="center" />
-    <widget name="captcha_image" position="600,240" size="1200,600" zPosition="3" alphatest="on" />
-    <widget name="code_label" position="60,900" size="2280,90" font="Regular;60" foregroundColor="#ffffff" halign="center" />
-    <widget name="instructions" position="60,1020" size="2280,180" font="Regular;48" foregroundColor="#cccccc" halign="center" />
-    <widget name="key_green" position="450,1500" size="300,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#00ff00" />
-    <widget name="key_red" position="1650,1500" size="300,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#ff0000" />
+    <widget name="captcha_image" position="600,225" size="1200,600" zPosition="3" alphatest="on" />
+    <widget name="code_label" position="60,860" size="2280,90" font="Regular;60" foregroundColor="#ffffff" halign="center" />
+    <widget name="instructions" position="60,970" size="2280,340" font="Regular;48" foregroundColor="#cccccc" halign="center" />
+    <widget name="key_green" position="450,1330" size="400,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#00ff00" />
+    <widget name="key_red" position="1650,1330" size="400,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#ff0000" />
 </screen>

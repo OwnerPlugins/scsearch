@@ -1,27 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# lv translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 11:57+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: lv <ekekaz@gmail.com>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
-
-msgid "%d titles"
-msgstr "%d virsraksti"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- FILMAS ---"
@@ -32,14 +22,35 @@ msgstr "--- Jauna meklēšana ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV SĒRIJA ---"
 
-msgid "0 titles"
-msgstr "0 nosaukumu"
+msgid "[Altadefinizione] %s"
+msgstr "[Augsta izšķirtspēja] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nSezonas informācija nav pieejama"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nSezonas: %d\nKopā sēriju: %d"
+
+msgid "%d titles"
+msgstr "%d virsraksti"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Sērijas <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Gadalaiki <<<"
+
+msgid "0 titles"
+msgstr "0 nosaukumu"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nGads: %s\nŽanrs: %s\n\nPieejamās saites: %d\n\nNospiediet ZAĻO, lai atskaņotu"
 
 msgid "Available links:"
 msgstr "Pieejamās saites:"
@@ -50,26 +61,26 @@ msgstr "Pārlūkojiet grupas un kartītes ar horizontālu ritināšanu"
 msgid "CANCEL"
 msgstr "ATCELT"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01 atskaņošanas kļūda: %s"
-
-msgid "CONFIRM"
-msgstr "APSTIPRINĀT"
-
-msgid "CONTENTS"
-msgstr "SATURS"
-
 msgid "Card error"
 msgstr "Kartes kļūda"
 
 msgid "Cards updated"
 msgstr "Kartes atjauninātas"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nGads: %s\nŽanrs: %s\n\nPieejamas saites: %d\n\nNospiediet ZAĻO, lai atskaņotu"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 atskaņošanas kļūda: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 TV seriāls\n\nSezonas: %d\nKopā sēriju: %d\n\nNospiediet ZAĻO, lai atskaņotu"
+
 msgid "Code:"
 msgstr "Kods:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kods: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "APSTIPRINĀT"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Saturs no Altadefinizione — nospiediet OK, lai atvērtu..."
@@ -77,20 +88,17 @@ msgstr "Saturs no Altadefinizione — nospiediet OK, lai atvērtu..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Saturs no CB01 — nospiediet OK, lai atvērtu..."
 
+msgid "CONTENTS"
+msgstr "SATURS"
+
 msgid "Description not available."
 msgstr "Apraksts nav pieejams."
 
-msgid "Details for: '%s'"
-msgstr "Sīkāka informācija par: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Apraksts: \n\n%s"
 
 msgid "Details not available"
 msgstr "Sīkāka informācija nav pieejama"
-
-msgid "ENTER"
-msgstr ""
-
-msgid "EXIT"
-msgstr "IZIET"
 
 msgid "Enable debug"
 msgstr "Iespējot atkļūdošanu"
@@ -98,10 +106,12 @@ msgstr "Iespējot atkļūdošanu"
 msgid "Enable debug output in logs"
 msgstr "Iespējot atkļūdošanas izvadi žurnālos"
 
+msgid "ENTER"
+msgstr "ENTER"
+
 msgid "Enter Captcha Code"
 msgstr "Ievadiet Captcha kodu"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Ievadiet Captcha kodu"
 
@@ -117,21 +127,23 @@ msgstr "Epizodes"
 msgid "Episodes:"
 msgstr "Epizodes:"
 
+msgid "error"
+msgstr "kļūda"
+
+msgid "Error loading captcha"
+msgstr "Ielādējot informāciju, radās kļūda"
+
 msgid "Error loading CB01 series"
 msgstr "Ielādējot CB01 sēriju, radās kļūda"
+
+msgid "Error loading details"
+msgstr "Ielādējot informāciju, radās kļūda"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Ielādējot OnlineSerieTV seriālu, radās kļūda"
 
 msgid "Error loading TMDB"
 msgstr "Ielādējot TMDB, radās kļūda"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Ielādējot informāciju, radās kļūda"
-
-msgid "Error loading details"
-msgstr "Ielādējot informāciju, radās kļūda"
 
 msgid "Error playing episode: %s"
 msgstr "Kļūda, atskaņojot sēriju: %s"
@@ -141,6 +153,9 @@ msgstr "Atjauninot lietotāja saskarni, radās kļūda"
 
 msgid "Exit"
 msgstr "Iziet"
+
+msgid "EXIT"
+msgstr "IZIET"
 
 msgid "GROUPS"
 msgstr "GRUPAS"
@@ -156,6 +171,9 @@ msgstr "LEFT/RIGHT navigācija | Labi atvērt | UP atpakaļ uz grupām"
 
 msgid "Load error"
 msgstr "Ielādes kļūda"
+
+msgid "loading"
+msgstr "iekraušana"
 
 msgid "Loading details from TMDB..."
 msgstr "Notiek informācijas ielāde no TMDB..."
@@ -175,8 +193,11 @@ msgstr "Maksimālais parādāmo rezultātu skaits"
 msgid "Movie History"
 msgstr "Filmu vēsture"
 
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Filma\n\nGads: %s\n\nVērtējums: %s/10\n\nŽanri:\n%s\n\nNospiediet ZAĻO, lai atskaņotu"
+
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
 msgid "New search..."
 msgstr "Jauna meklēšana..."
@@ -205,12 +226,14 @@ msgstr "Vietnē SC nav atrasts neviens rezultāts."
 msgid "No streaming links found"
 msgstr "Straumēšanas saites nav atrastas"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Straumēšanas saites nav atrastas"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV — TV seriāls"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nVērtējums: %s\n\nRadītājs: %s"
 
 msgid "PLAY"
 msgstr "SPĒLĒT"
@@ -221,6 +244,9 @@ msgstr "Atskaņošanas kļūda: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Nospiediet ZAĻO (filma) vai DZELTENO (TV seriāls), lai meklētu..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Nospiediet ZAĻO, lai ievadītu kodu\nNospiediet SARKANĀ, lai atceltu"
+
 msgid "Press GREEN to play"
 msgstr "Lai atskaņotu, nospiediet ZAĻO"
 
@@ -230,17 +256,17 @@ msgstr "Nospiediet OK"
 msgid "Press OK to view full details..."
 msgstr "Nospiediet OK, lai skatītu visu informāciju..."
 
-msgid "REFRESH"
-msgstr "ATSVAIDZINĀT"
-
 msgid "Refresh"
 msgstr "Atsvaidzināt"
+
+msgid "REFRESH"
+msgstr "ATSVAIDZINĀT"
 
 msgid "Retry"
 msgstr "Mēģiniet vēlreiz"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "MEKLĒT"
@@ -251,14 +277,11 @@ msgstr "Meklēšanas vēsture"
 msgid "Search Movie"
 msgstr "Meklēt filmu"
 
-msgid "Search TV Series"
-msgstr "Meklēt TV seriālus"
-
 msgid "Search timeout"
 msgstr "Meklēšanas taimauts"
 
-msgid "Searching for: '%s'"
-msgstr "Meklē: '%s'"
+msgid "Search TV Series"
+msgstr "Meklēt TV seriālus"
 
 msgid "Searching..."
 msgstr "Notiek meklēšana..."
@@ -281,6 +304,12 @@ msgstr "Sērijas URL nav atrasts"
 msgid "Series URL not found."
 msgstr "Sērijas URL nav atrasts."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Meklēšanas pieprasījumu noildze (sekundēs)"
+
+msgid "Title"
+msgstr "Nosaukums"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API atslēga nav atrasta"
 
@@ -293,17 +322,20 @@ msgstr "TMDB ID nav atrasts"
 msgid "TV Series History"
 msgstr "TV seriālu vēsture"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Meklēšanas pieprasījumu noildze (sekundēs)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "TV seriāli\n\nSezonas: %d\nSēriju kopskaits: %d\n\nGads: %s\n\nVērtējums: %s/10\n\nŽanri:\n%s"
 
-msgid "Title"
-msgstr "Nosaukums"
+msgid "TV Series\n%s"
+msgstr "TV seriāls\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "TV seriāli\nSezonas: %d\nSēriju kopskaits: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV seriāls\nSezonas: %d\nKopā sēriju skaits: %d\nNospiediet ZAĻO, lai atskaņotu"
 
 msgid "Type: %s"
 msgstr "Veids: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN grupas | LEFT/RIGHT kartes | Labi atvērts"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nevar iegūt šīs sērijas straumi"
@@ -323,6 +355,9 @@ msgstr "Nevar izgūt informāciju no TMDB."
 msgid "Unknown"
 msgstr "Nezināms"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN grupas | LEFT/RIGHT kartes | Labi atvērts"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Atjaunināts, %d grupas nav pieejamas"
 
@@ -332,20 +367,6 @@ msgstr "Notiek atjaunināšana"
 msgid "Updating cards %d/%d"
 msgstr "Notiek karšu atjaunināšana %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Augsta izšķirtspēja] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Izmantojiet tālvadības pults ciparu taustiņus \n, lai ievadītu captcha kodu \n GREEN = Apstiprināt, SARKANA = Atcelt"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "kļūda"
-
-msgid "loading"
-msgstr "iekraušana"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione atskaņošanas kļūda: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Netika atrasta neviena Altadefinizione sērija"

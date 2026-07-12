@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# az translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 10:56+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Azerbaijani\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: az <ekekaz@gmail.com>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d başlıq"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- FİLMLER ---"
@@ -31,14 +22,35 @@ msgstr "--- Yeni axtarış ---"
 msgid "--- TV SERIES ---"
 msgstr "--- Seriallar ---"
 
-msgid "0 titles"
-msgstr "0 başlıq"
+msgid "[Altadefinizione] %s"
+msgstr "[Yüksək Tərifli] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nMövsüm məlumatı mövcud deyil"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nMövsümlər: %d\nÜmumi epizod: %d"
+
+msgid "%d titles"
+msgstr "%d başlıq"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizodlar <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Mövsümlər <<<"
+
+msgid "0 titles"
+msgstr "0 başlıq"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nİl: %s\nJanr: %s\n\nMövcud bağlantılar: %d\n\nOynamaq üçün YAŞIL düyməsini basın"
 
 msgid "Available links:"
 msgstr "Mövcud bağlantılar:"
@@ -49,26 +61,26 @@ msgstr "Üfüqi sürüşmə ilə qrupları və kartları gözdən keçirin"
 msgid "CANCEL"
 msgstr "LƏĞV EDİN"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01 oxutma xətası: %s"
-
-msgid "CONFIRM"
-msgstr "TƏSDİQ EDİN"
-
-msgid "CONTENTS"
-msgstr "MÜNDƏRİCAT"
-
 msgid "Card error"
 msgstr "Kart xətası"
 
 msgid "Cards updated"
 msgstr "Kartlar yeniləndi"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nİl: %s\nJanr: %s\n\nMövcud bağlantılar: %d\n\nOynamaq üçün YAŞIL düyməsini basın"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 oxutma xətası: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 TV Seriyası\n\nMövsümlər: %d\nÜmumi epizod: %d\n\nOynamaq üçün YAŞIL düyməsini basın"
+
 msgid "Code:"
 msgstr "Kod:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kod: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "TƏSDİQ EDİN"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione məzmunu - Açmaq üçün OK düyməsini basın..."
@@ -76,20 +88,17 @@ msgstr "Altadefinizione məzmunu - Açmaq üçün OK düyməsini basın..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 məzmunu - Açmaq üçün OK düyməsini basın..."
 
+msgid "CONTENTS"
+msgstr "MÜNDƏRİCAT"
+
 msgid "Description not available."
 msgstr "Təsvir mövcud deyil."
 
-msgid "Details for: '%s'"
-msgstr "'%s' üçün təfərrüatlar"
+msgid "Description:\n\n%s"
+msgstr "Təsvir:\n\n%s"
 
 msgid "Details not available"
 msgstr "Detallar mövcud deyil"
-
-msgid "ENTER"
-msgstr ""
-
-msgid "EXIT"
-msgstr "ÇIXIŞ"
 
 msgid "Enable debug"
 msgstr "Debaqı aktivləşdirin"
@@ -97,10 +106,12 @@ msgstr "Debaqı aktivləşdirin"
 msgid "Enable debug output in logs"
 msgstr "Qeydlərdə sazlama çıxışını aktivləşdirin"
 
+msgid "ENTER"
+msgstr "ENTER"
+
 msgid "Enter Captcha Code"
 msgstr "Captcha kodunu daxil edin"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Captcha kodunu daxil edin"
 
@@ -116,21 +127,23 @@ msgstr "Epizodlar"
 msgid "Episodes:"
 msgstr "Epizodlar:"
 
+msgid "error"
+msgstr "səhv"
+
+msgid "Error loading captcha"
+msgstr "Detalları yükləmə xətası"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 seriyasını yükləmə xətası"
+
+msgid "Error loading details"
+msgstr "Detalları yükləmə xətası"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV seriyasını yükləmə xətası"
 
 msgid "Error loading TMDB"
 msgstr "TMDB yüklənərkən xəta baş verdi"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Detalları yükləmə xətası"
-
-msgid "Error loading details"
-msgstr "Detalları yükləmə xətası"
 
 msgid "Error playing episode: %s"
 msgstr "Epizodu oynatma xətası: %s"
@@ -140,6 +153,9 @@ msgstr "UI yenilənərkən xəta baş verdi"
 
 msgid "Exit"
 msgstr "Çıx"
+
+msgid "EXIT"
+msgstr "ÇIXIŞ"
 
 msgid "GROUPS"
 msgstr "QRUPLAR"
@@ -155,6 +171,9 @@ msgstr "SOL/SAĞ naviqasiya | OK aç | Qruplara qayıt"
 
 msgid "Load error"
 msgstr "Yükləmə xətası"
+
+msgid "loading"
+msgstr "yüklənir"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB-dən təfərrüatlar yüklənir..."
@@ -173,6 +192,9 @@ msgstr "Göstəriləcək nəticələrin maksimum sayı"
 
 msgid "Movie History"
 msgstr "Kino Tarixi"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Movie\n\nİl: %s\n\nReytinq: %s/10\n\nJanr:\n%s\n\nOynamaq üçün YAŞIL düyməsini basın"
 
 msgid "N/A"
 msgstr "Yoxdur"
@@ -204,12 +226,14 @@ msgstr "SC-də heç bir nəticə tapılmadı."
 msgid "No streaming links found"
 msgstr "Axın keçidləri tapılmadı"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Axın keçidləri tapılmadı"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Televiziya serialı"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nReytinq: %s\n\nYaradıcı: %s"
 
 msgid "PLAY"
 msgstr "OYNA"
@@ -220,6 +244,9 @@ msgstr "Oxutma xətası: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Axtarmaq üçün YAŞIL (Film) və ya SARI (TV Seriyası) düyməsini basın..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Kodu daxil etmək üçün YAŞIL düyməsini basın\nLəğv etmək üçün QIRMIZI düyməsini basın"
+
 msgid "Press GREEN to play"
 msgstr "Oynamaq üçün YAŞIL düyməsini basın"
 
@@ -229,17 +256,17 @@ msgstr "OK düyməsini basın"
 msgid "Press OK to view full details..."
 msgstr "Tam təfərrüatlara baxmaq üçün OK düyməsini basın..."
 
-msgid "REFRESH"
-msgstr "TƏZİL EDİN"
-
 msgid "Refresh"
 msgstr "Yeniləyin"
+
+msgid "REFRESH"
+msgstr "TƏZİL EDİN"
 
 msgid "Retry"
 msgstr "Yenidən cəhd edin"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "AXTAR"
@@ -250,14 +277,11 @@ msgstr "Axtarış Tarixçəsi"
 msgid "Search Movie"
 msgstr "Film axtar"
 
-msgid "Search TV Series"
-msgstr "Televiziya seriallarını axtarın"
-
 msgid "Search timeout"
 msgstr "Axtarış fasiləsi"
 
-msgid "Searching for: '%s'"
-msgstr "Axtarılır: '%s'"
+msgid "Search TV Series"
+msgstr "Televiziya seriallarını axtarın"
 
 msgid "Searching..."
 msgstr "Axtarılır..."
@@ -280,6 +304,12 @@ msgstr "Seriyanın URL-i tapılmadı"
 msgid "Series URL not found."
 msgstr "Seriyanın URL-i tapılmadı."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Axtarış sorğuları üçün fasilə (saniyə)"
+
+msgid "Title"
+msgstr "Başlıq"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API açarı tapılmadı"
 
@@ -292,17 +322,20 @@ msgstr "TMDB ID-si tapılmadı"
 msgid "TV Series History"
 msgstr "Televiziya serialının tarixi"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Axtarış sorğuları üçün fasilə (saniyə)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Televiziya Seriyası\n\nMövsümlər: %d\nÜmumi epizod: %d\n\nİl: %s\n\nReytinq: %s/10\n\nJanr:\n%s"
 
-msgid "Title"
-msgstr "Başlıq"
+msgid "TV Series\n%s"
+msgstr "TV Seriyası\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "Televiziya Seriyası\nMövsümlər: %d\nÜmumi epizod: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV Seriyası\nMövsümlər: %d\nÜmumi epizod: %d\nOynamaq üçün YAŞIL düyməsini basın"
 
 msgid "Type: %s"
 msgstr "Növ: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu epizod üçün yayım əldə etmək mümkün deyil"
@@ -322,6 +355,9 @@ msgstr "TMDB-dən məlumat əldə etmək mümkün deyil."
 msgid "Unknown"
 msgstr "Naməlum"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Yenilənib, %d qrup əlçatan deyil"
 
@@ -331,20 +367,6 @@ msgstr "Yenilənir"
 msgid "Updating cards %d/%d"
 msgstr "Kartlar yenilənir %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Yüksək Tərifli] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Captcha kodunu daxil etmək üçün \n pultunda rəqəmli düymələrdən istifadə edin\nYAŞIL = Təsdiq et, QIRMIZI = Ləğv et"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "səhv"
-
-msgid "loading"
-msgstr "yüklənir"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Altadefinizione oxutma xətası: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Altadefinizione epizodu tapılmadı"

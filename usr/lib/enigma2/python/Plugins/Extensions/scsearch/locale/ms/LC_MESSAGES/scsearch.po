@@ -1,26 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ms translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:03+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ms <ekekaz@gmail.com>\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-msgid "%d titles"
-msgstr "%d tajuk"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- FILEM ---"
@@ -31,14 +22,35 @@ msgstr "--- Carian baharu ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SIRI TV ---"
 
-msgid "0 titles"
-msgstr "0 tajuk"
+msgid "[Altadefinizione] %s"
+msgstr "[Definisi Tinggi] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nMaklumat musim tidak tersedia"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nMusim: %d\nJumlah episod: %d"
+
+msgid "%d titles"
+msgstr "%d tajuk"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episod <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Musim <<<<"
+
+msgid "0 titles"
+msgstr "0 tajuk"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Filem Altadefinizione\n\nTahun: %s\nGenre: %s\n\nPautan tersedia: %d\n\nTekan HIJAU untuk bermain"
 
 msgid "Available links:"
 msgstr "Pautan yang tersedia:"
@@ -49,26 +61,26 @@ msgstr "Semak imbas kumpulan dan kad dengan tatal mendatar"
 msgid "CANCEL"
 msgstr "BATALKAN"
 
-msgid "CB01 playback error: %s"
-msgstr "Ralat main balik CB01: %s"
-
-msgid "CONFIRM"
-msgstr "SAHKAN"
-
-msgid "CONTENTS"
-msgstr "KANDUNGAN"
-
 msgid "Card error"
 msgstr "Ralat kad"
 
 msgid "Cards updated"
 msgstr "Kad dikemas kini"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nTahun: %s\nGenre: %s\n\nPautan tersedia: %d\n\nTekan HIJAU untuk bermain"
+
+msgid "CB01 playback error: %s"
+msgstr "Ralat main balik CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "Siri TV CB01\n\nMusim: %d\nJumlah episod: %d\n\nTekan HIJAU untuk bermain"
+
 msgid "Code:"
 msgstr "Kod:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kod: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "SAHKAN"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Kandungan daripada Altadefinizione - Tekan OK untuk membuka..."
@@ -76,20 +88,17 @@ msgstr "Kandungan daripada Altadefinizione - Tekan OK untuk membuka..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Kandungan daripada CB01 - Tekan OK untuk membuka..."
 
+msgid "CONTENTS"
+msgstr "KANDUNGAN"
+
 msgid "Description not available."
 msgstr "Penerangan tidak tersedia."
 
-msgid "Details for: '%s'"
-msgstr "Butiran untuk: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Penerangan:\n\n%s"
 
 msgid "Details not available"
 msgstr "Butiran tidak tersedia"
-
-msgid "ENTER"
-msgstr "MASUK"
-
-msgid "EXIT"
-msgstr "KELUAR"
 
 msgid "Enable debug"
 msgstr "Dayakan nyahpepijat"
@@ -97,10 +106,12 @@ msgstr "Dayakan nyahpepijat"
 msgid "Enable debug output in logs"
 msgstr "Dayakan output nyahpepijat dalam log"
 
+msgid "ENTER"
+msgstr "MASUK"
+
 msgid "Enter Captcha Code"
 msgstr "Masukkan Kod Captcha"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Masukkan Kod Captcha"
 
@@ -116,21 +127,23 @@ msgstr "Episod"
 msgid "Episodes:"
 msgstr "Episod:"
 
+msgid "error"
+msgstr "kesilapan"
+
+msgid "Error loading captcha"
+msgstr "Ralat memuatkan butiran"
+
 msgid "Error loading CB01 series"
 msgstr "Ralat memuatkan siri CB01"
+
+msgid "Error loading details"
+msgstr "Ralat memuatkan butiran"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Ralat memuatkan siri OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Ralat memuatkan TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Ralat memuatkan butiran"
-
-msgid "Error loading details"
-msgstr "Ralat memuatkan butiran"
 
 msgid "Error playing episode: %s"
 msgstr "Ralat memainkan episod: %s"
@@ -140,6 +153,9 @@ msgstr "Ralat mengemas kini UI"
 
 msgid "Exit"
 msgstr "Keluar"
+
+msgid "EXIT"
+msgstr "KELUAR"
 
 msgid "GROUPS"
 msgstr "KUMPULAN"
@@ -155,6 +171,9 @@ msgstr "KIRI/KANAN navigasi | OK buka | UP kembali kepada kumpulan"
 
 msgid "Load error"
 msgstr "Ralat memuatkan"
+
+msgid "loading"
+msgstr "memuatkan"
 
 msgid "Loading details from TMDB..."
 msgstr "Memuatkan butiran daripada TMDB..."
@@ -173,6 +192,9 @@ msgstr "Bilangan maksimum keputusan untuk dipaparkan"
 
 msgid "Movie History"
 msgstr "Sejarah Filem"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Filem\n\nTahun: %s\n\nPenilaian: %s/10\n\nGenre:\n%s\n\nTekan HIJAU untuk bermain"
 
 msgid "N/A"
 msgstr "T/A"
@@ -204,12 +226,14 @@ msgstr "Tiada hasil ditemui di SC."
 msgid "No streaming links found"
 msgstr "Tiada pautan penstriman ditemui"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Tiada pautan penstriman ditemui"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Siri TV"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nRating: %s\n\nPencipta: %s"
 
 msgid "PLAY"
 msgstr "BERMAIN"
@@ -220,6 +244,9 @@ msgstr "Ralat main balik: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Tekan HIJAU (Filem) atau KUNING (Siri TV) untuk mencari..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Tekan HIJAU untuk memasukkan kod\nTekan MERAH untuk membatalkan"
+
 msgid "Press GREEN to play"
 msgstr "Tekan HIJAU untuk bermain"
 
@@ -229,17 +256,17 @@ msgstr "Tekan OK"
 msgid "Press OK to view full details..."
 msgstr "Tekan OK untuk melihat butiran penuh..."
 
-msgid "REFRESH"
-msgstr "SEGARKAN"
-
 msgid "Refresh"
 msgstr "Segarkan semula"
+
+msgid "REFRESH"
+msgstr "SEGARKAN"
 
 msgid "Retry"
 msgstr "Cuba semula"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "CARIAN"
@@ -250,14 +277,11 @@ msgstr "Sejarah Carian"
 msgid "Search Movie"
 msgstr "Cari Filem"
 
-msgid "Search TV Series"
-msgstr "Cari Siri TV"
-
 msgid "Search timeout"
 msgstr "Cari tamat masa"
 
-msgid "Searching for: '%s'"
-msgstr "Mencari: '%s'"
+msgid "Search TV Series"
+msgstr "Cari Siri TV"
 
 msgid "Searching..."
 msgstr "Mencari..."
@@ -280,6 +304,12 @@ msgstr "URL siri tidak ditemui"
 msgid "Series URL not found."
 msgstr "URL siri tidak ditemui."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Tamat masa untuk permintaan carian (saat)"
+
+msgid "Title"
+msgstr "Tajuk"
+
 msgid "TMDB API key not found"
 msgstr "Kunci API TMDB tidak ditemui"
 
@@ -292,17 +322,20 @@ msgstr "ID TMDB tidak ditemui"
 msgid "TV Series History"
 msgstr "Sejarah Siri TV"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Tamat masa untuk permintaan carian (saat)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Siri TV\n\nMusim: %d\nJumlah episod: %d\n\nTahun: %s\n\nRating: %s/10\n\nGenre:\n%s"
 
-msgid "Title"
-msgstr "Tajuk"
+msgid "TV Series\n%s"
+msgstr "Siri TV\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "Siri TV\nMusim: %d\nJumlah episod: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "Siri TV\nMusim: %d\nJumlah episod: %d\nTekan HIJAU untuk bermain"
 
 msgid "Type: %s"
 msgstr "Jenis: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "kumpulan ATAS/BAWAH | Kad KIRI/KANAN | OK buka"
 
 msgid "Unable to get stream for this episode"
 msgstr "Tidak dapat mendapatkan strim untuk episod ini"
@@ -322,6 +355,9 @@ msgstr "Tidak dapat mendapatkan maklumat daripada TMDB."
 msgid "Unknown"
 msgstr "Tidak diketahui"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "kumpulan ATAS/BAWAH | Kad KIRI/KANAN | OK buka"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Dikemas kini, %d kumpulan tidak tersedia"
 
@@ -331,20 +367,6 @@ msgstr "Mengemas kini"
 msgid "Updating cards %d/%d"
 msgstr "Mengemas kini kad %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Definisi Tinggi] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Gunakan kekunci berangka pada remote\nuntuk memasukkan kod captcha\nGREEN = Sahkan, MERAH = Batal"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "kesilapan"
-
-msgid "loading"
-msgstr "memuatkan"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Ralat main balik Altadefinizione: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Tiada episod Altadefinizione ditemui"

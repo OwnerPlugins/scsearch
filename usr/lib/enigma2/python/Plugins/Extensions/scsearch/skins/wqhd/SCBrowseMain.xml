@@ -1,17 +1,17 @@
 <screen name="SCBrowseMain" position="center,center" size="2560,1440" title="SC Search - Home">
     <widget name="bg" position="0,0" size="2560,1440" backgroundColor="#101216" zPosition="-2" />
     <widget name="top_band" position="0,0" size="2560,172" backgroundColor="#171b22" zPosition="-1" />
-    <widget name="brand" position="68,36" size="720,606" font="Regular;56" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
-    <widget name="subtitle" position="72,104" size="1240,44" font="Regular;34" halign="left" valign="center" foregroundColor="#aab2c0" backgroundColor="#171b22" transparent="1" />
-    <widget name="status" position="1720,60" size="760,60" font="Regular;36" halign="right" valign="center" foregroundColor="#f0c36a" backgroundColor="#171b22" transparent="1" />
+    <widget name="brand" position="46,24" size="1403,77" font="Regular;56" halign="left" valign="top" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
+    <widget name="subtitle" position="48,108" size="1582,54" font="Regular; 42" halign="left" valign="center" foregroundColor="#aab2c0" backgroundColor="#171b22" transparent="1" />
+    <widget name="status" position="1720,65" size="760,60" font="Regular;36" halign="right" valign="center" foregroundColor="#f0c36a" backgroundColor="#171b22" transparent="1" />
 
     <widget name="side_panel" position="48,208" size="576,1096" backgroundColor="#1b2028" zPosition="-1" />
     <widget name="category_title" position="84,244" size="500,56" font="Regular;40" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" />
-    <widget name="category_list" position="84,328" size="500,928" itemHeight="60" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f3f5f7" selectionPixmap="skin_default/sel.png" transparent="0" />
+    <widget name="category_list" position="84,328" size="500,928" itemHeight="60" font="Regular;40" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f3f5f7" selectionPixmap="skin_default/sel.png" transparent="0" />
 
     <widget name="content_panel" position="660,208" size="1832,1096" backgroundColor="#151922" zPosition="-1" />
     <widget name="carousel_title" position="712,244" size="1300,60" font="Regular;48" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#151922" transparent="1" />
-    <widget name="counter" position="2040,252" size="400,52" font="Regular;34" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#151922" transparent="1" />
+    <widget name="counter" position="2042,244" size="400,60" font="Regular;34" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#151922" transparent="1" />
 
     <!-- Card 0 -->
     <widget name="card_bg_0" position="712,408" size="260,612" backgroundColor="#1b2028" zPosition="0" />

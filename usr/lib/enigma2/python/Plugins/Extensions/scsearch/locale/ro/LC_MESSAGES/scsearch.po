@@ -1,27 +1,17 @@
-# scsearch translations
-# Copyright (C) 2025 Lululla Team
-# This file is distributed under the same license as the Lululla package.
-# [lululla] <ekekaz@gmail.com>, 2025.
+# ro translations
+# Copyright (C) 2026 Lululla Team
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: scsearch\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-06-26 12:21+0000\n"
-"Last-Translator:  <EMAIL@ADDRESS>\n"
-"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ro <ekekaz@gmail.com>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2;\n"
-
-msgid "%d titles"
-msgstr "%d titluri"
-
-msgid "%s %s"
-msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr "--- FILME ---"
@@ -32,14 +22,35 @@ msgstr "--- Căutare nouă ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SERIALE TV ---"
 
-msgid "0 titles"
-msgstr "0 titluri"
+msgid "[Altadefinizione] %s"
+msgstr "[De înaltă definiție] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nInformațiile despre sezon nu sunt disponibile"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nSezoane: %d\nTotal episoade: %d"
+
+msgid "%d titles"
+msgstr "%d titluri"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episoade <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Anotimpuri <<<"
+
+msgid "0 titles"
+msgstr "0 titluri"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nYear: %s\nGen: %s\n\nLink-uri disponibile: %d\n\nApăsați VERDE pentru a reda"
 
 msgid "Available links:"
 msgstr "Link-uri disponibile:"
@@ -50,26 +61,26 @@ msgstr "Răsfoiți grupuri și carduri cu derulare orizontală"
 msgid "CANCEL"
 msgstr "ANULA"
 
-msgid "CB01 playback error: %s"
-msgstr "Eroare de redare CB01: %s"
-
-msgid "CONFIRM"
-msgstr "CONFIRMA"
-
-msgid "CONTENTS"
-msgstr "CUPRINS"
-
 msgid "Card error"
 msgstr "Eroare card"
 
 msgid "Cards updated"
 msgstr "Carduri actualizate"
 
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Film\n\nAn: %s\nGen: %s\n\nLink-uri disponibile: %d\n\nApăsați VERDE pentru a reda"
+
+msgid "CB01 playback error: %s"
+msgstr "Eroare de redare CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "Seria TV CB01\n\nSezoane: %d\nTotal episoade: %d\n\nApăsați VERDE pentru a reda"
+
 msgid "Code:"
 msgstr "Cod:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Cod: {self.captcha_code}"
+msgid "CONFIRM"
+msgstr "CONFIRMA"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Conținut din Altadefinizione - Apăsați OK pentru a deschide..."
@@ -77,20 +88,17 @@ msgstr "Conținut din Altadefinizione - Apăsați OK pentru a deschide..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Conținut de la CB01 - Apăsați OK pentru a deschide..."
 
+msgid "CONTENTS"
+msgstr "CUPRINS"
+
 msgid "Description not available."
 msgstr "Descrierea nu este disponibilă."
 
-msgid "Details for: '%s'"
-msgstr "Detalii pentru: „%s”"
+msgid "Description:\n\n%s"
+msgstr "Descriere: \n\n%s"
 
 msgid "Details not available"
 msgstr "Detalii nu sunt disponibile"
-
-msgid "ENTER"
-msgstr ""
-
-msgid "EXIT"
-msgstr "IEȘIRE"
 
 msgid "Enable debug"
 msgstr "Activați depanarea"
@@ -98,10 +106,12 @@ msgstr "Activați depanarea"
 msgid "Enable debug output in logs"
 msgstr "Activați ieșirea de depanare în jurnale"
 
+msgid "ENTER"
+msgstr "ENTER"
+
 msgid "Enter Captcha Code"
 msgstr "Introdu codul Captcha"
 
-#, fuzzy
 msgid "Enter captcha code:"
 msgstr "Introdu codul Captcha"
 
@@ -117,21 +127,23 @@ msgstr "Episoade"
 msgid "Episodes:"
 msgstr "Episoade:"
 
+msgid "error"
+msgstr "eroare"
+
+msgid "Error loading captcha"
+msgstr "Eroare la încărcarea detaliilor"
+
 msgid "Error loading CB01 series"
 msgstr "Eroare la încărcarea seriei CB01"
+
+msgid "Error loading details"
+msgstr "Eroare la încărcarea detaliilor"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Eroare la încărcarea seriei OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Eroare la încărcarea TMDB"
-
-#, fuzzy
-msgid "Error loading captcha"
-msgstr "Eroare la încărcarea detaliilor"
-
-msgid "Error loading details"
-msgstr "Eroare la încărcarea detaliilor"
 
 msgid "Error playing episode: %s"
 msgstr "Eroare la redarea episodului: %s"
@@ -141,6 +153,9 @@ msgstr "Eroare la actualizarea interfeței de utilizare"
 
 msgid "Exit"
 msgstr "Ieșire"
+
+msgid "EXIT"
+msgstr "IEȘIRE"
 
 msgid "GROUPS"
 msgstr "GRUPURI"
@@ -156,6 +171,9 @@ msgstr "navigare stanga/dreapta | OK deschis | SUS înapoi la grupuri"
 
 msgid "Load error"
 msgstr "Eroare de încărcare"
+
+msgid "loading"
+msgstr "încărcare"
 
 msgid "Loading details from TMDB..."
 msgstr "Se încarcă detalii din TMDB..."
@@ -174,6 +192,9 @@ msgstr "Numărul maxim de rezultate de afișat"
 
 msgid "Movie History"
 msgstr "Istoria filmului"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Film\n\nAn: %s\n\nEvaluare: %s/10\n\nGenuri: \n%s\n\nApăsați VERDE pentru a reda"
 
 msgid "N/A"
 msgstr "N / A"
@@ -205,12 +226,14 @@ msgstr "Nu s-au găsit rezultate pe SC."
 msgid "No streaming links found"
 msgstr "Nu s-au găsit linkuri de streaming"
 
-#, fuzzy
 msgid "No streaming links found."
 msgstr "Nu s-au găsit linkuri de streaming"
 
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serial TV"
+
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nEvaluare: %s\n\nCreator: %s"
 
 msgid "PLAY"
 msgstr "JUCA"
@@ -221,6 +244,9 @@ msgstr "Eroare de redare: %s"
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Apăsați VERDE (Film) sau GALBEN (Serial TV) pentru a căuta..."
 
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Apăsați VERDE pentru a introduce codul\nApăsați roșu pentru a anula"
+
 msgid "Press GREEN to play"
 msgstr "Apăsați VERDE pentru a juca"
 
@@ -230,17 +256,17 @@ msgstr "Apăsați OK"
 msgid "Press OK to view full details..."
 msgstr "Apăsați OK pentru a vedea detaliile complete..."
 
-msgid "REFRESH"
-msgstr "REÎMPROSPĂTA"
-
 msgid "Refresh"
 msgstr "Reîmprospăta"
+
+msgid "REFRESH"
+msgstr "REÎMPROSPĂTA"
 
 msgid "Retry"
 msgstr "Reîncercați"
 
 msgid "SC"
-msgstr ""
+msgstr "SC"
 
 msgid "SEARCH"
 msgstr "CĂUTARE"
@@ -251,14 +277,11 @@ msgstr "Istoricul căutărilor"
 msgid "Search Movie"
 msgstr "Caută film"
 
-msgid "Search TV Series"
-msgstr "Căutați seriale TV"
-
 msgid "Search timeout"
 msgstr "Timeout de căutare"
 
-msgid "Searching for: '%s'"
-msgstr "Se caută: „%s”"
+msgid "Search TV Series"
+msgstr "Căutați seriale TV"
 
 msgid "Searching..."
 msgstr "Se caută..."
@@ -281,6 +304,12 @@ msgstr "Adresa URL a seriei nu a fost găsită"
 msgid "Series URL not found."
 msgstr "Adresa URL a seriei nu a fost găsită."
 
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout pentru cererile de căutare (secunde)"
+
+msgid "Title"
+msgstr "Titlu"
+
 msgid "TMDB API key not found"
 msgstr "Cheia API TMDB nu a fost găsită"
 
@@ -293,17 +322,20 @@ msgstr "ID-ul TMDB nu a fost găsit"
 msgid "TV Series History"
 msgstr "Istoria serialelor TV"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Timeout pentru cererile de căutare (secunde)"
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Serii TV\n\nSezoane: %d\nTotal episoade: %d\n\nAnul: %s\n\nEvaluare: %s/10\n\nGenuri: \n%s"
 
-msgid "Title"
-msgstr "Titlu"
+msgid "TV Series\n%s"
+msgstr "Seria TV\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "Seriale TV\nSezoane: %d\nTotal episoade: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "Serii TV\nSezoane: %d\nTotal episoade: %d\nApăsați VERDE pentru a reda"
 
 msgid "Type: %s"
 msgstr "Tip: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupuri SUS/JOS | carduri STÂNGA/DREAPTA | OK deschis"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nu se poate obține fluxul pentru acest episod"
@@ -323,6 +355,9 @@ msgstr "Nu se pot prelua informații din TMDB."
 msgid "Unknown"
 msgstr "Necunoscut"
 
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grupuri SUS/JOS | carduri STÂNGA/DREAPTA | OK deschis"
+
 msgid "Updated, %d groups unavailable"
 msgstr "Actualizat, %d grupuri indisponibile"
 
@@ -332,20 +367,6 @@ msgstr "Actualizare"
 msgid "Updating cards %d/%d"
 msgstr "Se actualizează cardurile %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[De înaltă definiție] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Folosiți tastele numerice de pe telecomandă\npentru a introduce codul captcha\nVERDE = Confirmare, ROȘU = Anulare"
 
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "error"
-msgstr "eroare"
-
-msgid "loading"
-msgstr "încărcare"
-
-#~ msgid "Altadefinizione playback error: %s"
-#~ msgstr "Eroare de redare Altadefiniție: %s"
-
-#~ msgid "No Altadefinizione episode found"
-#~ msgstr "Nu a fost găsit niciun episod Altadefinizione"

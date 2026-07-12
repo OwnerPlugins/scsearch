@@ -3,6 +3,6 @@
     <widget name="captcha_image" position="600,240" size="1200,600" zPosition="3" alphatest="on" />
     <widget name="code_display" position="60,900" size="2280,180" font="Regular;96" foregroundColor="#00ff00" halign="center" />
     <widget name="instructions" position="60,1140" size="2280,240" font="Regular;54" foregroundColor="#cccccc" halign="center" />
-    <widget name="key_green" position="450,1500" size="300,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#00ff00" />
-    <widget name="key_red" position="1650,1500" size="300,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#ff0000" />
+    <widget name="key_green" position="450,1500" size="400,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#00ff00" />
+    <widget name="key_red" position="1650,1500" size="400,120" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#ff0000" />
 </screen>

@@ -1,13 +1,13 @@
 <screen name="SCBrowseMain" position="center,center" size="1920,1080" title="SC Search - Home">
     <widget name="bg" position="0,0" size="1920,1080" backgroundColor="#101216" zPosition="-2" />
     <widget name="top_band" position="0,0" size="1920,129" backgroundColor="#171b22" zPosition="-1" />
-    <widget name="brand" position="50,27" size="540,48" font="Regular;42" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
-    <widget name="subtitle" position="50,78" size="930,37" font="Regular;25" halign="left" valign="center" foregroundColor="#aab2c0" backgroundColor="#171b22" transparent="1" />
+    <widget name="brand" position="50,27" size="1115,48" font="Regular;42" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
+    <widget name="subtitle" position="50,78" size="1124,37" font="Regular;25" halign="left" valign="center" foregroundColor="#aab2c0" backgroundColor="#171b22" transparent="1" />
     <widget name="status" position="1290,45" size="570,45" font="Regular;27" halign="right" valign="center" foregroundColor="#f0c36a" backgroundColor="#171b22" transparent="1" />
 
     <widget name="side_panel" position="36,156" size="432,822" backgroundColor="#1b2028" zPosition="-1" />
     <widget name="category_title" position="63,183" size="375,42" font="Regular;30" foregroundColor="#f0c36a" backgroundColor="#1b2028" transparent="1" />
-    <widget name="category_list" position="63,246" size="375,696" itemHeight="48" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f3f5f7" selectionPixmap="skin_default/sel.png" transparent="0" font="Regular; 32" />
+    <widget name="category_list" position="63,246" size="375,696" itemHeight="48" font="Regular;34" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f3f5f7" selectionPixmap="skin_default/sel.png" transparent="0" />
 
     <widget name="content_panel" position="495,156" size="1374,822" backgroundColor="#151922" zPosition="-1" />
     <widget name="carousel_title" position="534,183" size="975,48" font="Regular;36" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#151922" transparent="1" />
