@@ -595,7 +595,11 @@ class SCDetailsScreen(Screen):
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
             self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+                self.on_playback_stopped,
+                MoviePlayer,
+                service_ref,
+                fromMovieSelection=False
+            )
 
     def _setup_onlineserietv_series(self):
         """Setup for OnlineSerieTV TV series."""
@@ -709,7 +713,11 @@ class SCDetailsScreen(Screen):
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
             self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+                self.on_playback_stopped,
+                MoviePlayer,
+                service_ref,
+                fromMovieSelection=False
+            )
 
         except Exception as e:
             log.error("ALTADEFINIZIONE_EPISODE: Error: {}".format(e))
@@ -741,7 +749,11 @@ class SCDetailsScreen(Screen):
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName("{} [Altadefinizione]".format(self.title))
             self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+                self.on_playback_stopped,
+                MoviePlayer,
+                service_ref,
+                fromMovieSelection=False
+            )
 
         except Exception as e:
             log.error("ALTADEFINIZIONE PLAY ERROR: {}".format(e))
@@ -874,7 +886,11 @@ class SCDetailsScreen(Screen):
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
             self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+                self.on_playback_stopped,
+                MoviePlayer,
+                service_ref,
+                fromMovieSelection=False
+            )
 
         except Exception as e:
             log.error("CB01_PLAY: Error: {}".format(e))
@@ -933,7 +949,11 @@ class SCDetailsScreen(Screen):
 
             # Open player with callback for when it's closed
             self.session.openWithCallback(
-                self.on_playback_stopped, MoviePlayer, service_ref)
+                self.on_playback_stopped,
+                MoviePlayer,
+                service_ref,
+                fromMovieSelection=False
+            )
 
         except Exception as e:
             log.error("PLAY: Playback error: {}".format(e))
@@ -978,8 +998,14 @@ class SCDetailsScreen(Screen):
             return eServiceReference(4097, 0, url)
 
     def on_playback_stopped(self, *args, **kwargs):
-        log.info("DETAILS: Playback stopped, returning to details screen")
+        log.info("DETAILS: Playback stopped, returning to details")
+        self.return_timer = eTimer()
+        self.return_timer.callback.append(self._do_return)
+        self.return_timer.start(100, True)
+
+    def _do_return(self):
         self.show()
+        self.return_timer.stop()
 
     def keyLeft(self):
         self.active_list = "seasons"
