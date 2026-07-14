@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d pavadinimų"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMAI ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Nauja paieška ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV Serialas ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[High Definition] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nSezono informacija nepasiekiama"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nSezonai: %d\nIš viso serijų: %d"
-
-msgid "%d titles"
-msgstr "%d pavadinimų"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 pavadinimų"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizodai <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Metų laikai <<<"
-
-msgid "0 titles"
-msgstr "0 pavadinimų"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nMetai: %s\nŽanras: %s\n\nGalimos nuorodos: %d\n\nPaspauskite ŽALIĄ, kad paleistumėte"
 
 msgid "Available links:"
 msgstr "Galimos nuorodos:"
@@ -61,26 +46,26 @@ msgstr "Naršykite grupes ir korteles su horizontaliu slinkimu"
 msgid "CANCEL"
 msgstr "ATŠAUKTI"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 atkūrimo klaida: %s"
+
+msgid "CONFIRM"
+msgstr "PATVIRTINTI"
+
+msgid "CONTENTS"
+msgstr "TURINYS"
+
 msgid "Card error"
 msgstr "Kortelės klaida"
 
 msgid "Cards updated"
 msgstr "Kortelės atnaujintos"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 filmas\n\nMetai: %s\nŽanras: %s\n\nGalimos nuorodos: %d\n\nPaspauskite ŽALIĄ, kad paleistumėte"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 atkūrimo klaida: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 TV serialas\n\nSezonai: %d\nIš viso serijų: %d\n\nPaspauskite ŽALIĄ, kad paleistumėte"
-
 msgid "Code:"
 msgstr "Kodas:"
 
-msgid "CONFIRM"
-msgstr "PATVIRTINTI"
+msgid "Code: {self.captcha_code}"
+msgstr "Kodas: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Turinys iš Altadefinizione – paspauskite OK, kad atidarytumėte..."
@@ -88,26 +73,26 @@ msgstr "Turinys iš Altadefinizione – paspauskite OK, kad atidarytumėte..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Turinys iš CB01 – paspauskite OK, kad atidarytumėte..."
 
-msgid "CONTENTS"
-msgstr "TURINYS"
-
 msgid "Description not available."
 msgstr "Aprašymas nepasiekiamas."
 
-msgid "Description:\n\n%s"
-msgstr "Aprašymas: \n\n%s"
+msgid "Details for: '%s'"
+msgstr "Išsami informacija apie: „%s“"
 
 msgid "Details not available"
 msgstr "Išsamios informacijos nėra"
+
+msgid "ENTER"
+msgstr "ENTER"
+
+msgid "EXIT"
+msgstr "IŠĖJIMAS"
 
 msgid "Enable debug"
 msgstr "Įgalinti derinimą"
 
 msgid "Enable debug output in logs"
 msgstr "Įgalinti derinimo išvestį žurnaluose"
-
-msgid "ENTER"
-msgstr "ENTER"
 
 msgid "Enter Captcha Code"
 msgstr "Įveskite „Captcha“ kodą"
@@ -127,23 +112,20 @@ msgstr "Epizodai"
 msgid "Episodes:"
 msgstr "Epizodai:"
 
-msgid "error"
-msgstr "klaida"
-
-msgid "Error loading captcha"
-msgstr "Įkeliant išsamią informaciją įvyko klaida"
-
 msgid "Error loading CB01 series"
 msgstr "Įkeliant CB01 seriją įvyko klaida"
-
-msgid "Error loading details"
-msgstr "Įkeliant išsamią informaciją įvyko klaida"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Įkeliant OnlineSerieTV serialą įvyko klaida"
 
 msgid "Error loading TMDB"
 msgstr "Įkeliant TMDB įvyko klaida"
+
+msgid "Error loading captcha"
+msgstr "Įkeliant išsamią informaciją įvyko klaida"
+
+msgid "Error loading details"
+msgstr "Įkeliant išsamią informaciją įvyko klaida"
 
 msgid "Error playing episode: %s"
 msgstr "Klaida leidžiant seriją: %s"
@@ -153,9 +135,6 @@ msgstr "Klaida atnaujinant vartotojo sąsają"
 
 msgid "Exit"
 msgstr "Išeiti"
-
-msgid "EXIT"
-msgstr "IŠĖJIMAS"
 
 msgid "GROUPS"
 msgstr "GRUPĖS"
@@ -171,9 +150,6 @@ msgstr "KAIRĖ / DEŠINĖ naršyti | Gerai atidaryti | UP atgal į grupes"
 
 msgid "Load error"
 msgstr "Įkėlimo klaida"
-
-msgid "loading"
-msgstr "pakrovimas"
 
 msgid "Loading details from TMDB..."
 msgstr "Įkeliama informacija iš TMDB..."
@@ -192,9 +168,6 @@ msgstr "Maksimalus rodomų rezultatų skaičius"
 
 msgid "Movie History"
 msgstr "Filmo istorija"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Filmas\n\nMetai: %s\n\nĮvertinimas: %s/10\n\nŽanrai:\n%s\n\nPaspauskite ŽALIĄ, kad paleistumėte"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Srautinio perdavimo nuorodų nerasta"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV – TV serialas"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nĮvertinimas: %s\n\nKūrėjas: %s"
-
 msgid "PLAY"
 msgstr "ŽAISTI"
 
@@ -243,9 +213,6 @@ msgstr "Atkūrimo klaida: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Norėdami ieškoti, paspauskite ŽALIĄ (filmas) arba GELTONĄ (TV serialas)..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Paspauskite ŽALIĄ, kad įvestumėte kodą\nPaspauskite RAUDONĄ, kad atšauktumėte"
 
 msgid "Press GREEN to play"
 msgstr "Norėdami žaisti, paspauskite ŽALIĄ"
@@ -256,11 +223,11 @@ msgstr "Paspauskite OK"
 msgid "Press OK to view full details..."
 msgstr "Norėdami pamatyti visą informaciją, paspauskite OK..."
 
-msgid "Refresh"
-msgstr "Atnaujinti"
-
 msgid "REFRESH"
 msgstr "ATNAUJINTI"
+
+msgid "Refresh"
+msgstr "Atnaujinti"
 
 msgid "Retry"
 msgstr "Bandykite dar kartą"
@@ -277,11 +244,14 @@ msgstr "Paieškos istorija"
 msgid "Search Movie"
 msgstr "Ieškoti Filmas"
 
+msgid "Search TV Series"
+msgstr "Ieškoti TV serialų"
+
 msgid "Search timeout"
 msgstr "Paieškos skirtasis laikas"
 
-msgid "Search TV Series"
-msgstr "Ieškoti TV serialų"
+msgid "Searching for: '%s'"
+msgstr "Ieškoma: '%s'"
 
 msgid "Searching..."
 msgstr "Ieškoma..."
@@ -304,12 +274,6 @@ msgstr "Serijos URL nerastas"
 msgid "Series URL not found."
 msgstr "Serijos URL nerastas."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Paieškos užklausų skirtasis laikas (sekundėmis)"
-
-msgid "Title"
-msgstr "Pavadinimas"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API raktas nerastas"
 
@@ -322,20 +286,17 @@ msgstr "TMDB ID nerastas"
 msgid "TV Series History"
 msgstr "TV serialų istorija"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "TV serialas\n\nSezonai: %d\nIš viso serijų: %d\n\nMetai: %s\n\nĮvertinimas: %s/10\n\nŽanrai:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Paieškos užklausų skirtasis laikas (sekundėmis)"
 
-msgid "TV Series\n%s"
-msgstr "TV serialas\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "TV serialas\nSezonai: %d\nIš viso serijų: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "TV serialas\nSezonai: %d\nIš viso serijų: %d\nPaspauskite ŽALIĄ, kad paleistumėte"
+msgid "Title"
+msgstr "Pavadinimas"
 
 msgid "Type: %s"
 msgstr "Tipas: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "AUKŠTYN/ŽEMYN grupės | KAIRĖS/DEŠINĖS kortelės | Gerai atidaryta"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nepavyko gauti šios serijos srauto"
@@ -355,9 +316,6 @@ msgstr "Nepavyko gauti informacijos iš TMDB."
 msgid "Unknown"
 msgstr "Nežinoma"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "AUKŠTYN/ŽEMYN grupės | KAIRĖS/DEŠINĖS kortelės | Gerai atidaryta"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Atnaujinta, %d grupės nepasiekiamos"
 
@@ -367,6 +325,200 @@ msgstr "Atnaujinama"
 msgid "Updating cards %d/%d"
 msgstr "Atnaujinamos kortelės %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Naudokite nuotolinio valdymo pulto skaičių klavišus\n, kad įvestumėte captcha kodą \nŽALIA = Patvirtinti, RAUDONA = Atšaukti"
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "klaida"
+
+msgid "loading"
+msgstr "pakrovimas"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sezono informacija nepasiekiama"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sezonai: %d\n"
+#~ "Iš viso serijų: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Metai: %s\n"
+#~ "Žanras: %s\n"
+#~ "\n"
+#~ "Galimos nuorodos: %d\n"
+#~ "\n"
+#~ "Paspauskite ŽALIĄ, kad paleistumėte"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 filmas\n"
+#~ "\n"
+#~ "Metai: %s\n"
+#~ "Žanras: %s\n"
+#~ "\n"
+#~ "Galimos nuorodos: %d\n"
+#~ "\n"
+#~ "Paspauskite ŽALIĄ, kad paleistumėte"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 TV serialas\n"
+#~ "\n"
+#~ "Sezonai: %d\n"
+#~ "Iš viso serijų: %d\n"
+#~ "\n"
+#~ "Paspauskite ŽALIĄ, kad paleistumėte"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Aprašymas: \n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Filmas\n"
+#~ "\n"
+#~ "Metai: %s\n"
+#~ "\n"
+#~ "Įvertinimas: %s/10\n"
+#~ "\n"
+#~ "Žanrai:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Paspauskite ŽALIĄ, kad paleistumėte"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Įvertinimas: %s\n"
+#~ "\n"
+#~ "Kūrėjas: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Paspauskite ŽALIĄ, kad įvestumėte kodą\n"
+#~ "Paspauskite RAUDONĄ, kad atšauktumėte"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV serialas\n"
+#~ "\n"
+#~ "Sezonai: %d\n"
+#~ "Iš viso serijų: %d\n"
+#~ "\n"
+#~ "Metai: %s\n"
+#~ "\n"
+#~ "Įvertinimas: %s/10\n"
+#~ "\n"
+#~ "Žanrai:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV serialas\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "TV serialas\n"
+#~ "Sezonai: %d\n"
+#~ "Iš viso serijų: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "TV serialas\n"
+#~ "Sezonai: %d\n"
+#~ "Iš viso serijų: %d\n"
+#~ "Paspauskite ŽALIĄ, kad paleistumėte"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Naudokite nuotolinio valdymo pulto skaičių klavišus\n"
+#~ ", kad įvestumėte captcha kodą \n"
+#~ "ŽALIA = Patvirtinti, RAUDONA = Atšaukti"

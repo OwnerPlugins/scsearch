@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "% d atlar"
+
+msgid "%s %s"
+msgstr "% s% s"
+
 msgid "--- MOVIES ---"
 msgstr "--- Kinolar ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Täze gözleg ---"
 msgid "--- TV SERIES ---"
 msgstr "--- Telewizor hyzmatlary ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Defokary kesgitleme]% s"
-
-msgid "[CB01] %s"
-msgstr "[CB01]% s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nSeason maglumatlary elýeterli däl"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\n Möwsümler:% d\n Jemi bölümler:% d"
-
-msgid "%d titles"
-msgstr "% d atlar"
-
-msgid "%s %s"
-msgstr "% s% s"
+msgid "0 titles"
+msgstr "0 at"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Bölümler <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Möwsümler <<<"
-
-msgid "0 titles"
-msgstr "0 at"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nYyl:% s\nGenre:% s\n\nLinkler bar:% d\n\n GREEN oýnamak üçin basyň"
 
 msgid "Available links:"
 msgstr "Elýeterli baglanyşyklar:"
@@ -61,26 +46,26 @@ msgstr "Gorizontal aýlaw bilen toparlara we kartalara göz aýlaň"
 msgid "CANCEL"
 msgstr "ANCATY .."
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 oýnamak ýalňyşlygy:% s"
+
+msgid "CONFIRM"
+msgstr "KONFIRM"
+
+msgid "CONTENTS"
+msgstr "Mazmuny"
+
 msgid "Card error"
 msgstr "Kart ýalňyşlygy"
 
 msgid "Cards updated"
 msgstr "Kartlar täzelendi"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nYyl:% s\nGenre:% s\n\nLinkler bar: oýnamak üçin% d\n\n GREEN basyň"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 oýnamak ýalňyşlygy:% s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 teleseriallary\n\n Möwsümler:% d\n Jemi bölümler: oýnamak üçin% d\n\n GREEN basyň"
-
 msgid "Code:"
 msgstr "Kod:"
 
-msgid "CONFIRM"
-msgstr "KONFIRM"
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione-dan mazmun - açmak üçin OK basyň ..."
@@ -88,26 +73,26 @@ msgstr "Altadefinizione-dan mazmun - açmak üçin OK basyň ..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01-den mazmun - açmak üçin OK basyň ..."
 
-msgid "CONTENTS"
-msgstr "Mazmuny"
-
 msgid "Description not available."
 msgstr "Düşündiriş ýok"
 
-msgid "Description:\n\n%s"
-msgstr "Düşündiriş: \n\n% s"
+msgid "Details for: '%s'"
+msgstr "Jikme-jiklikler: '% s'"
 
 msgid "Details not available"
 msgstr "Jikme-jiklikler ýok"
+
+msgid "ENTER"
+msgstr "Giriş"
+
+msgid "EXIT"
+msgstr "Çyk"
 
 msgid "Enable debug"
 msgstr "Düzediş işini açyň"
 
 msgid "Enable debug output in logs"
 msgstr "Surnallarda düzediş çykyşyny işjeňleşdiriň"
-
-msgid "ENTER"
-msgstr "Giriş"
 
 msgid "Enter Captcha Code"
 msgstr "Captcha koduny giriziň"
@@ -127,23 +112,20 @@ msgstr "Bölümler"
 msgid "Episodes:"
 msgstr "Bölümler:"
 
-msgid "error"
-msgstr "ýalňyşlyk"
-
-msgid "Error loading captcha"
-msgstr "Jikme-jiklikleri ýüklemekde säwlik"
-
 msgid "Error loading CB01 series"
 msgstr "CB01 seriýasyny ýüklemekde säwlik"
-
-msgid "Error loading details"
-msgstr "Jikme-jiklikleri ýüklemekde säwlik"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV seriýasyny ýüklemekde säwlik"
 
 msgid "Error loading TMDB"
 msgstr "TMDB ýüklemekde säwlik"
+
+msgid "Error loading captcha"
+msgstr "Jikme-jiklikleri ýüklemekde säwlik"
+
+msgid "Error loading details"
+msgstr "Jikme-jiklikleri ýüklemekde säwlik"
 
 msgid "Error playing episode: %s"
 msgstr "Bölüm oýnamakda säwlik:% s"
@@ -152,9 +134,6 @@ msgid "Error updating UI"
 msgstr "UI täzelenmekde säwlik"
 
 msgid "Exit"
-msgstr "Çyk"
-
-msgid "EXIT"
 msgstr "Çyk"
 
 msgid "GROUPS"
@@ -171,9 +150,6 @@ msgstr "Çep / HUKUK gezmek | Bolýar açyk | Toparlara gaýdyp geliň"
 
 msgid "Load error"
 msgstr "Erroralňyşlyk"
-
-msgid "loading"
-msgstr "ýüklemek"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB-den jikme-jiklikleri ýüklemek ..."
@@ -192,9 +168,6 @@ msgstr "Görkezilmeli netijeleriň iň köp sany"
 
 msgid "Movie History"
 msgstr "Kino taryhy"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Film\n\nYyl:% s\n\n Reýting:% s / 10\n\nGenres: \n% s\n\n GREEN oýnamak üçin basyň"
 
 msgid "N/A"
 msgstr "N / A."
@@ -232,9 +205,6 @@ msgstr "Akym baglanyşyklary tapylmady"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - teleseriallar"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\n Bahalandyrma:% s\n\n Dörediji:% s"
-
 msgid "PLAY"
 msgstr "Oýun"
 
@@ -243,9 +213,6 @@ msgstr "Aýtdyrmak säwligi:% s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Gözlemek üçin REaşyl (Kino) ýa-da YELLOW (Teleserial) basyň ..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Cancelatyrmak üçin REES koduny girizmek üçin GREEN basyň"
 
 msgid "Press GREEN to play"
 msgstr "Oýun etmek üçin REaşyl basyň"
@@ -256,11 +223,11 @@ msgstr "OK basyň"
 msgid "Press OK to view full details..."
 msgstr "Doly maglumatlary görmek üçin OK basyň ..."
 
-msgid "Refresh"
-msgstr "Täzele"
-
 msgid "REFRESH"
 msgstr "GÖRNÜŞ"
+
+msgid "Refresh"
+msgstr "Täzele"
 
 msgid "Retry"
 msgstr "Gaýtadan synanyşyň"
@@ -277,11 +244,14 @@ msgstr "Gözleg taryhy"
 msgid "Search Movie"
 msgstr "Kino gözläň"
 
+msgid "Search TV Series"
+msgstr "Teleseriallary gözläň"
+
 msgid "Search timeout"
 msgstr "Gözleg wagty gutar"
 
-msgid "Search TV Series"
-msgstr "Teleseriallary gözläň"
+msgid "Searching for: '%s'"
+msgstr "Gözleýär: '% s'"
 
 msgid "Searching..."
 msgstr "Gözleg ..."
@@ -304,12 +274,6 @@ msgstr "Seriýa URL tapylmady"
 msgid "Series URL not found."
 msgstr "Seriýa URL tapylmady"
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Gözleg haýyşlarynyň wagty (sekuntlar)"
-
-msgid "Title"
-msgstr "Ady"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API açary tapylmady"
 
@@ -322,20 +286,17 @@ msgstr "TMDB ID tapylmady"
 msgid "TV Series History"
 msgstr "Teleseriallaryň taryhy"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Teleýaýlym seriýalary\n\n Möwsümler:% d\n Jemi bölümler:% d\n\nYyl:% s\n\n Bahalandyrma:% s / 10\n\nGenres: \n% s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Gözleg haýyşlarynyň wagty (sekuntlar)"
 
-msgid "TV Series\n%s"
-msgstr "Teleýaýlym seriýalary\n% s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Teleýaýlym seriýalary\n Möwsümler:% d\n Jemi bölümler:% d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Teleýaýlym seriýalary\n Möwsümler:% d\n Jemi bölümler:% d\n oýnamak üçin GREEN basyň"
+msgid "Title"
+msgstr "Ady"
 
 msgid "Type: %s"
 msgstr "Görnüşi:% s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu bölüm üçin akym alyp bolmaýar"
@@ -355,9 +316,6 @@ msgstr "TMDB-den maglumat alyp bolmaýar."
 msgid "Unknown"
 msgstr "Näbelli"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Täzelendi,% d toparlary elýeterli däl"
 
@@ -367,6 +325,197 @@ msgstr "Täzelenme"
 msgid "Updating cards %d/%d"
 msgstr "Kartalary täzelemek% d /% d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Uzakdaky san düwmelerini ulanyň, capcha koduny girizmek üçin\nGREEN = Tassyklaň, RED = elatyr"
+msgid "[Altadefinizione] %s"
+msgstr "[Defokary kesgitleme]% s"
 
+msgid "[CB01] %s"
+msgstr "[CB01]% s"
+
+msgid "error"
+msgstr "ýalňyşlyk"
+
+msgid "loading"
+msgstr "ýüklemek"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Season maglumatlary elýeterli däl"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ " Möwsümler:% d\n"
+#~ " Jemi bölümler:% d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Yyl:% s\n"
+#~ "Genre:% s\n"
+#~ "\n"
+#~ "Linkler bar:% d\n"
+#~ "\n"
+#~ " GREEN oýnamak üçin basyň"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Yyl:% s\n"
+#~ "Genre:% s\n"
+#~ "\n"
+#~ "Linkler bar: oýnamak üçin% d\n"
+#~ "\n"
+#~ " GREEN basyň"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 teleseriallary\n"
+#~ "\n"
+#~ " Möwsümler:% d\n"
+#~ " Jemi bölümler: oýnamak üçin% d\n"
+#~ "\n"
+#~ " GREEN basyň"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Düşündiriş: \n"
+#~ "\n"
+#~ "% s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Film\n"
+#~ "\n"
+#~ "Yyl:% s\n"
+#~ "\n"
+#~ " Reýting:% s / 10\n"
+#~ "\n"
+#~ "Genres: \n"
+#~ "% s\n"
+#~ "\n"
+#~ " GREEN oýnamak üçin basyň"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ " Bahalandyrma:% s\n"
+#~ "\n"
+#~ " Dörediji:% s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr "Cancelatyrmak üçin REES koduny girizmek üçin GREEN basyň"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Teleýaýlym seriýalary\n"
+#~ "\n"
+#~ " Möwsümler:% d\n"
+#~ " Jemi bölümler:% d\n"
+#~ "\n"
+#~ "Yyl:% s\n"
+#~ "\n"
+#~ " Bahalandyrma:% s / 10\n"
+#~ "\n"
+#~ "Genres: \n"
+#~ "% s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Teleýaýlym seriýalary\n"
+#~ "% s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Teleýaýlym seriýalary\n"
+#~ " Möwsümler:% d\n"
+#~ " Jemi bölümler:% d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Teleýaýlym seriýalary\n"
+#~ " Möwsümler:% d\n"
+#~ " Jemi bölümler:% d\n"
+#~ " oýnamak üçin GREEN basyň"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Uzakdaky san düwmelerini ulanyň, capcha koduny girizmek üçin\n"
+#~ "GREEN = Tassyklaň, RED = elatyr"

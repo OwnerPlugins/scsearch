@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d cím"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMEK ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Új keresés ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV SOROZAT ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[High Definition] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nAz évad információi nem állnak rendelkezésre"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nÉvadok: %d\nÖsszes epizód: %d"
-
-msgid "%d titles"
-msgstr "%d cím"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 cím"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizódok <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Évszakok <<<"
-
-msgid "0 titles"
-msgstr "0 cím"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nÉv: %s\nMűfaj: %s\n\nElérhető linkek: %d\n\nA lejátszáshoz nyomja meg a ZÖLD gombot"
 
 msgid "Available links:"
 msgstr "Elérhető linkek:"
@@ -61,26 +46,26 @@ msgstr "Böngésszen csoportok és kártyák között vízszintes görgetéssel"
 msgid "CANCEL"
 msgstr "MÉGSEM"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 lejátszási hiba: %s"
+
+msgid "CONFIRM"
+msgstr "MEGERŐSÍTÉS"
+
+msgid "CONTENTS"
+msgstr "TARTALOM"
+
 msgid "Card error"
 msgstr "Kártya hiba"
 
 msgid "Cards updated"
 msgstr "A kártyák frissítve"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nÉv: %s\nMűfaj: %s\n\nElérhető linkek: %d\n\nA lejátszáshoz nyomja meg a ZÖLD gombot"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 lejátszási hiba: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 TV-sorozat\n\nÉvadok: %d\nÖsszes epizód: %d\n\nA lejátszáshoz nyomja meg a ZÖLD gombot"
-
 msgid "Code:"
 msgstr "Kód:"
 
-msgid "CONFIRM"
-msgstr "MEGERŐSÍTÉS"
+msgid "Code: {self.captcha_code}"
+msgstr "Kód: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Tartalom az Altadefinizione-ból - Nyomja meg az OK gombot a megnyitáshoz..."
@@ -88,26 +73,26 @@ msgstr "Tartalom az Altadefinizione-ból - Nyomja meg az OK gombot a megnyitásh
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Tartalom a CB01-ből – Nyissa meg az OK gombot..."
 
-msgid "CONTENTS"
-msgstr "TARTALOM"
-
 msgid "Description not available."
 msgstr "Leírás nem áll rendelkezésre."
 
-msgid "Description:\n\n%s"
-msgstr "Leírás:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Részletek: '%s'"
 
 msgid "Details not available"
 msgstr "Részletek nem állnak rendelkezésre"
+
+msgid "ENTER"
+msgstr "ENTER"
+
+msgid "EXIT"
+msgstr "KIJÁRAT"
 
 msgid "Enable debug"
 msgstr "Hibakeresés engedélyezése"
 
 msgid "Enable debug output in logs"
 msgstr "Hibakeresési kimenet engedélyezése a naplókban"
-
-msgid "ENTER"
-msgstr "ENTER"
 
 msgid "Enter Captcha Code"
 msgstr "Írja be a Captcha kódot"
@@ -127,23 +112,20 @@ msgstr "Epizódok"
 msgid "Episodes:"
 msgstr "Epizódok:"
 
-msgid "error"
-msgstr "hiba"
-
-msgid "Error loading captcha"
-msgstr "Hiba a részletek betöltésekor"
-
 msgid "Error loading CB01 series"
 msgstr "Hiba a CB01 sorozat betöltésekor"
-
-msgid "Error loading details"
-msgstr "Hiba a részletek betöltésekor"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Hiba az OnlineSerieTV sorozat betöltésekor"
 
 msgid "Error loading TMDB"
 msgstr "Hiba a TMDB betöltésekor"
+
+msgid "Error loading captcha"
+msgstr "Hiba a részletek betöltésekor"
+
+msgid "Error loading details"
+msgstr "Hiba a részletek betöltésekor"
 
 msgid "Error playing episode: %s"
 msgstr "Hiba a következő epizód lejátszásakor: %s"
@@ -153,9 +135,6 @@ msgstr "Hiba a felhasználói felület frissítésekor"
 
 msgid "Exit"
 msgstr "Kijárat"
-
-msgid "EXIT"
-msgstr "KIJÁRAT"
 
 msgid "GROUPS"
 msgstr "CSOPORTOK"
@@ -171,9 +150,6 @@ msgstr "BALRA/JOBBRA navigálás | OK nyitva | FEL vissza a csoportokhoz"
 
 msgid "Load error"
 msgstr "Betöltési hiba"
-
-msgid "loading"
-msgstr "terhelés"
 
 msgid "Loading details from TMDB..."
 msgstr "Részletek betöltése a TMDB-ből..."
@@ -192,9 +168,6 @@ msgstr "A megjeleníthető eredmények maximális száma"
 
 msgid "Movie History"
 msgstr "Filmtörténet"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Film\n\nÉv: %s\n\nÉrtékelés: %s/10\n\nMűfajok:\n%s\n\nA lejátszáshoz nyomja meg a ZÖLD gombot"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Nem található streaming link"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV sorozat"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nÉrtékelés: %s\n\nLétrehozó: %s"
-
 msgid "PLAY"
 msgstr "JÁTÉK"
 
@@ -243,9 +213,6 @@ msgstr "Lejátszási hiba: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Nyomja meg a ZÖLD (film) vagy a SÁRGA (TV-sorozat) gombot a kereséshez..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Nyomja meg a ZÖLD gombot a kód megadásához.\nNyomja meg a PIROS gombot a törléshez"
 
 msgid "Press GREEN to play"
 msgstr "Nyomja meg a ZÖLD gombot a lejátszáshoz"
@@ -256,11 +223,11 @@ msgstr "Nyomja meg az OK gombot"
 msgid "Press OK to view full details..."
 msgstr "Nyomja meg az OK gombot a részletek megtekintéséhez..."
 
-msgid "Refresh"
-msgstr "Frissítés"
-
 msgid "REFRESH"
 msgstr "FRISSÍTÉS"
+
+msgid "Refresh"
+msgstr "Frissítés"
 
 msgid "Retry"
 msgstr "Próbálja újra"
@@ -277,11 +244,14 @@ msgstr "Keresési előzmények"
 msgid "Search Movie"
 msgstr "Film keresése"
 
+msgid "Search TV Series"
+msgstr "TV-sorozat keresése"
+
 msgid "Search timeout"
 msgstr "Keresési időtúllépés"
 
-msgid "Search TV Series"
-msgstr "TV-sorozat keresése"
+msgid "Searching for: '%s'"
+msgstr "Keresés: '%s'"
 
 msgid "Searching..."
 msgstr "Keresés..."
@@ -304,12 +274,6 @@ msgstr "A sorozat URL-je nem található"
 msgid "Series URL not found."
 msgstr "A sorozat URL-je nem található."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Keresési kérések időtúllépése (másodperc)"
-
-msgid "Title"
-msgstr "Cím"
-
 msgid "TMDB API key not found"
 msgstr "A TMDB API kulcs nem található"
 
@@ -322,20 +286,17 @@ msgstr "A TMDB azonosító nem található"
 msgid "TV Series History"
 msgstr "TV-sorozat története"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "TV-sorozat\n\nÉvadok: %d\nÖsszes epizód: %d\n\nÉv: %s\n\nÉrtékelés: %s/10\n\nMűfajok:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Keresési kérések időtúllépése (másodperc)"
 
-msgid "TV Series\n%s"
-msgstr "TV-sorozat\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "TV-sorozat\nÉvadok: %d\nÖsszes epizód: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "TV-sorozat\nÉvadok: %d\nÖsszes epizód: %d\nA lejátszáshoz nyomja meg a ZÖLD gombot"
+msgid "Title"
+msgstr "Cím"
 
 msgid "Type: %s"
 msgstr "Típus: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nem sikerült streamet lekérni ehhez az epizódhoz"
@@ -355,9 +316,6 @@ msgstr "Nem sikerült lekérni az információkat a TMDB-ből."
 msgid "Unknown"
 msgstr "Ismeretlen"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Frissítve, %d csoport nem érhető el"
 
@@ -367,6 +325,200 @@ msgstr "Frissítés"
 msgid "Updating cards %d/%d"
 msgstr "Kártyák frissítése: %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Használja a távvezérlő számbillentyűit\n a captcha kód beírásához \nGREEN = Megerősítés, PIROS = Mégse"
+msgid "[Altadefinizione] %s"
+msgstr "[High Definition] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "hiba"
+
+msgid "loading"
+msgstr "terhelés"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Az évad információi nem állnak rendelkezésre"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Évadok: %d\n"
+#~ "Összes epizód: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Év: %s\n"
+#~ "Műfaj: %s\n"
+#~ "\n"
+#~ "Elérhető linkek: %d\n"
+#~ "\n"
+#~ "A lejátszáshoz nyomja meg a ZÖLD gombot"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Év: %s\n"
+#~ "Műfaj: %s\n"
+#~ "\n"
+#~ "Elérhető linkek: %d\n"
+#~ "\n"
+#~ "A lejátszáshoz nyomja meg a ZÖLD gombot"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 TV-sorozat\n"
+#~ "\n"
+#~ "Évadok: %d\n"
+#~ "Összes epizód: %d\n"
+#~ "\n"
+#~ "A lejátszáshoz nyomja meg a ZÖLD gombot"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Leírás:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Film\n"
+#~ "\n"
+#~ "Év: %s\n"
+#~ "\n"
+#~ "Értékelés: %s/10\n"
+#~ "\n"
+#~ "Műfajok:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "A lejátszáshoz nyomja meg a ZÖLD gombot"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Értékelés: %s\n"
+#~ "\n"
+#~ "Létrehozó: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Nyomja meg a ZÖLD gombot a kód megadásához.\n"
+#~ "Nyomja meg a PIROS gombot a törléshez"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV-sorozat\n"
+#~ "\n"
+#~ "Évadok: %d\n"
+#~ "Összes epizód: %d\n"
+#~ "\n"
+#~ "Év: %s\n"
+#~ "\n"
+#~ "Értékelés: %s/10\n"
+#~ "\n"
+#~ "Műfajok:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV-sorozat\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "TV-sorozat\n"
+#~ "Évadok: %d\n"
+#~ "Összes epizód: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "TV-sorozat\n"
+#~ "Évadok: %d\n"
+#~ "Összes epizód: %d\n"
+#~ "A lejátszáshoz nyomja meg a ZÖLD gombot"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Használja a távvezérlő számbillentyűit\n"
+#~ " a captcha kód beírásához \n"
+#~ "GREEN = Megerősítés, PIROS = Mégse"

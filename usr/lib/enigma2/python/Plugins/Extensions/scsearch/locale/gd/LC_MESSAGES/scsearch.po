@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d tiotalan"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- Filmichean ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Rannsachadh ùr ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SRAITH Tbh ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Mìneachadh àrd] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nChan eil fiosrachadh ràithe ri fhaighinn"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nSeasons: %d\nTotal episodes: %d"
-
-msgid "%d titles"
-msgstr "%d tiotalan"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 tiotal"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodes <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Ràithean <<<"
-
-msgid "0 titles"
-msgstr "0 tiotal"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks ri làimh: %d\n\nPress GREEN ri chluich"
 
 msgid "Available links:"
 msgstr "Ceanglaichean rim faighinn:"
@@ -61,26 +46,26 @@ msgstr "Dèan brobhsadh air buidhnean agus cairtean le scrollaidh còmhnard"
 msgid "CANCEL"
 msgstr "A CHUR"
 
+msgid "CB01 playback error: %s"
+msgstr "Mearachd ath-chluich CB01: %s"
+
+msgid "CONFIRM"
+msgstr "DEARBHACHADH"
+
+msgid "CONTENTS"
+msgstr "CLAR-INNSIDH"
+
 msgid "Card error"
 msgstr "Mearachd cairt"
 
 msgid "Cards updated"
 msgstr "Cairtean air an ùrachadh"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nBliadhna: %s\nGenre: %s\n\nCeanglaichean rim faighinn: %d\n\nPress GREEN airson a chluich"
-
-msgid "CB01 playback error: %s"
-msgstr "Mearachd ath-chluich CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Sreath Tbh CB01\n\nSeasons: %d\nIomlan episodes: %d\n\nCruthaich GREEN airson a chluich"
-
 msgid "Code:"
 msgstr "Còd:"
 
-msgid "CONFIRM"
-msgstr "DEARBHACHADH"
+msgid "Code: {self.captcha_code}"
+msgstr "Còd: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Susbaint bho Altadefinizione - Brùth OK gus fosgladh..."
@@ -88,26 +73,26 @@ msgstr "Susbaint bho Altadefinizione - Brùth OK gus fosgladh..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Susbaint o CB01 - Brùth OK gus fosgladh..."
 
-msgid "CONTENTS"
-msgstr "CLAR-INNSIDH"
-
 msgid "Description not available."
 msgstr "Tuairisgeul nach eil ri fhaighinn."
 
-msgid "Description:\n\n%s"
-msgstr "Tuairisgeul:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Mion-fhiosrachadh airson: '%s'"
 
 msgid "Details not available"
 msgstr "Chan eil mion-fhiosrachadh ri fhaighinn"
+
+msgid "ENTER"
+msgstr "A steach"
+
+msgid "EXIT"
+msgstr "LAOIDH"
 
 msgid "Enable debug"
 msgstr "Dèan comas deasbaid"
 
 msgid "Enable debug output in logs"
 msgstr "Dèan comas air toradh deasbaid ann an logaichean"
-
-msgid "ENTER"
-msgstr "A steach"
 
 msgid "Enter Captcha Code"
 msgstr "Cuir a-steach Còd Captcha"
@@ -127,23 +112,20 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Episodes:"
 
-msgid "error"
-msgstr "mearachd"
-
-msgid "Error loading captcha"
-msgstr "Thachair mearachd le luchdachadh mion-fhiosrachaidh"
-
 msgid "Error loading CB01 series"
 msgstr "Thachair mearachd le luchdachadh CB01 sreath"
-
-msgid "Error loading details"
-msgstr "Thachair mearachd le luchdachadh mion-fhiosrachaidh"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Thachair mearachd leis an t-sreath air-loidhne TBH"
 
 msgid "Error loading TMDB"
 msgstr "Thachair mearachd le luchdachadh TMDB"
+
+msgid "Error loading captcha"
+msgstr "Thachair mearachd le luchdachadh mion-fhiosrachaidh"
+
+msgid "Error loading details"
+msgstr "Thachair mearachd le luchdachadh mion-fhiosrachaidh"
 
 msgid "Error playing episode: %s"
 msgstr "Mearachd a' cluich an t-seisein: %s"
@@ -153,9 +135,6 @@ msgstr "Thachair mearachd le ùrachadh UI"
 
 msgid "Exit"
 msgstr "Ar-a-mach"
-
-msgid "EXIT"
-msgstr "LAOIDH"
 
 msgid "GROUPS"
 msgstr "CRUTHAICHEAN"
@@ -171,9 +150,6 @@ msgstr "Clì/DEAR seòladh | OK fosgail | UP air ais gu buidhnean"
 
 msgid "Load error"
 msgstr "Tha mearachd luchdadh"
-
-msgid "loading"
-msgstr "a' luchdachadh"
 
 msgid "Loading details from TMDB..."
 msgstr "A’ luchdachadh suas mion-fhiosrachadh bho TMDB..."
@@ -192,9 +168,6 @@ msgstr "An àireamh as motha de thoraidhean ri thaisbeanadh"
 
 msgid "Movie History"
 msgstr "Eachdraidh film"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Movie\n\nBliadhna: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN airson a chluich"
 
 msgid "N/A"
 msgstr "Chan eil"
@@ -232,9 +205,6 @@ msgstr "Cha deach ceanglaichean sruthadh a lorg"
 msgid "OnlineSerieTV - TV Series"
 msgstr "Sreath Tbh air-loidhne - Sreath Tbh"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nRating: %s\n\nCruthaiche: %s"
-
 msgid "PLAY"
 msgstr "CLÀRADH"
 
@@ -243,9 +213,6 @@ msgstr "Mearachd ath-chluich: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Brùth GREEN (Film) no YELLOW (Sreath Tbh) gus lorg..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Brùth GREEN gus an còd a chuir a-steach\nPress RED gus a chuir dheth"
 
 msgid "Press GREEN to play"
 msgstr "Brùth GREEN airson cluich"
@@ -256,11 +223,11 @@ msgstr "Brùth OK"
 msgid "Press OK to view full details..."
 msgstr "Brùth OK airson làn fhiosrachadh fhaicinn..."
 
-msgid "Refresh"
-msgstr "Ùraich"
-
 msgid "REFRESH"
 msgstr "ÙRACHADH"
+
+msgid "Refresh"
+msgstr "Ùraich"
 
 msgid "Retry"
 msgstr "Feuch a-rithist"
@@ -277,11 +244,14 @@ msgstr "Eachdraidh Rannsachaidh"
 msgid "Search Movie"
 msgstr "Film lorg"
 
+msgid "Search TV Series"
+msgstr "Lorg TBH san t-sreath a"
+
 msgid "Search timeout"
 msgstr "Ùine rannsachaidh"
 
-msgid "Search TV Series"
-msgstr "Lorg TBH san t-sreath a"
+msgid "Searching for: '%s'"
+msgstr "A' lorg: '%s'"
 
 msgid "Searching..."
 msgstr "A' lorg..."
@@ -304,12 +274,6 @@ msgstr "Cha deach URL an t-sreath a lorg"
 msgid "Series URL not found."
 msgstr "Cha deach URL an t-sreath a lorg."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Ùine airson iarrtasan rannsachaidh (diogan)"
-
-msgid "Title"
-msgstr "Tiotal"
-
 msgid "TMDB API key not found"
 msgstr "Cha deach iuchair API TMDB a lorg"
 
@@ -322,20 +286,17 @@ msgstr "ID TMDB nach deach a lorg"
 msgid "TV Series History"
 msgstr "Eachdraidh TBH san t-sreath a"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Sreath Tbh\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Ùine airson iarrtasan rannsachaidh (diogan)"
 
-msgid "TV Series\n%s"
-msgstr "Sreath Tbh\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Sreath Tbh\nSeasons: %d\nTotal episodes: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Sreath Tbh\nSeasons: %d\nIomlan episodes: %d\nPress GREEN airson a chluich"
+msgid "Title"
+msgstr "Tiotal"
 
 msgid "Type: %s"
 msgstr "Seòrsa: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
 
 msgid "Unable to get stream for this episode"
 msgstr "Cha ghabh sruth fhaighinn airson a' phrògram seo"
@@ -355,9 +316,6 @@ msgstr "Cha b' urrainn dhuinn fiosrachadh fhaighinn air ais bho TMDB."
 msgid "Unknown"
 msgstr "Neo-aithnichte"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Ùraichte, chan eil %d buidheann ri fhaighinn"
 
@@ -367,6 +325,200 @@ msgstr "Ag ùrachadh"
 msgid "Updating cards %d/%d"
 msgstr "Ag ùrachadh nan cairtean %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Cleachd na h-iuchraichean àireamhach air an remote\n gus an còd captcha a chur a-steach\nGREEN = Dearbhaich, RED = Sguir dheth"
+msgid "[Altadefinizione] %s"
+msgstr "[Mìneachadh àrd] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "mearachd"
+
+msgid "loading"
+msgstr "a' luchdachadh"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Chan eil fiosrachadh ràithe ri fhaighinn"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links ri làimh: %d\n"
+#~ "\n"
+#~ "Press GREEN ri chluich"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Bliadhna: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Ceanglaichean rim faighinn: %d\n"
+#~ "\n"
+#~ "Press GREEN airson a chluich"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Sreath Tbh CB01\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Iomlan episodes: %d\n"
+#~ "\n"
+#~ "Cruthaich GREEN airson a chluich"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Tuairisgeul:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Bliadhna: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN airson a chluich"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Cruthaiche: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Brùth GREEN gus an còd a chuir a-steach\n"
+#~ "Press RED gus a chuir dheth"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sreath Tbh\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sreath Tbh\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Sreath Tbh\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Sreath Tbh\n"
+#~ "Seasons: %d\n"
+#~ "Iomlan episodes: %d\n"
+#~ "Press GREEN airson a chluich"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Cleachd na h-iuchraichean àireamhach air an remote\n"
+#~ " gus an còd captcha a chur a-steach\n"
+#~ "GREEN = Dearbhaich, RED = Sguir dheth"

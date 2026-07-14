@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d titels"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMS ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Nije sykaksje ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV SERIE ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Hege definysje] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nSeizoenynformaasje net beskikber"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nSeizoenen: %d\nTotaal ôfleverings: %d"
-
-msgid "%d titles"
-msgstr "%d titels"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 titels"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Ofleverings <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Seizoenen <<<"
-
-msgid "0 titles"
-msgstr "0 titels"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nJier: %s\nSjenre: %s\n\nBeskikbere keppelings: %d\n\nDruk op GREEN om te spyljen"
 
 msgid "Available links:"
 msgstr "Beskikbere keppelings:"
@@ -61,26 +46,26 @@ msgstr "Blêdzje troch groepen en kaarten mei horizontaal rôljen"
 msgid "CANCEL"
 msgstr "CANCEL"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01-ôfspielflater: %s"
+
+msgid "CONFIRM"
+msgstr "BEVESTIGJE"
+
+msgid "CONTENTS"
+msgstr "Ynhâld"
+
 msgid "Card error"
 msgstr "Kaart flater"
 
 msgid "Cards updated"
 msgstr "Kaarten bywurke"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nJier: %s\nSjenre: %s\n\nBeskikbere keppelings: %d\n\nDruk op GREEN om te spyljen"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01-ôfspielflater: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 TV Series\n\nSeizoenen: %d\nTotaal ôfleverings: %d\n\nDruk op GREEN om te spyljen"
-
 msgid "Code:"
 msgstr "Koade:"
 
-msgid "CONFIRM"
-msgstr "BEVESTIGJE"
+msgid "Code: {self.captcha_code}"
+msgstr "Koade: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Ynhâld fan Altadefinizione - Druk op OK om te iepenjen ..."
@@ -88,26 +73,26 @@ msgstr "Ynhâld fan Altadefinizione - Druk op OK om te iepenjen ..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Ynhâld fan CB01 - Druk op OK om te iepenjen ..."
 
-msgid "CONTENTS"
-msgstr "Ynhâld"
-
 msgid "Description not available."
 msgstr "Beskriuwing net beskikber."
 
-msgid "Description:\n\n%s"
-msgstr "Beskriuwing:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Details foar: '%s'"
 
 msgid "Details not available"
 msgstr "Details net beskikber"
+
+msgid "ENTER"
+msgstr "YNGEAN"
+
+msgid "EXIT"
+msgstr "ÚTGONG"
 
 msgid "Enable debug"
 msgstr "Debug ynskeakelje"
 
 msgid "Enable debug output in logs"
 msgstr "Debug útfier yn logs ynskeakelje"
-
-msgid "ENTER"
-msgstr "YNGEAN"
 
 msgid "Enter Captcha Code"
 msgstr "Fier Captcha Code yn"
@@ -127,23 +112,20 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Ofleverings:"
 
-msgid "error"
-msgstr "fersin"
-
-msgid "Error loading captcha"
-msgstr "Flater by it laden fan details"
-
 msgid "Error loading CB01 series"
 msgstr "Flater by it laden fan CB01-searje"
-
-msgid "Error loading details"
-msgstr "Flater by it laden fan details"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Flater by it laden fan OnlineSerieTV-searje"
 
 msgid "Error loading TMDB"
 msgstr "Flater by it laden fan TMDB"
+
+msgid "Error loading captcha"
+msgstr "Flater by it laden fan details"
+
+msgid "Error loading details"
+msgstr "Flater by it laden fan details"
 
 msgid "Error playing episode: %s"
 msgstr "Flater by it spyljen fan ôflevering: %s"
@@ -153,9 +135,6 @@ msgstr "Flater by it bywurkjen fan UI"
 
 msgid "Exit"
 msgstr "Útgong"
-
-msgid "EXIT"
-msgstr "ÚTGONG"
 
 msgid "GROUPS"
 msgstr "GROEPEN"
@@ -171,9 +150,6 @@ msgstr "LEFT / RIGHT navigearje | OK iepen | UP werom nei groepen"
 
 msgid "Load error"
 msgstr "Laad flater"
-
-msgid "loading"
-msgstr "laden"
 
 msgid "Loading details from TMDB..."
 msgstr "Details laden fan TMDB..."
@@ -192,9 +168,6 @@ msgstr "Maksimum oantal resultaten te werjaan"
 
 msgid "Movie History"
 msgstr "Movie Skiednis"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Movie\n\nJier: %s\n\nBeoardieling: %s/10\n\nSjenres:\n%s\n\nDruk op GREEN om te spyljen"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Gjin streamingkeppelings fûn"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV Series"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nBeoardieling: %s\n\nMaker: %s"
-
 msgid "PLAY"
 msgstr "TOANIELSTIK"
 
@@ -243,9 +213,6 @@ msgstr "Ofspielflater: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Druk op GREEN (film) of YEL (TV-searje) om te sykjen ..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Druk op GREEN om de koade yn te fieren\nDruk op RED om te annulearjen"
 
 msgid "Press GREEN to play"
 msgstr "Druk op GREEN om te spyljen"
@@ -256,11 +223,11 @@ msgstr "Druk op OK"
 msgid "Press OK to view full details..."
 msgstr "Druk op OK om folsleine details te besjen ..."
 
-msgid "Refresh"
-msgstr "Ferfarskje"
-
 msgid "REFRESH"
 msgstr "REFRESH"
+
+msgid "Refresh"
+msgstr "Ferfarskje"
 
 msgid "Retry"
 msgstr "Opnij besykje"
@@ -277,11 +244,14 @@ msgstr "Search History"
 msgid "Search Movie"
 msgstr "Sykje Movie"
 
+msgid "Search TV Series"
+msgstr "Search TV Series"
+
 msgid "Search timeout"
 msgstr "Search timeout"
 
-msgid "Search TV Series"
-msgstr "Search TV Series"
+msgid "Searching for: '%s'"
+msgstr "Op syk nei: '%s'"
 
 msgid "Searching..."
 msgstr "It sykjen..."
@@ -304,12 +274,6 @@ msgstr "Searje URL net fûn"
 msgid "Series URL not found."
 msgstr "Searje URL net fûn."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Timeout foar sykopdrachten (sekonden)"
-
-msgid "Title"
-msgstr "Titel"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API-kaai net fûn"
 
@@ -322,20 +286,17 @@ msgstr "TMDB ID net fûn"
 msgid "TV Series History"
 msgstr "TV Series Skiednis"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "TV Series\n\nSeizoenen: %d\nTotaal ôfleverings: %d\n\nJier: %s\n\nBeoardieling: %s/10\n\nSjenres:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout foar sykopdrachten (sekonden)"
 
-msgid "TV Series\n%s"
-msgstr "TV-searje\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "TV Series\nSeizoenen: %d\nTotaal ôfleverings: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "TV Series\nSeizoenen: %d\nTotaal ôfleverings: %d\nDruk op GREEN om te spyljen"
+msgid "Title"
+msgstr "Titel"
 
 msgid "Type: %s"
 msgstr "Typ: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "UP/DOWN groepen | LEFT / RIGHT cards | OK iepen"
 
 msgid "Unable to get stream for this episode"
 msgstr "Koe gjin stream krije foar dizze ôflevering"
@@ -355,9 +316,6 @@ msgstr "Kin ynformaasje net ophelje fan TMDB."
 msgid "Unknown"
 msgstr "Ûnbekend"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN groepen | LEFT / RIGHT cards | OK iepen"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Bywurke, %d groepen net beskikber"
 
@@ -367,6 +325,200 @@ msgstr "Fernijing"
 msgid "Updating cards %d/%d"
 msgstr "Kaarten %d/%d bywurkje"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Brûk de numerike toetsen op 'e ôfstân \n om de captcha-koade yn te fieren\nGREEN = Befêstigje, RED = Ofbrekke"
+msgid "[Altadefinizione] %s"
+msgstr "[Hege definysje] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "fersin"
+
+msgid "loading"
+msgstr "laden"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Seizoenynformaasje net beskikber"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Seizoenen: %d\n"
+#~ "Totaal ôfleverings: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Jier: %s\n"
+#~ "Sjenre: %s\n"
+#~ "\n"
+#~ "Beskikbere keppelings: %d\n"
+#~ "\n"
+#~ "Druk op GREEN om te spyljen"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Jier: %s\n"
+#~ "Sjenre: %s\n"
+#~ "\n"
+#~ "Beskikbere keppelings: %d\n"
+#~ "\n"
+#~ "Druk op GREEN om te spyljen"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seizoenen: %d\n"
+#~ "Totaal ôfleverings: %d\n"
+#~ "\n"
+#~ "Druk op GREEN om te spyljen"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Beskriuwing:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Jier: %s\n"
+#~ "\n"
+#~ "Beoardieling: %s/10\n"
+#~ "\n"
+#~ "Sjenres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Druk op GREEN om te spyljen"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Beoardieling: %s\n"
+#~ "\n"
+#~ "Maker: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Druk op GREEN om de koade yn te fieren\n"
+#~ "Druk op RED om te annulearjen"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seizoenen: %d\n"
+#~ "Totaal ôfleverings: %d\n"
+#~ "\n"
+#~ "Jier: %s\n"
+#~ "\n"
+#~ "Beoardieling: %s/10\n"
+#~ "\n"
+#~ "Sjenres:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "TV-searje\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "TV Series\n"
+#~ "Seizoenen: %d\n"
+#~ "Totaal ôfleverings: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "TV Series\n"
+#~ "Seizoenen: %d\n"
+#~ "Totaal ôfleverings: %d\n"
+#~ "Druk op GREEN om te spyljen"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Brûk de numerike toetsen op 'e ôfstân \n"
+#~ " om de captcha-koade yn te fieren\n"
+#~ "GREEN = Befêstigje, RED = Ofbrekke"

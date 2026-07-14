@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d pealkirja"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMID ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Uus otsing ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TELESARJAD ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Kõrglahutus] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nHooaja teave pole saadaval"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nHooajad: %d\nJagusid kokku: %d"
-
-msgid "%d titles"
-msgstr "%d pealkirja"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 pealkirja"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episoodid <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Aastaajad <<<"
-
-msgid "0 titles"
-msgstr "0 pealkirja"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nAasta: %s\nŽanr: %s\n\nSaadaval olevad lingid: %d\n\nVajutage esitamiseks ROHELIST"
 
 msgid "Available links:"
 msgstr "Saadaolevad lingid:"
@@ -61,26 +46,26 @@ msgstr "Sirvige rühmi ja kaarte horisontaalse kerimisega"
 msgid "CANCEL"
 msgstr "TÜHISTA"
 
+msgid "CB01 playback error: %s"
+msgstr "CB01 taasesituse viga: %s"
+
+msgid "CONFIRM"
+msgstr "KINNITA"
+
+msgid "CONTENTS"
+msgstr "SISUKORD"
+
 msgid "Card error"
 msgstr "Kaardi viga"
 
 msgid "Cards updated"
 msgstr "Kaardid uuendatud"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nAasta: %s\nŽanr: %s\n\nSaadaval olevad lingid: %d\n\nVajutage esitamiseks ROHELIST"
-
-msgid "CB01 playback error: %s"
-msgstr "CB01 taasesituse viga: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 telesari\n\nHooajad: %d\nJagusid kokku: %d\n\nVajutage esitamiseks ROHELIST"
-
 msgid "Code:"
 msgstr "Kood:"
 
-msgid "CONFIRM"
-msgstr "KINNITA"
+msgid "Code: {self.captcha_code}"
+msgstr "Kood: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione'i sisu – avamiseks vajutage nuppu OK..."
@@ -88,26 +73,26 @@ msgstr "Altadefinizione'i sisu – avamiseks vajutage nuppu OK..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Sisu CB01-st – avamiseks vajutage nuppu OK..."
 
-msgid "CONTENTS"
-msgstr "SISUKORD"
-
 msgid "Description not available."
 msgstr "Kirjeldus pole saadaval."
 
-msgid "Description:\n\n%s"
-msgstr "Kirjeldus:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Üksikasjad: '%s'"
 
 msgid "Details not available"
 msgstr "Üksikasjad pole saadaval"
+
+msgid "ENTER"
+msgstr "SISESTA"
+
+msgid "EXIT"
+msgstr "VÄLJU"
 
 msgid "Enable debug"
 msgstr "Luba silumine"
 
 msgid "Enable debug output in logs"
 msgstr "Luba logides silumisväljund"
-
-msgid "ENTER"
-msgstr "SISESTA"
 
 msgid "Enter Captcha Code"
 msgstr "Sisestage Captcha kood"
@@ -127,23 +112,20 @@ msgstr "Episoodid"
 msgid "Episodes:"
 msgstr "Episoodid:"
 
-msgid "error"
-msgstr "viga"
-
-msgid "Error loading captcha"
-msgstr "Viga üksikasjade laadimisel"
-
 msgid "Error loading CB01 series"
 msgstr "Viga CB01 seeria laadimisel"
-
-msgid "Error loading details"
-msgstr "Viga üksikasjade laadimisel"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Viga OnlineSerieTV sarja laadimisel"
 
 msgid "Error loading TMDB"
 msgstr "Viga TMDB laadimisel"
+
+msgid "Error loading captcha"
+msgstr "Viga üksikasjade laadimisel"
+
+msgid "Error loading details"
+msgstr "Viga üksikasjade laadimisel"
 
 msgid "Error playing episode: %s"
 msgstr "Viga jao esitamisel: %s"
@@ -153,9 +135,6 @@ msgstr "Viga kasutajaliidese värskendamisel"
 
 msgid "Exit"
 msgstr "Välju"
-
-msgid "EXIT"
-msgstr "VÄLJU"
 
 msgid "GROUPS"
 msgstr "RÜHMAD"
@@ -171,9 +150,6 @@ msgstr "VASAKULE/PAREMALE navigeerimine | OK avatud | ÜLES tagasi rühmadesse"
 
 msgid "Load error"
 msgstr "Laadimisviga"
-
-msgid "loading"
-msgstr "laadimine"
 
 msgid "Loading details from TMDB..."
 msgstr "Üksikasjade laadimine TMDB-st..."
@@ -192,9 +168,6 @@ msgstr "Kuvatavate tulemuste maksimaalne arv"
 
 msgid "Movie History"
 msgstr "Filmi ajalugu"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Film\n\nAasta: %s\n\nHinnang: %s/10\n\nŽanrid:\n%s\n\nEsitamiseks vajutage ROHELIST"
 
 msgid "N/A"
 msgstr "Ei kehti"
@@ -232,9 +205,6 @@ msgstr "Voogesituse linke ei leitud"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV – telesari"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nhinnang: %s\n\nLooja: %s"
-
 msgid "PLAY"
 msgstr "MÄNGI"
 
@@ -243,9 +213,6 @@ msgstr "Taasesituse viga: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Otsimiseks vajutage ROHELIST (film) või KOLLAST (telesari)..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Koodi sisestamiseks vajutage ROHELIST \nTühistamiseks vajutage PUNAST"
 
 msgid "Press GREEN to play"
 msgstr "Mängimiseks vajutage ROHELIST"
@@ -256,11 +223,11 @@ msgstr "Vajutage nuppu OK"
 msgid "Press OK to view full details..."
 msgstr "Täielike üksikasjade vaatamiseks vajutage OK..."
 
-msgid "Refresh"
-msgstr "Värskenda"
-
 msgid "REFRESH"
 msgstr "VÄRSKENDAMINE"
+
+msgid "Refresh"
+msgstr "Värskenda"
 
 msgid "Retry"
 msgstr "Proovi uuesti"
@@ -277,11 +244,14 @@ msgstr "Otsinguajalugu"
 msgid "Search Movie"
 msgstr "Otsi filmist"
 
+msgid "Search TV Series"
+msgstr "Otsige teleseriaale"
+
 msgid "Search timeout"
 msgstr "Otsingu ajalõpp"
 
-msgid "Search TV Series"
-msgstr "Otsige teleseriaale"
+msgid "Searching for: '%s'"
+msgstr "Otsin: '%s'"
 
 msgid "Searching..."
 msgstr "Otsimine..."
@@ -304,12 +274,6 @@ msgstr "Sarja URL-i ei leitud"
 msgid "Series URL not found."
 msgstr "Sarja URL-i ei leitud."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Otsingupäringute ajalõpp (sekundites)"
-
-msgid "Title"
-msgstr "Pealkiri"
-
 msgid "TMDB API key not found"
 msgstr "TMDB API võtit ei leitud"
 
@@ -322,20 +286,17 @@ msgstr "TMDB ID-d ei leitud"
 msgid "TV Series History"
 msgstr "Telesarjade ajalugu"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Telesari\n\nHooajad: %d\nJagusid kokku: %d\n\nAasta: %s\n\nHinnang: %s/10\n\nŽanrid:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Otsingupäringute ajalõpp (sekundites)"
 
-msgid "TV Series\n%s"
-msgstr "Telesari \n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Telesari\nHooajad: %d\nJagusid kokku: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Telesari\nHooajad: %d\nJagusid kokku: %d\nVajutage esitamiseks ROHELIST"
+msgid "Title"
+msgstr "Pealkiri"
 
 msgid "Type: %s"
 msgstr "Tüüp: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
 
 msgid "Unable to get stream for this episode"
 msgstr "Selle jao voogesitust ei saa hankida"
@@ -355,9 +316,6 @@ msgstr "TMDB-st ei saa teavet hankida."
 msgid "Unknown"
 msgstr "Tundmatu"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Värskendatud, %d gruppi pole saadaval"
 
@@ -367,6 +325,200 @@ msgstr "Värskendamine"
 msgid "Updating cards %d/%d"
 msgstr "Kaartide värskendamine %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Kasutage kaugjuhtimispuldi numbriklahve\n, et sisestada captcha kood \nROHELINE = Kinnita, PUNANE = Tühista"
+msgid "[Altadefinizione] %s"
+msgstr "[Kõrglahutus] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "viga"
+
+msgid "loading"
+msgstr "laadimine"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Hooaja teave pole saadaval"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Hooajad: %d\n"
+#~ "Jagusid kokku: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Aasta: %s\n"
+#~ "Žanr: %s\n"
+#~ "\n"
+#~ "Saadaval olevad lingid: %d\n"
+#~ "\n"
+#~ "Vajutage esitamiseks ROHELIST"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Aasta: %s\n"
+#~ "Žanr: %s\n"
+#~ "\n"
+#~ "Saadaval olevad lingid: %d\n"
+#~ "\n"
+#~ "Vajutage esitamiseks ROHELIST"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 telesari\n"
+#~ "\n"
+#~ "Hooajad: %d\n"
+#~ "Jagusid kokku: %d\n"
+#~ "\n"
+#~ "Vajutage esitamiseks ROHELIST"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kirjeldus:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Film\n"
+#~ "\n"
+#~ "Aasta: %s\n"
+#~ "\n"
+#~ "Hinnang: %s/10\n"
+#~ "\n"
+#~ "Žanrid:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Esitamiseks vajutage ROHELIST"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "hinnang: %s\n"
+#~ "\n"
+#~ "Looja: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Koodi sisestamiseks vajutage ROHELIST \n"
+#~ "Tühistamiseks vajutage PUNAST"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Telesari\n"
+#~ "\n"
+#~ "Hooajad: %d\n"
+#~ "Jagusid kokku: %d\n"
+#~ "\n"
+#~ "Aasta: %s\n"
+#~ "\n"
+#~ "Hinnang: %s/10\n"
+#~ "\n"
+#~ "Žanrid:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Telesari \n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Telesari\n"
+#~ "Hooajad: %d\n"
+#~ "Jagusid kokku: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Telesari\n"
+#~ "Hooajad: %d\n"
+#~ "Jagusid kokku: %d\n"
+#~ "Vajutage esitamiseks ROHELIST"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Kasutage kaugjuhtimispuldi numbriklahve\n"
+#~ ", et sisestada captcha kood \n"
+#~ "ROHELINE = Kinnita, PUNANE = Tühista"

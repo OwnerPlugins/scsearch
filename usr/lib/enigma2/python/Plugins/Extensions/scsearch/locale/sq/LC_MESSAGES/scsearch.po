@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d tituj"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILMA ---"
 
@@ -22,35 +28,14 @@ msgstr "--- Kërkim i ri ---"
 msgid "--- TV SERIES ---"
 msgstr "--- Seriali TV ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Definicion i lartë] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nInformacioni i sezonit nuk disponohet"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nSezoni: %d\nEpisodet totale: %d"
-
-msgid "%d titles"
-msgstr "%d tituj"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 tituj"
 
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodet <<<"
 
 msgid ">>> Seasons <<<"
 msgstr ">>> Stinët <<<"
-
-msgid "0 titles"
-msgstr "0 tituj"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nViti: %s\nZanri: %s\n\nLidhjet e disponueshme: %d\n\nShtypni GREEN për të luajtur"
 
 msgid "Available links:"
 msgstr "Lidhjet e disponueshme:"
@@ -61,26 +46,26 @@ msgstr "Shfletoni grupet dhe kartat me lëvizje horizontale"
 msgid "CANCEL"
 msgstr "ANULON"
 
+msgid "CB01 playback error: %s"
+msgstr "Gabim riprodhimi CB01: %s"
+
+msgid "CONFIRM"
+msgstr "KONFIRMOJ"
+
+msgid "CONTENTS"
+msgstr "PËRMBAJTJA"
+
 msgid "Card error"
 msgstr "Gabim karte"
 
 msgid "Cards updated"
 msgstr "Kartat u përditësuan"
 
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nViti: %s\nZanri: %s\n\nLidhjet e disponueshme: %d\n\nShtypni GREEN për të luajtur"
-
-msgid "CB01 playback error: %s"
-msgstr "Gabim riprodhimi CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Seriali televiziv CB01\n\nSezoni: %d\nEpisodet gjithsej: %d\n\nShtypni GREEN për të luajtur"
-
 msgid "Code:"
 msgstr "Kodi:"
 
-msgid "CONFIRM"
-msgstr "KONFIRMOJ"
+msgid "Code: {self.captcha_code}"
+msgstr "Kodi: {self.captcha_code}"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Përmbajtja nga Altadefinizone - Shtypni OK për të hapur..."
@@ -88,26 +73,26 @@ msgstr "Përmbajtja nga Altadefinizone - Shtypni OK për të hapur..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Përmbajtja nga CB01 - Shtypni OK për të hapur..."
 
-msgid "CONTENTS"
-msgstr "PËRMBAJTJA"
-
 msgid "Description not available."
 msgstr "Përshkrimi nuk disponohet."
 
-msgid "Description:\n\n%s"
-msgstr "Përshkrimi:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Detaje për: '%s'"
 
 msgid "Details not available"
 msgstr "Detajet nuk disponohen"
+
+msgid "ENTER"
+msgstr "HYN"
+
+msgid "EXIT"
+msgstr "DALJE"
 
 msgid "Enable debug"
 msgstr "Aktivizo korrigjimin"
 
 msgid "Enable debug output in logs"
 msgstr "Aktivizo daljen e korrigjimit në regjistra"
-
-msgid "ENTER"
-msgstr "HYN"
 
 msgid "Enter Captcha Code"
 msgstr "Futni kodin Captcha"
@@ -127,23 +112,20 @@ msgstr "Episodet"
 msgid "Episodes:"
 msgstr "Episodet:"
 
-msgid "error"
-msgstr "gabim"
-
-msgid "Error loading captcha"
-msgstr "Gabim gjatë ngarkimit të detajeve"
-
 msgid "Error loading CB01 series"
 msgstr "Gabim gjatë ngarkimit të serisë CB01"
-
-msgid "Error loading details"
-msgstr "Gabim gjatë ngarkimit të detajeve"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Gabim gjatë ngarkimit të serive OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Gabim gjatë ngarkimit të TMDB"
+
+msgid "Error loading captcha"
+msgstr "Gabim gjatë ngarkimit të detajeve"
+
+msgid "Error loading details"
+msgstr "Gabim gjatë ngarkimit të detajeve"
 
 msgid "Error playing episode: %s"
 msgstr "Gabim gjatë luajtjes së episodit: %s"
@@ -153,9 +135,6 @@ msgstr "Gabim gjatë përditësimit të ndërfaqes së përdoruesit"
 
 msgid "Exit"
 msgstr "Dilni"
-
-msgid "EXIT"
-msgstr "DALJE"
 
 msgid "GROUPS"
 msgstr "GRUPET"
@@ -171,9 +150,6 @@ msgstr "lundrimi LETËS/DJATHTAS | OK hapur | UP përsëri në grupe"
 
 msgid "Load error"
 msgstr "Gabim ngarkimi"
-
-msgid "loading"
-msgstr "ngarkim"
 
 msgid "Loading details from TMDB..."
 msgstr "Detajet po ngarkohen nga TMDB..."
@@ -192,9 +168,6 @@ msgstr "Numri maksimal i rezultateve për t'u shfaqur"
 
 msgid "Movie History"
 msgstr "Historia e Filmit"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Film\n\nViti: %s\n\nVlerësimi: %s/10\n\n Zhanret:\n%s\n\nShtypni GREEN për të luajtur"
 
 msgid "N/A"
 msgstr "N/A"
@@ -232,9 +205,6 @@ msgstr "Nuk u gjetën lidhje transmetimi"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Seriale televizive"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "Seria OnlineTV\n\nVlerësimi: %s\n\nKrijuesi: %s"
-
 msgid "PLAY"
 msgstr "LUAJ"
 
@@ -243,9 +213,6 @@ msgstr "Gabim riprodhimi: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Shtypni GJELBË (Film) ose VERDHË (Seri televizive) për të kërkuar..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Shtypni GREEN për të futur kodin\nShtypni KUQ për ta anuluar"
 
 msgid "Press GREEN to play"
 msgstr "Shtypni GREEN për të luajtur"
@@ -256,11 +223,11 @@ msgstr "Shtypni OK"
 msgid "Press OK to view full details..."
 msgstr "Shtypni OK për të parë detajet e plota..."
 
-msgid "Refresh"
-msgstr "Rifresko"
-
 msgid "REFRESH"
 msgstr "REFRESH"
+
+msgid "Refresh"
+msgstr "Rifresko"
 
 msgid "Retry"
 msgstr "Provo sërish"
@@ -277,11 +244,14 @@ msgstr "Historia e Kërkimit"
 msgid "Search Movie"
 msgstr "Kërko Film"
 
+msgid "Search TV Series"
+msgstr "Kërko seriale televizive"
+
 msgid "Search timeout"
 msgstr "Përfundimi i kohës së kërkimit"
 
-msgid "Search TV Series"
-msgstr "Kërko seriale televizive"
+msgid "Searching for: '%s'"
+msgstr "Duke kërkuar për: '%s'"
 
 msgid "Searching..."
 msgstr "Po kërkon..."
@@ -304,12 +274,6 @@ msgstr "URL-ja e serisë nuk u gjet"
 msgid "Series URL not found."
 msgstr "URL-ja e serisë nuk u gjet."
 
-msgid "Timeout for search requests (seconds)"
-msgstr "Koha për kërkesat e kërkimit (sekonda)"
-
-msgid "Title"
-msgstr "Titulli"
-
 msgid "TMDB API key not found"
 msgstr "Çelësi TMDB API nuk u gjet"
 
@@ -322,20 +286,17 @@ msgstr "ID-ja e TMDB nuk u gjet"
 msgid "TV Series History"
 msgstr "Historia e serialeve televizive"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Seriali televiziv\n\nSezoni: %d\nEpisodet gjithsej: %d\n\nViti: %s\n\nVlerësimi: %s/10\n\n Zhanret:\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Koha për kërkesat e kërkimit (sekonda)"
 
-msgid "TV Series\n%s"
-msgstr "Seriali televiziv\n%s"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Seriali televiziv\nSezoni: %d\nEpisodet totale: %d"
-
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Seriali televiziv\nSezoni: %d\nEpisodet gjithsej: %d\nShtypni GREEN për të luajtur"
+msgid "Title"
+msgstr "Titulli"
 
 msgid "Type: %s"
 msgstr "Lloji: %s"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr "Grupet LARTË/POSHT | Kartat e majta/Djathtas | OK hapur"
 
 msgid "Unable to get stream for this episode"
 msgstr "Transmetimi nuk mund të merret për këtë episod"
@@ -355,9 +316,6 @@ msgstr "Nuk mund të merrej informacion nga TMDB."
 msgid "Unknown"
 msgstr "E panjohur"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupet LARTË/POSHT | Kartat e majta/Djathtas | OK hapur"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Përditësuar, %d grupe të padisponueshme"
 
@@ -367,6 +325,200 @@ msgstr "Po përditësohet"
 msgid "Updating cards %d/%d"
 msgstr "Po përditëson kartat %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Përdorni çelësat numerikë në telekomandë\n për të futur kodin captcha\nGREEN = Konfirmo, KUQ = Anulo"
+msgid "[Altadefinizione] %s"
+msgstr "[Definicion i lartë] %s"
 
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "gabim"
+
+msgid "loading"
+msgstr "ngarkim"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Informacioni i sezonit nuk disponohet"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Sezoni: %d\n"
+#~ "Episodet totale: %d"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Viti: %s\n"
+#~ "Zanri: %s\n"
+#~ "\n"
+#~ "Lidhjet e disponueshme: %d\n"
+#~ "\n"
+#~ "Shtypni GREEN për të luajtur"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Viti: %s\n"
+#~ "Zanri: %s\n"
+#~ "\n"
+#~ "Lidhjet e disponueshme: %d\n"
+#~ "\n"
+#~ "Shtypni GREEN për të luajtur"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Seriali televiziv CB01\n"
+#~ "\n"
+#~ "Sezoni: %d\n"
+#~ "Episodet gjithsej: %d\n"
+#~ "\n"
+#~ "Shtypni GREEN për të luajtur"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Përshkrimi:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Film\n"
+#~ "\n"
+#~ "Viti: %s\n"
+#~ "\n"
+#~ "Vlerësimi: %s/10\n"
+#~ "\n"
+#~ " Zhanret:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Shtypni GREEN për të luajtur"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "Seria OnlineTV\n"
+#~ "\n"
+#~ "Vlerësimi: %s\n"
+#~ "\n"
+#~ "Krijuesi: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Shtypni GREEN për të futur kodin\n"
+#~ "Shtypni KUQ për ta anuluar"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Seriali televiziv\n"
+#~ "\n"
+#~ "Sezoni: %d\n"
+#~ "Episodet gjithsej: %d\n"
+#~ "\n"
+#~ "Viti: %s\n"
+#~ "\n"
+#~ "Vlerësimi: %s/10\n"
+#~ "\n"
+#~ " Zhanret:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Seriali televiziv\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Seriali televiziv\n"
+#~ "Sezoni: %d\n"
+#~ "Episodet totale: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Seriali televiziv\n"
+#~ "Sezoni: %d\n"
+#~ "Episodet gjithsej: %d\n"
+#~ "Shtypni GREEN për të luajtur"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Përdorni çelësat numerikë në telekomandë\n"
+#~ " për të futur kodin captcha\n"
+#~ "GREEN = Konfirmo, KUQ = Anulo"
