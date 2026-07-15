@@ -31,6 +31,9 @@ msgstr "--- סדרת טלוויזיה ---"
 msgid "0 titles"
 msgstr "0 כותרים"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< מחק קרון >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> פרקים <<<"
 
@@ -169,6 +172,10 @@ msgstr "מספר מקסימלי של תוצאות להצגה"
 msgid "Movie History"
 msgstr "היסטוריית הסרטים"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "היסטוריית הסרטים"
+
 msgid "N/A"
 msgstr "לא"
 
@@ -247,6 +254,10 @@ msgstr "חפש סרט"
 msgid "Search TV Series"
 msgstr "חפש סדרות טלוויזיה"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "היסטוריית חיפושים"
+
 msgid "Search timeout"
 msgstr "זמן קצוב לחיפוש"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "מזהה TMDB לא נמצא"
 
 msgid "TV Series History"
+msgstr "היסטוריה של סדרות טלוויזיה"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "היסטוריה של סדרות טלוויזיה"
 
 msgid "Timeout for search requests (seconds)"

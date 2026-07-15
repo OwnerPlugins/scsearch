@@ -31,6 +31,9 @@ msgstr "--- TV SERIJE ---"
 msgid "0 titles"
 msgstr "0 naslova"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Obriši Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizode <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maksimalan broj rezultata za prikaz"
 msgid "Movie History"
 msgstr "Povijest filma"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Povijest filma"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Traži film"
 msgid "Search TV Series"
 msgstr "Traži TV serije"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Povijest pretraživanja"
+
 msgid "Search timeout"
 msgstr "Traženje isteklo"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID nije pronađen"
 
 msgid "TV Series History"
+msgstr "Povijest TV serije"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Povijest TV serije"
 
 msgid "Timeout for search requests (seconds)"

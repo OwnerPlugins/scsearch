@@ -31,6 +31,9 @@ msgstr "--- TV DİZİSİ ---"
 msgid "0 titles"
 msgstr "0 başlık"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Cron'u Sil >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Bölümler <<<"
 
@@ -169,6 +172,10 @@ msgstr "Görüntülenecek maksimum sonuç sayısı"
 msgid "Movie History"
 msgstr "Film Geçmişi"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Film Geçmişi"
+
 msgid "N/A"
 msgstr "Yok"
 
@@ -247,6 +254,10 @@ msgstr "Film Ara"
 msgid "Search TV Series"
 msgstr "TV Dizisi Ara"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Arama Geçmişi"
+
 msgid "Search timeout"
 msgstr "Arama zaman aşımı"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB kimliği bulunamadı"
 
 msgid "TV Series History"
+msgstr "Dizi Tarihi"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Dizi Tarihi"
 
 msgid "Timeout for search requests (seconds)"

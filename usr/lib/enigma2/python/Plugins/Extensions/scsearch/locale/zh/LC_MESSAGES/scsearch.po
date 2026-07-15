@@ -31,6 +31,9 @@ msgstr "--- 电视剧 ---"
 msgid "0 titles"
 msgstr "0 标题"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< 删除 Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> 剧集 <<<"
 
@@ -169,6 +172,10 @@ msgstr "显示的最大结果数"
 msgid "Movie History"
 msgstr "电影史"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "电影史"
+
 msgid "N/A"
 msgstr "不适用"
 
@@ -247,6 +254,10 @@ msgstr "搜索电影"
 msgid "Search TV Series"
 msgstr "搜索电视剧"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "搜索历史"
+
 msgid "Search timeout"
 msgstr "搜索超时"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "未找到 TMDB ID"
 
 msgid "TV Series History"
+msgstr "电视剧历史"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "电视剧历史"
 
 msgid "Timeout for search requests (seconds)"

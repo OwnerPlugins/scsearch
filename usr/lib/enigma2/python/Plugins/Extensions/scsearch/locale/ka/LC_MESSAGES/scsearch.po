@@ -31,6 +31,9 @@ msgstr "--- სერიალი ---"
 msgid "0 titles"
 msgstr "0 სათაური"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< წაშალე კრონი >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> ეპიზოდები <<<"
 
@@ -169,6 +172,10 @@ msgstr "საჩვენებელი შედეგების მაქ�
 msgid "Movie History"
 msgstr "ფილმის ისტორია"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "ფილმის ისტორია"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "ფილმის ძიება"
 msgid "Search TV Series"
 msgstr "მოძებნეთ სერიალები"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "ძიების ისტორია"
+
 msgid "Search timeout"
 msgstr "ძიების დრო ამოიწურა"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID ვერ მოიძებნა"
 
 msgid "TV Series History"
+msgstr "სერიალის ისტორია"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "სერიალის ისტორია"
 
 msgid "Timeout for search requests (seconds)"

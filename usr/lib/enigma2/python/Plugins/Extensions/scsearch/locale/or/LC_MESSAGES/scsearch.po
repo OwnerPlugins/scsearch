@@ -31,6 +31,9 @@ msgstr "--- ଟିଭି SERIES ---"
 msgid "0 titles"
 msgstr "0 ଟାଇଟଲ୍ |"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< କ୍ରୋନ୍ ଲିଭାନ୍ତୁ >>> |"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> ଏପିସୋଡ୍ <<<"
 
@@ -169,6 +172,10 @@ msgstr "ପ୍ରଦର୍ଶନ କରିବାକୁ ସର୍ବାଧିକ 
 msgid "Movie History"
 msgstr "ଚଳଚ୍ଚିତ୍ର ଇତିହାସ"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "ଚଳଚ୍ଚିତ୍ର ଇତିହାସ"
+
 msgid "N/A"
 msgstr "N / A"
 
@@ -247,6 +254,10 @@ msgstr "ଚଳଚ୍ଚିତ୍ର ଖୋଜ |"
 msgid "Search TV Series"
 msgstr "ଟିଭି ସିରିଜ୍ ଖୋଜ |"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "ଇତିହାସ ଖୋଜ |"
+
 msgid "Search timeout"
 msgstr "ସମୟ ସମାପ୍ତ କରନ୍ତୁ |"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID ମିଳିଲା ନାହିଁ |"
 
 msgid "TV Series History"
+msgstr "ଟିଭି ସିରିଜ୍ ଇତିହାସ |"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "ଟିଭି ସିରିଜ୍ ଇତିହାସ |"
 
 msgid "Timeout for search requests (seconds)"

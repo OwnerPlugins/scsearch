@@ -31,6 +31,9 @@ msgstr "--- ٹی وی سیریز ---"
 msgid "0 titles"
 msgstr "0 عنوانات"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< مٹائیں کرون >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> اقساط <<<"
 
@@ -169,6 +172,10 @@ msgstr "ڈسپلے کرنے کے لیے نتائج کی زیادہ سے زیاد
 msgid "Movie History"
 msgstr "فلم کی تاریخ"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "فلم کی تاریخ"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "مووی تلاش کریں۔"
 msgid "Search TV Series"
 msgstr "ٹی وی سیریز تلاش کریں۔"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "تلاش کی سرگزشت"
+
 msgid "Search timeout"
 msgstr "تلاش کا ٹائم آؤٹ"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID نہیں ملی"
 
 msgid "TV Series History"
+msgstr "ٹی وی سیریز کی تاریخ"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "ٹی وی سیریز کی تاریخ"
 
 msgid "Timeout for search requests (seconds)"

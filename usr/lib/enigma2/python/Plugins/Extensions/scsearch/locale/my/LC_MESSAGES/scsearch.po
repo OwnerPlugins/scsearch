@@ -31,6 +31,9 @@ msgstr "--- တီဗီစီးရီးများ ---"
 msgid "0 titles"
 msgstr "၀တ္ထုခေါင်းစဉ်များ"
 
+msgid "<<< Erase Cron >>>"
+msgstr ""
+
 msgid ">>> Episodes <<<"
 msgstr ">>> ဇာတ်လမ်းတွဲများ <<<"
 
@@ -169,6 +172,10 @@ msgstr "ပြသရန် အများဆုံးရလဒ်များ"
 msgid "Movie History"
 msgstr "ရုပ်ရှင်သမိုင်း"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "ရုပ်ရှင်သမိုင်း"
+
 msgid "N/A"
 msgstr "မရှိ"
 
@@ -247,6 +254,10 @@ msgstr "ရုပ်ရှင်ရှာပါ။"
 msgid "Search TV Series"
 msgstr "တီဗီစီးရီးရှာပါ။"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "ရှာဖွေမှုမှတ်တမ်း"
+
 msgid "Search timeout"
 msgstr "ရှာရန် အချိန်ကုန်သွားသည်။"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID မတွေ့ပါ။"
 
 msgid "TV Series History"
+msgstr "တီဗီစီးရီးမှတ်တမ်း"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "တီဗီစီးရီးမှတ်တမ်း"
 
 msgid "Timeout for search requests (seconds)"

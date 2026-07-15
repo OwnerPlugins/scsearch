@@ -31,6 +31,9 @@ msgstr "--- TV SERIES ---"
 msgid "0 titles"
 msgstr "0 titles"
 
+msgid "<<< Erase Cron >>>"
+msgstr ""
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodes <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maximum number of results to display"
 msgid "Movie History"
 msgstr "Movie History"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Movie History"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Search Movie"
 msgid "Search TV Series"
 msgstr "Search TV Series"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Search History"
+
 msgid "Search timeout"
 msgstr "Search timeout"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID not found"
 
 msgid "TV Series History"
+msgstr "TV Series History"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV Series History"
 
 msgid "Timeout for search requests (seconds)"

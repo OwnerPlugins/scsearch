@@ -31,6 +31,9 @@ msgstr "--- TV SERIES ---"
 msgid "0 titles"
 msgstr "0 mga pamagat"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Burahin ang Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Mga Episode <<<<"
 
@@ -169,6 +172,10 @@ msgstr "Pinakamataas na bilang ng mga resultang ipapakita"
 msgid "Movie History"
 msgstr "Kasaysayan ng Pelikula"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Kasaysayan ng Pelikula"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Maghanap ng Pelikula"
 msgid "Search TV Series"
 msgstr "Maghanap ng Serye sa TV"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Kasaysayan ng Paghahanap"
+
 msgid "Search timeout"
 msgstr "Timeout ng paghahanap"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "Hindi nakita ang TMDB ID"
 
 msgid "TV Series History"
+msgstr "Kasaysayan ng Serye sa TV"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Kasaysayan ng Serye sa TV"
 
 msgid "Timeout for search requests (seconds)"

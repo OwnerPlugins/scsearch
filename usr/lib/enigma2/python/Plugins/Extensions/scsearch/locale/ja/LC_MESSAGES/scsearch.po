@@ -31,6 +31,9 @@ msgstr "- - 連続テレビ番組 - -"
 msgid "0 titles"
 msgstr "0タイトル"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Cron を消去 >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> エピソード <<<"
 
@@ -169,6 +172,10 @@ msgstr "表示する結果の最大数"
 msgid "Movie History"
 msgstr "映画の歴史"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "映画の歴史"
+
 msgid "N/A"
 msgstr "該当なし"
 
@@ -247,6 +254,10 @@ msgstr "動画を検索"
 msgid "Search TV Series"
 msgstr "テレビシリーズを検索"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "検索履歴"
+
 msgid "Search timeout"
 msgstr "検索タイムアウト"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID が見つかりません"
 
 msgid "TV Series History"
+msgstr "TVシリーズの歴史"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TVシリーズの歴史"
 
 msgid "Timeout for search requests (seconds)"

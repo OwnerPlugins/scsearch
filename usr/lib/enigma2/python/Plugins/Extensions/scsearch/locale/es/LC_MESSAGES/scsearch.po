@@ -31,6 +31,9 @@ msgstr "--- SERIES DE TV ---"
 msgid "0 titles"
 msgstr "0 títulos"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Borrar Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodios <<<"
 
@@ -169,6 +172,10 @@ msgstr "Número máximo de resultados para mostrar"
 msgid "Movie History"
 msgstr "Historia de la película"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Historia de la película"
+
 msgid "N/A"
 msgstr "N / A"
 
@@ -247,6 +254,10 @@ msgstr "Buscar película"
 msgid "Search TV Series"
 msgstr "Buscar series de televisión"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Historial de búsqueda"
+
 msgid "Search timeout"
 msgstr "Tiempo de espera de búsqueda"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID de TMDB no encontrado"
 
 msgid "TV Series History"
+msgstr "Historia de la serie de televisión"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Historia de la serie de televisión"
 
 msgid "Timeout for search requests (seconds)"

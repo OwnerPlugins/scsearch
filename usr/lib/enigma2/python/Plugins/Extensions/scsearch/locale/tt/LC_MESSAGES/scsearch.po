@@ -31,6 +31,9 @@ msgstr "--- Телевизион сериаллар ---"
 msgid "0 titles"
 msgstr "0 титул"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Кронны бетерү >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Эпизодлар <<<"
 
@@ -169,6 +172,10 @@ msgstr "Күрсәтү өчен максималь нәтиҗәләр"
 msgid "Movie History"
 msgstr "Кино тарихы"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Кино тарихы"
+
 msgid "N/A"
 msgstr "N / A."
 
@@ -247,6 +254,10 @@ msgstr "Кино эзләү"
 msgid "Search TV Series"
 msgstr "Телевизион сериалларны эзләү"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Эзләү тарихы"
+
 msgid "Search timeout"
 msgstr "Эзләү вакыты"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID табылмады"
 
 msgid "TV Series History"
+msgstr "Телевизион серияләр тарихы"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Телевизион серияләр тарихы"
 
 msgid "Timeout for search requests (seconds)"

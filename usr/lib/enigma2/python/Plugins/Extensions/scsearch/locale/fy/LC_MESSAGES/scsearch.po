@@ -31,6 +31,9 @@ msgstr "--- TV SERIE ---"
 msgid "0 titles"
 msgstr "0 titels"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Cron wiskje >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Ofleverings <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maksimum oantal resultaten te werjaan"
 msgid "Movie History"
 msgstr "Movie Skiednis"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Movie Skiednis"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Sykje Movie"
 msgid "Search TV Series"
 msgstr "Search TV Series"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Search History"
+
 msgid "Search timeout"
 msgstr "Search timeout"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID net fûn"
 
 msgid "TV Series History"
+msgstr "TV Series Skiednis"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV Series Skiednis"
 
 msgid "Timeout for search requests (seconds)"

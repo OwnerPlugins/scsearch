@@ -31,6 +31,9 @@ msgstr "--- SERI TV ---"
 msgid "0 titles"
 msgstr "0 judul"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Hapus Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episode <<<"
 
@@ -169,6 +172,10 @@ msgstr "Jumlah hasil maksimum untuk ditampilkan"
 msgid "Movie History"
 msgstr "Sejarah Film"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Sejarah Film"
+
 msgid "N/A"
 msgstr "T/A"
 
@@ -247,6 +254,10 @@ msgstr "Cari Film"
 msgid "Search TV Series"
 msgstr "Cari Serial TV"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Riwayat Pencarian"
+
 msgid "Search timeout"
 msgstr "Batas waktu pencarian"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID TMDB tidak ditemukan"
 
 msgid "TV Series History"
+msgstr "Sejarah Serial TV"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Sejarah Serial TV"
 
 msgid "Timeout for search requests (seconds)"

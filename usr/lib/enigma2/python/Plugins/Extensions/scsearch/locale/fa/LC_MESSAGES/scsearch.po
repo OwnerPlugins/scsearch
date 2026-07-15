@@ -31,6 +31,9 @@ msgstr "--- سریال های تلویزیونی ---"
 msgid "0 titles"
 msgstr "0 عنوان"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< پاک کردن کرون >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> قسمت ها <<<"
 
@@ -169,6 +172,10 @@ msgstr "حداکثر تعداد نتایج برای نمایش"
 msgid "Movie History"
 msgstr "تاریخچه فیلم"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "تاریخچه فیلم"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "جستجوی فیلم"
 msgid "Search TV Series"
 msgstr "جستجوی سریال های تلویزیونی"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "تاریخچه جستجو"
+
 msgid "Search timeout"
 msgstr "مهلت جستجو"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "شناسه TMDB یافت نشد"
 
 msgid "TV Series History"
+msgstr "تاریخچه سریال های تلویزیونی"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "تاریخچه سریال های تلویزیونی"
 
 msgid "Timeout for search requests (seconds)"

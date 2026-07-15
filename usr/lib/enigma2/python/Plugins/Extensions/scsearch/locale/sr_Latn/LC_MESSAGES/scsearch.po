@@ -31,6 +31,9 @@ msgstr "--- ТВ СЕРИЈА ---"
 msgid "0 titles"
 msgstr "0 наслова"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Избриши Црон >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Епизоде ​​<<<"
 
@@ -169,6 +172,10 @@ msgstr "Максималан број резултата за приказ"
 msgid "Movie History"
 msgstr "Филмска историја"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Филмска историја"
+
 msgid "N/A"
 msgstr "Н/А"
 
@@ -247,6 +254,10 @@ msgstr "Сеарцх Мовие"
 msgid "Search TV Series"
 msgstr "Претражите ТВ серије"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Историја претраге"
+
 msgid "Search timeout"
 msgstr "Временско ограничење претраге"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ТМДБ ИД није пронађен"
 
 msgid "TV Series History"
+msgstr "Историја ТВ серије"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Историја ТВ серије"
 
 msgid "Timeout for search requests (seconds)"

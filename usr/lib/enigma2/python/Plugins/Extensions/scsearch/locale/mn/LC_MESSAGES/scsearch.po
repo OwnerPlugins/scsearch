@@ -31,6 +31,9 @@ msgstr "--- ЦУВРАЛТ ---"
 msgid "0 titles"
 msgstr "0 гарчиг"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Кроныг устгах >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Ангиуд <<<"
 
@@ -169,6 +172,10 @@ msgstr "Үзүүлэх үр дүнгийн дээд тоо"
 msgid "Movie History"
 msgstr "Киноны түүх"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Киноны түүх"
+
 msgid "N/A"
 msgstr "Үгүй"
 
@@ -247,6 +254,10 @@ msgstr "Кино хайх"
 msgid "Search TV Series"
 msgstr "Телевизийн цуврал хайх"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Хайлтын түүх"
+
 msgid "Search timeout"
 msgstr "Хайлтын завсарлага"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID олдсонгүй"
 
 msgid "TV Series History"
+msgstr "Телевизийн цуврал түүх"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Телевизийн цуврал түүх"
 
 msgid "Timeout for search requests (seconds)"

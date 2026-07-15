@@ -31,6 +31,9 @@ msgstr "--- مسلسلات ---"
 msgid "0 titles"
 msgstr "0 ألقاب"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< مسح كرون >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> الحلقات <<<"
 
@@ -169,6 +172,10 @@ msgstr "الحد الأقصى لعدد النتائج التي سيتم عرضه
 msgid "Movie History"
 msgstr "تاريخ الفيلم"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "تاريخ الفيلم"
+
 msgid "N/A"
 msgstr "لا يوجد"
 
@@ -247,6 +254,10 @@ msgstr "بحث الفيلم"
 msgid "Search TV Series"
 msgstr "بحث في مسلسلات تلفزيونية"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "سجل البحث"
+
 msgid "Search timeout"
 msgstr "مهلة البحث"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "لم يتم العثور على معرف TMDB"
 
 msgid "TV Series History"
+msgstr "تاريخ المسلسلات التلفزيونية"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "تاريخ المسلسلات التلفزيونية"
 
 msgid "Timeout for search requests (seconds)"

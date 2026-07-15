@@ -31,6 +31,9 @@ msgstr "--- TELEVIDA SERIO ---"
 msgid "0 titles"
 msgstr "0 titoloj"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Forigu Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizodoj <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maksimuma nombro de rezultoj por montri"
 msgid "Movie History"
 msgstr "Filmhistorio"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Filmhistorio"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Serĉu Filmon"
 msgid "Search TV Series"
 msgstr "Serĉu Televidserio"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Serĉhistorio"
+
 msgid "Search timeout"
 msgstr "Serĉa tempodaŭro"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB-ID ne trovita"
 
 msgid "TV Series History"
+msgstr "Televidserio Historio"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Televidserio Historio"
 
 msgid "Timeout for search requests (seconds)"
