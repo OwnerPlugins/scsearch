@@ -325,6 +325,10 @@ msgstr "Δεν είναι δυνατή η φόρτωση των λεπτομερ
 msgid "Unable to open details for this content"
 msgstr "Δεν είναι δυνατό το άνοιγμα λεπτομερειών για αυτό το περιεχόμενο"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Δεν είναι δυνατή η λήψη URL ροής"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Δεν είναι δυνατή η ανάκτηση πληροφοριών από το TMDB."
 

@@ -325,6 +325,10 @@ msgstr "לא ניתן לטעון פרטי תוכן"
 msgid "Unable to open details for this content"
 msgstr "לא ניתן לפתוח פרטים עבור תוכן זה"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "לא ניתן להשיג כתובת URL זורמת"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "לא ניתן לאחזר מידע מ-TMDB."
 

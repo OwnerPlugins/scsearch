@@ -325,6 +325,10 @@ msgstr "مەزمۇن تەپسىلاتلىرىنى يۈكلىيەلمىدى"
 msgid "Unable to open details for this content"
 msgstr "بۇ مەزمۇننىڭ تەپسىلاتلىرىنى ئاچالمىدى"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "ئاقما URL غا ئېرىشەلمىدى"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB دىن ئۇچۇرغا ئېرىشەلمىدى."
 

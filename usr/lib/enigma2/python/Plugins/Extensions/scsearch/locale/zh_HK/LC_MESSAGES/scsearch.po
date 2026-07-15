@@ -325,6 +325,10 @@ msgstr "無法加載內容詳細信息"
 msgid "Unable to open details for this content"
 msgstr "無法打開此內容的詳細信息"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "無法取得直播地址"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "無法從 TMDB 檢索資訊。"
 

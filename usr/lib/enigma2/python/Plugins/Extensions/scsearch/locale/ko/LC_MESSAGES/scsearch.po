@@ -325,6 +325,10 @@ msgstr "콘텐츠 세부정보를 로드할 수 없습니다."
 msgid "Unable to open details for this content"
 msgstr "이 콘텐츠의 세부정보를 열 수 없습니다."
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "스트리밍 URL을 가져올 수 없습니다."
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB에서 정보를 검색할 수 없습니다."
 

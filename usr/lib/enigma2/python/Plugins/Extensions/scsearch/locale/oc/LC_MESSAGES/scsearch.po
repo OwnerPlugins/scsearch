@@ -325,6 +325,10 @@ msgstr "Impossible de cargar los detalhs del contengut"
 msgid "Unable to open details for this content"
 msgstr "Impossible de dobrir los detalhs per aqueste contengut"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Impossible d'obténer l'URL de flux"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Impossible de recuperar d'informacions dempuèi TMDB."
 

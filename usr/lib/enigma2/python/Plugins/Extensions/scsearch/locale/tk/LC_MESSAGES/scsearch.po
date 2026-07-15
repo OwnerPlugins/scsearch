@@ -325,6 +325,10 @@ msgstr "Mazmun jikme-jikliklerini ýükläp bolmaýar"
 msgid "Unable to open details for this content"
 msgstr "Bu mazmun üçin jikme-jiklikleri açyp bolmaýar"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Akym URL-ni alyp bolmaýar"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB-den maglumat alyp bolmaýar."
 

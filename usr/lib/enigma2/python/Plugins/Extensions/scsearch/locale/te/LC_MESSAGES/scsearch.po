@@ -325,6 +325,10 @@ msgstr "కంటెంట్ వివరాలను లోడ్ చేయడ
 msgid "Unable to open details for this content"
 msgstr "ఈ కంటెంట్ కోసం వివరాలను తెరవడం సాధ్యం కాలేదు"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "స్ట్రీమింగ్ URLని పొందడం సాధ్యం కాలేదు"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB నుండి సమాచారాన్ని తిరిగి పొందడం సాధ్యం కాలేదు."
 

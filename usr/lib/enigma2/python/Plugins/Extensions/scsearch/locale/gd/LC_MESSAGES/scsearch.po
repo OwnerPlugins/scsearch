@@ -325,6 +325,10 @@ msgstr "Cha ghabh mion-fhiosrachadh susbaint a luchdachadh"
 msgid "Unable to open details for this content"
 msgstr "Cha ghabh mion-fhiosrachadh fhosgladh airson an t-susbaint seo"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Cha ghabh URL sruthadh fhaighinn"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Cha b' urrainn dhuinn fiosrachadh fhaighinn air ais bho TMDB."
 

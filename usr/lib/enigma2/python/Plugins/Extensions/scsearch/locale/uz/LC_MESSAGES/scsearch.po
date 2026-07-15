@@ -325,6 +325,10 @@ msgstr "Kontent tafsilotlarini yuklab bo‘lmadi"
 msgid "Unable to open details for this content"
 msgstr "Bu kontent tafsilotlarini ochib bo‘lmadi"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Oqim URL manzilini olib bo‘lmadi"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB dan ma'lumot olib bo'lmadi."
 

@@ -325,6 +325,10 @@ msgstr "Ekki er hægt að hlaða efnisupplýsingum"
 msgid "Unable to open details for this content"
 msgstr "Ekki er hægt að opna upplýsingar um þetta efni"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Ekki er hægt að ná í vefslóð streymis"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Ekki er hægt að sækja upplýsingar úr TMDB."
 

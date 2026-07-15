@@ -325,6 +325,10 @@ msgstr "የይዘት ዝርዝሮችን መጫን አልተቻለም"
 msgid "Unable to open details for this content"
 msgstr "ለዚህ ይዘት ዝርዝሮችን መክፈት አልተቻለም"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "የዥረት ዩአርኤል ማግኘት አልተቻለም"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "ከTMDB መረጃ ማምጣት አልተቻለም።"
 

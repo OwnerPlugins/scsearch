@@ -325,6 +325,10 @@ msgstr "コンテンツの詳細を読み込めません"
 msgid "Unable to open details for this content"
 msgstr "このコンテンツの詳細を開けません"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "ストリーミング URL を取得できません"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB から情報を取得できません。"
 

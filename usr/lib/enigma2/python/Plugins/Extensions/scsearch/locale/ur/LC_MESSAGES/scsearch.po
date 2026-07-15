@@ -325,6 +325,10 @@ msgstr "مواد کی تفصیلات لوڈ کرنے سے قاصر"
 msgid "Unable to open details for this content"
 msgstr "اس مواد کی تفصیلات کھولنے سے قاصر"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "سلسلہ بندی کا URL حاصل کرنے سے قاصر"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB سے معلومات بازیافت کرنے سے قاصر۔"
 

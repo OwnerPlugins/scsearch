@@ -325,6 +325,10 @@ msgstr "Imeshindwa kupakia maelezo ya maudhui"
 msgid "Unable to open details for this content"
 msgstr "Imeshindwa kufungua maelezo ya maudhui haya"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Haikuweza kupata URL ya kutiririsha"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Haiwezi kuepua maelezo kutoka kwa TMDB."
 

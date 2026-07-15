@@ -325,6 +325,10 @@ msgstr "Nikare hûrguliyên naverokê bar bike"
 msgid "Unable to open details for this content"
 msgstr "Nikare hûrguliyên vê naverokê veke"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Nikare URL-ya weşana xwe bigire"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Nikare agahiyê ji TMDB bigire."
 

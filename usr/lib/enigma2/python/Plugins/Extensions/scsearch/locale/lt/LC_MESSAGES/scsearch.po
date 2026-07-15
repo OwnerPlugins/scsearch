@@ -325,6 +325,10 @@ msgstr "Nepavyko įkelti išsamios turinio informacijos"
 msgid "Unable to open details for this content"
 msgstr "Nepavyko atidaryti išsamios šio turinio informacijos"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Nepavyko gauti srautinio URL"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Nepavyko gauti informacijos iš TMDB."
 

@@ -325,6 +325,10 @@ msgstr "အကြောင်းအရာအသေးစိတ်များက
 msgid "Unable to open details for this content"
 msgstr "ဤအကြောင်းအရာအတွက် အသေးစိတ်အချက်အလက်များကို ဖွင့်၍မရပါ။"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "တိုက်ရိုက်လွှင့် URL ကို မရပါ။"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB မှ အချက်အလက်များကို ရယူ၍မရပါ။"
 

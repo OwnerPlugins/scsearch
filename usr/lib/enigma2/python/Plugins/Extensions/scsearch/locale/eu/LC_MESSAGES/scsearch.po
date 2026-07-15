@@ -325,6 +325,10 @@ msgstr "Ezin dira kargatu edukiaren xehetasunak"
 msgid "Unable to open details for this content"
 msgstr "Ezin dira ireki eduki honen xehetasunak"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Ezin da igorpenaren URLa lortu"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Ezin da TMDBtik informazioa berreskuratu."
 

@@ -325,6 +325,10 @@ msgstr "Sisällön tietoja ei voi ladata"
 msgid "Unable to open details for this content"
 msgstr "Tämän sisällön tietoja ei voi avata"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Striimauksen URL-osoite ei onnistu"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Tietoja ei voi hakea TMDB:stä."
 

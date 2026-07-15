@@ -325,6 +325,10 @@ msgstr "Тафсилоти мундариҷаро бор кардан ғайри
 msgid "Unable to open details for this content"
 msgstr "Тафсилоти ин мундариҷаро кушодан ғайриимкон аст"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "URL-и ҷараёнро гирифтан ғайриимкон аст"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Аз TMDB маълумот гирифтан ғайриимкон аст."
 

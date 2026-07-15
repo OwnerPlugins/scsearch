@@ -325,6 +325,10 @@ msgstr "Methu llwytho manylion cynnwys"
 msgid "Unable to open details for this content"
 msgstr "Methu agor manylion y cynnwys hwn"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Methu cael URL ffrydio"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Methu adalw gwybodaeth o TMDB."
 

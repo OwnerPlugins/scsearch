@@ -325,6 +325,10 @@ msgstr "Ma tistax tgħabbi d-dettalji tal-kontenut"
 msgid "Unable to open details for this content"
 msgstr "Ma tistax tiftaħ id-dettalji għal dan il-kontenut"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Ma tistax tikseb URL streaming"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Ma tistax tirkupra informazzjoni minn TMDB."
 

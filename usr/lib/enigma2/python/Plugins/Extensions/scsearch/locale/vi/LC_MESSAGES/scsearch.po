@@ -325,6 +325,10 @@ msgstr "Không thể tải chi tiết nội dung"
 msgid "Unable to open details for this content"
 msgstr "Không thể mở chi tiết cho nội dung này"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Không thể lấy URL phát trực tuyến"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Không thể lấy thông tin từ TMDB."
 

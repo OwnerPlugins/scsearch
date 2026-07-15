@@ -325,6 +325,10 @@ msgstr "Sisu üksikasju ei saa laadida"
 msgid "Unable to open details for this content"
 msgstr "Selle sisu üksikasju ei saa avada"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Voogesituse URL-i ei saa hankida"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB-st ei saa teavet hankida."
 

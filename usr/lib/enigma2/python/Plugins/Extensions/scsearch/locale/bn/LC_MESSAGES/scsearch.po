@@ -325,6 +325,10 @@ msgstr "বিষয়বস্তুর বিবরণ লোড করতে
 msgid "Unable to open details for this content"
 msgstr "এই বিষয়বস্তুর বিবরণ খুলতে অক্ষম"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "স্ট্রিমিং URL পেতে অক্ষম"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB থেকে তথ্য পুনরুদ্ধার করতে অক্ষম।"
 

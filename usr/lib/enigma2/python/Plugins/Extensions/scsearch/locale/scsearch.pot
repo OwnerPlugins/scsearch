@@ -4,6 +4,7 @@
 
 
 
+
 msgid "%d titles"
 msgstr ""
 
@@ -311,6 +312,9 @@ msgid "Unable to load content details"
 msgstr ""
 
 msgid "Unable to open details for this content"
+msgstr ""
+
+msgid "Unable to resolve the video stream"
 msgstr ""
 
 msgid "Unable to retrieve information from TMDB."

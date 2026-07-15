@@ -325,6 +325,10 @@ msgstr "Hindi ma-load ang mga detalye ng nilalaman"
 msgid "Unable to open details for this content"
 msgstr "Hindi mabuksan ang mga detalye para sa nilalamang ito"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Hindi makuha ang streaming URL"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Hindi makuha ang impormasyon mula sa TMDB."
 

@@ -325,6 +325,10 @@ msgstr "د منځپانګې د جزیاتو د پورته کولو توان نل
 msgid "Unable to open details for this content"
 msgstr "د دې مینځپانګې لپاره توضیحات خلاصولو توان نلري"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "د سټرینګ URL ترلاسه کولو توان نلري"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "د TMDB څخه د معلوماتو ترلاسه کولو توان نلري."
 

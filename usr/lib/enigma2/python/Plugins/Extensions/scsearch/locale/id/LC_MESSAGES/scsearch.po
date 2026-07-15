@@ -325,6 +325,10 @@ msgstr "Tidak dapat memuat detail konten"
 msgid "Unable to open details for this content"
 msgstr "Tidak dapat membuka detail untuk konten ini"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Tidak dapat memperoleh URL streaming"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Tidak dapat mengambil informasi dari TMDB."
 

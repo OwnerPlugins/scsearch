@@ -325,6 +325,10 @@ msgstr "ניט געקענט צו לאָדן אינהאַלט דעטאַילס"
 msgid "Unable to open details for this content"
 msgstr "ניט געקענט עפֿענען פּרטים פֿאַר דעם אינהאַלט"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "ניט געקענט באַקומען סטרימינג URL"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "ניט געקענט צוריקקריגן אינפֿאָרמאַציע פון ​​TMDB."
 

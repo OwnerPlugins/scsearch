@@ -325,6 +325,10 @@ msgstr "Kin ynhâldsdetails net laden"
 msgid "Unable to open details for this content"
 msgstr "Kin details foar dizze ynhâld net iepenje"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Net mooglik om de streamende URL te krijen"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Kin ynformaasje net ophelje fan TMDB."
 

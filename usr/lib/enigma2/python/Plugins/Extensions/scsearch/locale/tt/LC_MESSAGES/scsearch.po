@@ -325,6 +325,10 @@ msgstr "Эчтәлек детальләрен йөкләп булмый"
 msgid "Unable to open details for this content"
 msgstr "Бу эчтәлек өчен детальләр ача алмый"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Агымдагы URL ала алмый"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "ТМДБдан мәгълүмат алып булмый."
 

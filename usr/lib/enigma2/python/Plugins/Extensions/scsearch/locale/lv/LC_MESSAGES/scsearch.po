@@ -325,6 +325,10 @@ msgstr "Nevar ielādēt satura informāciju"
 msgid "Unable to open details for this content"
 msgstr "Nevar atvērt šī satura informāciju"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Nevar iegūt straumēšanas URL"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Nevar izgūt informāciju no TMDB."
 

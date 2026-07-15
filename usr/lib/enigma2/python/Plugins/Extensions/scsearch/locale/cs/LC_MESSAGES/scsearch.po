@@ -325,6 +325,10 @@ msgstr "Podrobnosti obsahu nelze načíst"
 msgid "Unable to open details for this content"
 msgstr "Podrobnosti o tomto obsahu nelze otevřít"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Nelze získat adresu URL streamování"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Nelze načíst informace z TMDB."
 

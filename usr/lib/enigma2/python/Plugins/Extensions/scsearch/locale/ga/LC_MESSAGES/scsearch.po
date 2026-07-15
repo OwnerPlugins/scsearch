@@ -325,6 +325,10 @@ msgstr "Ní féidir sonraí an ábhair a lódáil"
 msgid "Unable to open details for this content"
 msgstr "Ní féidir sonraí an ábhair seo a oscailt"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Ní féidir URL an tsruthaithe a fháil"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Ní féidir faisnéis a fháil ó TMDB."
 

@@ -325,6 +325,10 @@ msgstr "Ne eblas ŝargi enhavajn detalojn"
 msgid "Unable to open details for this content"
 msgstr "Ne eblas malfermi detalojn por ĉi tiu enhavo"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Ne eblas akiri la retsendan URL"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Ne eblas preni informojn de TMDB."
 

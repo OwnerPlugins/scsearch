@@ -325,6 +325,10 @@ msgstr "Није могуће учитати детаље садржаја"
 msgid "Unable to open details for this content"
 msgstr "Није могуће отворити детаље за овај садржај"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Није могуће добити УРЛ за стримовање"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "Није могуће преузети информације из ТМДБ."
 

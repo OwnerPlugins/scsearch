@@ -325,6 +325,10 @@ msgstr "جزئیات محتوا بارگیری نشد"
 msgid "Unable to open details for this content"
 msgstr "جزئیات این محتوا باز نشد"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "دریافت URL پخش جریانی ممکن نیست"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "نمی توان اطلاعات را از TMDB بازیابی کرد."
 

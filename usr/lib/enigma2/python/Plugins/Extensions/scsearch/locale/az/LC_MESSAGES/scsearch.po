@@ -325,6 +325,10 @@ msgstr "Məzmun təfərrüatlarını yükləmək mümkün deyil"
 msgid "Unable to open details for this content"
 msgstr "Bu məzmunun təfərrüatlarını açmaq mümkün deyil"
 
+#, fuzzy
+msgid "Unable to resolve the video stream"
+msgstr "Axın URL-i əldə etmək mümkün deyil"
+
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB-dən məlumat əldə etmək mümkün deyil."
 
