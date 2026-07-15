@@ -202,15 +202,17 @@ class SCSearchMain(Screen):
         self["key_green"] = Label(_("Search Movie"))
         self["key_yellow"] = Label(_("Search TV Series"))
         self["key_blue"] = Label(_("History"))
+        self["key_erase"] = Label(_("<<< Erase Cron >>>"))
 
         # Action Map
-        self["actions"] = ActionMap(["ColorActions", "OkCancelActions"], {
+        self["actions"] = ActionMap(["ColorActions", "OkCancelActions", "InfobarMenuActions"], {
             "cancel": self.close,
             "red": self.close,
             "green": self.start_search_movie,
             "yellow": self.start_search_tv,
             "blue": self.show_search_history,
             "ok": self.ok_pressed,
+            "menu": self.erase_history,
         }, -2)
 
         # Listeners
@@ -339,6 +341,7 @@ class SCSearchMain(Screen):
             choices.append((term, term))
 
         choices.append((_("--- New search ---"), "new"))
+        choices.append((_("<<< Erase Cron >>>"), "erase"))
 
         title = _("Movie History") if self.search_type == "movie" else _(
             "TV Series History")
@@ -349,6 +352,17 @@ class SCSearchMain(Screen):
             list=choices
         )
 
+    def erase_history(self, search_type=None):
+        if search_type:
+            self.search_history[search_type] = []
+            msg = _("Movie history cleared") if search_type == 'movie' else _("TV series history cleared")
+        else:
+            self.search_history['movie'] = []
+            self.search_history['tv'] = []
+            msg = _("Search history cleared")
+        save_search_history(self.search_history)
+        self.session.open(MessageBox, msg, MessageBox.TYPE_INFO, timeout=3)
+
     def on_history_item_selected(self, choice):
         """Handle selection from history."""
         if not choice:
@@ -356,6 +370,8 @@ class SCSearchMain(Screen):
 
         if choice[1] == "new":
             self.open_virtual_keyboard()
+        elif choice[1] == "erase":
+            self.erase_history(self.search_type)
         else:
             self.run_sc_search(choice[1])
 
@@ -401,6 +417,7 @@ class SCSearchMain(Screen):
                 choices.append(("📺 {}".format(term), ("tv", term)))
 
         choices.append((_("New search..."), "new"))
+        choices.append((_("<<< Erase Cron >>>"), "erase"))
 
         self.session.openWithCallback(
             self.on_history_selected,
@@ -412,6 +429,8 @@ class SCSearchMain(Screen):
     def on_history_selected(self, choice):
         if choice and choice[1] == "new":
             self.open_virtual_keyboard()
+        elif choice and choice[1] == "erase":
+            self.erase_history()
         elif choice and choice[1] and isinstance(choice[1], tuple):
             search_type, term = choice[1]
             self.search_type = search_type

@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"POT-Creation-Date: 2026-01-01 00:00\n"
+"PO-Revision-Date: 2026-01-01 00:00\n"
 "Last-Translator: \n"
 "Language-Team: it <ekekaz@gmail.com>\n"
 "Language: it\n"
@@ -333,6 +333,18 @@ msgstr "[CB01] %s"
 
 msgid "error"
 msgstr "errore"
+
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Cancella Cronologia >>>"
+
+msgid "Movie history cleared"
+msgstr "Cronologia film cancellata"
+
+msgid "TV series history cleared"
+msgstr "Cronologia serie TV cancellata"
+
+msgid "Search history cleared"
+msgstr "Cronologia delle ricerche cancellata"
 
 msgid "loading"
 msgstr "caricamento"

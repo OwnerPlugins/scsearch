@@ -18,4 +18,5 @@
     <widget name="key_green" position="600,2055" size="450,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
     <widget name="key_yellow" position="1080,2055" size="450,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
     <widget name="key_blue" position="1560,2055" size="450,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
+    <widget name="key_erase" position="2040,2055" size="450,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#6e40c9" zPosition="2" />
 </screen>
