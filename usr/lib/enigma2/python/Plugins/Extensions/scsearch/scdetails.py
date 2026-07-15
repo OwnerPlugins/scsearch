@@ -62,6 +62,10 @@ class SCDetailsScreen(Screen):
         self._cover_success = False
         self._ostv_cover_ready = False
         self._ostv_cover_success = False
+        self._stream_ready = False
+        self._stream_result = None
+        self._stream_context = None
+        self._stream_timer = None
 
         self.ui_timer = eTimer()
         self.ui_timer.callback.append(self._on_details_timer)
@@ -538,6 +542,8 @@ class SCDetailsScreen(Screen):
     def __onClose(self):
         self._closed = True
         self._stop_all_timers()
+        if self._stream_timer is not None:
+            self._stream_timer.stop()
         if self.picload is not None:
             try:
                 self.picload.PictureData.get().remove(
@@ -582,24 +588,71 @@ class SCDetailsScreen(Screen):
                     MessageBox.TYPE_ERROR)
                 return
 
-            if self.details.get("type") == "Movie":
-                stream_url = "https://vixsrc.to/movie/{}".format(tmdb_id)
-                service_name = self.title
-            else:
-                stream_url = "https://vixsrc.to/tv/{}/{}/{}".format(
-                    tmdb_id, self.selected_season, self.selected_episode)
-                service_name = "{} - S{:02d}E{:02d}".format(
-                    self.title, self.selected_season, self.selected_episode)
+            self._resolve_streamingcommunity(tmdb_id)
 
-            log.info("PLAY: URL: {}".format(stream_url))
-            service_ref = eServiceReference(4097, 0, stream_url)
-            service_ref.setName(service_name)
-            self.session.openWithCallback(
-                self.on_playback_stopped,
-                MoviePlayer,
-                service_ref,
-                fromMovieSelection=False
-            )
+    def _resolve_streamingcommunity(self, tmdb_id):
+        if self._stream_context is not None:
+            return
+
+        is_movie = self.details.get("type") == "Movie"
+        service_name = self.title if is_movie else "{} - S{:02d}E{:02d}".format(
+            self.title, self.selected_season, self.selected_episode)
+        tv = None if is_movie else (
+            self.selected_season, self.selected_episode)
+
+        self._stream_ready = False
+        self._stream_result = None
+        self._stream_context = (service_name, tmdb_id, tv)
+        self._stream_timer = eTimer()
+        self._stream_timer.callback.append(self._on_stream_resolved)
+        self._stream_timer.start(100, False)
+
+        thread = threading.Thread(target=self._fetch_streamingcommunity)
+        thread.daemon = True
+        thread.start()
+
+    def _fetch_streamingcommunity(self):
+        try:
+            from .search_functions import get_stream_links
+            service_name, tmdb_id, tv = self._stream_context
+            self._stream_result = get_stream_links(
+                "https://vixsrc.to", tmdb_id, tv)
+        except Exception as e:
+            log.error("PLAY: VixSrc resolution failed: {}".format(e))
+            self._stream_result = None
+        finally:
+            self._stream_ready = True
+
+    def _on_stream_resolved(self):
+        if self._closed:
+            self._stream_timer.stop()
+            return
+        if not self._stream_ready:
+            return
+
+        self._stream_timer.stop()
+        stream_url = self._stream_result
+        service_name = self._stream_context[0]
+        self._stream_ready = False
+        self._stream_result = None
+        self._stream_context = None
+
+        if not stream_url:
+            self.session.open(
+                MessageBox,
+                _("Unable to resolve the video stream"),
+                MessageBox.TYPE_ERROR)
+            return
+
+        log.info("PLAY: Starting resolved M3U8 stream")
+        service_ref = eServiceReference(4097, 0, stream_url)
+        service_ref.setName(service_name)
+        self.session.openWithCallback(
+            self.on_playback_stopped,
+            MoviePlayer,
+            service_ref,
+            fromMovieSelection=False
+        )
 
     def _setup_onlineserietv_series(self):
         """Setup for OnlineSerieTV TV series."""

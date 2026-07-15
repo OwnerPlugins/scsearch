@@ -262,52 +262,64 @@ class API:
         }
 
     def get_links(self, vixsrc_url, tmdb_id, tv=None):
-        # headers = self.session.headers.copy()
-        media_type = "tv" if tv else "movie"
-        episode_path = "/" + str(tv[0]) + "/" + str(tv[1]) if tv else ""
-        vixsrc_iframe_url = "https://{}/{}/{}{}".format(
-            vixsrc_url, media_type, tmdb_id, episode_path)
-        log.info("GET_LINKS: Fetching iframe_page: {}".format(vixsrc_iframe_url))
-        iframe_page = self._wbpage_as_text(vixsrc_iframe_url)
-
         try:
-            playlist_params_match = re.search(
-                r"window\\.masterPlaylist[^:]+params:[^{]+({[^<]+?})", iframe_page)
-            playlist_url_match = re.search(
-                r"window\\.masterPlaylist[^<]+url:[^<]+\'([^<]+?)\'", iframe_page)
-            can_play_fhd_match = re.search(
-                r"window\\.canPlayFHD\\s+?=\\s+?(\\w+)", iframe_page)
+            base_url = "https://vixsrc.to"
+            if vixsrc_url and '://' in vixsrc_url:
+                match = re.match(r'(https?://[^/]+)', vixsrc_url)
+                if match:
+                    base_url = match.group(1)
 
-            playlist_params = json.loads(
-                re.sub(
-                    r',[^\\\"]+}',
-                    "}",
-                    playlist_params_match.group(1).replace(
-                        "'",
-                        '"'))) if playlist_params_match else {}
-            playlist_url = playlist_url_match.group(
-                1) if playlist_url_match else None
-            can_play_fhd = can_play_fhd_match and can_play_fhd_match.group(
-                1) == "true"
+            media_path = "tv/{}/{}/{}".format(
+                tmdb_id, tv[0], tv[1]) if tv else "movie/{}".format(tmdb_id)
+            api_url = "{}/api/{}".format(base_url, media_path)
+            log.info("GET_LINKS: Fetching VixSrc API: {}".format(api_url))
 
-            if not playlist_url or not playlist_params.get("token"):
-                log.error(
-                    "GET_LINKS: Unable to extract playlist_url or token from page.")
+            response = self.session.get(api_url, timeout=REQ_TIMEOUT)
+            response.raise_for_status()
+            embed_path = response.json().get('src')
+            if not embed_path:
+                log.error("GET_LINKS: Embed URL not found in API response")
                 return None
 
-            dl_url = (
-                playlist_url
-                + ("&" if bool(re.search(r"\\?[^#]+", playlist_url)) else "?")
-                + "expires="
-                + str(playlist_params.get("expires", ""))
-                + "&token="
-                + playlist_params.get("token", "")
-                + ("&h=1" if can_play_fhd else "")
-            )
-            log.info("GET_LINKS: Built M3U8 URL: {}".format(dl_url))
-            return dl_url
+            embed_url = urljoin(base_url, embed_path)
+            headers = {'Referer': base_url + '/'}
+            response = self.session.get(
+                embed_url, headers=headers, timeout=REQ_TIMEOUT)
+            response.raise_for_status()
+            embed_page = response.text
+
+            playlist_match = re.search(
+                r"window\.masterPlaylist\s*=.*?url:\s*['\"]([^'\"]+)",
+                embed_page, re.DOTALL)
+            token_match = re.search(
+                r"['\"]token['\"]\s*:\s*['\"]([^'\"]+)", embed_page)
+            expires_match = re.search(
+                r"['\"]expires['\"]\s*:\s*['\"]([^'\"]+)", embed_page)
+            fhd_match = re.search(
+                r"window\.canPlayFHD\s*=\s*(true|false)", embed_page)
+
+            if not playlist_match or not token_match or not expires_match:
+                log.error("GET_LINKS: Playlist parameters not found in embed page")
+                return None
+
+            separator = '&' if '?' in playlist_match.group(1) else '?'
+            stream_url = "{}{}expires={}&token={}".format(
+                playlist_match.group(1), separator,
+                expires_match.group(1), token_match.group(1))
+            if fhd_match and fhd_match.group(1) == 'true':
+                stream_url += '&h=1'
+
+            response = self.session.get(
+                stream_url, headers={'Referer': embed_url}, timeout=REQ_TIMEOUT)
+            response.raise_for_status()
+            if not response.text.lstrip().startswith('#EXTM3U'):
+                log.error("GET_LINKS: VixSrc returned an invalid playlist")
+                return None
+
+            log.info("GET_LINKS: M3U8 playlist resolved")
+            return stream_url
         except Exception as e:
-            log.error("GET_LINKS: Error parsing playlist data: {}".format(e))
+            log.error("GET_LINKS: Unable to resolve VixSrc stream: {}".format(e))
             return None
 
 
