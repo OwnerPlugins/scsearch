@@ -299,7 +299,8 @@ class API:
                 r"window\.canPlayFHD\s*=\s*(true|false)", embed_page)
 
             if not playlist_match or not token_match or not expires_match:
-                log.error("GET_LINKS: Playlist parameters not found in embed page")
+                log.error(
+                    "GET_LINKS: Playlist parameters not found in embed page")
                 return None
 
             separator = '&' if '?' in playlist_match.group(1) else '?'
@@ -310,7 +311,8 @@ class API:
                 stream_url += '&h=1'
 
             response = self.session.get(
-                stream_url, headers={'Referer': embed_url}, timeout=REQ_TIMEOUT)
+                stream_url, headers={
+                    'Referer': embed_url}, timeout=REQ_TIMEOUT)
             response.raise_for_status()
             if not response.text.lstrip().startswith('#EXTM3U'):
                 log.error("GET_LINKS: VixSrc returned an invalid playlist")
@@ -319,7 +321,8 @@ class API:
             log.info("GET_LINKS: M3U8 playlist resolved")
             return stream_url
         except Exception as e:
-            log.error("GET_LINKS: Unable to resolve VixSrc stream: {}".format(e))
+            log.error(
+                "GET_LINKS: Unable to resolve VixSrc stream: {}".format(e))
             return None
 
 
