@@ -31,6 +31,9 @@ msgstr "--- ТЕЛЕХИКАЯ ---"
 msgid "0 titles"
 msgstr "0 атау"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Cron өшіру >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Эпизодтар <<<"
 
@@ -169,6 +172,10 @@ msgstr "Көрсетілетін нәтижелердің максималды �
 msgid "Movie History"
 msgstr "Фильм тарихы"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Фильм тарихы"
+
 msgid "N/A"
 msgstr "Жоқ"
 
@@ -247,6 +254,10 @@ msgstr "Фильмді іздеу"
 msgid "Search TV Series"
 msgstr "Телехикаяларды іздеу"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Іздеу тарихы"
+
 msgid "Search timeout"
 msgstr "Іздеу күту уақыты"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB идентификаторы табылмады"
 
 msgid "TV Series History"
+msgstr "Телехикаялар тарихы"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Телехикаялар тарихы"
 
 msgid "Timeout for search requests (seconds)"

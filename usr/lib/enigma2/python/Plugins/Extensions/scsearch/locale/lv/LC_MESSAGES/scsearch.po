@@ -31,6 +31,9 @@ msgstr "--- TV SĒRIJA ---"
 msgid "0 titles"
 msgstr "0 nosaukumu"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Dzēst Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Sērijas <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maksimālais parādāmo rezultātu skaits"
 msgid "Movie History"
 msgstr "Filmu vēsture"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Filmu vēsture"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Meklēt filmu"
 msgid "Search TV Series"
 msgstr "Meklēt TV seriālus"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Meklēšanas vēsture"
+
 msgid "Search timeout"
 msgstr "Meklēšanas taimauts"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID nav atrasts"
 
 msgid "TV Series History"
+msgstr "TV seriālu vēsture"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV seriālu vēsture"
 
 msgid "Timeout for search requests (seconds)"

@@ -31,6 +31,9 @@ msgstr "--- TV SERIES ---"
 msgid "0 titles"
 msgstr "0 ماۋزۇ"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< كروننى ئۆچۈرۈڭ >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> بۆلەكلەر <<<"
 
@@ -169,6 +172,10 @@ msgstr "كۆرسىتىلىدىغان ئەڭ چوڭ نەتىجە"
 msgid "Movie History"
 msgstr "كىنو تارىخى"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "كىنو تارىخى"
+
 msgid "N/A"
 msgstr "N / A."
 
@@ -247,6 +254,10 @@ msgstr "كىنو ئىزدەش"
 msgid "Search TV Series"
 msgstr "تېلېۋىزىيە يۈرۈشلۈكلىرىنى ئىزدەڭ"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "ئىزدەش تارىخى"
+
 msgid "Search timeout"
 msgstr "ئىزدەش ۋاقتى"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB كىملىكى تېپىلمىدى"
 
 msgid "TV Series History"
+msgstr "TV Series History"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV Series History"
 
 msgid "Timeout for search requests (seconds)"

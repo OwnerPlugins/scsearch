@@ -31,6 +31,9 @@ msgstr "--- SERJE TAT-TV ---"
 msgid "0 titles"
 msgstr "0 titoli"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Ħassar Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodji <<<"
 
@@ -169,6 +172,10 @@ msgstr "Numru massimu ta' riżultati biex jintwerew"
 msgid "Movie History"
 msgstr "Storja tal-films"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Storja tal-films"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Fittex Film"
 msgid "Search TV Series"
 msgstr "Fittex Serje tat-TV"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Fittex Storja"
+
 msgid "Search timeout"
 msgstr "Fittex timeout"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID TMDB ma nstabx"
 
 msgid "TV Series History"
+msgstr "Storja tas-Serje tat-TV"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Storja tas-Serje tat-TV"
 
 msgid "Timeout for search requests (seconds)"

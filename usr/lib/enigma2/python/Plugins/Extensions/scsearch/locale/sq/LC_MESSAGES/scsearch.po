@@ -31,6 +31,9 @@ msgstr "--- Seriali TV ---"
 msgid "0 titles"
 msgstr "0 tituj"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Fshij Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodet <<<"
 
@@ -169,6 +172,10 @@ msgstr "Numri maksimal i rezultateve për t'u shfaqur"
 msgid "Movie History"
 msgstr "Historia e Filmit"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Historia e Filmit"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Kërko Film"
 msgid "Search TV Series"
 msgstr "Kërko seriale televizive"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Historia e Kërkimit"
+
 msgid "Search timeout"
 msgstr "Përfundimi i kohës së kërkimit"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID-ja e TMDB nuk u gjet"
 
 msgid "TV Series History"
+msgstr "Historia e serialeve televizive"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Historia e serialeve televizive"
 
 msgid "Timeout for search requests (seconds)"

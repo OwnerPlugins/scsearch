@@ -31,6 +31,9 @@ msgstr "--- SERIALE TV ---"
 msgid "0 titles"
 msgstr "0 titluri"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Ștergeți Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episoade <<<"
 
@@ -169,6 +172,10 @@ msgstr "Numărul maxim de rezultate de afișat"
 msgid "Movie History"
 msgstr "Istoria filmului"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Istoria filmului"
+
 msgid "N/A"
 msgstr "N / A"
 
@@ -247,6 +254,10 @@ msgstr "Caută film"
 msgid "Search TV Series"
 msgstr "Căutați seriale TV"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Istoricul căutărilor"
+
 msgid "Search timeout"
 msgstr "Timeout de căutare"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID-ul TMDB nu a fost găsit"
 
 msgid "TV Series History"
+msgstr "Istoria serialelor TV"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Istoria serialelor TV"
 
 msgid "Timeout for search requests (seconds)"

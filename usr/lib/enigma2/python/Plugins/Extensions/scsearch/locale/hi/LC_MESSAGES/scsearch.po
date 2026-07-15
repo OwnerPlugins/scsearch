@@ -31,6 +31,9 @@ msgstr "--- टीवी श्रृंखला ---"
 msgid "0 titles"
 msgstr "0 शीर्षक"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< क्रॉन मिटाएं >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> एपिसोड <<<"
 
@@ -169,6 +172,10 @@ msgstr "प्रदर्शित करने के लिए परिण�
 msgid "Movie History"
 msgstr "फिल्म का इतिहास"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "फिल्म का इतिहास"
+
 msgid "N/A"
 msgstr "एन/ए"
 
@@ -247,6 +254,10 @@ msgstr "मूवी खोजें"
 msgid "Search TV Series"
 msgstr "टीवी श्रृंखला खोजें"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "खोज इतिहास"
+
 msgid "Search timeout"
 msgstr "खोज का समय समाप्त"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "टीएमडीबी आईडी नहीं मिली"
 
 msgid "TV Series History"
+msgstr "टीवी सीरीज का इतिहास"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "टीवी सीरीज का इतिहास"
 
 msgid "Timeout for search requests (seconds)"

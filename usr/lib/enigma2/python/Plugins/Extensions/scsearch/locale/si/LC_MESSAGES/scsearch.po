@@ -31,6 +31,9 @@ msgstr "--- TV මාලා ---"
 msgid "0 titles"
 msgstr "මාතෘකා 0"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< ක්‍රෝන් මකන්න >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> කථාංග <<<"
 
@@ -169,6 +172,10 @@ msgstr "සංදර්ශන කිරීමට ඇති උපරිම ප�
 msgid "Movie History"
 msgstr "චිත්රපට ඉතිහාසය"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "චිත්රපට ඉතිහාසය"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "චිත්‍රපටය සොයන්න"
 msgid "Search TV Series"
 msgstr "TV Series සොයන්න"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "සෙවුම් ඉතිහාසය"
+
 msgid "Search timeout"
 msgstr "සෙවුම් කල් ඉකුත්වීම"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB හැඳුනුම්පත හමු නොවීය"
 
 msgid "TV Series History"
+msgstr "TV Series ඉතිහාසය"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV Series ඉතිහාසය"
 
 msgid "Timeout for search requests (seconds)"

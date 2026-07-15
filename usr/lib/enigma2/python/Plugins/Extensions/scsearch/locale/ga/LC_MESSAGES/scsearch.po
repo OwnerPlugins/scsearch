@@ -31,6 +31,9 @@ msgstr "--- SRAITH Teilifíse ---"
 msgid "0 titles"
 msgstr "0 teidil"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Léirscrios Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Eipeasóid <<<"
 
@@ -169,6 +172,10 @@ msgstr "Uaslíon na dtorthaí le taispeáint"
 msgid "Movie History"
 msgstr "Stair Scannán"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Stair Scannán"
+
 msgid "N/A"
 msgstr "N/B"
 
@@ -247,6 +254,10 @@ msgstr "Scannán Cuardaigh"
 msgid "Search TV Series"
 msgstr "Cuardaigh sraith teilifíse"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Stair Chuardaigh"
+
 msgid "Search timeout"
 msgstr "Teorainn ama cuardaigh"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "Níor aimsíodh aitheantas TMDB"
 
 msgid "TV Series History"
+msgstr "Stair sraith TEILIFÍSE"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Stair sraith TEILIFÍSE"
 
 msgid "Timeout for search requests (seconds)"

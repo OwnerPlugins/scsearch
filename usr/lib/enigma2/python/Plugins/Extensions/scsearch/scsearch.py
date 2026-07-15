@@ -355,7 +355,8 @@ class SCSearchMain(Screen):
     def erase_history(self, search_type=None):
         if search_type:
             self.search_history[search_type] = []
-            msg = _("Movie history cleared") if search_type == 'movie' else _("TV series history cleared")
+            msg = _("Movie history cleared") if search_type == 'movie' else _(
+                "TV series history cleared")
         else:
             self.search_history['movie'] = []
             self.search_history['tv'] = []

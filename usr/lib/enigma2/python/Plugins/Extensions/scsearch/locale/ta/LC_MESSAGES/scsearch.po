@@ -31,6 +31,9 @@ msgstr "--- தொலைக்காட்சி தொடர் ---"
 msgid "0 titles"
 msgstr "0 தலைப்புகள்"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< கிரானை அழிக்கவும் >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> அத்தியாயங்கள் <<<"
 
@@ -169,6 +172,10 @@ msgstr "காட்ட வேண்டிய முடிவுகளின் 
 msgid "Movie History"
 msgstr "திரைப்பட வரலாறு"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "திரைப்பட வரலாறு"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "திரைப்படத்தைத் தேடுங்கள்"
 msgid "Search TV Series"
 msgstr "டிவி தொடர்களைத் தேடுங்கள்"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "தேடல் வரலாறு"
+
 msgid "Search timeout"
 msgstr "தேடல் நேரம் முடிந்தது"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ஐடி கிடைக்கவில்லை"
 
 msgid "TV Series History"
+msgstr "தொலைக்காட்சி தொடர் வரலாறு"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "தொலைக்காட்சி தொடர் வரலாறு"
 
 msgid "Timeout for search requests (seconds)"

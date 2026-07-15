@@ -31,6 +31,9 @@ msgstr "--- SRAITH Tbh ---"
 msgid "0 titles"
 msgstr "0 tiotal"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Sgrios Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodes <<<"
 
@@ -169,6 +172,10 @@ msgstr "An àireamh as motha de thoraidhean ri thaisbeanadh"
 msgid "Movie History"
 msgstr "Eachdraidh film"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Eachdraidh film"
+
 msgid "N/A"
 msgstr "Chan eil"
 
@@ -247,6 +254,10 @@ msgstr "Film lorg"
 msgid "Search TV Series"
 msgstr "Lorg TBH san t-sreath a"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Eachdraidh Rannsachaidh"
+
 msgid "Search timeout"
 msgstr "Ùine rannsachaidh"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID TMDB nach deach a lorg"
 
 msgid "TV Series History"
+msgstr "Eachdraidh TBH san t-sreath a"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Eachdraidh TBH san t-sreath a"
 
 msgid "Timeout for search requests (seconds)"

@@ -31,6 +31,9 @@ msgstr "--- Telewizor hyzmatlary ---"
 msgid "0 titles"
 msgstr "0 at"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Krony pozuň >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Bölümler <<<"
 
@@ -169,6 +172,10 @@ msgstr "Görkezilmeli netijeleriň iň köp sany"
 msgid "Movie History"
 msgstr "Kino taryhy"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Kino taryhy"
+
 msgid "N/A"
 msgstr "N / A."
 
@@ -247,6 +254,10 @@ msgstr "Kino gözläň"
 msgid "Search TV Series"
 msgstr "Teleseriallary gözläň"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Gözleg taryhy"
+
 msgid "Search timeout"
 msgstr "Gözleg wagty gutar"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID tapylmady"
 
 msgid "TV Series History"
+msgstr "Teleseriallaryň taryhy"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Teleseriallaryň taryhy"
 
 msgid "Timeout for search requests (seconds)"

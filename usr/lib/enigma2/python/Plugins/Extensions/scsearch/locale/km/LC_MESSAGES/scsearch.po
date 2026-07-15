@@ -31,6 +31,9 @@ msgstr "--- ស៊េរីទូរទស្សន៍ ---"
 msgid "0 titles"
 msgstr "0 ចំណងជើង"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< លុប Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> វគ្គ <<<"
 
@@ -169,6 +172,10 @@ msgstr "ចំនួនអតិបរមានៃលទ្ធផលដែលត
 msgid "Movie History"
 msgstr "ប្រវត្តិភាពយន្ត"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "ប្រវត្តិភាពយន្ត"
+
 msgid "N/A"
 msgstr "គ្មាន"
 
@@ -247,6 +254,10 @@ msgstr "ស្វែងរកភាពយន្ត"
 msgid "Search TV Series"
 msgstr "ស្វែងរកស៊េរីទូរទស្សន៍"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "ប្រវត្តិស្វែងរក"
+
 msgid "Search timeout"
 msgstr "អស់ពេលស្វែងរក"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "រកមិនឃើញលេខសម្គាល់ TMDB"
 
 msgid "TV Series History"
+msgstr "ប្រវត្តិស៊េរីទូរទស្សន៍"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "ប្រវត្តិស៊េរីទូរទស្សន៍"
 
 msgid "Timeout for search requests (seconds)"

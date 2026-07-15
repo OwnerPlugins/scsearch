@@ -31,6 +31,9 @@ msgstr "--- СЕРИАЛИ ТЕЛЕВИЗИОНӢ ---"
 msgid "0 titles"
 msgstr "0 унвон"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Тоза кардани Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Эпизодҳо <<<"
 
@@ -169,6 +172,10 @@ msgstr "Шумораи максималии натиҷаҳо барои намо
 msgid "Movie History"
 msgstr "Таърихи филм"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Таърихи филм"
+
 msgid "N/A"
 msgstr "Не"
 
@@ -247,6 +254,10 @@ msgstr "Ҷустуҷӯи филм"
 msgid "Search TV Series"
 msgstr "Ҷустуҷӯи силсилаи телевизионҳо"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Таърихи ҷустуҷӯ"
+
 msgid "Search timeout"
 msgstr "Вақтхушии ҷустуҷӯ"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID TMDB ёфт нашуд"
 
 msgid "TV Series History"
+msgstr "Таърихи серили телевизионй"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Таърихи серили телевизионй"
 
 msgid "Timeout for search requests (seconds)"

@@ -31,6 +31,9 @@ msgstr "--- TV-SARJA ---"
 msgid "0 titles"
 msgstr "0 otsikkoa"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Poista Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Jaksot <<<"
 
@@ -169,6 +172,10 @@ msgstr "Näytettävien tulosten enimmäismäärä"
 msgid "Movie History"
 msgstr "Elokuvahistoria"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Elokuvahistoria"
+
 msgid "N/A"
 msgstr "Ei käytössä"
 
@@ -247,6 +254,10 @@ msgstr "Etsi elokuva"
 msgid "Search TV Series"
 msgstr "Hae TV-sarjoja"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Hakuhistoria"
+
 msgid "Search timeout"
 msgstr "Haun aikakatkaisu"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB-tunnusta ei löydy"
 
 msgid "TV Series History"
+msgstr "TV-sarjan historia"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV-sarjan historia"
 
 msgid "Timeout for search requests (seconds)"

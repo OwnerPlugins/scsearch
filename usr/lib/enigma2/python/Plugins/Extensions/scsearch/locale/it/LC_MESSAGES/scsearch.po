@@ -31,6 +31,9 @@ msgstr "---SERIE TV ---"
 msgid "0 titles"
 msgstr "0 titoli"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Cancella Cronologia >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episodi <<<"
 
@@ -169,6 +172,9 @@ msgstr "Numero massimo di risultati da visualizzare"
 msgid "Movie History"
 msgstr "Storia del cinema"
 
+msgid "Movie history cleared"
+msgstr "Cronologia film cancellata"
+
 msgid "N/A"
 msgstr "N / A"
 
@@ -247,6 +253,9 @@ msgstr "Cerca film"
 msgid "Search TV Series"
 msgstr "Cerca serie TV"
 
+msgid "Search history cleared"
+msgstr "Cronologia delle ricerche cancellata"
+
 msgid "Search timeout"
 msgstr "Timeout della ricerca"
 
@@ -285,6 +294,9 @@ msgstr "ID TMDB non trovato"
 
 msgid "TV Series History"
 msgstr "Storia delle serie televisive"
+
+msgid "TV series history cleared"
+msgstr "Cronologia serie TV cancellata"
 
 msgid "Timeout for search requests (seconds)"
 msgstr "Timeout per le richieste di ricerca (secondi)"
@@ -333,18 +345,6 @@ msgstr "[CB01] %s"
 
 msgid "error"
 msgstr "errore"
-
-msgid "<<< Erase Cron >>>"
-msgstr "<<< Cancella Cronologia >>>"
-
-msgid "Movie history cleared"
-msgstr "Cronologia film cancellata"
-
-msgid "TV series history cleared"
-msgstr "Cronologia serie TV cancellata"
-
-msgid "Search history cleared"
-msgstr "Cronologia delle ricerche cancellata"
 
 msgid "loading"
 msgstr "caricamento"

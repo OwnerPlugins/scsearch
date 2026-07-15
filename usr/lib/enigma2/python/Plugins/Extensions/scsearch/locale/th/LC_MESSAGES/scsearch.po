@@ -31,6 +31,9 @@ msgstr "--- ละครโทรทัศน์ ---"
 msgid "0 titles"
 msgstr "0 เรื่อง"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< ลบครอน >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> ตอน <<<"
 
@@ -169,6 +172,10 @@ msgstr "จำนวนผลลัพธ์สูงสุดที่จะแ
 msgid "Movie History"
 msgstr "ประวัติภาพยนตร์"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "ประวัติภาพยนตร์"
+
 msgid "N/A"
 msgstr "ไม่มี"
 
@@ -247,6 +254,10 @@ msgstr "ค้นหาภาพยนตร์"
 msgid "Search TV Series"
 msgstr "ค้นหาละครทีวี"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "ประวัติการค้นหา"
+
 msgid "Search timeout"
 msgstr "หมดเวลาการค้นหา"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ไม่พบรหัส TMDB"
 
 msgid "TV Series History"
+msgstr "ประวัติละครโทรทัศน์"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "ประวัติละครโทรทัศน์"
 
 msgid "Timeout for search requests (seconds)"

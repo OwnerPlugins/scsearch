@@ -31,6 +31,9 @@ msgstr "--- TV 시리즈 ---"
 msgid "0 titles"
 msgstr "0 타이틀"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< 크론 삭제 >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> 에피소드 <<<"
 
@@ -169,6 +172,10 @@ msgstr "표시할 최대 결과 수"
 msgid "Movie History"
 msgstr "영화사"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "영화사"
+
 msgid "N/A"
 msgstr "해당 없음"
 
@@ -247,6 +254,10 @@ msgstr "영화 검색"
 msgid "Search TV Series"
 msgstr "TV 시리즈 검색"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "검색 기록"
+
 msgid "Search timeout"
 msgstr "검색 시간 초과"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID를 찾을 수 없습니다"
 
 msgid "TV Series History"
+msgstr "TV 시리즈 역사"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV 시리즈 역사"
 
 msgid "Timeout for search requests (seconds)"

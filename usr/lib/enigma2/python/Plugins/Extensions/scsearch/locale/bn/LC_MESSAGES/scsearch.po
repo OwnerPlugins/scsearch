@@ -31,6 +31,9 @@ msgstr "--- টিভি সিরিজ ---"
 msgid "0 titles"
 msgstr "০টি শিরোনাম"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< ক্রোন মুছে ফেলুন >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> পর্ব <<<"
 
@@ -169,6 +172,10 @@ msgstr "প্রদর্শনের জন্য সর্বাধিক স
 msgid "Movie History"
 msgstr "সিনেমার ইতিহাস"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "সিনেমার ইতিহাস"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "মুভি অনুসন্ধান করুন"
 msgid "Search TV Series"
 msgstr "টিভি সিরিজ অনুসন্ধান করুন"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "অনুসন্ধান ইতিহাস"
+
 msgid "Search timeout"
 msgstr "অনুসন্ধানের সময়সীমা"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB আইডি পাওয়া যায়নি"
 
 msgid "TV Series History"
+msgstr "টিভি সিরিজের ইতিহাস"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "টিভি সিরিজের ইতিহাস"
 
 msgid "Timeout for search requests (seconds)"

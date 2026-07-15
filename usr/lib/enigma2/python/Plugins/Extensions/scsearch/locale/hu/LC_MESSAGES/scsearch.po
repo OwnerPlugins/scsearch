@@ -31,6 +31,9 @@ msgstr "--- TV SOROZAT ---"
 msgid "0 titles"
 msgstr "0 cím"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Cron törlése >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizódok <<<"
 
@@ -169,6 +172,10 @@ msgstr "A megjeleníthető eredmények maximális száma"
 msgid "Movie History"
 msgstr "Filmtörténet"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Filmtörténet"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Film keresése"
 msgid "Search TV Series"
 msgstr "TV-sorozat keresése"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Keresési előzmények"
+
 msgid "Search timeout"
 msgstr "Keresési időtúllépés"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "A TMDB azonosító nem található"
 
 msgid "TV Series History"
+msgstr "TV-sorozat története"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV-sorozat története"
 
 msgid "Timeout for search requests (seconds)"

@@ -31,6 +31,9 @@ msgstr "--- SERIAL TELEWIZYJNY ---"
 msgid "0 titles"
 msgstr "0 tytułów"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Usuń Crona >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Odcinki <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maksymalna liczba wyników do wyświetlenia"
 msgid "Movie History"
 msgstr "Historia filmu"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Historia filmu"
+
 msgid "N/A"
 msgstr "Nie dotyczy"
 
@@ -247,6 +254,10 @@ msgstr "Wyszukaj film"
 msgid "Search TV Series"
 msgstr "Wyszukaj seriale telewizyjne"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Historia wyszukiwania"
+
 msgid "Search timeout"
 msgstr "Przekroczono limit czasu wyszukiwania"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "Nie znaleziono identyfikatora TMDB"
 
 msgid "TV Series History"
+msgstr "Historia seriali telewizyjnych"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Historia seriali telewizyjnych"
 
 msgid "Timeout for search requests (seconds)"

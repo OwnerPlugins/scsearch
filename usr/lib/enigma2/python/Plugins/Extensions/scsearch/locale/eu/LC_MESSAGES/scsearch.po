@@ -31,6 +31,9 @@ msgstr "--- TELEBISTA ---"
 msgid "0 titles"
 msgstr "0 titulu"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Ezabatu Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Atalak <<<"
 
@@ -169,6 +172,10 @@ msgstr "Bistaratzeko gehienezko emaitza kopurua"
 msgid "Movie History"
 msgstr "Filmaren historia"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Filmaren historia"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Bilatu filma"
 msgid "Search TV Series"
 msgstr "Bilatu telesailak"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Bilaketa Historia"
+
 msgid "Search timeout"
 msgstr "Bilaketa denbora-muga"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID ez da aurkitu"
 
 msgid "TV Series History"
+msgstr "Telesailaren historia"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Telesailaren historia"
 
 msgid "Timeout for search requests (seconds)"

@@ -31,6 +31,9 @@ msgstr "--- TV Serialas ---"
 msgid "0 titles"
 msgstr "0 pavadinimų"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Ištrinti Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizodai <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maksimalus rodomų rezultatų skaičius"
 msgid "Movie History"
 msgstr "Filmo istorija"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Filmo istorija"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Ieškoti Filmas"
 msgid "Search TV Series"
 msgstr "Ieškoti TV serialų"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Paieškos istorija"
+
 msgid "Search timeout"
 msgstr "Paieškos skirtasis laikas"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID nerastas"
 
 msgid "TV Series History"
+msgstr "TV serialų istorija"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV serialų istorija"
 
 msgid "Timeout for search requests (seconds)"

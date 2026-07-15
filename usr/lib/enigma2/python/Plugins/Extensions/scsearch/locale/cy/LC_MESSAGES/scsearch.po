@@ -31,6 +31,9 @@ msgstr "--- CYFRES Deledu ---"
 msgid "0 titles"
 msgstr "0 teitl"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Dileu Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Penodau <<<"
 
@@ -169,6 +172,10 @@ msgstr "Uchafswm nifer y canlyniadau i'w dangos"
 msgid "Movie History"
 msgstr "Hanes Ffilm"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Hanes Ffilm"
+
 msgid "N/A"
 msgstr "Amh"
 
@@ -247,6 +254,10 @@ msgstr "Chwilio Ffilm"
 msgid "Search TV Series"
 msgstr "Chwilio Cyfres Deledu"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Hanes Chwilio"
+
 msgid "Search timeout"
 msgstr "Goramser chwilio"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID TMDB heb ei ganfod"
 
 msgid "TV Series History"
+msgstr "Hanes Cyfres Deledu"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Hanes Cyfres Deledu"
 
 msgid "Timeout for search requests (seconds)"

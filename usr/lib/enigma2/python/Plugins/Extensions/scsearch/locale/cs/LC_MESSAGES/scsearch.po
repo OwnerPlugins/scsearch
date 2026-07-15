@@ -31,6 +31,9 @@ msgstr "--- TV SERIÁL ---"
 msgid "0 titles"
 msgstr "0 titulů"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Vymazat Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Epizody <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maximální počet výsledků k zobrazení"
 msgid "Movie History"
 msgstr "Historie filmu"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Historie filmu"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Hledat film"
 msgid "Search TV Series"
 msgstr "Hledat TV seriály"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Historie vyhledávání"
+
 msgid "Search timeout"
 msgstr "Časový limit hledání"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "ID TMDB nebylo nalezeno"
 
 msgid "TV Series History"
+msgstr "Historie televizních seriálů"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Historie televizních seriálů"
 
 msgid "Timeout for search requests (seconds)"

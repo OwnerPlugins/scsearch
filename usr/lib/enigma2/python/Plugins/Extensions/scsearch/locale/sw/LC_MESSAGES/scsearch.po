@@ -31,6 +31,9 @@ msgstr "--- TV SERIES ---"
 msgid "0 titles"
 msgstr "0 majina"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Futa Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Vipindi <<<"
 
@@ -169,6 +172,10 @@ msgstr "Idadi ya juu zaidi ya matokeo ya kuonyesha"
 msgid "Movie History"
 msgstr "Historia ya Filamu"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Historia ya Filamu"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Tafuta Filamu"
 msgid "Search TV Series"
 msgstr "Tafuta Mfululizo wa TV"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Historia ya Utafutaji"
+
 msgid "Search timeout"
 msgstr "Muda wa utafutaji umekwisha"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "Kitambulisho cha TMDB hakijapatikana"
 
 msgid "TV Series History"
+msgstr "Historia ya Mfululizo wa TV"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Historia ya Mfululizo wa TV"
 
 msgid "Timeout for search requests (seconds)"

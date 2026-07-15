@@ -31,6 +31,9 @@ msgstr "--- تلویزیوني لړۍ ---"
 msgid "0 titles"
 msgstr "0 سرلیکونه"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< کرون پاک کړئ >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> قسطونه <<<"
 
@@ -169,6 +172,10 @@ msgstr "د ښودلو لپاره د پایلو اعظمي شمیر"
 msgid "Movie History"
 msgstr "د فلم تاریخ"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "د فلم تاریخ"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "د فلم لټون"
 msgid "Search TV Series"
 msgstr "د تلویزیون لړۍ وپلټئ"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "د لټون تاریخ"
+
 msgid "Search timeout"
 msgstr "د لټون وخت پای"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "د TMDB ID ونه موندل شو"
 
 msgid "TV Series History"
+msgstr "د تلویزیون لړۍ تاریخ"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "د تلویزیون لړۍ تاریخ"
 
 msgid "Timeout for search requests (seconds)"

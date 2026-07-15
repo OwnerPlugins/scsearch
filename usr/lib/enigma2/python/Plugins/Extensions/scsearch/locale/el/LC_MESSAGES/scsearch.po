@@ -31,6 +31,9 @@ msgstr "--- Τηλεοπτική Σειρά ---"
 msgid "0 titles"
 msgstr "0 τίτλοι"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Διαγραφή Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Επεισόδια <<<"
 
@@ -169,6 +172,10 @@ msgstr "Μέγιστος αριθμός αποτελεσμάτων προς εμ
 msgid "Movie History"
 msgstr "Ιστορία ταινίας"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Ιστορία ταινίας"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Αναζήτηση ταινίας"
 msgid "Search TV Series"
 msgstr "Αναζήτηση τηλεοπτικών σειρών"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Ιστορικό αναζήτησης"
+
 msgid "Search timeout"
 msgstr "Λήξη χρονικού ορίου αναζήτησης"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "Το αναγνωριστικό TMDB δεν βρέθηκε"
 
 msgid "TV Series History"
+msgstr "Ιστορία τηλεοπτικών σειρών"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Ιστορία τηλεοπτικών σειρών"
 
 msgid "Timeout for search requests (seconds)"

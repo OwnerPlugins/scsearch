@@ -31,6 +31,9 @@ msgstr "--- СЕРИАЛ ---"
 msgid "0 titles"
 msgstr "0 названий"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Удалить Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Эпизоды <<<"
 
@@ -169,6 +172,10 @@ msgstr "Максимальное количество результатов д�
 msgid "Movie History"
 msgstr "История кино"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "История кино"
+
 msgid "N/A"
 msgstr "Н/Д"
 
@@ -247,6 +254,10 @@ msgstr "Поиск фильма"
 msgid "Search TV Series"
 msgstr "Поиск телесериалов"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "История поиска"
+
 msgid "Search timeout"
 msgstr "Тайм-аут поиска"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "Идентификатор TMDB не найден"
 
 msgid "TV Series History"
+msgstr "История сериала"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "История сериала"
 
 msgid "Timeout for search requests (seconds)"

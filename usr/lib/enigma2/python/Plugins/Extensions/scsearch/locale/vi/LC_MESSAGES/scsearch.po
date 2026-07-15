@@ -31,6 +31,9 @@ msgstr "--- SERIES TRUYỀN HÌNH ---"
 msgid "0 titles"
 msgstr "0 danh hiệu"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Xóa Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Các tập <<<"
 
@@ -169,6 +172,10 @@ msgstr "Số lượng kết quả tối đa để hiển thị"
 msgid "Movie History"
 msgstr "Lịch sử phim"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Lịch sử phim"
+
 msgid "N/A"
 msgstr "không áp dụng"
 
@@ -247,6 +254,10 @@ msgstr "Tìm kiếm phim"
 msgid "Search TV Series"
 msgstr "Tìm kiếm phim truyền hình"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Lịch sử tìm kiếm"
+
 msgid "Search timeout"
 msgstr "Hết thời gian tìm kiếm"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "Không tìm thấy ID TMDB"
 
 msgid "TV Series History"
+msgstr "Lịch sử phim truyền hình"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "Lịch sử phim truyền hình"
 
 msgid "Timeout for search requests (seconds)"

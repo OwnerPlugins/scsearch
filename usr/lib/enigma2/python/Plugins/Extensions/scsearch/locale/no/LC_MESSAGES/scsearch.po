@@ -31,6 +31,9 @@ msgstr "--- TV-SERIE ---"
 msgid "0 titles"
 msgstr "0 titler"
 
+msgid "<<< Erase Cron >>>"
+msgstr "<<< Slett Cron >>>"
+
 msgid ">>> Episodes <<<"
 msgstr ">>> Episoder <<<"
 
@@ -169,6 +172,10 @@ msgstr "Maksimalt antall resultater å vise"
 msgid "Movie History"
 msgstr "Filmhistorie"
 
+#, fuzzy
+msgid "Movie history cleared"
+msgstr "Filmhistorie"
+
 msgid "N/A"
 msgstr "N/A"
 
@@ -247,6 +254,10 @@ msgstr "Søk film"
 msgid "Search TV Series"
 msgstr "Søk etter TV-serier"
 
+#, fuzzy
+msgid "Search history cleared"
+msgstr "Søkehistorikk"
+
 msgid "Search timeout"
 msgstr "Tidsavbrudd for søk"
 
@@ -284,6 +295,10 @@ msgid "TMDB ID not found"
 msgstr "TMDB ID ikke funnet"
 
 msgid "TV Series History"
+msgstr "TV-seriehistorie"
+
+#, fuzzy
+msgid "TV series history cleared"
 msgstr "TV-seriehistorie"
 
 msgid "Timeout for search requests (seconds)"
