@@ -444,7 +444,9 @@ class DownloadManager:
             tv = (resolver.get("season"), resolver.get("episode"))
 
         from .search_functions import get_stream_links
-        log.info("DM: Resolving fresh VixSrc M3U8 for item {}".format(item["id"]))
+        log.info(
+            "DM: Resolving fresh VixSrc M3U8 for item {}".format(
+                item["id"]))
         return get_stream_links("https://vixsrc.to", tmdb_id, tv)
 
     def _generate_filename(self, item):
