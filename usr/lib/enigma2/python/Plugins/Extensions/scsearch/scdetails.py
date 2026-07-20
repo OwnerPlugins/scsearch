@@ -106,7 +106,7 @@ class SCDetailsScreen(Screen):
         if not self.details:
             return
 
-        # Get stream URL (reuse logic from play_content)
+        source = self.details.get('source')
         stream_url = self._get_stream_url_for_download()
         if not stream_url:
             self.session.open(
@@ -119,10 +119,23 @@ class SCDetailsScreen(Screen):
         media_type = "movie"
         season = 0
         episode = 0
-        if self.details.get("type") == "TvSeries":
+        is_tv = str(self.details.get("type", "")).lower() in ("tv", "tvseries")
+        if is_tv:
             media_type = "tv"
             season = self.selected_season
             episode = self.selected_episode
+
+        # VixSrc URLs contain short-lived tokens.  Store the stable media
+        # identity and let the worker resolve a fresh M3U8 immediately before
+        # ffmpeg starts (also when a failed/paused item is restarted).
+        resolver = None
+        if source == 'streamingcommunity':
+            resolver = {
+                "type": "vixsrc",
+                "tmdb_id": self.details.get("tmdb_id"),
+                "season": season,
+                "episode": episode
+            }
 
         # Add to queue
         item_id = download_manager.add_item(
@@ -131,7 +144,8 @@ class SCDetailsScreen(Screen):
             media_type=media_type,
             season=season,
             episode=episode,
-            poster=self.details.get("poster", "")
+            poster=self.details.get("poster", ""),
+            resolver=resolver
         )
 
         self.session.open(
@@ -146,11 +160,15 @@ class SCDetailsScreen(Screen):
             if self.details.get('type') == 'TvSeries':
                 episodes = self.seasons_data.get(self.selected_season, [])
                 if episodes:
-                    return episodes[0].get('url')
+                    index = getattr(self, 'selected_cb01_episode_index', 0)
+                    index = index if 0 <= index < len(episodes) else 0
+                    return episodes[index].get('url')
             else:
                 links = self.details.get('streaming_links', [])
                 if links:
-                    return links[0].get('url')
+                    index = getattr(self, 'selected_cb01_link_index', 0)
+                    index = index if 0 <= index < len(links) else 0
+                    return links[index].get('url')
             return None
 
         # --- ALTADEFINIZIONE ---

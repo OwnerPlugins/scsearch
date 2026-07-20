@@ -5,12 +5,14 @@ import json
 import threading
 import time
 import subprocess
+import shutil
 from Components.config import config
 from .logger import get_logger
 
 log = get_logger()
 
 QUEUE_FILE = "/tmp/scsearch_download_queue.json"
+MIN_FREE_BYTES = 256 * 1024 * 1024
 
 
 class DownloadManager:
@@ -86,7 +88,8 @@ class DownloadManager:
             media_type="movie",
             season=0,
             episode=0,
-            poster=""):
+            poster="",
+            resolver=None):
         """Add a new item to the queue."""
         item_id = str(int(time.time() * 1000))
         item = {
@@ -97,6 +100,7 @@ class DownloadManager:
             "season": season,
             "episode": episode,
             "poster": poster,
+            "resolver": resolver,
             "status": "pending",
             "progress": 0,
             "size": 0,
@@ -126,6 +130,8 @@ class DownloadManager:
         if item["status"] == "downloading":
             return
         item["status"] = "pending"
+        item["error"] = ""
+        item["downloaded"] = 0
         self._save_queue()
         self._notify_ui()
 
@@ -183,6 +189,65 @@ class DownloadManager:
         """Start download for a single item."""
         item_id = item["id"]
         output_filename = self._generate_filename(item)
+
+        ffmpeg_path = shutil.which("ffmpeg")
+        if not ffmpeg_path:
+            item["status"] = "error"
+            item["error"] = "FFmpeg is not installed or is not in PATH"
+            self._save_queue()
+            self._notify_ui()
+            log.error("DM: FFmpeg check failed: {}".format(item["error"]))
+            return
+
+        log.info("DM: FFmpeg check OK: {}".format(ffmpeg_path))
+
+        try:
+            free_bytes = shutil.disk_usage(self.download_folder).free
+            if free_bytes < MIN_FREE_BYTES:
+                external_folder = self._find_external_download_folder()
+                if external_folder:
+                    self.download_folder = external_folder
+                    free_bytes = shutil.disk_usage(external_folder).free
+                    log.info(
+                        "DM: Using external storage: {} ({} MB free)".format(
+                            external_folder, free_bytes // (1024 * 1024)))
+                    self._notify_ui()
+                else:
+                    # Refuse to fall back to internal flash: a movie could
+                    # fill it and make the Enigma2 image unbootable.
+                    item["status"] = "error"
+                    item["error"] = (
+                        "Insufficient free space ({} MB); no writable USB "
+                        "storage found").format(free_bytes // (1024 * 1024))
+                    self._save_queue()
+                    self._notify_ui()
+                    log.error("DM: {}".format(item["error"]))
+                    return
+
+            if free_bytes < MIN_FREE_BYTES:
+                item["status"] = "error"
+                item["error"] = "Insufficient free space ({} MB)".format(
+                    free_bytes // (1024 * 1024))
+                self._save_queue()
+                self._notify_ui()
+                log.error("DM: {}".format(item["error"]))
+                return
+        except Exception as e:
+            log.warning("DM: Unable to check free space: {}".format(e))
+            external_folder = self._find_external_download_folder()
+            if external_folder:
+                self.download_folder = external_folder
+                log.info("DM: Using external storage: {}".format(
+                    external_folder))
+                self._notify_ui()
+            else:
+                item["status"] = "error"
+                item["error"] = "Download folder unavailable; no writable USB storage found"
+                self._save_queue()
+                self._notify_ui()
+                log.error("DM: {}".format(item["error"]))
+                return
+
         output_path = os.path.join(self.download_folder, output_filename)
         item["output_path"] = output_path
         item["status"] = "downloading"
@@ -194,21 +259,108 @@ class DownloadManager:
 
         thread = threading.Thread(
             target=self._download_worker, args=(
-                item,), daemon=True)
+                item, ffmpeg_path), daemon=True)
         self.workers[item_id] = thread
         thread.start()
 
-    def _download_worker(self, item):
+    def _find_external_download_folder(self):
+        """Return the roomiest writable movie folder on mounted block media."""
+        candidates = []
+        try:
+            with open('/proc/mounts', 'r') as mounts_file:
+                mounts = mounts_file.readlines()
+        except Exception as e:
+            log.warning("DM: Unable to inspect mounted storage: {}".format(e))
+            return None
+
+        for entry in mounts:
+            fields = entry.split()
+            if len(fields) < 4:
+                continue
+
+            device = fields[0]
+            mountpoint = fields[1].replace('\\040', ' ')
+            options = fields[3].split(',')
+
+            # Enigma2 USB disks and pendrives are normally block devices
+            # mounted below one of these media roots.  Network shares and the
+            # receiver's internal root filesystem are intentionally excluded.
+            if not device.startswith('/dev/'):
+                continue
+            if not mountpoint.startswith(('/media/', '/mnt/', '/autofs/')):
+                continue
+            if 'ro' in options or not os.path.isdir(mountpoint):
+                continue
+
+            try:
+                free_bytes = shutil.disk_usage(mountpoint).free
+                if free_bytes < MIN_FREE_BYTES:
+                    continue
+
+                movie_folder = os.path.join(mountpoint, 'movie')
+                if not os.path.isdir(movie_folder):
+                    os.makedirs(movie_folder)
+                if os.access(movie_folder, os.W_OK):
+                    candidates.append((free_bytes, movie_folder))
+                    log.info(
+                        "DM: External storage candidate: {} ({} MB free)".format(
+                            movie_folder, free_bytes // (1024 * 1024)))
+            except Exception as e:
+                log.warning(
+                    "DM: Storage candidate {} unavailable: {}".format(
+                        mountpoint, e))
+
+        if not candidates:
+            return None
+
+        candidates.sort(key=lambda candidate: candidate[0], reverse=True)
+        return candidates[0][1]
+
+    def _download_worker(self, item, ffmpeg_path):
         """Actual download logic using ffmpeg."""
         item_id = item["id"]
-        url = item["url"]
         output_path = item["output_path"]
 
+        try:
+            url = self._resolve_item_url(item)
+        except Exception as e:
+            item["status"] = "error"
+            item["error"] = "Unable to resolve stream: {}".format(e)
+            log.error("DM: {}".format(item["error"]))
+            self.workers.pop(item_id, None)
+            self._save_queue()
+            self._notify_ui()
+            return
+
+        if not url:
+            item["status"] = "error"
+            item["error"] = "Unable to resolve stream URL"
+            self.workers.pop(item_id, None)
+            self._save_queue()
+            self._notify_ui()
+            return
+
+        # Keep the last resolved URL for diagnostics.  On restart it is
+        # deliberately resolved again because signed HLS URLs expire.
+        item["url"] = url
+        self._save_queue()
+
         cmd = [
-            "ffmpeg",
+            ffmpeg_path,
+            "-nostdin",
+            "-hide_banner",
+            "-loglevel", "error",
+            "-nostats",
+            "-progress", "pipe:2",
+            "-user_agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                           "AppleWebKit/537.36 (KHTML, like Gecko) "
+                           "Chrome/120.0.0.0 Safari/537.36",
+            "-referer", "https://vixsrc.to/",
             "-i", url,
+            "-map", "0:v:0?",
+            "-map", "0:a:0?",
             "-c", "copy",
-            "-bsf:a", "aac_adtstoasc",
+            "-movflags", "+faststart",
             "-y",
             output_path
         ]
@@ -221,29 +373,47 @@ class DownloadManager:
                 universal_newlines=True
             )
             self.processes[item_id] = process
+            last_progress_update = -5
+            error_lines = []
+            progress_keys = set((
+                "bitrate", "codec_type", "drop_frames", "dup_frames",
+                "end_time", "fps", "frame", "out_time", "out_time_ms",
+                "out_time_us", "packet", "progress", "speed",
+                "stream_0_0_q", "total_size"))
 
             while True:
                 line = process.stderr.readline()
                 if not line and process.poll() is not None:
                     break
-                if "time=" in line:
+                if line.startswith("out_time_ms="):
                     try:
-                        time_str = line.split("time=")[1].split()[0]
-                        h, m, s = time_str.split(':')
-                        seconds = int(h) * 3600 + int(m) * 60 + float(s)
-                        item["downloaded"] = int(seconds)
-                        self._save_queue()
-                        self._notify_ui()
+                        # Despite its name, older ffmpeg builds commonly emit
+                        # microseconds for this progress field.
+                        seconds = int(line.split("=", 1)[1].strip()) // 1000000
+                        if seconds - last_progress_update >= 5:
+                            last_progress_update = seconds
+                            item["downloaded"] = seconds
+                            self._save_queue()
+                            self._notify_ui()
                     except BaseException:
                         pass
+                elif (line.strip() and
+                      line.split("=", 1)[0].strip() not in progress_keys):
+                    error_lines.append(line.strip())
+                    # Bound memory usage on long downloads while retaining the
+                    # useful final diagnostics emitted by ffmpeg.
+                    if len(error_lines) > 20:
+                        error_lines.pop(0)
 
             if process.returncode == 0:
                 item["status"] = "completed"
                 log.info("DM: Download completed: {}".format(output_path))
-            else:
+            elif item.get("status") != "paused":
                 item["status"] = "error"
-                item["error"] = "ffmpeg error (code {})".format(
-                    process.returncode)
+                detail = " | ".join(error_lines[-5:])
+                item["error"] = "ffmpeg error (code {}){}".format(
+                    process.returncode,
+                    ": {}".format(detail) if detail else "")
                 log.error("DM: Download failed: {}".format(item["error"]))
 
         except Exception as e:
@@ -258,6 +428,24 @@ class DownloadManager:
                 del self.workers[item_id]
             self._save_queue()
             self._notify_ui()
+
+    def _resolve_item_url(self, item):
+        """Resolve short-lived stream URLs just before download starts."""
+        resolver = item.get("resolver") or {}
+        if resolver.get("type") != "vixsrc":
+            return item.get("url")
+
+        tmdb_id = resolver.get("tmdb_id")
+        if not tmdb_id:
+            return None
+
+        tv = None
+        if item.get("media_type") == "tv":
+            tv = (resolver.get("season"), resolver.get("episode"))
+
+        from .search_functions import get_stream_links
+        log.info("DM: Resolving fresh VixSrc M3U8 for item {}".format(item["id"]))
+        return get_stream_links("https://vixsrc.to", tmdb_id, tv)
 
     def _generate_filename(self, item):
         """Generate a safe filename from title and metadata."""

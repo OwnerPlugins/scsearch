@@ -109,7 +109,7 @@ class DownloadManagerScreen(Screen):
         item = download_manager._get_item(self.selected_item_id)
         if not item:
             return
-        if item["status"] in ("pending", "paused"):
+        if item["status"] in ("pending", "paused", "error"):
             download_manager.start_item(self.selected_item_id)
         elif item["status"] == "downloading":
             download_manager.pause_item(self.selected_item_id)
