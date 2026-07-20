@@ -40,8 +40,20 @@ msgstr ">>> Afleveringen <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Seizoenen <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Recent toegevoegd"
+
+msgid "Animazione"
+msgstr "Animatie"
+
 msgid "Available links:"
 msgstr "Beschikbare koppelingen:"
+
+msgid "Avventura"
+msgstr "Avontuur"
+
+msgid "Azione"
+msgstr "Actie"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Blader door groepen en kaarten met horizontaal scrollen"
@@ -79,6 +91,9 @@ msgstr "Code:"
 msgid "Code: {self.captcha_code}"
 msgstr ""
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Voltooid"
 
@@ -87,6 +102,15 @@ msgstr "Inhoud van Altadefinizione - Druk op OK om te openen..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Inhoud van CB01 - Druk op OK om te openen..."
+
+msgid "Crime"
+msgstr "Misdaad"
+
+msgid "DOWNLOAD"
+msgstr "DOWNLOADEN"
+
+msgid "DOWNLOADS"
+msgstr ""
 
 msgid "Description not available."
 msgstr "Beschrijving niet beschikbaar."
@@ -97,12 +121,18 @@ msgstr "Details voor: '%s'"
 msgid "Details not available"
 msgstr "Details niet beschikbaar"
 
+msgid "Documentario"
+msgstr "Documentaire"
+
 msgid "Download Queue"
 msgstr "Downloadwachtrij"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "laden"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "BINNENKOMEN"
@@ -162,11 +192,27 @@ msgstr "Fout bij updaten van gebruikersinterface"
 msgid "Exit"
 msgstr "Uitgang"
 
+msgid "Famiglia"
+msgstr "Familie"
+
+msgid "Fantascienza"
+msgstr "Sciencefiction"
+
+msgid "Fantasy"
+msgstr "Fantasie"
+
 msgid "GROUPS"
 msgstr "GROEPEN"
 
 msgid "History"
 msgstr "Geschiedenis"
+
+#, fuzzy
+msgid "Horror"
+msgstr "fout"
+
+msgid "I Titoli Del Momento"
+msgstr "De titels van het moment"
 
 msgid "Invalid folder!"
 msgstr "Ongeldige map!"
@@ -271,6 +317,9 @@ msgstr "Druk op OK om alle details te bekijken..."
 msgid "REFRESH"
 msgstr "VERFRISSEN"
 
+msgid "Reality"
+msgstr "Realiteit"
+
 msgid "Refresh"
 msgstr "Vernieuwen"
 
@@ -279,6 +328,9 @@ msgstr "Verwijderen"
 
 msgid "Retry"
 msgstr "Opnieuw proberen"
+
+msgid "Romance"
+msgstr "Romantiek"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Geschiedenis van tv-series"
 msgid "TV series history cleared"
 msgstr "Geschiedenis van tv-series"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Time-out voor zoekverzoeken (seconden)"
 
 msgid "Title"
 msgstr "Titel"
+
+msgid "Top 10 di oggi"
+msgstr "De top 10 van vandaag"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Totaal: {} | Actief: {} | Map: {}"
@@ -359,6 +417,14 @@ msgstr "Type: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP/DOWN-groepen | LINKS/RECHTS-kaarten | Oké geopend"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN-groepen | LINKS/RECHTS-kaarten | Oké geopend"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Kan streaming-URL niet ophalen"
 
 msgid "Unable to get stream for this episode"
 msgstr "Kan geen stream krijgen voor deze aflevering"

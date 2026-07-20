@@ -40,8 +40,20 @@ msgstr ">>> পর্ব <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> ঋতু <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "সম্প্রতি যোগ করা হয়েছে"
+
+msgid "Animazione"
+msgstr "অ্যানিমেশন"
+
 msgid "Available links:"
 msgstr "উপলব্ধ লিঙ্ক:"
+
+msgid "Avventura"
+msgstr "অ্যাডভেঞ্চার"
+
+msgid "Azione"
+msgstr "অ্যাকশন"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "অনুভূমিক স্ক্রোলিং সহ গ্রুপ এবং কার্ডগুলি ব্রাউজ করুন"
@@ -79,6 +91,9 @@ msgstr "কোড:"
 msgid "Code: {self.captcha_code}"
 msgstr "কোড: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "কমিডিয়া"
+
 msgid "Completed"
 msgstr "সম্পন্ন"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione থেকে বিষয়বস্তু - খুল�
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 থেকে বিষয়বস্তু - খুলতে ওকে টিপুন..."
+
+msgid "Crime"
+msgstr "অপরাধ"
+
+msgid "DOWNLOAD"
+msgstr "ডাউনলোড করুন"
+
+msgid "DOWNLOADS"
+msgstr "ডাউনলোড"
 
 msgid "Description not available."
 msgstr "বর্ণনা উপলব্ধ নেই."
@@ -97,12 +121,18 @@ msgstr "এর জন্য বিশদ বিবরণ: '%s'"
 msgid "Details not available"
 msgstr "বিস্তারিত পাওয়া যায় না"
 
+msgid "Documentario"
+msgstr "তথ্যচিত্র"
+
 msgid "Download Queue"
 msgstr "ডাউনলোড সারি"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "লোড হচ্ছে"
+
+msgid "Dramma"
+msgstr "নাটক"
 
 msgid "ENTER"
 msgstr "প্রবেশ করুন"
@@ -162,11 +192,27 @@ msgstr "UI আপডেট করার সময় ত্রুটি৷"
 msgid "Exit"
 msgstr "প্রস্থান করুন"
 
+msgid "Famiglia"
+msgstr "পরিবার"
+
+msgid "Fantascienza"
+msgstr "কল্পবিজ্ঞান"
+
+msgid "Fantasy"
+msgstr "ফ্যান্টাসি"
+
 msgid "GROUPS"
 msgstr "গ্রুপ"
 
 msgid "History"
 msgstr "ইতিহাস"
+
+#, fuzzy
+msgid "Horror"
+msgstr "ত্রুটি"
+
+msgid "I Titoli Del Momento"
+msgstr "মুহূর্তের শিরোনাম"
 
 msgid "Invalid folder!"
 msgstr "অবৈধ ফোল্ডার!"
@@ -271,6 +317,9 @@ msgstr "সম্পূর্ণ বিবরণ দেখতে ঠিক আ�
 msgid "REFRESH"
 msgstr "রিফ্রেশ"
 
+msgid "Reality"
+msgstr "বাস্তবতা"
+
 msgid "Refresh"
 msgstr "রিফ্রেশ"
 
@@ -279,6 +328,9 @@ msgstr "সরান"
 
 msgid "Retry"
 msgstr "আবার চেষ্টা করুন"
+
+msgid "Romance"
+msgstr "রোমান্স"
 
 msgid "SC"
 msgstr "এসসি"
@@ -345,11 +397,17 @@ msgstr "টিভি সিরিজের ইতিহাস"
 msgid "TV series history cleared"
 msgstr "টিভি সিরিজের ইতিহাস"
 
+msgid "Thriller"
+msgstr "থ্রিলার"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "অনুসন্ধানের অনুরোধের সময়সীমা (সেকেন্ড)"
 
 msgid "Title"
 msgstr "শিরোনাম"
+
+msgid "Top 10 di oggi"
+msgstr "আজকের সেরা দশ"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "মোট: {} | সক্রিয়: {} | ফোল্ডার: {}"
@@ -359,6 +417,14 @@ msgstr "প্রকার: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP/DOWN গোষ্ঠী | বাম/ডান কার্ড | ঠিক আছে খোলা"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN গোষ্ঠী | বাম/ডান কার্ড | ঠিক আছে খোলা"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "স্ট্রিমিং URL পেতে অক্ষম"
 
 msgid "Unable to get stream for this episode"
 msgstr "এই পর্বের জন্য স্ট্রিম পেতে অক্ষম"

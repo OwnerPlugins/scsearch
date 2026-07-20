@@ -40,8 +40,20 @@ msgstr ">>> Episoade <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Anotimpuri <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Adăugat recent"
+
+msgid "Animazione"
+msgstr "Animaţie"
+
 msgid "Available links:"
 msgstr "Link-uri disponibile:"
+
+msgid "Avventura"
+msgstr "Aventură"
+
+msgid "Azione"
+msgstr "Acţiune"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Răsfoiți grupuri și carduri cu derulare orizontală"
@@ -79,6 +91,9 @@ msgstr "Cod:"
 msgid "Code: {self.captcha_code}"
 msgstr "Cod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Terminat"
 
@@ -87,6 +102,15 @@ msgstr "Conținut din Altadefinizione - Apăsați OK pentru a deschide..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Conținut de la CB01 - Apăsați OK pentru a deschide..."
+
+msgid "Crime"
+msgstr "Crima"
+
+msgid "DOWNLOAD"
+msgstr "DESCARCARE"
+
+msgid "DOWNLOADS"
+msgstr "DESCĂRCĂRI"
 
 msgid "Description not available."
 msgstr "Descrierea nu este disponibilă."
@@ -97,12 +121,18 @@ msgstr "Detalii pentru: „%s”"
 msgid "Details not available"
 msgstr "Detalii nu sunt disponibile"
 
+msgid "Documentario"
+msgstr "Documentar"
+
 msgid "Download Queue"
 msgstr "Coadă de descărcare"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "încărcare"
+
+msgid "Dramma"
+msgstr "Dramă"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -162,11 +192,27 @@ msgstr "Eroare la actualizarea interfeței de utilizare"
 msgid "Exit"
 msgstr "Ieșire"
 
+msgid "Famiglia"
+msgstr "Familial"
+
+msgid "Fantascienza"
+msgstr "Operă științifico-fantastică"
+
+msgid "Fantasy"
+msgstr "Fantezie"
+
 msgid "GROUPS"
 msgstr "GRUPURI"
 
 msgid "History"
 msgstr "Istorie"
+
+#, fuzzy
+msgid "Horror"
+msgstr "eroare"
+
+msgid "I Titoli Del Momento"
+msgstr "Titlurile momentului"
 
 msgid "Invalid folder!"
 msgstr "Dosar nevalid!"
@@ -271,6 +317,9 @@ msgstr "Apăsați OK pentru a vedea detaliile complete..."
 msgid "REFRESH"
 msgstr "REÎMPROSPĂTA"
 
+msgid "Reality"
+msgstr "Realitate"
+
 msgid "Refresh"
 msgstr "Reîmprospăta"
 
@@ -279,6 +328,9 @@ msgstr "Elimina"
 
 msgid "Retry"
 msgstr "Reîncercați"
+
+msgid "Romance"
+msgstr "Romantism"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Istoria serialelor TV"
 msgid "TV series history cleared"
 msgstr "Istoria serialelor TV"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Timeout pentru cererile de căutare (secunde)"
 
 msgid "Title"
 msgstr "Titlu"
+
+msgid "Top 10 di oggi"
+msgstr "Top 10 de azi"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Total: {} | Activ: {} | Dosar: {}"
@@ -359,6 +417,14 @@ msgstr "Tip: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Grupuri SUS/JOS | carduri STÂNGA/DREAPTA | OK deschis"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grupuri SUS/JOS | carduri STÂNGA/DREAPTA | OK deschis"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Nu se poate obține adresa URL de streaming"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nu se poate obține fluxul pentru acest episod"

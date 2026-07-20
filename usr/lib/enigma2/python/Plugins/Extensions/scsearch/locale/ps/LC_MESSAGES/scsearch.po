@@ -40,8 +40,20 @@ msgstr ">>> قسطونه <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> فصلونه <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "په دې وروستیو کې اضافه شوي"
+
+msgid "Animazione"
+msgstr "حرکت"
+
 msgid "Available links:"
 msgstr "شته لینکونه:"
+
+msgid "Avventura"
+msgstr "ساہسک"
+
+msgid "Azione"
+msgstr "عمل"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "د افقی سکرول کولو سره ګروپونه او کارتونه وپلټئ"
@@ -79,6 +91,9 @@ msgstr "کوډ:"
 msgid "Code: {self.captcha_code}"
 msgstr "کوډ: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "کمیډیا"
+
 msgid "Completed"
 msgstr "بشپړ شو"
 
@@ -87,6 +102,15 @@ msgstr "د Altadefinizione منځپانګه - د خلاصولو لپاره OK ف
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "د CB01 مینځپانګه - د خلاصولو لپاره OK فشار ورکړئ ..."
+
+msgid "Crime"
+msgstr "جرم"
+
+msgid "DOWNLOAD"
+msgstr "ډاونلوډ کړئ"
+
+msgid "DOWNLOADS"
+msgstr "کښته کول"
 
 msgid "Description not available."
 msgstr "توضیحات شتون نلري."
@@ -97,12 +121,18 @@ msgstr "د دې لپاره توضیحات: '%s'"
 msgid "Details not available"
 msgstr "جزئیات نشته"
 
+msgid "Documentario"
+msgstr "مستند"
+
 msgid "Download Queue"
 msgstr "کتار ډاونلوډ کړئ"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "بار کول"
+
+msgid "Dramma"
+msgstr "ډرامه"
 
 msgid "ENTER"
 msgstr "ننوتل"
@@ -162,11 +192,27 @@ msgstr "د UI په تازه کولو کې تېروتنه"
 msgid "Exit"
 msgstr "وتل"
 
+msgid "Famiglia"
+msgstr "کورنۍ"
+
+msgid "Fantascienza"
+msgstr "علمي تخیلي"
+
+msgid "Fantasy"
+msgstr "تصور"
+
 msgid "GROUPS"
 msgstr "ګروپونه"
 
 msgid "History"
 msgstr "تاریخ"
+
+#, fuzzy
+msgid "Horror"
+msgstr "تېروتنه"
+
+msgid "I Titoli Del Momento"
+msgstr "د شیبې سرلیکونه"
 
 msgid "Invalid folder!"
 msgstr "ناسم فولډر!"
@@ -271,6 +317,9 @@ msgstr "د بشپړ توضیحاتو لیدو لپاره OK فشار ورکړئ 
 msgid "REFRESH"
 msgstr "تازه کړئ"
 
+msgid "Reality"
+msgstr "حقیقت"
+
 msgid "Refresh"
 msgstr "تازه کړئ"
 
@@ -279,6 +328,9 @@ msgstr "لرې کړئ"
 
 msgid "Retry"
 msgstr "بیا هڅه وکړئ"
+
+msgid "Romance"
+msgstr "رومانس"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "د تلویزیون لړۍ تاریخ"
 msgid "TV series history cleared"
 msgstr "د تلویزیون لړۍ تاریخ"
 
+msgid "Thriller"
+msgstr "تریلر"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "د لټون غوښتنو لپاره وخت پای (ثانوي)"
 
 msgid "Title"
 msgstr "عنوان"
+
+msgid "Top 10 di oggi"
+msgstr "د نن ورځې غوره 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "ټول: {} | فعال: {} | فولډر: {}"
@@ -359,6 +417,14 @@ msgstr "ډول: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP/DOWN ګروپونه | کیڼ/ښي کارتونه | ښه پرانیزئ"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN ګروپونه | کیڼ/ښي کارتونه | ښه پرانیزئ"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "د سټرینګ URL ترلاسه کولو توان نلري"
 
 msgid "Unable to get stream for this episode"
 msgstr "د دې قسط لپاره جریان ترلاسه کولو توان نلري"

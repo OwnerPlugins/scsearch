@@ -40,8 +40,20 @@ msgstr ">>> Эпизодлар <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Сезоннар <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Күптән түгел өстәлде"
+
+msgid "Animazione"
+msgstr "Анимация"
+
 msgid "Available links:"
 msgstr "Мөмкин булган сылтамалар:"
+
+msgid "Avventura"
+msgstr "Сәяхәт"
+
+msgid "Azione"
+msgstr "Эш"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Төркемнәрне һәм карточкаларны горизонталь әйләндерү белән карагыз"
@@ -79,6 +91,9 @@ msgstr "Код:"
 msgid "Code: {self.captcha_code}"
 msgstr "Код: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Комедия"
+
 msgid "Completed"
 msgstr "Тәмамланды"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione эчтәлеге - ачу өчен ОК басыгыз .
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 эчтәлеге - ачу өчен ОК басыгыз ..."
+
+msgid "Crime"
+msgstr "Crimeинаять"
+
+msgid "DOWNLOAD"
+msgstr "Йөкләү"
+
+msgid "DOWNLOADS"
+msgstr "Йөкләү"
 
 msgid "Description not available."
 msgstr "Тасвирлау мөмкин түгел."
@@ -97,12 +121,18 @@ msgstr "Детальләр: '% s'"
 msgid "Details not available"
 msgstr "Детальләр юк"
 
+msgid "Documentario"
+msgstr "Документаль фильм"
+
 msgid "Download Queue"
 msgstr "Чиратны йөкләү"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "йөкләү"
+
+msgid "Dramma"
+msgstr "Драма"
 
 msgid "ENTER"
 msgstr "Керү"
@@ -162,11 +192,27 @@ msgstr "UI яңартуда хата"
 msgid "Exit"
 msgstr "Чык"
 
+msgid "Famiglia"
+msgstr "Гаилә"
+
+msgid "Fantascienza"
+msgstr "Фәнни фантастика"
+
+msgid "Fantasy"
+msgstr "Фантазия"
+
 msgid "GROUPS"
 msgstr "Төркемнәр"
 
 msgid "History"
 msgstr "Тарих"
+
+#, fuzzy
+msgid "Horror"
+msgstr "хата"
+
+msgid "I Titoli Del Momento"
+msgstr "Момент исемнәре"
 
 msgid "Invalid folder!"
 msgstr "Яраксыз папка!"
@@ -271,6 +317,9 @@ msgstr "Тулы мәгълүматны карау өчен ОК басыгыз 
 msgid "REFRESH"
 msgstr "РЕФРЕШ"
 
+msgid "Reality"
+msgstr "Чынбарлык"
+
 msgid "Refresh"
 msgstr "Яңарту"
 
@@ -279,6 +328,9 @@ msgstr "Чыгар"
 
 msgid "Retry"
 msgstr "Кабатлап карагыз"
+
+msgid "Romance"
+msgstr "Романтика"
 
 msgid "SC"
 msgstr "СК"
@@ -345,11 +397,17 @@ msgstr "Телевизион серияләр тарихы"
 msgid "TV series history cleared"
 msgstr "Телевизион серияләр тарихы"
 
+msgid "Thriller"
+msgstr "Триллер"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Эзләү соравы вакыты (секундлар)"
 
 msgid "Title"
 msgstr "Титул"
+
+msgid "Top 10 di oggi"
+msgstr "Бүгенге иң яхшы 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Барлыгы: {} | Актив: {} | Папка: {}"
@@ -359,6 +417,14 @@ msgstr "Төре:% s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP / DOWN төркемнәре | Сул / Уң карточкалар | Ярар"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP / DOWN төркемнәре | Сул / Уң карточкалар | Ярар"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Агымдагы URL ала алмый"
 
 msgid "Unable to get stream for this episode"
 msgstr "Бу эпизод өчен агым ала алмый"

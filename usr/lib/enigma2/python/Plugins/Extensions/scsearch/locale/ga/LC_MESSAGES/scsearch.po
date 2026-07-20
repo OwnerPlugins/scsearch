@@ -40,8 +40,20 @@ msgstr ">>> Eipeasóid <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Séasúir <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Curtha leis le déanaí"
+
+msgid "Animazione"
+msgstr "Beochan"
+
 msgid "Available links:"
 msgstr "Naisc ar fáil:"
+
+msgid "Avventura"
+msgstr "Eachtraíochta"
+
+msgid "Azione"
+msgstr "Gníomh"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Brabhsáil grúpaí agus cártaí le scrollú cothrománach"
@@ -79,6 +91,9 @@ msgstr "Cód:"
 msgid "Code: {self.captcha_code}"
 msgstr "Cód: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Críochnaithe"
 
@@ -87,6 +102,15 @@ msgstr "Ábhar ó Altadefinizione - Brúigh OK chun..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Ábhar ó CB01 - Brúigh OK chun..."
+
+msgid "Crime"
+msgstr "Coiriúlacht"
+
+msgid "DOWNLOAD"
+msgstr "LÍONADH"
+
+msgid "DOWNLOADS"
+msgstr "DO DHÉANAMH"
 
 msgid "Description not available."
 msgstr "Níl an cur síos ar fáil."
@@ -97,12 +121,18 @@ msgstr "Sonraí le haghaidh: '%s'"
 msgid "Details not available"
 msgstr "Níl sonraí ar fáil"
 
+msgid "Documentario"
+msgstr "Clár faisnéise"
+
 msgid "Download Queue"
 msgstr "Íosluchtaigh scuad"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "ag lódáil"
+
+msgid "Dramma"
+msgstr "Dráma"
 
 msgid "ENTER"
 msgstr "ISTEACH"
@@ -162,11 +192,27 @@ msgstr "Earráid agus an Chomhéadain á nuashonrú"
 msgid "Exit"
 msgstr "Scoir"
 
+msgid "Famiglia"
+msgstr "Teaghlaigh"
+
+msgid "Fantascienza"
+msgstr "Ficsean eolaíochta"
+
+msgid "Fantasy"
+msgstr ""
+
 msgid "GROUPS"
 msgstr "GRÚPAÍ"
 
 msgid "History"
 msgstr "Stair"
+
+#, fuzzy
+msgid "Horror"
+msgstr "earráid"
+
+msgid "I Titoli Del Momento"
+msgstr "Teidil an Nóiméad"
 
 msgid "Invalid folder!"
 msgstr "Fillteán neamhbhailí!"
@@ -271,6 +317,9 @@ msgstr "Brúigh OK chun na sonraí iomlána a fheiceáil..."
 msgid "REFRESH"
 msgstr "NUACHT"
 
+msgid "Reality"
+msgstr "Réaltacht"
+
 msgid "Refresh"
 msgstr "Athnuaigh"
 
@@ -279,6 +328,9 @@ msgstr "Bain"
 
 msgid "Retry"
 msgstr "Bain triail eile as"
+
+msgid "Romance"
+msgstr "Rómánsacha"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Stair sraith TEILIFÍSE"
 msgid "TV series history cleared"
 msgstr "Stair sraith TEILIFÍSE"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Teorainn ama d'iarratais chuardaigh (soicindí)"
 
 msgid "Title"
 msgstr "Teideal"
+
+msgid "Top 10 di oggi"
+msgstr "Barr 10 inniu"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Iomlán: {} | Gníomhach: {} | Fillteán: {}"
@@ -359,6 +417,14 @@ msgstr "Cineál: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Grúpaí UP/SÍOS | Cártaí ar chlé/ar dheis | OK oscailte"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grúpaí UP/SÍOS | Cártaí ar chlé/ar dheis | OK oscailte"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Ní féidir URL an tsruthaithe a fháil"
 
 msgid "Unable to get stream for this episode"
 msgstr "Ní féidir sruth a fháil don chlár seo"

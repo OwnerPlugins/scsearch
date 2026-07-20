@@ -6,6 +6,7 @@
 
 
 
+
 msgid "%d titles"
 msgstr ""
 
@@ -33,7 +34,19 @@ msgstr ""
 msgid ">>> Seasons <<<"
 msgstr ""
 
+msgid "Aggiunti di Recente"
+msgstr ""
+
+msgid "Animazione"
+msgstr ""
+
 msgid "Available links:"
+msgstr ""
+
+msgid "Avventura"
+msgstr ""
+
+msgid "Azione"
 msgstr ""
 
 msgid "Browse groups and cards with horizontal scrolling"
@@ -72,6 +85,9 @@ msgstr ""
 msgid "Code: {self.captcha_code}"
 msgstr ""
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr ""
 
@@ -79,6 +95,15 @@ msgid "Content from Altadefinizione - Press OK to open..."
 msgstr ""
 
 msgid "Content from CB01 - Press OK to open..."
+msgstr ""
+
+msgid "Crime"
+msgstr ""
+
+msgid "DOWNLOAD"
+msgstr ""
+
+msgid "DOWNLOADS"
 msgstr ""
 
 msgid "Description not available."
@@ -90,10 +115,16 @@ msgstr ""
 msgid "Details not available"
 msgstr ""
 
+msgid "Documentario"
+msgstr ""
+
 msgid "Download Queue"
 msgstr ""
 
 msgid "Downloading"
+msgstr ""
+
+msgid "Dramma"
 msgstr ""
 
 msgid "ENTER"
@@ -153,10 +184,25 @@ msgstr ""
 msgid "Exit"
 msgstr ""
 
+msgid "Famiglia"
+msgstr ""
+
+msgid "Fantascienza"
+msgstr ""
+
+msgid "Fantasy"
+msgstr ""
+
 msgid "GROUPS"
 msgstr ""
 
 msgid "History"
+msgstr ""
+
+msgid "Horror"
+msgstr ""
+
+msgid "I Titoli Del Momento"
 msgstr ""
 
 msgid "Invalid folder!"
@@ -261,6 +307,9 @@ msgstr ""
 msgid "REFRESH"
 msgstr ""
 
+msgid "Reality"
+msgstr ""
+
 msgid "Refresh"
 msgstr ""
 
@@ -268,6 +317,9 @@ msgid "Remove"
 msgstr ""
 
 msgid "Retry"
+msgstr ""
+
+msgid "Romance"
 msgstr ""
 
 msgid "SC"
@@ -333,10 +385,16 @@ msgstr ""
 msgid "TV series history cleared"
 msgstr ""
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr ""
 
 msgid "Title"
+msgstr ""
+
+msgid "Top 10 di oggi"
 msgstr ""
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
@@ -346,6 +404,12 @@ msgid "Type: %s"
 msgstr ""
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+msgstr ""
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr ""
+
+msgid "Unable to get stream URL for download"
 msgstr ""
 
 msgid "Unable to get stream for this episode"

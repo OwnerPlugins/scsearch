@@ -40,8 +40,20 @@ msgstr ">>> Episoodid <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Aastaajad <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Hiljuti lisatud"
+
+msgid "Animazione"
+msgstr "Animatsioon"
+
 msgid "Available links:"
 msgstr "Saadaolevad lingid:"
+
+msgid "Avventura"
+msgstr "Seiklus"
+
+msgid "Azione"
+msgstr "Tegevus"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Sirvige rühmi ja kaarte horisontaalse kerimisega"
@@ -79,6 +91,9 @@ msgstr "Kood:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kood: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Lõpetatud"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione'i sisu – avamiseks vajutage nuppu OK..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Sisu CB01-st – avamiseks vajutage nuppu OK..."
+
+msgid "Crime"
+msgstr "Kuritegevus"
+
+msgid "DOWNLOAD"
+msgstr "LAADI ALLA"
+
+msgid "DOWNLOADS"
+msgstr "ALLALAADIMINE"
 
 msgid "Description not available."
 msgstr "Kirjeldus pole saadaval."
@@ -97,12 +121,18 @@ msgstr "Üksikasjad: '%s'"
 msgid "Details not available"
 msgstr "Üksikasjad pole saadaval"
 
+msgid "Documentario"
+msgstr "Dokumentaalfilm"
+
 msgid "Download Queue"
 msgstr "Laadi alla järjekord"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "laadimine"
+
+msgid "Dramma"
+msgstr "draama"
 
 msgid "ENTER"
 msgstr "SISESTA"
@@ -162,11 +192,27 @@ msgstr "Viga kasutajaliidese värskendamisel"
 msgid "Exit"
 msgstr "Välju"
 
+msgid "Famiglia"
+msgstr "Perekond"
+
+msgid "Fantascienza"
+msgstr "Ulme"
+
+msgid "Fantasy"
+msgstr "Fantaasia"
+
 msgid "GROUPS"
 msgstr "RÜHMAD"
 
 msgid "History"
 msgstr "Ajalugu"
+
+#, fuzzy
+msgid "Horror"
+msgstr "viga"
+
+msgid "I Titoli Del Momento"
+msgstr "Hetke pealkirjad"
 
 msgid "Invalid folder!"
 msgstr "Kehtetu kaust!"
@@ -271,6 +317,9 @@ msgstr "Täielike üksikasjade vaatamiseks vajutage OK..."
 msgid "REFRESH"
 msgstr "VÄRSKENDAMINE"
 
+msgid "Reality"
+msgstr "Reaalsus"
+
 msgid "Refresh"
 msgstr "Värskenda"
 
@@ -279,6 +328,9 @@ msgstr "Eemalda"
 
 msgid "Retry"
 msgstr "Proovi uuesti"
+
+msgid "Romance"
+msgstr "Romantika"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Telesarjade ajalugu"
 msgid "TV series history cleared"
 msgstr "Telesarjade ajalugu"
 
+msgid "Thriller"
+msgstr "Põnevik"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Otsingupäringute ajalõpp (sekundites)"
 
 msgid "Title"
 msgstr "Pealkiri"
+
+msgid "Top 10 di oggi"
+msgstr "Tänane top 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Kokku: {} | Aktiivne: {} | Kaust: {}"
@@ -359,6 +417,14 @@ msgstr "Tüüp: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Voogesituse URL-i ei saa hankida"
 
 msgid "Unable to get stream for this episode"
 msgstr "Selle jao voogesitust ei saa hankida"

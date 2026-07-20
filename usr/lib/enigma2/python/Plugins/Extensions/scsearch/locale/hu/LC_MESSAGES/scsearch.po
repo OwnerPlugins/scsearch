@@ -40,8 +40,20 @@ msgstr ">>> Epizódok <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Évszakok <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Nemrég hozzáadva"
+
+msgid "Animazione"
+msgstr "Animáció"
+
 msgid "Available links:"
 msgstr "Elérhető linkek:"
+
+msgid "Avventura"
+msgstr "Kaland"
+
+msgid "Azione"
+msgstr "Akció"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Böngésszen csoportok és kártyák között vízszintes görgetéssel"
@@ -79,6 +91,9 @@ msgstr "Kód:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kód: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Befejezve"
 
@@ -87,6 +102,15 @@ msgstr "Tartalom az Altadefinizione-ból - Nyomja meg az OK gombot a megnyitásh
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Tartalom a CB01-ből – Nyissa meg az OK gombot..."
+
+msgid "Crime"
+msgstr "Bűncselekmény"
+
+msgid "DOWNLOAD"
+msgstr "LETÖLTÉS"
+
+msgid "DOWNLOADS"
+msgstr "LETÖLTÉSEK"
 
 msgid "Description not available."
 msgstr "Leírás nem áll rendelkezésre."
@@ -97,12 +121,18 @@ msgstr "Részletek: '%s'"
 msgid "Details not available"
 msgstr "Részletek nem állnak rendelkezésre"
 
+msgid "Documentario"
+msgstr "Dokumentumfilm"
+
 msgid "Download Queue"
 msgstr "Letöltési sor"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "terhelés"
+
+msgid "Dramma"
+msgstr "Dráma"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -162,11 +192,27 @@ msgstr "Hiba a felhasználói felület frissítésekor"
 msgid "Exit"
 msgstr "Kijárat"
 
+msgid "Famiglia"
+msgstr "Család"
+
+msgid "Fantascienza"
+msgstr "Sci-fi"
+
+msgid "Fantasy"
+msgstr "Fantázia"
+
 msgid "GROUPS"
 msgstr "CSOPORTOK"
 
 msgid "History"
 msgstr "Történelem"
+
+#, fuzzy
+msgid "Horror"
+msgstr "hiba"
+
+msgid "I Titoli Del Momento"
+msgstr "A pillanat címei"
 
 msgid "Invalid folder!"
 msgstr "Érvénytelen mappa!"
@@ -271,6 +317,9 @@ msgstr "Nyomja meg az OK gombot a részletek megtekintéséhez..."
 msgid "REFRESH"
 msgstr "FRISSÍTÉS"
 
+msgid "Reality"
+msgstr "Valóság"
+
 msgid "Refresh"
 msgstr "Frissítés"
 
@@ -279,6 +328,9 @@ msgstr "Távolítsa el"
 
 msgid "Retry"
 msgstr "Próbálja újra"
+
+msgid "Romance"
+msgstr "Románc"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "TV-sorozat története"
 msgid "TV series history cleared"
 msgstr "TV-sorozat története"
 
+msgid "Thriller"
+msgstr "Krimi"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Keresési kérések időtúllépése (másodperc)"
 
 msgid "Title"
 msgstr "Cím"
+
+msgid "Top 10 di oggi"
+msgstr "A mai top 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Összesen: {} | Aktív: {} | Mappa: {}"
@@ -359,6 +417,14 @@ msgstr "Típus: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Nem sikerült lekérni a streaming URL-t"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nem sikerült streamet lekérni ehhez az epizódhoz"

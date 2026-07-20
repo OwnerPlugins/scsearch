@@ -40,8 +40,20 @@ msgstr ">>> Epizodlar <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Mövsümlər <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Son Əlavələr"
+
+msgid "Animazione"
+msgstr "Animasiya"
+
 msgid "Available links:"
 msgstr "Mövcud bağlantılar:"
+
+msgid "Avventura"
+msgstr "Macəra"
+
+msgid "Azione"
+msgstr "Fəaliyyət"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Üfüqi sürüşmə ilə qrupları və kartları gözdən keçirin"
@@ -79,6 +91,9 @@ msgstr "Kod:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Komediya"
+
 msgid "Completed"
 msgstr "Tamamlandı"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione məzmunu - Açmaq üçün OK düyməsini basın..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 məzmunu - Açmaq üçün OK düyməsini basın..."
+
+msgid "Crime"
+msgstr "Cinayət"
+
+msgid "DOWNLOAD"
+msgstr "YÜKLƏ"
+
+msgid "DOWNLOADS"
+msgstr "YÜKLƏMƏLƏR"
 
 msgid "Description not available."
 msgstr "Təsvir mövcud deyil."
@@ -97,12 +121,18 @@ msgstr "'%s' üçün təfərrüatlar"
 msgid "Details not available"
 msgstr "Detallar mövcud deyil"
 
+msgid "Documentario"
+msgstr "Sənədli film"
+
 msgid "Download Queue"
 msgstr "Yükləmə növbəsi"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "yüklənir"
+
+msgid "Dramma"
+msgstr "Dram"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -162,11 +192,27 @@ msgstr "UI yenilənərkən xəta baş verdi"
 msgid "Exit"
 msgstr "Çıx"
 
+msgid "Famiglia"
+msgstr "Ailə"
+
+msgid "Fantascienza"
+msgstr "Elmi fantastika"
+
+msgid "Fantasy"
+msgstr "Fantaziya"
+
 msgid "GROUPS"
 msgstr "QRUPLAR"
 
 msgid "History"
 msgstr "Tarix"
+
+#, fuzzy
+msgid "Horror"
+msgstr "səhv"
+
+msgid "I Titoli Del Momento"
+msgstr "Anın Başlıqları"
 
 msgid "Invalid folder!"
 msgstr "Yanlış qovluq!"
@@ -271,6 +317,9 @@ msgstr "Tam təfərrüatlara baxmaq üçün OK düyməsini basın..."
 msgid "REFRESH"
 msgstr "TƏZİL EDİN"
 
+msgid "Reality"
+msgstr "Reallıq"
+
 msgid "Refresh"
 msgstr "Yeniləyin"
 
@@ -279,6 +328,9 @@ msgstr "Sil"
 
 msgid "Retry"
 msgstr "Yenidən cəhd edin"
+
+msgid "Romance"
+msgstr "Romantika"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Televiziya serialının tarixi"
 msgid "TV series history cleared"
 msgstr "Televiziya serialının tarixi"
 
+msgid "Thriller"
+msgstr "Triller"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Axtarış sorğuları üçün fasilə (saniyə)"
 
 msgid "Title"
 msgstr "Başlıq"
+
+msgid "Top 10 di oggi"
+msgstr "Günün ilk 10-luğu"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Cəmi: {} | Aktiv: {} | Qovluq: {}"
@@ -359,6 +417,14 @@ msgstr "Növ: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Axın URL-i əldə etmək mümkün deyil"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu epizod üçün yayım əldə etmək mümkün deyil"

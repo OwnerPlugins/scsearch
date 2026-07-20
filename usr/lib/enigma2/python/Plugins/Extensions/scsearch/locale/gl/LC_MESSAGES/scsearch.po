@@ -40,8 +40,20 @@ msgstr ">>> Episodios <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Temporadas <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Engadido recentemente"
+
+msgid "Animazione"
+msgstr "Animación"
+
 msgid "Available links:"
 msgstr "Ligazóns dispoñibles:"
+
+msgid "Avventura"
+msgstr "Aventura"
+
+msgid "Azione"
+msgstr "Acción"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Explora grupos e tarxetas con desprazamento horizontal"
@@ -79,6 +91,9 @@ msgstr "Código:"
 msgid "Code: {self.captcha_code}"
 msgstr "Código: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Comedia"
+
 msgid "Completed"
 msgstr "Completado"
 
@@ -87,6 +102,15 @@ msgstr "Contido de Altadefinizione: preme Aceptar para abrir..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Contido de CB01: preme Aceptar para abrir..."
+
+msgid "Crime"
+msgstr ""
+
+msgid "DOWNLOAD"
+msgstr "DESCARGAR"
+
+msgid "DOWNLOADS"
+msgstr "DESCARGAS"
 
 msgid "Description not available."
 msgstr "Descrición non dispoñible."
@@ -97,12 +121,18 @@ msgstr "Detalles para: '%s'"
 msgid "Details not available"
 msgstr "Detalles non dispoñibles"
 
+msgid "Documentario"
+msgstr "Documental"
+
 msgid "Download Queue"
 msgstr "Fila de descarga"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "cargando"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "ENTRAR"
@@ -162,11 +192,27 @@ msgstr "Produciuse un erro ao actualizar a IU"
 msgid "Exit"
 msgstr "Saír"
 
+msgid "Famiglia"
+msgstr "Familia"
+
+msgid "Fantascienza"
+msgstr "Ciencia ficción"
+
+msgid "Fantasy"
+msgstr "Fantasía"
+
 msgid "GROUPS"
 msgstr "GRUPOS"
 
 msgid "History"
 msgstr "Historia"
+
+#, fuzzy
+msgid "Horror"
+msgstr "erro"
+
+msgid "I Titoli Del Momento"
+msgstr "Os títulos do momento"
 
 msgid "Invalid folder!"
 msgstr "Cartafol non válido!"
@@ -271,6 +317,9 @@ msgstr "Preme Aceptar para ver todos os detalles..."
 msgid "REFRESH"
 msgstr "ACTUALIZAR"
 
+msgid "Reality"
+msgstr "Realidade"
+
 msgid "Refresh"
 msgstr "Actualizar"
 
@@ -279,6 +328,9 @@ msgstr "Eliminar"
 
 msgid "Retry"
 msgstr "Volve tentar"
+
+msgid "Romance"
+msgstr ""
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Historia da serie de TV"
 msgid "TV series history cleared"
 msgstr "Historia da serie de TV"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Tempo de espera para as solicitudes de busca (segundos)"
 
 msgid "Title"
 msgstr "Título"
+
+msgid "Top 10 di oggi"
+msgstr "O top 10 de hoxe"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Total: {} | Activo: {} | Cartafol: {}"
@@ -359,6 +417,14 @@ msgstr "Tipo: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Grupos ARRIBA/ABAIXO | Tarxetas ESQUERDA/DEREITA | Aceptar aberto"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grupos ARRIBA/ABAIXO | Tarxetas ESQUERDA/DEREITA | Aceptar aberto"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Non se puido obter o URL de transmisión"
 
 msgid "Unable to get stream for this episode"
 msgstr "Non se pode obter a emisión para este episodio"

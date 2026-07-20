@@ -40,8 +40,20 @@ msgstr ">>> කථාංග <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> වාර <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "මෑතකදී එකතු කරන ලදී"
+
+msgid "Animazione"
+msgstr "සජීවීකරණය"
+
 msgid "Available links:"
 msgstr "පවතින සබැඳි:"
+
+msgid "Avventura"
+msgstr "වික්රමය"
+
+msgid "Azione"
+msgstr "ක්‍රියාව"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "තිරස් අනුචලනය සමඟ කණ්ඩායම් සහ කාඩ්පත් බ්‍රවුස් කරන්න"
@@ -79,6 +91,9 @@ msgstr "කේතය:"
 msgid "Code: {self.captcha_code}"
 msgstr "කේතය: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "කොමඩියා"
+
 msgid "Completed"
 msgstr "සම්පූර්ණ කළා"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizion වෙතින් අන්තර්ගතය - වි�
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 වෙතින් අන්තර්ගතය - විවෘත කිරීමට OK ඔබන්න..."
+
+msgid "Crime"
+msgstr "අපරාධය"
+
+msgid "DOWNLOAD"
+msgstr "බාගත කරන්න"
+
+msgid "DOWNLOADS"
+msgstr "බාගැනීම්"
 
 msgid "Description not available."
 msgstr "විස්තරය නොමැත."
@@ -97,12 +121,18 @@ msgstr "සඳහා විස්තර: '%s'"
 msgid "Details not available"
 msgstr "විස්තර නොමැත"
 
+msgid "Documentario"
+msgstr "වාර්තාමය"
+
 msgid "Download Queue"
 msgstr "පෝලිම බාගන්න"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "පැටවීම"
+
+msgid "Dramma"
+msgstr "නාට්ය"
 
 msgid "ENTER"
 msgstr "ඇතුල් කරන්න"
@@ -162,11 +192,27 @@ msgstr "UI යාවත්කාලීන කිරීමේ දෝෂයකි"
 msgid "Exit"
 msgstr "පිටවෙන්න"
 
+msgid "Famiglia"
+msgstr "පවුල"
+
+msgid "Fantascienza"
+msgstr "විද්යා ප්රබන්ධය"
+
+msgid "Fantasy"
+msgstr "ෆැන්ටසි"
+
 msgid "GROUPS"
 msgstr "කණ්ඩායම්"
 
 msgid "History"
 msgstr "ඉතිහාසය"
+
+#, fuzzy
+msgid "Horror"
+msgstr "දෝෂය"
+
+msgid "I Titoli Del Momento"
+msgstr "මේ මොහොතේ මාතෘකා"
 
 msgid "Invalid folder!"
 msgstr "වලංගු නොවන ෆෝල්ඩරය!"
@@ -271,6 +317,9 @@ msgstr "සම්පූර්ණ විස්තර බැලීමට OK ඔබ
 msgid "REFRESH"
 msgstr "නැවුම් කරන්න"
 
+msgid "Reality"
+msgstr "යථාර්ථය"
+
 msgid "Refresh"
 msgstr "නැවුම් කරන්න"
 
@@ -279,6 +328,9 @@ msgstr "ඉවත් කරන්න"
 
 msgid "Retry"
 msgstr "නැවත උත්සාහ කරන්න"
+
+msgid "Romance"
+msgstr "රොමෑන්ස්"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "TV Series ඉතිහාසය"
 msgid "TV series history cleared"
 msgstr "TV Series ඉතිහාසය"
 
+msgid "Thriller"
+msgstr "ත්‍රාසජනක"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "සෙවුම් ඉල්ලීම් සඳහා කල් ඉකුත්වීම (තත්පර)"
 
 msgid "Title"
 msgstr "මාතෘකාව"
+
+msgid "Top 10 di oggi"
+msgstr "අද හොඳම 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "එකතුව: {} | සක්‍රිය: {} | ෆෝල්ඩරය: {}"
@@ -359,6 +417,14 @@ msgstr "වර්ගය: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "ඉහළ/පහළ කණ්ඩායම් | වම්/දකුණු කාඩ්පත් | හරි විවෘතයි"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "ඉහළ/පහළ කණ්ඩායම් | වම්/දකුණු කාඩ්පත් | හරි විවෘතයි"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "ප්‍රවාහ URL ලබා ගැනීමට නොහැකි විය"
 
 msgid "Unable to get stream for this episode"
 msgstr "මෙම කථාංගය සඳහා ප්‍රවාහය ලබා ගත නොහැක"

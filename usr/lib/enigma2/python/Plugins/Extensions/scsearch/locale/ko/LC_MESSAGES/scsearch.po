@@ -40,8 +40,20 @@ msgstr ">>> 에피소드 <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> 계절 <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "최근 추가됨"
+
+msgid "Animazione"
+msgstr "생기"
+
 msgid "Available links:"
 msgstr "사용 가능한 링크:"
+
+msgid "Avventura"
+msgstr "모험"
+
+msgid "Azione"
+msgstr "행동"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "가로 스크롤로 그룹 및 카드 찾아보기"
@@ -79,6 +91,9 @@ msgstr "암호:"
 msgid "Code: {self.captcha_code}"
 msgstr "코드: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "코미디"
+
 msgid "Completed"
 msgstr "완전한"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione의 콘텐츠 - 열려면 확인을 누르세요..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01의 콘텐츠 - 확인을 눌러 엽니다..."
+
+msgid "Crime"
+msgstr "범죄"
+
+msgid "DOWNLOAD"
+msgstr "다운로드"
+
+msgid "DOWNLOADS"
+msgstr "다운로드"
 
 msgid "Description not available."
 msgstr "설명을 사용할 수 없습니다."
@@ -97,12 +121,18 @@ msgstr "세부정보: '%s'"
 msgid "Details not available"
 msgstr "세부정보를 확인할 수 없음"
 
+msgid "Documentario"
+msgstr "기록한 것"
+
 msgid "Download Queue"
 msgstr "대기열 다운로드"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "로드 중"
+
+msgid "Dramma"
+msgstr "드라마"
 
 msgid "ENTER"
 msgstr "입력하다"
@@ -162,11 +192,27 @@ msgstr "UI 업데이트 중 오류 발생"
 msgid "Exit"
 msgstr "출구"
 
+msgid "Famiglia"
+msgstr "가족"
+
+msgid "Fantascienza"
+msgstr "SF"
+
+msgid "Fantasy"
+msgstr "공상"
+
 msgid "GROUPS"
 msgstr "여러 떼"
 
 msgid "History"
 msgstr "역사"
+
+#, fuzzy
+msgid "Horror"
+msgstr "오류"
+
+msgid "I Titoli Del Momento"
+msgstr "순간의 제목"
 
 msgid "Invalid folder!"
 msgstr "폴더가 잘못되었습니다!"
@@ -271,6 +317,9 @@ msgstr "전체 세부정보를 보려면 확인을 누르세요..."
 msgid "REFRESH"
 msgstr "새로 고치다"
 
+msgid "Reality"
+msgstr "현실"
+
 msgid "Refresh"
 msgstr "새로 고치다"
 
@@ -279,6 +328,9 @@ msgstr "제거하다"
 
 msgid "Retry"
 msgstr "다시 해 보다"
+
+msgid "Romance"
+msgstr "로맨스"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "TV 시리즈 역사"
 msgid "TV series history cleared"
 msgstr "TV 시리즈 역사"
 
+msgid "Thriller"
+msgstr "스릴러"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "검색 요청 시간 초과(초)"
 
 msgid "Title"
 msgstr "제목"
+
+msgid "Top 10 di oggi"
+msgstr "오늘의 탑 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "총계: {} | 활성: {} | 폴더: {}"
@@ -359,6 +417,14 @@ msgstr "유형: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP/DOWN 그룹 | 왼쪽/오른쪽 카드 | 알았어 열어"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN 그룹 | 왼쪽/오른쪽 카드 | 알았어 열어"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "스트리밍 URL을 가져올 수 없습니다."
 
 msgid "Unable to get stream for this episode"
 msgstr "이 에피소드를 스트리밍할 수 없습니다"

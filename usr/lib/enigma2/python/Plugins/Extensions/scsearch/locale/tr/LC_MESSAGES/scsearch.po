@@ -40,8 +40,20 @@ msgstr ">>> Bölümler <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Mevsimler <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Son Eklenenler"
+
+msgid "Animazione"
+msgstr "Animasyon"
+
 msgid "Available links:"
 msgstr "Mevcut bağlantılar:"
+
+msgid "Avventura"
+msgstr "Macera"
+
+msgid "Azione"
+msgstr "Aksiyon"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Yatay kaydırmayla gruplara ve kartlara göz atın"
@@ -79,6 +91,9 @@ msgstr "Kod:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Komedi"
+
 msgid "Completed"
 msgstr "Tamamlanmış"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione'den içerik - Açmak için Tamam'a basın..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 içeriği - Açmak için Tamam'a basın..."
+
+msgid "Crime"
+msgstr "Suç"
+
+msgid "DOWNLOAD"
+msgstr "İNDİRMEK"
+
+msgid "DOWNLOADS"
+msgstr "İNDİRMELER"
 
 msgid "Description not available."
 msgstr "Açıklama mevcut değil."
@@ -97,12 +121,18 @@ msgstr "Ayrıntılar: '%s'"
 msgid "Details not available"
 msgstr "Ayrıntılar mevcut değil"
 
+msgid "Documentario"
+msgstr "Belgesel"
+
 msgid "Download Queue"
 msgstr "İndirme Sırası"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "yükleniyor"
+
+msgid "Dramma"
+msgstr "Dram"
 
 msgid "ENTER"
 msgstr "GİRMEK"
@@ -162,11 +192,27 @@ msgstr "Kullanıcı arayüzü güncellenirken hata oluştu"
 msgid "Exit"
 msgstr "Çıkış"
 
+msgid "Famiglia"
+msgstr "Aile"
+
+msgid "Fantascienza"
+msgstr "bilimkurgu"
+
+msgid "Fantasy"
+msgstr "Fantezi"
+
 msgid "GROUPS"
 msgstr "GRUPLAR"
 
 msgid "History"
 msgstr "Tarih"
+
+#, fuzzy
+msgid "Horror"
+msgstr "hata"
+
+msgid "I Titoli Del Momento"
+msgstr "Anın Başlıkları"
 
 msgid "Invalid folder!"
 msgstr "Geçersiz klasör!"
@@ -271,6 +317,9 @@ msgstr "Tüm ayrıntıları görüntülemek için Tamam'a basın..."
 msgid "REFRESH"
 msgstr "YENİLE"
 
+msgid "Reality"
+msgstr "gerçeklik"
+
 msgid "Refresh"
 msgstr "Yenile"
 
@@ -279,6 +328,9 @@ msgstr "Kaldırmak"
 
 msgid "Retry"
 msgstr "Yeniden dene"
+
+msgid "Romance"
+msgstr "romantik"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Dizi Tarihi"
 msgid "TV series history cleared"
 msgstr "Dizi Tarihi"
 
+msgid "Thriller"
+msgstr "Gerilim"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Arama istekleri için zaman aşımı (saniye)"
 
 msgid "Title"
 msgstr "Başlık"
+
+msgid "Top 10 di oggi"
+msgstr "Bugünün en iyi 10'u"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Toplam: {} | Aktif: {} | Dosya: {}"
@@ -359,6 +417,14 @@ msgstr "Tür: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "YUKARI/AŞAĞI grupları | SOL/SAĞ kartlar | tamam aç"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "YUKARI/AŞAĞI grupları | SOL/SAĞ kartlar | tamam aç"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Akış URL'si alınamıyor"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu bölüm için yayın alınamıyor"

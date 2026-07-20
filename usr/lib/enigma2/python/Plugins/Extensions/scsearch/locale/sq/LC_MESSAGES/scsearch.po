@@ -40,8 +40,20 @@ msgstr ">>> Episodet <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Stinët <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Shtuar së fundi"
+
+msgid "Animazione"
+msgstr "Animacion"
+
 msgid "Available links:"
 msgstr "Lidhjet e disponueshme:"
+
+msgid "Avventura"
+msgstr "Aventurë"
+
+msgid "Azione"
+msgstr "Veprimi"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Shfletoni grupet dhe kartat me lëvizje horizontale"
@@ -79,6 +91,9 @@ msgstr "Kodi:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kodi: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Kommedia"
+
 msgid "Completed"
 msgstr "E përfunduar"
 
@@ -87,6 +102,15 @@ msgstr "Përmbajtja nga Altadefinizone - Shtypni OK për të hapur..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Përmbajtja nga CB01 - Shtypni OK për të hapur..."
+
+msgid "Crime"
+msgstr "Krimi"
+
+msgid "DOWNLOAD"
+msgstr "SHKARKONI"
+
+msgid "DOWNLOADS"
+msgstr "SHKARKONI"
 
 msgid "Description not available."
 msgstr "Përshkrimi nuk disponohet."
@@ -97,12 +121,18 @@ msgstr "Detaje për: '%s'"
 msgid "Details not available"
 msgstr "Detajet nuk disponohen"
 
+msgid "Documentario"
+msgstr "Dokumentar"
+
 msgid "Download Queue"
 msgstr "Radha e shkarkimit"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "ngarkim"
+
+msgid "Dramma"
+msgstr "Dramë"
 
 msgid "ENTER"
 msgstr "HYN"
@@ -162,11 +192,27 @@ msgstr "Gabim gjatë përditësimit të ndërfaqes së përdoruesit"
 msgid "Exit"
 msgstr "Dilni"
 
+msgid "Famiglia"
+msgstr "Familja"
+
+msgid "Fantascienza"
+msgstr "Fantashkencë"
+
+msgid "Fantasy"
+msgstr "Fantazi"
+
 msgid "GROUPS"
 msgstr "GRUPET"
 
 msgid "History"
 msgstr "Historia"
+
+#, fuzzy
+msgid "Horror"
+msgstr "gabim"
+
+msgid "I Titoli Del Momento"
+msgstr "Titujt e Momentit"
 
 msgid "Invalid folder!"
 msgstr "Dosje e pavlefshme!"
@@ -271,6 +317,9 @@ msgstr "Shtypni OK për të parë detajet e plota..."
 msgid "REFRESH"
 msgstr "REFRESH"
 
+msgid "Reality"
+msgstr "Realiteti"
+
 msgid "Refresh"
 msgstr "Rifresko"
 
@@ -279,6 +328,9 @@ msgstr "Hiq"
 
 msgid "Retry"
 msgstr "Provo sërish"
+
+msgid "Romance"
+msgstr "Romancë"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Historia e serialeve televizive"
 msgid "TV series history cleared"
 msgstr "Historia e serialeve televizive"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Koha për kërkesat e kërkimit (sekonda)"
 
 msgid "Title"
 msgstr "Titulli"
+
+msgid "Top 10 di oggi"
+msgstr "Top 10 sot"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Gjithsej: {} | Aktiv: {} | Dosja: {}"
@@ -359,6 +417,14 @@ msgstr "Lloji: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Grupet LARTË/POSHT | Kartat e majta/Djathtas | OK hapur"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grupet LARTË/POSHT | Kartat e majta/Djathtas | OK hapur"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "URL-ja e transmetimit nuk mund të merret"
 
 msgid "Unable to get stream for this episode"
 msgstr "Transmetimi nuk mund të merret për këtë episod"

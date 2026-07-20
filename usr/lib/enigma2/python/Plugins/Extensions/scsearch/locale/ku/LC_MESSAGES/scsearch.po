@@ -40,8 +40,20 @@ msgstr ">>> Episodes <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Demsal <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Herî dawî lê zêde kirin"
+
+msgid "Animazione"
+msgstr "Jayandarî"
+
 msgid "Available links:"
 msgstr "Girêdanên berdest:"
+
+msgid "Avventura"
+msgstr "Serpêhatî"
+
+msgid "Azione"
+msgstr "Çalakî"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Kom û kartên bi geroka horizontal bigerin"
@@ -79,6 +91,9 @@ msgstr "Navê dizî:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Temam kirin"
 
@@ -87,6 +102,15 @@ msgstr "Naveroka ji Altadefinizone - OK bikirtînin da ku vekin..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Naveroka ji CB01 - OK bikirtînin da ku vekin..."
+
+msgid "Crime"
+msgstr "Nebaşî"
+
+msgid "DOWNLOAD"
+msgstr ""
+
+msgid "DOWNLOADS"
+msgstr ""
 
 msgid "Description not available."
 msgstr "Danasîn peyda nabe."
@@ -97,12 +121,18 @@ msgstr "Agahiyên ji bo: '%s'"
 msgid "Details not available"
 msgstr "Hûrgulî ne berdest in"
 
+msgid "Documentario"
+msgstr "Documentary"
+
 msgid "Download Queue"
 msgstr "Daxistina Doza"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "barkirin"
+
+msgid "Dramma"
+msgstr "Dilşewatî"
 
 msgid "ENTER"
 msgstr "DERBASBÛN"
@@ -162,11 +192,27 @@ msgstr "Di nûvekirina UI de çewtî"
 msgid "Exit"
 msgstr "Derî"
 
+msgid "Famiglia"
+msgstr "Malbat"
+
+msgid "Fantascienza"
+msgstr "Her eve bû"
+
+msgid "Fantasy"
+msgstr "Xeyal"
+
 msgid "GROUPS"
 msgstr "GROUPS"
 
 msgid "History"
 msgstr "Dîrok"
+
+#, fuzzy
+msgid "Horror"
+msgstr "şaşî"
+
+msgid "I Titoli Del Momento"
+msgstr "Sernavên Demê"
 
 msgid "Invalid folder!"
 msgstr "Peldanka nederbasdar!"
@@ -271,6 +317,9 @@ msgstr "Bitikîne OK ji bo dîtina hûrguliyên tevahî..."
 msgid "REFRESH"
 msgstr "HÊNIKKIRIN"
 
+msgid "Reality"
+msgstr "Rastî"
+
 msgid "Refresh"
 msgstr "Hênikkirin"
 
@@ -279,6 +328,9 @@ msgstr "Dûrxistin"
 
 msgid "Retry"
 msgstr "Ji nû ve biceribîne"
+
+msgid "Romance"
+msgstr "Navderketina evînî"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Dîroka Rêzefîlma TV"
 msgid "TV series history cleared"
 msgstr "Dîroka Rêzefîlma TV"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Demjimêr ji bo daxwazên lêgerînê (çirk)"
 
 msgid "Title"
 msgstr "Nav"
+
+msgid "Top 10 di oggi"
+msgstr "10 topên îro"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Bi tevahî: {} | Çalak: {} | Peldanka: {}"
@@ -359,6 +417,14 @@ msgstr "Cure: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Komên jor/jêr | kartên ÇEP/RAST | OK vekirî"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Komên jor/jêr | kartên ÇEP/RAST | OK vekirî"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Nikare URL-ya weşana xwe bigire"
 
 msgid "Unable to get stream for this episode"
 msgstr "Nekarî ji bo vê beşê weşana xwe bigire"

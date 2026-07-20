@@ -40,8 +40,20 @@ msgstr ">>> اقساط <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> موسم <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "حال ہی میں شامل کیا گیا۔"
+
+msgid "Animazione"
+msgstr "حرکت پذیری"
+
 msgid "Available links:"
 msgstr "دستیاب لنکس:"
+
+msgid "Avventura"
+msgstr "ایڈونچر"
+
+msgid "Azione"
+msgstr "ایکشن"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "افقی اسکرولنگ کے ساتھ گروپس اور کارڈز کو براؤز کریں۔"
@@ -79,6 +91,9 @@ msgstr "کوڈ:"
 msgid "Code: {self.captcha_code}"
 msgstr "کوڈ: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "کامیڈیا۔"
+
 msgid "Completed"
 msgstr "مکمل"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione کی طرف سے مواد - کھولنے کے لیے OK 
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 سے مواد - کھولنے کے لیے OK دبائیں..."
+
+msgid "Crime"
+msgstr "جرم"
+
+msgid "DOWNLOAD"
+msgstr "ڈاؤن لوڈ کریں۔"
+
+msgid "DOWNLOADS"
+msgstr "ڈاؤن لوڈز"
 
 msgid "Description not available."
 msgstr "تفصیل دستیاب نہیں ہے۔"
@@ -97,12 +121,18 @@ msgstr "تفصیلات برائے: '%s'"
 msgid "Details not available"
 msgstr "تفصیلات دستیاب نہیں ہیں۔"
 
+msgid "Documentario"
+msgstr "دستاویزی فلم"
+
 msgid "Download Queue"
 msgstr "قطار ڈاؤن لوڈ کریں۔"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "لوڈ ہو رہا ہے"
+
+msgid "Dramma"
+msgstr "ڈرامہ"
 
 msgid "ENTER"
 msgstr "داخل کریں۔"
@@ -162,11 +192,27 @@ msgstr "UI کو اپ ڈیٹ کرنے میں خرابی۔"
 msgid "Exit"
 msgstr "باہر نکلیں۔"
 
+msgid "Famiglia"
+msgstr "خاندان"
+
+msgid "Fantascienza"
+msgstr "سائنس فکشن"
+
+msgid "Fantasy"
+msgstr "تصور"
+
 msgid "GROUPS"
 msgstr "گروپس"
 
 msgid "History"
 msgstr "تاریخ"
+
+#, fuzzy
+msgid "Horror"
+msgstr "غلطی"
+
+msgid "I Titoli Del Momento"
+msgstr "لمحے کے عنوانات"
 
 msgid "Invalid folder!"
 msgstr "غلط فولڈر!"
@@ -271,6 +317,9 @@ msgstr "مکمل تفصیلات دیکھنے کے لیے OK دبائیں..."
 msgid "REFRESH"
 msgstr "ریفریش کریں۔"
 
+msgid "Reality"
+msgstr "حقیقت"
+
 msgid "Refresh"
 msgstr "ریفریش کریں۔"
 
@@ -279,6 +328,9 @@ msgstr "ہٹا دیں۔"
 
 msgid "Retry"
 msgstr "دوبارہ کوشش کریں۔"
+
+msgid "Romance"
+msgstr "رومانس"
 
 msgid "SC"
 msgstr "ایس سی"
@@ -345,11 +397,17 @@ msgstr "ٹی وی سیریز کی تاریخ"
 msgid "TV series history cleared"
 msgstr "ٹی وی سیریز کی تاریخ"
 
+msgid "Thriller"
+msgstr "تھرلر"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "تلاش کی درخواستوں کا ٹائم آؤٹ (سیکنڈ)"
 
 msgid "Title"
 msgstr "عنوان"
+
+msgid "Top 10 di oggi"
+msgstr "آج کے ٹاپ 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "کل: {} | فعال: {} | فولڈر: {}"
@@ -359,6 +417,14 @@ msgstr "قسم: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "اوپر/نیچے گروپس | بائیں/دائیں کارڈز | ٹھیک ہے کھولو"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "اوپر/نیچے گروپس | بائیں/دائیں کارڈز | ٹھیک ہے کھولو"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "سلسلہ بندی کا URL حاصل کرنے سے قاصر"
 
 msgid "Unable to get stream for this episode"
 msgstr "اس ایپی سوڈ کے لیے سلسلہ حاصل کرنے سے قاصر"

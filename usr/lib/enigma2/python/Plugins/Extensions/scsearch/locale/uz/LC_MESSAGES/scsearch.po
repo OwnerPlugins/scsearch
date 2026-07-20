@@ -40,8 +40,20 @@ msgstr ">>> Qismlar <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Fasllar <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Yaqinda qo'shilgan"
+
+msgid "Animazione"
+msgstr "Animatsiya"
+
 msgid "Available links:"
 msgstr "Mavjud havolalar:"
+
+msgid "Avventura"
+msgstr "Sarguzasht"
+
+msgid "Azione"
+msgstr "Harakat"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Gorizontal aylantirish bilan guruhlar va kartalarni ko'rib chiqing"
@@ -79,6 +91,9 @@ msgstr "Kod:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Komediya"
+
 msgid "Completed"
 msgstr "Bajarildi"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione tarkibi - Ochish uchun OK tugmasini bosing..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 tarkibi - Ochish uchun OK tugmasini bosing..."
+
+msgid "Crime"
+msgstr "Jinoyat"
+
+msgid "DOWNLOAD"
+msgstr "YUKLAB OLISH"
+
+msgid "DOWNLOADS"
+msgstr "YUKLAMALAR"
 
 msgid "Description not available."
 msgstr "Tavsif mavjud emas."
@@ -97,12 +121,18 @@ msgstr "Tafsilotlar: '%s'"
 msgid "Details not available"
 msgstr "Tafsilotlar mavjud emas"
 
+msgid "Documentario"
+msgstr "Hujjatli film"
+
 msgid "Download Queue"
 msgstr "Yuklab olish navbati"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "yuklash"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "KIRISH"
@@ -162,11 +192,27 @@ msgstr "UI yangilanmadi"
 msgid "Exit"
 msgstr "Chiqish"
 
+msgid "Famiglia"
+msgstr "Oila"
+
+msgid "Fantascienza"
+msgstr "ilmiy fantastika"
+
+msgid "Fantasy"
+msgstr "Fantaziya"
+
 msgid "GROUPS"
 msgstr "GURUHLAR"
 
 msgid "History"
 msgstr "Tarix"
+
+#, fuzzy
+msgid "Horror"
+msgstr "xato"
+
+msgid "I Titoli Del Momento"
+msgstr "Lahza sarlavhalari"
 
 msgid "Invalid folder!"
 msgstr "Yaroqsiz jild!"
@@ -271,6 +317,9 @@ msgstr "Toʻliq maʼlumotlarni koʻrish uchun OK tugmasini bosing..."
 msgid "REFRESH"
 msgstr "YANGILASH"
 
+msgid "Reality"
+msgstr "Haqiqat"
+
 msgid "Refresh"
 msgstr "Yangilash"
 
@@ -279,6 +328,9 @@ msgstr "O'chirish"
 
 msgid "Retry"
 msgstr "Qayta urinish"
+
+msgid "Romance"
+msgstr "Romantika"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Seriallar tarixi"
 msgid "TV series history cleared"
 msgstr "Seriallar tarixi"
 
+msgid "Thriller"
+msgstr "Triller"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Qidiruv soʻrovlari uchun vaqt tugashi (soniya)"
 
 msgid "Title"
 msgstr "Sarlavha"
+
+msgid "Top 10 di oggi"
+msgstr "Bugungi eng yaxshi 10 taligi"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Jami: {} | Faol: {} | Jild: {}"
@@ -359,6 +417,14 @@ msgstr "Turi: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "YUQARIDA/PASTGA guruhlar | LEFT/RIGHT kartalari | OK ochiq"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "YUQARIDA/PASTGA guruhlar | LEFT/RIGHT kartalari | OK ochiq"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Oqim URL manzilini olib bo‘lmadi"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu qism uchun translatsiyani olib bo‘lmadi"

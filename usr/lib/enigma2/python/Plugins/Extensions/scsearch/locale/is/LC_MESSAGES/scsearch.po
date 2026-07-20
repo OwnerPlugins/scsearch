@@ -40,8 +40,20 @@ msgstr ">>> Þættir <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Árstíðir <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Nýlega bætt við"
+
+msgid "Animazione"
+msgstr "Hreyfimynd"
+
 msgid "Available links:"
 msgstr "Tiltækir tenglar:"
+
+msgid "Avventura"
+msgstr "Ævintýri"
+
+msgid "Azione"
+msgstr "Aðgerð"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Skoðaðu hópa og spil með láréttri skrun"
@@ -79,6 +91,9 @@ msgstr "Kóði:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kóði: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Lokið"
 
@@ -87,6 +102,15 @@ msgstr "Efni frá Altadefinizione - Ýttu á OK til að opna..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Efni frá CB01 - Ýttu á OK til að opna..."
+
+msgid "Crime"
+msgstr "Glæpur"
+
+msgid "DOWNLOAD"
+msgstr "HLAÐA niður"
+
+msgid "DOWNLOADS"
+msgstr "NIÐUR"
 
 msgid "Description not available."
 msgstr "Lýsing ekki tiltæk."
@@ -97,12 +121,18 @@ msgstr "Upplýsingar um: '%s'"
 msgid "Details not available"
 msgstr "Upplýsingar ekki tiltækar"
 
+msgid "Documentario"
+msgstr "Heimildarmynd"
+
 msgid "Download Queue"
 msgstr "Sækja biðröð"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "hleðsla"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -162,11 +192,27 @@ msgstr "Villa við að uppfæra notendaviðmót"
 msgid "Exit"
 msgstr "Hætta"
 
+msgid "Famiglia"
+msgstr "Fjölskylda"
+
+msgid "Fantascienza"
+msgstr "Vísindaskáldskapur"
+
+msgid "Fantasy"
+msgstr "Fantasía"
+
 msgid "GROUPS"
 msgstr "HÓPAR"
 
 msgid "History"
 msgstr "Saga"
+
+#, fuzzy
+msgid "Horror"
+msgstr "villa"
+
+msgid "I Titoli Del Momento"
+msgstr "Titlar augnabliksins"
 
 msgid "Invalid folder!"
 msgstr "Ógild mappa!"
@@ -271,6 +317,9 @@ msgstr "Ýttu á OK til að skoða allar upplýsingar..."
 msgid "REFRESH"
 msgstr "UPPFÆRSLA"
 
+msgid "Reality"
+msgstr "Raunveruleiki"
+
 msgid "Refresh"
 msgstr "Endurnýja"
 
@@ -279,6 +328,9 @@ msgstr "Fjarlægja"
 
 msgid "Retry"
 msgstr "Reyndu aftur"
+
+msgid "Romance"
+msgstr "Rómantík"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Saga sjónvarpsþátta"
 msgid "TV series history cleared"
 msgstr "Saga sjónvarpsþátta"
 
+msgid "Thriller"
+msgstr "Spennumynd"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Tímamörk fyrir leitarbeiðnir (sekúndur)"
 
 msgid "Title"
 msgstr "Titill"
+
+msgid "Top 10 di oggi"
+msgstr "Topp 10 dagsins"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Samtals: {} | Virkur: {} | Mappa: {}"
@@ -359,6 +417,14 @@ msgstr "Tegund: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Ekki er hægt að ná í vefslóð streymis"
 
 msgid "Unable to get stream for this episode"
 msgstr "Ekki er hægt að sækja streymi fyrir þennan þátt"

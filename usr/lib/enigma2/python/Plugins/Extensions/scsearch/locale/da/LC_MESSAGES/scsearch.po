@@ -40,8 +40,20 @@ msgstr ">>> Afsnit <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Årstider <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Nyligt tilføjet"
+
+msgid "Animazione"
+msgstr "Animation"
+
 msgid "Available links:"
 msgstr "Tilgængelige links:"
+
+msgid "Avventura"
+msgstr "Eventyr"
+
+msgid "Azione"
+msgstr "Handling"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Gennemse grupper og kort med vandret rulning"
@@ -79,6 +91,9 @@ msgstr "Kode:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kode: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Afsluttet"
 
@@ -87,6 +102,15 @@ msgstr "Indhold fra Altadefinizione - Tryk på OK for at åbne..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Indhold fra CB01 - Tryk på OK for at åbne..."
+
+msgid "Crime"
+msgstr "Forbrydelse"
+
+msgid "DOWNLOAD"
+msgstr ""
+
+msgid "DOWNLOADS"
+msgstr ""
 
 msgid "Description not available."
 msgstr "Beskrivelse ikke tilgængelig."
@@ -97,12 +121,18 @@ msgstr "Detaljer for: '%s'"
 msgid "Details not available"
 msgstr "Detaljer ikke tilgængelige"
 
+msgid "Documentario"
+msgstr "Dokumentar"
+
 msgid "Download Queue"
 msgstr "Download kø"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "indlæsning"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -162,11 +192,27 @@ msgstr "Fejl under opdatering af brugergrænsefladen"
 msgid "Exit"
 msgstr "Udgang"
 
+msgid "Famiglia"
+msgstr "Familie"
+
+msgid "Fantascienza"
+msgstr "Science fiction"
+
+msgid "Fantasy"
+msgstr "Fantasi"
+
 msgid "GROUPS"
 msgstr "GRUPPER"
 
 msgid "History"
 msgstr "Historie"
+
+#, fuzzy
+msgid "Horror"
+msgstr "fejl"
+
+msgid "I Titoli Del Momento"
+msgstr "Øjeblikkets titler"
 
 msgid "Invalid folder!"
 msgstr "Ugyldig mappe!"
@@ -271,6 +317,9 @@ msgstr "Tryk på OK for at se alle detaljer..."
 msgid "REFRESH"
 msgstr "OPFRISKE"
 
+msgid "Reality"
+msgstr "Virkelighed"
+
 msgid "Refresh"
 msgstr "Opfriske"
 
@@ -279,6 +328,9 @@ msgstr "Fjerne"
 
 msgid "Retry"
 msgstr "Prøv igen"
+
+msgid "Romance"
+msgstr "Romantik"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "TV-seriens historie"
 msgid "TV series history cleared"
 msgstr "TV-seriens historie"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Timeout for søgeanmodninger (sekunder)"
 
 msgid "Title"
 msgstr "Titel"
+
+msgid "Top 10 di oggi"
+msgstr "Dagens top 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "I alt: {} | Aktiv: {} | Mappe: {}"
@@ -359,6 +417,14 @@ msgstr "Type: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "OP/NED grupper | VENSTRE/HØJRE kort | OK åben"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "OP/NED grupper | VENSTRE/HØJRE kort | OK åben"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Kan ikke hente streaming-URL"
 
 msgid "Unable to get stream for this episode"
 msgstr "Kan ikke hente stream for dette afsnit"

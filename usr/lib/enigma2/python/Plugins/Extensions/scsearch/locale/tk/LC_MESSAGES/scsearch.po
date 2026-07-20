@@ -40,8 +40,20 @@ msgstr ">>> Bölümler <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Möwsümler <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Recentlyakynda goşuldy"
+
+msgid "Animazione"
+msgstr "Animasiýa"
+
 msgid "Available links:"
 msgstr "Elýeterli baglanyşyklar:"
+
+msgid "Avventura"
+msgstr "Başdan geçirmeler"
+
+msgid "Azione"
+msgstr "Hereket"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Gorizontal aýlaw bilen toparlara we kartalara göz aýlaň"
@@ -79,6 +91,9 @@ msgstr "Kod:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Komediýa"
+
 msgid "Completed"
 msgstr "Tamamlandy"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione-dan mazmun - açmak üçin OK basyň ..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01-den mazmun - açmak üçin OK basyň ..."
+
+msgid "Crime"
+msgstr "Jenaýat"
+
+msgid "DOWNLOAD"
+msgstr "OWükle"
+
+msgid "DOWNLOADS"
+msgstr "OWükle"
 
 msgid "Description not available."
 msgstr "Düşündiriş ýok"
@@ -97,12 +121,18 @@ msgstr "Jikme-jiklikler: '% s'"
 msgid "Details not available"
 msgstr "Jikme-jiklikler ýok"
 
+msgid "Documentario"
+msgstr "Dokumental film"
+
 msgid "Download Queue"
 msgstr "Nobaty göçürip al"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "ýüklemek"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "Giriş"
@@ -162,11 +192,27 @@ msgstr "UI täzelenmekde säwlik"
 msgid "Exit"
 msgstr "Çyk"
 
+msgid "Famiglia"
+msgstr "Maşgala"
+
+msgid "Fantascienza"
+msgstr "Ylmy fantastika"
+
+msgid "Fantasy"
+msgstr "Fantaziýa"
+
 msgid "GROUPS"
 msgstr "GROUPS"
 
 msgid "History"
 msgstr "Taryh"
+
+#, fuzzy
+msgid "Horror"
+msgstr "ýalňyşlyk"
+
+msgid "I Titoli Del Momento"
+msgstr "Wagtyň atlary"
 
 msgid "Invalid folder!"
 msgstr "Nädogry bukja!"
@@ -271,6 +317,9 @@ msgstr "Doly maglumatlary görmek üçin OK basyň ..."
 msgid "REFRESH"
 msgstr "GÖRNÜŞ"
 
+msgid "Reality"
+msgstr "Hakykat"
+
 msgid "Refresh"
 msgstr "Täzele"
 
@@ -279,6 +328,9 @@ msgstr "Aýyr"
 
 msgid "Retry"
 msgstr "Gaýtadan synanyşyň"
+
+msgid "Romance"
+msgstr "Romantika"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Teleseriallaryň taryhy"
 msgid "TV series history cleared"
 msgstr "Teleseriallaryň taryhy"
 
+msgid "Thriller"
+msgstr "Triller"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Gözleg haýyşlarynyň wagty (sekuntlar)"
 
 msgid "Title"
 msgstr "Ady"
+
+msgid "Top 10 di oggi"
+msgstr "Şu gün iň gowy 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Jemi: {} | Işjeň: {} | Papka: {}"
@@ -359,6 +417,14 @@ msgstr "Görnüşi:% s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Akym URL-ni alyp bolmaýar"
 
 msgid "Unable to get stream for this episode"
 msgstr "Bu bölüm üçin akym alyp bolmaýar"

@@ -40,8 +40,20 @@ msgstr ">>> עפּיזאָד <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> סעאַסאָנס <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "לעצטנס צוגעגעבן"
+
+msgid "Animazione"
+msgstr "אַנאַמיישאַן"
+
 msgid "Available links:"
 msgstr "בנימצא לינקס:"
+
+msgid "Avventura"
+msgstr "פּאַסירונג"
+
+msgid "Azione"
+msgstr "קאַמף"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "בלעטער גרופּעס און קאַרדס מיט האָריזאָנטאַל סקראָללינג"
@@ -79,6 +91,9 @@ msgstr "קאָד:"
 msgid "Code: {self.captcha_code}"
 msgstr "קאָד: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "קאָממעדיע"
+
 msgid "Completed"
 msgstr "געענדיקט"
 
@@ -87,6 +102,15 @@ msgstr "אינהאַלט פֿון אַלטאַדעפיזיאָנע - דרוק OK
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "אינהאַלט פֿון CB01 - דרוק OK צו עפֿענען ..."
+
+msgid "Crime"
+msgstr "פאַרברעכן"
+
+msgid "DOWNLOAD"
+msgstr "דאַונלאָוד"
+
+msgid "DOWNLOADS"
+msgstr "דאַונלאָודז"
 
 msgid "Description not available."
 msgstr "באַשרייַבונג ניט בנימצא."
@@ -97,12 +121,18 @@ msgstr "דעטאַילס פֿאַר: '%s'"
 msgid "Details not available"
 msgstr "דעטאַילס ניט בנימצא"
 
+msgid "Documentario"
+msgstr "דאַקיומענטערי"
+
 msgid "Download Queue"
 msgstr "אראפקאפיע ריי"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "loading"
+
+msgid "Dramma"
+msgstr "דראַמע"
 
 msgid "ENTER"
 msgstr "אַרייַן"
@@ -162,11 +192,27 @@ msgstr "טעות אַפּדייט UI"
 msgid "Exit"
 msgstr "אַרויסגאַנג"
 
+msgid "Famiglia"
+msgstr "משפּחה"
+
+msgid "Fantascienza"
+msgstr "וויסנשאַפֿט בעלעטריסטיק"
+
+msgid "Fantasy"
+msgstr "פאַנטאַסי"
+
 msgid "GROUPS"
 msgstr "גרופּעס"
 
 msgid "History"
 msgstr "געשיכטע"
+
+#, fuzzy
+msgid "Horror"
+msgstr "טעות"
+
+msgid "I Titoli Del Momento"
+msgstr "די טיטלען פון דעם מאמענט"
 
 msgid "Invalid folder!"
 msgstr "אומגילטיק טעקע!"
@@ -271,6 +317,9 @@ msgstr "דרוק OK צו זען פול דעטאַילס ..."
 msgid "REFRESH"
 msgstr "REFRESH"
 
+msgid "Reality"
+msgstr "מציאות"
+
 msgid "Refresh"
 msgstr "דערפרישן"
 
@@ -279,6 +328,9 @@ msgstr "אַראָפּנעמען"
 
 msgid "Retry"
 msgstr "פרובירט ווידער"
+
+msgid "Romance"
+msgstr "ראָמאַנס"
 
 msgid "SC"
 msgstr "סק"
@@ -345,11 +397,17 @@ msgstr "טעלעוויזיע סעריע געשיכטע"
 msgid "TV series history cleared"
 msgstr "טעלעוויזיע סעריע געשיכטע"
 
+msgid "Thriller"
+msgstr "טהריללער"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "צייט פֿאַר זוכן ריקוועס (סעקונדן)"
 
 msgid "Title"
 msgstr "טיטל"
+
+msgid "Top 10 di oggi"
+msgstr "הייַנט ס שפּיץ 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "גאַנץ: {} | אַקטיוו: {} | טעקע: {}"
@@ -359,6 +417,14 @@ msgstr "טיפּ: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP/DOWN גרופּעס | לינקס / רעכט קאַרדס | גוט עפענען"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN גרופּעס | לינקס / רעכט קאַרדס | גוט עפענען"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "ניט געקענט באַקומען סטרימינג URL"
 
 msgid "Unable to get stream for this episode"
 msgstr "ניט געקענט באַקומען סטרימינג פֿאַר דעם עפּיזאָד"

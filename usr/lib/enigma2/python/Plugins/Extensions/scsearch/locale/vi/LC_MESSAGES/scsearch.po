@@ -40,8 +40,20 @@ msgstr ">>> Các tập <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Các mùa <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Đã thêm gần đây"
+
+msgid "Animazione"
+msgstr "Hoạt hình"
+
 msgid "Available links:"
 msgstr "Liên kết có sẵn:"
+
+msgid "Avventura"
+msgstr "Cuộc phiêu lưu"
+
+msgid "Azione"
+msgstr "Hoạt động"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Duyệt các nhóm và thẻ bằng cách cuộn ngang"
@@ -79,6 +91,9 @@ msgstr "Mã số:"
 msgid "Code: {self.captcha_code}"
 msgstr "Mã: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Hoàn thành"
 
@@ -87,6 +102,15 @@ msgstr "Nội dung từ Altadefinizione - Nhấn OK để mở..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Nội dung từ CB01 - Nhấn OK để mở..."
+
+msgid "Crime"
+msgstr "Tội phạm"
+
+msgid "DOWNLOAD"
+msgstr "TẢI XUỐNG"
+
+msgid "DOWNLOADS"
+msgstr "TẢI XUỐNG"
 
 msgid "Description not available."
 msgstr "Mô tả không có sẵn."
@@ -97,12 +121,18 @@ msgstr "Thông tin chi tiết về: '%s'"
 msgid "Details not available"
 msgstr "Thông tin chi tiết không có sẵn"
 
+msgid "Documentario"
+msgstr "Phim tài liệu"
+
 msgid "Download Queue"
 msgstr "Hàng đợi tải xuống"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "đang tải"
+
+msgid "Dramma"
+msgstr "Kịch"
 
 msgid "ENTER"
 msgstr "ĐI VÀO"
@@ -162,11 +192,27 @@ msgstr "Lỗi cập nhật giao diện người dùng"
 msgid "Exit"
 msgstr "Ra"
 
+msgid "Famiglia"
+msgstr "Gia đình"
+
+msgid "Fantascienza"
+msgstr "khoa học viễn tưởng"
+
+msgid "Fantasy"
+msgstr "Tưởng tượng"
+
 msgid "GROUPS"
 msgstr "NHÓM"
 
 msgid "History"
 msgstr "Lịch sử"
+
+#, fuzzy
+msgid "Horror"
+msgstr "lỗi"
+
+msgid "I Titoli Del Momento"
+msgstr "Tiêu đề của khoảnh khắc"
 
 msgid "Invalid folder!"
 msgstr "Thư mục không hợp lệ!"
@@ -271,6 +317,9 @@ msgstr "Nhấn OK để xem đầy đủ chi tiết..."
 msgid "REFRESH"
 msgstr "LÀM CHO KHỎE LẠI"
 
+msgid "Reality"
+msgstr "Thực tế"
+
 msgid "Refresh"
 msgstr "Làm cho khỏe lại"
 
@@ -279,6 +328,9 @@ msgstr "Di dời"
 
 msgid "Retry"
 msgstr "Thử lại"
+
+msgid "Romance"
+msgstr "Lãng mạn"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Lịch sử phim truyền hình"
 msgid "TV series history cleared"
 msgstr "Lịch sử phim truyền hình"
 
+msgid "Thriller"
+msgstr "Giật gân"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Thời gian chờ cho yêu cầu tìm kiếm (giây)"
 
 msgid "Title"
 msgstr "Tiêu đề"
+
+msgid "Top 10 di oggi"
+msgstr "Top 10 hôm nay"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Tổng cộng: {} | Đang hoạt động: {} | Thư mục: {}"
@@ -359,6 +417,14 @@ msgstr "Loại: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Không thể lấy URL phát trực tuyến"
 
 msgid "Unable to get stream for this episode"
 msgstr "Không thể nhận luồng cho tập này"

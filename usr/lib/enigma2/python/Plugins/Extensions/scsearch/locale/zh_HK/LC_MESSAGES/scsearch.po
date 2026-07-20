@@ -40,8 +40,20 @@ msgstr ">>> 劇集 <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> 季節 <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "最近新增"
+
+msgid "Animazione"
+msgstr "卡通"
+
 msgid "Available links:"
 msgstr "可用連結："
+
+msgid "Avventura"
+msgstr "冒險"
+
+msgid "Azione"
+msgstr "行動"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "透過水平滾動瀏覽組和卡片"
@@ -79,6 +91,9 @@ msgstr "代碼："
 msgid "Code: {self.captcha_code}"
 msgstr "代碼：{self.captcha_code}"
 
+msgid "Commedia"
+msgstr "喜劇"
+
 msgid "Completed"
 msgstr "完全的"
 
@@ -87,6 +102,15 @@ msgstr "來自 Altadefinizone 的內容 - 按「確定」開啟..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 的內容 - 按下「確定」開啟..."
+
+msgid "Crime"
+msgstr "犯罪"
+
+msgid "DOWNLOAD"
+msgstr "下載"
+
+msgid "DOWNLOADS"
+msgstr "下載"
 
 msgid "Description not available."
 msgstr "描述不可用。"
@@ -97,12 +121,18 @@ msgstr "詳細資料：“%s”"
 msgid "Details not available"
 msgstr "詳細資訊不詳"
 
+msgid "Documentario"
+msgstr "記錄"
+
 msgid "Download Queue"
 msgstr "下載隊列"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "載入中"
+
+msgid "Dramma"
+msgstr "戲劇"
 
 msgid "ENTER"
 msgstr "進入"
@@ -162,11 +192,27 @@ msgstr "更新使用者介面時出錯"
 msgid "Exit"
 msgstr "出口"
 
+msgid "Famiglia"
+msgstr "家庭"
+
+msgid "Fantascienza"
+msgstr "科幻小說"
+
+msgid "Fantasy"
+msgstr "幻想"
+
 msgid "GROUPS"
 msgstr "團體"
 
 msgid "History"
 msgstr "歷史"
+
+#, fuzzy
+msgid "Horror"
+msgstr "錯誤"
+
+msgid "I Titoli Del Momento"
+msgstr "當下的標題"
 
 msgid "Invalid folder!"
 msgstr "無效的資料夾！"
@@ -271,6 +317,9 @@ msgstr "按“確定”查看完整詳細資訊..."
 msgid "REFRESH"
 msgstr "重新整理"
 
+msgid "Reality"
+msgstr "現實"
+
 msgid "Refresh"
 msgstr "重新整理"
 
@@ -279,6 +328,9 @@ msgstr "消除"
 
 msgid "Retry"
 msgstr "重試"
+
+msgid "Romance"
+msgstr "浪漫"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "電視劇歷史"
 msgid "TV series history cleared"
 msgstr "電視劇歷史"
 
+msgid "Thriller"
+msgstr "驚悚片"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "搜尋請求逾時（秒）"
 
 msgid "Title"
 msgstr "標題"
+
+msgid "Top 10 di oggi"
+msgstr "今日前 10 名"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "總計：{} | 活動：{} | 資料夾： {}"
@@ -359,6 +417,14 @@ msgstr "類型：%s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "上/下組 | 左/右卡 | 確定開啟"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "上/下組 | 左/右卡 | 確定開啟"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "無法取得直播地址"
 
 msgid "Unable to get stream for this episode"
 msgstr "無法觀看該集的直播"

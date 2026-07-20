@@ -40,8 +40,20 @@ msgstr ">>> Penodau <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Tymhorau <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Ychwanegwyd yn Ddiweddar"
+
+msgid "Animazione"
+msgstr "Animeiddiad"
+
 msgid "Available links:"
 msgstr "Dolenni ar gael:"
+
+msgid "Avventura"
+msgstr "Antur"
+
+msgid "Azione"
+msgstr "Gweithred"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Pori grwpiau a chardiau gyda sgrolio llorweddol"
@@ -79,6 +91,9 @@ msgstr "Cod:"
 msgid "Code: {self.captcha_code}"
 msgstr "Cod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Cwblhawyd"
 
@@ -87,6 +102,15 @@ msgstr "Cynnwys o Altadefinizione - Pwyswch OK i agor..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Cynnwys o CB01 - Pwyswch OK i agor..."
+
+msgid "Crime"
+msgstr "Trosedd"
+
+msgid "DOWNLOAD"
+msgstr "LLWYTHO"
+
+msgid "DOWNLOADS"
+msgstr "LLWYTHAU"
 
 msgid "Description not available."
 msgstr "Disgrifiad ddim ar gael."
@@ -97,12 +121,18 @@ msgstr "Manylion ar gyfer: '%s'"
 msgid "Details not available"
 msgstr "Manylion ddim ar gael"
 
+msgid "Documentario"
+msgstr "Rhaglen ddogfen"
+
 msgid "Download Queue"
 msgstr "Ciw Lawrlwytho"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "llwytho"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "ENWCH"
@@ -162,11 +192,27 @@ msgstr "Gwall wrth ddiweddaru'r UI"
 msgid "Exit"
 msgstr "Ymadael"
 
+msgid "Famiglia"
+msgstr "Teulu"
+
+msgid "Fantascienza"
+msgstr "Ffuglen wyddonol"
+
+msgid "Fantasy"
+msgstr "Ffantasi"
+
 msgid "GROUPS"
 msgstr "GRWPIAU"
 
 msgid "History"
 msgstr "Hanes"
+
+#, fuzzy
+msgid "Horror"
+msgstr "gwall"
+
+msgid "I Titoli Del Momento"
+msgstr "Teitlau'r Foment"
 
 msgid "Invalid folder!"
 msgstr "Ffolder annilys!"
@@ -271,6 +317,9 @@ msgstr "Pwyswch OK i weld y manylion llawn..."
 msgid "REFRESH"
 msgstr "DIWYGIO"
 
+msgid "Reality"
+msgstr "Gwirionedd"
+
 msgid "Refresh"
 msgstr "Adnewyddu"
 
@@ -279,6 +328,9 @@ msgstr "Dileu"
 
 msgid "Retry"
 msgstr "Ceisiwch eto"
+
+msgid "Romance"
+msgstr "Rhamant"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Hanes Cyfres Deledu"
 msgid "TV series history cleared"
 msgstr "Hanes Cyfres Deledu"
 
+msgid "Thriller"
+msgstr "Cyffro"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Cyfnod terfyn ar gyfer ceisiadau chwilio (eiliadau)"
 
 msgid "Title"
 msgstr "Teitl"
+
+msgid "Top 10 di oggi"
+msgstr "Y 10 uchaf heddiw"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Cyfanswm: {} | Actif: {} | Ffolder: {}"
@@ -359,6 +417,14 @@ msgstr "Math: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Grwpiau I FYNY/I LAWR | Cardiau CHWITH/DE | Iawn agor"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grwpiau I FYNY/I LAWR | Cardiau CHWITH/DE | Iawn agor"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Methu cael URL ffrydio"
 
 msgid "Unable to get stream for this episode"
 msgstr "Methu cael ffrwd ar gyfer y bennod hon"

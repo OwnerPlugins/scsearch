@@ -40,8 +40,20 @@ msgstr ">>> Episodis <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Temporades <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Afegit recentment"
+
+msgid "Animazione"
+msgstr "Animació"
+
 msgid "Available links:"
 msgstr "Enllaços disponibles:"
+
+msgid "Avventura"
+msgstr "Aventura"
+
+msgid "Azione"
+msgstr "Acció"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Navega per grups i targetes amb desplaçament horitzontal"
@@ -79,6 +91,9 @@ msgstr "Codi:"
 msgid "Code: {self.captcha_code}"
 msgstr "Codi: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Comèdia"
+
 msgid "Completed"
 msgstr "Completat"
 
@@ -87,6 +102,15 @@ msgstr "Contingut d'Altadefinizione: premeu D'acord per obrir..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Contingut de CB01: premeu D'acord per obrir..."
+
+msgid "Crime"
+msgstr "Crim"
+
+msgid "DOWNLOAD"
+msgstr "DESCARREGAR"
+
+msgid "DOWNLOADS"
+msgstr "DESCÀRREGAS"
 
 msgid "Description not available."
 msgstr "Descripció no disponible."
@@ -97,12 +121,18 @@ msgstr "Detalls per a: '%s'"
 msgid "Details not available"
 msgstr "Detalls no disponibles"
 
+msgid "Documentario"
+msgstr "Documental"
+
 msgid "Download Queue"
 msgstr "Cua de descàrrega"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "carregant"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "ENTRAR"
@@ -162,11 +192,27 @@ msgstr "S'ha produït un error en actualitzar la interfície d'usuari"
 msgid "Exit"
 msgstr "Sortida"
 
+msgid "Famiglia"
+msgstr "Família"
+
+msgid "Fantascienza"
+msgstr "Ciència ficció"
+
+msgid "Fantasy"
+msgstr "Fantasia"
+
 msgid "GROUPS"
 msgstr "GRUPS"
 
 msgid "History"
 msgstr "Història"
+
+#, fuzzy
+msgid "Horror"
+msgstr "error"
+
+msgid "I Titoli Del Momento"
+msgstr "Els títols del moment"
 
 msgid "Invalid folder!"
 msgstr "Carpeta no vàlida!"
@@ -271,6 +317,9 @@ msgstr "Premeu D'acord per veure tots els detalls..."
 msgid "REFRESH"
 msgstr "ACTUALITZAR"
 
+msgid "Reality"
+msgstr "Realitat"
+
 msgid "Refresh"
 msgstr "Actualitzar"
 
@@ -279,6 +328,9 @@ msgstr "Eliminar"
 
 msgid "Retry"
 msgstr "Torna-ho a provar"
+
+msgid "Romance"
+msgstr "Romanç"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Història de la sèrie de televisió"
 msgid "TV series history cleared"
 msgstr "Història de la sèrie de televisió"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Temps d'espera per a les sol·licituds de cerca (segons)"
 
 msgid "Title"
 msgstr "Títol"
+
+msgid "Top 10 di oggi"
+msgstr "El top 10 d'avui"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Total: {} | Actiu: {} | Carpeta: {}"
@@ -359,6 +417,14 @@ msgstr "Tipus: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Grups UP/DOWN | Targetes ESQUERRA/DRETA | D'acord obert"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grups UP/DOWN | Targetes ESQUERRA/DRETA | D'acord obert"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "No es pot obtenir l'URL de transmissió"
 
 msgid "Unable to get stream for this episode"
 msgstr "No es pot obtenir la reproducció d'aquest episodi"

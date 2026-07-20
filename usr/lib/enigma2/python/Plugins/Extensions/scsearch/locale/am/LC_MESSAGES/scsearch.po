@@ -40,8 +40,20 @@ msgstr ">>> ክፍሎች <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> ወቅቶች <<<"
 
+msgid "Aggiunti di Recente"
+msgstr ""
+
+msgid "Animazione"
+msgstr ""
+
 msgid "Available links:"
 msgstr "የሚገኙ ማገናኛዎች፡-"
+
+msgid "Avventura"
+msgstr ""
+
+msgid "Azione"
+msgstr "ድርጊት"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "ቡድኖችን እና ካርዶችን በአግድም ማሸብለል ያስሱ"
@@ -79,6 +91,9 @@ msgstr "ኮድ፡-"
 msgid "Code: {self.captcha_code}"
 msgstr "ኮድ፡ {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "ተጠናቀቀ"
 
@@ -87,6 +102,15 @@ msgstr "ይዘት ከ Altadefinizione - ለመክፈት እሺን ይጫኑ..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "ይዘት ከCB01 - ለመክፈት እሺን ይጫኑ..."
+
+msgid "Crime"
+msgstr ""
+
+msgid "DOWNLOAD"
+msgstr "አውርድ"
+
+msgid "DOWNLOADS"
+msgstr "ውርዶች"
 
 msgid "Description not available."
 msgstr "መግለጫ አይገኝም።"
@@ -97,12 +121,18 @@ msgstr "ዝርዝሮች ለ፡ '%s'"
 msgid "Details not available"
 msgstr "ዝርዝሮች አይገኙም።"
 
+msgid "Documentario"
+msgstr "ዘጋቢ ፊልም"
+
 msgid "Download Queue"
 msgstr "ወረፋ አውርድ"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "በመጫን ላይ"
+
+msgid "Dramma"
+msgstr "ድራማ"
 
 msgid "ENTER"
 msgstr "አስገባ"
@@ -162,11 +192,27 @@ msgstr "UI በማዘመን ላይ ስህተት"
 msgid "Exit"
 msgstr "ውጣ"
 
+msgid "Famiglia"
+msgstr "ቤተሰብ"
+
+msgid "Fantascienza"
+msgstr "የሳይንስ ልብወለድ"
+
+msgid "Fantasy"
+msgstr "ምናባዊ"
+
 msgid "GROUPS"
 msgstr "ቡድኖች"
 
 msgid "History"
 msgstr "ታሪክ"
+
+#, fuzzy
+msgid "Horror"
+msgstr "ስህተት"
+
+msgid "I Titoli Del Momento"
+msgstr "የወቅቱ ርዕሶች"
 
 msgid "Invalid folder!"
 msgstr "ልክ ያልሆነ አቃፊ!"
@@ -271,6 +317,9 @@ msgstr "ሙሉ ዝርዝሮችን ለማየት እሺን ይጫኑ..."
 msgid "REFRESH"
 msgstr "አድስ"
 
+msgid "Reality"
+msgstr "እውነታ"
+
 msgid "Refresh"
 msgstr "አድስ"
 
@@ -279,6 +328,9 @@ msgstr "አስወግድ"
 
 msgid "Retry"
 msgstr "እንደገና ይሞክሩ"
+
+msgid "Romance"
+msgstr "የፍቅር ጓደኝነት"
 
 msgid "SC"
 msgstr "አ.ማ"
@@ -345,11 +397,17 @@ msgstr "የቲቪ ተከታታይ ታሪክ"
 msgid "TV series history cleared"
 msgstr "የቲቪ ተከታታይ ታሪክ"
 
+msgid "Thriller"
+msgstr "ትሪለር"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "ለፍለጋ ጥያቄዎች (ሰከንዶች) ጊዜው አልፎበታል"
 
 msgid "Title"
 msgstr "ርዕስ"
+
+msgid "Top 10 di oggi"
+msgstr "የዛሬ ምርጥ 10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "ጠቅላላ፡ {} | ንቁ፡ {} | አቃፊ፡ {}"
@@ -359,6 +417,14 @@ msgstr "አይነት፡%s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "ወደላይ/ወደታች ቡድኖች | ግራ/ቀኝ ካርዶች | እሺ ክፈት"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "ወደላይ/ወደታች ቡድኖች | ግራ/ቀኝ ካርዶች | እሺ ክፈት"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "የዥረት ዩአርኤል ማግኘት አልተቻለም"
 
 msgid "Unable to get stream for this episode"
 msgstr "ለዚህ ክፍል ዥረት ማግኘት አልተቻለም"

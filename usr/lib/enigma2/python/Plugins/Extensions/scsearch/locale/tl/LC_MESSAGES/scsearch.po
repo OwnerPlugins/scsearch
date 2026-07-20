@@ -40,8 +40,20 @@ msgstr ">>> Mga Episode <<<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Mga Panahon <<<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Kamakailang Idinagdag"
+
+msgid "Animazione"
+msgstr "Animasyon"
+
 msgid "Available links:"
 msgstr "Magagamit na mga link:"
+
+msgid "Avventura"
+msgstr "Pakikipagsapalaran"
+
+msgid "Azione"
+msgstr "Aksyon"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Mag-browse ng mga grupo at card na may pahalang na pag-scroll"
@@ -79,6 +91,9 @@ msgstr "Code:"
 msgid "Code: {self.captcha_code}"
 msgstr ""
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Nakumpleto"
 
@@ -87,6 +102,15 @@ msgstr "Nilalaman mula sa Altadefinizione - Pindutin ang OK upang buksan..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Nilalaman mula sa CB01 - Pindutin ang OK para buksan..."
+
+msgid "Crime"
+msgstr "Krimen"
+
+msgid "DOWNLOAD"
+msgstr "I-DOWNLOAD"
+
+msgid "DOWNLOADS"
+msgstr "MGA DOWNLOAD"
 
 msgid "Description not available."
 msgstr "Hindi available ang paglalarawan."
@@ -97,12 +121,18 @@ msgstr "Mga detalye para sa: '%s'"
 msgid "Details not available"
 msgstr "Hindi available ang mga detalye"
 
+msgid "Documentario"
+msgstr "Dokumentaryo"
+
 msgid "Download Queue"
 msgstr "I-download ang Queue"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "naglo-load"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "PUMASOK"
@@ -162,11 +192,27 @@ msgstr "Error sa pag-update ng UI"
 msgid "Exit"
 msgstr "Lumabas"
 
+msgid "Famiglia"
+msgstr "Pamilya"
+
+msgid "Fantascienza"
+msgstr "Science fiction"
+
+msgid "Fantasy"
+msgstr "Pantasya"
+
 msgid "GROUPS"
 msgstr "MGA GRUPO"
 
 msgid "History"
 msgstr "Kasaysayan"
+
+#, fuzzy
+msgid "Horror"
+msgstr "pagkakamali"
+
+msgid "I Titoli Del Momento"
+msgstr "Ang Mga Pamagat ng Sandali"
 
 msgid "Invalid folder!"
 msgstr "Di-wastong folder!"
@@ -271,6 +317,9 @@ msgstr "Pindutin ang OK para tingnan ang buong detalye..."
 msgid "REFRESH"
 msgstr "I-REFRESH"
 
+msgid "Reality"
+msgstr "Realidad"
+
 msgid "Refresh"
 msgstr "I-refresh"
 
@@ -279,6 +328,9 @@ msgstr "Alisin"
 
 msgid "Retry"
 msgstr "Subukan muli"
+
+msgid "Romance"
+msgstr "Romansa"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Kasaysayan ng Serye sa TV"
 msgid "TV series history cleared"
 msgstr "Kasaysayan ng Serye sa TV"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Timeout para sa mga kahilingan sa paghahanap (segundo)"
 
 msgid "Title"
 msgstr "Pamagat"
+
+msgid "Top 10 di oggi"
+msgstr "Nangungunang 10 ngayon"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Kabuuan: {} | Aktibo: {} | Folder: {}"
@@ -359,6 +417,14 @@ msgstr "Uri: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP/DOWN na grupo | KALIWA/KANAN na mga card | OK bukas"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN na grupo | KALIWA/KANAN na mga card | OK bukas"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Hindi makuha ang streaming URL"
 
 msgid "Unable to get stream for this episode"
 msgstr "Hindi makakuha ng stream para sa episode na ito"

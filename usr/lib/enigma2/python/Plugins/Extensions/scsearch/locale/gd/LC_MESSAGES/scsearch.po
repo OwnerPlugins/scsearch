@@ -40,8 +40,20 @@ msgstr ">>> Episodes <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Ràithean <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Air a chur ris o chionn ghoirid"
+
+msgid "Animazione"
+msgstr "Beothachadh"
+
 msgid "Available links:"
 msgstr "Ceanglaichean rim faighinn:"
+
+msgid "Avventura"
+msgstr "Dàn-thuras"
+
+msgid "Azione"
+msgstr "Gnìomh"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Dèan brobhsadh air buidhnean agus cairtean le scrollaidh còmhnard"
@@ -79,6 +91,9 @@ msgstr "Còd:"
 msgid "Code: {self.captcha_code}"
 msgstr "Còd: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Comadaidh"
+
 msgid "Completed"
 msgstr "Air a chrìochnachadh"
 
@@ -87,6 +102,15 @@ msgstr "Susbaint bho Altadefinizione - Brùth OK gus fosgladh..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Susbaint o CB01 - Brùth OK gus fosgladh..."
+
+msgid "Crime"
+msgstr "Eucoir"
+
+msgid "DOWNLOAD"
+msgstr "LAOIDH"
+
+msgid "DOWNLOADS"
+msgstr "LAOIDHEAN"
 
 msgid "Description not available."
 msgstr "Tuairisgeul nach eil ri fhaighinn."
@@ -97,12 +121,18 @@ msgstr "Mion-fhiosrachadh airson: '%s'"
 msgid "Details not available"
 msgstr "Chan eil mion-fhiosrachadh ri fhaighinn"
 
+msgid "Documentario"
+msgstr "Aithriseach"
+
 msgid "Download Queue"
 msgstr "Luchdaich sìos ciudha"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "a' luchdachadh"
+
+msgid "Dramma"
+msgstr "Dràma"
 
 msgid "ENTER"
 msgstr "A steach"
@@ -162,11 +192,27 @@ msgstr "Thachair mearachd le ùrachadh UI"
 msgid "Exit"
 msgstr "Ar-a-mach"
 
+msgid "Famiglia"
+msgstr "Teaghlach"
+
+msgid "Fantascienza"
+msgstr "Ficsean saidheans"
+
+msgid "Fantasy"
+msgstr "Feallsanachd"
+
 msgid "GROUPS"
 msgstr "CRUTHAICHEAN"
 
 msgid "History"
 msgstr "Eachdraidh"
+
+#, fuzzy
+msgid "Horror"
+msgstr "mearachd"
+
+msgid "I Titoli Del Momento"
+msgstr "Tiotalan a 'mhionaid"
 
 msgid "Invalid folder!"
 msgstr "Pasgan mì-dhligheach!"
@@ -271,6 +317,9 @@ msgstr "Brùth OK airson làn fhiosrachadh fhaicinn..."
 msgid "REFRESH"
 msgstr "ÙRACHADH"
 
+msgid "Reality"
+msgstr "Fìrinn"
+
 msgid "Refresh"
 msgstr "Ùraich"
 
@@ -279,6 +328,9 @@ msgstr "Thoir air falbh"
 
 msgid "Retry"
 msgstr "Feuch a-rithist"
+
+msgid "Romance"
+msgstr "Romansa"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Eachdraidh TBH san t-sreath a"
 msgid "TV series history cleared"
 msgstr "Eachdraidh TBH san t-sreath a"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Ùine airson iarrtasan rannsachaidh (diogan)"
 
 msgid "Title"
 msgstr "Tiotal"
+
+msgid "Top 10 di oggi"
+msgstr "Top 10 an-diugh"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Iomlan: {} | Gnìomhach: {} | Pasgan: {}"
@@ -359,6 +417,14 @@ msgstr "Seòrsa: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Cha ghabh URL sruthadh fhaighinn"
 
 msgid "Unable to get stream for this episode"
 msgstr "Cha ghabh sruth fhaighinn airson a' phrògram seo"

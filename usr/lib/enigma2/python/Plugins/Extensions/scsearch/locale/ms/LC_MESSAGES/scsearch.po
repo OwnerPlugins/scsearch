@@ -40,8 +40,20 @@ msgstr ">>> Episod <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Musim <<<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Baru Ditambah"
+
+msgid "Animazione"
+msgstr "Animasi"
+
 msgid "Available links:"
 msgstr "Pautan yang tersedia:"
+
+msgid "Avventura"
+msgstr "Pengembaraan"
+
+msgid "Azione"
+msgstr "Tindakan"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Semak imbas kumpulan dan kad dengan tatal mendatar"
@@ -79,6 +91,9 @@ msgstr "Kod:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Komedia"
+
 msgid "Completed"
 msgstr "Selesai"
 
@@ -87,6 +102,15 @@ msgstr "Kandungan daripada Altadefinizione - Tekan OK untuk membuka..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Kandungan daripada CB01 - Tekan OK untuk membuka..."
+
+msgid "Crime"
+msgstr "Jenayah"
+
+msgid "DOWNLOAD"
+msgstr "MUAT TURUN"
+
+msgid "DOWNLOADS"
+msgstr "MUAT TURUN"
 
 msgid "Description not available."
 msgstr "Penerangan tidak tersedia."
@@ -97,12 +121,18 @@ msgstr "Butiran untuk: '%s'"
 msgid "Details not available"
 msgstr "Butiran tidak tersedia"
 
+msgid "Documentario"
+msgstr "Dokumentari"
+
 msgid "Download Queue"
 msgstr "Muat Turun Baris"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "memuatkan"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "MASUK"
@@ -162,11 +192,27 @@ msgstr "Ralat mengemas kini UI"
 msgid "Exit"
 msgstr "Keluar"
 
+msgid "Famiglia"
+msgstr "Keluarga"
+
+msgid "Fantascienza"
+msgstr "Fiksyen sains"
+
+msgid "Fantasy"
+msgstr "Fantasi"
+
 msgid "GROUPS"
 msgstr "KUMPULAN"
 
 msgid "History"
 msgstr "Sejarah"
+
+#, fuzzy
+msgid "Horror"
+msgstr "kesilapan"
+
+msgid "I Titoli Del Momento"
+msgstr "Tajuk Momen"
 
 msgid "Invalid folder!"
 msgstr "Folder tidak sah!"
@@ -271,6 +317,9 @@ msgstr "Tekan OK untuk melihat butiran penuh..."
 msgid "REFRESH"
 msgstr "SEGARKAN"
 
+msgid "Reality"
+msgstr "realiti"
+
 msgid "Refresh"
 msgstr "Segarkan semula"
 
@@ -279,6 +328,9 @@ msgstr "Alih keluar"
 
 msgid "Retry"
 msgstr "Cuba semula"
+
+msgid "Romance"
+msgstr "percintaan"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Sejarah Siri TV"
 msgid "TV series history cleared"
 msgstr "Sejarah Siri TV"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Tamat masa untuk permintaan carian (saat)"
 
 msgid "Title"
 msgstr "Tajuk"
+
+msgid "Top 10 di oggi"
+msgstr "10 teratas hari ini"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Jumlah: {} | Aktif: {} | Folder: {}"
@@ -359,6 +417,14 @@ msgstr "Jenis: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "kumpulan ATAS/BAWAH | Kad KIRI/KANAN | OK buka"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "kumpulan ATAS/BAWAH | Kad KIRI/KANAN | OK buka"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Tidak dapat mendapatkan URL penstriman"
 
 msgid "Unable to get stream for this episode"
 msgstr "Tidak dapat mendapatkan strim untuk episod ini"

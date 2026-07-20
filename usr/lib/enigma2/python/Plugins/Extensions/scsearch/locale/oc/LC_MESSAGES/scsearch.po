@@ -40,8 +40,20 @@ msgstr ">>> Episòdis <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Sasons <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Apondut recentament"
+
+msgid "Animazione"
+msgstr "Animacion"
+
 msgid "Available links:"
 msgstr "Ligams disponibles:"
+
+msgid "Avventura"
+msgstr "Aventura"
+
+msgid "Azione"
+msgstr "Accion"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Navegar pels grops e las cartas amb desfilament orizontal"
@@ -79,6 +91,9 @@ msgstr "Còde:"
 msgid "Code: {self.captcha_code}"
 msgstr "Còde: {còde_auto.captcha}"
 
+msgid "Commedia"
+msgstr "Comèdia"
+
 msgid "Completed"
 msgstr "Completat"
 
@@ -87,6 +102,15 @@ msgstr "Contengut d'Altadefinizione - Quichatz sus D'acòrdi per dobrir..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Contengut dempuèi CB01 - Quichatz sus D'acòrdi per dobrir..."
+
+msgid "Crime"
+msgstr "Crim"
+
+msgid "DOWNLOAD"
+msgstr "DESCARGAR"
+
+msgid "DOWNLOADS"
+msgstr "DESCARGAS"
 
 msgid "Description not available."
 msgstr "Descripcion pas disponibla."
@@ -97,12 +121,18 @@ msgstr "Detalhs per : « %s »."
 msgid "Details not available"
 msgstr "Los detalhs pas disponibles"
 
+msgid "Documentario"
+msgstr "Documental"
+
 msgid "Download Queue"
 msgstr "Cola de telecargament"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "cargament"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "INTRAR"
@@ -162,11 +192,27 @@ msgstr "Error al moment de la mesa a jorn de l'interfàcia utilizaire"
 msgid "Exit"
 msgstr "Sortida"
 
+msgid "Famiglia"
+msgstr "Familha"
+
+msgid "Fantascienza"
+msgstr "Sciéncia-ficcion"
+
+msgid "Fantasy"
+msgstr "Fantasia"
+
 msgid "GROUPS"
 msgstr "GROPS"
 
 msgid "History"
 msgstr "Istòria"
+
+#, fuzzy
+msgid "Horror"
+msgstr "error"
+
+msgid "I Titoli Del Momento"
+msgstr "Los Títols del Moment"
 
 msgid "Invalid folder!"
 msgstr "Dòrsièr invalid!"
@@ -271,6 +317,9 @@ msgstr "Quichatz D'acòrdi per veire los detalhs complets..."
 msgid "REFRESH"
 msgstr "ACTUALIZAR"
 
+msgid "Reality"
+msgstr "Realitat"
+
 msgid "Refresh"
 msgstr "Actualizar"
 
@@ -279,6 +328,9 @@ msgstr "Levar"
 
 msgid "Retry"
 msgstr "Tornatz ensajar"
+
+msgid "Romance"
+msgstr "Romança"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Istòria de las sèrias de television"
 msgid "TV series history cleared"
 msgstr "Istòria de las sèrias de television"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Temps d'espèra per las demandas de recèrca (segondas)"
 
 msgid "Title"
 msgstr "Títol"
+
+msgid "Top 10 di oggi"
+msgstr "Los 10 primièrs d'uèi"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Total: {} | Actiu: {} | Dossièr : {}"
@@ -359,6 +417,14 @@ msgstr "Tipe : %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "grops EN NAUT/EN BASS | cartas d'ESQUÈRHA/DRECHA | D'acòrdi dobrir"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "grops EN NAUT/EN BASS | cartas d'ESQUÈRHA/DRECHA | D'acòrdi dobrir"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Impossible d'obténer l'URL de flux"
 
 msgid "Unable to get stream for this episode"
 msgstr "Impossible d'obténer un flux per aqueste episòdi"

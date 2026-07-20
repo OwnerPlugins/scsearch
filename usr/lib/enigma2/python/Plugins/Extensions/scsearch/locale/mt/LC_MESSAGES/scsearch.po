@@ -40,8 +40,20 @@ msgstr ">>> Episodji <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Staġuni <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Miżjud reċentement"
+
+msgid "Animazione"
+msgstr "Animazzjoni"
+
 msgid "Available links:"
 msgstr "Links disponibbli:"
+
+msgid "Avventura"
+msgstr ""
+
+msgid "Azione"
+msgstr "Azzjoni"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Fittex gruppi u karti bi scrolling orizzontali"
@@ -79,6 +91,9 @@ msgstr "Kodiċi:"
 msgid "Code: {self.captcha_code}"
 msgstr "Kodiċi: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr ""
+
 msgid "Completed"
 msgstr "Imlesta"
 
@@ -87,6 +102,15 @@ msgstr "Kontenut minn Altadefinizione - Agħfas OK biex tiftaħ..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Kontenut minn CB01 - Agħfas OK biex tiftaħ..."
+
+msgid "Crime"
+msgstr "Kriminalità"
+
+msgid "DOWNLOAD"
+msgstr ""
+
+msgid "DOWNLOADS"
+msgstr ""
 
 msgid "Description not available."
 msgstr "Deskrizzjoni mhux disponibbli."
@@ -97,12 +121,18 @@ msgstr "Dettalji għal: '%s'"
 msgid "Details not available"
 msgstr "Dettalji mhux disponibbli"
 
+msgid "Documentario"
+msgstr "Dokumentarju"
+
 msgid "Download Queue"
 msgstr "Niżżel Kju"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "tagħbija"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "DĦUL"
@@ -162,11 +192,27 @@ msgstr "Żball fl-aġġornament tal-UI"
 msgid "Exit"
 msgstr "Ħruġ"
 
+msgid "Famiglia"
+msgstr "Familja"
+
+msgid "Fantascienza"
+msgstr "Fantaxjenza"
+
+msgid "Fantasy"
+msgstr "Fantasija"
+
 msgid "GROUPS"
 msgstr "GRUPPI"
 
 msgid "History"
 msgstr "Storja"
+
+#, fuzzy
+msgid "Horror"
+msgstr "żball"
+
+msgid "I Titoli Del Momento"
+msgstr "It-Titoli tal-Mument"
 
 msgid "Invalid folder!"
 msgstr "Folder mhux validu!"
@@ -271,6 +317,9 @@ msgstr "Agħfas OK biex tara d-dettalji sħaħ..."
 msgid "REFRESH"
 msgstr "AFFIKAR"
 
+msgid "Reality"
+msgstr "Realtà"
+
 msgid "Refresh"
 msgstr "Aġġorna"
 
@@ -279,6 +328,9 @@ msgstr "Neħħi"
 
 msgid "Retry"
 msgstr "Erġa' pprova"
+
+msgid "Romance"
+msgstr "Rumanz"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Storja tas-Serje tat-TV"
 msgid "TV series history cleared"
 msgstr "Storja tas-Serje tat-TV"
 
+msgid "Thriller"
+msgstr ""
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Timeout għal talbiet ta' tfittxija (sekondi)"
 
 msgid "Title"
 msgstr "Titolu"
+
+msgid "Top 10 di oggi"
+msgstr "L-aqwa 10 tal-lum"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Total: {} | Attiv: {} | Folder: {}"
@@ -359,6 +417,14 @@ msgstr "Tip: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Ma tistax tikseb URL streaming"
 
 msgid "Unable to get stream for this episode"
 msgstr "Ma tistax tikseb stream għal dan l-episodju"

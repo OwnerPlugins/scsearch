@@ -40,8 +40,20 @@ msgstr ">>> قسمت ها <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> فصول <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "اخیرا اضافه شده است"
+
+msgid "Animazione"
+msgstr "انیمیشن"
+
 msgid "Available links:"
 msgstr "لینک های موجود:"
+
+msgid "Avventura"
+msgstr "ماجراجویی"
+
+msgid "Azione"
+msgstr "اقدام"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "گروه ها و کارت ها را با پیمایش افقی مرور کنید"
@@ -79,6 +91,9 @@ msgstr "کد:"
 msgid "Code: {self.captcha_code}"
 msgstr "کد: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "کمدیا"
+
 msgid "Completed"
 msgstr "تکمیل شد"
 
@@ -87,6 +102,15 @@ msgstr "محتوا از Altadefinizone - برای باز کردن OK را فشا
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "محتوای CB01 - برای باز کردن OK را فشار دهید..."
+
+msgid "Crime"
+msgstr "جنایت"
+
+msgid "DOWNLOAD"
+msgstr "دانلود کنید"
+
+msgid "DOWNLOADS"
+msgstr "دانلودها"
 
 msgid "Description not available."
 msgstr "توضیحات موجود نیست"
@@ -97,12 +121,18 @@ msgstr "جزئیات برای: '%s'"
 msgid "Details not available"
 msgstr "جزئیات در دسترس نیست"
 
+msgid "Documentario"
+msgstr "مستند"
+
 msgid "Download Queue"
 msgstr "دانلود صف"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "در حال بارگذاری"
+
+msgid "Dramma"
+msgstr "درام"
 
 msgid "ENTER"
 msgstr "وارد کنید"
@@ -162,11 +192,27 @@ msgstr "خطا در به‌روزرسانی رابط کاربری"
 msgid "Exit"
 msgstr "خارج شوید"
 
+msgid "Famiglia"
+msgstr "خانواده"
+
+msgid "Fantascienza"
+msgstr "علمی تخیلی"
+
+msgid "Fantasy"
+msgstr "فانتزی"
+
 msgid "GROUPS"
 msgstr "گروه ها"
 
 msgid "History"
 msgstr "تاریخچه"
+
+#, fuzzy
+msgid "Horror"
+msgstr "خطا"
+
+msgid "I Titoli Del Momento"
+msgstr "عناوین لحظه"
 
 msgid "Invalid folder!"
 msgstr "پوشه نامعتبر!"
@@ -271,6 +317,9 @@ msgstr "برای مشاهده جزئیات کامل دکمه OK را فشار د
 msgid "REFRESH"
 msgstr "تازه کردن"
 
+msgid "Reality"
+msgstr "واقعیت"
+
 msgid "Refresh"
 msgstr "تازه کردن"
 
@@ -279,6 +328,9 @@ msgstr "حذف کنید"
 
 msgid "Retry"
 msgstr "دوباره امتحان کنید"
+
+msgid "Romance"
+msgstr "عاشقانه"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "تاریخچه سریال های تلویزیونی"
 msgid "TV series history cleared"
 msgstr "تاریخچه سریال های تلویزیونی"
 
+msgid "Thriller"
+msgstr "هیجان انگیز"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "مهلت زمانی برای درخواست های جستجو (ثانیه)"
 
 msgid "Title"
 msgstr "عنوان"
+
+msgid "Top 10 di oggi"
+msgstr "10 تای برتر امروز"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "مجموع: {} | فعال: {} | پوشه: {}"
@@ -359,6 +417,14 @@ msgstr "نوع: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "گروه های UP/DOWN | کارت های چپ/راست | باشه باز"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "گروه های UP/DOWN | کارت های چپ/راست | باشه باز"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "دریافت URL پخش جریانی ممکن نیست"
 
 msgid "Unable to get stream for this episode"
 msgstr "پخش جریانی برای این قسمت ممکن نیست"

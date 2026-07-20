@@ -40,8 +40,20 @@ msgstr ">>> エピソード <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> 季節 <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "最近追加された"
+
+msgid "Animazione"
+msgstr "アニメーション"
+
 msgid "Available links:"
 msgstr "利用可能なリンク:"
+
+msgid "Avventura"
+msgstr "アドベンチャー"
+
+msgid "Azione"
+msgstr "アクション"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "水平スクロールでグループとカードを閲覧"
@@ -79,6 +91,9 @@ msgstr "コード："
 msgid "Code: {self.captcha_code}"
 msgstr "コード: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "コメディア"
+
 msgid "Completed"
 msgstr "完了しました"
 
@@ -87,6 +102,15 @@ msgstr "Altadefinizione のコンテンツ - [OK] を押して開きます..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 のコンテンツ - [OK] を押して開きます..."
+
+msgid "Crime"
+msgstr "犯罪"
+
+msgid "DOWNLOAD"
+msgstr "ダウンロード"
+
+msgid "DOWNLOADS"
+msgstr "ダウンロード"
 
 msgid "Description not available."
 msgstr "説明はありません。"
@@ -97,12 +121,18 @@ msgstr "詳細: '%s'"
 msgid "Details not available"
 msgstr "詳細は不明"
 
+msgid "Documentario"
+msgstr "ドキュメンタリー"
+
 msgid "Download Queue"
 msgstr "ダウンロードキュー"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "読み込み中"
+
+msgid "Dramma"
+msgstr "ドラマ"
 
 msgid "ENTER"
 msgstr "入力"
@@ -162,11 +192,27 @@ msgstr "UIの更新中にエラーが発生しました"
 msgid "Exit"
 msgstr "出口"
 
+msgid "Famiglia"
+msgstr "家族"
+
+msgid "Fantascienza"
+msgstr "SF"
+
+msgid "Fantasy"
+msgstr "ファンタジー"
+
 msgid "GROUPS"
 msgstr "グループ"
 
 msgid "History"
 msgstr "歴史"
+
+#, fuzzy
+msgid "Horror"
+msgstr "エラー"
+
+msgid "I Titoli Del Momento"
+msgstr "今のタイトル"
 
 msgid "Invalid folder!"
 msgstr "フォルダが無効です!"
@@ -271,6 +317,9 @@ msgstr "[OK] を押して詳細を表示します..."
 msgid "REFRESH"
 msgstr "リフレッシュ"
 
+msgid "Reality"
+msgstr "現実"
+
 msgid "Refresh"
 msgstr "リフレッシュ"
 
@@ -279,6 +328,9 @@ msgstr "取り除く"
 
 msgid "Retry"
 msgstr "リトライ"
+
+msgid "Romance"
+msgstr "ロマンス"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "TVシリーズの歴史"
 msgid "TV series history cleared"
 msgstr "TVシリーズの歴史"
 
+msgid "Thriller"
+msgstr "スリラー"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "検索リクエストのタイムアウト (秒)"
 
 msgid "Title"
 msgstr "タイトル"
+
+msgid "Top 10 di oggi"
+msgstr "今日のトップ10"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "合計: {} | アクティブ: {} | フォルダー: {}"
@@ -359,6 +417,14 @@ msgstr "種類"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "UP/DOWN グループ | 左/右のカード | OK オープン"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN グループ | 左/右のカード | OK オープン"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "ストリーミング URL を取得できません"
 
 msgid "Unable to get stream for this episode"
 msgstr "このエピソードのストリームを取得できません"

@@ -40,8 +40,20 @@ msgstr ">>> Vipindi <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Misimu <<<"
 
+msgid "Aggiunti di Recente"
+msgstr "Iliyoongezwa Hivi Karibuni"
+
+msgid "Animazione"
+msgstr "Uhuishaji"
+
 msgid "Available links:"
 msgstr "Viungo vinavyopatikana:"
+
+msgid "Avventura"
+msgstr "Adventure"
+
+msgid "Azione"
+msgstr "Kitendo"
 
 msgid "Browse groups and cards with horizontal scrolling"
 msgstr "Vinjari vikundi na kadi kwa kusogeza kwa mlalo"
@@ -79,6 +91,9 @@ msgstr "Msimbo:"
 msgid "Code: {self.captcha_code}"
 msgstr "Msimbo: {self.captcha_code}"
 
+msgid "Commedia"
+msgstr "Vichekesho"
+
 msgid "Completed"
 msgstr "Imekamilika"
 
@@ -87,6 +102,15 @@ msgstr "Maudhui kutoka Altadefinizione - Bonyeza Sawa ili kufungua..."
 
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Maudhui kutoka CB01 - Bonyeza Sawa ili kufungua..."
+
+msgid "Crime"
+msgstr "Uhalifu"
+
+msgid "DOWNLOAD"
+msgstr "PAKUA"
+
+msgid "DOWNLOADS"
+msgstr "PAKUA"
 
 msgid "Description not available."
 msgstr "Maelezo hayapatikani."
@@ -97,12 +121,18 @@ msgstr "Maelezo ya: '%s'"
 msgid "Details not available"
 msgstr "Maelezo hayapatikani"
 
+msgid "Documentario"
+msgstr "Hati"
+
 msgid "Download Queue"
 msgstr "Foleni ya Kupakua"
 
 #, fuzzy
 msgid "Downloading"
 msgstr "kupakia"
+
+msgid "Dramma"
+msgstr "Drama"
 
 msgid "ENTER"
 msgstr "INGIA"
@@ -162,11 +192,27 @@ msgstr "Hitilafu katika kusasisha UI"
 msgid "Exit"
 msgstr "Utgång"
 
+msgid "Famiglia"
+msgstr "Familia"
+
+msgid "Fantascienza"
+msgstr "Hadithi za kisayansi"
+
+msgid "Fantasy"
+msgstr "Ndoto"
+
 msgid "GROUPS"
 msgstr "VIKUNDI"
 
 msgid "History"
 msgstr "Historia"
+
+#, fuzzy
+msgid "Horror"
+msgstr "kosa"
+
+msgid "I Titoli Del Momento"
+msgstr "Majina ya Wakati"
 
 msgid "Invalid folder!"
 msgstr "Folda batili!"
@@ -271,6 +317,9 @@ msgstr "Bonyeza SAWA ili kuona maelezo kamili..."
 msgid "REFRESH"
 msgstr "UPYA"
 
+msgid "Reality"
+msgstr "Ukweli"
+
 msgid "Refresh"
 msgstr "Onyesha upya"
 
@@ -279,6 +328,9 @@ msgstr "Ondoa"
 
 msgid "Retry"
 msgstr "Jaribu tena"
+
+msgid "Romance"
+msgstr "Mahaba"
 
 msgid "SC"
 msgstr "SC"
@@ -345,11 +397,17 @@ msgstr "Historia ya Mfululizo wa TV"
 msgid "TV series history cleared"
 msgstr "Historia ya Mfululizo wa TV"
 
+msgid "Thriller"
+msgstr "Msisimko"
+
 msgid "Timeout for search requests (seconds)"
 msgstr "Muda wa maombi ya utafutaji umekwisha (sekunde)"
 
 msgid "Title"
 msgstr "Kichwa"
+
+msgid "Top 10 di oggi"
+msgstr "Leo 10 bora"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Jumla: {} | Inayotumika: {} | Folda: {}"
@@ -359,6 +417,14 @@ msgstr "Aina: %s"
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
+
+#, fuzzy
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
+
+#, fuzzy
+msgid "Unable to get stream URL for download"
+msgstr "Haikuweza kupata URL ya kutiririsha"
 
 msgid "Unable to get stream for this episode"
 msgstr "Imeshindwa kupata mtiririko wa kipindi hiki"
