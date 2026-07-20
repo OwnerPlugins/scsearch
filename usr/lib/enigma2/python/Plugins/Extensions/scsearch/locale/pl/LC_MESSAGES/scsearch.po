@@ -220,7 +220,8 @@ msgstr "Nieprawidłowy folder!"
 msgid "Invalid streaming URL"
 msgstr "Nieprawidłowy adres URL przesyłania strumieniowego"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "W LEWO/PRAWO nawigacja | OK, otwórz | W GÓRĘ wróć do grup"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Razem: {} | Aktywny: {} | Folder: {}"
 msgid "Type: %s"
 msgstr "Wpisz: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupy GÓRA/DÓŁ | Karty LEWE/PRAWE | OK, otwórz"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grupy GÓRA/DÓŁ | Karty LEWE/PRAWE | OK, otwórz"
@@ -468,6 +466,9 @@ msgstr "błąd"
 
 msgid "loading"
 msgstr "załadunek"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grupy GÓRA/DÓŁ | Karty LEWE/PRAWE | OK, otwórz"
 
 #~ msgid ""
 #~ "\n"

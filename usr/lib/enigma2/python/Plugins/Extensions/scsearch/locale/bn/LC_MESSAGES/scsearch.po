@@ -220,7 +220,8 @@ msgstr "অবৈধ ফোল্ডার!"
 msgid "Invalid streaming URL"
 msgstr "অবৈধ স্ট্রিমিং URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "বাম/ডান নেভিগেট | ঠিক আছে খোলা | ইউপি গ্রুপে ফিরে যান"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "মোট: {} | সক্রিয়: {} | ফোল্ডার: {}"
 msgid "Type: %s"
 msgstr "প্রকার: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN গোষ্ঠী | বাম/ডান কার্ড | ঠিক আছে খোলা"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN গোষ্ঠী | বাম/ডান কার্ড | ঠিক আছে খোলা"
@@ -468,6 +466,9 @@ msgstr "ত্রুটি"
 
 msgid "loading"
 msgstr "লোড হচ্ছে"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN গোষ্ঠী | বাম/ডান কার্ড | ঠিক আছে খোলা"
 
 #~ msgid ""
 #~ "\n"

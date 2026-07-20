@@ -220,7 +220,8 @@ msgstr "अवैध फोल्डर!"
 msgid "Invalid streaming URL"
 msgstr "अवैध प्रवाहित URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "डावीकडे/उजवीकडे नेव्हिगेट | ओके उघडा | UP गटांकडे परत"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "एकूण: {} | सक्रिय: {} | फोल्डर: {}"
 msgid "Type: %s"
 msgstr "प्रकार: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "वर/खाली गट | डावे/उजवे कार्ड | ओके उघडा"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "वर/खाली गट | डावे/उजवे कार्ड | ओके उघडा"
@@ -468,6 +466,9 @@ msgstr "त्रुटी"
 
 msgid "loading"
 msgstr "लोड होत आहे"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "वर/खाली गट | डावे/उजवे कार्ड | ओके उघडा"
 
 #~ msgid ""
 #~ "\n"

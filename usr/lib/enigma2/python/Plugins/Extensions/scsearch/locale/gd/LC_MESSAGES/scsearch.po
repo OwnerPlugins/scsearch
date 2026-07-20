@@ -220,7 +220,8 @@ msgstr "Pasgan mì-dhligheach!"
 msgid "Invalid streaming URL"
 msgstr "URL sruthadh mì-dhligheach"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Clì/DEAR seòladh | OK fosgail | UP air ais gu buidhnean"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Iomlan: {} | Gnìomhach: {} | Pasgan: {}"
 msgid "Type: %s"
 msgstr "Seòrsa: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
@@ -468,6 +466,9 @@ msgstr "mearachd"
 
 msgid "loading"
 msgstr "a' luchdachadh"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Buidhnean UP/Sìos | Cairtean Clì/DEAR | OK fosgailte"
 
 #~ msgid ""
 #~ "\n"

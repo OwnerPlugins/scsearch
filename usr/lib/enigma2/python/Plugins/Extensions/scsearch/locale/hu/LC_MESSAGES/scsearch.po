@@ -220,7 +220,8 @@ msgstr "Érvénytelen mappa!"
 msgid "Invalid streaming URL"
 msgstr "Érvénytelen adatfolyam URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "BALRA/JOBBRA navigálás | OK nyitva | FEL vissza a csoportokhoz"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Összesen: {} | Aktív: {} | Mappa: {}"
 msgid "Type: %s"
 msgstr "Típus: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
@@ -468,6 +466,9 @@ msgstr "hiba"
 
 msgid "loading"
 msgstr "terhelés"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "FEL/LE csoportok | BAL/JOBB kártyák | OK nyitva"
 
 #~ msgid ""
 #~ "\n"

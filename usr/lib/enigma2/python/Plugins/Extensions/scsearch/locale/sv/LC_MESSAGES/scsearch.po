@@ -220,7 +220,8 @@ msgstr "Ogiltig mapp!"
 msgid "Invalid streaming URL"
 msgstr "Ogiltig webbadress för streaming"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "VÄNSTER/HÖGER navigera | OK öppen | UPP tillbaka till grupper"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Totalt: {} | Aktiv: {} | Mapp: {}"
 msgid "Type: %s"
 msgstr "Typ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UPP/NER grupper | VÄNSTER/HÖGER kort | OK öppen"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UPP/NER grupper | VÄNSTER/HÖGER kort | OK öppen"
@@ -468,6 +466,9 @@ msgstr "fel"
 
 msgid "loading"
 msgstr "belastning"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UPP/NER grupper | VÄNSTER/HÖGER kort | OK öppen"
 
 #~ msgid ""
 #~ "\n"

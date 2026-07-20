@@ -41,16 +41,16 @@ msgid ">>> Seasons <<<"
 msgstr ">>> ወቅቶች <<<"
 
 msgid "Aggiunti di Recente"
-msgstr ""
+msgstr "በቅርቡ የተጨመረ"
 
 msgid "Animazione"
-msgstr ""
+msgstr "አኒሜሽን"
 
 msgid "Available links:"
 msgstr "የሚገኙ ማገናኛዎች፡-"
 
 msgid "Avventura"
-msgstr ""
+msgstr "ጀብዱ"
 
 msgid "Azione"
 msgstr "ድርጊት"
@@ -92,7 +92,7 @@ msgid "Code: {self.captcha_code}"
 msgstr "ኮድ፡ {self.captcha_code}"
 
 msgid "Commedia"
-msgstr ""
+msgstr "ኮሜዲያ"
 
 msgid "Completed"
 msgstr "ተጠናቀቀ"
@@ -104,7 +104,7 @@ msgid "Content from CB01 - Press OK to open..."
 msgstr "ይዘት ከCB01 - ለመክፈት እሺን ይጫኑ..."
 
 msgid "Crime"
-msgstr ""
+msgstr "ወንጀል"
 
 msgid "DOWNLOAD"
 msgstr "አውርድ"
@@ -220,7 +220,8 @@ msgstr "ልክ ያልሆነ አቃፊ!"
 msgid "Invalid streaming URL"
 msgstr "ልክ ያልሆነ የዥረት ዩአርኤል"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ግራ/ቀኝ አሰሳ | እሺ ክፍት | ወደ ቡድኖች ይመለሱ"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "ጠቅላላ፡ {} | ንቁ፡ {} | አቃፊ፡ {}"
 msgid "Type: %s"
 msgstr "አይነት፡%s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ወደላይ/ወደታች ቡድኖች | ግራ/ቀኝ ካርዶች | እሺ ክፈት"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ወደላይ/ወደታች ቡድኖች | ግራ/ቀኝ ካርዶች | እሺ ክፈት"
@@ -468,6 +466,9 @@ msgstr "ስህተት"
 
 msgid "loading"
 msgstr "በመጫን ላይ"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ወደላይ/ወደታች ቡድኖች | ግራ/ቀኝ ካርዶች | እሺ ክፈት"
 
 #~ msgid ""
 #~ "\n"

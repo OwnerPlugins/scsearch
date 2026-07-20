@@ -220,7 +220,8 @@ msgstr "אומגילטיק טעקע!"
 msgid "Invalid streaming URL"
 msgstr "אומגילטיק סטרימינג URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "לינקס / רעכט נאַוויגירן | גוט עפענען | צוריק צו גרופּעס"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "גאַנץ: {} | אַקטיוו: {} | טעקע: {}"
 msgid "Type: %s"
 msgstr "טיפּ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN גרופּעס | לינקס / רעכט קאַרדס | גוט עפענען"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN גרופּעס | לינקס / רעכט קאַרדס | גוט עפענען"
@@ -468,6 +466,9 @@ msgstr "טעות"
 
 msgid "loading"
 msgstr "loading"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN גרופּעס | לינקס / רעכט קאַרדס | גוט עפענען"
 
 #~ msgid ""
 #~ "\n"

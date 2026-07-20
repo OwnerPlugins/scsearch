@@ -220,7 +220,8 @@ msgstr "ଅବ val ଧ ଫୋଲ୍ଡର!"
 msgid "Invalid streaming URL"
 msgstr "ଅବ val ଧ ଷ୍ଟ୍ରିମିଂ URL |"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "LEFT / RIGHT ନେଭିଗେଟ୍ | ଠିକ ଅଛି ଖୋଲ | ଗୋଷ୍ଠୀକୁ UP ଫେରନ୍ତୁ |"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "ସମୁଦାୟ: {} | ସକ୍ରିୟ: {} | | ଫୋଲ୍ଡର: 
 msgid "Type: %s"
 msgstr "ପ୍ରକାର:% s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP / DOWN ଗୋଷ୍ଠୀ | | LEFT / RIGHT କାର୍ଡ | ଠିକ ଅଛି ଖୋଲା |"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP / DOWN ଗୋଷ୍ଠୀ | | LEFT / RIGHT କାର୍ଡ | ଠିକ ଅଛି ଖୋଲା |"
@@ -468,6 +466,9 @@ msgstr "ତ୍ରୁଟି"
 
 msgid "loading"
 msgstr "ଲୋଡିଂ"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP / DOWN ଗୋଷ୍ଠୀ | | LEFT / RIGHT କାର୍ଡ | ଠିକ ଅଛି ଖୋଲା |"
 
 #~ msgid ""
 #~ "\n"

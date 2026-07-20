@@ -220,7 +220,8 @@ msgstr "Nevažeći folder!"
 msgid "Invalid streaming URL"
 msgstr "Nevažeći URL za streaming"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navigacija LIJEVO/DESNO | OK otvori | UP nazad u grupe"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Ukupno: {} | Aktivan: {} | Fascikla: {}"
 msgid "Type: %s"
 msgstr "Tip: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "GORE/DOLJE grupe | LIJEVO/DESNO karte | OK otvori"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "GORE/DOLJE grupe | LIJEVO/DESNO karte | OK otvori"
@@ -468,6 +466,9 @@ msgstr "greška"
 
 msgid "loading"
 msgstr "loading"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "GORE/DOLJE grupe | LIJEVO/DESNO karte | OK otvori"
 
 #~ msgid ""
 #~ "\n"

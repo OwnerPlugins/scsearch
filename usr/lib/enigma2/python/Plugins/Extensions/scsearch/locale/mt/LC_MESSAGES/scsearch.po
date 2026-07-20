@@ -220,7 +220,8 @@ msgstr "Folder mhux validu!"
 msgid "Invalid streaming URL"
 msgstr "URL tal-istreaming invalidu"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "innaviga Xellug/Lejn | OK miftuħa | UP lura għall-gruppi"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total: {} | Attiv: {} | Folder: {}"
 msgid "Type: %s"
 msgstr "Tip: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa"
@@ -468,6 +466,9 @@ msgstr "żball"
 
 msgid "loading"
 msgstr "tagħbija"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa"
 
 #~ msgid ""
 #~ "\n"

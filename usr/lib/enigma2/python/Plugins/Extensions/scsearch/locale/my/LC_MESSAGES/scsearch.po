@@ -220,7 +220,8 @@ msgstr "မမှန်ကန်သောဖိုင်တွဲ။"
 msgid "Invalid streaming URL"
 msgstr "မမှန်ကန်သော တိုက်ရိုက်လွှင့်ခြင်း URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ဘယ်/ညာ လမ်းညွှန် | အိုကေဖွင့် | အဖွဲ့များထံ ပြန်ပို့ပါ။"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "စုစုပေါင်း- {} | အသက်ဝင်သည်- { }
 msgid "Type: %s"
 msgstr "အမျိုးအစား- %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN အဖွဲ့များ | ဘယ်/ညာ ကတ်များ | အိုကေ ဖွင့်လိုက်ပါ။"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN အဖွဲ့များ | ဘယ်/ညာ ကတ်များ | အိုကေ ဖွင့်လိုက်ပါ။"
@@ -468,6 +466,9 @@ msgstr "အမှား"
 
 msgid "loading"
 msgstr "loading"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN အဖွဲ့များ | ဘယ်/ညာ ကတ်များ | အိုကေ ဖွင့်လိုက်ပါ။"
 
 #~ msgid ""
 #~ "\n"

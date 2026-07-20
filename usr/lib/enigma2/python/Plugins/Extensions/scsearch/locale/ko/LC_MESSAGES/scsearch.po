@@ -220,7 +220,8 @@ msgstr "폴더가 잘못되었습니다!"
 msgid "Invalid streaming URL"
 msgstr "잘못된 스트리밍 URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "왼쪽/오른쪽 탐색 | 알았어 열어 | UP 그룹으로 돌아가기"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "총계: {} | 활성: {} | 폴더: {}"
 msgid "Type: %s"
 msgstr "유형: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN 그룹 | 왼쪽/오른쪽 카드 | 알았어 열어"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN 그룹 | 왼쪽/오른쪽 카드 | 알았어 열어"
@@ -468,6 +466,9 @@ msgstr "오류"
 
 msgid "loading"
 msgstr "로드 중"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN 그룹 | 왼쪽/오른쪽 카드 | 알았어 열어"
 
 #~ msgid ""
 #~ "\n"

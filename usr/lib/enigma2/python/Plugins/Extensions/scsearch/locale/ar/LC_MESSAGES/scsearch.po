@@ -220,7 +220,8 @@ msgstr "مجلد غير صالح!"
 msgid "Invalid streaming URL"
 msgstr "عنوان URL للبث غير صالح"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "التنقل يسارًا/يمينًا | طيب افتح | العودة إلى المجموعات"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "الإجمالي: {} | نشط: {} | المجلد: {}"
 msgid "Type: %s"
 msgstr "النوع: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "مجموعات أعلى/أسفل | بطاقات يسار/يمين | موافق مفتوحة"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "مجموعات أعلى/أسفل | بطاقات يسار/يمين | موافق مفتوحة"
@@ -468,6 +466,9 @@ msgstr "خطأ"
 
 msgid "loading"
 msgstr "تحميل"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "مجموعات أعلى/أسفل | بطاقات يسار/يمين | موافق مفتوحة"
 
 #~ msgid ""
 #~ "\n"

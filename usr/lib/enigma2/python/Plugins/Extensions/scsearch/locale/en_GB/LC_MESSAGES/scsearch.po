@@ -220,7 +220,8 @@ msgstr ""
 msgid "Invalid streaming URL"
 msgstr "Invalid streaming URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "LEFT/RIGHT navigate | OK open | UP back to groups"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total: {} | Active: {} | Folder: {}"
 msgid "Type: %s"
 msgstr "Type: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN groups | LEFT/RIGHT cards | OK open"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN groups | LEFT/RIGHT cards | OK open"
@@ -468,6 +466,9 @@ msgstr "error"
 
 msgid "loading"
 msgstr "loading"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN groups | LEFT/RIGHT cards | OK open"
 
 #~ msgid ""
 #~ "\n"

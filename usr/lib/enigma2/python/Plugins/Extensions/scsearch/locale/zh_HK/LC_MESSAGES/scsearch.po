@@ -220,7 +220,8 @@ msgstr "無效的資料夾！"
 msgid "Invalid streaming URL"
 msgstr "串流媒體 URL 無效"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "左/右導覽 | 確定開啟 | UP 返回群組"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "總計：{} | 活動：{} | 資料夾： {}"
 msgid "Type: %s"
 msgstr "類型：%s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "上/下組 | 左/右卡 | 確定開啟"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "上/下組 | 左/右卡 | 確定開啟"
@@ -468,6 +466,9 @@ msgstr "錯誤"
 
 msgid "loading"
 msgstr "載入中"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "上/下組 | 左/右卡 | 確定開啟"
 
 #~ msgid ""
 #~ "\n"

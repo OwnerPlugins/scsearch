@@ -220,7 +220,8 @@ msgstr "Nädogry bukja!"
 msgid "Invalid streaming URL"
 msgstr "Nädogry akym URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Çep / HUKUK gezmek | Bolýar açyk | Toparlara gaýdyp geliň"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Jemi: {} | Işjeň: {} | Papka: {}"
 msgid "Type: %s"
 msgstr "Görnüşi:% s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
@@ -468,6 +466,9 @@ msgstr "ýalňyşlyk"
 
 msgid "loading"
 msgstr "ýüklemek"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP / DOWN toparlary | Çep / HUKUK kartlary | Bolýar açyk"
 
 #~ msgid ""
 #~ "\n"

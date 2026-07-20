@@ -220,7 +220,8 @@ msgstr "ناسم فولډر!"
 msgid "Invalid streaming URL"
 msgstr "ناسم سټرینګ URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "کیڼ/ ښۍ تګ راتګ | ښه خلاص | UP بیرته ډلو ته"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "ټول: {} | فعال: {} | فولډر: {}"
 msgid "Type: %s"
 msgstr "ډول: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN ګروپونه | کیڼ/ښي کارتونه | ښه پرانیزئ"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN ګروپونه | کیڼ/ښي کارتونه | ښه پرانیزئ"
@@ -468,6 +466,9 @@ msgstr "تېروتنه"
 
 msgid "loading"
 msgstr "بار کول"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN ګروپونه | کیڼ/ښي کارتونه | ښه پرانیزئ"
 
 #~ msgid ""
 #~ "\n"

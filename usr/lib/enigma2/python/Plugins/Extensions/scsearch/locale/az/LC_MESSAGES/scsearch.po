@@ -220,7 +220,8 @@ msgstr "Yanlış qovluq!"
 msgid "Invalid streaming URL"
 msgstr "Yanlış yayım URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "SOL/SAĞ naviqasiya | OK aç | Qruplara qayıt"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Cəmi: {} | Aktiv: {} | Qovluq: {}"
 msgid "Type: %s"
 msgstr "Növ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
@@ -468,6 +466,9 @@ msgstr "səhv"
 
 msgid "loading"
 msgstr "yüklənir"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "YUKARI/AŞAĞI qruplar | SOL/SAĞ kartlar | OK aç"
 
 #~ msgid ""
 #~ "\n"

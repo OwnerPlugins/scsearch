@@ -220,7 +220,8 @@ msgstr "Nederīga mape!"
 msgid "Invalid streaming URL"
 msgstr "Nederīgs straumēšanas URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "LEFT/RIGHT navigācija | Labi atvērt | UP atpakaļ uz grupām"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Kopā: {} | Aktīvs: {} | Mape: {}"
 msgid "Type: %s"
 msgstr "Veids: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN grupas | LEFT/RIGHT kartes | Labi atvērts"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN grupas | LEFT/RIGHT kartes | Labi atvērts"
@@ -468,6 +466,9 @@ msgstr "kļūda"
 
 msgid "loading"
 msgstr "iekraušana"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN grupas | LEFT/RIGHT kartes | Labi atvērts"
 
 #~ msgid ""
 #~ "\n"

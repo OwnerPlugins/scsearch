@@ -220,7 +220,8 @@ msgstr "ਅਵੈਧ ਫੋਲਡਰ!"
 msgid "Invalid streaming URL"
 msgstr "ਅਵੈਧ ਸਟ੍ਰੀਮਿੰਗ URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ਖੱਬੇ/ਸੱਜੇ ਨੈਵੀਗੇਟ | ਓਕੇ ਓਪਨ | ਗਰੁੱਪਾਂ ਵਿੱਚ ਵਾਪਸ ਯੂ.ਪੀ"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "ਕੁੱਲ: {} | ਕਿਰਿਆਸ਼ੀਲ: {} | ਫੋਲਡਰ: {}
 msgid "Type: %s"
 msgstr "ਕਿਸਮ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN ਸਮੂਹ | ਖੱਬੇ/ਸੱਜੇ ਕਾਰਡ | ਠੀਕ ਹੈ ਖੋਲ੍ਹੋ"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN ਸਮੂਹ | ਖੱਬੇ/ਸੱਜੇ ਕਾਰਡ | ਠੀਕ ਹੈ ਖੋਲ੍ਹੋ"
@@ -468,6 +466,9 @@ msgstr "ਗਲਤੀ"
 
 msgid "loading"
 msgstr "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN ਸਮੂਹ | ਖੱਬੇ/ਸੱਜੇ ਕਾਰਡ | ਠੀਕ ਹੈ ਖੋਲ੍ਹੋ"
 
 #~ msgid ""
 #~ "\n"

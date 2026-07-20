@@ -220,7 +220,8 @@ msgstr "ថតឯកសារមិនត្រឹមត្រូវ!"
 msgid "Invalid streaming URL"
 msgstr "URL ការផ្សាយមិនត្រឹមត្រូវ"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "រុករកឆ្វេង/ស្តាំ | យល់ព្រមបើក | ឡើង​ទៅ​ក្រុម​"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "សរុប៖ {} | សកម្ម៖ {} | ថតឯកសារ៖ {}
 msgid "Type: %s"
 msgstr "ប្រភេទ៖ %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក"
@@ -468,6 +466,9 @@ msgstr "កំហុស"
 
 msgid "loading"
 msgstr "ការផ្ទុក"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក"
 
 #~ msgid ""
 #~ "\n"

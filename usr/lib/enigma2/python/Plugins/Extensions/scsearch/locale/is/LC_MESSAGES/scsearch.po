@@ -220,7 +220,8 @@ msgstr "Ógild mappa!"
 msgid "Invalid streaming URL"
 msgstr "Ógild straumslóð"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "VINSTRI/HÆGRI vafra | OK opið | UPP aftur í hópa"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Samtals: {} | Virkur: {} | Mappa: {}"
 msgid "Type: %s"
 msgstr "Tegund: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
@@ -468,6 +466,9 @@ msgstr "villa"
 
 msgid "loading"
 msgstr "hleðsla"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UPP/NIÐUR hópar | VINSTRI/HÆGRI spil | OK opið"
 
 #~ msgid ""
 #~ "\n"

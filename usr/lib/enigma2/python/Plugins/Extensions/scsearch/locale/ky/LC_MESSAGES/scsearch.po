@@ -220,7 +220,8 @@ msgstr "Жараксыз папка!"
 msgid "Invalid streaming URL"
 msgstr "Жараксыз агым URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "СОЛ/ОҢ багыттоо | OK ачык | UP топторго кайтуу"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Бардыгы: {} | Активдүү: {} | Папка: {}"
 msgid "Type: %s"
 msgstr "Түрү: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN топтору | LEFT/RIGHT карталары | макул ачык"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN топтору | LEFT/RIGHT карталары | макул ачык"
@@ -468,6 +466,9 @@ msgstr "ката"
 
 msgid "loading"
 msgstr "жүктөө"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN топтору | LEFT/RIGHT карталары | макул ачык"
 
 #~ msgid ""
 #~ "\n"

@@ -220,7 +220,8 @@ msgstr "Kehtetu kaust!"
 msgid "Invalid streaming URL"
 msgstr "Vale voogesituse URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "VASAKULE/PAREMALE navigeerimine | OK avatud | ÜLES tagasi rühmadesse"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Kokku: {} | Aktiivne: {} | Kaust: {}"
 msgid "Type: %s"
 msgstr "Tüüp: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
@@ -468,6 +466,9 @@ msgstr "viga"
 
 msgid "loading"
 msgstr "laadimine"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ÜLES/ALLA rühmad | VASAKU/PAREMA kaardid | OK avatud"
 
 #~ msgid ""
 #~ "\n"

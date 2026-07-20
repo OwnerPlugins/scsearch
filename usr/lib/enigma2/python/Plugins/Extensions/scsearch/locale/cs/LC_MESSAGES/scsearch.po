@@ -220,7 +220,8 @@ msgstr "Neplatná složka!"
 msgid "Invalid streaming URL"
 msgstr "Neplatná adresa URL streamování"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navigace VLEVO/VPRAVO | OK otevřít | UP zpět do skupin"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Celkem: {} | Aktivní: {} | Složka: {}"
 msgid "Type: %s"
 msgstr "Typ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Skupiny NAHORU/DOLŮ | LEFT/RIGHT pohlednice | OK otevřít"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Skupiny NAHORU/DOLŮ | LEFT/RIGHT pohlednice | OK otevřít"
@@ -468,6 +466,9 @@ msgstr "chyba"
 
 msgid "loading"
 msgstr "načítání"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Skupiny NAHORU/DOLŮ | LEFT/RIGHT pohlednice | OK otevřít"
 
 #~ msgid ""
 #~ "\n"

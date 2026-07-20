@@ -220,7 +220,8 @@ msgstr "Folder tidak sah!"
 msgid "Invalid streaming URL"
 msgstr "URL penstriman tidak sah"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "KIRI/KANAN navigasi | OK buka | UP kembali kepada kumpulan"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Jumlah: {} | Aktif: {} | Folder: {}"
 msgid "Type: %s"
 msgstr "Jenis: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "kumpulan ATAS/BAWAH | Kad KIRI/KANAN | OK buka"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "kumpulan ATAS/BAWAH | Kad KIRI/KANAN | OK buka"
@@ -468,6 +466,9 @@ msgstr "kesilapan"
 
 msgid "loading"
 msgstr "memuatkan"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "kumpulan ATAS/BAWAH | Kad KIRI/KANAN | OK buka"
 
 #~ msgid ""
 #~ "\n"

@@ -220,7 +220,8 @@ msgstr "Carpeta no vàlida!"
 msgid "Invalid streaming URL"
 msgstr "URL de transmissió no vàlid"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navega esquerra/dreta | D'acord obre | Tornar a grups"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total: {} | Actiu: {} | Carpeta: {}"
 msgid "Type: %s"
 msgstr "Tipus: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grups UP/DOWN | Targetes ESQUERRA/DRETA | D'acord obert"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grups UP/DOWN | Targetes ESQUERRA/DRETA | D'acord obert"
@@ -468,6 +466,9 @@ msgstr "error"
 
 msgid "loading"
 msgstr "carregant"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grups UP/DOWN | Targetes ESQUERRA/DRETA | D'acord obert"
 
 #~ msgid ""
 #~ "\n"

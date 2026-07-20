@@ -220,7 +220,8 @@ msgstr "Cartafol non válido!"
 msgid "Invalid streaming URL"
 msgstr "URL de transmisión non válido"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navegar ESQUERDA/DEREITA | Aceptar abrir | ARRIBA de volta aos grupos"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total: {} | Activo: {} | Cartafol: {}"
 msgid "Type: %s"
 msgstr "Tipo: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupos ARRIBA/ABAIXO | Tarxetas ESQUERDA/DEREITA | Aceptar aberto"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grupos ARRIBA/ABAIXO | Tarxetas ESQUERDA/DEREITA | Aceptar aberto"
@@ -468,6 +466,9 @@ msgstr "erro"
 
 msgid "loading"
 msgstr "cargando"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grupos ARRIBA/ABAIXO | Tarxetas ESQUERDA/DEREITA | Aceptar aberto"
 
 #~ msgid ""
 #~ "\n"

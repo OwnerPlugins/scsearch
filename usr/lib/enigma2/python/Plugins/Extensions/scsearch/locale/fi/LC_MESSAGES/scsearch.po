@@ -220,7 +220,8 @@ msgstr "Virheellinen kansio!"
 msgid "Invalid streaming URL"
 msgstr "Virheellinen suoratoiston URL-osoite"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "VASEN/OIKEA navigoi | OK auki | YLÖS takaisin ryhmiin"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Yhteensä: {} | Aktiivinen: {} | Kansio: {}"
 msgid "Type: %s"
 msgstr "Tyyppi: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "YLÖS/ALAS ryhmät | VASEN/OIKEA kortit | OK auki"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "YLÖS/ALAS ryhmät | VASEN/OIKEA kortit | OK auki"
@@ -468,6 +466,9 @@ msgstr "virhe"
 
 msgid "loading"
 msgstr "lastaus"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "YLÖS/ALAS ryhmät | VASEN/OIKEA kortit | OK auki"
 
 #~ msgid ""
 #~ "\n"

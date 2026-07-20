@@ -220,7 +220,8 @@ msgstr "Ongeldige vouer!"
 msgid "Invalid streaming URL"
 msgstr "Ongeldige stroom-URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "LINKS/REGS navigeer | OK oop | OP terug na groepe"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Totaal: {} | Aktief: {} | Vouer: {}"
 msgid "Type: %s"
 msgstr "Tipe: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "OP/AF groepe | LINKS/REGS kaarte | OK oop"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "OP/AF groepe | LINKS/REGS kaarte | OK oop"
@@ -468,6 +466,9 @@ msgstr "fout"
 
 msgid "loading"
 msgstr "laai"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "OP/AF groepe | LINKS/REGS kaarte | OK oop"
 
 #~ msgid ""
 #~ "\n"

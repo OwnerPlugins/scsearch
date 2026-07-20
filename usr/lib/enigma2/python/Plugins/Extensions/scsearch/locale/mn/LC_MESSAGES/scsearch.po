@@ -220,7 +220,8 @@ msgstr "Буруу фолдер!"
 msgid "Invalid streaming URL"
 msgstr "Хүчингүй урсгал URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ЗҮҮН/БАРуун тийш чиглүүлэх | За нээх | Бүлэг рүү буцах"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Нийт: {} | Идэвхтэй: {} | Фолдер: {}"
 msgid "Type: %s"
 msgstr "Төрөл: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ДЭЭШ/ДООШ бүлгүүд | ЗҮҮН/БАРУУН картууд | За нээ"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ДЭЭШ/ДООШ бүлгүүд | ЗҮҮН/БАРУУН картууд | За нээ"
@@ -468,6 +466,9 @@ msgstr "алдаа"
 
 msgid "loading"
 msgstr "ачаалж байна"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ДЭЭШ/ДООШ бүлгүүд | ЗҮҮН/БАРУУН картууд | За нээ"
 
 #~ msgid ""
 #~ "\n"

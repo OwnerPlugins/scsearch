@@ -220,7 +220,8 @@ msgstr "Yaroqsiz jild!"
 msgid "Invalid streaming URL"
 msgstr "Yaroqsiz oqim URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Chap/O'ngga navigatsiya | OK ochiq | Guruhlarga qaytish"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Jami: {} | Faol: {} | Jild: {}"
 msgid "Type: %s"
 msgstr "Turi: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "YUQARIDA/PASTGA guruhlar | LEFT/RIGHT kartalari | OK ochiq"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "YUQARIDA/PASTGA guruhlar | LEFT/RIGHT kartalari | OK ochiq"
@@ -468,6 +466,9 @@ msgstr "xato"
 
 msgid "loading"
 msgstr "yuklash"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "YUQARIDA/PASTGA guruhlar | LEFT/RIGHT kartalari | OK ochiq"
 
 #~ msgid ""
 #~ "\n"

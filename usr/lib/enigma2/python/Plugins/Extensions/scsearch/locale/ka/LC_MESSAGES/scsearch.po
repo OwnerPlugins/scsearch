@@ -220,7 +220,8 @@ msgstr "არასწორი საქაღალდე!"
 msgid "Invalid streaming URL"
 msgstr "არასწორი სტრიმინგის URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "მარცხნივ/მარჯვნივ ნავიგაცია | OK გახსნა | UP დაუბრუნდით ჯგუფებს"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "სულ: {} | აქტიური: {} | საქაღალდე:
 msgid "Type: %s"
 msgstr "ტიპი: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN ჯგუფები | LEFT/RIGHT ბარათები | OK გახსნა"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN ჯგუფები | LEFT/RIGHT ბარათები | OK გახსნა"
@@ -468,6 +466,9 @@ msgstr "შეცდომა"
 
 msgid "loading"
 msgstr "ჩატვირთვა"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN ჯგუფები | LEFT/RIGHT ბარათები | OK გახსნა"
 
 #~ msgid ""
 #~ "\n"

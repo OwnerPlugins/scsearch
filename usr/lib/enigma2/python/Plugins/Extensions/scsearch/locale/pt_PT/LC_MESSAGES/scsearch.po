@@ -220,7 +220,8 @@ msgstr "Pasta inválida!"
 msgid "Invalid streaming URL"
 msgstr "URL de streaming inválido"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navegar ESQUERDA/DIREITA | OK, aberto | UP de volta aos grupos"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total: {} | Ativo: {} | Pasta: {}"
 msgid "Type: %s"
 msgstr "Tipo: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupos PARA CIMA/PARA BAIXO | Cartões ESQUERDA/DIREITA | OK, aberto"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grupos PARA CIMA/PARA BAIXO | Cartões ESQUERDA/DIREITA | OK, aberto"
@@ -468,6 +466,9 @@ msgstr "erro"
 
 msgid "loading"
 msgstr "carregando"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grupos PARA CIMA/PARA BAIXO | Cartões ESQUERDA/DIREITA | OK, aberto"
 
 #~ msgid ""
 #~ "\n"

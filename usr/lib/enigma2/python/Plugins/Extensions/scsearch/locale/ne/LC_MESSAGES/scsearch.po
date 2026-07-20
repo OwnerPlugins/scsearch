@@ -220,7 +220,8 @@ msgstr "अमान्य फोल्डर!"
 msgid "Invalid streaming URL"
 msgstr "अमान्य स्ट्रिमिङ URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "बायाँ/दायाँ नेभिगेट | ठिक खुल्ला | UP समूहहरूमा फर्कनुहोस्"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "कुल: {} | सक्रिय: {} | फोल्डर: {}"
 msgid "Type: %s"
 msgstr "प्रकार: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "माथि / तल समूह | बायाँ/दायाँ कार्डहरू | ठीक छ खोल्नुहोस्"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "माथि / तल समूह | बायाँ/दायाँ कार्डहरू | ठीक छ खोल्नुहोस्"
@@ -468,6 +466,9 @@ msgstr "त्रुटि"
 
 msgid "loading"
 msgstr "लोड गर्दै"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "माथि / तल समूह | बायाँ/दायाँ कार्डहरू | ठीक छ खोल्नुहोस्"
 
 #~ msgid ""
 #~ "\n"

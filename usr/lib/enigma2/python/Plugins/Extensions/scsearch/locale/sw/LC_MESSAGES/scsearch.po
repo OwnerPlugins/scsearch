@@ -220,7 +220,8 @@ msgstr "Folda batili!"
 msgid "Invalid streaming URL"
 msgstr "URL ya kutiririsha si sahihi"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "KUSHOTO/KULIA navigate | Sawa fungua | UP nyuma kwa vikundi"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Jumla: {} | Inayotumika: {} | Folda: {}"
 msgid "Type: %s"
 msgstr "Aina: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
@@ -468,6 +466,9 @@ msgstr "kosa"
 
 msgid "loading"
 msgstr "kupakia"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Vikundi vya JUU/ CHINI | KUSHOTO/KULIA kadi | Sawa fungua"
 
 #~ msgid ""
 #~ "\n"

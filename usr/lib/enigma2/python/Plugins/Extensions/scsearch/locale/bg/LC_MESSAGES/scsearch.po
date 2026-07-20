@@ -220,7 +220,8 @@ msgstr "Невалидна папка!"
 msgid "Invalid streaming URL"
 msgstr "Невалиден URL адрес за поточно предаване"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "навигация НАЛЯВО/НАДЯСНО | OK отвори | НАГОРЕ обратно към групите"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Общо: {} | Активен: {} | Папка: {}"
 msgid "Type: %s"
 msgstr "Тип: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Групи НАГОРЕ/НАДОЛУ | ЛЯВО/ДЯСНО карти | Добре отворено"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Групи НАГОРЕ/НАДОЛУ | ЛЯВО/ДЯСНО карти | Добре отворено"
@@ -468,6 +466,9 @@ msgstr "грешка"
 
 msgid "loading"
 msgstr "зареждане"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Групи НАГОРЕ/НАДОЛУ | ЛЯВО/ДЯСНО карти | Добре отворено"
 
 #~ msgid ""
 #~ "\n"

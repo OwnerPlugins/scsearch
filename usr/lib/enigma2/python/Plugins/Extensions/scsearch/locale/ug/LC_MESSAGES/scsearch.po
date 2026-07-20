@@ -220,7 +220,8 @@ msgstr "ئىناۋەتسىز ھۆججەت قىسقۇچ!"
 msgid "Invalid streaming URL"
 msgstr "ئىناۋەتلىك ئېقىم URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "LEFT / RIGHT يول باشلاش | بولىدۇ ئوچۇق | گۇرۇپپىلارغا قايتىڭ"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "ئومۇمىي: {} | ئاكتىپ: {} | ھۆججەت قىسقۇچ: {}"
 msgid "Type: %s"
 msgstr "تىپى:% s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP / DOWN گۇرۇپپىلىرى | LEFT / RIGHT كارتا | ماقۇل"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP / DOWN گۇرۇپپىلىرى | LEFT / RIGHT كارتا | ماقۇل"
@@ -468,6 +466,9 @@ msgstr "خاتالىق"
 
 msgid "loading"
 msgstr "يۈكلەۋاتىدۇ"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP / DOWN گۇرۇپپىلىرى | LEFT / RIGHT كارتا | ماقۇل"
 
 #~ msgid ""
 #~ "\n"

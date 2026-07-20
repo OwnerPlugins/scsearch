@@ -220,7 +220,8 @@ msgstr "अमान्य फ़ोल्डर!"
 msgid "Invalid streaming URL"
 msgstr "अमान्य स्ट्रीमिंग यूआरएल"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "बाएँ/दाएँ नेविगेट करें | ठीक है खोलो | उत्तर प्रदेश वापस समूहों में"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "कुल: {} | सक्रिय: {} | फ़ोल्डर: {}"
 msgid "Type: %s"
 msgstr "प्रकार: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ऊपर/नीचे समूह | बाएँ/दाएँ कार्ड | ठीक है खोलो"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ऊपर/नीचे समूह | बाएँ/दाएँ कार्ड | ठीक है खोलो"
@@ -468,6 +466,9 @@ msgstr "गलती"
 
 msgid "loading"
 msgstr "लोड हो रहा है"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ऊपर/नीचे समूह | बाएँ/दाएँ कार्ड | ठीक है खोलो"
 
 #~ msgid ""
 #~ "\n"

@@ -220,7 +220,8 @@ msgstr "Ffolder annilys!"
 msgid "Invalid streaming URL"
 msgstr "URL ffrydio annilys"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "llywio CHWITH/DE | Iawn agor | UP yn ôl i grwpiau"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Cyfanswm: {} | Actif: {} | Ffolder: {}"
 msgid "Type: %s"
 msgstr "Math: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grwpiau I FYNY/I LAWR | Cardiau CHWITH/DE | Iawn agor"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grwpiau I FYNY/I LAWR | Cardiau CHWITH/DE | Iawn agor"
@@ -468,6 +466,9 @@ msgstr "gwall"
 
 msgid "loading"
 msgstr "llwytho"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grwpiau I FYNY/I LAWR | Cardiau CHWITH/DE | Iawn agor"
 
 #~ msgid ""
 #~ "\n"

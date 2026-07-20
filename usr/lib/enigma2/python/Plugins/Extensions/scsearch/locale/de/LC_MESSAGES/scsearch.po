@@ -220,7 +220,8 @@ msgstr "Ungültiger Ordner!"
 msgid "Invalid streaming URL"
 msgstr "Ungültige Streaming-URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "LINKS/RECHTS navigieren | OK öffnen | UP zurück zu den Gruppen"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Gesamt: {} | Aktiv: {} | Ordner: {}"
 msgid "Type: %s"
 msgstr "Geben Sie ein: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN-Gruppen | LINKS/RECHTS-Karten | OK, öffnen"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN-Gruppen | LINKS/RECHTS-Karten | OK, öffnen"
@@ -468,6 +466,9 @@ msgstr "Fehler"
 
 msgid "loading"
 msgstr "Laden"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN-Gruppen | LINKS/RECHTS-Karten | OK, öffnen"
 
 #~ msgid ""
 #~ "\n"

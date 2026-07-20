@@ -220,7 +220,8 @@ msgstr "Cartella non valida!"
 msgid "Invalid streaming URL"
 msgstr "URL di streaming non valido"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navigazione SINISTRA/DESTRA | ok apri | UP torna ai gruppi"
 
 msgid "Load error"
@@ -412,9 +413,6 @@ msgstr "Totale: {} | Attivo: {} | Cartella: {}"
 msgid "Type: %s"
 msgstr "Tipo: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Gruppi SU/GIÙ | Carte SINISTRA/DESTRA | Ok, apri"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Gruppi SU/GIÙ | Carte SINISTRA/DESTRA | Ok, apri"
@@ -465,6 +463,9 @@ msgstr "errore"
 
 msgid "loading"
 msgstr "caricamento"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Gruppi SU/GIÙ | Carte SINISTRA/DESTRA | Ok, apri"
 
 #~ msgid ""
 #~ "\n"

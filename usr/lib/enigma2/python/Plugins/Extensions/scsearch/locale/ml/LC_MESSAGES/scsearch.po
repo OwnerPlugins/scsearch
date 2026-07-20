@@ -220,7 +220,8 @@ msgstr "അസാധുവായ ഫോൾഡർ!"
 msgid "Invalid streaming URL"
 msgstr "അസാധുവായ സ്ട്രീമിംഗ് URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ഇടത്/വലത് നാവിഗേറ്റ് | ശരി തുറന്നു | ഗ്രൂപ്പുകളിലേക്ക് തിരികെ യു.പി"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "ആകെ: {} | സജീവം: {} | ഫോൾഡർ: {}"
 msgid "Type: %s"
 msgstr "തരം: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN ഗ്രൂപ്പുകൾ | ഇടത്/വലത് കാർഡുകൾ | ശരി തുറക്കുക"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN ഗ്രൂപ്പുകൾ | ഇടത്/വലത് കാർഡുകൾ | ശരി തുറക്കുക"
@@ -468,6 +466,9 @@ msgstr "പിശക്"
 
 msgid "loading"
 msgstr "ലോഡ് ചെയ്യുന്നു"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN ഗ്രൂപ്പുകൾ | ഇടത്/വലത് കാർഡുകൾ | ശരി തുറക്കുക"
 
 #~ msgid ""
 #~ "\n"

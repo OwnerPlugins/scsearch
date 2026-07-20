@@ -220,7 +220,8 @@ msgstr "Neplatný priečinok!"
 msgid "Invalid streaming URL"
 msgstr "Neplatná adresa URL streamovania"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navigácia DOĽAVA/DOPRAVA | OK otvoriť | HORE späť na skupiny"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Celkom: {} | Aktívne: {} | Priečinok: {}"
 msgid "Type: %s"
 msgstr "Typ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN skupiny | LEFT/RIGHT pohľadnice | OK otvorené"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN skupiny | LEFT/RIGHT pohľadnice | OK otvorené"
@@ -468,6 +466,9 @@ msgstr "chyba"
 
 msgid "loading"
 msgstr "načítavanie"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN skupiny | LEFT/RIGHT pohľadnice | OK otvorené"
 
 #~ msgid ""
 #~ "\n"

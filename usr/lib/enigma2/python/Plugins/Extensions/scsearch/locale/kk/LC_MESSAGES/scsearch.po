@@ -220,7 +220,8 @@ msgstr "Жарамсыз қалта!"
 msgid "Invalid streaming URL"
 msgstr "Жарамсыз ағындық URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "СОЛ/ОҢ жаққа шарлау | Жарайды ашу | Топтарға оралу"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Барлығы: {} | Белсенді: {} | Қалта: {}"
 msgid "Type: %s"
 msgstr "Түрі: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ЖОҒАРЫ/ТӨМЕН топтары | СОЛ/ОҢ карталар | Жарайды ашыңыз"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ЖОҒАРЫ/ТӨМЕН топтары | СОЛ/ОҢ карталар | Жарайды ашыңыз"
@@ -468,6 +466,9 @@ msgstr "қате"
 
 msgid "loading"
 msgstr "жүктеу"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ЖОҒАРЫ/ТӨМЕН топтары | СОЛ/ОҢ карталар | Жарайды ашыңыз"
 
 #~ msgid ""
 #~ "\n"

@@ -220,7 +220,8 @@ msgstr "Ugyldig mappe!"
 msgid "Invalid streaming URL"
 msgstr "Ugyldig nettadresse for strømming"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "VENSTRE/HØYRE naviger | OK åpen | OPP tilbake til grupper"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Totalt: {} | Aktiv: {} | Mappe: {}"
 msgid "Type: %s"
 msgstr "Type: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "OPP/NED grupper | VENSTRE/HØYRE kort | OK åpen"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "OPP/NED grupper | VENSTRE/HØYRE kort | OK åpen"
@@ -468,6 +466,9 @@ msgstr "feil"
 
 msgid "loading"
 msgstr "lasting"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "OPP/NED grupper | VENSTRE/HØYRE kort | OK åpen"
 
 #~ msgid ""
 #~ "\n"

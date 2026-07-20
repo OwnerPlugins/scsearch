@@ -220,7 +220,8 @@ msgstr "Dosje e pavlefshme!"
 msgid "Invalid streaming URL"
 msgstr "URL e pavlefshme e transmetimit"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "lundrimi LETËS/DJATHTAS | OK hapur | UP përsëri në grupe"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Gjithsej: {} | Aktiv: {} | Dosja: {}"
 msgid "Type: %s"
 msgstr "Lloji: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupet LARTË/POSHT | Kartat e majta/Djathtas | OK hapur"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grupet LARTË/POSHT | Kartat e majta/Djathtas | OK hapur"
@@ -468,6 +466,9 @@ msgstr "gabim"
 
 msgid "loading"
 msgstr "ngarkim"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grupet LARTË/POSHT | Kartat e majta/Djathtas | OK hapur"
 
 #~ msgid ""
 #~ "\n"

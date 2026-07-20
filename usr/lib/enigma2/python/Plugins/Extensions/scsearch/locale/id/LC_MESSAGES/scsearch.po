@@ -220,7 +220,8 @@ msgstr "Folder tidak valid!"
 msgid "Invalid streaming URL"
 msgstr "URL streaming tidak valid"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Navigasi KIRI/KANAN | Oke buka | NAIK kembali ke kelompok"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Jumlah: {} | Aktif: {} | Map: {}"
 msgid "Type: %s"
 msgstr "Jenis: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka"
@@ -468,6 +466,9 @@ msgstr "kesalahan"
 
 msgid "loading"
 msgstr "memuat"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka"
 
 #~ msgid ""
 #~ "\n"

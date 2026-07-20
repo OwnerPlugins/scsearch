@@ -220,7 +220,8 @@ msgstr "Неважечка папка!"
 msgid "Invalid streaming URL"
 msgstr "Неважечка URL-адреса за проследување"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ЛЕВО/ДЕСНО навигација | ОК отворено | ГОРЕ назад во групите"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Вкупно: {} | Активно: {} | Папка: {}"
 msgid "Type: %s"
 msgstr "Тип: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ГОРЕ/ДОЛУ групи | ЛЕВИ/ДЕСНИ картички | ОК отворено"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ГОРЕ/ДОЛУ групи | ЛЕВИ/ДЕСНИ картички | ОК отворено"
@@ -468,6 +466,9 @@ msgstr "грешка"
 
 msgid "loading"
 msgstr "вчитување"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ГОРЕ/ДОЛУ групи | ЛЕВИ/ДЕСНИ картички | ОК отворено"
 
 #~ msgid ""
 #~ "\n"

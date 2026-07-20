@@ -220,7 +220,8 @@ msgstr "无效的文件夹！"
 msgid "Invalid streaming URL"
 msgstr "流媒体 URL 无效"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "左/右导航 | 确定打开 | UP 返回群组"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "总计：{} | 活动：{} | 文件夹： {}"
 msgid "Type: %s"
 msgstr "类型：%s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "上/下组 | 左/右卡 | 确定打开"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "上/下组 | 左/右卡 | 确定打开"
@@ -468,6 +466,9 @@ msgstr "错误"
 
 msgid "loading"
 msgstr "加载中"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "上/下组 | 左/右卡 | 确定打开"
 
 #~ msgid ""
 #~ "\n"

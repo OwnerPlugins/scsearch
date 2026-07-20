@@ -7,6 +7,7 @@
 
 
 
+
 msgid "%d titles"
 msgstr ""
 
@@ -211,7 +212,7 @@ msgstr ""
 msgid "Invalid streaming URL"
 msgstr ""
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr ""
 
 msgid "Load error"
@@ -401,9 +402,6 @@ msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr ""
 
 msgid "Type: %s"
-msgstr ""
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
 msgstr ""
 
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"

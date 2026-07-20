@@ -220,7 +220,8 @@ msgstr "Thư mục không hợp lệ!"
 msgid "Invalid streaming URL"
 msgstr "URL phát trực tuyến không hợp lệ"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Điều hướng TRÁI/PHẢI | Được rồi mở | LÊN trở lại nhóm"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Tổng cộng: {} | Đang hoạt động: {} | Thư mục: {}"
 msgid "Type: %s"
 msgstr "Loại: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
@@ -468,6 +466,9 @@ msgstr "lỗi"
 
 msgid "loading"
 msgstr "đang tải"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Nhóm LÊN/XUỐNG | Thẻ TRÁI/PHẢI | được rồi mở"
 
 #~ msgid ""
 #~ "\n"

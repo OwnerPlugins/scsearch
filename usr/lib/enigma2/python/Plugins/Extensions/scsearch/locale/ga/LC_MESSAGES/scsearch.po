@@ -220,7 +220,8 @@ msgstr "Fillteán neamhbhailí!"
 msgid "Invalid streaming URL"
 msgstr "URL sruthaithe neamhbhailí"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Clé/DEIS nascleanúint | OK oscailte | UP ar ais chuig grúpaí"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Iomlán: {} | Gníomhach: {} | Fillteán: {}"
 msgid "Type: %s"
 msgstr "Cineál: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grúpaí UP/SÍOS | Cártaí ar chlé/ar dheis | OK oscailte"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grúpaí UP/SÍOS | Cártaí ar chlé/ar dheis | OK oscailte"
@@ -468,6 +466,9 @@ msgstr "earráid"
 
 msgid "loading"
 msgstr "ag lódáil"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grúpaí UP/SÍOS | Cártaí ar chlé/ar dheis | OK oscailte"
 
 #~ msgid ""
 #~ "\n"

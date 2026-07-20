@@ -220,7 +220,8 @@ msgstr "Dosar nevalid!"
 msgid "Invalid streaming URL"
 msgstr "Adresă URL de streaming nevalidă"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navigare stanga/dreapta | OK deschis | SUS înapoi la grupuri"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total: {} | Activ: {} | Dosar: {}"
 msgid "Type: %s"
 msgstr "Tip: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Grupuri SUS/JOS | carduri STÂNGA/DREAPTA | OK deschis"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Grupuri SUS/JOS | carduri STÂNGA/DREAPTA | OK deschis"
@@ -468,6 +466,9 @@ msgstr "eroare"
 
 msgid "loading"
 msgstr "încărcare"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Grupuri SUS/JOS | carduri STÂNGA/DREAPTA | OK deschis"
 
 #~ msgid ""
 #~ "\n"

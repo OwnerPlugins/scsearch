@@ -220,7 +220,8 @@ msgstr "અમાન્ય ફોલ્ડર!"
 msgid "Invalid streaming URL"
 msgstr "અમાન્ય સ્ટ્રીમિંગ URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ડાબે/જમણે નેવિગેટ કરો | બરાબર ખોલો | યુપી પાછા જૂથોમાં"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "કુલ: {} | સક્રિય: {} | ફોલ્ડર: {}"
 msgid "Type: %s"
 msgstr "પ્રકાર: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN જૂથો | ડાબે/જમણે કાર્ડ્સ | બરાબર ખોલો"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN જૂથો | ડાબે/જમણે કાર્ડ્સ | બરાબર ખોલો"
@@ -468,6 +466,9 @@ msgstr "ભૂલ"
 
 msgid "loading"
 msgstr "લોડિંગ"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN જૂથો | ડાબે/જમણે કાર્ડ્સ | બરાબર ખોલો"
 
 #~ msgid ""
 #~ "\n"

@@ -220,7 +220,8 @@ msgstr "Папкаи нодуруст!"
 msgid "Invalid streaming URL"
 msgstr "URL-и ҷараён нодуруст"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ЧАП/РАСТ паймоиш | Хуб кушода | Бозгашт ба гурӯҳҳо"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Ҳамагӣ: {} | Фаъол: {} | Папка: {}"
 msgid "Type: %s"
 msgstr "Навъи: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Гуруҳҳои ТО/ПОЁН | Кортҳои ЧАП/РАСТ | Хуб кушоед"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Гуруҳҳои ТО/ПОЁН | Кортҳои ЧАП/РАСТ | Хуб кушоед"
@@ -468,6 +466,9 @@ msgstr "хато"
 
 msgid "loading"
 msgstr "бор кардан"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Гуруҳҳои ТО/ПОЁН | Кортҳои ЧАП/РАСТ | Хуб кушоед"
 
 #~ msgid ""
 #~ "\n"

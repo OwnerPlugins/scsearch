@@ -220,7 +220,8 @@ msgstr "پوشه نامعتبر!"
 msgid "Invalid streaming URL"
 msgstr "URL پخش جریانی نامعتبر است"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "چپ/راست پیمایش | باشه باز | بازگشت به گروه ها"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "مجموع: {} | فعال: {} | پوشه: {}"
 msgid "Type: %s"
 msgstr "نوع: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "گروه های UP/DOWN | کارت های چپ/راست | باشه باز"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "گروه های UP/DOWN | کارت های چپ/راست | باشه باز"
@@ -468,6 +466,9 @@ msgstr "خطا"
 
 msgid "loading"
 msgstr "در حال بارگذاری"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "گروه های UP/DOWN | کارت های چپ/راست | باشه باز"
 
 #~ msgid ""
 #~ "\n"

@@ -220,7 +220,8 @@ msgstr "Karpeta baliogabea!"
 msgid "Invalid streaming URL"
 msgstr "Igorpenaren URL baliogabea"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "EZKER/ESKUINERA nabigatu | Ados ireki | GORA taldeetara itzuli"
 
 msgid "Load error"
@@ -407,16 +408,13 @@ msgid "Title"
 msgstr "Izenburua"
 
 msgid "Top 10 di oggi"
-msgstr ""
+msgstr "Gaurko 10 onenak"
 
 msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr "Guztira: {} | Aktiboa: {} | Karpeta: {}"
 
 msgid "Type: %s"
 msgstr "Mota: %s"
-
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "GORA/BEHERA taldeak | EZKER/ESKUINERA txartelak | Ados ireki"
 
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
@@ -468,6 +466,9 @@ msgstr "akatsa"
 
 msgid "loading"
 msgstr "kargatzen"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "GORA/BEHERA taldeak | EZKER/ESKUINERA txartelak | Ados ireki"
 
 #~ msgid ""
 #~ "\n"

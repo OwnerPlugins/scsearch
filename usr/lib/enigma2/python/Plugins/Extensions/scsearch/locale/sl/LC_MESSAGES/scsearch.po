@@ -220,7 +220,8 @@ msgstr "Neveljavna mapa!"
 msgid "Invalid streaming URL"
 msgstr "Neveljaven URL za pretakanje"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Krmarjenje LEVO/DESNO | V redu odpri | GOR nazaj v skupine"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Skupaj: {} | Aktivno: {} | Mapa: {}"
 msgid "Type: %s"
 msgstr "Vrsta: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Skupine GOR/DOL | LEVO/DESNO karte | OK odprto"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Skupine GOR/DOL | LEVO/DESNO karte | OK odprto"
@@ -468,6 +466,9 @@ msgstr "napaka"
 
 msgid "loading"
 msgstr "nalaganje"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Skupine GOR/DOL | LEVO/DESNO karte | OK odprto"
 
 #~ msgid ""
 #~ "\n"

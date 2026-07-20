@@ -220,7 +220,8 @@ msgstr "Dòrsièr invalid!"
 msgid "Invalid streaming URL"
 msgstr "URL de difusion invalida"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "navegar A ESQUÈRA/DRECHA | D'acòrdi dobrir | EN NAU de retorn als grops"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total: {} | Actiu: {} | Dossièr : {}"
 msgid "Type: %s"
 msgstr "Tipe : %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "grops EN NAUT/EN BASS | cartas d'ESQUÈRHA/DRECHA | D'acòrdi dobrir"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "grops EN NAUT/EN BASS | cartas d'ESQUÈRHA/DRECHA | D'acòrdi dobrir"
@@ -468,6 +466,9 @@ msgstr "error"
 
 msgid "loading"
 msgstr "cargament"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "grops EN NAUT/EN BASS | cartas d'ESQUÈRHA/DRECHA | D'acòrdi dobrir"
 
 #~ msgid ""
 #~ "\n"

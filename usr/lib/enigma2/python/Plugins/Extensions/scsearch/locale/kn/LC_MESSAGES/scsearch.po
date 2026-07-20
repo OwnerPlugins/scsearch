@@ -220,7 +220,8 @@ msgstr "ಅಮಾನ್ಯ ಫೋಲ್ಡರ್!"
 msgid "Invalid streaming URL"
 msgstr "ಅಮಾನ್ಯವಾದ ಸ್ಟ್ರೀಮಿಂಗ್ URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ಎಡ/ಬಲ ನ್ಯಾವಿಗೇಟ್ | ಸರಿ ತೆರೆದು | ಗುಂಪುಗಳಿಗೆ ಹಿಂತಿರುಗಿ"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "ಒಟ್ಟು: {} | ಸಕ್ರಿಯ: {} | ಫೋಲ್ಡರ್: {}
 msgid "Type: %s"
 msgstr "ಪ್ರಕಾರ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN ಗುಂಪುಗಳು | ಎಡ/ಬಲ ಕಾರ್ಡ್‌ಗಳು | ಸರಿ ತೆರೆಯಿರಿ"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN ಗುಂಪುಗಳು | ಎಡ/ಬಲ ಕಾರ್ಡ್‌ಗಳು | ಸರಿ ತೆರೆಯಿರಿ"
@@ -468,6 +466,9 @@ msgstr "ದೋಷ"
 
 msgid "loading"
 msgstr "ಲೋಡ್ ಆಗುತ್ತಿದೆ"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN ಗುಂಪುಗಳು | ಎಡ/ಬಲ ಕಾರ್ಡ್‌ಗಳು | ಸರಿ ತೆರೆಯಿರಿ"
 
 #~ msgid ""
 #~ "\n"

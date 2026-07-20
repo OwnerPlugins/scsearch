@@ -220,7 +220,8 @@ msgstr "Неверная папка!"
 msgid "Invalid streaming URL"
 msgstr "Неверный URL-адрес потоковой передачи"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "ВЛЕВО/ВПРАВО перемещаться | ОК, открыть | UP вернуться к группам"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Итого: {} | Активен: {} | Папка: {}"
 msgid "Type: %s"
 msgstr "Тип: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Группы ВВЕРХ/ВНИЗ | карты ЛЕВЫЙ/ПРАВЫЙ | ОК, открывай"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Группы ВВЕРХ/ВНИЗ | карты ЛЕВЫЙ/ПРАВЫЙ | ОК, открывай"
@@ -468,6 +466,9 @@ msgstr "ошибка"
 
 msgid "loading"
 msgstr "загрузка"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Группы ВВЕРХ/ВНИЗ | карты ЛЕВЫЙ/ПРАВЫЙ | ОК, открывай"
 
 #~ msgid ""
 #~ "\n"

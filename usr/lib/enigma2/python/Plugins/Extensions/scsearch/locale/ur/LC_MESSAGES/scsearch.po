@@ -220,7 +220,8 @@ msgstr "غلط فولڈر!"
 msgid "Invalid streaming URL"
 msgstr "غلط سلسلہ بندی کا URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "بائیں/دائیں نیویگیٹ | ٹھیک ہے کھولیں | یوپی واپس گروپوں میں"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "کل: {} | فعال: {} | فولڈر: {}"
 msgid "Type: %s"
 msgstr "قسم: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "اوپر/نیچے گروپس | بائیں/دائیں کارڈز | ٹھیک ہے کھولو"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "اوپر/نیچے گروپس | بائیں/دائیں کارڈز | ٹھیک ہے کھولو"
@@ -468,6 +466,9 @@ msgstr "غلطی"
 
 msgid "loading"
 msgstr "لوڈ ہو رہا ہے"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "اوپر/نیچے گروپس | بائیں/دائیں کارڈز | ٹھیک ہے کھولو"
 
 #~ msgid ""
 #~ "\n"

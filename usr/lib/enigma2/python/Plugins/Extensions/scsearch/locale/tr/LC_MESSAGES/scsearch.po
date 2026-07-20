@@ -220,7 +220,8 @@ msgstr "Geçersiz klasör!"
 msgid "Invalid streaming URL"
 msgstr "Geçersiz akış URL'si"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "SOL/SAĞ gezinme | Tamam aç | Gruplara geri dön"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Toplam: {} | Aktif: {} | Dosya: {}"
 msgid "Type: %s"
 msgstr "Tür: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "YUKARI/AŞAĞI grupları | SOL/SAĞ kartlar | tamam aç"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "YUKARI/AŞAĞI grupları | SOL/SAĞ kartlar | tamam aç"
@@ -468,6 +466,9 @@ msgstr "hata"
 
 msgid "loading"
 msgstr "yükleniyor"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "YUKARI/AŞAĞI grupları | SOL/SAĞ kartlar | tamam aç"
 
 #~ msgid ""
 #~ "\n"

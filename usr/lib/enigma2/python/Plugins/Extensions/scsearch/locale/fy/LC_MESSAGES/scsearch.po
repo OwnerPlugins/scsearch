@@ -220,7 +220,8 @@ msgstr "Unjildige map!"
 msgid "Invalid streaming URL"
 msgstr "Unjildige streaming-URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "LEFT / RIGHT navigearje | OK iepen | UP werom nei groepen"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Totaal: {} | Aktyf: {} | Map: {}"
 msgid "Type: %s"
 msgstr "Typ: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN groepen | LEFT / RIGHT cards | OK iepen"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN groepen | LEFT / RIGHT cards | OK iepen"
@@ -468,6 +466,9 @@ msgstr "fersin"
 
 msgid "loading"
 msgstr "laden"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN groepen | LEFT / RIGHT cards | OK iepen"
 
 #~ msgid ""
 #~ "\n"

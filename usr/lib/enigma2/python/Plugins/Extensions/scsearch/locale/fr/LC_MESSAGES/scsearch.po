@@ -220,7 +220,8 @@ msgstr "Dossier invalide !"
 msgid "Invalid streaming URL"
 msgstr "URL de diffusion invalide"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "Naviguer GAUCHE/DROITE | OK ouvert | Retour aux groupes"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Total : {} | Actif : {} | Dossier: {}"
 msgid "Type: %s"
 msgstr "Tapez : %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "Groupes HAUT/BAS | Cartes GAUCHE/DROITE | OK ouvert"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "Groupes HAUT/BAS | Cartes GAUCHE/DROITE | OK ouvert"
@@ -468,6 +466,9 @@ msgstr "erreur"
 
 msgid "loading"
 msgstr "chargement"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "Groupes HAUT/BAS | Cartes GAUCHE/DROITE | OK ouvert"
 
 #~ msgid ""
 #~ "\n"

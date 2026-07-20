@@ -220,7 +220,8 @@ msgstr "Nevalida dosierujo!"
 msgid "Invalid streaming URL"
 msgstr "Nevalida streaming URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "maldekstre/dekstre navigi | OK malfermi | SUPREN reen al grupoj"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Sumo: {} | Aktiva: {} | Dosierujo: {}"
 msgid "Type: %s"
 msgstr "Tajpu: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "UP/DOWN grupoj | kartoj maldekstre/dekstre | Bone malfermita"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "UP/DOWN grupoj | kartoj maldekstre/dekstre | Bone malfermita"
@@ -468,6 +466,9 @@ msgstr "eraro"
 
 msgid "loading"
 msgstr "ŝarĝo"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "UP/DOWN grupoj | kartoj maldekstre/dekstre | Bone malfermita"
 
 #~ msgid ""
 #~ "\n"

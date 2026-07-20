@@ -220,7 +220,8 @@ msgstr "වලංගු නොවන ෆෝල්ඩරය!"
 msgid "Invalid streaming URL"
 msgstr "වලංගු නොවන ප්‍රවාහ URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "වම/දකුණ සංචාලනය | හරි විවෘත | කණ්ඩායම් වෙත ආපසු යන්න"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "එකතුව: {} | සක්‍රිය: {} | ෆෝල්ඩරය:
 msgid "Type: %s"
 msgstr "වර්ගය: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "ඉහළ/පහළ කණ්ඩායම් | වම්/දකුණු කාඩ්පත් | හරි විවෘතයි"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "ඉහළ/පහළ කණ්ඩායම් | වම්/දකුණු කාඩ්පත් | හරි විවෘතයි"
@@ -468,6 +466,9 @@ msgstr "දෝෂය"
 
 msgid "loading"
 msgstr "පැටවීම"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "ඉහළ/පහළ කණ්ඩායම් | වම්/දකුණු කාඩ්පත් | හරි විවෘතයි"
 
 #~ msgid ""
 #~ "\n"

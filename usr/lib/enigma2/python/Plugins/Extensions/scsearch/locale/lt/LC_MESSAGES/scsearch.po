@@ -220,7 +220,8 @@ msgstr "Neteisingas aplankas!"
 msgid "Invalid streaming URL"
 msgstr "Netinkamas srautinio perdavimo URL"
 
-msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups"
+#, fuzzy
+msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
 msgstr "KAIRĖ / DEŠINĖ naršyti | Gerai atidaryti | UP atgal į grupes"
 
 msgid "Load error"
@@ -415,9 +416,6 @@ msgstr "Iš viso: {} | Aktyvus: {} | Aplankas: {}"
 msgid "Type: %s"
 msgstr "Tipas: %s"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-msgstr "AUKŠTYN/ŽEMYN grupės | KAIRĖS/DEŠINĖS kortelės | Gerai atidaryta"
-
 #, fuzzy
 msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr "AUKŠTYN/ŽEMYN grupės | KAIRĖS/DEŠINĖS kortelės | Gerai atidaryta"
@@ -468,6 +466,9 @@ msgstr "klaida"
 
 msgid "loading"
 msgstr "pakrovimas"
+
+#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
+#~ msgstr "AUKŠTYN/ŽEMYN grupės | KAIRĖS/DEŠINĖS kortelės | Gerai atidaryta"
 
 #~ msgid ""
 #~ "\n"
