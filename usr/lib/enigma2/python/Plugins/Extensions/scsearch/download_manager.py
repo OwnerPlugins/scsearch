@@ -41,11 +41,12 @@ class DownloadManager:
     def _get_default_download_folder():
         """Get the first valid movie directory from Enigma2 config."""
         try:
-            if config.movielist.videodirs.value and len(config.movielist.videodirs.value) > 0:
+            if config.movielist.videodirs.value and len(
+                    config.movielist.videodirs.value) > 0:
                 for path in config.movielist.videodirs.value:
                     if os.path.exists(path):
                         return path
-        except:
+        except BaseException:
             pass
         return "/media/hdd/movie/"
 
@@ -78,7 +79,14 @@ class DownloadManager:
         except Exception as e:
             log.error("DM: Failed to save queue: {}".format(e))
 
-    def add_item(self, title, url, media_type="movie", season=0, episode=0, poster=""):
+    def add_item(
+            self,
+            title,
+            url,
+            media_type="movie",
+            season=0,
+            episode=0,
+            poster=""):
         """Add a new item to the queue."""
         item_id = str(int(time.time() * 1000))
         item = {
@@ -136,7 +144,7 @@ class DownloadManager:
         if item_id in self.processes:
             try:
                 self.processes[item_id].terminate()
-            except:
+            except BaseException:
                 pass
             self.processes.pop(item_id, None)
         if item_id in self.workers:
@@ -153,14 +161,16 @@ class DownloadManager:
 
     def _start_worker(self):
         """Start the background worker thread."""
-        self.worker_thread = threading.Thread(target=self._worker_loop, daemon=True)
+        self.worker_thread = threading.Thread(
+            target=self._worker_loop, daemon=True)
         self.worker_thread.start()
 
     def _worker_loop(self):
         """Main loop for the download worker."""
         while True:
             try:
-                pending = [item for item in self.queue if item["status"] == "pending"]
+                pending = [
+                    item for item in self.queue if item["status"] == "pending"]
                 if pending and len(self.workers) < self.max_parallel:
                     item = pending[0]
                     self._start_download(item)
@@ -179,9 +189,12 @@ class DownloadManager:
         self._save_queue()
         self._notify_ui()
 
-        log.info("DM: Starting download: {} -> {}".format(item["title"], output_path))
+        log.info(
+            "DM: Starting download: {} -> {}".format(item["title"], output_path))
 
-        thread = threading.Thread(target=self._download_worker, args=(item,), daemon=True)
+        thread = threading.Thread(
+            target=self._download_worker, args=(
+                item,), daemon=True)
         self.workers[item_id] = thread
         thread.start()
 
@@ -221,7 +234,7 @@ class DownloadManager:
                         item["downloaded"] = int(seconds)
                         self._save_queue()
                         self._notify_ui()
-                    except:
+                    except BaseException:
                         pass
 
             if process.returncode == 0:
@@ -229,7 +242,8 @@ class DownloadManager:
                 log.info("DM: Download completed: {}".format(output_path))
             else:
                 item["status"] = "error"
-                item["error"] = "ffmpeg error (code {})".format(process.returncode)
+                item["error"] = "ffmpeg error (code {})".format(
+                    process.returncode)
                 log.error("DM: Download failed: {}".format(item["error"]))
 
         except Exception as e:
@@ -249,7 +263,8 @@ class DownloadManager:
         """Generate a safe filename from title and metadata."""
         title = item["title"].replace(" ", "_").replace("/", "_")
         if item["media_type"] == "tv" and item["season"] > 0 and item["episode"] > 0:
-            return "{}_S{:02d}E{:02d}.mp4".format(title, item["season"], item["episode"])
+            return "{}_S{:02d}E{:02d}.mp4".format(
+                title, item["season"], item["episode"])
         else:
             return "{}.mp4".format(title)
 
@@ -290,7 +305,9 @@ class DownloadManager:
 
     def clear_completed(self):
         """Remove all completed items from queue."""
-        self.queue = [item for item in self.queue if item["status"] not in ("completed", "error")]
+        self.queue = [
+            item for item in self.queue if item["status"] not in (
+                "completed", "error")]
         self._save_queue()
         self._notify_ui()
 

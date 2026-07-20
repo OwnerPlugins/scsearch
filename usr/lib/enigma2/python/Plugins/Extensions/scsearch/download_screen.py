@@ -30,7 +30,8 @@ class DownloadManagerScreen(Screen):
         self["key_green"] = Label(_("Start/Pause"))
         self["key_yellow"] = Label(_("Clear Done"))
         self["key_blue"] = Label(_("Change Folder"))
-        self["hint"] = Label(_("OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"))
+        self["hint"] = Label(
+            _("OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"))
 
         self["actions"] = ActionMap(["ColorActions", "OkCancelActions"], {
             "red": self.remove_selected,
@@ -73,7 +74,8 @@ class DownloadManagerScreen(Screen):
             status = status_map.get(item["status"], item["status"])
             title = item["title"]
             if item["media_type"] == "tv" and item["season"] > 0 and item["episode"] > 0:
-                title = "{} S{:02d}E{:02d}".format(title, item["season"], item["episode"])
+                title = "{} S{:02d}E{:02d}".format(
+                    title, item["season"], item["episode"])
             display = "[{}] {}".format(status, title)
             items.append((display, item["id"]))
 
@@ -81,7 +83,9 @@ class DownloadManagerScreen(Screen):
         total = len(queue)
         active = len([i for i in queue if i["status"] == "downloading"])
         folder = download_manager.download_folder
-        self["status_label"].setText(_("Total: {}  |  Active: {}  |  Folder: {}").format(total, active, folder))
+        self["status_label"].setText(
+            _("Total: {}  |  Active: {}  |  Folder: {}").format(
+                total, active, folder))
 
     def select_item(self):
         """Select an item from the list."""
@@ -128,10 +132,16 @@ class DownloadManagerScreen(Screen):
     def _folder_selected(self, path):
         if path:
             if download_manager.set_download_folder(path):
-                self.session.open(MessageBox, _("Download folder changed to:\n{}").format(path), MessageBox.TYPE_INFO)
+                self.session.open(
+                    MessageBox,
+                    _("Download folder changed to:\n{}").format(path),
+                    MessageBox.TYPE_INFO)
                 self.refresh()
             else:
-                self.session.open(MessageBox, _("Invalid folder!"), MessageBox.TYPE_ERROR)
+                self.session.open(
+                    MessageBox,
+                    _("Invalid folder!"),
+                    MessageBox.TYPE_ERROR)
 
     def close(self):
         self._on_close()
