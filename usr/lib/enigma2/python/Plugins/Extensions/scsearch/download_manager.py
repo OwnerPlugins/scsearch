@@ -442,7 +442,9 @@ class DownloadManager:
             season = resolver.get("season")
             episode = resolver.get("episode")
             from .search_functions import resolve_vixsrc_stream
-            log.info("DM: Resolving VixSrc M3U8 for item {}".format(item["id"]))
+            log.info(
+                "DM: Resolving VixSrc M3U8 for item {}".format(
+                    item["id"]))
             return resolve_vixsrc_stream(tmdb_id, season, episode)
 
         # --- Direct URL (CB01, Altadefinizione) ---
@@ -458,7 +460,8 @@ class DownloadManager:
             # OnlineSerieTV requires an asynchronous callback, so we can't solve that here.
             # Instead, we leave it as "direct" and use the URL already passed.
             # For now, return the passed URL or log an error.
-            log.warning("DM: OnlineSerieTV resolver not yet implemented for synchronous download")
+            log.warning(
+                "DM: OnlineSerieTV resolver not yet implemented for synchronous download")
             return item.get("url")
 
         # Fallback:

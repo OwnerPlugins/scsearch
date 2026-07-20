@@ -108,7 +108,10 @@ class SCDetailsScreen(Screen):
         source = self.details.get('source')
         stream_url = self._get_stream_url_for_download()
         if not stream_url:
-            self.session.open(MessageBox, _("Unable to get stream URL for download"), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox,
+                _("Unable to get stream URL for download"),
+                MessageBox.TYPE_ERROR)
             return
 
         media_type = "movie"
@@ -164,7 +167,10 @@ class SCDetailsScreen(Screen):
             resolver=resolver
         )
 
-        self.session.open(MessageBox, _("Added to download queue!\nID: {}").format(item_id), MessageBox.TYPE_INFO)
+        self.session.open(
+            MessageBox,
+            _("Added to download queue!\nID: {}").format(item_id),
+            MessageBox.TYPE_INFO)
 
     def _get_stream_url_for_download(self):
         """Get stream URL for current selection (without playing)."""
@@ -725,7 +731,8 @@ class SCDetailsScreen(Screen):
             service_name, tmdb_id, tv = self._stream_context
             from .search_functions import resolve_vixsrc_stream
             season, episode = tv if tv else (None, None)
-            self._stream_result = resolve_vixsrc_stream(tmdb_id, season, episode)
+            self._stream_result = resolve_vixsrc_stream(
+                tmdb_id, season, episode)
         except Exception as e:
             log.error("PLAY: VixSrc resolution failed: {}".format(e))
             self._stream_result = None
