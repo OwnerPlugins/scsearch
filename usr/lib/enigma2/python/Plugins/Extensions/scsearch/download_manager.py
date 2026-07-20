@@ -430,24 +430,39 @@ class DownloadManager:
             self._notify_ui()
 
     def _resolve_item_url(self, item):
-        """Resolve short-lived stream URLs just before download starts."""
+        """Resolve stream URL just before download starts."""
         resolver = item.get("resolver") or {}
-        if resolver.get("type") != "vixsrc":
+        resolver_type = resolver.get("type")
+
+        # --- VixSrc (StreamingCommunity) ---
+        if resolver_type == "vixsrc":
+            tmdb_id = resolver.get("tmdb_id")
+            if not tmdb_id:
+                return None
+            season = resolver.get("season")
+            episode = resolver.get("episode")
+            from .search_functions import resolve_vixsrc_stream
+            log.info("DM: Resolving VixSrc M3U8 for item {}".format(item["id"]))
+            return resolve_vixsrc_stream(tmdb_id, season, episode)
+
+        # --- Direct URL (CB01, Altadefinizione) ---
+        elif resolver_type == "direct":
+            url = resolver.get("url")
+            if url:
+                log.info("DM: Using direct URL for item {}".format(item["id"]))
+                return url
             return item.get("url")
 
-        tmdb_id = resolver.get("tmdb_id")
-        if not tmdb_id:
-            return None
+        # --- OnlineSerieTV ---
+        elif resolver_type == "onlineserietv":
+            # OnlineSerieTV requires an asynchronous callback, so we can't solve that here.
+            # Instead, we leave it as "direct" and use the URL already passed.
+            # For now, return the passed URL or log an error.
+            log.warning("DM: OnlineSerieTV resolver not yet implemented for synchronous download")
+            return item.get("url")
 
-        tv = None
-        if item.get("media_type") == "tv":
-            tv = (resolver.get("season"), resolver.get("episode"))
-
-        from .search_functions import get_stream_links
-        log.info(
-            "DM: Resolving fresh VixSrc M3U8 for item {}".format(
-                item["id"]))
-        return get_stream_links("https://vixsrc.to", tmdb_id, tv)
+        # Fallback:
+        return item.get("url")
 
     def _generate_filename(self, item):
         """Generate a safe filename from title and metadata."""

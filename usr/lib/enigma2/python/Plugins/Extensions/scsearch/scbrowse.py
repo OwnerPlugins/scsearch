@@ -688,7 +688,7 @@ class SCBrowseMain(Screen):
         if self.active_list == "categories":
             self.active_list = "carousel"
             self["hint"].setText(
-                _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
+                _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"))
             return
         self.poster_selected()
 
@@ -753,13 +753,13 @@ class SCBrowseMain(Screen):
     def keyUp(self):
         self.active_list = "categories"
         self["hint"].setText(
-            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
+            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"))
         self["category_list"].up()
 
     def keyDown(self):
         self.active_list = "categories"
         self["hint"].setText(
-            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
+            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"))
         self["category_list"].down()
 
     def keyLeft(self):
@@ -768,7 +768,7 @@ class SCBrowseMain(Screen):
             return
         self.active_list = "carousel"
         self["hint"].setText(
-            _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
+            _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"))
         self.carousel_index = (self.carousel_index -
                                1) % len(self.visible_carousel_items)
         log.info("BROWSE_CAROUSEL: keyLeft new_center=%d total=%d" %
@@ -778,7 +778,7 @@ class SCBrowseMain(Screen):
     def keyRight(self):
         self.active_list = "carousel"
         self["hint"].setText(
-            _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups"))
+            _("LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"))
         if self._can_scroll_carousel():
             self.carousel_index = (
                 self.carousel_index + 1) % len(self.visible_carousel_items)

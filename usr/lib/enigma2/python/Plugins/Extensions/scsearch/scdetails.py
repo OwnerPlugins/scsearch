@@ -102,20 +102,15 @@ class SCDetailsScreen(Screen):
         self.playback_session = None
 
     def add_to_download_queue(self):
-        """Add current content to download queue."""
         if not self.details:
             return
 
         source = self.details.get('source')
         stream_url = self._get_stream_url_for_download()
         if not stream_url:
-            self.session.open(
-                MessageBox,
-                _("Unable to get stream URL for download"),
-                MessageBox.TYPE_ERROR)
+            self.session.open(MessageBox, _("Unable to get stream URL for download"), MessageBox.TYPE_ERROR)
             return
 
-        # Determine media type
         media_type = "movie"
         season = 0
         episode = 0
@@ -125,9 +120,7 @@ class SCDetailsScreen(Screen):
             season = self.selected_season
             episode = self.selected_episode
 
-        # VixSrc URLs contain short-lived tokens.  Store the stable media
-        # identity and let the worker resolve a fresh M3U8 immediately before
-        # ffmpeg starts (also when a failed/paused item is restarted).
+        # Costruisci il resolver in base alla fonte
         resolver = None
         if source == 'streamingcommunity':
             resolver = {
@@ -136,8 +129,31 @@ class SCDetailsScreen(Screen):
                 "season": season,
                 "episode": episode
             }
+        elif source == 'cb01':
+            # CB01 ha già l'URL nel link hoster, lo passiamo direttamente
+            resolver = {
+                "type": "direct",
+                "url": stream_url,
+                "title": self.title,
+                "season": season,
+                "episode": episode
+            }
+        elif source == 'altadefinizione':
+            resolver = {
+                "type": "direct",
+                "url": stream_url,
+                "title": self.title,
+                "season": season,
+                "episode": episode
+            }
+        elif source == 'onlineserietv':
+            resolver = {
+                "type": "onlineserietv",
+                "url": self.details.get('url'),  # URL della pagina della serie
+                "season": season,
+                "episode": episode
+            }
 
-        # Add to queue
         item_id = download_manager.add_item(
             title=self.title,
             url=stream_url,
@@ -148,10 +164,7 @@ class SCDetailsScreen(Screen):
             resolver=resolver
         )
 
-        self.session.open(
-            MessageBox,
-            _("Added to download queue!\nID: {}").format(item_id),
-            MessageBox.TYPE_INFO)
+        self.session.open(MessageBox, _("Added to download queue!\nID: {}").format(item_id), MessageBox.TYPE_INFO)
 
     def _get_stream_url_for_download(self):
         """Get stream URL for current selection (without playing)."""
@@ -186,9 +199,10 @@ class SCDetailsScreen(Screen):
         if not tmdb_id:
             return None
         if self.details.get("type") == "Movie":
-            return "https://vixsrc.to/movie/{}".format(tmdb_id)
+            # Restituisci solo il dominio (senza https://)
+            return "vixsrc.to/movie/{}".format(tmdb_id)
         else:
-            return "https://vixsrc.to/tv/{}/{}/{}".format(
+            return "vixsrc.to/tv/{}/{}/{}".format(
                 tmdb_id, self.selected_season, self.selected_episode
             )
 
@@ -708,10 +722,10 @@ class SCDetailsScreen(Screen):
 
     def _fetch_streamingcommunity(self):
         try:
-            from .search_functions import get_stream_links
             service_name, tmdb_id, tv = self._stream_context
-            self._stream_result = get_stream_links(
-                "https://vixsrc.to", tmdb_id, tv)
+            from .search_functions import resolve_vixsrc_stream
+            season, episode = tv if tv else (None, None)
+            self._stream_result = resolve_vixsrc_stream(tmdb_id, season, episode)
         except Exception as e:
             log.error("PLAY: VixSrc resolution failed: {}".format(e))
             self._stream_result = None
