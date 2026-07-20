@@ -64,11 +64,23 @@ msgstr "Kart hatası"
 msgid "Cards updated"
 msgstr "Kartlar güncellendi"
 
+msgid "Change Folder"
+msgstr "Klasörü Değiştir"
+
+msgid "Choose download folder"
+msgstr "İndirme klasörünü seçin"
+
+msgid "Clear Done"
+msgstr "Temizle Bitti"
+
 msgid "Code:"
 msgstr "Kod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Tamamlanmış"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione'den içerik - Açmak için Tamam'a basın..."
@@ -84,6 +96,13 @@ msgstr "Ayrıntılar: '%s'"
 
 msgid "Details not available"
 msgstr "Ayrıntılar mevcut değil"
+
+msgid "Download Queue"
+msgstr "İndirme Sırası"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "yükleniyor"
 
 msgid "ENTER"
 msgstr "GİRMEK"
@@ -115,6 +134,10 @@ msgstr "Bölümler"
 msgid "Episodes:"
 msgstr "Bölümler:"
 
+#, fuzzy
+msgid "Error"
+msgstr "hata"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 serisi yüklenirken hata oluştu"
 
@@ -144,6 +167,9 @@ msgstr "GRUPLAR"
 
 msgid "History"
 msgstr "Tarih"
+
+msgid "Invalid folder!"
+msgstr "Geçersiz klasör!"
 
 msgid "Invalid streaming URL"
 msgstr "Geçersiz akış URL'si"
@@ -191,6 +217,9 @@ msgstr "İçerik yok"
 msgid "No content selected"
 msgstr "İçerik seçilmedi"
 
+msgid "No downloads in queue"
+msgstr "Sırada indirme yok"
+
 msgid "No episodes available"
 msgstr "Bölüm mevcut değil"
 
@@ -209,11 +238,20 @@ msgstr "Akış bağlantısı bulunamadı"
 msgid "No streaming links found."
 msgstr "Akış bağlantısı bulunamadı"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Tamam = Seç | KIRMIZI = Kaldır | YEŞİL = Başlat/Duraklat | MAVİ = Klasörü Değiştir"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV Dizisi"
 
 msgid "PLAY"
 msgstr "OYNAMAK"
+
+msgid "Paused"
+msgstr "Duraklatıldı"
+
+msgid "Pending"
+msgstr "Askıda olması"
 
 msgid "Playback error: %s"
 msgstr "Oynatma hatası: %s"
@@ -235,6 +273,9 @@ msgstr "YENİLE"
 
 msgid "Refresh"
 msgstr "Yenile"
+
+msgid "Remove"
+msgstr "Kaldırmak"
 
 msgid "Retry"
 msgstr "Yeniden dene"
@@ -285,6 +326,9 @@ msgstr "Seri URL'si bulunamadı"
 msgid "Series URL not found."
 msgstr "Seri URL'si bulunamadı."
 
+msgid "Start/Pause"
+msgstr "Başlat/Duraklat"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API anahtarı bulunamadı"
 
@@ -306,6 +350,9 @@ msgstr "Arama istekleri için zaman aşımı (saniye)"
 
 msgid "Title"
 msgstr "Başlık"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Toplam: {} | Aktif: {} | Dosya: {}"
 
 msgid "Type: %s"
 msgstr "Tür: %s"

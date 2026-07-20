@@ -64,11 +64,23 @@ msgstr "කාඩ්පත් දෝෂයකි"
 msgid "Cards updated"
 msgstr "කාඩ්පත් යාවත්කාලීන කරන ලදී"
 
+msgid "Change Folder"
+msgstr "ෆෝල්ඩරය වෙනස් කරන්න"
+
+msgid "Choose download folder"
+msgstr "බාගැනීම් ෆෝල්ඩරය තෝරන්න"
+
+msgid "Clear Done"
+msgstr "පැහැදිලි කළා"
+
 msgid "Code:"
 msgstr "කේතය:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "කේතය: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "සම්පූර්ණ කළා"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizion වෙතින් අන්තර්ගතය - විවෘත කිරීමට OK ඔබන්න..."
@@ -84,6 +96,13 @@ msgstr "සඳහා විස්තර: '%s'"
 
 msgid "Details not available"
 msgstr "විස්තර නොමැත"
+
+msgid "Download Queue"
+msgstr "පෝලිම බාගන්න"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "පැටවීම"
 
 msgid "ENTER"
 msgstr "ඇතුල් කරන්න"
@@ -115,6 +134,10 @@ msgstr "කථාංග"
 msgid "Episodes:"
 msgstr "කථාංග:"
 
+#, fuzzy
+msgid "Error"
+msgstr "දෝෂය"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 ශ්‍රේණිය පූරණය කිරීමේ දෝෂයකි"
 
@@ -144,6 +167,9 @@ msgstr "කණ්ඩායම්"
 
 msgid "History"
 msgstr "ඉතිහාසය"
+
+msgid "Invalid folder!"
+msgstr "වලංගු නොවන ෆෝල්ඩරය!"
 
 msgid "Invalid streaming URL"
 msgstr "වලංගු නොවන ප්‍රවාහ URL"
@@ -191,6 +217,9 @@ msgstr "අන්තර්ගතයක් නැත"
 msgid "No content selected"
 msgstr "අන්තර්ගතය තෝරා නැත"
 
+msgid "No downloads in queue"
+msgstr "පෝලිමේ බාගැනීම් නැත"
+
 msgid "No episodes available"
 msgstr "කථාංග නොමැත"
 
@@ -209,11 +238,20 @@ msgstr "ප්‍රවාහ සබැඳි හමු නොවීය"
 msgid "No streaming links found."
 msgstr "ප්‍රවාහ සබැඳි හමු නොවීය"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = තෝරන්න | RED = ඉවත් කරන්න | GREEN = ආරම්භය/විරාමය | නිල් = ෆෝල්ඩරය වෙනස් කරන්න"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV Series"
 
 msgid "PLAY"
 msgstr "සෙල්ලම් කරන්න"
+
+msgid "Paused"
+msgstr "විරාම කළා"
+
+msgid "Pending"
+msgstr "පොරොත්තුවෙන්"
 
 msgid "Playback error: %s"
 msgstr "පසුධාවන දෝෂය: %s"
@@ -235,6 +273,9 @@ msgstr "නැවුම් කරන්න"
 
 msgid "Refresh"
 msgstr "නැවුම් කරන්න"
+
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
 
 msgid "Retry"
 msgstr "නැවත උත්සාහ කරන්න"
@@ -285,6 +326,9 @@ msgstr "ශ්‍රේණියේ URL හමු නොවීය"
 msgid "Series URL not found."
 msgstr "ශ්‍රේණියේ URL හමු නොවීය."
 
+msgid "Start/Pause"
+msgstr "ආරම්භය/විරාමය"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API යතුර හමු නොවීය"
 
@@ -306,6 +350,9 @@ msgstr "සෙවුම් ඉල්ලීම් සඳහා කල් ඉක�
 
 msgid "Title"
 msgstr "මාතෘකාව"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "එකතුව: {} | සක්‍රිය: {} | ෆෝල්ඩරය: {}"
 
 msgid "Type: %s"
 msgstr "වර්ගය: %s"

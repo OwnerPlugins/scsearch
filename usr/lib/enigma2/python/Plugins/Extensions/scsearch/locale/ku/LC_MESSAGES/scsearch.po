@@ -64,11 +64,23 @@ msgstr "Çewtiya kartê"
 msgid "Cards updated"
 msgstr "Kartên nûve kirin"
 
+msgid "Change Folder"
+msgstr "Peldanka biguherînin"
+
+msgid "Choose download folder"
+msgstr "Peldanka dakêşandinê hilbijêrin"
+
+msgid "Clear Done"
+msgstr ""
+
 msgid "Code:"
 msgstr "Navê dizî:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Temam kirin"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Naveroka ji Altadefinizone - OK bikirtînin da ku vekin..."
@@ -84,6 +96,13 @@ msgstr "Agahiyên ji bo: '%s'"
 
 msgid "Details not available"
 msgstr "Hûrgulî ne berdest in"
+
+msgid "Download Queue"
+msgstr "Daxistina Doza"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "barkirin"
 
 msgid "ENTER"
 msgstr "DERBASBÛN"
@@ -115,6 +134,10 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Episodes:"
 
+#, fuzzy
+msgid "Error"
+msgstr "şaşî"
+
 msgid "Error loading CB01 series"
 msgstr "Di barkirina rêzikên CB01 de çewtî"
 
@@ -144,6 +167,9 @@ msgstr "GROUPS"
 
 msgid "History"
 msgstr "Dîrok"
+
+msgid "Invalid folder!"
+msgstr "Peldanka nederbasdar!"
 
 msgid "Invalid streaming URL"
 msgstr "URL-ya weşana nederbasdar"
@@ -191,6 +217,9 @@ msgstr "Naverok tune"
 msgid "No content selected"
 msgstr "Naverok nehat hilbijartin"
 
+msgid "No downloads in queue"
+msgstr "Di dorê de daxistin tune"
+
 msgid "No episodes available"
 msgstr "No episodes berdest in"
 
@@ -209,11 +238,20 @@ msgstr "Girêdanên weşanê nehat dîtin"
 msgid "No streaming links found."
 msgstr "Girêdanên weşanê nehat dîtin"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Hilbijêre | SOR = Rake | KEŞK = Destpêk/Destpêk | ŞÎN = Peldanka biguherîne"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Rêzefîlmên TV"
 
 msgid "PLAY"
 msgstr "BAZÎ"
+
+msgid "Paused"
+msgstr "Rawestiyan"
+
+msgid "Pending"
+msgstr "Nexelas"
 
 msgid "Playback error: %s"
 msgstr "Çewtiya lêdanê: %s"
@@ -235,6 +273,9 @@ msgstr "HÊNIKKIRIN"
 
 msgid "Refresh"
 msgstr "Hênikkirin"
+
+msgid "Remove"
+msgstr "Dûrxistin"
 
 msgid "Retry"
 msgstr "Ji nû ve biceribîne"
@@ -285,6 +326,9 @@ msgstr "URL Series nehat dîtin"
 msgid "Series URL not found."
 msgstr "URL rêzê nehat dîtin."
 
+msgid "Start/Pause"
+msgstr "Destpêk/Pause"
+
 msgid "TMDB API key not found"
 msgstr "Mifteya API-ya TMDB nehat dîtin"
 
@@ -306,6 +350,9 @@ msgstr "Demjimêr ji bo daxwazên lêgerînê (çirk)"
 
 msgid "Title"
 msgstr "Nav"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Bi tevahî: {} | Çalak: {} | Peldanka: {}"
 
 msgid "Type: %s"
 msgstr "Cure: %s"

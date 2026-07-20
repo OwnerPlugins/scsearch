@@ -64,11 +64,23 @@ msgstr "שגיאת כרטיס"
 msgid "Cards updated"
 msgstr "הכרטיסים עודכנו"
 
+msgid "Change Folder"
+msgstr "שנה תיקיה"
+
+msgid "Choose download folder"
+msgstr "בחר תיקיית הורדה"
+
+msgid "Clear Done"
+msgstr "נקה בוצע"
+
 msgid "Code:"
 msgstr "קוד:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "קוד: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "הושלם"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "תוכן מ-Altadefinizione - לחץ על אישור כדי לפתוח..."
@@ -84,6 +96,13 @@ msgstr "פרטים עבור: '%s'"
 
 msgid "Details not available"
 msgstr "פרטים לא זמינים"
+
+msgid "Download Queue"
+msgstr "תור הורדה"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "טְעִינָה"
 
 msgid "ENTER"
 msgstr "לְהַכנִיס"
@@ -115,6 +134,10 @@ msgstr "פרקים"
 msgid "Episodes:"
 msgstr "פרקים:"
 
+#, fuzzy
+msgid "Error"
+msgstr "שְׁגִיאָה"
+
 msgid "Error loading CB01 series"
 msgstr "שגיאה בטעינת סדרת CB01"
 
@@ -144,6 +167,9 @@ msgstr "קבוצות"
 
 msgid "History"
 msgstr "הִיסטוֹרִיָה"
+
+msgid "Invalid folder!"
+msgstr "תיקיה לא חוקית!"
 
 msgid "Invalid streaming URL"
 msgstr "כתובת אתר סטרימינג לא חוקית"
@@ -191,6 +217,9 @@ msgstr "אין תוכן"
 msgid "No content selected"
 msgstr "לא נבחר תוכן"
 
+msgid "No downloads in queue"
+msgstr "אין הורדות בתור"
+
 msgid "No episodes available"
 msgstr "אין פרקים זמינים"
 
@@ -209,11 +238,20 @@ msgstr "לא נמצאו קישורי סטרימינג"
 msgid "No streaming links found."
 msgstr "לא נמצאו קישורי סטרימינג"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "אישור = בחר | אדום = הסר | ירוק = התחל/השהה | BLUE = שנה תיקיה"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - סדרת טלוויזיה"
 
 msgid "PLAY"
 msgstr "לְשַׂחֵק"
+
+msgid "Paused"
+msgstr "מושהה"
+
+msgid "Pending"
+msgstr "תָלוּי וְעוֹמֵד"
 
 msgid "Playback error: %s"
 msgstr "שגיאת השמעה: %s"
@@ -235,6 +273,9 @@ msgstr "לְרַעֲנֵן"
 
 msgid "Refresh"
 msgstr "לְרַעֲנֵן"
+
+msgid "Remove"
+msgstr "לְהַסִיר"
 
 msgid "Retry"
 msgstr "נסה שוב"
@@ -285,6 +326,9 @@ msgstr "כתובת האתר של הסדרה לא נמצאה"
 msgid "Series URL not found."
 msgstr "כתובת האתר של הסדרה לא נמצאה."
 
+msgid "Start/Pause"
+msgstr "התחל/השהה"
+
 msgid "TMDB API key not found"
 msgstr "מפתח API של TMDB לא נמצא"
 
@@ -306,6 +350,9 @@ msgstr "פסק זמן לבקשות חיפוש (שניות)"
 
 msgid "Title"
 msgstr "כּוֹתֶרֶת"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "סה"כ: {} | פעיל: {} | תיקיה: {}"
 
 msgid "Type: %s"
 msgstr "סוג: %s"

@@ -64,11 +64,23 @@ msgstr "Картын алдаа"
 msgid "Cards updated"
 msgstr "Картууд шинэчлэгдсэн"
 
+msgid "Change Folder"
+msgstr "Фолдерыг өөрчлөх"
+
+msgid "Choose download folder"
+msgstr "Татаж авах фолдерыг сонгоно уу"
+
+msgid "Clear Done"
+msgstr "Цэвэрлэв"
+
 msgid "Code:"
 msgstr "Код:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Код: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Дууссан"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione-н контент - OK товчийг дарж нээнэ үү..."
@@ -84,6 +96,13 @@ msgstr "Дэлгэрэнгүй: '%s'"
 
 msgid "Details not available"
 msgstr "Дэлгэрэнгүй мэдээлэл байхгүй байна"
+
+msgid "Download Queue"
+msgstr "Татаж авах дараалал"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "ачаалж байна"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Ангиуд"
 msgid "Episodes:"
 msgstr "Ангиуд:"
 
+#, fuzzy
+msgid "Error"
+msgstr "алдаа"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 цувралыг ачаалахад алдаа гарлаа"
 
@@ -144,6 +167,9 @@ msgstr "БҮЛЭГ"
 
 msgid "History"
 msgstr "Түүх"
+
+msgid "Invalid folder!"
+msgstr "Буруу фолдер!"
 
 msgid "Invalid streaming URL"
 msgstr "Хүчингүй урсгал URL"
@@ -191,6 +217,9 @@ msgstr "Агуулга байхгүй"
 msgid "No content selected"
 msgstr "Сонгосон контент алга"
 
+msgid "No downloads in queue"
+msgstr "Дараалалд татагдсан зүйл алга"
+
 msgid "No episodes available"
 msgstr "Анги байхгүй"
 
@@ -209,11 +238,20 @@ msgstr "Дамжуулах холбоос олдсонгүй"
 msgid "No streaming links found."
 msgstr "Дамжуулах холбоос олдсонгүй"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Сонгох | RED = Устгах | НОГООН = Эхлэх/түр зогсоох | ЦЭНХЭР = Хавтас өөрчлөх"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Телевизийн цуврал"
 
 msgid "PLAY"
 msgstr "ТОГЛОХ"
+
+msgid "Paused"
+msgstr "Түр зогсоосон"
+
+msgid "Pending"
+msgstr "Хүлээгдэж байна"
 
 msgid "Playback error: %s"
 msgstr "Тоглуулах алдаа: %s"
@@ -235,6 +273,9 @@ msgstr "Сэргээх"
 
 msgid "Refresh"
 msgstr "Сэргээх"
+
+msgid "Remove"
+msgstr "Устгах"
 
 msgid "Retry"
 msgstr "Дахин оролдоно уу"
@@ -285,6 +326,9 @@ msgstr "Цуврал URL олдсонгүй"
 msgid "Series URL not found."
 msgstr "Цуврал URL олдсонгүй."
 
+msgid "Start/Pause"
+msgstr "Эхлэх/түр зогсоох"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API түлхүүр олдсонгүй"
 
@@ -306,6 +350,9 @@ msgstr "Хайлтын хүсэлт гаргах хугацаа (секунд)"
 
 msgid "Title"
 msgstr "Гарчиг"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Нийт: {} | Идэвхтэй: {} | Фолдер: {}"
 
 msgid "Type: %s"
 msgstr "Төрөл: %s"

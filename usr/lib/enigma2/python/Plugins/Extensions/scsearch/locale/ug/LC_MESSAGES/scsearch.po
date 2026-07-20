@@ -64,11 +64,23 @@ msgstr "كارتا خاتالىقى"
 msgid "Cards updated"
 msgstr "كارتا يېڭىلاندى"
 
+msgid "Change Folder"
+msgstr "ھۆججەت قىسقۇچنى ئۆزگەرتىش"
+
+msgid "Choose download folder"
+msgstr "چۈشۈرۈش قىسقۇچىنى تاللاڭ"
+
+msgid "Clear Done"
+msgstr ""
+
 msgid "Code:"
 msgstr "كود:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "كود: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "تاماملاندى"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione دىكى مەزمۇن - ئېچىش ئۈچۈن OK نى بېسىڭ ..."
@@ -84,6 +96,13 @@ msgstr "تەپسىلاتى: '% s'"
 
 msgid "Details not available"
 msgstr "تەپسىلاتى يوق"
+
+msgid "Download Queue"
+msgstr "ئۆچرەتنى چۈشۈرۈڭ"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "يۈكلەۋاتىدۇ"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Episodes:"
 
+#, fuzzy
+msgid "Error"
+msgstr "خاتالىق"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 يۈرۈشلۈكىنى يۈكلەشتە خاتالىق"
 
@@ -144,6 +167,9 @@ msgstr "GROUPS"
 
 msgid "History"
 msgstr "تارىخ"
+
+msgid "Invalid folder!"
+msgstr "ئىناۋەتسىز ھۆججەت قىسقۇچ!"
 
 msgid "Invalid streaming URL"
 msgstr "ئىناۋەتلىك ئېقىم URL"
@@ -191,6 +217,9 @@ msgstr "ھېچقانداق مەزمۇن يوق"
 msgid "No content selected"
 msgstr "ھېچقانداق مەزمۇن تاللانمىدى"
 
+msgid "No downloads in queue"
+msgstr "ئۆچرەتتە چۈشۈرۈش يوق"
+
 msgid "No episodes available"
 msgstr "ھېچقانداق بۆلەك يوق"
 
@@ -209,11 +238,20 @@ msgstr "ئاقما ئۇلىنىش تېپىلمىدى"
 msgid "No streaming links found."
 msgstr "ئاقما ئۇلىنىش تېپىلمىدى"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = تاللاڭ | RED = Remove | GREEN = باشلاش / توختىتىش | BLUE = ھۆججەت قىسقۇچنى ئۆزگەرتىش"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - تېلېۋىزىيە تىياتىرى"
 
 msgid "PLAY"
 msgstr "PLAY"
+
+msgid "Paused"
+msgstr "توختاپ قالدى"
+
+msgid "Pending"
+msgstr "ساقلىنىۋاتىدۇ"
 
 msgid "Playback error: %s"
 msgstr "قويۇش خاتالىقى:% s"
@@ -235,6 +273,9 @@ msgstr "REFRESH"
 
 msgid "Refresh"
 msgstr "يېڭىلاش"
+
+msgid "Remove"
+msgstr "ئۆچۈرۈڭ"
 
 msgid "Retry"
 msgstr "قايتا سىناڭ"
@@ -285,6 +326,9 @@ msgstr "يۈرۈشلۈك URL تېپىلمىدى"
 msgid "Series URL not found."
 msgstr "يۈرۈشلۈك URL تېپىلمىدى."
 
+msgid "Start/Pause"
+msgstr "باشلاش / توختىتىش"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API ئاچقۇچى تېپىلمىدى"
 
@@ -306,6 +350,9 @@ msgstr "ئىزدەش تەلەپلىرىنىڭ ۋاقتى (سېكۇنت)"
 
 msgid "Title"
 msgstr "ماۋزۇ"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "ئومۇمىي: {} | ئاكتىپ: {} | ھۆججەت قىسقۇچ: {}"
 
 msgid "Type: %s"
 msgstr "تىپى:% s"

@@ -64,11 +64,23 @@ msgstr "Error sa card"
 msgid "Cards updated"
 msgstr "Na-update ang mga card"
 
+msgid "Change Folder"
+msgstr "Baguhin ang Folder"
+
+msgid "Choose download folder"
+msgstr "Pumili ng folder ng pag-download"
+
+msgid "Clear Done"
+msgstr "I-clear ang Tapos na"
+
 msgid "Code:"
 msgstr "Code:"
 
 msgid "Code: {self.captcha_code}"
 msgstr ""
+
+msgid "Completed"
+msgstr "Nakumpleto"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Nilalaman mula sa Altadefinizione - Pindutin ang OK upang buksan..."
@@ -84,6 +96,13 @@ msgstr "Mga detalye para sa: '%s'"
 
 msgid "Details not available"
 msgstr "Hindi available ang mga detalye"
+
+msgid "Download Queue"
+msgstr "I-download ang Queue"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "naglo-load"
 
 msgid "ENTER"
 msgstr "PUMASOK"
@@ -115,6 +134,10 @@ msgstr "Mga episode"
 msgid "Episodes:"
 msgstr "Mga Episode:"
 
+#, fuzzy
+msgid "Error"
+msgstr "pagkakamali"
+
 msgid "Error loading CB01 series"
 msgstr "Error sa paglo-load ng CB01 series"
 
@@ -144,6 +167,9 @@ msgstr "MGA GRUPO"
 
 msgid "History"
 msgstr "Kasaysayan"
+
+msgid "Invalid folder!"
+msgstr "Di-wastong folder!"
 
 msgid "Invalid streaming URL"
 msgstr "Di-wastong streaming URL"
@@ -191,6 +217,9 @@ msgstr "Walang nilalaman"
 msgid "No content selected"
 msgstr "Walang napiling content"
 
+msgid "No downloads in queue"
+msgstr "Walang mga pag-download sa pila"
+
 msgid "No episodes available"
 msgstr "Walang available na mga episode"
 
@@ -209,11 +238,20 @@ msgstr "Walang nakitang streaming link"
 msgid "No streaming links found."
 msgstr "Walang nakitang streaming link"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Piliin ang | RED = Alisin | BERDE = Start/Pause | BLUE = Palitan ang Folder"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serye sa TV"
 
 msgid "PLAY"
 msgstr "MAGLARO"
+
+msgid "Paused"
+msgstr "Naka-pause"
+
+msgid "Pending"
+msgstr "Nakabinbin"
 
 msgid "Playback error: %s"
 msgstr "Error sa pag-playback: %s"
@@ -235,6 +273,9 @@ msgstr "I-REFRESH"
 
 msgid "Refresh"
 msgstr "I-refresh"
+
+msgid "Remove"
+msgstr "Alisin"
 
 msgid "Retry"
 msgstr "Subukan muli"
@@ -285,6 +326,9 @@ msgstr "Hindi nakita ang URL ng serye"
 msgid "Series URL not found."
 msgstr "Hindi nakita ang URL ng serye."
 
+msgid "Start/Pause"
+msgstr "Magsimula/I-pause"
+
 msgid "TMDB API key not found"
 msgstr "Hindi nakita ang TMDB API key"
 
@@ -306,6 +350,9 @@ msgstr "Timeout para sa mga kahilingan sa paghahanap (segundo)"
 
 msgid "Title"
 msgstr "Pamagat"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Kabuuan: {} | Aktibo: {} | Folder: {}"
 
 msgid "Type: %s"
 msgstr "Uri: %s"

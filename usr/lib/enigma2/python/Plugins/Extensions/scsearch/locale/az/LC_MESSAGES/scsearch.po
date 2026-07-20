@@ -64,11 +64,23 @@ msgstr "Kart xətası"
 msgid "Cards updated"
 msgstr "Kartlar yeniləndi"
 
+msgid "Change Folder"
+msgstr "Qovluğu dəyişdirin"
+
+msgid "Choose download folder"
+msgstr "Yükləmə qovluğunu seçin"
+
+msgid "Clear Done"
+msgstr "Tamamlandı"
+
 msgid "Code:"
 msgstr "Kod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Tamamlandı"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione məzmunu - Açmaq üçün OK düyməsini basın..."
@@ -84,6 +96,13 @@ msgstr "'%s' üçün təfərrüatlar"
 
 msgid "Details not available"
 msgstr "Detallar mövcud deyil"
+
+msgid "Download Queue"
+msgstr "Yükləmə növbəsi"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "yüklənir"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizodlar"
 msgid "Episodes:"
 msgstr "Epizodlar:"
 
+#, fuzzy
+msgid "Error"
+msgstr "səhv"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 seriyasını yükləmə xətası"
 
@@ -144,6 +167,9 @@ msgstr "QRUPLAR"
 
 msgid "History"
 msgstr "Tarix"
+
+msgid "Invalid folder!"
+msgstr "Yanlış qovluq!"
 
 msgid "Invalid streaming URL"
 msgstr "Yanlış yayım URL"
@@ -191,6 +217,9 @@ msgstr "Məzmun yoxdur"
 msgid "No content selected"
 msgstr "Heç bir məzmun seçilməyib"
 
+msgid "No downloads in queue"
+msgstr "Növbədə endirmə yoxdur"
+
 msgid "No episodes available"
 msgstr "Heç bir epizod əlçatan deyil"
 
@@ -209,11 +238,20 @@ msgstr "Axın keçidləri tapılmadı"
 msgid "No streaming links found."
 msgstr "Axın keçidləri tapılmadı"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = | seçin QIRMIZI = Sil | YAŞIL = Start/Pause | MAVİ = Qovluğu dəyişdir"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Televiziya serialı"
 
 msgid "PLAY"
 msgstr "OYNA"
+
+msgid "Paused"
+msgstr "Fasilə verildi"
+
+msgid "Pending"
+msgstr "Gözlənir"
 
 msgid "Playback error: %s"
 msgstr "Oxutma xətası: %s"
@@ -235,6 +273,9 @@ msgstr "TƏZİL EDİN"
 
 msgid "Refresh"
 msgstr "Yeniləyin"
+
+msgid "Remove"
+msgstr "Sil"
 
 msgid "Retry"
 msgstr "Yenidən cəhd edin"
@@ -285,6 +326,9 @@ msgstr "Seriyanın URL-i tapılmadı"
 msgid "Series URL not found."
 msgstr "Seriyanın URL-i tapılmadı."
 
+msgid "Start/Pause"
+msgstr "Başlat/Pauza"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API açarı tapılmadı"
 
@@ -306,6 +350,9 @@ msgstr "Axtarış sorğuları üçün fasilə (saniyə)"
 
 msgid "Title"
 msgstr "Başlıq"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Cəmi: {} | Aktiv: {} | Qovluq: {}"
 
 msgid "Type: %s"
 msgstr "Növ: %s"

@@ -64,11 +64,23 @@ msgstr "Error de targeta"
 msgid "Cards updated"
 msgstr "Targetes actualitzades"
 
+msgid "Change Folder"
+msgstr "Canvia carpeta"
+
+msgid "Choose download folder"
+msgstr "Trieu la carpeta de descàrrega"
+
+msgid "Clear Done"
+msgstr "Esborra Fet"
+
 msgid "Code:"
 msgstr "Codi:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Codi: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Completat"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Contingut d'Altadefinizione: premeu D'acord per obrir..."
@@ -84,6 +96,13 @@ msgstr "Detalls per a: '%s'"
 
 msgid "Details not available"
 msgstr "Detalls no disponibles"
+
+msgid "Download Queue"
+msgstr "Cua de descàrrega"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "carregant"
 
 msgid "ENTER"
 msgstr "ENTRAR"
@@ -115,6 +134,10 @@ msgstr "Episodis"
 msgid "Episodes:"
 msgstr "Episodis:"
 
+#, fuzzy
+msgid "Error"
+msgstr "error"
+
 msgid "Error loading CB01 series"
 msgstr "S'ha produït un error en carregar la sèrie CB01"
 
@@ -144,6 +167,9 @@ msgstr "GRUPS"
 
 msgid "History"
 msgstr "Història"
+
+msgid "Invalid folder!"
+msgstr "Carpeta no vàlida!"
 
 msgid "Invalid streaming URL"
 msgstr "URL de transmissió no vàlid"
@@ -191,6 +217,9 @@ msgstr "Sense contingut"
 msgid "No content selected"
 msgstr "No s'ha seleccionat cap contingut"
 
+msgid "No downloads in queue"
+msgstr "No hi ha descàrregues a la cua"
+
 msgid "No episodes available"
 msgstr "No hi ha cap episodi disponible"
 
@@ -209,11 +238,20 @@ msgstr "No s'han trobat enllaços de transmissió"
 msgid "No streaming links found."
 msgstr "No s'han trobat enllaços de transmissió"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "D'acord = Selecciona | VERMELL = Eliminar | VERD = Inici/Pausa | BLAU = Canvia la carpeta"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Sèrie de televisió"
 
 msgid "PLAY"
 msgstr "JUGAR"
+
+msgid "Paused"
+msgstr "En pausa"
+
+msgid "Pending"
+msgstr "Pendent"
 
 msgid "Playback error: %s"
 msgstr "Error de reproducció: %s"
@@ -235,6 +273,9 @@ msgstr "ACTUALITZAR"
 
 msgid "Refresh"
 msgstr "Actualitzar"
+
+msgid "Remove"
+msgstr "Eliminar"
 
 msgid "Retry"
 msgstr "Torna-ho a provar"
@@ -285,6 +326,9 @@ msgstr "No s'ha trobat l'URL de la sèrie"
 msgid "Series URL not found."
 msgstr "No s'ha trobat l'URL de la sèrie."
 
+msgid "Start/Pause"
+msgstr "Inici/Pausa"
+
 msgid "TMDB API key not found"
 msgstr "No s'ha trobat la clau de l'API TMDB"
 
@@ -306,6 +350,9 @@ msgstr "Temps d'espera per a les sol·licituds de cerca (segons)"
 
 msgid "Title"
 msgstr "Títol"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Total: {} | Actiu: {} | Carpeta: {}"
 
 msgid "Type: %s"
 msgstr "Tipus: %s"

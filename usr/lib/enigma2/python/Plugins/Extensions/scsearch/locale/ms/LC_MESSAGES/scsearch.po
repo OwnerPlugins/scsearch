@@ -64,11 +64,23 @@ msgstr "Ralat kad"
 msgid "Cards updated"
 msgstr "Kad dikemas kini"
 
+msgid "Change Folder"
+msgstr "Tukar Folder"
+
+msgid "Choose download folder"
+msgstr "Pilih folder muat turun"
+
+msgid "Clear Done"
+msgstr "Kosongkan Selesai"
+
 msgid "Code:"
 msgstr "Kod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Selesai"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Kandungan daripada Altadefinizione - Tekan OK untuk membuka..."
@@ -84,6 +96,13 @@ msgstr "Butiran untuk: '%s'"
 
 msgid "Details not available"
 msgstr "Butiran tidak tersedia"
+
+msgid "Download Queue"
+msgstr "Muat Turun Baris"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "memuatkan"
 
 msgid "ENTER"
 msgstr "MASUK"
@@ -115,6 +134,10 @@ msgstr "Episod"
 msgid "Episodes:"
 msgstr "Episod:"
 
+#, fuzzy
+msgid "Error"
+msgstr "kesilapan"
+
 msgid "Error loading CB01 series"
 msgstr "Ralat memuatkan siri CB01"
 
@@ -144,6 +167,9 @@ msgstr "KUMPULAN"
 
 msgid "History"
 msgstr "Sejarah"
+
+msgid "Invalid folder!"
+msgstr "Folder tidak sah!"
 
 msgid "Invalid streaming URL"
 msgstr "URL penstriman tidak sah"
@@ -191,6 +217,9 @@ msgstr "Tiada kandungan"
 msgid "No content selected"
 msgstr "Tiada kandungan dipilih"
 
+msgid "No downloads in queue"
+msgstr "Tiada muat turun dalam baris gilir"
+
 msgid "No episodes available"
 msgstr "Tiada episod tersedia"
 
@@ -209,11 +238,20 @@ msgstr "Tiada pautan penstriman ditemui"
 msgid "No streaming links found."
 msgstr "Tiada pautan penstriman ditemui"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Pilih | MERAH = Alih keluar | HIJAU = Mula/Jeda | BIRU = Tukar Folder"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Siri TV"
 
 msgid "PLAY"
 msgstr "BERMAIN"
+
+msgid "Paused"
+msgstr "Dijeda"
+
+msgid "Pending"
+msgstr "Belum selesai"
 
 msgid "Playback error: %s"
 msgstr "Ralat main balik: %s"
@@ -235,6 +273,9 @@ msgstr "SEGARKAN"
 
 msgid "Refresh"
 msgstr "Segarkan semula"
+
+msgid "Remove"
+msgstr "Alih keluar"
 
 msgid "Retry"
 msgstr "Cuba semula"
@@ -285,6 +326,9 @@ msgstr "URL siri tidak ditemui"
 msgid "Series URL not found."
 msgstr "URL siri tidak ditemui."
 
+msgid "Start/Pause"
+msgstr "Mula/Jeda"
+
 msgid "TMDB API key not found"
 msgstr "Kunci API TMDB tidak ditemui"
 
@@ -306,6 +350,9 @@ msgstr "Tamat masa untuk permintaan carian (saat)"
 
 msgid "Title"
 msgstr "Tajuk"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Jumlah: {} | Aktif: {} | Folder: {}"
 
 msgid "Type: %s"
 msgstr "Jenis: %s"

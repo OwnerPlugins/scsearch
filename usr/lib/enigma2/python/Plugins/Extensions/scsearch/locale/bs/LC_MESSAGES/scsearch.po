@@ -64,11 +64,23 @@ msgstr "Greška kartice"
 msgid "Cards updated"
 msgstr "Kartice su ažurirane"
 
+msgid "Change Folder"
+msgstr ""
+
+msgid "Choose download folder"
+msgstr "Odaberite folder za preuzimanje"
+
+msgid "Clear Done"
+msgstr ""
+
 msgid "Code:"
 msgstr "kod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Šifra: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Završeno"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Sadržaj iz Altadefinizione - Pritisnite OK da otvorite..."
@@ -84,6 +96,13 @@ msgstr "Detalji za: '%s'"
 
 msgid "Details not available"
 msgstr "Detalji nisu dostupni"
+
+msgid "Download Queue"
+msgstr "Red za preuzimanje"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "loading"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizode"
 msgid "Episodes:"
 msgstr "epizode:"
 
+#, fuzzy
+msgid "Error"
+msgstr "greška"
+
 msgid "Error loading CB01 series"
 msgstr "Greška pri učitavanju serije CB01"
 
@@ -144,6 +167,9 @@ msgstr "GRUPE"
 
 msgid "History"
 msgstr "Istorija"
+
+msgid "Invalid folder!"
+msgstr "Nevažeći folder!"
 
 msgid "Invalid streaming URL"
 msgstr "Nevažeći URL za streaming"
@@ -191,6 +217,9 @@ msgstr "Nema sadržaja"
 msgid "No content selected"
 msgstr "Nije odabran sadržaj"
 
+msgid "No downloads in queue"
+msgstr "Nema preuzimanja u redu čekanja"
+
 msgid "No episodes available"
 msgstr "Nema dostupnih epizoda"
 
@@ -209,11 +238,20 @@ msgstr "Nisu pronađeni linkovi za streaming"
 msgid "No streaming links found."
 msgstr "Nisu pronađeni linkovi za streaming"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Odaberite | CRVENA = Ukloni | ZELENA = Početak/Pauza | PLAVA = Promjena foldera"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV serije"
 
 msgid "PLAY"
 msgstr "IGRAJ"
+
+msgid "Paused"
+msgstr "Pauzirano"
+
+msgid "Pending"
+msgstr "Na čekanju"
 
 msgid "Playback error: %s"
 msgstr "Greška pri reprodukciji: %s"
@@ -235,6 +273,9 @@ msgstr "REFRESH"
 
 msgid "Refresh"
 msgstr "Osvježi"
+
+msgid "Remove"
+msgstr "Ukloni"
 
 msgid "Retry"
 msgstr "Pokušaj ponovo"
@@ -285,6 +326,9 @@ msgstr "URL serije nije pronađen"
 msgid "Series URL not found."
 msgstr "URL serije nije pronađen."
 
+msgid "Start/Pause"
+msgstr "Start/Pauza"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API ključ nije pronađen"
 
@@ -306,6 +350,9 @@ msgstr "Istek vremena za zahtjeve za pretraživanje (sekunde)"
 
 msgid "Title"
 msgstr "Naslov"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Ukupno: {} | Aktivan: {} | Fascikla: {}"
 
 msgid "Type: %s"
 msgstr "Tip: %s"

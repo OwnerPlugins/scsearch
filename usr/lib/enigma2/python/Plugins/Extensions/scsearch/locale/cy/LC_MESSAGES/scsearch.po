@@ -64,11 +64,23 @@ msgstr "Gwall cerdyn"
 msgid "Cards updated"
 msgstr "Cardiau wedi'u diweddaru"
 
+msgid "Change Folder"
+msgstr "Newid Ffolder"
+
+msgid "Choose download folder"
+msgstr "Dewiswch ffolder lawrlwytho"
+
+msgid "Clear Done"
+msgstr "Wedi'i wneud yn glir"
+
 msgid "Code:"
 msgstr "Cod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Cod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Cwblhawyd"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Cynnwys o Altadefinizione - Pwyswch OK i agor..."
@@ -84,6 +96,13 @@ msgstr "Manylion ar gyfer: '%s'"
 
 msgid "Details not available"
 msgstr "Manylion ddim ar gael"
+
+msgid "Download Queue"
+msgstr "Ciw Lawrlwytho"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "llwytho"
 
 msgid "ENTER"
 msgstr "ENWCH"
@@ -115,6 +134,10 @@ msgstr "Penodau"
 msgid "Episodes:"
 msgstr "Penodau:"
 
+#, fuzzy
+msgid "Error"
+msgstr "gwall"
+
 msgid "Error loading CB01 series"
 msgstr "Gwall wrth lwytho cyfres CB01"
 
@@ -144,6 +167,9 @@ msgstr "GRWPIAU"
 
 msgid "History"
 msgstr "Hanes"
+
+msgid "Invalid folder!"
+msgstr "Ffolder annilys!"
 
 msgid "Invalid streaming URL"
 msgstr "URL ffrydio annilys"
@@ -191,6 +217,9 @@ msgstr "Dim cynnwys"
 msgid "No content selected"
 msgstr "Dim cynnwys wedi'i ddewis"
 
+msgid "No downloads in queue"
+msgstr "Dim lawrlwythiadau yn y ciw"
+
 msgid "No episodes available"
 msgstr "Dim penodau ar gael"
 
@@ -209,11 +238,20 @@ msgstr "Heb ganfod dolenni ffrydio"
 msgid "No streaming links found."
 msgstr "Heb ganfod dolenni ffrydio"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Iawn = Dewiswch | COCH = Dileu | GWYRDD = Cychwyn/Seibiant | BLUE = Newid Ffolder"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Cyfres Deledu"
 
 msgid "PLAY"
 msgstr "CHWARAE"
+
+msgid "Paused"
+msgstr "Wedi seibio"
+
+msgid "Pending"
+msgstr "Arfaeth"
 
 msgid "Playback error: %s"
 msgstr "Gwall chwarae: %s"
@@ -235,6 +273,9 @@ msgstr "DIWYGIO"
 
 msgid "Refresh"
 msgstr "Adnewyddu"
+
+msgid "Remove"
+msgstr "Dileu"
 
 msgid "Retry"
 msgstr "Ceisiwch eto"
@@ -285,6 +326,9 @@ msgstr "URL y gyfres heb ei ganfod"
 msgid "Series URL not found."
 msgstr "URL y gyfres heb ei ganfod."
 
+msgid "Start/Pause"
+msgstr "Dechrau/Seibiant"
+
 msgid "TMDB API key not found"
 msgstr "Heb ganfod allwedd API TMDB"
 
@@ -306,6 +350,9 @@ msgstr "Cyfnod terfyn ar gyfer ceisiadau chwilio (eiliadau)"
 
 msgid "Title"
 msgstr "Teitl"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Cyfanswm: {} | Actif: {} | Ffolder: {}"
 
 msgid "Type: %s"
 msgstr "Math: %s"

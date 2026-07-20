@@ -64,10 +64,22 @@ msgstr "Card error"
 msgid "Cards updated"
 msgstr "Cards updated"
 
+msgid "Change Folder"
+msgstr ""
+
+msgid "Choose download folder"
+msgstr ""
+
+msgid "Clear Done"
+msgstr ""
+
 msgid "Code:"
 msgstr "Code:"
 
 msgid "Code: {self.captcha_code}"
+msgstr ""
+
+msgid "Completed"
 msgstr ""
 
 msgid "Content from Altadefinizione - Press OK to open..."
@@ -84,6 +96,13 @@ msgstr ""
 
 msgid "Details not available"
 msgstr "Details not available"
+
+msgid "Download Queue"
+msgstr ""
+
+#, fuzzy
+msgid "Downloading"
+msgstr "loading"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Episodes:"
 
+#, fuzzy
+msgid "Error"
+msgstr "error"
+
 msgid "Error loading CB01 series"
 msgstr "Error loading CB01 series"
 
@@ -144,6 +167,9 @@ msgstr "GROUPS"
 
 msgid "History"
 msgstr "History"
+
+msgid "Invalid folder!"
+msgstr ""
 
 msgid "Invalid streaming URL"
 msgstr "Invalid streaming URL"
@@ -191,6 +217,9 @@ msgstr "No content"
 msgid "No content selected"
 msgstr "No content selected"
 
+msgid "No downloads in queue"
+msgstr ""
+
 msgid "No episodes available"
 msgstr "No episodes available"
 
@@ -209,11 +238,20 @@ msgstr "No streaming links found"
 msgid "No streaming links found."
 msgstr "No streaming links found."
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Select | RED = Remove | GREEN = Start/Pause | BLUE = Change Folder"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV Series"
 
 msgid "PLAY"
 msgstr "PLAY"
+
+msgid "Paused"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
 
 msgid "Playback error: %s"
 msgstr "Playback error: %s"
@@ -235,6 +273,9 @@ msgstr "REFRESH"
 
 msgid "Refresh"
 msgstr "Refresh"
+
+msgid "Remove"
+msgstr ""
 
 msgid "Retry"
 msgstr "Retry"
@@ -285,6 +326,9 @@ msgstr "Series URL not found"
 msgid "Series URL not found."
 msgstr "Series URL not found."
 
+msgid "Start/Pause"
+msgstr ""
+
 msgid "TMDB API key not found"
 msgstr "TMDB API key not found"
 
@@ -306,6 +350,9 @@ msgstr "Timeout for search requests (seconds)"
 
 msgid "Title"
 msgstr "Title"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Total: {} | Active: {} | Folder: {}"
 
 msgid "Type: %s"
 msgstr "Type: %s"

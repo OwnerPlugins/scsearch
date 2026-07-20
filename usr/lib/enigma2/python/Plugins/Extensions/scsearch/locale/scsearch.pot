@@ -5,6 +5,7 @@
 
 
 
+
 msgid "%d titles"
 msgstr ""
 
@@ -56,10 +57,22 @@ msgstr ""
 msgid "Cards updated"
 msgstr ""
 
+msgid "Change Folder"
+msgstr ""
+
+msgid "Choose download folder"
+msgstr ""
+
+msgid "Clear Done"
+msgstr ""
+
 msgid "Code:"
 msgstr ""
 
 msgid "Code: {self.captcha_code}"
+msgstr ""
+
+msgid "Completed"
 msgstr ""
 
 msgid "Content from Altadefinizione - Press OK to open..."
@@ -75,6 +88,12 @@ msgid "Details for: '%s'"
 msgstr ""
 
 msgid "Details not available"
+msgstr ""
+
+msgid "Download Queue"
+msgstr ""
+
+msgid "Downloading"
 msgstr ""
 
 msgid "ENTER"
@@ -107,6 +126,9 @@ msgstr ""
 msgid "Episodes:"
 msgstr ""
 
+msgid "Error"
+msgstr ""
+
 msgid "Error loading CB01 series"
 msgstr ""
 
@@ -135,6 +157,9 @@ msgid "GROUPS"
 msgstr ""
 
 msgid "History"
+msgstr ""
+
+msgid "Invalid folder!"
 msgstr ""
 
 msgid "Invalid streaming URL"
@@ -182,6 +207,9 @@ msgstr ""
 msgid "No content selected"
 msgstr ""
 
+msgid "No downloads in queue"
+msgstr ""
+
 msgid "No episodes available"
 msgstr ""
 
@@ -200,10 +228,19 @@ msgstr ""
 msgid "No streaming links found."
 msgstr ""
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr ""
+
 msgid "OnlineSerieTV - TV Series"
 msgstr ""
 
 msgid "PLAY"
+msgstr ""
+
+msgid "Paused"
+msgstr ""
+
+msgid "Pending"
 msgstr ""
 
 msgid "Playback error: %s"
@@ -225,6 +262,9 @@ msgid "REFRESH"
 msgstr ""
 
 msgid "Refresh"
+msgstr ""
+
+msgid "Remove"
 msgstr ""
 
 msgid "Retry"
@@ -275,6 +315,9 @@ msgstr ""
 msgid "Series URL not found."
 msgstr ""
 
+msgid "Start/Pause"
+msgstr ""
+
 msgid "TMDB API key not found"
 msgstr ""
 
@@ -294,6 +337,9 @@ msgid "Timeout for search requests (seconds)"
 msgstr ""
 
 msgid "Title"
+msgstr ""
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
 msgstr ""
 
 msgid "Type: %s"

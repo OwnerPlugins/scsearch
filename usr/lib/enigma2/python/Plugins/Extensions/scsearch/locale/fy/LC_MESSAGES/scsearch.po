@@ -64,11 +64,23 @@ msgstr "Kaart flater"
 msgid "Cards updated"
 msgstr "Kaarten bywurke"
 
+msgid "Change Folder"
+msgstr "Feroarje map"
+
+msgid "Choose download folder"
+msgstr "Kies download map"
+
+msgid "Clear Done"
+msgstr ""
+
 msgid "Code:"
 msgstr "Koade:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Koade: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Foltôge"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Ynhâld fan Altadefinizione - Druk op OK om te iepenjen ..."
@@ -84,6 +96,13 @@ msgstr "Details foar: '%s'"
 
 msgid "Details not available"
 msgstr "Details net beskikber"
+
+msgid "Download Queue"
+msgstr "Download wachtrige"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "laden"
 
 msgid "ENTER"
 msgstr "YNGEAN"
@@ -115,6 +134,10 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Ofleverings:"
 
+#, fuzzy
+msgid "Error"
+msgstr "fersin"
+
 msgid "Error loading CB01 series"
 msgstr "Flater by it laden fan CB01-searje"
 
@@ -144,6 +167,9 @@ msgstr "GROEPEN"
 
 msgid "History"
 msgstr "Skiednis"
+
+msgid "Invalid folder!"
+msgstr "Unjildige map!"
 
 msgid "Invalid streaming URL"
 msgstr "Unjildige streaming-URL"
@@ -191,6 +217,9 @@ msgstr "Gjin ynhâld"
 msgid "No content selected"
 msgstr "Gjin ynhâld selektearre"
 
+msgid "No downloads in queue"
+msgstr "Gjin downloads yn wachtrige"
+
 msgid "No episodes available"
 msgstr "Gjin ôfleverings beskikber"
 
@@ -209,11 +238,20 @@ msgstr "Gjin streamingkeppelings fûn"
 msgid "No streaming links found."
 msgstr "Gjin streamingkeppelings fûn"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Selektearje | RED = Fuortsmite | GREEN = Start/Pauze | BLAUW = Feroarje map"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV Series"
 
 msgid "PLAY"
 msgstr "TOANIELSTIK"
+
+msgid "Paused"
+msgstr "Pauzearre"
+
+msgid "Pending"
+msgstr "Yn ôfwachting"
 
 msgid "Playback error: %s"
 msgstr "Ofspielflater: %s"
@@ -235,6 +273,9 @@ msgstr "REFRESH"
 
 msgid "Refresh"
 msgstr "Ferfarskje"
+
+msgid "Remove"
+msgstr "Fuortsmite"
 
 msgid "Retry"
 msgstr "Opnij besykje"
@@ -285,6 +326,9 @@ msgstr "Searje URL net fûn"
 msgid "Series URL not found."
 msgstr "Searje URL net fûn."
 
+msgid "Start/Pause"
+msgstr "Start / Pauze"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API-kaai net fûn"
 
@@ -306,6 +350,9 @@ msgstr "Timeout foar sykopdrachten (sekonden)"
 
 msgid "Title"
 msgstr "Titel"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Totaal: {} | Aktyf: {} | Map: {}"
 
 msgid "Type: %s"
 msgstr "Typ: %s"

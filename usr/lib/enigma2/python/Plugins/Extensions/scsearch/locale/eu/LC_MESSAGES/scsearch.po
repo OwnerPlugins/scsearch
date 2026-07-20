@@ -64,11 +64,23 @@ msgstr "Txartelaren errorea"
 msgid "Cards updated"
 msgstr "Txartelak eguneratuta"
 
+msgid "Change Folder"
+msgstr "Aldatu karpeta"
+
+msgid "Choose download folder"
+msgstr "Aukeratu deskargatzeko karpeta"
+
+msgid "Clear Done"
+msgstr "Garbitu Eginda"
+
 msgid "Code:"
 msgstr "Kodea:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kodea: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Osatua"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizioneko edukia - Sakatu Ados irekitzeko..."
@@ -84,6 +96,13 @@ msgstr "Xehetasunak: '%s'"
 
 msgid "Details not available"
 msgstr "Xehetasunak ez daude eskuragarri"
+
+msgid "Download Queue"
+msgstr "Deskarga-ilara"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "kargatzen"
 
 msgid "ENTER"
 msgstr "SARTU"
@@ -115,6 +134,10 @@ msgstr "Pasarteak"
 msgid "Episodes:"
 msgstr "Atalak:"
 
+#, fuzzy
+msgid "Error"
+msgstr "akatsa"
+
 msgid "Error loading CB01 series"
 msgstr "Errore bat gertatu da CB01 seriea kargatzean"
 
@@ -144,6 +167,9 @@ msgstr "TALDEAK"
 
 msgid "History"
 msgstr "Historia"
+
+msgid "Invalid folder!"
+msgstr "Karpeta baliogabea!"
 
 msgid "Invalid streaming URL"
 msgstr "Igorpenaren URL baliogabea"
@@ -191,6 +217,9 @@ msgstr "Edukirik ez"
 msgid "No content selected"
 msgstr "Ez da edukirik hautatu"
 
+msgid "No downloads in queue"
+msgstr "Ez dago deskargarik ilaran"
+
 msgid "No episodes available"
 msgstr "Ez dago atal erabilgarririk"
 
@@ -209,11 +238,20 @@ msgstr "Ez da aurkitu streaming estekarik"
 msgid "No streaming links found."
 msgstr "Ez da aurkitu streaming estekarik"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Ados = Hautatu | GORRIA = Kendu | BERDEA = Hasi/Pausatu | URDINA = Aldatu karpeta"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Telesaila"
 
 msgid "PLAY"
 msgstr "JOLASTU"
+
+msgid "Paused"
+msgstr "Pausatuta"
+
+msgid "Pending"
+msgstr "Zain"
 
 msgid "Playback error: %s"
 msgstr "Erreprodukzio-errorea: %s"
@@ -235,6 +273,9 @@ msgstr "FRESKATU"
 
 msgid "Refresh"
 msgstr "Freskatu"
+
+msgid "Remove"
+msgstr "Kendu"
 
 msgid "Retry"
 msgstr "Saiatu berriro"
@@ -285,6 +326,9 @@ msgstr "Ez da aurkitu seriearen URLa"
 msgid "Series URL not found."
 msgstr "Ez da aurkitu seriearen URLa."
 
+msgid "Start/Pause"
+msgstr "Hasi/Pausatu"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API gakoa ez da aurkitu"
 
@@ -306,6 +350,9 @@ msgstr "Bilaketa-eskaeren denbora-muga (segundo)"
 
 msgid "Title"
 msgstr "Izenburua"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Guztira: {} | Aktiboa: {} | Karpeta: {}"
 
 msgid "Type: %s"
 msgstr "Mota: %s"

@@ -64,11 +64,23 @@ msgstr "카드 오류"
 msgid "Cards updated"
 msgstr "카드가 업데이트되었습니다."
 
+msgid "Change Folder"
+msgstr "폴더 변경"
+
+msgid "Choose download folder"
+msgstr "다운로드 폴더 선택"
+
+msgid "Clear Done"
+msgstr "지우기 완료"
+
 msgid "Code:"
 msgstr "암호:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "코드: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "완전한"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione의 콘텐츠 - 열려면 확인을 누르세요..."
@@ -84,6 +96,13 @@ msgstr "세부정보: '%s'"
 
 msgid "Details not available"
 msgstr "세부정보를 확인할 수 없음"
+
+msgid "Download Queue"
+msgstr "대기열 다운로드"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "로드 중"
 
 msgid "ENTER"
 msgstr "입력하다"
@@ -115,6 +134,10 @@ msgstr "에피소드"
 msgid "Episodes:"
 msgstr "에피소드:"
 
+#, fuzzy
+msgid "Error"
+msgstr "오류"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 시리즈를 로드하는 중 오류가 발생했습니다."
 
@@ -144,6 +167,9 @@ msgstr "여러 떼"
 
 msgid "History"
 msgstr "역사"
+
+msgid "Invalid folder!"
+msgstr "폴더가 잘못되었습니다!"
 
 msgid "Invalid streaming URL"
 msgstr "잘못된 스트리밍 URL"
@@ -191,6 +217,9 @@ msgstr "콘텐츠 없음"
 msgid "No content selected"
 msgstr "선택한 콘텐츠가 없습니다."
 
+msgid "No downloads in queue"
+msgstr "대기열에 다운로드가 없습니다."
+
 msgid "No episodes available"
 msgstr "사용 가능한 에피소드가 없습니다."
 
@@ -209,11 +238,20 @@ msgstr "스트리밍 링크를 찾을 수 없습니다."
 msgid "No streaming links found."
 msgstr "스트리밍 링크를 찾을 수 없습니다."
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "확인 = 선택 | 빨간색 = 제거 | 녹색 = 시작/일시 중지 | 파란색 = 폴더 변경"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV 시리즈"
 
 msgid "PLAY"
 msgstr "놀다"
+
+msgid "Paused"
+msgstr "일시중지됨"
+
+msgid "Pending"
+msgstr "보류 중"
 
 msgid "Playback error: %s"
 msgstr "재생 오류: %s"
@@ -235,6 +273,9 @@ msgstr "새로 고치다"
 
 msgid "Refresh"
 msgstr "새로 고치다"
+
+msgid "Remove"
+msgstr "제거하다"
 
 msgid "Retry"
 msgstr "다시 해 보다"
@@ -285,6 +326,9 @@ msgstr "시리즈 URL을 찾을 수 없습니다."
 msgid "Series URL not found."
 msgstr "시리즈 URL을 찾을 수 없습니다."
 
+msgid "Start/Pause"
+msgstr "시작/일시 중지"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API 키를 찾을 수 없습니다"
 
@@ -306,6 +350,9 @@ msgstr "검색 요청 시간 초과(초)"
 
 msgid "Title"
 msgstr "제목"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "총계: {} | 활성: {} | 폴더: {}"
 
 msgid "Type: %s"
 msgstr "유형: %s"

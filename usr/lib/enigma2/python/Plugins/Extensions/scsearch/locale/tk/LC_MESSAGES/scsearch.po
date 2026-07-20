@@ -64,11 +64,23 @@ msgstr "Kart ýalňyşlygy"
 msgid "Cards updated"
 msgstr "Kartlar täzelendi"
 
+msgid "Change Folder"
+msgstr "Papkany çalyş"
+
+msgid "Choose download folder"
+msgstr "Göçürip almak bukjasyny saýlaň"
+
+msgid "Clear Done"
+msgstr "Arassalaň"
+
 msgid "Code:"
 msgstr "Kod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Tamamlandy"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione-dan mazmun - açmak üçin OK basyň ..."
@@ -84,6 +96,13 @@ msgstr "Jikme-jiklikler: '% s'"
 
 msgid "Details not available"
 msgstr "Jikme-jiklikler ýok"
+
+msgid "Download Queue"
+msgstr "Nobaty göçürip al"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "ýüklemek"
 
 msgid "ENTER"
 msgstr "Giriş"
@@ -115,6 +134,10 @@ msgstr "Bölümler"
 msgid "Episodes:"
 msgstr "Bölümler:"
 
+#, fuzzy
+msgid "Error"
+msgstr "ýalňyşlyk"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 seriýasyny ýüklemekde säwlik"
 
@@ -144,6 +167,9 @@ msgstr "GROUPS"
 
 msgid "History"
 msgstr "Taryh"
+
+msgid "Invalid folder!"
+msgstr "Nädogry bukja!"
 
 msgid "Invalid streaming URL"
 msgstr "Nädogry akym URL"
@@ -191,6 +217,9 @@ msgstr "Mazmuny ýok"
 msgid "No content selected"
 msgstr "Mazmun saýlanmady"
 
+msgid "No downloads in queue"
+msgstr "Nobatda göçürip almak ýok"
+
 msgid "No episodes available"
 msgstr "Bölüm ýok"
 
@@ -209,11 +238,20 @@ msgstr "Akym baglanyşyklary tapylmady"
 msgid "No streaming links found."
 msgstr "Akym baglanyşyklary tapylmady"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Bolýar = saýlaň | RED = Aýyr | REaşyl = Başlamak / Arakesme | Gök = Papkany çalyş"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - teleseriallar"
 
 msgid "PLAY"
 msgstr "Oýun"
+
+msgid "Paused"
+msgstr "Saklandy"
+
+msgid "Pending"
+msgstr "Garaşylýar"
 
 msgid "Playback error: %s"
 msgstr "Aýtdyrmak säwligi:% s"
@@ -235,6 +273,9 @@ msgstr "GÖRNÜŞ"
 
 msgid "Refresh"
 msgstr "Täzele"
+
+msgid "Remove"
+msgstr "Aýyr"
 
 msgid "Retry"
 msgstr "Gaýtadan synanyşyň"
@@ -285,6 +326,9 @@ msgstr "Seriýa URL tapylmady"
 msgid "Series URL not found."
 msgstr "Seriýa URL tapylmady"
 
+msgid "Start/Pause"
+msgstr "Başlamak / Arakesme"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API açary tapylmady"
 
@@ -306,6 +350,9 @@ msgstr "Gözleg haýyşlarynyň wagty (sekuntlar)"
 
 msgid "Title"
 msgstr "Ady"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Jemi: {} | Işjeň: {} | Papka: {}"
 
 msgid "Type: %s"
 msgstr "Görnüşi:% s"

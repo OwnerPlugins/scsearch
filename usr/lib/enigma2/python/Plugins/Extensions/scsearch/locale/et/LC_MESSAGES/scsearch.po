@@ -64,11 +64,23 @@ msgstr "Kaardi viga"
 msgid "Cards updated"
 msgstr "Kaardid uuendatud"
 
+msgid "Change Folder"
+msgstr "Muuda kausta"
+
+msgid "Choose download folder"
+msgstr "Valige allalaadimiskaust"
+
+msgid "Clear Done"
+msgstr "Kustuta Valmis"
+
 msgid "Code:"
 msgstr "Kood:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kood: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Lõpetatud"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione'i sisu – avamiseks vajutage nuppu OK..."
@@ -84,6 +96,13 @@ msgstr "Üksikasjad: '%s'"
 
 msgid "Details not available"
 msgstr "Üksikasjad pole saadaval"
+
+msgid "Download Queue"
+msgstr "Laadi alla järjekord"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "laadimine"
 
 msgid "ENTER"
 msgstr "SISESTA"
@@ -115,6 +134,10 @@ msgstr "Episoodid"
 msgid "Episodes:"
 msgstr "Episoodid:"
 
+#, fuzzy
+msgid "Error"
+msgstr "viga"
+
 msgid "Error loading CB01 series"
 msgstr "Viga CB01 seeria laadimisel"
 
@@ -144,6 +167,9 @@ msgstr "RÜHMAD"
 
 msgid "History"
 msgstr "Ajalugu"
+
+msgid "Invalid folder!"
+msgstr "Kehtetu kaust!"
 
 msgid "Invalid streaming URL"
 msgstr "Vale voogesituse URL"
@@ -191,6 +217,9 @@ msgstr "Sisu puudub"
 msgid "No content selected"
 msgstr "Sisu pole valitud"
 
+msgid "No downloads in queue"
+msgstr "Järjekorras pole allalaadimisi"
+
 msgid "No episodes available"
 msgstr "Saadaval pole ühtegi episoodi"
 
@@ -209,11 +238,20 @@ msgstr "Voogesituse linke ei leitud"
 msgid "No streaming links found."
 msgstr "Voogesituse linke ei leitud"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Vali | PUNANE = Eemalda | ROHELINE = Start/Pause | SININE = Muuda kausta"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV – telesari"
 
 msgid "PLAY"
 msgstr "MÄNGI"
+
+msgid "Paused"
+msgstr "Peatatud"
+
+msgid "Pending"
+msgstr "Ootel"
 
 msgid "Playback error: %s"
 msgstr "Taasesituse viga: %s"
@@ -235,6 +273,9 @@ msgstr "VÄRSKENDAMINE"
 
 msgid "Refresh"
 msgstr "Värskenda"
+
+msgid "Remove"
+msgstr "Eemalda"
 
 msgid "Retry"
 msgstr "Proovi uuesti"
@@ -285,6 +326,9 @@ msgstr "Sarja URL-i ei leitud"
 msgid "Series URL not found."
 msgstr "Sarja URL-i ei leitud."
 
+msgid "Start/Pause"
+msgstr "Start/Paus"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API võtit ei leitud"
 
@@ -306,6 +350,9 @@ msgstr "Otsingupäringute ajalõpp (sekundites)"
 
 msgid "Title"
 msgstr "Pealkiri"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Kokku: {} | Aktiivne: {} | Kaust: {}"
 
 msgid "Type: %s"
 msgstr "Tüüp: %s"

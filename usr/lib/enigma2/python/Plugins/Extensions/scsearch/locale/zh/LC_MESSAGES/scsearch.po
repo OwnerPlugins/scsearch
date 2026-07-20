@@ -64,11 +64,23 @@ msgstr "卡错误"
 msgid "Cards updated"
 msgstr "卡片已更新"
 
+msgid "Change Folder"
+msgstr "更改文件夹"
+
+msgid "Choose download folder"
+msgstr "选择下载文件夹"
+
+msgid "Clear Done"
+msgstr "清除完成"
+
 msgid "Code:"
 msgstr "代码："
 
 msgid "Code: {self.captcha_code}"
 msgstr "代码：{self.captcha_code}"
+
+msgid "Completed"
+msgstr "完全的"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "来自 Altadefinizone 的内容 - 按“确定”打开..."
@@ -84,6 +96,13 @@ msgstr "详细信息：“%s”"
 
 msgid "Details not available"
 msgstr "详细信息不详"
+
+msgid "Download Queue"
+msgstr "下载队列"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "加载中"
 
 msgid "ENTER"
 msgstr "进入"
@@ -115,6 +134,10 @@ msgstr "剧集数"
 msgid "Episodes:"
 msgstr "集数："
 
+#, fuzzy
+msgid "Error"
+msgstr "错误"
+
 msgid "Error loading CB01 series"
 msgstr "加载CB01系列时出错"
 
@@ -144,6 +167,9 @@ msgstr "团体"
 
 msgid "History"
 msgstr "历史"
+
+msgid "Invalid folder!"
+msgstr "无效的文件夹！"
 
 msgid "Invalid streaming URL"
 msgstr "流媒体 URL 无效"
@@ -191,6 +217,9 @@ msgstr "没有内容"
 msgid "No content selected"
 msgstr "未选择内容"
 
+msgid "No downloads in queue"
+msgstr "队列中没有下载"
+
 msgid "No episodes available"
 msgstr "没有可用的剧集"
 
@@ -209,11 +238,20 @@ msgstr "未找到流媒体链接"
 msgid "No streaming links found."
 msgstr "未找到流媒体链接"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "确定=选择| 红色=删除| 绿色=开始/暂停| 蓝色 = 更改文件夹"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSeriesTV - 电视剧"
 
 msgid "PLAY"
 msgstr "玩"
+
+msgid "Paused"
+msgstr "已暂停"
+
+msgid "Pending"
+msgstr "待办的"
 
 msgid "Playback error: %s"
 msgstr "播放错误：%s"
@@ -235,6 +273,9 @@ msgstr "刷新"
 
 msgid "Refresh"
 msgstr "刷新"
+
+msgid "Remove"
+msgstr "消除"
 
 msgid "Retry"
 msgstr "重试"
@@ -285,6 +326,9 @@ msgstr "找不到系列网址"
 msgid "Series URL not found."
 msgstr "找不到系列 URL。"
 
+msgid "Start/Pause"
+msgstr "开始/暂停"
+
 msgid "TMDB API key not found"
 msgstr "未找到 TMDB API 密钥"
 
@@ -306,6 +350,9 @@ msgstr "搜索请求超时（秒）"
 
 msgid "Title"
 msgstr "标题"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "总计：{} | 活动：{} | 文件夹： {}"
 
 msgid "Type: %s"
 msgstr "类型：%s"

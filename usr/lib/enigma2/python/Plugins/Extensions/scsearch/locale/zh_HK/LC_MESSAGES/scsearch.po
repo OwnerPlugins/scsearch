@@ -64,11 +64,23 @@ msgstr "卡錯誤"
 msgid "Cards updated"
 msgstr "卡片已更新"
 
+msgid "Change Folder"
+msgstr "更改資料夾"
+
+msgid "Choose download folder"
+msgstr "選擇下載資料夾"
+
+msgid "Clear Done"
+msgstr "清除完成"
+
 msgid "Code:"
 msgstr "代碼："
 
 msgid "Code: {self.captcha_code}"
 msgstr "代碼：{self.captcha_code}"
+
+msgid "Completed"
+msgstr "完全的"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "來自 Altadefinizone 的內容 - 按「確定」開啟..."
@@ -84,6 +96,13 @@ msgstr "詳細資料：“%s”"
 
 msgid "Details not available"
 msgstr "詳細資訊不詳"
+
+msgid "Download Queue"
+msgstr "下載隊列"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "載入中"
 
 msgid "ENTER"
 msgstr "進入"
@@ -115,6 +134,10 @@ msgstr "劇集數"
 msgid "Episodes:"
 msgstr "集數："
 
+#, fuzzy
+msgid "Error"
+msgstr "錯誤"
+
 msgid "Error loading CB01 series"
 msgstr "載入CB01系列時出錯"
 
@@ -144,6 +167,9 @@ msgstr "團體"
 
 msgid "History"
 msgstr "歷史"
+
+msgid "Invalid folder!"
+msgstr "無效的資料夾！"
 
 msgid "Invalid streaming URL"
 msgstr "串流媒體 URL 無效"
@@ -191,6 +217,9 @@ msgstr "沒有內容"
 msgid "No content selected"
 msgstr "未選擇內容"
 
+msgid "No downloads in queue"
+msgstr "隊列中沒有下載"
+
 msgid "No episodes available"
 msgstr "沒有可用的劇集"
 
@@ -209,11 +238,20 @@ msgstr "未找到串流媒體鏈接"
 msgid "No streaming links found."
 msgstr "未找到串流媒體鏈接"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "確定=選擇| 紅色=刪除| 綠色=開始/暫停| 藍色 = 更改資料夾"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSeriesTV - 電視劇"
 
 msgid "PLAY"
 msgstr "玩"
+
+msgid "Paused"
+msgstr "已暫停"
+
+msgid "Pending"
+msgstr "待辦的"
 
 msgid "Playback error: %s"
 msgstr "播放錯誤：%s"
@@ -235,6 +273,9 @@ msgstr "重新整理"
 
 msgid "Refresh"
 msgstr "重新整理"
+
+msgid "Remove"
+msgstr "消除"
 
 msgid "Retry"
 msgstr "重試"
@@ -285,6 +326,9 @@ msgstr "找不到系列網址"
 msgid "Series URL not found."
 msgstr "找不到系列 URL。"
 
+msgid "Start/Pause"
+msgstr "開始/暫停"
+
 msgid "TMDB API key not found"
 msgstr "未找到 TMDB API 金鑰"
 
@@ -306,6 +350,9 @@ msgstr "搜尋請求逾時（秒）"
 
 msgid "Title"
 msgstr "標題"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "總計：{} | 活動：{} | 資料夾： {}"
 
 msgid "Type: %s"
 msgstr "類型：%s"

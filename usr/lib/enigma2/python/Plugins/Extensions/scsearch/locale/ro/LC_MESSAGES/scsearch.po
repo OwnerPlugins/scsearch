@@ -64,11 +64,23 @@ msgstr "Eroare card"
 msgid "Cards updated"
 msgstr "Carduri actualizate"
 
+msgid "Change Folder"
+msgstr "Schimbați folderul"
+
+msgid "Choose download folder"
+msgstr "Alegeți folderul de descărcare"
+
+msgid "Clear Done"
+msgstr "Ștergeți Terminat"
+
 msgid "Code:"
 msgstr "Cod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Cod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Terminat"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Conținut din Altadefinizione - Apăsați OK pentru a deschide..."
@@ -84,6 +96,13 @@ msgstr "Detalii pentru: „%s”"
 
 msgid "Details not available"
 msgstr "Detalii nu sunt disponibile"
+
+msgid "Download Queue"
+msgstr "Coadă de descărcare"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "încărcare"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Episoade"
 msgid "Episodes:"
 msgstr "Episoade:"
 
+#, fuzzy
+msgid "Error"
+msgstr "eroare"
+
 msgid "Error loading CB01 series"
 msgstr "Eroare la încărcarea seriei CB01"
 
@@ -144,6 +167,9 @@ msgstr "GRUPURI"
 
 msgid "History"
 msgstr "Istorie"
+
+msgid "Invalid folder!"
+msgstr "Dosar nevalid!"
 
 msgid "Invalid streaming URL"
 msgstr "Adresă URL de streaming nevalidă"
@@ -191,6 +217,9 @@ msgstr "Fără conținut"
 msgid "No content selected"
 msgstr "Niciun conținut selectat"
 
+msgid "No downloads in queue"
+msgstr "Fără descărcări în coadă"
+
 msgid "No episodes available"
 msgstr "Nu există episoade disponibile"
 
@@ -209,11 +238,20 @@ msgstr "Nu s-au găsit linkuri de streaming"
 msgid "No streaming links found."
 msgstr "Nu s-au găsit linkuri de streaming"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Selectați | ROȘU = Eliminați | VERDE = Pornire/Pauză | ALBASTRU = Schimbați folderul"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serial TV"
 
 msgid "PLAY"
 msgstr "JUCA"
+
+msgid "Paused"
+msgstr "Întrerupt"
+
+msgid "Pending"
+msgstr "În așteptare"
 
 msgid "Playback error: %s"
 msgstr "Eroare de redare: %s"
@@ -235,6 +273,9 @@ msgstr "REÎMPROSPĂTA"
 
 msgid "Refresh"
 msgstr "Reîmprospăta"
+
+msgid "Remove"
+msgstr "Elimina"
 
 msgid "Retry"
 msgstr "Reîncercați"
@@ -285,6 +326,9 @@ msgstr "Adresa URL a seriei nu a fost găsită"
 msgid "Series URL not found."
 msgstr "Adresa URL a seriei nu a fost găsită."
 
+msgid "Start/Pause"
+msgstr "Pornire/Pauză"
+
 msgid "TMDB API key not found"
 msgstr "Cheia API TMDB nu a fost găsită"
 
@@ -306,6 +350,9 @@ msgstr "Timeout pentru cererile de căutare (secunde)"
 
 msgid "Title"
 msgstr "Titlu"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Total: {} | Activ: {} | Dosar: {}"
 
 msgid "Type: %s"
 msgstr "Tip: %s"

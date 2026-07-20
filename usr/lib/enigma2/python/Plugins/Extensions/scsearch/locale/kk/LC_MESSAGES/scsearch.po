@@ -64,11 +64,23 @@ msgstr "Карта қатесі"
 msgid "Cards updated"
 msgstr "Карталар жаңартылды"
 
+msgid "Change Folder"
+msgstr "Қалтаны өзгерту"
+
+msgid "Choose download folder"
+msgstr "Жүктеп алу қалтасын таңдаңыз"
+
+msgid "Clear Done"
+msgstr "Тазалау Дайын"
+
 msgid "Code:"
 msgstr "Код:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Код: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Аяқталды"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione мазмұны - ашу үшін OK түймесін басыңыз..."
@@ -84,6 +96,13 @@ msgstr "Мәліметтер: '%s'"
 
 msgid "Details not available"
 msgstr "Мәліметтер қолжетімді емес"
+
+msgid "Download Queue"
+msgstr "Жүктеп алу кезегі"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "жүктеу"
 
 msgid "ENTER"
 msgstr "ЕНГІЗУ"
@@ -115,6 +134,10 @@ msgstr "Эпизодтар"
 msgid "Episodes:"
 msgstr "Эпизодтар:"
 
+#, fuzzy
+msgid "Error"
+msgstr "қате"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 сериясын жүктеу қатесі"
 
@@ -144,6 +167,9 @@ msgstr "ТОПТАР"
 
 msgid "History"
 msgstr "Тарих"
+
+msgid "Invalid folder!"
+msgstr "Жарамсыз қалта!"
 
 msgid "Invalid streaming URL"
 msgstr "Жарамсыз ағындық URL"
@@ -191,6 +217,9 @@ msgstr "Мазмұн жоқ"
 msgid "No content selected"
 msgstr "Ешбір мазмұн таңдалмаған"
 
+msgid "No downloads in queue"
+msgstr "Кезекте жүктеп алынғандар жоқ"
+
 msgid "No episodes available"
 msgstr "Эпизодтар жоқ"
 
@@ -209,11 +238,20 @@ msgstr "Ағындық сілтемелер табылмады"
 msgid "No streaming links found."
 msgstr "Ағындық сілтемелер табылмады"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = | таңдаңыз ҚЫЗЫЛ = Жою | ЖАСЫЛ = Бастау/Үзіліс | КӨК = Қалтаны өзгерту"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Телехикая"
 
 msgid "PLAY"
 msgstr "ОЙНАУ"
+
+msgid "Paused"
+msgstr "Кідіртілді"
+
+msgid "Pending"
+msgstr "Күтуде"
 
 msgid "Playback error: %s"
 msgstr "Ойнату қатесі: %s"
@@ -235,6 +273,9 @@ msgstr "ЖАҢҒЫРТУ"
 
 msgid "Refresh"
 msgstr "Жаңарту"
+
+msgid "Remove"
+msgstr "Жою"
 
 msgid "Retry"
 msgstr "Қайталап көріңіз"
@@ -285,6 +326,9 @@ msgstr "Серияның URL мекенжайы табылмады"
 msgid "Series URL not found."
 msgstr "Серияның URL мекенжайы табылмады."
 
+msgid "Start/Pause"
+msgstr "Бастау/Үзіліс"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API кілті табылмады"
 
@@ -306,6 +350,9 @@ msgstr "Іздеу сұрауларының күту уақыты (секунд)
 
 msgid "Title"
 msgstr "Тақырып"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Барлығы: {} | Белсенді: {} | Қалта: {}"
 
 msgid "Type: %s"
 msgstr "Түрі: %s"

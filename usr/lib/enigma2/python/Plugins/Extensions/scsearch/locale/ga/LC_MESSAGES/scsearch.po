@@ -64,11 +64,23 @@ msgstr "Earráid cárta"
 msgid "Cards updated"
 msgstr "Cártaí nuashonraithe"
 
+msgid "Change Folder"
+msgstr "Athraigh Fillteán"
+
+msgid "Choose download folder"
+msgstr "Roghnaigh fillteán íoslódála"
+
+msgid "Clear Done"
+msgstr "Glan Déanta"
+
 msgid "Code:"
 msgstr "Cód:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Cód: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Críochnaithe"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Ábhar ó Altadefinizione - Brúigh OK chun..."
@@ -84,6 +96,13 @@ msgstr "Sonraí le haghaidh: '%s'"
 
 msgid "Details not available"
 msgstr "Níl sonraí ar fáil"
+
+msgid "Download Queue"
+msgstr "Íosluchtaigh scuad"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "ag lódáil"
 
 msgid "ENTER"
 msgstr "ISTEACH"
@@ -115,6 +134,10 @@ msgstr "Eipeasóid"
 msgid "Episodes:"
 msgstr "Eipeasóidí:"
 
+#, fuzzy
+msgid "Error"
+msgstr "earráid"
+
 msgid "Error loading CB01 series"
 msgstr "Earráid agus an tsraith CB01 á lódáil"
 
@@ -144,6 +167,9 @@ msgstr "GRÚPAÍ"
 
 msgid "History"
 msgstr "Stair"
+
+msgid "Invalid folder!"
+msgstr "Fillteán neamhbhailí!"
 
 msgid "Invalid streaming URL"
 msgstr "URL sruthaithe neamhbhailí"
@@ -191,6 +217,9 @@ msgstr "Gan ábhar"
 msgid "No content selected"
 msgstr "Níl aon ábhar roghnaithe"
 
+msgid "No downloads in queue"
+msgstr "Gan aon íoslódáil sa scuaine"
+
 msgid "No episodes available"
 msgstr "Níl aon eipeasóid ar fáil"
 
@@ -209,11 +238,20 @@ msgstr "Níor aimsíodh aon nasc sruthaithe"
 msgid "No streaming links found."
 msgstr "Níor aimsíodh aon nasc sruthaithe"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Roghnaigh | RED = Bain | GLAS = Tosaigh/Sos | GORM = Athraigh Fillteán"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Sraith Teilifíse"
 
 msgid "PLAY"
 msgstr "IMIR"
+
+msgid "Paused"
+msgstr "Sos"
+
+msgid "Pending"
+msgstr "Ar feitheamh"
 
 msgid "Playback error: %s"
 msgstr "Earráid athsheinm: %s"
@@ -235,6 +273,9 @@ msgstr "NUACHT"
 
 msgid "Refresh"
 msgstr "Athnuaigh"
+
+msgid "Remove"
+msgstr "Bain"
 
 msgid "Retry"
 msgstr "Bain triail eile as"
@@ -285,6 +326,9 @@ msgstr "URL na sraithe gan aimsiú"
 msgid "Series URL not found."
 msgstr "URL na sraithe gan aimsiú."
 
+msgid "Start/Pause"
+msgstr "Tosaigh/Sos"
+
 msgid "TMDB API key not found"
 msgstr "Níor aimsíodh eochair API TMDB"
 
@@ -306,6 +350,9 @@ msgstr "Teorainn ama d'iarratais chuardaigh (soicindí)"
 
 msgid "Title"
 msgstr "Teideal"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Iomlán: {} | Gníomhach: {} | Fillteán: {}"
 
 msgid "Type: %s"
 msgstr "Cineál: %s"

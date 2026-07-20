@@ -64,11 +64,23 @@ msgstr "Lỗi thẻ"
 msgid "Cards updated"
 msgstr "Đã cập nhật thẻ"
 
+msgid "Change Folder"
+msgstr "Thay đổi thư mục"
+
+msgid "Choose download folder"
+msgstr "Chọn thư mục tải xuống"
+
+msgid "Clear Done"
+msgstr "Xóa xong"
+
 msgid "Code:"
 msgstr "Mã số:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Mã: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Hoàn thành"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Nội dung từ Altadefinizione - Nhấn OK để mở..."
@@ -84,6 +96,13 @@ msgstr "Thông tin chi tiết về: '%s'"
 
 msgid "Details not available"
 msgstr "Thông tin chi tiết không có sẵn"
+
+msgid "Download Queue"
+msgstr "Hàng đợi tải xuống"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "đang tải"
 
 msgid "ENTER"
 msgstr "ĐI VÀO"
@@ -115,6 +134,10 @@ msgstr "tập phim"
 msgid "Episodes:"
 msgstr "Các tập:"
 
+#, fuzzy
+msgid "Error"
+msgstr "lỗi"
+
 msgid "Error loading CB01 series"
 msgstr "Lỗi tải dòng CB01"
 
@@ -144,6 +167,9 @@ msgstr "NHÓM"
 
 msgid "History"
 msgstr "Lịch sử"
+
+msgid "Invalid folder!"
+msgstr "Thư mục không hợp lệ!"
 
 msgid "Invalid streaming URL"
 msgstr "URL phát trực tuyến không hợp lệ"
@@ -191,6 +217,9 @@ msgstr "Không có nội dung"
 msgid "No content selected"
 msgstr "Không có nội dung nào được chọn"
 
+msgid "No downloads in queue"
+msgstr "Không có lượt tải xuống nào trong hàng đợi"
+
 msgid "No episodes available"
 msgstr "Không có tập nào"
 
@@ -209,11 +238,20 @@ msgstr "Không tìm thấy liên kết phát trực tuyến"
 msgid "No streaming links found."
 msgstr "Không tìm thấy liên kết phát trực tuyến"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Được = Chọn | ĐỎ = Xóa | XANH = Bắt đầu/Tạm dừng | XANH = Thay đổi thư mục"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Phim Truyền Hình"
 
 msgid "PLAY"
 msgstr "CHƠI"
+
+msgid "Paused"
+msgstr "Đã tạm dừng"
+
+msgid "Pending"
+msgstr "Chưa giải quyết"
 
 msgid "Playback error: %s"
 msgstr "Lỗi phát lại: %s"
@@ -235,6 +273,9 @@ msgstr "LÀM CHO KHỎE LẠI"
 
 msgid "Refresh"
 msgstr "Làm cho khỏe lại"
+
+msgid "Remove"
+msgstr "Di dời"
 
 msgid "Retry"
 msgstr "Thử lại"
@@ -285,6 +326,9 @@ msgstr "Không tìm thấy URL bộ truyện"
 msgid "Series URL not found."
 msgstr "Không tìm thấy URL bộ sách."
 
+msgid "Start/Pause"
+msgstr "Bắt đầu/Tạm dừng"
+
 msgid "TMDB API key not found"
 msgstr "Không tìm thấy khóa API TMDB"
 
@@ -306,6 +350,9 @@ msgstr "Thời gian chờ cho yêu cầu tìm kiếm (giây)"
 
 msgid "Title"
 msgstr "Tiêu đề"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Tổng cộng: {} | Đang hoạt động: {} | Thư mục: {}"
 
 msgid "Type: %s"
 msgstr "Loại: %s"

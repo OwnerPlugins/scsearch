@@ -64,11 +64,23 @@ msgstr "Żball tal-karta"
 msgid "Cards updated"
 msgstr "Karti aġġornati"
 
+msgid "Change Folder"
+msgstr "Bidla Folder"
+
+msgid "Choose download folder"
+msgstr "Agħżel download folder"
+
+msgid "Clear Done"
+msgstr "Ċara Magħmul"
+
 msgid "Code:"
 msgstr "Kodiċi:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kodiċi: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Imlesta"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Kontenut minn Altadefinizione - Agħfas OK biex tiftaħ..."
@@ -84,6 +96,13 @@ msgstr "Dettalji għal: '%s'"
 
 msgid "Details not available"
 msgstr "Dettalji mhux disponibbli"
+
+msgid "Download Queue"
+msgstr "Niżżel Kju"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "tagħbija"
 
 msgid "ENTER"
 msgstr "DĦUL"
@@ -115,6 +134,10 @@ msgstr "Episodji"
 msgid "Episodes:"
 msgstr "Episodji:"
 
+#, fuzzy
+msgid "Error"
+msgstr "żball"
+
 msgid "Error loading CB01 series"
 msgstr "Żball fit-tagħbija tas-serje CB01"
 
@@ -144,6 +167,9 @@ msgstr "GRUPPI"
 
 msgid "History"
 msgstr "Storja"
+
+msgid "Invalid folder!"
+msgstr "Folder mhux validu!"
 
 msgid "Invalid streaming URL"
 msgstr "URL tal-istreaming invalidu"
@@ -191,6 +217,9 @@ msgstr "Ebda kontenut"
 msgid "No content selected"
 msgstr "Ebda kontenut magħżul"
 
+msgid "No downloads in queue"
+msgstr "Ebda downloads fil-kju"
+
 msgid "No episodes available"
 msgstr "Ebda episodji disponibbli"
 
@@ -209,11 +238,20 @@ msgstr "Ma nstab l-ebda link ta' streaming"
 msgid "No streaming links found."
 msgstr "Ma nstab l-ebda link ta' streaming"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Agħżel | AĦMAR = Neħħi | AĦDAR = Bidu/Pawża | BLUE = Bidla Folder"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serje tat-TV"
 
 msgid "PLAY"
 msgstr "PLAY"
+
+msgid "Paused"
+msgstr "Waqfa qasira"
+
+msgid "Pending"
+msgstr "Pendenti"
 
 msgid "Playback error: %s"
 msgstr "Żball fil-qari: %s"
@@ -235,6 +273,9 @@ msgstr "AFFIKAR"
 
 msgid "Refresh"
 msgstr "Aġġorna"
+
+msgid "Remove"
+msgstr "Neħħi"
 
 msgid "Retry"
 msgstr "Erġa' pprova"
@@ -285,6 +326,9 @@ msgstr "URL tas-serje ma nstabx"
 msgid "Series URL not found."
 msgstr "URL tas-serje ma nstabx."
 
+msgid "Start/Pause"
+msgstr "Bidu/Pawsa"
+
 msgid "TMDB API key not found"
 msgstr "Ċavetta API TMDB ma nstabitx"
 
@@ -306,6 +350,9 @@ msgstr "Timeout għal talbiet ta' tfittxija (sekondi)"
 
 msgid "Title"
 msgstr "Titolu"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Total: {} | Attiv: {} | Folder: {}"
 
 msgid "Type: %s"
 msgstr "Tip: %s"

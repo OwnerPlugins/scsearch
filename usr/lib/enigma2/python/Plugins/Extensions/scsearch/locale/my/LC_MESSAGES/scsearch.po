@@ -64,11 +64,23 @@ msgstr "ကတ်အမှား"
 msgid "Cards updated"
 msgstr "ကတ်များကို အပ်ဒိတ်လုပ်ထားသည်။"
 
+msgid "Change Folder"
+msgstr "Folder ကိုပြောင်းပါ။"
+
+msgid "Choose download folder"
+msgstr "ဒေါင်းလုဒ်ဖိုင်တွဲကို ရွေးပါ။"
+
+msgid "Clear Done"
+msgstr "ရှင်းလင်းပြီးပါပြီ။"
+
 msgid "Code:"
 msgstr "ကုဒ်-"
 
 msgid "Code: {self.captcha_code}"
 msgstr "ကုဒ်- {self.captcha_code}"
+
+msgid "Completed"
+msgstr "ပြီးသွားပြီ"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione မှ အကြောင်းအရာ - ဖွင့်ရန် OK ကိုနှိပ်ပါ..."
@@ -84,6 +96,13 @@ msgstr "အသေးစိတ်အချက်များ- '%s'"
 
 msgid "Details not available"
 msgstr "အသေးစိတ်အချက်အလက်များကို မရရှိနိုင်ပါ။"
+
+msgid "Download Queue"
+msgstr "တန်းစီခြင်းကို ဒေါင်းလုဒ်လုပ်ပါ။"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "loading"
 
 msgid "ENTER"
 msgstr "သွင်းပါ။"
@@ -115,6 +134,10 @@ msgstr "ဇာတ်လမ်းတွဲများ"
 msgid "Episodes:"
 msgstr "အပိုင်းများ-"
 
+#, fuzzy
+msgid "Error"
+msgstr "အမှား"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 စီးရီးကို ဖွင့်ရာတွင် အမှားအယွင်းရှိသည်။"
 
@@ -144,6 +167,9 @@ msgstr "အုပ်စုများ"
 
 msgid "History"
 msgstr "သမိုင်း"
+
+msgid "Invalid folder!"
+msgstr "မမှန်ကန်သောဖိုင်တွဲ။"
 
 msgid "Invalid streaming URL"
 msgstr "မမှန်ကန်သော တိုက်ရိုက်လွှင့်ခြင်း URL"
@@ -191,6 +217,9 @@ msgstr "အကြောင်းအရာမရှိပါ။"
 msgid "No content selected"
 msgstr "အကြောင်းအရာမရွေးပါ။"
 
+msgid "No downloads in queue"
+msgstr "တန်းစီရာတွင် ဒေါင်းလုဒ်များမရှိပါ။"
+
 msgid "No episodes available"
 msgstr "အပိုင်းများ မရရှိနိုင်ပါ။"
 
@@ -209,11 +238,20 @@ msgstr "တိုက်ရိုက်လွှင့်လင့်ခ်မျ
 msgid "No streaming links found."
 msgstr "တိုက်ရိုက်လွှင့်လင့်ခ်များကို ရှာမတွေ့ပါ။"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = ရွေးရန် | RED = ဖယ်ရှား | အစိမ်းရောင် = စတင်/ခေတ္တရပ် | BLUE = ဖိုဒါကို ပြောင်းပါ။"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - တီဗီစီးရီး"
 
 msgid "PLAY"
 msgstr "ကစားပါ။"
+
+msgid "Paused"
+msgstr "ရပ်ထားသည်။"
+
+msgid "Pending"
+msgstr "ဆိုင်းငံ့ထားသည်။"
 
 msgid "Playback error: %s"
 msgstr "ပြန်ဖွင့်မှု အမှား- %s"
@@ -235,6 +273,9 @@ msgstr "ပြန်လည်စတင်ပါ။"
 
 msgid "Refresh"
 msgstr "ပြန်လည်စတင်ပါ။"
+
+msgid "Remove"
+msgstr "ဖယ်ရှားပါ။"
 
 msgid "Retry"
 msgstr "ပြန်ကြိုးစားပါ။"
@@ -285,6 +326,9 @@ msgstr "စီးရီး URL ကို ရှာမတွေ့ပါ။"
 msgid "Series URL not found."
 msgstr "စီးရီး URL ကို ရှာမတွေ့ပါ။"
 
+msgid "Start/Pause"
+msgstr "စတင်/ခေတ္တရပ်ပါ။"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API သော့ကို ရှာမတွေ့ပါ။"
 
@@ -306,6 +350,9 @@ msgstr "ရှာဖွေမှုတောင်းဆိုမှုမျာ
 
 msgid "Title"
 msgstr "ခေါင်းစဉ်"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "စုစုပေါင်း- {} | အသက်ဝင်သည်- { } | ဖိုင်တွဲ- {}"
 
 msgid "Type: %s"
 msgstr "အမျိုးအစား- %s"

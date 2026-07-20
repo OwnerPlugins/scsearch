@@ -64,11 +64,23 @@ msgstr "Mearachd cairt"
 msgid "Cards updated"
 msgstr "Cairtean air an ùrachadh"
 
+msgid "Change Folder"
+msgstr "Atharraich am pasgan"
+
+msgid "Choose download folder"
+msgstr "Tagh pasgan luchdaich sìos"
+
+msgid "Clear Done"
+msgstr "Soilleir Dèanta"
+
 msgid "Code:"
 msgstr "Còd:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Còd: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Air a chrìochnachadh"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Susbaint bho Altadefinizione - Brùth OK gus fosgladh..."
@@ -84,6 +96,13 @@ msgstr "Mion-fhiosrachadh airson: '%s'"
 
 msgid "Details not available"
 msgstr "Chan eil mion-fhiosrachadh ri fhaighinn"
+
+msgid "Download Queue"
+msgstr "Luchdaich sìos ciudha"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "a' luchdachadh"
 
 msgid "ENTER"
 msgstr "A steach"
@@ -115,6 +134,10 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Episodes:"
 
+#, fuzzy
+msgid "Error"
+msgstr "mearachd"
+
 msgid "Error loading CB01 series"
 msgstr "Thachair mearachd le luchdachadh CB01 sreath"
 
@@ -144,6 +167,9 @@ msgstr "CRUTHAICHEAN"
 
 msgid "History"
 msgstr "Eachdraidh"
+
+msgid "Invalid folder!"
+msgstr "Pasgan mì-dhligheach!"
 
 msgid "Invalid streaming URL"
 msgstr "URL sruthadh mì-dhligheach"
@@ -191,6 +217,9 @@ msgstr "Gun susbaint"
 msgid "No content selected"
 msgstr "Cha deach susbaint a thaghadh"
 
+msgid "No downloads in queue"
+msgstr "Gun luchdachadh sìos ann an ciudha"
+
 msgid "No episodes available"
 msgstr "Chan eil episodes ri fhaighinn"
 
@@ -209,11 +238,20 @@ msgstr "Cha deach ceanglaichean sruthadh a lorg"
 msgid "No streaming links found."
 msgstr "Cha deach ceanglaichean sruthadh a lorg"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Tagh | RED = Thoir air falbh | GREEN = Tòisich / Stad | BLUE = Atharraich am pasgan"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "Sreath Tbh air-loidhne - Sreath Tbh"
 
 msgid "PLAY"
 msgstr "CLÀRADH"
+
+msgid "Paused"
+msgstr "Stad"
+
+msgid "Pending"
+msgstr "A' feitheamh"
 
 msgid "Playback error: %s"
 msgstr "Mearachd ath-chluich: %s"
@@ -235,6 +273,9 @@ msgstr "ÙRACHADH"
 
 msgid "Refresh"
 msgstr "Ùraich"
+
+msgid "Remove"
+msgstr "Thoir air falbh"
 
 msgid "Retry"
 msgstr "Feuch a-rithist"
@@ -285,6 +326,9 @@ msgstr "Cha deach URL an t-sreath a lorg"
 msgid "Series URL not found."
 msgstr "Cha deach URL an t-sreath a lorg."
 
+msgid "Start/Pause"
+msgstr "Tòisich/stad"
+
 msgid "TMDB API key not found"
 msgstr "Cha deach iuchair API TMDB a lorg"
 
@@ -306,6 +350,9 @@ msgstr "Ùine airson iarrtasan rannsachaidh (diogan)"
 
 msgid "Title"
 msgstr "Tiotal"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Iomlan: {} | Gnìomhach: {} | Pasgan: {}"
 
 msgid "Type: %s"
 msgstr "Seòrsa: %s"

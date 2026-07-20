@@ -64,11 +64,23 @@ msgstr "Kortfel"
 msgid "Cards updated"
 msgstr "Kort uppdaterade"
 
+msgid "Change Folder"
+msgstr "Byt mapp"
+
+msgid "Choose download folder"
+msgstr "Välj nedladdningsmapp"
+
+msgid "Clear Done"
+msgstr "Rensa Klart"
+
 msgid "Code:"
 msgstr "Koda:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Avslutad"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Innehåll från Altadefinizione - Tryck på OK för att öppna..."
@@ -84,6 +96,13 @@ msgstr "Detaljer för: '%s'"
 
 msgid "Details not available"
 msgstr "Detaljer inte tillgängliga"
+
+msgid "Download Queue"
+msgstr "Ladda ner kö"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "belastning"
 
 msgid "ENTER"
 msgstr "SKRIVA IN"
@@ -115,6 +134,10 @@ msgstr "Avsnitt"
 msgid "Episodes:"
 msgstr "Avsnitt:"
 
+#, fuzzy
+msgid "Error"
+msgstr "fel"
+
 msgid "Error loading CB01 series"
 msgstr "Fel vid laddning av CB01-serien"
 
@@ -144,6 +167,9 @@ msgstr "GRUPPER"
 
 msgid "History"
 msgstr "Historia"
+
+msgid "Invalid folder!"
+msgstr "Ogiltig mapp!"
 
 msgid "Invalid streaming URL"
 msgstr "Ogiltig webbadress för streaming"
@@ -191,6 +217,9 @@ msgstr "Inget innehåll"
 msgid "No content selected"
 msgstr "Inget innehåll valt"
 
+msgid "No downloads in queue"
+msgstr "Inga nedladdningar i kö"
+
 msgid "No episodes available"
 msgstr "Inga avsnitt tillgängliga"
 
@@ -209,11 +238,20 @@ msgstr "Inga strömmande länkar hittades"
 msgid "No streaming links found."
 msgstr "Inga strömmande länkar hittades"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Välj | RÖD = Ta bort | GRÖN = Start/Paus | BLÅ = Byt mapp"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV-serie"
 
 msgid "PLAY"
 msgstr "SPELA"
+
+msgid "Paused"
+msgstr "Pausad"
+
+msgid "Pending"
+msgstr "I avvaktan på"
 
 msgid "Playback error: %s"
 msgstr "Uppspelningsfel: %s"
@@ -235,6 +273,9 @@ msgstr "UPPDATERA"
 
 msgid "Refresh"
 msgstr "Uppdatera"
+
+msgid "Remove"
+msgstr "Ta bort"
 
 msgid "Retry"
 msgstr "Försöka igen"
@@ -285,6 +326,9 @@ msgstr "Seriens URL hittades inte"
 msgid "Series URL not found."
 msgstr "Seriens URL hittades inte."
 
+msgid "Start/Pause"
+msgstr "Starta/Pausa"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API-nyckel hittades inte"
 
@@ -306,6 +350,9 @@ msgstr "Timeout för sökförfrågningar (sekunder)"
 
 msgid "Title"
 msgstr "Titel"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Totalt: {} | Aktiv: {} | Mapp: {}"
 
 msgid "Type: %s"
 msgstr "Typ: %s"

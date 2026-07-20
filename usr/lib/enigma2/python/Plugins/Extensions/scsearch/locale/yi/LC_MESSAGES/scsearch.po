@@ -64,11 +64,23 @@ msgstr "קאָרט טעות"
 msgid "Cards updated"
 msgstr "קאַרדס דערהייַנטיקט"
 
+msgid "Change Folder"
+msgstr "טוישן פאָלדער"
+
+msgid "Choose download folder"
+msgstr "קלייַבן אראפקאפיע טעקע"
+
+msgid "Clear Done"
+msgstr "קלאָר דאַן"
+
 msgid "Code:"
 msgstr "קאָד:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "קאָד: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "געענדיקט"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "אינהאַלט פֿון אַלטאַדעפיזיאָנע - דרוק OK צו עפֿענען ..."
@@ -84,6 +96,13 @@ msgstr "דעטאַילס פֿאַר: '%s'"
 
 msgid "Details not available"
 msgstr "דעטאַילס ניט בנימצא"
+
+msgid "Download Queue"
+msgstr "אראפקאפיע ריי"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "loading"
 
 msgid "ENTER"
 msgstr "אַרייַן"
@@ -115,6 +134,10 @@ msgstr "עפּיסאָדעס"
 msgid "Episodes:"
 msgstr "עפּיזאָדן:"
 
+#, fuzzy
+msgid "Error"
+msgstr "טעות"
+
 msgid "Error loading CB01 series"
 msgstr "טעות לאָודינג CB01 סעריע"
 
@@ -144,6 +167,9 @@ msgstr "גרופּעס"
 
 msgid "History"
 msgstr "געשיכטע"
+
+msgid "Invalid folder!"
+msgstr "אומגילטיק טעקע!"
 
 msgid "Invalid streaming URL"
 msgstr "אומגילטיק סטרימינג URL"
@@ -191,6 +217,9 @@ msgstr "קיין אינהאַלט"
 msgid "No content selected"
 msgstr "קיין אינהאַלט אויסגעקליבן"
 
+msgid "No downloads in queue"
+msgstr "קיין דאַונלאָודז אין ריי"
+
 msgid "No episodes available"
 msgstr "קיין עפּיסאָודז בנימצא"
 
@@ -209,11 +238,20 @@ msgstr "קיין סטרימינג לינקס געפונען"
 msgid "No streaming links found."
 msgstr "קיין סטרימינג לינקס געפונען"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = אויסקלייַבן | רויט = אַראָפּנעמען | גרין = אָנהייב / פּויזע | BLUE = טוישן פאָלדער"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - טעלעוויזיע סעריע"
 
 msgid "PLAY"
 msgstr "שפּיל"
+
+msgid "Paused"
+msgstr "פּאַוזד"
+
+msgid "Pending"
+msgstr "פּענדינג"
 
 msgid "Playback error: %s"
 msgstr "פּלייבאַק טעות: %s"
@@ -235,6 +273,9 @@ msgstr "REFRESH"
 
 msgid "Refresh"
 msgstr "דערפרישן"
+
+msgid "Remove"
+msgstr "אַראָפּנעמען"
 
 msgid "Retry"
 msgstr "פרובירט ווידער"
@@ -285,6 +326,9 @@ msgstr "סעריע URL ניט געפֿונען"
 msgid "Series URL not found."
 msgstr "סעריע URL ניט געפֿונען."
 
+msgid "Start/Pause"
+msgstr "אָנהייב / פּויזע"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API שליסל ניט געפֿונען"
 
@@ -306,6 +350,9 @@ msgstr "צייט פֿאַר זוכן ריקוועס (סעקונדן)"
 
 msgid "Title"
 msgstr "טיטל"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "גאַנץ: {} | אַקטיוו: {} | טעקע: {}"
 
 msgid "Type: %s"
 msgstr "טיפּ: %s"

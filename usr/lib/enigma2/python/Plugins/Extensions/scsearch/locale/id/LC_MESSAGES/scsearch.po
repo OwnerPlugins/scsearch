@@ -64,11 +64,23 @@ msgstr "Kesalahan kartu"
 msgid "Cards updated"
 msgstr "Kartu diperbarui"
 
+msgid "Change Folder"
+msgstr "Ganti Folder"
+
+msgid "Choose download folder"
+msgstr "Pilih folder unduhan"
+
+msgid "Clear Done"
+msgstr "Selesai Selesai"
+
 msgid "Code:"
 msgstr "Kode:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kode: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Selesai"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Konten dari Altadefinizione - Tekan OK untuk membuka..."
@@ -84,6 +96,13 @@ msgstr "Detail untuk: '%s'"
 
 msgid "Details not available"
 msgstr "Detail tidak tersedia"
+
+msgid "Download Queue"
+msgstr "Unduh Antrian"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "memuat"
 
 msgid "ENTER"
 msgstr "MEMASUKI"
@@ -115,6 +134,10 @@ msgstr "Episode"
 msgid "Episodes:"
 msgstr "Episode:"
 
+#, fuzzy
+msgid "Error"
+msgstr "kesalahan"
+
 msgid "Error loading CB01 series"
 msgstr "Terjadi kesalahan saat memuat seri CB01"
 
@@ -144,6 +167,9 @@ msgstr "KELOMPOK"
 
 msgid "History"
 msgstr "Sejarah"
+
+msgid "Invalid folder!"
+msgstr "Folder tidak valid!"
 
 msgid "Invalid streaming URL"
 msgstr "URL streaming tidak valid"
@@ -191,6 +217,9 @@ msgstr "Tidak ada konten"
 msgid "No content selected"
 msgstr "Tidak ada konten yang dipilih"
 
+msgid "No downloads in queue"
+msgstr "Tidak ada unduhan dalam antrian"
+
 msgid "No episodes available"
 msgstr "Tidak ada episode yang tersedia"
 
@@ -209,11 +238,20 @@ msgstr "Tidak ada tautan streaming yang ditemukan"
 msgid "No streaming links found."
 msgstr "Tidak ada tautan streaming yang ditemukan"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Oke = Pilih | MERAH = Hapus | HIJAU = Mulai/Jeda | BIRU = Ganti Folder"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serial TV"
 
 msgid "PLAY"
 msgstr "BERMAIN"
+
+msgid "Paused"
+msgstr "Dijeda"
+
+msgid "Pending"
+msgstr "Tertunda"
 
 msgid "Playback error: %s"
 msgstr "Kesalahan pemutaran: %s"
@@ -235,6 +273,9 @@ msgstr "MENYEGARKAN"
 
 msgid "Refresh"
 msgstr "Menyegarkan"
+
+msgid "Remove"
+msgstr "Menghapus"
 
 msgid "Retry"
 msgstr "Mencoba kembali"
@@ -285,6 +326,9 @@ msgstr "URL seri tidak ditemukan"
 msgid "Series URL not found."
 msgstr "URL seri tidak ditemukan."
 
+msgid "Start/Pause"
+msgstr "Mulai/Jeda"
+
 msgid "TMDB API key not found"
 msgstr "Kunci API TMDB tidak ditemukan"
 
@@ -306,6 +350,9 @@ msgstr "Batas waktu untuk permintaan pencarian (detik)"
 
 msgid "Title"
 msgstr "Judul"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Jumlah: {} | Aktif: {} | Map: {}"
 
 msgid "Type: %s"
 msgstr "Jenis: %s"

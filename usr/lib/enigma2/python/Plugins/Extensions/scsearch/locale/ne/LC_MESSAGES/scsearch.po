@@ -64,11 +64,23 @@ msgstr "कार्ड त्रुटि"
 msgid "Cards updated"
 msgstr "कार्डहरू अद्यावधिक गरियो"
 
+msgid "Change Folder"
+msgstr "फोल्डर परिवर्तन गर्नुहोस्"
+
+msgid "Choose download folder"
+msgstr "डाउनलोड फोल्डर छान्नुहोस्"
+
+msgid "Clear Done"
+msgstr "खाली गर्नुहोस्"
+
 msgid "Code:"
 msgstr "कोड:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "कोड: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "पूरा भयो"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione बाट सामग्री - खोल्न ठीक थिच्नुहोस्..."
@@ -84,6 +96,13 @@ msgstr "का लागि विवरण: '%s'"
 
 msgid "Details not available"
 msgstr "विवरण उपलब्ध छैन"
+
+msgid "Download Queue"
+msgstr "लाम डाउनलोड गर्नुहोस्"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "लोड गर्दै"
 
 msgid "ENTER"
 msgstr "प्रविष्ट गर्नुहोस्"
@@ -115,6 +134,10 @@ msgstr "एपिसोडहरू"
 msgid "Episodes:"
 msgstr "एपिसोडहरू:"
 
+#, fuzzy
+msgid "Error"
+msgstr "त्रुटि"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 श्रृंखला लोड गर्दा त्रुटि"
 
@@ -144,6 +167,9 @@ msgstr "समूहहरू"
 
 msgid "History"
 msgstr "इतिहास"
+
+msgid "Invalid folder!"
+msgstr "अमान्य फोल्डर!"
 
 msgid "Invalid streaming URL"
 msgstr "अमान्य स्ट्रिमिङ URL"
@@ -191,6 +217,9 @@ msgstr "कुनै सामग्री छैन"
 msgid "No content selected"
 msgstr "कुनै सामग्री चयन गरिएको छैन"
 
+msgid "No downloads in queue"
+msgstr "कतारमा कुनै डाउनलोडहरू छैनन्"
+
 msgid "No episodes available"
 msgstr "कुनै एपिसोडहरू उपलब्ध छैनन्"
 
@@ -209,11 +238,20 @@ msgstr "कुनै स्ट्रिमिङ लिङ्कहरू फे
 msgid "No streaming links found."
 msgstr "कुनै स्ट्रिमिङ लिङ्कहरू फेला परेन"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "ठीक छ = चयन गर्नुहोस् | RED = हटाउनुहोस् | हरियो = सुरु/पज | नीलो = फोल्डर परिवर्तन गर्नुहोस्"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - टिभी श्रृंखला"
 
 msgid "PLAY"
 msgstr "खेल्नुहोस्"
+
+msgid "Paused"
+msgstr "रोकियो"
+
+msgid "Pending"
+msgstr "विचाराधीन"
 
 msgid "Playback error: %s"
 msgstr "प्लेब्याक त्रुटि: %s"
@@ -235,6 +273,9 @@ msgstr "रिफ्रेस गर्नुहोस्"
 
 msgid "Refresh"
 msgstr "रिफ्रेस गर्नुहोस्"
+
+msgid "Remove"
+msgstr "हटाउनुहोस्"
 
 msgid "Retry"
 msgstr "पुन: प्रयास गर्नुहोस्"
@@ -285,6 +326,9 @@ msgstr "शृङ्खला URL फेला परेन"
 msgid "Series URL not found."
 msgstr "शृङ्खला URL फेला परेन।"
 
+msgid "Start/Pause"
+msgstr "सुरु/पज गर्नुहोस्"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API कुञ्जी फेला परेन"
 
@@ -306,6 +350,9 @@ msgstr "खोज अनुरोधहरूको लागि टाइमआ
 
 msgid "Title"
 msgstr "शीर्षक"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "कुल: {} | सक्रिय: {} | फोल्डर: {}"
 
 msgid "Type: %s"
 msgstr "प्रकार: %s"

@@ -64,11 +64,23 @@ msgstr "Napaka kartice"
 msgid "Cards updated"
 msgstr "Kartice posodobljene"
 
+msgid "Change Folder"
+msgstr "Spremeni mapo"
+
+msgid "Choose download folder"
+msgstr "Izberite mapo za prenos"
+
+msgid "Clear Done"
+msgstr "Počisti Končano"
+
 msgid "Code:"
 msgstr "Koda:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Koda: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Dokončano"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Vsebina iz Altadefinizione - Pritisnite OK, da odprete ..."
@@ -84,6 +96,13 @@ msgstr "Podrobnosti za: '%s'"
 
 msgid "Details not available"
 msgstr "Podrobnosti niso na voljo"
+
+msgid "Download Queue"
+msgstr "Čakalna vrsta za prenos"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "nalaganje"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizode"
 msgid "Episodes:"
 msgstr "Epizode:"
 
+#, fuzzy
+msgid "Error"
+msgstr "napaka"
+
 msgid "Error loading CB01 series"
 msgstr "Napaka pri nalaganju serije CB01"
 
@@ -144,6 +167,9 @@ msgstr "SKUPINE"
 
 msgid "History"
 msgstr "Zgodovina"
+
+msgid "Invalid folder!"
+msgstr "Neveljavna mapa!"
 
 msgid "Invalid streaming URL"
 msgstr "Neveljaven URL za pretakanje"
@@ -191,6 +217,9 @@ msgstr "Brez vsebine"
 msgid "No content selected"
 msgstr "Izbrana ni nobena vsebina"
 
+msgid "No downloads in queue"
+msgstr "Ni prenosov v čakalni vrsti"
+
 msgid "No episodes available"
 msgstr "Na voljo ni nobena epizoda"
 
@@ -209,11 +238,20 @@ msgstr "Ni povezav za pretakanje"
 msgid "No streaming links found."
 msgstr "Ni povezav za pretakanje"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Izberite | RDEČA = Odstrani | ZELENA = Začetek/Premor | MODRA = Spremeni mapo"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV serija"
 
 msgid "PLAY"
 msgstr "IGRAJ"
+
+msgid "Paused"
+msgstr "Zaustavljeno"
+
+msgid "Pending"
+msgstr "V teku"
 
 msgid "Playback error: %s"
 msgstr "Napaka pri predvajanju: %s"
@@ -235,6 +273,9 @@ msgstr "OSVEŽI"
 
 msgid "Refresh"
 msgstr "Osveži"
+
+msgid "Remove"
+msgstr "Odstrani"
 
 msgid "Retry"
 msgstr "Poskusite znova"
@@ -285,6 +326,9 @@ msgstr "URL-ja serije ni bilo mogoče najti"
 msgid "Series URL not found."
 msgstr "URL-ja serije ni bilo mogoče najti."
 
+msgid "Start/Pause"
+msgstr "Začetek/pavza"
+
 msgid "TMDB API key not found"
 msgstr "Ključa TMDB API ni bilo mogoče najti"
 
@@ -306,6 +350,9 @@ msgstr "Časovna omejitev za iskalne zahteve (sekunde)"
 
 msgid "Title"
 msgstr "Naslov"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Skupaj: {} | Aktivno: {} | Mapa: {}"
 
 msgid "Type: %s"
 msgstr "Vrsta: %s"

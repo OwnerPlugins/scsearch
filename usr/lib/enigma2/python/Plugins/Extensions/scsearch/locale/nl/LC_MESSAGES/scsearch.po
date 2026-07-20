@@ -64,11 +64,23 @@ msgstr "Kaartfout"
 msgid "Cards updated"
 msgstr "Kaarten bijgewerkt"
 
+msgid "Change Folder"
+msgstr "Wijzig map"
+
+msgid "Choose download folder"
+msgstr "Kies de downloadmap"
+
+msgid "Clear Done"
+msgstr "Wissen Klaar"
+
 msgid "Code:"
 msgstr "Code:"
 
 msgid "Code: {self.captcha_code}"
 msgstr ""
+
+msgid "Completed"
+msgstr "Voltooid"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Inhoud van Altadefinizione - Druk op OK om te openen..."
@@ -84,6 +96,13 @@ msgstr "Details voor: '%s'"
 
 msgid "Details not available"
 msgstr "Details niet beschikbaar"
+
+msgid "Download Queue"
+msgstr "Downloadwachtrij"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "laden"
 
 msgid "ENTER"
 msgstr "BINNENKOMEN"
@@ -115,6 +134,10 @@ msgstr "Afleveringen"
 msgid "Episodes:"
 msgstr "Afleveringen:"
 
+#, fuzzy
+msgid "Error"
+msgstr "fout"
+
 msgid "Error loading CB01 series"
 msgstr "Fout bij het laden van de CB01-serie"
 
@@ -144,6 +167,9 @@ msgstr "GROEPEN"
 
 msgid "History"
 msgstr "Geschiedenis"
+
+msgid "Invalid folder!"
+msgstr "Ongeldige map!"
 
 msgid "Invalid streaming URL"
 msgstr "Ongeldige streaming-URL"
@@ -191,6 +217,9 @@ msgstr "Geen inhoud"
 msgid "No content selected"
 msgstr "Geen inhoud geselecteerd"
 
+msgid "No downloads in queue"
+msgstr "Geen downloads in de wachtrij"
+
 msgid "No episodes available"
 msgstr "Geen afleveringen beschikbaar"
 
@@ -209,11 +238,20 @@ msgstr "Geen streaminglinks gevonden"
 msgid "No streaming links found."
 msgstr "Geen streaminglinks gevonden"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Selecteer | ROOD = Verwijderen | GROEN = Start/Pauze | BLAUW = Map wijzigen"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - tv-serie"
 
 msgid "PLAY"
 msgstr "TONEELSTUK"
+
+msgid "Paused"
+msgstr "Gepauzeerd"
+
+msgid "Pending"
+msgstr "In behandeling"
 
 msgid "Playback error: %s"
 msgstr "Afspeelfout: %s"
@@ -235,6 +273,9 @@ msgstr "VERFRISSEN"
 
 msgid "Refresh"
 msgstr "Vernieuwen"
+
+msgid "Remove"
+msgstr "Verwijderen"
 
 msgid "Retry"
 msgstr "Opnieuw proberen"
@@ -285,6 +326,9 @@ msgstr "Serie-URL niet gevonden"
 msgid "Series URL not found."
 msgstr "Serie-URL niet gevonden."
 
+msgid "Start/Pause"
+msgstr "Start/Pauze"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API-sleutel niet gevonden"
 
@@ -306,6 +350,9 @@ msgstr "Time-out voor zoekverzoeken (seconden)"
 
 msgid "Title"
 msgstr "Titel"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Totaal: {} | Actief: {} | Map: {}"
 
 msgid "Type: %s"
 msgstr "Type: %s"

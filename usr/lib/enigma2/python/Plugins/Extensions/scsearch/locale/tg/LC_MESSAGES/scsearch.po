@@ -64,11 +64,23 @@ msgstr "Хатогии корт"
 msgid "Cards updated"
 msgstr "Кортҳо нав карда шуданд"
 
+msgid "Change Folder"
+msgstr "Папкаро иваз кунед"
+
+msgid "Choose download folder"
+msgstr "Папкаи зеркашӣ интихоб кунед"
+
+msgid "Clear Done"
+msgstr "Тоза анҷом дод"
+
 msgid "Code:"
 msgstr "Рамз:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Рамз: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Ба итмом расид"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Мундариҷа аз Altadefinizione - Барои кушодан OK-ро пахш кунед..."
@@ -84,6 +96,13 @@ msgstr "Тафсилот барои: '%s'"
 
 msgid "Details not available"
 msgstr "Тафсилот дастрас нест"
+
+msgid "Download Queue"
+msgstr "Навбатро зеркашӣ кунед"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "бор кардан"
 
 msgid "ENTER"
 msgstr "ВОРИД"
@@ -115,6 +134,10 @@ msgstr "Эпизодҳо"
 msgid "Episodes:"
 msgstr "Эпизодҳо:"
 
+#, fuzzy
+msgid "Error"
+msgstr "хато"
+
 msgid "Error loading CB01 series"
 msgstr "Хатогии боркунии силсилаи CB01"
 
@@ -144,6 +167,9 @@ msgstr "ГУРУХХО"
 
 msgid "History"
 msgstr "Таърих"
+
+msgid "Invalid folder!"
+msgstr "Папкаи нодуруст!"
 
 msgid "Invalid streaming URL"
 msgstr "URL-и ҷараён нодуруст"
@@ -191,6 +217,9 @@ msgstr "Мазмуни нест"
 msgid "No content selected"
 msgstr "Ягон мундариҷа интихоб нашудааст"
 
+msgid "No downloads in queue"
+msgstr "Не зеркашиҳо дар навбат нест"
+
 msgid "No episodes available"
 msgstr "Ягон эпизод дастрас нест"
 
@@ -209,11 +238,20 @@ msgstr "Истиноди ҷараён ёфт нашуд"
 msgid "No streaming links found."
 msgstr "Истиноди ҷараён ёфт нашуд"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Хуб = Интихоб | RED = Хориҷ | САБЗ = Оғоз/Таваққуф | BLUE = Иваз кардани ҷузвдон"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Силсилаи телевизионӣ"
 
 msgid "PLAY"
 msgstr "БОЗӢ"
+
+msgid "Paused"
+msgstr "Таваққуф карда шуд"
+
+msgid "Pending"
+msgstr "Дар интизорӣ"
 
 msgid "Playback error: %s"
 msgstr "Хатогии навозиш: %s"
@@ -235,6 +273,9 @@ msgstr "ТАРОВА КУНЕД"
 
 msgid "Refresh"
 msgstr "Навсозӣ"
+
+msgid "Remove"
+msgstr "Хориҷ кунед"
 
 msgid "Retry"
 msgstr "Аз нав кӯшиш кунед"
@@ -285,6 +326,9 @@ msgstr "URL-и силсила ёфт нашуд"
 msgid "Series URL not found."
 msgstr "URL-и силсила ёфт нашуд."
 
+msgid "Start/Pause"
+msgstr "Оғоз/Таваққуф"
+
 msgid "TMDB API key not found"
 msgstr "Калиди TMDB API ёфт нашуд"
 
@@ -306,6 +350,9 @@ msgstr "Вақт барои дархостҳои ҷустуҷӯ (сония)"
 
 msgid "Title"
 msgstr "Унвон"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Ҳамагӣ: {} | Фаъол: {} | Папка: {}"
 
 msgid "Type: %s"
 msgstr "Навъи: %s"

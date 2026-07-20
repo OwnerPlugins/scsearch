@@ -64,11 +64,23 @@ msgstr "Kartes kļūda"
 msgid "Cards updated"
 msgstr "Kartes atjauninātas"
 
+msgid "Change Folder"
+msgstr "Mainīt mapi"
+
+msgid "Choose download folder"
+msgstr "Izvēlieties lejupielādes mapi"
+
+msgid "Clear Done"
+msgstr "Notīrīt Gatavs"
+
 msgid "Code:"
 msgstr "Kods:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kods: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Pabeigts"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Saturs no Altadefinizione — nospiediet OK, lai atvērtu..."
@@ -84,6 +96,13 @@ msgstr "Sīkāka informācija par: '%s'"
 
 msgid "Details not available"
 msgstr "Sīkāka informācija nav pieejama"
+
+msgid "Download Queue"
+msgstr "Lejupielādes rinda"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "iekraušana"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizodes"
 msgid "Episodes:"
 msgstr "Epizodes:"
 
+#, fuzzy
+msgid "Error"
+msgstr "kļūda"
+
 msgid "Error loading CB01 series"
 msgstr "Ielādējot CB01 sēriju, radās kļūda"
 
@@ -144,6 +167,9 @@ msgstr "GRUPAS"
 
 msgid "History"
 msgstr "Vēsture"
+
+msgid "Invalid folder!"
+msgstr "Nederīga mape!"
 
 msgid "Invalid streaming URL"
 msgstr "Nederīgs straumēšanas URL"
@@ -191,6 +217,9 @@ msgstr "Nav satura"
 msgid "No content selected"
 msgstr "Nav atlasīts neviens saturs"
 
+msgid "No downloads in queue"
+msgstr "Rindā nav nevienas lejupielādes"
+
 msgid "No episodes available"
 msgstr "Nav pieejama neviena sērija"
 
@@ -209,11 +238,20 @@ msgstr "Straumēšanas saites nav atrastas"
 msgid "No streaming links found."
 msgstr "Straumēšanas saites nav atrastas"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Atlasīt | SARKANS = Noņemt | ZAĻS = Sākt/Pauze | ZILS = Mainīt mapi"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV — TV seriāls"
 
 msgid "PLAY"
 msgstr "SPĒLĒT"
+
+msgid "Paused"
+msgstr "Pauzēts"
+
+msgid "Pending"
+msgstr "Gaida"
 
 msgid "Playback error: %s"
 msgstr "Atskaņošanas kļūda: %s"
@@ -235,6 +273,9 @@ msgstr "ATSVAIDZINĀT"
 
 msgid "Refresh"
 msgstr "Atsvaidzināt"
+
+msgid "Remove"
+msgstr "Noņemt"
 
 msgid "Retry"
 msgstr "Mēģiniet vēlreiz"
@@ -285,6 +326,9 @@ msgstr "Sērijas URL nav atrasts"
 msgid "Series URL not found."
 msgstr "Sērijas URL nav atrasts."
 
+msgid "Start/Pause"
+msgstr "Sākt/Pauze"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API atslēga nav atrasta"
 
@@ -306,6 +350,9 @@ msgstr "Meklēšanas pieprasījumu noildze (sekundēs)"
 
 msgid "Title"
 msgstr "Nosaukums"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Kopā: {} | Aktīvs: {} | Mape: {}"
 
 msgid "Type: %s"
 msgstr "Veids: %s"

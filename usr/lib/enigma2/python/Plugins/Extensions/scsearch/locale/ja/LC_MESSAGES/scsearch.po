@@ -64,11 +64,23 @@ msgstr "カードエラー"
 msgid "Cards updated"
 msgstr "カードが更新されました"
 
+msgid "Change Folder"
+msgstr "フォルダーの変更"
+
+msgid "Choose download folder"
+msgstr "ダウンロードフォルダーを選択してください"
+
+msgid "Clear Done"
+msgstr "クリア完了"
+
 msgid "Code:"
 msgstr "コード："
 
 msgid "Code: {self.captcha_code}"
 msgstr "コード: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "完了しました"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione のコンテンツ - [OK] を押して開きます..."
@@ -84,6 +96,13 @@ msgstr "詳細: '%s'"
 
 msgid "Details not available"
 msgstr "詳細は不明"
+
+msgid "Download Queue"
+msgstr "ダウンロードキュー"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "読み込み中"
 
 msgid "ENTER"
 msgstr "入力"
@@ -115,6 +134,10 @@ msgstr "エピソード"
 msgid "Episodes:"
 msgstr "エピソード:"
 
+#, fuzzy
+msgid "Error"
+msgstr "エラー"
+
 msgid "Error loading CB01 series"
 msgstr "CB01シリーズの読み込みエラー"
 
@@ -144,6 +167,9 @@ msgstr "グループ"
 
 msgid "History"
 msgstr "歴史"
+
+msgid "Invalid folder!"
+msgstr "フォルダが無効です!"
 
 msgid "Invalid streaming URL"
 msgstr "無効なストリーミング URL"
@@ -191,6 +217,9 @@ msgstr "コンテンツなし"
 msgid "No content selected"
 msgstr "コンテンツが選択されていません"
 
+msgid "No downloads in queue"
+msgstr "キューにダウンロードはありません"
+
 msgid "No episodes available"
 msgstr "利用できるエピソードはありません"
 
@@ -209,11 +238,20 @@ msgstr "ストリーミング リンクが見つかりません"
 msgid "No streaming links found."
 msgstr "ストリーミング リンクが見つかりません"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = 選択 | 赤 = 削除 | 緑 = 開始/一時停止 | 青 = フォルダーを変更"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "オンラインSerieTV - テレビシリーズ"
 
 msgid "PLAY"
 msgstr "遊ぶ"
+
+msgid "Paused"
+msgstr "一時停止中"
+
+msgid "Pending"
+msgstr "保留中"
 
 msgid "Playback error: %s"
 msgstr "再生エラー: %s"
@@ -235,6 +273,9 @@ msgstr "リフレッシュ"
 
 msgid "Refresh"
 msgstr "リフレッシュ"
+
+msgid "Remove"
+msgstr "取り除く"
 
 msgid "Retry"
 msgstr "リトライ"
@@ -285,6 +326,9 @@ msgstr "シリーズの URL が見つかりません"
 msgid "Series URL not found."
 msgstr "シリーズの URL が見つかりません。"
 
+msgid "Start/Pause"
+msgstr "開始/一時停止"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API キーが見つかりません"
 
@@ -306,6 +350,9 @@ msgstr "検索リクエストのタイムアウト (秒)"
 
 msgid "Title"
 msgstr "タイトル"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "合計: {} | アクティブ: {} | フォルダー: {}"
 
 msgid "Type: %s"
 msgstr "種類"

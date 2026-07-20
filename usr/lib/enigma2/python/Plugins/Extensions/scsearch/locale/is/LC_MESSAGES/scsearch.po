@@ -64,11 +64,23 @@ msgstr "Kortavilla"
 msgid "Cards updated"
 msgstr "Kort uppfært"
 
+msgid "Change Folder"
+msgstr "Skipta um möppu"
+
+msgid "Choose download folder"
+msgstr "Veldu niðurhalsmöppu"
+
+msgid "Clear Done"
+msgstr "Hreinsa Lokið"
+
 msgid "Code:"
 msgstr "Kóði:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kóði: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Lokið"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Efni frá Altadefinizione - Ýttu á OK til að opna..."
@@ -84,6 +96,13 @@ msgstr "Upplýsingar um: '%s'"
 
 msgid "Details not available"
 msgstr "Upplýsingar ekki tiltækar"
+
+msgid "Download Queue"
+msgstr "Sækja biðröð"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "hleðsla"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Þættir"
 msgid "Episodes:"
 msgstr "Þættir:"
 
+#, fuzzy
+msgid "Error"
+msgstr "villa"
+
 msgid "Error loading CB01 series"
 msgstr "Villa við að hlaða CB01 röð"
 
@@ -144,6 +167,9 @@ msgstr "HÓPAR"
 
 msgid "History"
 msgstr "Saga"
+
+msgid "Invalid folder!"
+msgstr "Ógild mappa!"
 
 msgid "Invalid streaming URL"
 msgstr "Ógild straumslóð"
@@ -191,6 +217,9 @@ msgstr "Ekkert efni"
 msgid "No content selected"
 msgstr "Ekkert efni valið"
 
+msgid "No downloads in queue"
+msgstr "Ekkert niðurhal í biðröð"
+
 msgid "No episodes available"
 msgstr "Engir þættir í boði"
 
@@ -209,11 +238,20 @@ msgstr "Engir streymistenglar fundust"
 msgid "No streaming links found."
 msgstr "Engir streymistenglar fundust"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Veldu | RAUTT = Fjarlægja | GRÆNT = Byrja/Hlé | BLÁR = Skipta um möppu"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - sjónvarpsþættir"
 
 msgid "PLAY"
 msgstr "SPILA"
+
+msgid "Paused"
+msgstr "Gert hlé"
+
+msgid "Pending"
+msgstr "Í bið"
 
 msgid "Playback error: %s"
 msgstr "Spilunarvilla: %s"
@@ -235,6 +273,9 @@ msgstr "UPPFÆRSLA"
 
 msgid "Refresh"
 msgstr "Endurnýja"
+
+msgid "Remove"
+msgstr "Fjarlægja"
 
 msgid "Retry"
 msgstr "Reyndu aftur"
@@ -285,6 +326,9 @@ msgstr "Slóð seríunnar fannst ekki"
 msgid "Series URL not found."
 msgstr "Slóð seríunnar fannst ekki."
 
+msgid "Start/Pause"
+msgstr "Byrja / gera hlé"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API lykill fannst ekki"
 
@@ -306,6 +350,9 @@ msgstr "Tímamörk fyrir leitarbeiðnir (sekúndur)"
 
 msgid "Title"
 msgstr "Titill"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Samtals: {} | Virkur: {} | Mappa: {}"
 
 msgid "Type: %s"
 msgstr "Tegund: %s"

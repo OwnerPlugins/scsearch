@@ -64,11 +64,23 @@ msgstr "Karta xatosi"
 msgid "Cards updated"
 msgstr "Kartalar yangilandi"
 
+msgid "Change Folder"
+msgstr "Jildni o'zgartirish"
+
+msgid "Choose download folder"
+msgstr "Yuklab olish papkasini tanlang"
+
+msgid "Clear Done"
+msgstr "Tozalash Bajarildi"
+
 msgid "Code:"
 msgstr "Kod:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kod: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Bajarildi"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione tarkibi - Ochish uchun OK tugmasini bosing..."
@@ -84,6 +96,13 @@ msgstr "Tafsilotlar: '%s'"
 
 msgid "Details not available"
 msgstr "Tafsilotlar mavjud emas"
+
+msgid "Download Queue"
+msgstr "Yuklab olish navbati"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "yuklash"
 
 msgid "ENTER"
 msgstr "KIRISH"
@@ -115,6 +134,10 @@ msgstr "Epizodlar"
 msgid "Episodes:"
 msgstr "Epizodlar:"
 
+#, fuzzy
+msgid "Error"
+msgstr "xato"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 seriyasini yuklashda xatolik yuz berdi"
 
@@ -144,6 +167,9 @@ msgstr "GURUHLAR"
 
 msgid "History"
 msgstr "Tarix"
+
+msgid "Invalid folder!"
+msgstr "Yaroqsiz jild!"
 
 msgid "Invalid streaming URL"
 msgstr "Yaroqsiz oqim URL"
@@ -191,6 +217,9 @@ msgstr "Kontent yo'q"
 msgid "No content selected"
 msgstr "Hech qanday kontent tanlanmagan"
 
+msgid "No downloads in queue"
+msgstr "Navbatda yuklab olishlar yoʻq"
+
 msgid "No episodes available"
 msgstr "Hech qanday epizod mavjud emas"
 
@@ -209,11 +238,20 @@ msgstr "Oqimli havolalar topilmadi"
 msgid "No streaming links found."
 msgstr "Oqimli havolalar topilmadi"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = | ni tanlang RED = O'chirish | YASIL = Boshlash/Toʻxtatib turish | KO'K = Jildni o'zgartirish"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Seriallar"
 
 msgid "PLAY"
 msgstr "O‘YNA"
+
+msgid "Paused"
+msgstr "Pauza qilingan"
+
+msgid "Pending"
+msgstr "Kutilmoqda"
 
 msgid "Playback error: %s"
 msgstr "Ijro xatosi: %s"
@@ -235,6 +273,9 @@ msgstr "YANGILASH"
 
 msgid "Refresh"
 msgstr "Yangilash"
+
+msgid "Remove"
+msgstr "O'chirish"
 
 msgid "Retry"
 msgstr "Qayta urinish"
@@ -285,6 +326,9 @@ msgstr "Seriya URL manzili topilmadi"
 msgid "Series URL not found."
 msgstr "Seriya URL manzili topilmadi."
 
+msgid "Start/Pause"
+msgstr "Boshlash/To‘xtatib turish"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API kaliti topilmadi"
 
@@ -306,6 +350,9 @@ msgstr "Qidiruv soʻrovlari uchun vaqt tugashi (soniya)"
 
 msgid "Title"
 msgstr "Sarlavha"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Jami: {} | Faol: {} | Jild: {}"
 
 msgid "Type: %s"
 msgstr "Turi: %s"

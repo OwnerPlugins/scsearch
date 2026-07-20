@@ -64,11 +64,23 @@ msgstr "د کارت تېروتنه"
 msgid "Cards updated"
 msgstr "کارتونه تازه شول"
 
+msgid "Change Folder"
+msgstr "فولډر بدل کړئ"
+
+msgid "Choose download folder"
+msgstr "د ډاونلوډ فولډر غوره کړئ"
+
+msgid "Clear Done"
+msgstr "پاک شوی"
+
 msgid "Code:"
 msgstr "کوډ:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "کوډ: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "بشپړ شو"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "د Altadefinizione منځپانګه - د خلاصولو لپاره OK فشار ورکړئ ..."
@@ -84,6 +96,13 @@ msgstr "د دې لپاره توضیحات: '%s'"
 
 msgid "Details not available"
 msgstr "جزئیات نشته"
+
+msgid "Download Queue"
+msgstr "کتار ډاونلوډ کړئ"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "بار کول"
 
 msgid "ENTER"
 msgstr "ننوتل"
@@ -115,6 +134,10 @@ msgstr "قسطونه"
 msgid "Episodes:"
 msgstr "قسطونه:"
 
+#, fuzzy
+msgid "Error"
+msgstr "تېروتنه"
+
 msgid "Error loading CB01 series"
 msgstr "د CB01 لړۍ بارولو کې تېروتنه"
 
@@ -144,6 +167,9 @@ msgstr "ګروپونه"
 
 msgid "History"
 msgstr "تاریخ"
+
+msgid "Invalid folder!"
+msgstr "ناسم فولډر!"
 
 msgid "Invalid streaming URL"
 msgstr "ناسم سټرینګ URL"
@@ -191,6 +217,9 @@ msgstr "هیڅ منځپانګه نشته"
 msgid "No content selected"
 msgstr "هیڅ منځپانګه نه ده ټاکل شوې"
 
+msgid "No downloads in queue"
+msgstr "په کتار کې ډاونلوډونه نشته"
+
 msgid "No episodes available"
 msgstr "هیڅ قسط شتون نلري"
 
@@ -209,11 +238,20 @@ msgstr "هیڅ جریان لینکونه ونه موندل شول"
 msgid "No streaming links found."
 msgstr "هیڅ جریان لینکونه ونه موندل شول"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = انتخاب | RED = لیرې کول | شنه = پیل / وقفه | نیلي = فولډر بدل کړئ"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - د تلویزیون لړۍ"
 
 msgid "PLAY"
 msgstr "لوبه وکړئ"
+
+msgid "Paused"
+msgstr "ودریدل"
+
+msgid "Pending"
+msgstr "پاتې"
 
 msgid "Playback error: %s"
 msgstr "د پلې بیک تېروتنه: %s"
@@ -235,6 +273,9 @@ msgstr "تازه کړئ"
 
 msgid "Refresh"
 msgstr "تازه کړئ"
+
+msgid "Remove"
+msgstr "لرې کړئ"
 
 msgid "Retry"
 msgstr "بیا هڅه وکړئ"
@@ -285,6 +326,9 @@ msgstr "د لړۍ URL ونه موندل شو"
 msgid "Series URL not found."
 msgstr "د لړۍ URL ونه موندل شو."
 
+msgid "Start/Pause"
+msgstr "پیل / وقفه"
+
 msgid "TMDB API key not found"
 msgstr "د TMDB API کیلي ونه موندل شوه"
 
@@ -306,6 +350,9 @@ msgstr "د لټون غوښتنو لپاره وخت پای (ثانوي)"
 
 msgid "Title"
 msgstr "عنوان"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "ټول: {} | فعال: {} | فولډر: {}"
 
 msgid "Type: %s"
 msgstr "ډول: %s"

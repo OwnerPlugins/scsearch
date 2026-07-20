@@ -64,11 +64,23 @@ msgstr "Kortelės klaida"
 msgid "Cards updated"
 msgstr "Kortelės atnaujintos"
 
+msgid "Change Folder"
+msgstr "Keisti aplanką"
+
+msgid "Choose download folder"
+msgstr "Pasirinkite atsisiuntimo aplanką"
+
+msgid "Clear Done"
+msgstr "Išvalyti Atlikta"
+
 msgid "Code:"
 msgstr "Kodas:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kodas: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Užbaigta"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Turinys iš Altadefinizione – paspauskite OK, kad atidarytumėte..."
@@ -84,6 +96,13 @@ msgstr "Išsami informacija apie: „%s“"
 
 msgid "Details not available"
 msgstr "Išsamios informacijos nėra"
+
+msgid "Download Queue"
+msgstr "Atsisiuntimo eilė"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "pakrovimas"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizodai"
 msgid "Episodes:"
 msgstr "Epizodai:"
 
+#, fuzzy
+msgid "Error"
+msgstr "klaida"
+
 msgid "Error loading CB01 series"
 msgstr "Įkeliant CB01 seriją įvyko klaida"
 
@@ -144,6 +167,9 @@ msgstr "GRUPĖS"
 
 msgid "History"
 msgstr "Istorija"
+
+msgid "Invalid folder!"
+msgstr "Neteisingas aplankas!"
 
 msgid "Invalid streaming URL"
 msgstr "Netinkamas srautinio perdavimo URL"
@@ -191,6 +217,9 @@ msgstr "Nėra turinio"
 msgid "No content selected"
 msgstr "Nepasirinktas joks turinys"
 
+msgid "No downloads in queue"
+msgstr "Atsisiuntimų eilėje nėra"
+
 msgid "No episodes available"
 msgstr "Nėra pasiekiamų serijų"
 
@@ -209,11 +238,20 @@ msgstr "Srautinio perdavimo nuorodų nerasta"
 msgid "No streaming links found."
 msgstr "Srautinio perdavimo nuorodų nerasta"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Gerai = Pasirinkite | RAUDONA = Pašalinti | ŽALIA = Pradėti / Pauzė | MĖLYNA = Keisti aplanką"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV – TV serialas"
 
 msgid "PLAY"
 msgstr "ŽAISTI"
+
+msgid "Paused"
+msgstr "Pristabdyta"
+
+msgid "Pending"
+msgstr "Laukiama"
 
 msgid "Playback error: %s"
 msgstr "Atkūrimo klaida: %s"
@@ -235,6 +273,9 @@ msgstr "ATNAUJINTI"
 
 msgid "Refresh"
 msgstr "Atnaujinti"
+
+msgid "Remove"
+msgstr "Pašalinti"
 
 msgid "Retry"
 msgstr "Bandykite dar kartą"
@@ -285,6 +326,9 @@ msgstr "Serijos URL nerastas"
 msgid "Series URL not found."
 msgstr "Serijos URL nerastas."
 
+msgid "Start/Pause"
+msgstr "Pradėti / pristabdyti"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API raktas nerastas"
 
@@ -306,6 +350,9 @@ msgstr "Paieškos užklausų skirtasis laikas (sekundėmis)"
 
 msgid "Title"
 msgstr "Pavadinimas"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Iš viso: {} | Aktyvus: {} | Aplankas: {}"
 
 msgid "Type: %s"
 msgstr "Tipas: %s"

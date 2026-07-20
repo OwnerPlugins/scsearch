@@ -64,11 +64,23 @@ msgstr "کارڈ کی خرابی۔"
 msgid "Cards updated"
 msgstr "کارڈز اپ ڈیٹ ہو گئے۔"
 
+msgid "Change Folder"
+msgstr "فولڈر تبدیل کریں۔"
+
+msgid "Choose download folder"
+msgstr "ڈاؤن لوڈ فولڈر کا انتخاب کریں۔"
+
+msgid "Clear Done"
+msgstr "صاف ہو گیا۔"
+
 msgid "Code:"
 msgstr "کوڈ:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "کوڈ: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "مکمل"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione کی طرف سے مواد - کھولنے کے لیے OK دبائیں..."
@@ -84,6 +96,13 @@ msgstr "تفصیلات برائے: '%s'"
 
 msgid "Details not available"
 msgstr "تفصیلات دستیاب نہیں ہیں۔"
+
+msgid "Download Queue"
+msgstr "قطار ڈاؤن لوڈ کریں۔"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "لوڈ ہو رہا ہے"
 
 msgid "ENTER"
 msgstr "داخل کریں۔"
@@ -115,6 +134,10 @@ msgstr "اقساط"
 msgid "Episodes:"
 msgstr "اقساط:"
 
+#, fuzzy
+msgid "Error"
+msgstr "غلطی"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 سیریز لوڈ کرنے میں خرابی۔"
 
@@ -144,6 +167,9 @@ msgstr "گروپس"
 
 msgid "History"
 msgstr "تاریخ"
+
+msgid "Invalid folder!"
+msgstr "غلط فولڈر!"
 
 msgid "Invalid streaming URL"
 msgstr "غلط سلسلہ بندی کا URL"
@@ -191,6 +217,9 @@ msgstr "کوئی مواد نہیں۔"
 msgid "No content selected"
 msgstr "کوئی مواد منتخب نہیں کیا گیا۔"
 
+msgid "No downloads in queue"
+msgstr "قطار میں کوئی ڈاؤن لوڈ نہیں ہے۔"
+
 msgid "No episodes available"
 msgstr "کوئی ایپی سوڈ دستیاب نہیں۔"
 
@@ -209,11 +238,20 @@ msgstr "کوئی سلسلہ بندی کے لنکس نہیں ملے"
 msgid "No streaming links found."
 msgstr "کوئی سلسلہ بندی کے لنکس نہیں ملے"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = منتخب کریں | RED = ہٹائیں | GREEN = شروع/توقف | نیلا = فولڈر تبدیل کریں۔"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "آن لائن سیری ٹی وی - ٹی وی سیریز"
 
 msgid "PLAY"
 msgstr "کھیلیں"
+
+msgid "Paused"
+msgstr "روک دیا گیا"
+
+msgid "Pending"
+msgstr "زیر التواء"
 
 msgid "Playback error: %s"
 msgstr "پلے بیک کی خرابی: %s"
@@ -235,6 +273,9 @@ msgstr "ریفریش کریں۔"
 
 msgid "Refresh"
 msgstr "ریفریش کریں۔"
+
+msgid "Remove"
+msgstr "ہٹا دیں۔"
 
 msgid "Retry"
 msgstr "دوبارہ کوشش کریں۔"
@@ -285,6 +326,9 @@ msgstr "سیریز کا URL نہیں ملا"
 msgid "Series URL not found."
 msgstr "سیریز کا URL نہیں ملا۔"
 
+msgid "Start/Pause"
+msgstr "شروع/روکیں۔"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API کلید نہیں ملی"
 
@@ -306,6 +350,9 @@ msgstr "تلاش کی درخواستوں کا ٹائم آؤٹ (سیکنڈ)"
 
 msgid "Title"
 msgstr "عنوان"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "کل: {} | فعال: {} | فولڈر: {}"
 
 msgid "Type: %s"
 msgstr "قسم: %s"

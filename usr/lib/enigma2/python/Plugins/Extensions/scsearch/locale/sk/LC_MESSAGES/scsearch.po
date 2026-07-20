@@ -64,11 +64,23 @@ msgstr "Chyba karty"
 msgid "Cards updated"
 msgstr "Karty boli aktualizované"
 
+msgid "Change Folder"
+msgstr "Zmeniť priečinok"
+
+msgid "Choose download folder"
+msgstr "Vyberte priečinok na stiahnutie"
+
+msgid "Clear Done"
+msgstr "Vymazať Hotovo"
+
 msgid "Code:"
 msgstr "kód:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kód: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Dokončené"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Obsah z Altadefinizione - Stlačením tlačidla OK otvoríte..."
@@ -84,6 +96,13 @@ msgstr "Podrobnosti pre: '%s'"
 
 msgid "Details not available"
 msgstr "Podrobnosti nie sú k dispozícii"
+
+msgid "Download Queue"
+msgstr "Front na stiahnutie"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "načítavanie"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizódy"
 msgid "Episodes:"
 msgstr "Epizódy:"
 
+#, fuzzy
+msgid "Error"
+msgstr "chyba"
+
 msgid "Error loading CB01 series"
 msgstr "Chyba pri načítavaní série CB01"
 
@@ -144,6 +167,9 @@ msgstr "SKUPINY"
 
 msgid "History"
 msgstr "História"
+
+msgid "Invalid folder!"
+msgstr "Neplatný priečinok!"
 
 msgid "Invalid streaming URL"
 msgstr "Neplatná adresa URL streamovania"
@@ -191,6 +217,9 @@ msgstr "Žiadny obsah"
 msgid "No content selected"
 msgstr "Nie je vybratý žiadny obsah"
 
+msgid "No downloads in queue"
+msgstr "Žiadne sťahovanie v poradí"
+
 msgid "No episodes available"
 msgstr "K dispozícii nie sú žiadne epizódy"
 
@@ -209,11 +238,20 @@ msgstr "Nenašli sa žiadne odkazy na streamovanie"
 msgid "No streaming links found."
 msgstr "Nenašli sa žiadne odkazy na streamovanie"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Vybrať | ČERVENÁ = Odstrániť | ZELENÁ = Štart/Pauza | MODRÁ = Zmeniť priečinok"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - televízny seriál"
 
 msgid "PLAY"
 msgstr "HRAŤ"
+
+msgid "Paused"
+msgstr "Pozastavené"
+
+msgid "Pending"
+msgstr "Čaká na spracovanie"
 
 msgid "Playback error: %s"
 msgstr "Chyba prehrávania: %s"
@@ -235,6 +273,9 @@ msgstr "OBNOVIŤ"
 
 msgid "Refresh"
 msgstr "Obnoviť"
+
+msgid "Remove"
+msgstr "Odstrániť"
 
 msgid "Retry"
 msgstr "Skúste to znova"
@@ -285,6 +326,9 @@ msgstr "Adresa URL série sa nenašla"
 msgid "Series URL not found."
 msgstr "Adresa URL série sa nenašla."
 
+msgid "Start/Pause"
+msgstr "Štart/Pauza"
+
 msgid "TMDB API key not found"
 msgstr "Kľúč API TMDB sa nenašiel"
 
@@ -306,6 +350,9 @@ msgstr "Časový limit pre žiadosti o vyhľadávanie (v sekundách)"
 
 msgid "Title"
 msgstr "Názov"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Celkom: {} | Aktívne: {} | Priečinok: {}"
 
 msgid "Type: %s"
 msgstr "Typ: %s"

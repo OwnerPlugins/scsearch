@@ -64,11 +64,23 @@ msgstr "កំហុសកាត"
 msgid "Cards updated"
 msgstr "បានធ្វើបច្ចុប្បន្នភាពកាត"
 
+msgid "Change Folder"
+msgstr "ផ្លាស់ប្តូរថតឯកសារ"
+
+msgid "Choose download folder"
+msgstr "ជ្រើសរើសថតឯកសារទាញយក"
+
+msgid "Clear Done"
+msgstr "សម្អាតរួចរាល់"
+
 msgid "Code:"
 msgstr "លេខកូដ៖"
 
 msgid "Code: {self.captcha_code}"
 msgstr "លេខកូដ៖ {self.captcha_code}"
+
+msgid "Completed"
+msgstr "បានបញ្ចប់"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "ខ្លឹមសារពី Altadefinizione - ចុច OK ដើម្បីបើក..."
@@ -84,6 +96,13 @@ msgstr "ព័ត៌មានលម្អិតសម្រាប់៖ '%s'"
 
 msgid "Details not available"
 msgstr "ព័ត៌មានលម្អិតមិនមានទេ។"
+
+msgid "Download Queue"
+msgstr "ទាញយកជួរ"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "ការផ្ទុក"
 
 msgid "ENTER"
 msgstr "បញ្ចូល"
@@ -115,6 +134,10 @@ msgstr "ភាគ"
 msgid "Episodes:"
 msgstr "ភាគ៖"
 
+#, fuzzy
+msgid "Error"
+msgstr "កំហុស"
+
 msgid "Error loading CB01 series"
 msgstr "កំហុសក្នុងការផ្ទុកស៊េរី CB01"
 
@@ -144,6 +167,9 @@ msgstr "ក្រុម"
 
 msgid "History"
 msgstr "ប្រវត្តិសាស្ត្រ"
+
+msgid "Invalid folder!"
+msgstr "ថតឯកសារមិនត្រឹមត្រូវ!"
 
 msgid "Invalid streaming URL"
 msgstr "URL ការផ្សាយមិនត្រឹមត្រូវ"
@@ -191,6 +217,9 @@ msgstr "គ្មានខ្លឹមសារ"
 msgid "No content selected"
 msgstr "មិនបានជ្រើសរើសមាតិកា"
 
+msgid "No downloads in queue"
+msgstr "គ្មានការទាញយកនៅក្នុងជួរទេ។"
+
 msgid "No episodes available"
 msgstr "មិនមានភាគដែលអាចប្រើបានទេ។"
 
@@ -209,11 +238,20 @@ msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
 msgid "No streaming links found."
 msgstr "រកមិនឃើញតំណស្ទ្រីមទេ។"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "យល់ព្រម = ជ្រើសរើស | RED = ដកចេញ | បៃតង = ចាប់ផ្តើម/ផ្អាក | BLUE = ផ្លាស់ប្តូរថតឯកសារ"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - ស៊េរីទូរទស្សន៍"
 
 msgid "PLAY"
 msgstr "លេង"
+
+msgid "Paused"
+msgstr "ផ្អាក"
+
+msgid "Pending"
+msgstr "កំពុងរង់ចាំ"
 
 msgid "Playback error: %s"
 msgstr "កំហុសក្នុងការចាក់សារថ្មី៖ %s"
@@ -235,6 +273,9 @@ msgstr "ធ្វើឱ្យស្រស់"
 
 msgid "Refresh"
 msgstr "ធ្វើឱ្យស្រស់"
+
+msgid "Remove"
+msgstr "ដកចេញ"
 
 msgid "Retry"
 msgstr "ព្យាយាមម្តងទៀត"
@@ -285,6 +326,9 @@ msgstr "រកមិនឃើញស៊េរី URL ទេ។"
 msgid "Series URL not found."
 msgstr "រកមិនឃើញស៊េរី URL ទេ។"
 
+msgid "Start/Pause"
+msgstr "ចាប់ផ្តើម/ផ្អាក"
+
 msgid "TMDB API key not found"
 msgstr "រកមិនឃើញសោ TMDB API ទេ។"
 
@@ -306,6 +350,9 @@ msgstr "អស់ពេលសម្រាប់សំណើស្វែងរក
 
 msgid "Title"
 msgstr "ចំណងជើង"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "សរុប៖ {} | សកម្ម៖ {} | ថតឯកសារ៖ {}"
 
 msgid "Type: %s"
 msgstr "ប្រភេទ៖ %s"

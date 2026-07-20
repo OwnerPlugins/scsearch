@@ -64,11 +64,23 @@ msgstr "የካርድ ስህተት"
 msgid "Cards updated"
 msgstr "ካርዶች ተዘምነዋል"
 
+msgid "Change Folder"
+msgstr "አቃፊ ቀይር"
+
+msgid "Choose download folder"
+msgstr "የማውረድ አቃፊን ይምረጡ"
+
+msgid "Clear Done"
+msgstr "አጽዳ ተከናውኗል"
+
 msgid "Code:"
 msgstr "ኮድ፡-"
 
 msgid "Code: {self.captcha_code}"
 msgstr "ኮድ፡ {self.captcha_code}"
+
+msgid "Completed"
+msgstr "ተጠናቀቀ"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "ይዘት ከ Altadefinizione - ለመክፈት እሺን ይጫኑ..."
@@ -84,6 +96,13 @@ msgstr "ዝርዝሮች ለ፡ '%s'"
 
 msgid "Details not available"
 msgstr "ዝርዝሮች አይገኙም።"
+
+msgid "Download Queue"
+msgstr "ወረፋ አውርድ"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "በመጫን ላይ"
 
 msgid "ENTER"
 msgstr "አስገባ"
@@ -115,6 +134,10 @@ msgstr "ክፍሎች"
 msgid "Episodes:"
 msgstr "ክፍሎች፡"
 
+#, fuzzy
+msgid "Error"
+msgstr "ስህተት"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 ተከታታዮችን መጫን ላይ ስህተት"
 
@@ -144,6 +167,9 @@ msgstr "ቡድኖች"
 
 msgid "History"
 msgstr "ታሪክ"
+
+msgid "Invalid folder!"
+msgstr "ልክ ያልሆነ አቃፊ!"
 
 msgid "Invalid streaming URL"
 msgstr "ልክ ያልሆነ የዥረት ዩአርኤል"
@@ -191,6 +217,9 @@ msgstr "ምንም ይዘት የለም።"
 msgid "No content selected"
 msgstr "ምንም ይዘት አልተመረጠም።"
 
+msgid "No downloads in queue"
+msgstr "በወረፋ ውስጥ ምንም ውርዶች የሉም"
+
 msgid "No episodes available"
 msgstr "ምንም ክፍሎች የሉም"
 
@@ -209,11 +238,20 @@ msgstr "ምንም የዥረት ማያያዣዎች አልተገኙም።"
 msgid "No streaming links found."
 msgstr "ምንም የዥረት ማያያዣዎች አልተገኙም።"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "እሺ = ይምረጡ | ቀይ = አስወግድ | አረንጓዴ = ጀምር/አፍታ አቁም | ሰማያዊ = አቃፊ ቀይር"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "የመስመር ላይSerieTV - ተከታታይ የቲቪ"
 
 msgid "PLAY"
 msgstr "ተጫወት"
+
+msgid "Paused"
+msgstr "ባለበት ቆሟል"
+
+msgid "Pending"
+msgstr "በመጠባበቅ ላይ"
 
 msgid "Playback error: %s"
 msgstr "የመልሶ ማጫወት ስህተት፡ %s"
@@ -235,6 +273,9 @@ msgstr "አድስ"
 
 msgid "Refresh"
 msgstr "አድስ"
+
+msgid "Remove"
+msgstr "አስወግድ"
 
 msgid "Retry"
 msgstr "እንደገና ይሞክሩ"
@@ -285,6 +326,9 @@ msgstr "የተከታታይ ዩአርኤል አልተገኘም።"
 msgid "Series URL not found."
 msgstr "የተከታታይ ዩአርኤል አልተገኘም።"
 
+msgid "Start/Pause"
+msgstr "ጀምር/አፍታ አቁም"
+
 msgid "TMDB API key not found"
 msgstr "የTMDB API ቁልፍ አልተገኘም።"
 
@@ -306,6 +350,9 @@ msgstr "ለፍለጋ ጥያቄዎች (ሰከንዶች) ጊዜው አልፎበታ
 
 msgid "Title"
 msgstr "ርዕስ"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "ጠቅላላ፡ {} | ንቁ፡ {} | አቃፊ፡ {}"
 
 msgid "Type: %s"
 msgstr "አይነት፡%s"

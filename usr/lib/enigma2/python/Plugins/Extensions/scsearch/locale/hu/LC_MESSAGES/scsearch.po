@@ -64,11 +64,23 @@ msgstr "Kártya hiba"
 msgid "Cards updated"
 msgstr "A kártyák frissítve"
 
+msgid "Change Folder"
+msgstr "Mappa módosítása"
+
+msgid "Choose download folder"
+msgstr "Válassza ki a letöltési mappát"
+
+msgid "Clear Done"
+msgstr "Törlés Kész"
+
 msgid "Code:"
 msgstr "Kód:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kód: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Befejezve"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Tartalom az Altadefinizione-ból - Nyomja meg az OK gombot a megnyitáshoz..."
@@ -84,6 +96,13 @@ msgstr "Részletek: '%s'"
 
 msgid "Details not available"
 msgstr "Részletek nem állnak rendelkezésre"
+
+msgid "Download Queue"
+msgstr "Letöltési sor"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "terhelés"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizódok"
 msgid "Episodes:"
 msgstr "Epizódok:"
 
+#, fuzzy
+msgid "Error"
+msgstr "hiba"
+
 msgid "Error loading CB01 series"
 msgstr "Hiba a CB01 sorozat betöltésekor"
 
@@ -144,6 +167,9 @@ msgstr "CSOPORTOK"
 
 msgid "History"
 msgstr "Történelem"
+
+msgid "Invalid folder!"
+msgstr "Érvénytelen mappa!"
 
 msgid "Invalid streaming URL"
 msgstr "Érvénytelen adatfolyam URL"
@@ -191,6 +217,9 @@ msgstr "Nincs tartalom"
 msgid "No content selected"
 msgstr "Nincs kiválasztva tartalom"
 
+msgid "No downloads in queue"
+msgstr "Nincs letöltés a sorban"
+
 msgid "No episodes available"
 msgstr "Nincs elérhető epizód"
 
@@ -209,11 +238,20 @@ msgstr "Nem található streaming link"
 msgid "No streaming links found."
 msgstr "Nem található streaming link"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Select | PIROS = Eltávolítás | ZÖLD = Indítás/Szünet | KÉK = Mappa módosítása"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV sorozat"
 
 msgid "PLAY"
 msgstr "JÁTÉK"
+
+msgid "Paused"
+msgstr "Szüneteltetve"
+
+msgid "Pending"
+msgstr "Függőben levő"
 
 msgid "Playback error: %s"
 msgstr "Lejátszási hiba: %s"
@@ -235,6 +273,9 @@ msgstr "FRISSÍTÉS"
 
 msgid "Refresh"
 msgstr "Frissítés"
+
+msgid "Remove"
+msgstr "Távolítsa el"
 
 msgid "Retry"
 msgstr "Próbálja újra"
@@ -285,6 +326,9 @@ msgstr "A sorozat URL-je nem található"
 msgid "Series URL not found."
 msgstr "A sorozat URL-je nem található."
 
+msgid "Start/Pause"
+msgstr "Indítás/Szünet"
+
 msgid "TMDB API key not found"
 msgstr "A TMDB API kulcs nem található"
 
@@ -306,6 +350,9 @@ msgstr "Keresési kérések időtúllépése (másodperc)"
 
 msgid "Title"
 msgstr "Cím"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Összesen: {} | Aktív: {} | Mappa: {}"
 
 msgid "Type: %s"
 msgstr "Típus: %s"

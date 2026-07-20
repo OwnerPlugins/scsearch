@@ -64,11 +64,23 @@ msgstr "Kartenfehler"
 msgid "Cards updated"
 msgstr "Karten aktualisiert"
 
+msgid "Change Folder"
+msgstr "Ordner ändern"
+
+msgid "Choose download folder"
+msgstr "Wählen Sie den Download-Ordner"
+
+msgid "Clear Done"
+msgstr "Klar, fertig"
+
 msgid "Code:"
 msgstr "Code:"
 
 msgid "Code: {self.captcha_code}"
 msgstr ""
+
+msgid "Completed"
+msgstr "Vollendet"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Inhalt von Altadefinizione – Drücken Sie OK, um zu öffnen..."
@@ -84,6 +96,13 @@ msgstr "Details für: '%s'"
 
 msgid "Details not available"
 msgstr "Details nicht verfügbar"
+
+msgid "Download Queue"
+msgstr "Warteschlange herunterladen"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "Laden"
 
 msgid "ENTER"
 msgstr "EINGEBEN"
@@ -115,6 +134,10 @@ msgstr "Episoden"
 msgid "Episodes:"
 msgstr "Episoden:"
 
+#, fuzzy
+msgid "Error"
+msgstr "Fehler"
+
 msgid "Error loading CB01 series"
 msgstr "Fehler beim Laden der CB01-Serie"
 
@@ -144,6 +167,9 @@ msgstr "GRUPPEN"
 
 msgid "History"
 msgstr "Geschichte"
+
+msgid "Invalid folder!"
+msgstr "Ungültiger Ordner!"
 
 msgid "Invalid streaming URL"
 msgstr "Ungültige Streaming-URL"
@@ -191,6 +217,9 @@ msgstr "Kein Inhalt"
 msgid "No content selected"
 msgstr "Kein Inhalt ausgewählt"
 
+msgid "No downloads in queue"
+msgstr "Keine Downloads in der Warteschlange"
+
 msgid "No episodes available"
 msgstr "Keine Episoden verfügbar"
 
@@ -209,11 +238,20 @@ msgstr "Keine Streaming-Links gefunden"
 msgid "No streaming links found."
 msgstr "Keine Streaming-Links gefunden"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Wählen Sie | ROT = Entfernen | GRÜN = Start/Pause | BLAU = Ordner wechseln"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Fernsehserien"
 
 msgid "PLAY"
 msgstr "SPIELEN"
+
+msgid "Paused"
+msgstr "Angehalten"
+
+msgid "Pending"
+msgstr "Ausstehend"
 
 msgid "Playback error: %s"
 msgstr "Wiedergabefehler: %s"
@@ -235,6 +273,9 @@ msgstr "AKTUALISIEREN"
 
 msgid "Refresh"
 msgstr "Aktualisieren"
+
+msgid "Remove"
+msgstr "Entfernen"
 
 msgid "Retry"
 msgstr "Wiederholen"
@@ -285,6 +326,9 @@ msgstr "Serien-URL nicht gefunden"
 msgid "Series URL not found."
 msgstr "Serien-URL nicht gefunden."
 
+msgid "Start/Pause"
+msgstr ""
+
 msgid "TMDB API key not found"
 msgstr "TMDB-API-Schlüssel nicht gefunden"
 
@@ -306,6 +350,9 @@ msgstr "Timeout für Suchanfragen (Sekunden)"
 
 msgid "Title"
 msgstr "Titel"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Gesamt: {} | Aktiv: {} | Ordner: {}"
 
 msgid "Type: %s"
 msgstr "Geben Sie ein: %s"

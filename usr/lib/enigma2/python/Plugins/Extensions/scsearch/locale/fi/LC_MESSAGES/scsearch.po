@@ -64,11 +64,23 @@ msgstr "Korttivirhe"
 msgid "Cards updated"
 msgstr "Kortit päivitetty"
 
+msgid "Change Folder"
+msgstr "Vaihda kansiota"
+
+msgid "Choose download folder"
+msgstr "Valitse latauskansio"
+
+msgid "Clear Done"
+msgstr "Tyhjennä Valmis"
+
 msgid "Code:"
 msgstr "Koodi:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Koodi: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Valmis"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizionen sisältö - Avaa painamalla OK..."
@@ -84,6 +96,13 @@ msgstr "Tiedot kohteelle: '%s'"
 
 msgid "Details not available"
 msgstr "Yksityiskohtia ei ole saatavilla"
+
+msgid "Download Queue"
+msgstr "Lataa jono"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "lastaus"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Jaksot"
 msgid "Episodes:"
 msgstr "Jaksot:"
 
+#, fuzzy
+msgid "Error"
+msgstr "virhe"
+
 msgid "Error loading CB01 series"
 msgstr "Virhe ladattaessa CB01-sarjaa"
 
@@ -144,6 +167,9 @@ msgstr "RYHMÄT"
 
 msgid "History"
 msgstr "Historia"
+
+msgid "Invalid folder!"
+msgstr "Virheellinen kansio!"
 
 msgid "Invalid streaming URL"
 msgstr "Virheellinen suoratoiston URL-osoite"
@@ -191,6 +217,9 @@ msgstr "Ei sisältöä"
 msgid "No content selected"
 msgstr "Sisältöä ei ole valittu"
 
+msgid "No downloads in queue"
+msgstr "Ei latauksia jonossa"
+
 msgid "No episodes available"
 msgstr "Ei jaksoja saatavilla"
 
@@ -209,11 +238,20 @@ msgstr "Suoratoistolinkkejä ei löytynyt"
 msgid "No streaming links found."
 msgstr "Suoratoistolinkkejä ei löytynyt"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Valitse | PUNAINEN = Poista | VIHREÄ = Käynnistä/Tauko | SININEN = Vaihda kansiota"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV-sarja"
 
 msgid "PLAY"
 msgstr "PELATA"
+
+msgid "Paused"
+msgstr "Keskeytetty"
+
+msgid "Pending"
+msgstr "Odottaa"
 
 msgid "Playback error: %s"
 msgstr "Toistovirhe: %s"
@@ -235,6 +273,9 @@ msgstr "PÄIVITYS"
 
 msgid "Refresh"
 msgstr "Päivitä"
+
+msgid "Remove"
+msgstr "Poistaa"
 
 msgid "Retry"
 msgstr "Yritä uudelleen"
@@ -285,6 +326,9 @@ msgstr "Sarjan URL-osoitetta ei löydy"
 msgid "Series URL not found."
 msgstr "Sarjan URL-osoitetta ei löydy."
 
+msgid "Start/Pause"
+msgstr "Käynnistä/Tauko"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API-avainta ei löydy"
 
@@ -306,6 +350,9 @@ msgstr "Hakupyyntöjen aikakatkaisu (sekunteina)"
 
 msgid "Title"
 msgstr "Otsikko"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Yhteensä: {} | Aktiivinen: {} | Kansio: {}"
 
 msgid "Type: %s"
 msgstr "Tyyppi: %s"

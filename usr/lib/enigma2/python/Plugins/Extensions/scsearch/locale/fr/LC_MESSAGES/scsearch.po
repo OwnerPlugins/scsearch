@@ -64,11 +64,23 @@ msgstr "Erreur de carte"
 msgid "Cards updated"
 msgstr "Cartes mises à jour"
 
+msgid "Change Folder"
+msgstr "Changer de dossier"
+
+msgid "Choose download folder"
+msgstr "Choisissez le dossier de téléchargement"
+
+msgid "Clear Done"
+msgstr "Effacer Terminé"
+
 msgid "Code:"
 msgstr "Code:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Code : {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Complété"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Contenu de Altadefinizione - Appuyez sur OK pour ouvrir..."
@@ -84,6 +96,13 @@ msgstr "Détails pour : '%s'"
 
 msgid "Details not available"
 msgstr "Détails non disponibles"
+
+msgid "Download Queue"
+msgstr "File d'attente de téléchargement"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "chargement"
 
 msgid "ENTER"
 msgstr "ENTRER"
@@ -115,6 +134,10 @@ msgstr "Épisodes"
 msgid "Episodes:"
 msgstr "Épisodes :"
 
+#, fuzzy
+msgid "Error"
+msgstr "erreur"
+
 msgid "Error loading CB01 series"
 msgstr "Erreur lors du chargement de la série CB01"
 
@@ -144,6 +167,9 @@ msgstr "GROUPES"
 
 msgid "History"
 msgstr "Histoire"
+
+msgid "Invalid folder!"
+msgstr "Dossier invalide !"
 
 msgid "Invalid streaming URL"
 msgstr "URL de diffusion invalide"
@@ -191,6 +217,9 @@ msgstr "Aucun contenu"
 msgid "No content selected"
 msgstr "Aucun contenu sélectionné"
 
+msgid "No downloads in queue"
+msgstr "Aucun téléchargement en file d'attente"
+
 msgid "No episodes available"
 msgstr "Aucun épisode disponible"
 
@@ -209,11 +238,20 @@ msgstr "Aucun lien de diffusion trouvé"
 msgid "No streaming links found."
 msgstr "Aucun lien de diffusion trouvé"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Sélectionner | ROUGE = Supprimer | VERT = Démarrage/Pause | BLEU = Changer de dossier"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Série TV"
 
 msgid "PLAY"
 msgstr "JOUER"
+
+msgid "Paused"
+msgstr "En pause"
+
+msgid "Pending"
+msgstr "En attente"
 
 msgid "Playback error: %s"
 msgstr "Erreur de lecture : %s"
@@ -235,6 +273,9 @@ msgstr "RAFRAÎCHIR"
 
 msgid "Refresh"
 msgstr "Rafraîchir"
+
+msgid "Remove"
+msgstr "Retirer"
 
 msgid "Retry"
 msgstr "Réessayer"
@@ -285,6 +326,9 @@ msgstr "URL de la série introuvable"
 msgid "Series URL not found."
 msgstr "URL de la série introuvable."
 
+msgid "Start/Pause"
+msgstr "Démarrage/Pause"
+
 msgid "TMDB API key not found"
 msgstr "Clé API TMDB introuvable"
 
@@ -306,6 +350,9 @@ msgstr "Délai d'expiration des demandes de recherche (secondes)"
 
 msgid "Title"
 msgstr "Titre"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Total : {} | Actif : {} | Dossier: {}"
 
 msgid "Type: %s"
 msgstr "Tapez : %s"

@@ -64,11 +64,23 @@ msgstr "Грешка в картата"
 msgid "Cards updated"
 msgstr "Картите са актуализирани"
 
+msgid "Change Folder"
+msgstr "Промяна на папката"
+
+msgid "Choose download folder"
+msgstr "Изберете папка за изтегляне"
+
+msgid "Clear Done"
+msgstr "Изчистване Готово"
+
 msgid "Code:"
 msgstr "Код:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Код: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Завършено"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Съдържание от Altadefinizione - Натиснете OK, за да отворите..."
@@ -84,6 +96,13 @@ msgstr "Подробности за: „%s“"
 
 msgid "Details not available"
 msgstr "Подробностите не са налични"
+
+msgid "Download Queue"
+msgstr "Опашка за изтегляне"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "зареждане"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "епизоди"
 msgid "Episodes:"
 msgstr "епизоди:"
 
+#, fuzzy
+msgid "Error"
+msgstr "грешка"
+
 msgid "Error loading CB01 series"
 msgstr "Грешка при зареждане на серия CB01"
 
@@ -144,6 +167,9 @@ msgstr "ГРУПИ"
 
 msgid "History"
 msgstr "История"
+
+msgid "Invalid folder!"
+msgstr "Невалидна папка!"
 
 msgid "Invalid streaming URL"
 msgstr "Невалиден URL адрес за поточно предаване"
@@ -191,6 +217,9 @@ msgstr "Без съдържание"
 msgid "No content selected"
 msgstr "Няма избрано съдържание"
 
+msgid "No downloads in queue"
+msgstr "Няма изтегляния в опашката"
+
 msgid "No episodes available"
 msgstr "Няма налични епизоди"
 
@@ -209,11 +238,20 @@ msgstr "Няма намерени връзки за стрийминг"
 msgid "No streaming links found."
 msgstr "Няма намерени връзки за стрийминг"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Изберете | ЧЕРВЕНО = Премахване | ЗЕЛЕНО = Старт/Пауза | СИН = Промяна на папка"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - ТВ сериали"
 
 msgid "PLAY"
 msgstr "ИГРАЙТЕ"
+
+msgid "Paused"
+msgstr "На пауза"
+
+msgid "Pending"
+msgstr "В очакване"
 
 msgid "Playback error: %s"
 msgstr "Грешка при възпроизвеждане: %s"
@@ -235,6 +273,9 @@ msgstr "ОБНОВЯВАНЕ"
 
 msgid "Refresh"
 msgstr "Опресняване"
+
+msgid "Remove"
+msgstr "Премахнете"
 
 msgid "Retry"
 msgstr "Опитайте отново"
@@ -285,6 +326,9 @@ msgstr "URL адресът на серията не е намерен"
 msgid "Series URL not found."
 msgstr "URL адресът на серията не е намерен."
 
+msgid "Start/Pause"
+msgstr "Старт/Пауза"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API ключът не е намерен"
 
@@ -306,6 +350,9 @@ msgstr "Време за изчакване за заявки за търсене
 
 msgid "Title"
 msgstr "Заглавие"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Общо: {} | Активен: {} | Папка: {}"
 
 msgid "Type: %s"
 msgstr "Тип: %s"

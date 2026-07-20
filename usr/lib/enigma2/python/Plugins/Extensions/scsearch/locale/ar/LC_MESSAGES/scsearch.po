@@ -64,11 +64,23 @@ msgstr "خطأ في البطاقة"
 msgid "Cards updated"
 msgstr "تم تحديث البطاقات"
 
+msgid "Change Folder"
+msgstr "تغيير المجلد"
+
+msgid "Choose download folder"
+msgstr "اختر مجلد التنزيل"
+
+msgid "Clear Done"
+msgstr "مسح تم"
+
 msgid "Code:"
 msgstr "شفرة:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "الرمز: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "مكتمل"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "محتوى من Altadefinizione - اضغط على \"موافق\" لفتح..."
@@ -84,6 +96,13 @@ msgstr "تفاصيل لـ: '%s'"
 
 msgid "Details not available"
 msgstr "التفاصيل غير متوفرة"
+
+msgid "Download Queue"
+msgstr "تحميل قائمة الانتظار"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "تحميل"
 
 msgid "ENTER"
 msgstr "يدخل"
@@ -115,6 +134,10 @@ msgstr "الحلقات"
 msgid "Episodes:"
 msgstr "الحلقات:"
 
+#, fuzzy
+msgid "Error"
+msgstr "خطأ"
+
 msgid "Error loading CB01 series"
 msgstr "حدث خطأ أثناء تحميل سلسلة CB01"
 
@@ -144,6 +167,9 @@ msgstr "المجموعات"
 
 msgid "History"
 msgstr "تاريخ"
+
+msgid "Invalid folder!"
+msgstr "مجلد غير صالح!"
 
 msgid "Invalid streaming URL"
 msgstr "عنوان URL للبث غير صالح"
@@ -191,6 +217,9 @@ msgstr "لا يوجد محتوى"
 msgid "No content selected"
 msgstr "لم يتم تحديد أي محتوى"
 
+msgid "No downloads in queue"
+msgstr "لا التنزيلات في قائمة الانتظار"
+
 msgid "No episodes available"
 msgstr "لا توجد حلقات متاحة"
 
@@ -209,11 +238,20 @@ msgstr "لم يتم العثور على روابط البث"
 msgid "No streaming links found."
 msgstr "لم يتم العثور على روابط البث."
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "موافق = حدد | أحمر = إزالة | أخضر = بدء/إيقاف مؤقت | الأزرق = تغيير المجلد"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - مسلسل تلفزيوني"
 
 msgid "PLAY"
 msgstr "يلعب"
+
+msgid "Paused"
+msgstr "متوقف مؤقتًا"
+
+msgid "Pending"
+msgstr "قيد الانتظار"
 
 msgid "Playback error: %s"
 msgstr "خطأ في التشغيل: %s"
@@ -235,6 +273,9 @@ msgstr "ينعش"
 
 msgid "Refresh"
 msgstr "ينعش"
+
+msgid "Remove"
+msgstr "يزيل"
 
 msgid "Retry"
 msgstr "أعد المحاولة"
@@ -285,6 +326,9 @@ msgstr "لم يتم العثور على عنوان URL للسلسلة"
 msgid "Series URL not found."
 msgstr "لم يتم العثور على عنوان URL للسلسلة."
 
+msgid "Start/Pause"
+msgstr "بدء/إيقاف مؤقت"
+
 msgid "TMDB API key not found"
 msgstr "لم يتم العثور على مفتاح TMDB API"
 
@@ -306,6 +350,9 @@ msgstr "مهلة طلبات البحث (بالثواني)"
 
 msgid "Title"
 msgstr "عنوان"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "الإجمالي: {} | نشط: {} | المجلد: {}"
 
 msgid "Type: %s"
 msgstr "النوع: %s"

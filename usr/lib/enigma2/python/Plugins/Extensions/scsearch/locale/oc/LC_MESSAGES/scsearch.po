@@ -64,11 +64,23 @@ msgstr "Error de carta"
 msgid "Cards updated"
 msgstr "Cartas mesas a jorn"
 
+msgid "Change Folder"
+msgstr "Cambiar lo dorsièr"
+
+msgid "Choose download folder"
+msgstr "Causissètz lo dorsièr de telecargament"
+
+msgid "Clear Done"
+msgstr "Suprimir Fach"
+
 msgid "Code:"
 msgstr "Còde:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Còde: {còde_auto.captcha}"
+
+msgid "Completed"
+msgstr "Completat"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Contengut d'Altadefinizione - Quichatz sus D'acòrdi per dobrir..."
@@ -84,6 +96,13 @@ msgstr "Detalhs per : « %s »."
 
 msgid "Details not available"
 msgstr "Los detalhs pas disponibles"
+
+msgid "Download Queue"
+msgstr "Cola de telecargament"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "cargament"
 
 msgid "ENTER"
 msgstr "INTRAR"
@@ -115,6 +134,10 @@ msgstr "Episòdis"
 msgid "Episodes:"
 msgstr "Episòdis:"
 
+#, fuzzy
+msgid "Error"
+msgstr "error"
+
 msgid "Error loading CB01 series"
 msgstr "Error al moment de cargament de la sèria CB01"
 
@@ -144,6 +167,9 @@ msgstr "GROPS"
 
 msgid "History"
 msgstr "Istòria"
+
+msgid "Invalid folder!"
+msgstr "Dòrsièr invalid!"
 
 msgid "Invalid streaming URL"
 msgstr "URL de difusion invalida"
@@ -191,6 +217,9 @@ msgstr "Pas de contengut"
 msgid "No content selected"
 msgstr "Cap de contengut seleccionat"
 
+msgid "No downloads in queue"
+msgstr "Pas de telecargament en còla"
+
 msgid "No episodes available"
 msgstr "Cap d'episòdi disponible"
 
@@ -209,11 +238,20 @@ msgstr "Pas cap de ligam de difusion trobat"
 msgid "No streaming links found."
 msgstr "Pas cap de ligam de difusion trobat"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "D'acòrdi = Seleccionar | ROGE = Suprimir | VERD = Començar/Pausa | BLAU = Cambiar lo dorsièr"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serie de TV"
 
 msgid "PLAY"
 msgstr "JOGAR"
+
+msgid "Paused"
+msgstr "Pausada"
+
+msgid "Pending"
+msgstr "En espèra"
 
 msgid "Playback error: %s"
 msgstr "Error de lectura : %s"
@@ -235,6 +273,9 @@ msgstr "ACTUALIZAR"
 
 msgid "Refresh"
 msgstr "Actualizar"
+
+msgid "Remove"
+msgstr "Levar"
 
 msgid "Retry"
 msgstr "Tornatz ensajar"
@@ -285,6 +326,9 @@ msgstr "URL de la seria pas trobada"
 msgid "Series URL not found."
 msgstr "L'URL de la seria pas trobada."
 
+msgid "Start/Pause"
+msgstr "Començar/Pausa"
+
 msgid "TMDB API key not found"
 msgstr "La clau API TMDB pas trobada"
 
@@ -306,6 +350,9 @@ msgstr "Temps d'espèra per las demandas de recèrca (segondas)"
 
 msgid "Title"
 msgstr "Títol"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Total: {} | Actiu: {} | Dossièr : {}"
 
 msgid "Type: %s"
 msgstr "Tipe : %s"

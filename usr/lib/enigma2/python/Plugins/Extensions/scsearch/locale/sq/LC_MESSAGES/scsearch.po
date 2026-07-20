@@ -64,11 +64,23 @@ msgstr "Gabim karte"
 msgid "Cards updated"
 msgstr "Kartat u përditësuan"
 
+msgid "Change Folder"
+msgstr "Ndrysho dosjen"
+
+msgid "Choose download folder"
+msgstr "Zgjidhni dosjen e shkarkimit"
+
+msgid "Clear Done"
+msgstr "Pastro U krye"
+
 msgid "Code:"
 msgstr "Kodi:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kodi: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "E përfunduar"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Përmbajtja nga Altadefinizone - Shtypni OK për të hapur..."
@@ -84,6 +96,13 @@ msgstr "Detaje për: '%s'"
 
 msgid "Details not available"
 msgstr "Detajet nuk disponohen"
+
+msgid "Download Queue"
+msgstr "Radha e shkarkimit"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "ngarkim"
 
 msgid "ENTER"
 msgstr "HYN"
@@ -115,6 +134,10 @@ msgstr "Episodet"
 msgid "Episodes:"
 msgstr "Episodet:"
 
+#, fuzzy
+msgid "Error"
+msgstr "gabim"
+
 msgid "Error loading CB01 series"
 msgstr "Gabim gjatë ngarkimit të serisë CB01"
 
@@ -144,6 +167,9 @@ msgstr "GRUPET"
 
 msgid "History"
 msgstr "Historia"
+
+msgid "Invalid folder!"
+msgstr "Dosje e pavlefshme!"
 
 msgid "Invalid streaming URL"
 msgstr "URL e pavlefshme e transmetimit"
@@ -191,6 +217,9 @@ msgstr "Nuk ka përmbajtje"
 msgid "No content selected"
 msgstr "Nuk u zgjodh asnjë përmbajtje"
 
+msgid "No downloads in queue"
+msgstr "Nuk ka shkarkime në radhë"
+
 msgid "No episodes available"
 msgstr "Nuk ka episode të disponueshme"
 
@@ -209,11 +238,20 @@ msgstr "Nuk u gjetën lidhje transmetimi"
 msgid "No streaming links found."
 msgstr "Nuk u gjetën lidhje transmetimi"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Zgjidhni | KUQ = Hiq | E GJELBËR = Fillimi/Ndalo | BLU = Ndrysho dosjen"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Seriale televizive"
 
 msgid "PLAY"
 msgstr "LUAJ"
+
+msgid "Paused"
+msgstr "Në pauzë"
+
+msgid "Pending"
+msgstr "Në pritje"
 
 msgid "Playback error: %s"
 msgstr "Gabim riprodhimi: %s"
@@ -235,6 +273,9 @@ msgstr "REFRESH"
 
 msgid "Refresh"
 msgstr "Rifresko"
+
+msgid "Remove"
+msgstr "Hiq"
 
 msgid "Retry"
 msgstr "Provo sërish"
@@ -285,6 +326,9 @@ msgstr "URL-ja e serisë nuk u gjet"
 msgid "Series URL not found."
 msgstr "URL-ja e serisë nuk u gjet."
 
+msgid "Start/Pause"
+msgstr "Fillimi/Pauza"
+
 msgid "TMDB API key not found"
 msgstr "Çelësi TMDB API nuk u gjet"
 
@@ -306,6 +350,9 @@ msgstr "Koha për kërkesat e kërkimit (sekonda)"
 
 msgid "Title"
 msgstr "Titulli"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Gjithsej: {} | Aktiv: {} | Dosja: {}"
 
 msgid "Type: %s"
 msgstr "Lloji: %s"

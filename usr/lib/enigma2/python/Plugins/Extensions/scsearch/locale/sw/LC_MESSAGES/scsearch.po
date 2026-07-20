@@ -64,11 +64,23 @@ msgstr "Hitilafu ya kadi"
 msgid "Cards updated"
 msgstr "Kadi zimesasishwa"
 
+msgid "Change Folder"
+msgstr "Badilisha Folda"
+
+msgid "Choose download folder"
+msgstr "Chagua folda ya kupakua"
+
+msgid "Clear Done"
+msgstr "Wazi Umefanyika"
+
 msgid "Code:"
 msgstr "Msimbo:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Msimbo: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Imekamilika"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Maudhui kutoka Altadefinizione - Bonyeza Sawa ili kufungua..."
@@ -84,6 +96,13 @@ msgstr "Maelezo ya: '%s'"
 
 msgid "Details not available"
 msgstr "Maelezo hayapatikani"
+
+msgid "Download Queue"
+msgstr "Foleni ya Kupakua"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "kupakia"
 
 msgid "ENTER"
 msgstr "INGIA"
@@ -115,6 +134,10 @@ msgstr "Vipindi"
 msgid "Episodes:"
 msgstr "Vipindi:"
 
+#, fuzzy
+msgid "Error"
+msgstr "kosa"
+
 msgid "Error loading CB01 series"
 msgstr "Hitilafu katika kupakia mfululizo wa CB01"
 
@@ -144,6 +167,9 @@ msgstr "VIKUNDI"
 
 msgid "History"
 msgstr "Historia"
+
+msgid "Invalid folder!"
+msgstr "Folda batili!"
 
 msgid "Invalid streaming URL"
 msgstr "URL ya kutiririsha si sahihi"
@@ -191,6 +217,9 @@ msgstr "Hakuna maudhui"
 msgid "No content selected"
 msgstr "Hakuna maudhui yaliyochaguliwa"
 
+msgid "No downloads in queue"
+msgstr "Hakuna vipakuliwa kwenye foleni"
+
 msgid "No episodes available"
 msgstr "Hakuna vipindi vinavyopatikana"
 
@@ -209,11 +238,20 @@ msgstr "Hakuna viungo vya kutiririsha vilivyopatikana"
 msgid "No streaming links found."
 msgstr "Hakuna viungo vya kutiririsha vilivyopatikana"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Sawa = Chagua | NYEKUNDU = Ondoa | KIJANI = Anza/Sitisha | BLUE = Badilisha Folda"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Mfululizo wa TV"
 
 msgid "PLAY"
 msgstr "CHEZA"
+
+msgid "Paused"
+msgstr "Imesitishwa"
+
+msgid "Pending"
+msgstr "Inasubiri"
 
 msgid "Playback error: %s"
 msgstr "Hitilafu ya kucheza tena: %s"
@@ -235,6 +273,9 @@ msgstr "UPYA"
 
 msgid "Refresh"
 msgstr "Onyesha upya"
+
+msgid "Remove"
+msgstr "Ondoa"
 
 msgid "Retry"
 msgstr "Jaribu tena"
@@ -285,6 +326,9 @@ msgstr "URL ya mfululizo haijapatikana"
 msgid "Series URL not found."
 msgstr "URL ya mfululizo haijapatikana."
 
+msgid "Start/Pause"
+msgstr "Anza/Sitisha"
+
 msgid "TMDB API key not found"
 msgstr "Kitufe cha API ya TMDB hakijapatikana"
 
@@ -306,6 +350,9 @@ msgstr "Muda wa maombi ya utafutaji umekwisha (sekunde)"
 
 msgid "Title"
 msgstr "Kichwa"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Jumla: {} | Inayotumika: {} | Folda: {}"
 
 msgid "Type: %s"
 msgstr "Aina: %s"

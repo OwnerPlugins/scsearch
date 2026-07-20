@@ -64,11 +64,23 @@ msgstr "కార్డ్ లోపం"
 msgid "Cards updated"
 msgstr "కార్డ్‌లు నవీకరించబడ్డాయి"
 
+msgid "Change Folder"
+msgstr "ఫోల్డర్ మార్చండి"
+
+msgid "Choose download folder"
+msgstr "డౌన్‌లోడ్ ఫోల్డర్‌ని ఎంచుకోండి"
+
+msgid "Clear Done"
+msgstr "క్లియర్ పూర్తయింది"
+
 msgid "Code:"
 msgstr "కోడ్:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "కోడ్: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "పూర్తయింది"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione నుండి కంటెంట్ - తెరవడానికి సరే నొక్కండి..."
@@ -84,6 +96,13 @@ msgstr "దీని వివరాలు: '%s'"
 
 msgid "Details not available"
 msgstr "వివరాలు అందుబాటులో లేవు"
+
+msgid "Download Queue"
+msgstr "డౌన్‌లోడ్ క్యూ"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "లోడ్ అవుతోంది"
 
 msgid "ENTER"
 msgstr "నమోదు చేయండి"
@@ -115,6 +134,10 @@ msgstr "ఎపిసోడ్‌లు"
 msgid "Episodes:"
 msgstr "ఎపిసోడ్‌లు:"
 
+#, fuzzy
+msgid "Error"
+msgstr "లోపం"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 సిరీస్‌ను లోడ్ చేయడంలో లోపం"
 
@@ -144,6 +167,9 @@ msgstr "సమూహాలు"
 
 msgid "History"
 msgstr "చరిత్ర"
+
+msgid "Invalid folder!"
+msgstr "చెల్లని ఫోల్డర్!"
 
 msgid "Invalid streaming URL"
 msgstr "చెల్లని స్ట్రీమింగ్ URL"
@@ -191,6 +217,9 @@ msgstr "కంటెంట్ లేదు"
 msgid "No content selected"
 msgstr "కంటెంట్ ఏదీ ఎంచుకోబడలేదు"
 
+msgid "No downloads in queue"
+msgstr "క్యూలో డౌన్‌లోడ్‌లు లేవు"
+
 msgid "No episodes available"
 msgstr "ఎపిసోడ్‌లు ఏవీ అందుబాటులో లేవు"
 
@@ -209,11 +238,20 @@ msgstr "స్ట్రీమింగ్ లింక్‌లు ఏవీ క
 msgid "No streaming links found."
 msgstr "స్ట్రీమింగ్ లింక్‌లు ఏవీ కనుగొనబడలేదు"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = ఎంచుకోండి | RED = తొలగించు | GREEN = ప్రారంభం/పాజ్ | BLUE = ఫోల్డర్‌ని మార్చండి"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - TV సిరీస్"
 
 msgid "PLAY"
 msgstr "ఆడండి"
+
+msgid "Paused"
+msgstr "పాజ్ చేయబడింది"
+
+msgid "Pending"
+msgstr "పెండింగ్‌లో ఉంది"
 
 msgid "Playback error: %s"
 msgstr "ప్లేబ్యాక్ లోపం: %s"
@@ -235,6 +273,9 @@ msgstr "రిఫ్రెష్ చేయండి"
 
 msgid "Refresh"
 msgstr "రిఫ్రెష్ చేయండి"
+
+msgid "Remove"
+msgstr "తొలగించు"
 
 msgid "Retry"
 msgstr "మళ్లీ ప్రయత్నించండి"
@@ -285,6 +326,9 @@ msgstr "సిరీస్ URL కనుగొనబడలేదు"
 msgid "Series URL not found."
 msgstr "సిరీస్ URL కనుగొనబడలేదు."
 
+msgid "Start/Pause"
+msgstr "ప్రారంభం/పాజ్"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API కీ కనుగొనబడలేదు"
 
@@ -306,6 +350,9 @@ msgstr "శోధన అభ్యర్థనల గడువు ముగిస
 
 msgid "Title"
 msgstr "శీర్షిక"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "మొత్తం: {} | సక్రియం: {} | ఫోల్డర్: {}"
 
 msgid "Type: %s"
 msgstr "రకం: %s"

@@ -64,11 +64,23 @@ msgstr "Карта хата"
 msgid "Cards updated"
 msgstr "Карточкалар яңартылды"
 
+msgid "Change Folder"
+msgstr "Папканы үзгәртү"
+
+msgid "Choose download folder"
+msgstr "Йөкләү папкасын сайлагыз"
+
+msgid "Clear Done"
+msgstr "Чистартылды"
+
 msgid "Code:"
 msgstr "Код:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Код: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Тәмамланды"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione эчтәлеге - ачу өчен ОК басыгыз ..."
@@ -84,6 +96,13 @@ msgstr "Детальләр: '% s'"
 
 msgid "Details not available"
 msgstr "Детальләр юк"
+
+msgid "Download Queue"
+msgstr "Чиратны йөкләү"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "йөкләү"
 
 msgid "ENTER"
 msgstr "Керү"
@@ -115,6 +134,10 @@ msgstr "Эпизодлар"
 msgid "Episodes:"
 msgstr "Эпизодлар:"
 
+#, fuzzy
+msgid "Error"
+msgstr "хата"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 сериясен йөкләүдә хата"
 
@@ -144,6 +167,9 @@ msgstr "Төркемнәр"
 
 msgid "History"
 msgstr "Тарих"
+
+msgid "Invalid folder!"
+msgstr "Яраксыз папка!"
 
 msgid "Invalid streaming URL"
 msgstr "Яраксыз агым URL"
@@ -191,6 +217,9 @@ msgstr "Эчтәлек юк"
 msgid "No content selected"
 msgstr "Эчтәлек сайланмаган"
 
+msgid "No downloads in queue"
+msgstr "Йөкләүләр чиратта юк"
+
 msgid "No episodes available"
 msgstr "Эпизодлар юк"
 
@@ -209,11 +238,20 @@ msgstr "Агымдагы сылтамалар табылмады"
 msgid "No streaming links found."
 msgstr "Агымдагы сылтамалар табылмады"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "Ярар = Сайлагыз | КЫЗЫЛ = бетерү | Яшел = Башлау / Пауза | Зәңгәр = Папканы үзгәртү"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - сериаллар"
 
 msgid "PLAY"
 msgstr "Уйна"
+
+msgid "Paused"
+msgstr "Пауза"
+
+msgid "Pending"
+msgstr "Көтелгән"
 
 msgid "Playback error: %s"
 msgstr "Уйнау хата:% s"
@@ -235,6 +273,9 @@ msgstr "РЕФРЕШ"
 
 msgid "Refresh"
 msgstr "Яңарту"
+
+msgid "Remove"
+msgstr "Чыгар"
 
 msgid "Retry"
 msgstr "Кабатлап карагыз"
@@ -285,6 +326,9 @@ msgstr "Серия URL табылмады"
 msgid "Series URL not found."
 msgstr "Серия URL табылмады."
 
+msgid "Start/Pause"
+msgstr "Башлау / Пауза"
+
 msgid "TMDB API key not found"
 msgstr "TMDB API ачкычы табылмады"
 
@@ -306,6 +350,9 @@ msgstr "Эзләү соравы вакыты (секундлар)"
 
 msgid "Title"
 msgstr "Титул"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Барлыгы: {} | Актив: {} | Папка: {}"
 
 msgid "Type: %s"
 msgstr "Төре:% s"

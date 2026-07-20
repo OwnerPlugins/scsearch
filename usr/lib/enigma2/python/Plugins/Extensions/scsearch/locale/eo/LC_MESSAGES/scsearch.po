@@ -64,11 +64,23 @@ msgstr "Karto-eraro"
 msgid "Cards updated"
 msgstr "Kartoj ĝisdatigitaj"
 
+msgid "Change Folder"
+msgstr "Ŝanĝi Dosierujon"
+
+msgid "Choose download folder"
+msgstr "Elektu elŝutan dosierujon"
+
+msgid "Clear Done"
+msgstr "Klara Farita"
+
 msgid "Code:"
 msgstr "Kodo:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Kodo: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Kompletigita"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Enhavo de Altadefinizione - Premu OK por malfermi..."
@@ -84,6 +96,13 @@ msgstr "Detaloj por: '%s'"
 
 msgid "Details not available"
 msgstr "Detaloj ne haveblaj"
+
+msgid "Download Queue"
+msgstr "Elŝuta Queue"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "ŝarĝo"
 
 msgid "ENTER"
 msgstr "ENTER"
@@ -115,6 +134,10 @@ msgstr "Epizodoj"
 msgid "Episodes:"
 msgstr "Epizodoj:"
 
+#, fuzzy
+msgid "Error"
+msgstr "eraro"
+
 msgid "Error loading CB01 series"
 msgstr "Eraro dum ŝarĝo de CB01-serio"
 
@@ -144,6 +167,9 @@ msgstr "GRUPOJ"
 
 msgid "History"
 msgstr "Historio"
+
+msgid "Invalid folder!"
+msgstr "Nevalida dosierujo!"
 
 msgid "Invalid streaming URL"
 msgstr "Nevalida streaming URL"
@@ -191,6 +217,9 @@ msgstr "Neniu enhavo"
 msgid "No content selected"
 msgstr "Neniu enhavo elektita"
 
+msgid "No downloads in queue"
+msgstr "Neniuj elŝutoj en vosto"
+
 msgid "No episodes available"
 msgstr "Neniuj epizodoj haveblaj"
 
@@ -209,11 +238,20 @@ msgstr "Neniuj fluaj ligiloj trovitaj"
 msgid "No streaming links found."
 msgstr "Neniuj fluaj ligiloj trovitaj"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Elektu | RUĜA = Forigi | VERDA = Komenco/Paŭzo | BLUE = Ŝanĝi dosierujon"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Televidserio"
 
 msgid "PLAY"
 msgstr "LUDU"
+
+msgid "Paused"
+msgstr "Paŭzita"
+
+msgid "Pending"
+msgstr "Pritraktata"
 
 msgid "Playback error: %s"
 msgstr "Eraro de reprodukto: %s"
@@ -235,6 +273,9 @@ msgstr "Refreŝigi"
 
 msgid "Refresh"
 msgstr "Refreŝigi"
+
+msgid "Remove"
+msgstr "Forigi"
 
 msgid "Retry"
 msgstr "Reprovi"
@@ -285,6 +326,9 @@ msgstr "Serio URL ne trovita"
 msgid "Series URL not found."
 msgstr "Serio URL ne trovita."
 
+msgid "Start/Pause"
+msgstr "Komenco/Paŭzo"
+
 msgid "TMDB API key not found"
 msgstr "TMDB-API-ŝlosilo ne trovita"
 
@@ -306,6 +350,9 @@ msgstr "Tempo por serĉpetoj (sekundoj)"
 
 msgid "Title"
 msgstr "Titolo"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Sumo: {} | Aktiva: {} | Dosierujo: {}"
 
 msgid "Type: %s"
 msgstr "Tajpu: %s"

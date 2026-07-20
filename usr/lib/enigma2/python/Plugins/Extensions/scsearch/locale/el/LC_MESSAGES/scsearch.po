@@ -64,11 +64,23 @@ msgstr "Σφάλμα κάρτας"
 msgid "Cards updated"
 msgstr "Οι κάρτες ενημερώθηκαν"
 
+msgid "Change Folder"
+msgstr "Αλλαγή φακέλου"
+
+msgid "Choose download folder"
+msgstr "Επιλέξτε τον φάκελο λήψης"
+
+msgid "Clear Done"
+msgstr "Εκκαθάριση Ολοκληρώθηκε"
+
 msgid "Code:"
 msgstr "Κώδικας:"
 
 msgid "Code: {self.captcha_code}"
 msgstr "Κωδικός: {self.captcha_code}"
+
+msgid "Completed"
+msgstr "Ολοκληρώθηκε το"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Περιεχόμενο από το Altadefinizone - Πατήστε OK για να ανοίξετε..."
@@ -84,6 +96,13 @@ msgstr "Λεπτομέρειες για: '%s'"
 
 msgid "Details not available"
 msgstr "Λεπτομέρειες δεν είναι διαθέσιμες"
+
+msgid "Download Queue"
+msgstr "Ουρά λήψης"
+
+#, fuzzy
+msgid "Downloading"
+msgstr "φόρτωση"
 
 msgid "ENTER"
 msgstr "ΕΙΣΑΓΩ"
@@ -115,6 +134,10 @@ msgstr "Επεισόδια"
 msgid "Episodes:"
 msgstr "Επεισόδια:"
 
+#, fuzzy
+msgid "Error"
+msgstr "σφάλμα"
+
 msgid "Error loading CB01 series"
 msgstr "Σφάλμα κατά τη φόρτωση της σειράς CB01"
 
@@ -144,6 +167,9 @@ msgstr "ΟΜΑΔΕΣ"
 
 msgid "History"
 msgstr "Ιστορία"
+
+msgid "Invalid folder!"
+msgstr "Μη έγκυρος φάκελος!"
 
 msgid "Invalid streaming URL"
 msgstr "Μη έγκυρη διεύθυνση URL ροής"
@@ -191,6 +217,9 @@ msgstr "Χωρίς περιεχόμενο"
 msgid "No content selected"
 msgstr "Δεν έχει επιλεγεί περιεχόμενο"
 
+msgid "No downloads in queue"
+msgstr "Δεν υπάρχουν λήψεις στην ουρά"
+
 msgid "No episodes available"
 msgstr "Δεν υπάρχουν διαθέσιμα επεισόδια"
 
@@ -209,11 +238,20 @@ msgstr "Δεν βρέθηκαν σύνδεσμοι ροής"
 msgid "No streaming links found."
 msgstr "Δεν βρέθηκαν σύνδεσμοι ροής"
 
+msgid "OK = Select  |  RED = Remove  |  GREEN = Start/Pause  |  BLUE = Change Folder"
+msgstr "OK = Επιλέξτε | ΚΟΚΚΙΝΟ = Αφαίρεση | ΠΡΑΣΙΝΟ = Έναρξη/Παύση | ΜΠΛΕ = Αλλαγή φακέλου"
+
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Τηλεοπτικές σειρές"
 
 msgid "PLAY"
 msgstr "ΠΑΙΧΝΙΔΙ"
+
+msgid "Paused"
+msgstr "Σε παύση"
+
+msgid "Pending"
+msgstr "Εκκρεμής"
 
 msgid "Playback error: %s"
 msgstr "Σφάλμα αναπαραγωγής: %s"
@@ -235,6 +273,9 @@ msgstr "ΦΡΕΣΚΑΡΩ"
 
 msgid "Refresh"
 msgstr "Φρεσκάρω"
+
+msgid "Remove"
+msgstr "Αφαιρώ"
 
 msgid "Retry"
 msgstr "Δοκιμάζω πάλι"
@@ -285,6 +326,9 @@ msgstr "Το URL σειράς δεν βρέθηκε"
 msgid "Series URL not found."
 msgstr "Το URL σειράς δεν βρέθηκε."
 
+msgid "Start/Pause"
+msgstr "Έναρξη/Παύση"
+
 msgid "TMDB API key not found"
 msgstr "Το κλειδί API TMDB δεν βρέθηκε"
 
@@ -306,6 +350,9 @@ msgstr "Χρονικό όριο για αιτήματα αναζήτησης (δ
 
 msgid "Title"
 msgstr "Τίτλος"
+
+msgid "Total: {}  |  Active: {}  |  Folder: {}"
+msgstr "Σύνολο: {} | Ενεργό: {} | Φάκελος: {}"
 
 msgid "Type: %s"
 msgstr "Τύπος: %s"
