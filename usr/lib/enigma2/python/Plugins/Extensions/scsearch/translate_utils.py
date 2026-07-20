@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-# Copyright (c) @Lululla 2026
-# Google Translate API for Foreca One Weather Plugin
+"""
+##############################################################################
+Generic Translation Management Script for Enigma2 Plugins
+Created by: Lululla
+Integrates Google Translate auto-translation for missing strings
+##############################################################################
+Last Updated: 2026-05-27
+##############################################################################
+"""
 
 import hashlib
 import json

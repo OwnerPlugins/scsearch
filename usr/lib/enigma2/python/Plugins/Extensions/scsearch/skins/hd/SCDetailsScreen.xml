@@ -9,11 +9,12 @@
     <widget name="description_panel" position="660,140" size="580,200" font="Regular;16" foregroundColor="#aab2c0" backgroundColor="#151922" zPosition="1" />
 
     <widget name="season_label" position="360,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
-    <widget name="season_list" position="360,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" />
+    <widget name="season_list" position="360,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" scrollbarMode="showNever" />
 
     <widget name="episode_label" position="680,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
-    <widget name="episode_list" position="680,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" />
+    <widget name="episode_list" position="680,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" scrollbarMode="showNever" />
 
-    <widget name="key_red" position="40,650" size="100,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" zPosition="1" />
-    <widget name="key_green" position="150,650" size="130,30" font="Regular;18" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" zPosition="1" />
+    <widget name="key_red" position="40,650" size="130,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" zPosition="1" />
+    <widget name="key_green" position="185,650" size="130,30" font="Regular;18" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" zPosition="1" />
+    <widget name="key_yellow" position="330,650" size="130,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="1" />
 </screen>

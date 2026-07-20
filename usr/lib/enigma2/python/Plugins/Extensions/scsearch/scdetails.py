@@ -14,6 +14,8 @@ from Components.Pixmap import Pixmap
 from Screens.InfoBar import MoviePlayer
 from .logger import get_logger
 from .search_functions import get_title_details
+from .download_manager import download_manager
+
 from . import _, load_skin
 
 log = get_logger()
@@ -48,6 +50,7 @@ class SCDetailsScreen(Screen):
         self["description_panel"] = Label("")
         self["key_red"] = Label(_("EXIT"))
         self["key_green"] = Label(_("PLAY"))
+        self["key_yellow"] = Label(_("DOWNLOAD"))
 
         self.picload = None
         self.cover_temp_path = "/tmp/scdetails_cover.jpg"
@@ -82,6 +85,7 @@ class SCDetailsScreen(Screen):
             "cancel": self.close,
             "red": self.close,
             "green": self.play_content,
+            "yellow": self.add_to_download_queue,
             "left": self.keyLeft,
             "right": self.keyRight,
             "up": self.keyUp,
@@ -96,6 +100,73 @@ class SCDetailsScreen(Screen):
         self.onClose.append(self.__onClose)
 
         self.playback_session = None
+
+    def add_to_download_queue(self):
+        """Add current content to download queue."""
+        if not self.details:
+            return
+
+        # Get stream URL (reuse logic from play_content)
+        stream_url = self._get_stream_url_for_download()
+        if not stream_url:
+            self.session.open(MessageBox, _("Unable to get stream URL for download"), MessageBox.TYPE_ERROR)
+            return
+
+        # Determine media type
+        media_type = "movie"
+        season = 0
+        episode = 0
+        if self.details.get("type") == "TvSeries":
+            media_type = "tv"
+            season = self.selected_season
+            episode = self.selected_episode
+
+        # Add to queue
+        item_id = download_manager.add_item(
+            title=self.title,
+            url=stream_url,
+            media_type=media_type,
+            season=season,
+            episode=episode,
+            poster=self.details.get("poster", "")
+        )
+
+        self.session.open(MessageBox, _("Added to download queue!\nID: {}").format(item_id), MessageBox.TYPE_INFO)
+
+    def _get_stream_url_for_download(self):
+        """Get stream URL for current selection (without playing)."""
+        # --- CB01 ---
+        if self.details.get('source') == 'cb01':
+            if self.details.get('type') == 'TvSeries':
+                episodes = self.seasons_data.get(self.selected_season, [])
+                if episodes:
+                    return episodes[0].get('url')
+            else:
+                links = self.details.get('streaming_links', [])
+                if links:
+                    return links[0].get('url')
+            return None
+
+        # --- ALTADEFINIZIONE ---
+        if self.details.get('source') == 'altadefinizione':
+            # Similar to CB01
+            return None
+
+        # --- OnlineSerieTV ---
+        if self.details.get('source') == 'onlineserietv':
+            # For now, not supported for download via this method
+            return None
+
+        # --- StreamingCommunity ---
+        tmdb_id = self.details.get("tmdb_id")
+        if not tmdb_id:
+            return None
+        if self.details.get("type") == "Movie":
+            return "https://vixsrc.to/movie/{}".format(tmdb_id)
+        else:
+            return "https://vixsrc.to/tv/{}/{}/{}".format(
+                tmdb_id, self.selected_season, self.selected_episode
+            )
 
     def load_details(self):
         self._details_ready = False

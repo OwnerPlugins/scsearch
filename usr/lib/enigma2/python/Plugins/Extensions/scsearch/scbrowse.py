@@ -19,6 +19,8 @@ from Components.Pixmap import Pixmap
 from .logger import get_logger
 from .search_functions import scrape_category_page, get_api_instance, get_title_details
 from .TmdbFetcher import TmdbFetcher
+from .download_screen import DownloadManagerScreen
+
 from . import _, load_skin
 
 log = get_logger()
@@ -32,23 +34,23 @@ def get_streaming_community_url():
 BASE_URL = get_streaming_community_url()
 
 CATEGORIES = {
-    "Top 10 di oggi": "%s/it/browse/top10" % BASE_URL,
-    "I Titoli Del Momento": "%s/it/browse/trending" % BASE_URL,
-    "Aggiunti di Recente": "%s/it/browse/latest" % BASE_URL,
-    "Animazione": "%s/it/browse/genre?g=Animation" % BASE_URL,
-    "Avventura": "%s/it/browse/genre?g=Adventure" % BASE_URL,
-    "Azione": "%s/it/browse/genre?g=Action" % BASE_URL,
-    "Commedia": "%s/it/browse/genre?g=Comedy" % BASE_URL,
-    "Crime": "%s/it/browse/genre?g=Crime" % BASE_URL,
-    "Documentario": "%s/it/browse/genre?g=Documentary" % BASE_URL,
-    "Dramma": "%s/it/browse/genre?g=Drama" % BASE_URL,
-    "Famiglia": "%s/it/browse/genre?g=Family" % BASE_URL,
-    "Fantascienza": "%s/it/browse/genre?g=Science%%20Fiction" % BASE_URL,
-    "Fantasy": "%s/it/browse/genre?g=Fantasy" % BASE_URL,
-    "Horror": "%s/it/browse/genre?g=Horror" % BASE_URL,
-    "Reality": "%s/it/browse/genre?g=Reality" % BASE_URL,
-    "Romance": "%s/it/browse/genre?g=Romance" % BASE_URL,
-    "Thriller": "%s/it/browse/genre?g=Thriller" % BASE_URL,
+    _("Top 10 di oggi"): "%s/it/browse/top10" % BASE_URL,
+    _("I Titoli Del Momento"): "%s/it/browse/trending" % BASE_URL,
+    _("Aggiunti di Recente"): "%s/it/browse/latest" % BASE_URL,
+    _("Animazione"): "%s/it/browse/genre?g=Animation" % BASE_URL,
+    _("Avventura"): "%s/it/browse/genre?g=Adventure" % BASE_URL,
+    _("Azione"): "%s/it/browse/genre?g=Action" % BASE_URL,
+    _("Commedia"): "%s/it/browse/genre?g=Comedy" % BASE_URL,
+    _("Crime"): "%s/it/browse/genre?g=Crime" % BASE_URL,
+    _("Documentario"): "%s/it/browse/genre?g=Documentary" % BASE_URL,
+    _("Dramma"): "%s/it/browse/genre?g=Drama" % BASE_URL,
+    _("Famiglia"): "%s/it/browse/genre?g=Family" % BASE_URL,
+    _("Fantascienza"): "%s/it/browse/genre?g=Science%%20Fiction" % BASE_URL,
+    _("Fantasy"): "%s/it/browse/genre?g=Fantasy" % BASE_URL,
+    _("Horror"): "%s/it/browse/genre?g=Horror" % BASE_URL,
+    _("Reality"): "%s/it/browse/genre?g=Reality" % BASE_URL,
+    _("Romance"): "%s/it/browse/genre?g=Romance" % BASE_URL,
+    _("Thriller"): "%s/it/browse/genre?g=Thriller" % BASE_URL,
 }
 
 LOADING_CARD = {
@@ -164,9 +166,10 @@ class SCBrowseMain(Screen):
         self["carousel_title"] = Label(_("CONTENTS"))
         self["counter"] = Label("")
         self["hint"] = Label(
-            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"))
+            _("UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"))
         self["key_red"] = Label(_("EXIT"))
         self["key_green"] = Label(_("SEARCH"))
+        self["key_yellow"] = Label(_("DOWNLOADS"))
         self["key_blue"] = Label(_("REFRESH"))
 
         self["category_list"] = MenuList(self.category_names)
@@ -193,6 +196,7 @@ class SCBrowseMain(Screen):
             "cancel": self.close,
             "red": self.close,
             "green": self.open_search,
+            "yellow": self.open_download_manager,
             "blue": self.refresh_categories,
             "ok": self.ok_pressed,
             "left": self.keyLeft,
@@ -742,6 +746,9 @@ class SCBrowseMain(Screen):
     def open_search(self):
         from .scsearch import SCSearchMain
         self.session.open(SCSearchMain)
+
+    def open_download_manager(self):
+        self.session.open(DownloadManagerScreen)
 
     def keyUp(self):
         self.active_list = "categories"
