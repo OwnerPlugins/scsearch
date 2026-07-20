@@ -109,7 +109,10 @@ class SCDetailsScreen(Screen):
         # Get stream URL (reuse logic from play_content)
         stream_url = self._get_stream_url_for_download()
         if not stream_url:
-            self.session.open(MessageBox, _("Unable to get stream URL for download"), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox,
+                _("Unable to get stream URL for download"),
+                MessageBox.TYPE_ERROR)
             return
 
         # Determine media type
@@ -131,7 +134,10 @@ class SCDetailsScreen(Screen):
             poster=self.details.get("poster", "")
         )
 
-        self.session.open(MessageBox, _("Added to download queue!\nID: {}").format(item_id), MessageBox.TYPE_INFO)
+        self.session.open(
+            MessageBox,
+            _("Added to download queue!\nID: {}").format(item_id),
+            MessageBox.TYPE_INFO)
 
     def _get_stream_url_for_download(self):
         """Get stream URL for current selection (without playing)."""
