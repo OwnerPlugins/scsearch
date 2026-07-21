@@ -1,4 +1,4 @@
-<screen name="SCBrowseMain" position="center,center" size="720,576" title="SC Search - Home">
+<screen name="SCBrowseMain" position="1558,792" size="720,576" title="SC Search - Home">
     <widget name="bg" position="0,0" size="720,576" backgroundColor="#101216" zPosition="-2" />
     <widget name="top_band" position="0,0" size="720,68" backgroundColor="#171b22" zPosition="-1" />
     <widget name="brand" position="18,14" size="200,22" font="Regular;22" halign="left" valign="center" foregroundColor="#ffffff" backgroundColor="#171b22" transparent="1" />
@@ -52,5 +52,6 @@
     <widget name="key_red" position="20,535" size="72,24" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
     <widget name="key_green" position="98,535" size="72,24" font="Regular;14" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
     <widget name="key_blue" position="176,535" size="72,24" font="Regular;14" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#3f7fe8" />
-    <widget name="hint" position="265,535" size="420,24" font="Regular;14" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+    <widget name="key_yellow" position="255,535" size="72,24" font="Regular;14" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#fbb03b" />    
+    <widget name="hint" position="363,535" size="337,24" font="Regular;14" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
 </screen>

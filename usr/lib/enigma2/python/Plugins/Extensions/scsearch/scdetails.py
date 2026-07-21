@@ -123,7 +123,6 @@ class SCDetailsScreen(Screen):
             season = self.selected_season
             episode = self.selected_episode
 
-        # Costruisci il resolver in base alla fonte
         resolver = None
         if source == 'streamingcommunity':
             resolver = {
@@ -133,7 +132,6 @@ class SCDetailsScreen(Screen):
                 "episode": episode
             }
         elif source == 'cb01':
-            # CB01 ha già l'URL nel link hoster, lo passiamo direttamente
             resolver = {
                 "type": "direct",
                 "url": stream_url,
@@ -152,7 +150,7 @@ class SCDetailsScreen(Screen):
         elif source == 'onlineserietv':
             resolver = {
                 "type": "onlineserietv",
-                "url": self.details.get('url'),  # URL della pagina della serie
+                "url": self.details.get('url'),
                 "season": season,
                 "episode": episode
             }
@@ -169,7 +167,7 @@ class SCDetailsScreen(Screen):
 
         self.session.open(
             MessageBox,
-            _("Added to download queue!\nID: {}").format(item_id),
+            _("Added to download queue:\n{}").format(self.title),
             MessageBox.TYPE_INFO)
 
     def _get_stream_url_for_download(self):

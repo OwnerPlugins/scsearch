@@ -52,5 +52,6 @@
     <widget name="key_red" position="108,2022" size="384,84" font="Regular;50" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
     <widget name="key_green" position="522,2022" size="384,84" font="Regular;50" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
     <widget name="key_blue" position="936,2022" size="384,84" font="Regular;50" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#3f7fe8" />
-    <widget name="hint" position="1410,2022" size="2250,84" font="Regular;50" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+    <widget name="key_yellow" position="1355,2022" size="384,90" font="Regular;50" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="1" />
+    <widget name="hint" position="1905,2025" size="1850,84" font="Regular;50" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
 </screen>

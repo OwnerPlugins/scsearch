@@ -11,8 +11,8 @@ __license__ = "GPL-2.0"
 __version__ = "1.26"
 
 # Domain and path for translation files
-PLUGIN_DOMAIN = "scsearch"
-PLUGIN_LOCALE_PATH = os.path.join("Extensions", "scsearch", "locale")
+PluginLanguageDomain = "scsearch"
+PluginLanguagePath = os.path.join("Extensions", "scsearch", "locale")
 
 
 def locale_init():
@@ -20,14 +20,14 @@ def locale_init():
     lang = language.getLanguage()[:2]  # e.g. "en", "it"
     os.environ["LANGUAGE"] = lang
     gettext.bindtextdomain(
-        PLUGIN_DOMAIN,
-        resolveFilename(SCOPE_PLUGINS, PLUGIN_LOCALE_PATH)
+        PluginLanguageDomain,
+        resolveFilename(SCOPE_PLUGINS, PluginLanguagePath)
     )
 
 
 def _(txt):
     """Translate the given text using the plugin's domain."""
-    return gettext.dgettext(PLUGIN_DOMAIN, txt) if txt else ""
+    return gettext.dgettext(PluginLanguageDomain, txt) if txt else ""
 
 
 # Apply initialisation and register callback for language changes

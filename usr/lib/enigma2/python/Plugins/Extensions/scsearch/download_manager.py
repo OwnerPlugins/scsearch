@@ -11,7 +11,8 @@ from .logger import get_logger
 
 log = get_logger()
 
-QUEUE_FILE = "/tmp/scsearch_download_queue.json"
+# Persistente: salva la coda in /etc/enigma2/
+QUEUE_FILE = os.path.join("/etc/enigma2", "scsearch_download_queue.json")
 MIN_FREE_BYTES = 256 * 1024 * 1024
 
 
@@ -62,24 +63,60 @@ class DownloadManager:
             log.error("DM: Download folder does not exist: {}".format(path))
             return False
 
+    def _ensure_queue_dir(self):
+        """Ensure the directory for QUEUE_FILE exists."""
+        queue_dir = os.path.dirname(QUEUE_FILE)
+        if not os.path.exists(queue_dir):
+            try:
+                os.makedirs(queue_dir, mode=0o755)
+            except Exception as e:
+                log.error("DM: Failed to create queue directory: {}".format(e))
+
     def _load_queue(self):
         """Load queue from JSON file."""
+        self._ensure_queue_dir()
         try:
             if os.path.exists(QUEUE_FILE):
                 with open(QUEUE_FILE, 'r') as f:
                     self.queue = json.load(f)
                 log.info("DM: Loaded {} items from queue".format(len(self.queue)))
+            else:
+                self.queue = []
         except Exception as e:
             log.error("DM: Failed to load queue: {}".format(e))
             self.queue = []
 
     def _save_queue(self):
         """Save queue to JSON file."""
+        self._ensure_queue_dir()
         try:
             with open(QUEUE_FILE, 'w') as f:
                 json.dump(self.queue, f, indent=2)
         except Exception as e:
             log.error("DM: Failed to save queue: {}".format(e))
+
+    def _get_duration(self, url):
+        """Get duration in seconds from a stream URL using ffprobe."""
+        try:
+            ffprobe_path = shutil.which("ffprobe")
+            if not ffprobe_path:
+                log.warning("DM: ffprobe not found")
+                return 0
+            cmd = [
+                ffprobe_path,
+                "-v", "error",
+                "-show_entries", "format=duration",
+                "-of", "default=noprint_wrappers=1:nokey=1",
+                url
+            ]
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+            if result.returncode == 0 and result.stdout.strip():
+                duration = float(result.stdout.strip())
+                log.info("DM: Duration = {} seconds".format(int(duration)))
+                return int(duration)
+        except Exception as e:
+            log.warning("DM: Could not get duration: {}".format(e))
+        return 0
 
     def add_item(
             self,
@@ -89,7 +126,8 @@ class DownloadManager:
             season=0,
             episode=0,
             poster="",
-            resolver=None):
+            resolver=None,
+            duration=0):
         """Add a new item to the queue."""
         item_id = str(int(time.time() * 1000))
         item = {
@@ -101,6 +139,7 @@ class DownloadManager:
             "episode": episode,
             "poster": poster,
             "resolver": resolver,
+            "duration": duration,
             "status": "pending",
             "progress": 0,
             "size": 0,
@@ -117,7 +156,7 @@ class DownloadManager:
     def remove_item(self, item_id):
         """Remove an item from the queue."""
         if item_id in self.processes:
-            self._terminate_download(item_id)
+            self._terminate_download(item_id, user_paused=False)
         self.queue = [item for item in self.queue if item["id"] != item_id]
         self._save_queue()
         self._notify_ui()
@@ -132,24 +171,28 @@ class DownloadManager:
         item["status"] = "pending"
         item["error"] = ""
         item["downloaded"] = 0
+        item["progress"] = 0
         self._save_queue()
         self._notify_ui()
 
     def pause_item(self, item_id):
         """Pause a download."""
-        if item_id in self.processes:
-            self._terminate_download(item_id)
         item = self._get_item(item_id)
-        if item:
+        if not item:
+            return
+        if item["status"] == "downloading":
+            self._terminate_download(item_id, user_paused=True)
+        else:
             item["status"] = "paused"
             self._save_queue()
             self._notify_ui()
 
-    def _terminate_download(self, item_id):
+    def _terminate_download(self, item_id, user_paused=True):
         """Terminate the download process."""
         if item_id in self.processes:
             try:
                 self.processes[item_id].terminate()
+                self.processes[item_id].wait(timeout=2)
             except BaseException:
                 pass
             self.processes.pop(item_id, None)
@@ -157,7 +200,12 @@ class DownloadManager:
             self.workers.pop(item_id, None)
         item = self._get_item(item_id)
         if item:
-            item["status"] = "paused"
+            if user_paused:
+                item["status"] = "paused"
+            else:
+                item["status"] = "error"
+            self._save_queue()
+            self._notify_ui()
 
     def _get_item(self, item_id):
         for item in self.queue:
@@ -175,11 +223,16 @@ class DownloadManager:
         """Main loop for the download worker."""
         while True:
             try:
-                pending = [
-                    item for item in self.queue if item["status"] == "pending"]
-                if pending and len(self.workers) < self.max_parallel:
-                    item = pending[0]
-                    self._start_download(item)
+                # Find items that are ready to start
+                pending = [item for item in self.queue if item["status"] == "pending"]
+                for item in pending:
+                    if len(self.workers) < self.max_parallel:
+                        item["status"] = "waiting"
+                        self._save_queue()
+                        self._notify_ui()
+                        self._start_download(item)
+                    else:
+                        break
                 time.sleep(2)
             except Exception as e:
                 log.error("DM worker error: {}".format(e))
@@ -201,6 +254,38 @@ class DownloadManager:
 
         log.info("DM: FFmpeg check OK: {}".format(ffmpeg_path))
 
+        # Resolve stream URL before starting
+        try:
+            url = self._resolve_item_url(item)
+        except Exception as e:
+            item["status"] = "error"
+            item["error"] = "Unable to resolve stream: {}".format(e)
+            self._save_queue()
+            self._notify_ui()
+            log.error("DM: {}".format(item["error"]))
+            return
+
+        if not url:
+            item["status"] = "error"
+            item["error"] = "Unable to resolve stream URL"
+            self._save_queue()
+            self._notify_ui()
+            return
+
+        item["url"] = url
+
+        # Get duration for progress calculation
+        duration = self._get_duration(url)
+        if duration > 0:
+            item["duration"] = duration
+            log.info("DM: Duration set to {} seconds".format(duration))
+        else:
+            # Fallback: assume 3600 seconds (1 hour) if ffprobe fails
+            item["duration"] = 3600
+            log.warning("DM: Using fallback duration of 3600 seconds")
+        self._save_queue()
+
+        # Check free space
         try:
             free_bytes = shutil.disk_usage(self.download_folder).free
             if free_bytes < MIN_FREE_BYTES:
@@ -213,8 +298,6 @@ class DownloadManager:
                             external_folder, free_bytes // (1024 * 1024)))
                     self._notify_ui()
                 else:
-                    # Refuse to fall back to internal flash: a movie could
-                    # fill it and make the Enigma2 image unbootable.
                     item["status"] = "error"
                     item["error"] = (
                         "Insufficient free space ({} MB); no writable USB "
@@ -237,8 +320,7 @@ class DownloadManager:
             external_folder = self._find_external_download_folder()
             if external_folder:
                 self.download_folder = external_folder
-                log.info("DM: Using external storage: {}".format(
-                    external_folder))
+                log.info("DM: Using external storage: {}".format(external_folder))
                 self._notify_ui()
             else:
                 item["status"] = "error"
@@ -251,6 +333,8 @@ class DownloadManager:
         output_path = os.path.join(self.download_folder, output_filename)
         item["output_path"] = output_path
         item["status"] = "downloading"
+        item["progress"] = 0
+        item["downloaded"] = 0
         self._save_queue()
         self._notify_ui()
 
@@ -320,30 +404,7 @@ class DownloadManager:
         """Actual download logic using ffmpeg."""
         item_id = item["id"]
         output_path = item["output_path"]
-
-        try:
-            url = self._resolve_item_url(item)
-        except Exception as e:
-            item["status"] = "error"
-            item["error"] = "Unable to resolve stream: {}".format(e)
-            log.error("DM: {}".format(item["error"]))
-            self.workers.pop(item_id, None)
-            self._save_queue()
-            self._notify_ui()
-            return
-
-        if not url:
-            item["status"] = "error"
-            item["error"] = "Unable to resolve stream URL"
-            self.workers.pop(item_id, None)
-            self._save_queue()
-            self._notify_ui()
-            return
-
-        # Keep the last resolved URL for diagnostics.  On restart it is
-        # deliberately resolved again because signed HLS URLs expire.
-        item["url"] = url
-        self._save_queue()
+        url = item["url"]
 
         cmd = [
             ffmpeg_path,
@@ -380,6 +441,7 @@ class DownloadManager:
                 "end_time", "fps", "frame", "out_time", "out_time_ms",
                 "out_time_us", "packet", "progress", "speed",
                 "stream_0_0_q", "total_size"))
+            total_duration = item.get("duration", 3600)
 
             while True:
                 line = process.stderr.readline()
@@ -387,12 +449,13 @@ class DownloadManager:
                     break
                 if line.startswith("out_time_ms="):
                     try:
-                        # Despite its name, older ffmpeg builds commonly emit
-                        # microseconds for this progress field.
                         seconds = int(line.split("=", 1)[1].strip()) // 1000000
                         if seconds - last_progress_update >= 5:
                             last_progress_update = seconds
                             item["downloaded"] = seconds
+                            if total_duration > 0:
+                                progress = int((seconds / total_duration) * 100)
+                                item["progress"] = min(progress, 99)
                             self._save_queue()
                             self._notify_ui()
                     except BaseException:
@@ -400,14 +463,19 @@ class DownloadManager:
                 elif (line.strip() and
                       line.split("=", 1)[0].strip() not in progress_keys):
                     error_lines.append(line.strip())
-                    # Bound memory usage on long downloads while retaining the
-                    # useful final diagnostics emitted by ffmpeg.
                     if len(error_lines) > 20:
                         error_lines.pop(0)
 
+            # Check if process was terminated by user (pause)
+            if item.get("status") == "paused":
+                log.info("DM: Download paused by user: {}".format(output_path))
+                return
+
             if process.returncode == 0:
                 item["status"] = "completed"
+                item["progress"] = 100
                 log.info("DM: Download completed: {}".format(output_path))
+                self._create_meta_file(item)
             elif item.get("status") != "paused":
                 item["status"] = "error"
                 detail = " | ".join(error_lines[-5:])
@@ -417,9 +485,10 @@ class DownloadManager:
                 log.error("DM: Download failed: {}".format(item["error"]))
 
         except Exception as e:
-            item["status"] = "error"
-            item["error"] = str(e)
-            log.error("DM: Download error: {}".format(e))
+            if item.get("status") != "paused":
+                item["status"] = "error"
+                item["error"] = str(e)
+                log.error("DM: Download error: {}".format(e))
 
         finally:
             if item_id in self.processes:
@@ -429,43 +498,58 @@ class DownloadManager:
             self._save_queue()
             self._notify_ui()
 
+    def _create_meta_file(self, item):
+        """Create a .meta file with metadata for the downloaded content."""
+        try:
+            meta_path = item["output_path"] + ".meta"
+            with open(meta_path, "w", encoding='utf-8') as f:
+                f.write("title:{}\n".format(item["title"]))
+                f.write("media_type:{}\n".format(item["media_type"]))
+                if item["media_type"] == "tv":
+                    f.write("season:{}\n".format(item["season"]))
+                    f.write("episode:{}\n".format(item["episode"]))
+                f.write("date:{}\n".format(int(time.time())))
+                f.write("downloaded_from:SC Search\n")
+                if item.get("error"):
+                    f.write("error:{}\n".format(item["error"]))
+            log.info("DM: Meta file created: {}".format(meta_path))
+        except Exception as e:
+            log.error("DM: Failed to create meta file: {}".format(e))
+
     def _resolve_item_url(self, item):
         """Resolve stream URL just before download starts."""
         resolver = item.get("resolver") or {}
         resolver_type = resolver.get("type")
 
-        # --- VixSrc (StreamingCommunity) ---
         if resolver_type == "vixsrc":
             tmdb_id = resolver.get("tmdb_id")
             if not tmdb_id:
                 return None
-            season = resolver.get("season")
-            episode = resolver.get("episode")
+            season = resolver.get("season", 0)
+            episode = resolver.get("episode", 0)
             from .search_functions import resolve_vixsrc_stream
-            log.info(
-                "DM: Resolving VixSrc M3U8 for item {}".format(
-                    item["id"]))
+            log.info("DM: Resolving VixSrc M3U8 for item {}".format(item["id"]))
             return resolve_vixsrc_stream(tmdb_id, season, episode)
 
-        # --- Direct URL (CB01, Altadefinizione) ---
         elif resolver_type == "direct":
             url = resolver.get("url")
             if url:
+                # Ensure URL has protocol
+                if not url.startswith("http://") and not url.startswith("https://"):
+                    url = "https://" + url
                 log.info("DM: Using direct URL for item {}".format(item["id"]))
                 return url
             return item.get("url")
 
-        # --- OnlineSerieTV ---
         elif resolver_type == "onlineserietv":
-            # OnlineSerieTV requires an asynchronous callback, so we can't solve that here.
-            # Instead, we leave it as "direct" and use the URL already passed.
-            # For now, return the passed URL or log an error.
-            log.warning(
-                "DM: OnlineSerieTV resolver not yet implemented for synchronous download")
+            log.warning("DM: OnlineSerieTV resolver not yet implemented")
             return item.get("url")
 
-        # Fallback:
-        return item.get("url")
+        # Fallback: ensure URL has protocol
+        url = item.get("url")
+        if url and not url.startswith("http://") and not url.startswith("https://"):
+            url = "https://" + url
+        return url
 
     def _generate_filename(self, item):
         """Generate a safe filename from title and metadata."""
@@ -518,6 +602,20 @@ class DownloadManager:
                 "completed", "error")]
         self._save_queue()
         self._notify_ui()
+
+    def get_free_space(self):
+        """Return free space in bytes for the download folder."""
+        try:
+            return shutil.disk_usage(self.download_folder).free
+        except:
+            return 0
+
+    def get_total_space(self):
+        """Return total space in bytes for the download folder."""
+        try:
+            return shutil.disk_usage(self.download_folder).total
+        except:
+            return 0
 
 
 # Global instance

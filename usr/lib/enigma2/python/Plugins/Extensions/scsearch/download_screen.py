@@ -6,6 +6,7 @@ from Screens.LocationBox import LocationBox
 from Components.ActionMap import ActionMap
 from Components.Label import Label
 from Components.MenuList import MenuList
+from Components.ProgressBar import ProgressBar
 from enigma import eTimer
 from .logger import get_logger
 from . import _, load_skin
@@ -26,6 +27,8 @@ class DownloadManagerScreen(Screen):
         self["info"] = Label(_("Download Queue"))
         self["list"] = MenuList([])
         self["status_label"] = Label("")
+        self["diskspace"] = Label("")
+        self["progress_bar"] = ProgressBar()
         self["key_red"] = Label(_("Remove"))
         self["key_green"] = Label(_("Start/Pause"))
         self["key_yellow"] = Label(_("Clear Done"))
@@ -44,7 +47,7 @@ class DownloadManagerScreen(Screen):
 
         self.update_timer = eTimer()
         self.update_timer.callback.append(self.refresh)
-        self.update_timer.start(2000, False)
+        self.update_timer.start(1500, False)
 
         download_manager.register_ui_callback(self.refresh)
         self.onClose.append(self._on_close)
@@ -54,18 +57,32 @@ class DownloadManagerScreen(Screen):
         self.update_timer.stop()
         download_manager.unregister_ui_callback(self.refresh)
 
+    def get_current_item_id(self):
+        """Return the ID of the currently highlighted item."""
+        selection = self["list"].getCurrent()
+        if selection and len(selection) > 1 and selection[1]:
+            return selection[1]
+        return None
+
     def refresh(self):
         """Refresh the list from download manager."""
         queue = download_manager.get_queue()
         if not queue:
             self["list"].setList([(_("No downloads in queue"), None)])
             self["status_label"].setText("")
+            self["diskspace"].setText("")
+            self["progress_bar"].setValue(0)
             return
 
         items = []
+        active_count = 0
+        total_progress = 0
+        progress_count = 0
+
         for item in queue:
             status_map = {
                 "pending": _("Pending"),
+                "waiting": _("Waiting"),
                 "downloading": _("Downloading"),
                 "paused": _("Paused"),
                 "completed": _("Completed"),
@@ -74,45 +91,110 @@ class DownloadManagerScreen(Screen):
             status = status_map.get(item["status"], item["status"])
             title = item["title"]
             if item["media_type"] == "tv" and item["season"] > 0 and item["episode"] > 0:
-                title = "{} S{:02d}E{:02d}".format(
-                    title, item["season"], item["episode"])
-            display = "[{}] {}".format(status, title)
+                title = "{} S{:02d}E{:02d}".format(title, item["season"], item["episode"])
+
+            if item["status"] == "downloading":
+                progress = item.get("progress", 0)
+                # downloaded = item.get("downloaded", 0)
+                # duration = item.get("duration", 0)
+
+                # Barra di progresso disegnata con caratteri
+                bar_length = 20
+                filled = int((progress / 100) * bar_length) if progress > 0 else 0
+                bar = "█" * filled + "░" * (bar_length - filled)
+                display = "[{}] {}  {}  {}%".format(status, title, bar, progress)
+
+                active_count += 1
+                total_progress += progress
+                progress_count += 1
+            elif item["status"] == "waiting":
+                display = "[{}] {} - Queued".format(status, title)
+                active_count += 1
+            else:
+                display = "[{}] {}".format(status, title)
             items.append((display, item["id"]))
 
         self["list"].setList(items)
+        self.update_button_labels()
+
+        # Update global progress bar (average of active downloads)
+        if progress_count > 0:
+            avg_progress = total_progress // progress_count
+            self["progress_bar"].setValue(avg_progress)
+        else:
+            self["progress_bar"].setValue(0)
+
         total = len(queue)
-        active = len([i for i in queue if i["status"] == "downloading"])
-        folder = download_manager.download_folder
-        self["status_label"].setText(
-            _("Total: {}  |  Active: {}  |  Folder: {}").format(
-                total, active, folder))
+        completed = len([i for i in queue if i["status"] == "completed"])
+        errors = len([i for i in queue if i["status"] == "error"])
+        # folder = download_manager.download_folder
+
+        status_text = _("Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}").format(
+            total, active_count, completed, errors)
+        self["status_label"].setText(status_text)
+
+        free = download_manager.get_free_space()
+        total_space = download_manager.get_total_space()
+        if free > 0 and total_space > 0:
+            free_gb = free / (1024 * 1024 * 1024)
+            total_gb = total_space / (1024 * 1024 * 1024)
+            self["diskspace"].setText(_("Free: {:.2f} GB / {:.2f} GB").format(free_gb, total_gb))
+        else:
+            self["diskspace"].setText("")
+
+    def update_button_labels(self):
+        """Update GREEN button label based on selected item status."""
+        item_id = self.get_current_item_id()
+        if not item_id:
+            self["key_green"].setText(_("Start/Pause"))
+            return
+        item = download_manager._get_item(item_id)
+        if not item:
+            self["key_green"].setText(_("Start/Pause"))
+            return
+        status = item.get("status")
+        if status in ("pending", "waiting", "paused", "error"):
+            self["key_green"].setText(_("Start"))
+        elif status == "downloading":
+            self["key_green"].setText(_("Pause"))
+        elif status == "completed":
+            self["key_green"].setText("")
+        else:
+            self["key_green"].setText(_("Start"))
 
     def select_item(self):
         """Select an item from the list."""
-        selection = self["list"].getCurrent()
-        if selection and selection[1]:
-            self.selected_item_id = selection[1]
+        item_id = self.get_current_item_id()
+        if item_id:
+            self.selected_item_id = item_id
             log.info("DM UI: Selected item: {}".format(self.selected_item_id))
-
-    def remove_selected(self):
-        """Remove selected item from queue."""
-        if not self.selected_item_id:
-            return
-        download_manager.remove_item(self.selected_item_id)
-        self.selected_item_id = None
-        self.refresh()
+            self.update_button_labels()
 
     def toggle_selected(self):
         """Toggle start/pause for selected item."""
-        if not self.selected_item_id:
+        item_id = self.get_current_item_id()
+        if not item_id:
+            self.session.open(MessageBox, _("No item selected!"), MessageBox.TYPE_INFO)
             return
-        item = download_manager._get_item(self.selected_item_id)
+        item = download_manager._get_item(item_id)
         if not item:
             return
-        if item["status"] in ("pending", "paused", "error"):
-            download_manager.start_item(self.selected_item_id)
-        elif item["status"] == "downloading":
-            download_manager.pause_item(self.selected_item_id)
+        status = item.get("status")
+        if status in ("pending", "waiting", "paused", "error"):
+            download_manager.start_item(item_id)
+        elif status == "downloading":
+            download_manager.pause_item(item_id)
+        elif status == "completed":
+            self.session.open(MessageBox, _("Download already completed!"), MessageBox.TYPE_INFO)
+        self.refresh()
+
+    def remove_selected(self):
+        """Remove selected item from queue."""
+        item_id = self.get_current_item_id()
+        if not item_id:
+            self.session.open(MessageBox, _("No item selected!"), MessageBox.TYPE_INFO)
+            return
+        download_manager.remove_item(item_id)
         self.refresh()
 
     def clear_completed(self):
