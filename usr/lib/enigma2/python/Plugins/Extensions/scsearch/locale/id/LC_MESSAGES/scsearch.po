@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d judul"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILM ---"
 
@@ -22,23 +28,8 @@ msgstr "--- Pencarian baru ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SERI TV ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Definisi Tinggi] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nInformasi musim tidak tersedia"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nMusim: %d\nTotal episode: %d"
-
-msgid "%d titles"
-msgstr "%d judul"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 judul"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< Hapus Cron >>>"
@@ -49,17 +40,8 @@ msgstr ">>> Episode <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Musim <<<"
 
-msgid "0 titles"
-msgstr "0 judul"
-
-msgid "Added to download queue:\n{}"
-msgstr "Ditambahkan ke antrean unduhan:\n{}"
-
 msgid "Aggiunti di Recente"
 msgstr "Baru Ditambahkan"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinisione Movie\n\nTahun: %s\nGenre: %s\n\nTautan tersedia: %d\n\nTekan HIJAU untuk memutar"
 
 msgid "Animazione"
 msgstr "Animasi"
@@ -79,20 +61,20 @@ msgstr "Telusuri grup dan kartu dengan pengguliran horizontal"
 msgid "CANCEL"
 msgstr "MEMBATALKAN"
 
+msgid "CB01 playback error: %s"
+msgstr "Kesalahan pemutaran CB01: %s"
+
+msgid "CONFIRM"
+msgstr "MENGONFIRMASI"
+
+msgid "CONTENTS"
+msgstr "ISI"
+
 msgid "Card error"
 msgstr "Kesalahan kartu"
 
 msgid "Cards updated"
 msgstr "Kartu diperbarui"
-
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Film CB01\n\nTahun: %s\nGenre: %s\n\nTautan tersedia: %d\n\nTekan HIJAU untuk memutar"
-
-msgid "CB01 playback error: %s"
-msgstr "Kesalahan pemutaran CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Serial TV CB01\n\nMusim: %d\nTotal episode: %d\n\nTekan HIJAU untuk memutar"
 
 msgid "Change Folder"
 msgstr "Ganti Folder"
@@ -106,14 +88,14 @@ msgstr "Selesai Selesai"
 msgid "Code:"
 msgstr "Kode:"
 
+msgid "Code: {self.captcha_code}"
+msgstr "Kode: {self.captcha_code}"
+
 msgid "Commedia"
 msgstr "komedi"
 
 msgid "Completed"
 msgstr "Selesai"
-
-msgid "CONFIRM"
-msgstr "MENGONFIRMASI"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Konten dari Altadefinizione - Tekan OK untuk membuka..."
@@ -121,17 +103,20 @@ msgstr "Konten dari Altadefinizione - Tekan OK untuk membuka..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Konten dari CB01 - Tekan OK untuk membuka..."
 
-msgid "CONTENTS"
-msgstr "ISI"
-
 msgid "Crime"
 msgstr "Kejahatan"
+
+msgid "DOWNLOAD"
+msgstr "UNDUH"
+
+msgid "DOWNLOADS"
+msgstr "UNDUH"
 
 msgid "Description not available."
 msgstr "Deskripsi tidak tersedia."
 
-msgid "Description:\n\n%s"
-msgstr "Deskripsi:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Detail untuk: '%s'"
 
 msgid "Details not available"
 msgstr "Detail tidak tersedia"
@@ -139,35 +124,29 @@ msgstr "Detail tidak tersedia"
 msgid "Documentario"
 msgstr "Dokumenter"
 
-msgid "DOWNLOAD"
-msgstr "UNDUH"
+msgid "Download Queue"
+msgstr "Unduh Antrian"
 
 msgid "Download already completed!"
 msgstr "Pengunduhan sudah selesai!"
 
-msgid "Download folder changed to:\n{}"
-msgstr "Folder unduhan diubah menjadi:\n{}"
-
-msgid "Download Queue"
-msgstr "Unduh Antrian"
-
 msgid "Downloading"
 msgstr "Mengunduh"
 
-msgid "DOWNLOADS"
-msgstr "UNDUH"
-
 msgid "Dramma"
 msgstr "Drama"
+
+msgid "ENTER"
+msgstr "MEMASUKI"
+
+msgid "EXIT"
+msgstr "KELUAR"
 
 msgid "Enable debug"
 msgstr "Aktifkan debug"
 
 msgid "Enable debug output in logs"
 msgstr "Aktifkan keluaran debug di log"
-
-msgid "ENTER"
-msgstr "MEMASUKI"
 
 msgid "Enter Captcha Code"
 msgstr "Masukkan Kode Captcha"
@@ -187,26 +166,23 @@ msgstr "Episode"
 msgid "Episodes:"
 msgstr "Episode:"
 
-msgid "error"
-msgstr "kesalahan"
-
 msgid "Error"
 msgstr "Kesalahan"
 
-msgid "Error loading captcha"
-msgstr "Terjadi kesalahan saat memuat detail"
-
 msgid "Error loading CB01 series"
 msgstr "Terjadi kesalahan saat memuat seri CB01"
-
-msgid "Error loading details"
-msgstr "Terjadi kesalahan saat memuat detail"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Terjadi kesalahan saat memuat serial OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Terjadi kesalahan saat memuat TMDB"
+
+msgid "Error loading captcha"
+msgstr "Terjadi kesalahan saat memuat detail"
+
+msgid "Error loading details"
+msgstr "Terjadi kesalahan saat memuat detail"
 
 msgid "Error playing episode: %s"
 msgstr "Kesalahan saat memutar episode: %s"
@@ -215,9 +191,6 @@ msgid "Error updating UI"
 msgstr "Terjadi kesalahan saat memperbarui UI"
 
 msgid "Exit"
-msgstr "KELUAR"
-
-msgid "EXIT"
 msgstr "KELUAR"
 
 msgid "Famiglia"
@@ -256,9 +229,6 @@ msgstr "Navigasi KIRI/KANAN | Oke buka | NAIK kembali ke grup | KUNING = Unduhan
 msgid "Load error"
 msgstr "Kesalahan pemuatan"
 
-msgid "loading"
-msgstr "memuat"
-
 msgid "Loading details from TMDB..."
 msgstr "Memuat detail dari TMDB..."
 
@@ -279,9 +249,6 @@ msgstr "Sejarah Film"
 
 msgid "Movie history cleared"
 msgstr "Sejarah Film"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Movie\n\nTahun: %s\n\nPeringkat: %s/10\n\nGenre:\n%s\n\nTekan HIJAU untuk memutar"
 
 msgid "N/A"
 msgstr "T/A"
@@ -328,8 +295,8 @@ msgstr "Oke = Pilih | MERAH = Hapus | HIJAU = Mulai/Jeda | BIRU = Ganti Folder"
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serial TV"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nPeringkat: %s\n\nPembuat: %s"
+msgid "PLAY"
+msgstr "BERMAIN"
 
 msgid "Pause"
 msgstr "Berhenti sebentar"
@@ -340,17 +307,11 @@ msgstr "Dijeda"
 msgid "Pending"
 msgstr "Tertunda"
 
-msgid "PLAY"
-msgstr "BERMAIN"
-
 msgid "Playback error: %s"
 msgstr "Kesalahan pemutaran: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Tekan HIJAU (Film) atau KUNING (Serial TV) untuk mencari..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Tekan HIJAU untuk memasukkan kode\nTekan MERAH untuk membatalkan"
 
 msgid "Press GREEN to play"
 msgstr "Tekan HIJAU untuk memutar"
@@ -361,14 +322,14 @@ msgstr "Tekan oke"
 msgid "Press OK to view full details..."
 msgstr "Tekan OK untuk melihat rincian lengkap..."
 
+msgid "REFRESH"
+msgstr "MENYEGARKAN"
+
 msgid "Reality"
 msgstr "Realitas"
 
 msgid "Refresh"
 msgstr "Menyegarkan"
-
-msgid "REFRESH"
-msgstr "MENYEGARKAN"
 
 msgid "Remove"
 msgstr "Menghapus"
@@ -388,17 +349,20 @@ msgstr "MENCARI"
 msgid "Search History"
 msgstr "Riwayat Pencarian"
 
-msgid "Search history cleared"
-msgstr "Riwayat Pencarian"
-
 msgid "Search Movie"
 msgstr "Cari Film"
+
+msgid "Search TV Series"
+msgstr "Cari Serial TV"
+
+msgid "Search history cleared"
+msgstr "Riwayat Pencarian"
 
 msgid "Search timeout"
 msgstr "Batas waktu pencarian"
 
-msgid "Search TV Series"
-msgstr "Cari Serial TV"
+msgid "Searching for: '%s'"
+msgstr "Mencari: '%s'"
 
 msgid "Searching..."
 msgstr "Mencari..."
@@ -427,15 +391,6 @@ msgstr "Awal"
 msgid "Start/Pause"
 msgstr "Mulai/Jeda"
 
-msgid "Thriller"
-msgstr "Cerita menegangkan"
-
-msgid "Timeout for search requests (seconds)"
-msgstr "Batas waktu untuk permintaan pencarian (detik)"
-
-msgid "Title"
-msgstr "Judul"
-
 msgid "TMDB API key not found"
 msgstr "Kunci API TMDB tidak ditemukan"
 
@@ -445,38 +400,38 @@ msgstr "Kunci API TMDB tidak ditemukan atau tidak valid!"
 msgid "TMDB ID not found"
 msgstr "ID TMDB tidak ditemukan"
 
-msgid "Top 10 di oggi"
-msgstr "10 teratas hari ini"
-
-msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
-msgstr "Jumlah: {} | Aktif: {} | Selesai: {} | Kesalahan: {}"
-
 msgid "TV Series History"
 msgstr "Sejarah Serial TV"
 
 msgid "TV series history cleared"
 msgstr "Sejarah Serial TV"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Serial TV\n\nMusim: %d\nTotal episode: %d\n\nTahun: %s\n\nPeringkat: %s/10\n\nGenre:\n%s"
+msgid "Thriller"
+msgstr "Cerita menegangkan"
 
-msgid "TV Series\n%s"
-msgstr "Serial TV\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Batas waktu untuk permintaan pencarian (detik)"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Serial TV\nMusim: %d\nTotal episode: %d"
+msgid "Title"
+msgstr "Judul"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Serial TV\nMusim: %d\nTotal episode: %d\nTekan HIJAU untuk memutar"
+msgid "Top 10 di oggi"
+msgstr "10 teratas hari ini"
+
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "Jumlah: {} | Aktif: {} | Selesai: {} | Kesalahan: {}"
 
 msgid "Type: %s"
 msgstr "Jenis: %s"
 
-msgid "Unable to get stream for this episode"
-msgstr "Tidak dapat memperoleh streaming untuk episode ini"
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka | KUNING = Unduhan"
 
 msgid "Unable to get stream URL for download"
 msgstr "Tidak dapat memperoleh URL streaming untuk diunduh"
+
+msgid "Unable to get stream for this episode"
+msgstr "Tidak dapat memperoleh streaming untuk episode ini"
 
 msgid "Unable to get streaming URL"
 msgstr "Tidak dapat memperoleh URL streaming"
@@ -496,9 +451,6 @@ msgstr "Tidak dapat mengambil informasi dari TMDB."
 msgid "Unknown"
 msgstr "Tidak dikenal"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "Grup ATAS/BAWAH | Kartu KIRI/KANAN | Oke buka | KUNING = Unduhan"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Diperbarui, %d grup tidak tersedia"
 
@@ -508,9 +460,217 @@ msgstr "Memperbarui"
 msgid "Updating cards %d/%d"
 msgstr "Memperbarui kartu %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Gunakan tombol angka di remote\nuntuk memasukkan kode captcha\nGREEN = Konfirmasi, MERAH = Batal"
-
 msgid "Waiting"
 msgstr "Menunggu"
 
+msgid "[Altadefinizione] %s"
+msgstr "[Definisi Tinggi] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "kesalahan"
+
+msgid "loading"
+msgstr "memuat"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Informasi musim tidak tersedia"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Musim: %d\n"
+#~ "Total episode: %d"
+
+#~ msgid ""
+#~ "Added to download queue:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Ditambahkan ke antrean unduhan:\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinisione Movie\n"
+#~ "\n"
+#~ "Tahun: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Tautan tersedia: %d\n"
+#~ "\n"
+#~ "Tekan HIJAU untuk memutar"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Film CB01\n"
+#~ "\n"
+#~ "Tahun: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Tautan tersedia: %d\n"
+#~ "\n"
+#~ "Tekan HIJAU untuk memutar"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Serial TV CB01\n"
+#~ "\n"
+#~ "Musim: %d\n"
+#~ "Total episode: %d\n"
+#~ "\n"
+#~ "Tekan HIJAU untuk memutar"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Deskripsi:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Download folder changed to:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Folder unduhan diubah menjadi:\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Tahun: %s\n"
+#~ "\n"
+#~ "Peringkat: %s/10\n"
+#~ "\n"
+#~ "Genre:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Tekan HIJAU untuk memutar"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Peringkat: %s\n"
+#~ "\n"
+#~ "Pembuat: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Tekan HIJAU untuk memasukkan kode\n"
+#~ "Tekan MERAH untuk membatalkan"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Serial TV\n"
+#~ "\n"
+#~ "Musim: %d\n"
+#~ "Total episode: %d\n"
+#~ "\n"
+#~ "Tahun: %s\n"
+#~ "\n"
+#~ "Peringkat: %s/10\n"
+#~ "\n"
+#~ "Genre:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Serial TV\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Serial TV\n"
+#~ "Musim: %d\n"
+#~ "Total episode: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Serial TV\n"
+#~ "Musim: %d\n"
+#~ "Total episode: %d\n"
+#~ "Tekan HIJAU untuk memutar"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Gunakan tombol angka di remote\n"
+#~ "untuk memasukkan kode captcha\n"
+#~ "GREEN = Konfirmasi, MERAH = Batal"

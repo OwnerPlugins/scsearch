@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d sernav"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILM ---"
 
@@ -22,23 +28,8 @@ msgstr "--- Lêgerîna nû ---"
 msgid "--- TV SERIES ---"
 msgstr "--- RÊZE TV ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Pênaseya Bilind] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nAgahdariya demsalê tune"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nDemsal: %d\nTevahiya beşan: %d"
-
-msgid "%d titles"
-msgstr "%d sernav"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 sernav"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< Cron jê bibe >>>"
@@ -49,17 +40,8 @@ msgstr ">>> Episodes <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Demsal <<<"
 
-msgid "0 titles"
-msgstr "0 sernav"
-
-msgid "Added to download queue:\n{}"
-msgstr "Li dorê daxistinê hat zêdekirin:\n{}"
-
 msgid "Aggiunti di Recente"
 msgstr "Herî dawî lê zêde kirin"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nSal: %s\nCiwan: %s\n\nGirêdan berdest in: %d\n\nJi bo lîstinê GREEN bitikîne"
 
 msgid "Animazione"
 msgstr "Jayandarî"
@@ -79,20 +61,20 @@ msgstr "Kom û kartên bi geroka horizontal bigerin"
 msgid "CANCEL"
 msgstr "BIŞÛNDEKIRIN"
 
+msgid "CB01 playback error: %s"
+msgstr "Çewtiya lîstika CB01: %s"
+
+msgid "CONFIRM"
+msgstr "TESDÎQKIRIN"
+
+msgid "CONTENTS"
+msgstr "NAVEROK"
+
 msgid "Card error"
 msgstr "Çewtiya kartê"
 
 msgid "Cards updated"
 msgstr "Kartên nûve kirin"
-
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nSal: %s\nCiwan: %s\n\nGirêdan berdest in: %d\n\nJi bo lîstinê GREEN bitikîne"
-
-msgid "CB01 playback error: %s"
-msgstr "Çewtiya lîstika CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Rêzefîlma TV CB01\n\nDemsal: %d\nTevahiya beşan: %d\n\nJi bo lîstinê GREEN bitikîne"
 
 msgid "Change Folder"
 msgstr "Peldanka biguherînin"
@@ -106,14 +88,14 @@ msgstr "Clear Done"
 msgid "Code:"
 msgstr "Navê dizî:"
 
+msgid "Code: {self.captcha_code}"
+msgstr "Kod: {self.captcha_code}"
+
 msgid "Commedia"
 msgstr "Commedia"
 
 msgid "Completed"
 msgstr "Temam kirin"
-
-msgid "CONFIRM"
-msgstr "TESDÎQKIRIN"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Naveroka ji Altadefinizone - OK bikirtînin da ku vekin..."
@@ -121,17 +103,20 @@ msgstr "Naveroka ji Altadefinizone - OK bikirtînin da ku vekin..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Naveroka ji CB01 - OK bikirtînin da ku vekin..."
 
-msgid "CONTENTS"
-msgstr "NAVEROK"
-
 msgid "Crime"
 msgstr "Nebaşî"
+
+msgid "DOWNLOAD"
+msgstr "DOWNLOAD"
+
+msgid "DOWNLOADS"
+msgstr "DOWNLOADS"
 
 msgid "Description not available."
 msgstr "Danasîn peyda nabe."
 
-msgid "Description:\n\n%s"
-msgstr "Danasîn:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Agahiyên ji bo: '%s'"
 
 msgid "Details not available"
 msgstr "Hûrgulî ne berdest in"
@@ -139,35 +124,29 @@ msgstr "Hûrgulî ne berdest in"
 msgid "Documentario"
 msgstr "Documentary"
 
-msgid "DOWNLOAD"
-msgstr "DOWNLOAD"
+msgid "Download Queue"
+msgstr "Daxistina Doza"
 
 msgid "Download already completed!"
 msgstr "Daxistin jixwe qediya!"
 
-msgid "Download folder changed to:\n{}"
-msgstr "Peldanka dakêşandinê hate guherandin:\n{}"
-
-msgid "Download Queue"
-msgstr "Daxistina Doza"
-
 msgid "Downloading"
 msgstr "Daxistin"
 
-msgid "DOWNLOADS"
-msgstr "DOWNLOADS"
-
 msgid "Dramma"
 msgstr "Dilşewatî"
+
+msgid "ENTER"
+msgstr "DERBASBÛN"
+
+msgid "EXIT"
+msgstr "DERÎ"
 
 msgid "Enable debug"
 msgstr "Debugkirinê çalak bike"
 
 msgid "Enable debug output in logs"
 msgstr "Di têketinan de derketina debugkirinê çalak bike"
-
-msgid "ENTER"
-msgstr "DERBASBÛN"
 
 msgid "Enter Captcha Code"
 msgstr "Koda Captcha binivîse"
@@ -187,26 +166,23 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Episodes:"
 
-msgid "error"
-msgstr "şaşî"
-
 msgid "Error"
 msgstr "Şaşî"
 
-msgid "Error loading captcha"
-msgstr "Di barkirina hûragahiyan de çewtî"
-
 msgid "Error loading CB01 series"
 msgstr "Di barkirina rêzikên CB01 de çewtî"
-
-msgid "Error loading details"
-msgstr "Di barkirina hûragahiyan de çewtî"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Di barkirina rêzefîlmên OnlineSerieTV de çewtî"
 
 msgid "Error loading TMDB"
 msgstr "Di barkirina TMDB de çewtî"
+
+msgid "Error loading captcha"
+msgstr "Di barkirina hûragahiyan de çewtî"
+
+msgid "Error loading details"
+msgstr "Di barkirina hûragahiyan de çewtî"
 
 msgid "Error playing episode: %s"
 msgstr "Di lîstika beşê de çewtî: %s"
@@ -216,9 +192,6 @@ msgstr "Di nûvekirina UI de çewtî"
 
 msgid "Exit"
 msgstr "Derî"
-
-msgid "EXIT"
-msgstr "DERÎ"
 
 msgid "Famiglia"
 msgstr "Malbat"
@@ -256,9 +229,6 @@ msgstr "ÇEP/RAST navîgasyon | OK vekirî | UP vegere koman | ZER = Daxistin"
 msgid "Load error"
 msgstr "Çewtiya barkirinê"
 
-msgid "loading"
-msgstr "barkirin"
-
 msgid "Loading details from TMDB..."
 msgstr "Barkirina hûragahiyan ji TMDB..."
 
@@ -279,9 +249,6 @@ msgstr "Dîroka Fîlm"
 
 msgid "Movie history cleared"
 msgstr "Dîroka Fîlm"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Fîlm\n\nSal: %s\n\nNirxandin: %s/10\n\nCiwan:\n%s\n\nJi bo lîstinê GREEN bitikîne"
 
 msgid "N/A"
 msgstr "N/A"
@@ -328,8 +295,8 @@ msgstr "OK = Hilbijêre | SOR = Rake | KEŞK = Destpêk/Destpêk | ŞÎN = Pelda
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Rêzefîlmên TV"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nNirdar: %s\n\nAfirînerê: %s"
+msgid "PLAY"
+msgstr "BAZÎ"
 
 msgid "Pause"
 msgstr "Mizdan"
@@ -340,17 +307,11 @@ msgstr "Rawestiyan"
 msgid "Pending"
 msgstr "Nexelas"
 
-msgid "PLAY"
-msgstr "BAZÎ"
-
 msgid "Playback error: %s"
 msgstr "Çewtiya lêdanê: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Ji bo lêgerînê KESK (Fîlm) an ZER (Rêzika TV) bikirtînin..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Ji bo têketina kodê\nKESKê bikirtînin"
 
 msgid "Press GREEN to play"
 msgstr "Ji bo lîstinê GREEN çap bikin"
@@ -361,14 +322,14 @@ msgstr "Bitikîne OK"
 msgid "Press OK to view full details..."
 msgstr "Bitikîne OK ji bo dîtina hûrguliyên tevahî..."
 
+msgid "REFRESH"
+msgstr "HÊNIKKIRIN"
+
 msgid "Reality"
 msgstr "Rastî"
 
 msgid "Refresh"
 msgstr "Hênikkirin"
-
-msgid "REFRESH"
-msgstr "HÊNIKKIRIN"
 
 msgid "Remove"
 msgstr "Dûrxistin"
@@ -388,17 +349,20 @@ msgstr "GERR"
 msgid "Search History"
 msgstr "Dîroka Lêgerînê"
 
-msgid "Search history cleared"
-msgstr "Dîroka Lêgerînê"
-
 msgid "Search Movie"
 msgstr "Fîlm bigerin"
+
+msgid "Search TV Series"
+msgstr "Lêgerîna Rêze TV"
+
+msgid "Search history cleared"
+msgstr "Dîroka Lêgerînê"
 
 msgid "Search timeout"
 msgstr "Wextê lêgerînê"
 
-msgid "Search TV Series"
-msgstr "Lêgerîna Rêze TV"
+msgid "Searching for: '%s'"
+msgstr "Li: '%s' digere"
 
 msgid "Searching..."
 msgstr "Lêgerîn..."
@@ -427,15 +391,6 @@ msgstr "Destpêkirin"
 msgid "Start/Pause"
 msgstr "Destpêk/Pause"
 
-msgid "Thriller"
-msgstr "Thriller"
-
-msgid "Timeout for search requests (seconds)"
-msgstr "Demjimêr ji bo daxwazên lêgerînê (çirk)"
-
-msgid "Title"
-msgstr "Nav"
-
 msgid "TMDB API key not found"
 msgstr "Mifteya API-ya TMDB nehat dîtin"
 
@@ -445,38 +400,38 @@ msgstr "Mifteya API-ya TMDB nehat dîtin an nederbasdar e!"
 msgid "TMDB ID not found"
 msgstr "Nasnameya TMDB nehat dîtin"
 
-msgid "Top 10 di oggi"
-msgstr "10 topên îro"
-
-msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
-msgstr "Bi tevahî: {} | Çalak: {} | Qediya: {} | Çewtî: {}"
-
 msgid "TV Series History"
 msgstr "Dîroka Rêzefîlma TV"
 
 msgid "TV series history cleared"
 msgstr "Dîroka Rêzefîlma TV"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Rêzefîlmên TV\n\n Demsal: %d\nTevahiya beşan: %d\n\nSal: %s\n\nNirx: %s/10\n\nCiwan:\n%s"
+msgid "Thriller"
+msgstr "Thriller"
 
-msgid "TV Series\n%s"
-msgstr "Rêzefîlmên TV\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Demjimêr ji bo daxwazên lêgerînê (çirk)"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Rêzefîlmên TV\nDemsal: %d\nTevahiya beşan: %d"
+msgid "Title"
+msgstr "Nav"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Rêzefîlmên TV\nDemsal: %d\nTevahiya beşan: %d\nJi bo lîstinê GREEN bitikîne"
+msgid "Top 10 di oggi"
+msgstr "10 topên îro"
+
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "Bi tevahî: {} | Çalak: {} | Qediya: {} | Çewtî: {}"
 
 msgid "Type: %s"
 msgstr "Cure: %s"
 
-msgid "Unable to get stream for this episode"
-msgstr "Nekarî ji bo vê beşê weşana xwe bigire"
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Komên jor/jêr | kartên ÇEP/RAST | OK vekirî | ZER = Daxistin"
 
 msgid "Unable to get stream URL for download"
 msgstr "Nikare URL-ya weşanê ji bo dakêşandinê bistîne"
+
+msgid "Unable to get stream for this episode"
+msgstr "Nekarî ji bo vê beşê weşana xwe bigire"
 
 msgid "Unable to get streaming URL"
 msgstr "Nikare URL-ya weşana xwe bigire"
@@ -496,9 +451,6 @@ msgstr "Nikare agahiyê ji TMDB bigire."
 msgid "Unknown"
 msgstr "Nenas"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "Komên jor/jêr | kartên ÇEP/RAST | OK vekirî | ZER = Daxistin"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Hat nûvekirin, %d kom ne berdest in"
 
@@ -508,9 +460,217 @@ msgstr "Nûvekirin"
 msgid "Updating cards %d/%d"
 msgstr "Kartên %d/%d nûvekirin"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Bişkojkên hejmarî yên li ser dûravê bikar bînin\n da ku koda captcha têkevin\nKEK = Piştrast bike, SOR = Betal bike"
-
 msgid "Waiting"
 msgstr "Li benda"
 
+msgid "[Altadefinizione] %s"
+msgstr "[Pênaseya Bilind] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "şaşî"
+
+msgid "loading"
+msgstr "barkirin"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Agahdariya demsalê tune"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Demsal: %d\n"
+#~ "Tevahiya beşan: %d"
+
+#~ msgid ""
+#~ "Added to download queue:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Li dorê daxistinê hat zêdekirin:\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Sal: %s\n"
+#~ "Ciwan: %s\n"
+#~ "\n"
+#~ "Girêdan berdest in: %d\n"
+#~ "\n"
+#~ "Ji bo lîstinê GREEN bitikîne"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Sal: %s\n"
+#~ "Ciwan: %s\n"
+#~ "\n"
+#~ "Girêdan berdest in: %d\n"
+#~ "\n"
+#~ "Ji bo lîstinê GREEN bitikîne"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Rêzefîlma TV CB01\n"
+#~ "\n"
+#~ "Demsal: %d\n"
+#~ "Tevahiya beşan: %d\n"
+#~ "\n"
+#~ "Ji bo lîstinê GREEN bitikîne"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Danasîn:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Download folder changed to:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Peldanka dakêşandinê hate guherandin:\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Fîlm\n"
+#~ "\n"
+#~ "Sal: %s\n"
+#~ "\n"
+#~ "Nirxandin: %s/10\n"
+#~ "\n"
+#~ "Ciwan:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ji bo lîstinê GREEN bitikîne"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Nirdar: %s\n"
+#~ "\n"
+#~ "Afirînerê: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Ji bo têketina kodê\n"
+#~ "KESKê bikirtînin"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Rêzefîlmên TV\n"
+#~ "\n"
+#~ " Demsal: %d\n"
+#~ "Tevahiya beşan: %d\n"
+#~ "\n"
+#~ "Sal: %s\n"
+#~ "\n"
+#~ "Nirx: %s/10\n"
+#~ "\n"
+#~ "Ciwan:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Rêzefîlmên TV\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Rêzefîlmên TV\n"
+#~ "Demsal: %d\n"
+#~ "Tevahiya beşan: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Rêzefîlmên TV\n"
+#~ "Demsal: %d\n"
+#~ "Tevahiya beşan: %d\n"
+#~ "Ji bo lîstinê GREEN bitikîne"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Bişkojkên hejmarî yên li ser dûravê bikar bînin\n"
+#~ " da ku koda captcha têkevin\n"
+#~ "KEK = Piştrast bike, SOR = Betal bike"

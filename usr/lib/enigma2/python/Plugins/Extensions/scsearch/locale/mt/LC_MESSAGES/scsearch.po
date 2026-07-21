@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d titoli"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- FILM ---"
 
@@ -22,23 +28,8 @@ msgstr "--- Tiftix ġdid ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SERJE TAT-TV ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Definizzjoni Għolja] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nTagħrif dwar l-istaġun mhux disponibbli"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nStaġuni: %d\nEpisodji totali: %d"
-
-msgid "%d titles"
-msgstr "%d titoli"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 titoli"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< Ħassar Cron >>>"
@@ -49,17 +40,8 @@ msgstr ">>> Episodji <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Staġuni <<<"
 
-msgid "0 titles"
-msgstr "0 titoli"
-
-msgid "Added to download queue:\n{}"
-msgstr "Miżjud mal-kju tat-tniżżil: \n{}"
-
 msgid "Aggiunti di Recente"
 msgstr "Miżjud riċentement"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizzjoni Movie\n\nSena: %s\nGenere: %s\n\nLinks disponibbli: %d\n\nAgħfas AĦDAR biex tilgħab"
 
 msgid "Animazione"
 msgstr "Animazzjoni"
@@ -79,20 +61,20 @@ msgstr "Fittex gruppi u karti bi scrolling orizzontali"
 msgid "CANCEL"
 msgstr "IKANNELLA"
 
+msgid "CB01 playback error: %s"
+msgstr "Żball fil-plejbek CB01: %s"
+
+msgid "CONFIRM"
+msgstr "IKKONFERMA"
+
+msgid "CONTENTS"
+msgstr "KONTENUT"
+
 msgid "Card error"
 msgstr "Żball tal-karta"
 
 msgid "Cards updated"
 msgstr "Karti aġġornati"
-
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nSena: %s\nGenere: %s\n\nLinks disponibbli: %d\n\nAgħfas AĦDAR biex tilgħab"
-
-msgid "CB01 playback error: %s"
-msgstr "Żball fil-plejbek CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Serje tat-TV CB01\n\nStaġuni: %d\nEpisodji totali: %d\n\nAgħfas AĦDAR biex tilgħab"
 
 msgid "Change Folder"
 msgstr "Bidla Folder"
@@ -106,14 +88,14 @@ msgstr "Ċara Magħmul"
 msgid "Code:"
 msgstr "Kodiċi:"
 
+msgid "Code: {self.captcha_code}"
+msgstr "Kodiċi: {self.captcha_code}"
+
 msgid "Commedia"
 msgstr "Commedia"
 
 msgid "Completed"
 msgstr "Imlesta"
-
-msgid "CONFIRM"
-msgstr "IKKONFERMA"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Kontenut minn Altadefinizione - Agħfas OK biex tiftaħ..."
@@ -121,17 +103,20 @@ msgstr "Kontenut minn Altadefinizione - Agħfas OK biex tiftaħ..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Kontenut minn CB01 - Agħfas OK biex tiftaħ..."
 
-msgid "CONTENTS"
-msgstr "KONTENUT"
-
 msgid "Crime"
 msgstr "Kriminalità"
+
+msgid "DOWNLOAD"
+msgstr "DOWNLOAD"
+
+msgid "DOWNLOADS"
+msgstr "DOWNLOADS"
 
 msgid "Description not available."
 msgstr "Deskrizzjoni mhux disponibbli."
 
-msgid "Description:\n\n%s"
-msgstr "Deskrizzjoni:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Dettalji għal: '%s'"
 
 msgid "Details not available"
 msgstr "Dettalji mhux disponibbli"
@@ -139,35 +124,29 @@ msgstr "Dettalji mhux disponibbli"
 msgid "Documentario"
 msgstr "Dokumentarju"
 
-msgid "DOWNLOAD"
-msgstr "DOWNLOAD"
+msgid "Download Queue"
+msgstr "Niżżel Kju"
 
 msgid "Download already completed!"
 msgstr "Niżżel diġà tlesta!"
 
-msgid "Download folder changed to:\n{}"
-msgstr "Il-folder tat-tniżżil inbidel għal: \n{}"
-
-msgid "Download Queue"
-msgstr "Niżżel Kju"
-
 msgid "Downloading"
 msgstr "Tniżżil"
 
-msgid "DOWNLOADS"
-msgstr "DOWNLOADS"
-
 msgid "Dramma"
 msgstr "Drama"
+
+msgid "ENTER"
+msgstr "DĦUL"
+
+msgid "EXIT"
+msgstr "ĦRUĠ"
 
 msgid "Enable debug"
 msgstr "Ippermetti d-debug"
 
 msgid "Enable debug output in logs"
 msgstr "Ippermetti l-output tad-debug fir-zkuk"
-
-msgid "ENTER"
-msgstr "DĦUL"
 
 msgid "Enter Captcha Code"
 msgstr "Daħħal il-Kodiċi Captcha"
@@ -187,26 +166,23 @@ msgstr "Episodji"
 msgid "Episodes:"
 msgstr "Episodji:"
 
-msgid "error"
-msgstr "żball"
-
 msgid "Error"
 msgstr "Żball"
 
-msgid "Error loading captcha"
-msgstr "Żball fit-tagħbija tad-dettalji"
-
 msgid "Error loading CB01 series"
 msgstr "Żball fit-tagħbija tas-serje CB01"
-
-msgid "Error loading details"
-msgstr "Żball fit-tagħbija tad-dettalji"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Żball fit-tagħbija tas-serje OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Żball fit-tagħbija ta' TMDB"
+
+msgid "Error loading captcha"
+msgstr "Żball fit-tagħbija tad-dettalji"
+
+msgid "Error loading details"
+msgstr "Żball fit-tagħbija tad-dettalji"
 
 msgid "Error playing episode: %s"
 msgstr "Żball fil-logħob tal-episodju: %s"
@@ -216,9 +192,6 @@ msgstr "Żball fl-aġġornament tal-UI"
 
 msgid "Exit"
 msgstr "Ħruġ"
-
-msgid "EXIT"
-msgstr "ĦRUĠ"
 
 msgid "Famiglia"
 msgstr "Familja"
@@ -256,9 +229,6 @@ msgstr "innaviga Xellug/Lejn | OK miftuħa | UP lura għall-gruppi | ISFAR = Dow
 msgid "Load error"
 msgstr "Żball tat-tagħbija"
 
-msgid "loading"
-msgstr "tagħbija"
-
 msgid "Loading details from TMDB..."
 msgstr "Tagħbija d-dettalji minn TMDB..."
 
@@ -279,9 +249,6 @@ msgstr "Storja tal-films"
 
 msgid "Movie history cleared"
 msgstr "Storja tal-films"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Movie\n\nSena: %s\n\nKlassifikazzjoni: %s/10\n\nGenres:\n%s\n\nAgħfas AĦDAR biex tilgħab"
 
 msgid "N/A"
 msgstr "N/A"
@@ -328,8 +295,8 @@ msgstr "OK = Agħżel | AĦMAR = Neħħi | AĦDAR = Bidu/Pawża | BLUE = Bidla F
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Serje tat-TV"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nKlassifikazzjoni: %s\n\nĦallieq: %s"
+msgid "PLAY"
+msgstr "PLAY"
 
 msgid "Pause"
 msgstr "Waqfa"
@@ -340,17 +307,11 @@ msgstr "Waqfa qasira"
 msgid "Pending"
 msgstr "Pendenti"
 
-msgid "PLAY"
-msgstr "PLAY"
-
 msgid "Playback error: %s"
 msgstr "Żball fil-qari: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Agħfas GREEN (Film) jew ISFAR (Serje tat-TV) biex tfittex..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Agħfas GREEN biex iddaħħal il-kodiċi\nAgħfas AĦMAR biex tikkanċella"
 
 msgid "Press GREEN to play"
 msgstr "Agħfas GREEN biex tilgħab"
@@ -361,14 +322,14 @@ msgstr "Agħfas OK"
 msgid "Press OK to view full details..."
 msgstr "Agħfas OK biex tara d-dettalji sħaħ..."
 
+msgid "REFRESH"
+msgstr "AFFIKAR"
+
 msgid "Reality"
 msgstr "Realtà"
 
 msgid "Refresh"
 msgstr "Aġġorna"
-
-msgid "REFRESH"
-msgstr "AFFIKAR"
 
 msgid "Remove"
 msgstr "Neħħi"
@@ -388,17 +349,20 @@ msgstr "FITTEX"
 msgid "Search History"
 msgstr "Fittex Storja"
 
-msgid "Search history cleared"
-msgstr "Fittex Storja"
-
 msgid "Search Movie"
 msgstr "Fittex Film"
+
+msgid "Search TV Series"
+msgstr "Fittex Serje tat-TV"
+
+msgid "Search history cleared"
+msgstr "Fittex Storja"
 
 msgid "Search timeout"
 msgstr "Fittex timeout"
 
-msgid "Search TV Series"
-msgstr "Fittex Serje tat-TV"
+msgid "Searching for: '%s'"
+msgstr "Tiftix għal: '%s'"
 
 msgid "Searching..."
 msgstr "Qed tfittex..."
@@ -427,15 +391,6 @@ msgstr "Ibda"
 msgid "Start/Pause"
 msgstr "Bidu/Pawsa"
 
-msgid "Thriller"
-msgstr "Thriller"
-
-msgid "Timeout for search requests (seconds)"
-msgstr "Timeout għal talbiet ta' tfittxija (sekondi)"
-
-msgid "Title"
-msgstr "Titolu"
-
 msgid "TMDB API key not found"
 msgstr "Ċavetta API TMDB ma nstabitx"
 
@@ -445,38 +400,38 @@ msgstr "Ċavetta TMDB API ma nstabitx jew invalida!"
 msgid "TMDB ID not found"
 msgstr "ID TMDB ma nstabx"
 
-msgid "Top 10 di oggi"
-msgstr "L-aqwa 10 tal-lum"
-
-msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
-msgstr "Total: {} | Attiv: {} | Imlesta: {} | Żbalji: {}"
-
 msgid "TV Series History"
 msgstr "Storja tas-Serje tat-TV"
 
 msgid "TV series history cleared"
 msgstr "Storja tas-Serje tat-TV"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Serje tat-TV\n\nStaġuni: %d\nEpisodji totali: %d\n\nSena: %s\n\nKlassifikazzjoni: %s/10\n\nĠeneri: \n%s"
+msgid "Thriller"
+msgstr "Thriller"
 
-msgid "TV Series\n%s"
-msgstr "Serje tat-TV\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Timeout għal talbiet ta' tfittxija (sekondi)"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Serje tat-TV\nStaġuni: %d\nEpisodji totali: %d"
+msgid "Title"
+msgstr "Titolu"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Serje tat-TV\nStaġuni: %d\nEpisodji totali: %d\nAgħfas GREEN biex tilgħab"
+msgid "Top 10 di oggi"
+msgstr "L-aqwa 10 tal-lum"
+
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "Total: {} | Attiv: {} | Imlesta: {} | Żbalji: {}"
 
 msgid "Type: %s"
 msgstr "Tip: %s"
 
-msgid "Unable to get stream for this episode"
-msgstr "Ma tistax tikseb stream għal dan l-episodju"
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa | ISFAR = Downloads"
 
 msgid "Unable to get stream URL for download"
 msgstr "Ma tistax tikseb URL tan-nixxiegħa għat-tniżżil"
+
+msgid "Unable to get stream for this episode"
+msgstr "Ma tistax tikseb stream għal dan l-episodju"
 
 msgid "Unable to get streaming URL"
 msgstr "Ma tistax tikseb URL streaming"
@@ -496,9 +451,6 @@ msgstr "Ma tistax tirkupra informazzjoni minn TMDB."
 msgid "Unknown"
 msgstr "Mhux magħruf"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "Gruppi UP/DOWN | karti XELLUG/LEMIN | OK miftuħa | ISFAR = Downloads"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Aġġornata, %d gruppi mhux disponibbli"
 
@@ -508,9 +460,217 @@ msgstr "Aġġornament"
 msgid "Updating cards %d/%d"
 msgstr "Naġġorna l-karti %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Uża ċ-ċwievet numeriċi fuq il-remote\n biex iddaħħal il-kodiċi captcha\nGREEN = Ikkonferma, AĦMAR = Ikkanċella"
-
 msgid "Waiting"
 msgstr "Stennija"
 
+msgid "[Altadefinizione] %s"
+msgstr "[Definizzjoni Għolja] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "żball"
+
+msgid "loading"
+msgstr "tagħbija"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Tagħrif dwar l-istaġun mhux disponibbli"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Staġuni: %d\n"
+#~ "Episodji totali: %d"
+
+#~ msgid ""
+#~ "Added to download queue:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Miżjud mal-kju tat-tniżżil: \n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizzjoni Movie\n"
+#~ "\n"
+#~ "Sena: %s\n"
+#~ "Genere: %s\n"
+#~ "\n"
+#~ "Links disponibbli: %d\n"
+#~ "\n"
+#~ "Agħfas AĦDAR biex tilgħab"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Sena: %s\n"
+#~ "Genere: %s\n"
+#~ "\n"
+#~ "Links disponibbli: %d\n"
+#~ "\n"
+#~ "Agħfas AĦDAR biex tilgħab"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Serje tat-TV CB01\n"
+#~ "\n"
+#~ "Staġuni: %d\n"
+#~ "Episodji totali: %d\n"
+#~ "\n"
+#~ "Agħfas AĦDAR biex tilgħab"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Deskrizzjoni:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Download folder changed to:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Il-folder tat-tniżżil inbidel għal: \n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Sena: %s\n"
+#~ "\n"
+#~ "Klassifikazzjoni: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Agħfas AĦDAR biex tilgħab"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Klassifikazzjoni: %s\n"
+#~ "\n"
+#~ "Ħallieq: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Agħfas GREEN biex iddaħħal il-kodiċi\n"
+#~ "Agħfas AĦMAR biex tikkanċella"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Serje tat-TV\n"
+#~ "\n"
+#~ "Staġuni: %d\n"
+#~ "Episodji totali: %d\n"
+#~ "\n"
+#~ "Sena: %s\n"
+#~ "\n"
+#~ "Klassifikazzjoni: %s/10\n"
+#~ "\n"
+#~ "Ġeneri: \n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Serje tat-TV\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Serje tat-TV\n"
+#~ "Staġuni: %d\n"
+#~ "Episodji totali: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Serje tat-TV\n"
+#~ "Staġuni: %d\n"
+#~ "Episodji totali: %d\n"
+#~ "Agħfas GREEN biex tilgħab"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Uża ċ-ċwievet numeriċi fuq il-remote\n"
+#~ " biex iddaħħal il-kodiċi captcha\n"
+#~ "GREEN = Ikkonferma, AĦMAR = Ikkanċella"
