@@ -326,26 +326,6 @@ class API:
             return None
 
 
-def resolve_vixsrc_stream(tmdb_id, season=None, episode=None):
-    """
-    Resolve a fresh M3U8 URL from VixSrc.
-    Returns the M3U8 URL or None if resolution fails.
-    """
-    try:
-        # from .search_functions import get_stream_links
-        vix_domain = "vixsrc.to"
-        tv_tuple = None
-        if season is not None and episode is not None:
-            tv_tuple = (season, episode)
-        log.info(
-            "RESOLVE: Resolving VixSrc for tmdb_id={}, tv={}".format(
-                tmdb_id, tv_tuple))
-        return get_stream_links(vix_domain, tmdb_id, tv=tv_tuple)
-    except Exception as e:
-        log.error("RESOLVE: Failed to resolve VixSrc stream: {}".format(e))
-        return None
-
-
 def search_streaming_community_cool(query):
     """Fallback search using streaming-community.cool GET method"""
     try:
