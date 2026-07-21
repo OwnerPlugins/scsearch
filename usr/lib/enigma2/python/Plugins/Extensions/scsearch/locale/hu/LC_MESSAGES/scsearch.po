@@ -362,7 +362,7 @@ msgid "Search timeout"
 msgstr "Keresési időtúllépés"
 
 msgid "Searching for: '%s'"
-msgstr ""
+msgstr "Keresés: '%s'"
 
 msgid "Searching..."
 msgstr "Keresés..."
