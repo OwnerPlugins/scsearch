@@ -91,7 +91,8 @@ class DownloadManagerScreen(Screen):
             status = status_map.get(item["status"], item["status"])
             title = item["title"]
             if item["media_type"] == "tv" and item["season"] > 0 and item["episode"] > 0:
-                title = "{} S{:02d}E{:02d}".format(title, item["season"], item["episode"])
+                title = "{} S{:02d}E{:02d}".format(
+                    title, item["season"], item["episode"])
 
             if item["status"] == "downloading":
                 progress = item.get("progress", 0)
@@ -100,9 +101,11 @@ class DownloadManagerScreen(Screen):
 
                 # Barra di progresso disegnata con caratteri
                 bar_length = 20
-                filled = int((progress / 100) * bar_length) if progress > 0 else 0
+                filled = int(
+                    (progress / 100) * bar_length) if progress > 0 else 0
                 bar = "█" * filled + "░" * (bar_length - filled)
-                display = "[{}] {}  {}  {}%".format(status, title, bar, progress)
+                display = "[{}] {}  {}  {}%".format(
+                    status, title, bar, progress)
 
                 active_count += 1
                 total_progress += progress
@@ -138,7 +141,8 @@ class DownloadManagerScreen(Screen):
         if free > 0 and total_space > 0:
             free_gb = free / (1024 * 1024 * 1024)
             total_gb = total_space / (1024 * 1024 * 1024)
-            self["diskspace"].setText(_("Free: {:.2f} GB / {:.2f} GB").format(free_gb, total_gb))
+            self["diskspace"].setText(
+                _("Free: {:.2f} GB / {:.2f} GB").format(free_gb, total_gb))
         else:
             self["diskspace"].setText("")
 
@@ -174,7 +178,10 @@ class DownloadManagerScreen(Screen):
         """Toggle start/pause for selected item."""
         item_id = self.get_current_item_id()
         if not item_id:
-            self.session.open(MessageBox, _("No item selected!"), MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox,
+                _("No item selected!"),
+                MessageBox.TYPE_INFO)
             return
         item = download_manager._get_item(item_id)
         if not item:
@@ -185,14 +192,20 @@ class DownloadManagerScreen(Screen):
         elif status == "downloading":
             download_manager.pause_item(item_id)
         elif status == "completed":
-            self.session.open(MessageBox, _("Download already completed!"), MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox,
+                _("Download already completed!"),
+                MessageBox.TYPE_INFO)
         self.refresh()
 
     def remove_selected(self):
         """Remove selected item from queue."""
         item_id = self.get_current_item_id()
         if not item_id:
-            self.session.open(MessageBox, _("No item selected!"), MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox,
+                _("No item selected!"),
+                MessageBox.TYPE_INFO)
             return
         download_manager.remove_item(item_id)
         self.refresh()
