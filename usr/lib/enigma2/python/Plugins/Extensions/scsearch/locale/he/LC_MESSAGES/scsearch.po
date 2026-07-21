@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d כותרים"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- סרטים ---"
 
@@ -22,23 +28,8 @@ msgstr "--- חיפוש חדש ---"
 msgid "--- TV SERIES ---"
 msgstr "--- סדרת טלוויזיה ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[בהגדרה גבוהה] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nמידע על העונה אינו זמין"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nעונות: %d\nסה\"כ פרקים: %d"
-
-msgid "%d titles"
-msgstr "%d כותרים"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 כותרים"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< מחק קרון >>>"
@@ -49,17 +40,8 @@ msgstr ">>> פרקים <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> עונות <<<"
 
-msgid "0 titles"
-msgstr "0 כותרים"
-
-msgid "Added to download queue:\n{}"
-msgstr "נוסף לתור ההורדות:\n{}"
-
 msgid "Aggiunti di Recente"
 msgstr "נוספו לאחרונה"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nשנה: %s\nז'אנר: %s\n\nקישורים זמינים: %d\n\nלחץ על GREEN כדי לשחק"
 
 msgid "Animazione"
 msgstr "הַנפָּשָׁה"
@@ -79,20 +61,20 @@ msgstr "עיין בקבוצות וכרטיסים עם גלילה אופקית"
 msgid "CANCEL"
 msgstr "לְבַטֵל"
 
+msgid "CB01 playback error: %s"
+msgstr "שגיאת הפעלה של CB01: %s"
+
+msgid "CONFIRM"
+msgstr "לְאַשֵׁר"
+
+msgid "CONTENTS"
+msgstr "תוֹכֶן"
+
 msgid "Card error"
 msgstr "שגיאת כרטיס"
 
 msgid "Cards updated"
 msgstr "הכרטיסים עודכנו"
-
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nשנה: %s\nז'אנר: %s\n\nקישורים זמינים: %d\n\nלחץ על GREEN כדי לשחק"
-
-msgid "CB01 playback error: %s"
-msgstr "שגיאת הפעלה של CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "סדרת טלוויזיה CB01\n\nעונות: %d\nסה\"כ פרקים: %d\n\nלחץ על GREEN כדי לשחק"
 
 msgid "Change Folder"
 msgstr "שנה תיקיה"
@@ -106,14 +88,14 @@ msgstr "נקה בוצע"
 msgid "Code:"
 msgstr "קוד:"
 
+msgid "Code: {self.captcha_code}"
+msgstr "קוד: {self.captcha_code}"
+
 msgid "Commedia"
 msgstr "קומדיה"
 
 msgid "Completed"
 msgstr "הושלם"
-
-msgid "CONFIRM"
-msgstr "לְאַשֵׁר"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "תוכן מ-Altadefinizione - לחץ על אישור כדי לפתוח..."
@@ -121,17 +103,20 @@ msgstr "תוכן מ-Altadefinizione - לחץ על אישור כדי לפתוח..
 msgid "Content from CB01 - Press OK to open..."
 msgstr "תוכן מ-CB01 - לחץ על אישור כדי לפתוח..."
 
-msgid "CONTENTS"
-msgstr "תוֹכֶן"
-
 msgid "Crime"
 msgstr "פֶּשַׁע"
+
+msgid "DOWNLOAD"
+msgstr "הורד"
+
+msgid "DOWNLOADS"
+msgstr "הורדות"
 
 msgid "Description not available."
 msgstr "תיאור אינו זמין."
 
-msgid "Description:\n\n%s"
-msgstr "תיאור:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "פרטים עבור: '%s'"
 
 msgid "Details not available"
 msgstr "פרטים לא זמינים"
@@ -139,35 +124,29 @@ msgstr "פרטים לא זמינים"
 msgid "Documentario"
 msgstr "תְעוּדָה"
 
-msgid "DOWNLOAD"
-msgstr "הורד"
+msgid "Download Queue"
+msgstr "תור הורדה"
 
 msgid "Download already completed!"
 msgstr "ההורדה כבר הושלמה!"
 
-msgid "Download folder changed to:\n{}"
-msgstr "תיקיית ההורדה שונתה ל:\n{}"
-
-msgid "Download Queue"
-msgstr "תור הורדה"
-
 msgid "Downloading"
 msgstr "מוריד"
 
-msgid "DOWNLOADS"
-msgstr "הורדות"
-
 msgid "Dramma"
 msgstr "דְרָמָה"
+
+msgid "ENTER"
+msgstr "לְהַכנִיס"
+
+msgid "EXIT"
+msgstr "יְצִיאָה"
 
 msgid "Enable debug"
 msgstr "אפשר ניפוי באגים"
 
 msgid "Enable debug output in logs"
 msgstr "אפשר פלט ניפוי באגים ביומנים"
-
-msgid "ENTER"
-msgstr "לְהַכנִיס"
 
 msgid "Enter Captcha Code"
 msgstr "הזן קוד Captcha"
@@ -187,26 +166,23 @@ msgstr "פרקים"
 msgid "Episodes:"
 msgstr "פרקים:"
 
-msgid "error"
-msgstr "שְׁגִיאָה"
-
 msgid "Error"
 msgstr "שְׁגִיאָה"
 
-msgid "Error loading captcha"
-msgstr "שגיאה בטעינת הפרטים"
-
 msgid "Error loading CB01 series"
 msgstr "שגיאה בטעינת סדרת CB01"
-
-msgid "Error loading details"
-msgstr "שגיאה בטעינת הפרטים"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "שגיאה בטעינת סדרת OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "שגיאה בטעינת TMDB"
+
+msgid "Error loading captcha"
+msgstr "שגיאה בטעינת הפרטים"
+
+msgid "Error loading details"
+msgstr "שגיאה בטעינת הפרטים"
 
 msgid "Error playing episode: %s"
 msgstr "שגיאה בהפעלת פרק: %s"
@@ -215,9 +191,6 @@ msgid "Error updating UI"
 msgstr "שגיאה בעדכון ממשק המשתמש"
 
 msgid "Exit"
-msgstr "יְצִיאָה"
-
-msgid "EXIT"
 msgstr "יְצִיאָה"
 
 msgid "Famiglia"
@@ -256,9 +229,6 @@ msgstr "ניווט שמאלה/ימינה | בסדר פתח | למעלה חזרה
 msgid "Load error"
 msgstr "שגיאת טעינה"
 
-msgid "loading"
-msgstr "טְעִינָה"
-
 msgid "Loading details from TMDB..."
 msgstr "טוען פרטים מ-TMDB..."
 
@@ -279,9 +249,6 @@ msgstr "היסטוריית הסרטים"
 
 msgid "Movie history cleared"
 msgstr "היסטוריית הסרטים"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "סרט\n\nשנה: %s\n\nדירוג: %s/10\n\nז'אנרים:\n%s\n\nלחץ על ירוק כדי לשחק"
 
 msgid "N/A"
 msgstr "לא"
@@ -328,8 +295,8 @@ msgstr "אישור = בחר | אדום = הסר | ירוק = התחל/השהה |
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - סדרת טלוויזיה"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nדירוג: %s\n\nיוצר: %s"
+msgid "PLAY"
+msgstr "לְשַׂחֵק"
 
 msgid "Pause"
 msgstr "הַפסָקָה"
@@ -340,17 +307,11 @@ msgstr "מושהה"
 msgid "Pending"
 msgstr "תָלוּי וְעוֹמֵד"
 
-msgid "PLAY"
-msgstr "לְשַׂחֵק"
-
 msgid "Playback error: %s"
 msgstr "שגיאת השמעה: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "לחץ על ירוק (סרט) או צהוב (סדרת טלוויזיה) כדי לחפש..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "לחץ על ירוק כדי להזין את הקוד\nלחץ על האדום כדי לבטל"
 
 msgid "Press GREEN to play"
 msgstr "לחץ על ירוק כדי לשחק"
@@ -361,13 +322,13 @@ msgstr "לחץ על אישור"
 msgid "Press OK to view full details..."
 msgstr "לחץ על אישור לצפייה בפרטים המלאים..."
 
+msgid "REFRESH"
+msgstr "לְרַעֲנֵן"
+
 msgid "Reality"
 msgstr "מְצִיאוּת"
 
 msgid "Refresh"
-msgstr "לְרַעֲנֵן"
-
-msgid "REFRESH"
 msgstr "לְרַעֲנֵן"
 
 msgid "Remove"
@@ -388,17 +349,20 @@ msgstr "לְחַפֵּשׂ"
 msgid "Search History"
 msgstr "היסטוריית חיפושים"
 
-msgid "Search history cleared"
-msgstr "היסטוריית חיפושים"
-
 msgid "Search Movie"
 msgstr "חפש סרט"
+
+msgid "Search TV Series"
+msgstr "חפש סדרות טלוויזיה"
+
+msgid "Search history cleared"
+msgstr "היסטוריית חיפושים"
 
 msgid "Search timeout"
 msgstr "זמן קצוב לחיפוש"
 
-msgid "Search TV Series"
-msgstr "חפש סדרות טלוויזיה"
+msgid "Searching for: '%s'"
+msgstr "מחפש: '%s'"
 
 msgid "Searching..."
 msgstr "מחפש..."
@@ -427,15 +391,6 @@ msgstr "הַתחָלָה"
 msgid "Start/Pause"
 msgstr "התחל/השהה"
 
-msgid "Thriller"
-msgstr "מוֹתְחָן"
-
-msgid "Timeout for search requests (seconds)"
-msgstr "פסק זמן לבקשות חיפוש (שניות)"
-
-msgid "Title"
-msgstr "כּוֹתֶרֶת"
-
 msgid "TMDB API key not found"
 msgstr "מפתח API של TMDB לא נמצא"
 
@@ -445,38 +400,38 @@ msgstr "מפתח API של TMDB לא נמצא או לא חוקי!"
 msgid "TMDB ID not found"
 msgstr "מזהה TMDB לא נמצא"
 
-msgid "Top 10 di oggi"
-msgstr "הטופ 10 של היום"
-
-msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
-msgstr "סה\"כ: {} | פעיל: {} | הושלם: {} | שגיאות: {}"
-
 msgid "TV Series History"
 msgstr "היסטוריה של סדרות טלוויזיה"
 
 msgid "TV series history cleared"
 msgstr "היסטוריה של סדרות טלוויזיה"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "סדרת טלוויזיה\n\nעונות: %d\nסה\"כ פרקים: %d\n\nשנה: %s\n\nדירוג: %s/10\n\nז'אנרים:\n%s"
+msgid "Thriller"
+msgstr "מוֹתְחָן"
 
-msgid "TV Series\n%s"
-msgstr "סדרת טלוויזיה\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "פסק זמן לבקשות חיפוש (שניות)"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "סדרת טלוויזיה\nעונות: %d\nסה\"כ פרקים: %d"
+msgid "Title"
+msgstr "כּוֹתֶרֶת"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "סדרת טלוויזיה\nעונות: %d\nסה\"כ פרקים: %d\nלחץ על GREEN כדי להפעיל"
+msgid "Top 10 di oggi"
+msgstr "הטופ 10 של היום"
+
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "סה\"כ: {} | פעיל: {} | הושלם: {} | שגיאות: {}"
 
 msgid "Type: %s"
 msgstr "סוג: %s"
 
-msgid "Unable to get stream for this episode"
-msgstr "לא ניתן לקבל סטרימינג לפרק זה"
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "קבוצות למעלה/מטה | כרטיסי שמאל/ימין | בסדר פתח | צהוב = הורדות"
 
 msgid "Unable to get stream URL for download"
 msgstr "לא ניתן להשיג את כתובת האתר של הזרם להורדה"
+
+msgid "Unable to get stream for this episode"
+msgstr "לא ניתן לקבל סטרימינג לפרק זה"
 
 msgid "Unable to get streaming URL"
 msgstr "לא ניתן להשיג כתובת URL זורמת"
@@ -496,9 +451,6 @@ msgstr "לא ניתן לאחזר מידע מ-TMDB."
 msgid "Unknown"
 msgstr "לֹא יְדוּעַ"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "קבוצות למעלה/מטה | כרטיסי שמאל/ימין | בסדר פתח | צהוב = הורדות"
-
 msgid "Updated, %d groups unavailable"
 msgstr "עודכן, %d קבוצות לא זמינות"
 
@@ -508,9 +460,217 @@ msgstr "עִדכּוּן"
 msgid "Updating cards %d/%d"
 msgstr "מעדכן כרטיסים %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "השתמש במקשי הספרות בשלט\nכדי להזין את קוד ה-captcha\nGREEN = אשר, אדום = ביטול"
-
 msgid "Waiting"
 msgstr "הַמתָנָה"
 
+msgid "[Altadefinizione] %s"
+msgstr "[בהגדרה גבוהה] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "שְׁגִיאָה"
+
+msgid "loading"
+msgstr "טְעִינָה"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "מידע על העונה אינו זמין"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "עונות: %d\n"
+#~ "סה\"כ פרקים: %d"
+
+#~ msgid ""
+#~ "Added to download queue:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "נוסף לתור ההורדות:\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "שנה: %s\n"
+#~ "ז'אנר: %s\n"
+#~ "\n"
+#~ "קישורים זמינים: %d\n"
+#~ "\n"
+#~ "לחץ על GREEN כדי לשחק"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "שנה: %s\n"
+#~ "ז'אנר: %s\n"
+#~ "\n"
+#~ "קישורים זמינים: %d\n"
+#~ "\n"
+#~ "לחץ על GREEN כדי לשחק"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "סדרת טלוויזיה CB01\n"
+#~ "\n"
+#~ "עונות: %d\n"
+#~ "סה\"כ פרקים: %d\n"
+#~ "\n"
+#~ "לחץ על GREEN כדי לשחק"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "תיאור:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Download folder changed to:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "תיקיית ההורדה שונתה ל:\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "סרט\n"
+#~ "\n"
+#~ "שנה: %s\n"
+#~ "\n"
+#~ "דירוג: %s/10\n"
+#~ "\n"
+#~ "ז'אנרים:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "לחץ על ירוק כדי לשחק"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "דירוג: %s\n"
+#~ "\n"
+#~ "יוצר: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "לחץ על ירוק כדי להזין את הקוד\n"
+#~ "לחץ על האדום כדי לבטל"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "סדרת טלוויזיה\n"
+#~ "\n"
+#~ "עונות: %d\n"
+#~ "סה\"כ פרקים: %d\n"
+#~ "\n"
+#~ "שנה: %s\n"
+#~ "\n"
+#~ "דירוג: %s/10\n"
+#~ "\n"
+#~ "ז'אנרים:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "סדרת טלוויזיה\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "סדרת טלוויזיה\n"
+#~ "עונות: %d\n"
+#~ "סה\"כ פרקים: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "סדרת טלוויזיה\n"
+#~ "עונות: %d\n"
+#~ "סה\"כ פרקים: %d\n"
+#~ "לחץ על GREEN כדי להפעיל"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "השתמש במקשי הספרות בשלט\n"
+#~ "כדי להזין את קוד ה-captcha\n"
+#~ "GREEN = אשר, אדום = ביטול"

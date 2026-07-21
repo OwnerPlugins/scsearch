@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "ចំណងជើង %d"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- ភាពយន្ត ---"
 
@@ -22,23 +28,8 @@ msgstr "--- ស្វែងរកថ្មី ---"
 msgid "--- TV SERIES ---"
 msgstr "--- ស៊េរីទូរទស្សន៍ ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[និយមន័យខ្ពស់] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nព័ត៌មានរដូវកាលមិនមានទេ។"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nរដូវកាល៖ %d\nវគ្គសរុប៖ %d"
-
-msgid "%d titles"
-msgstr "ចំណងជើង %d"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 ចំណងជើង"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< លុប Cron >>>"
@@ -49,17 +40,8 @@ msgstr ">>> វគ្គ <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> រដូវ <<<"
 
-msgid "0 titles"
-msgstr "0 ចំណងជើង"
-
-msgid "Added to download queue:\n{}"
-msgstr "បានបន្ថែមទៅជួរទាញយក៖\n{}"
-
 msgid "Aggiunti di Recente"
 msgstr "បាន​បន្ថែម​ថ្មីៗ"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Altadefinizione Movie\n\nឆ្នាំ៖ %s\nប្រភេទ៖ %s\n\nតំណភ្ជាប់មាន៖ %d\n\nចុច GREEN ដើម្បីលេង"
 
 msgid "Animazione"
 msgstr "ចលនា"
@@ -79,20 +61,20 @@ msgstr "រកមើលក្រុម និងកាតជាមួយនឹ�
 msgid "CANCEL"
 msgstr "បោះបង់"
 
+msgid "CB01 playback error: %s"
+msgstr "កំហុសក្នុងការចាក់សារថ្មី CB01៖ %s"
+
+msgid "CONFIRM"
+msgstr "បញ្ជាក់"
+
+msgid "CONTENTS"
+msgstr "មាតិកា"
+
 msgid "Card error"
 msgstr "កំហុសកាត"
 
 msgid "Cards updated"
 msgstr "បានធ្វើបច្ចុប្បន្នភាពកាត"
-
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nឆ្នាំ៖ %s\nប្រភេទ៖ %s\n\nតំណភ្ជាប់មាន៖ %d\n\nចុចពណ៌បៃតងដើម្បីលេង"
-
-msgid "CB01 playback error: %s"
-msgstr "កំហុសក្នុងការចាក់សារថ្មី CB01៖ %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "CB01 TV Series\n\nSeasons៖ %d\nវគ្គសរុប៖ %d\n\nចុច GREEN ដើម្បីលេង"
 
 msgid "Change Folder"
 msgstr "ផ្លាស់ប្តូរថតឯកសារ"
@@ -106,14 +88,14 @@ msgstr "សម្អាតរួចរាល់"
 msgid "Code:"
 msgstr "លេខកូដ៖"
 
+msgid "Code: {self.captcha_code}"
+msgstr "លេខកូដ៖ {self.captcha_code}"
+
 msgid "Commedia"
 msgstr "កំប្លែង"
 
 msgid "Completed"
 msgstr "បានបញ្ចប់"
-
-msgid "CONFIRM"
-msgstr "បញ្ជាក់"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "ខ្លឹមសារពី Altadefinizione - ចុច OK ដើម្បីបើក..."
@@ -121,17 +103,20 @@ msgstr "ខ្លឹមសារពី Altadefinizione - ចុច OK ដើម�
 msgid "Content from CB01 - Press OK to open..."
 msgstr "មាតិកាពី CB01 - ចុចយល់ព្រមដើម្បីបើក..."
 
-msgid "CONTENTS"
-msgstr "មាតិកា"
-
 msgid "Crime"
 msgstr "ឧក្រិដ្ឋកម្ម"
+
+msgid "DOWNLOAD"
+msgstr "ទាញយក"
+
+msgid "DOWNLOADS"
+msgstr "ទាញយក"
 
 msgid "Description not available."
 msgstr "មិនមានការពិពណ៌នាទេ។"
 
-msgid "Description:\n\n%s"
-msgstr "ការពិពណ៌នា៖\n\n%s"
+msgid "Details for: '%s'"
+msgstr "ព័ត៌មានលម្អិតសម្រាប់៖ '%s'"
 
 msgid "Details not available"
 msgstr "ព័ត៌មានលម្អិតមិនមានទេ។"
@@ -139,35 +124,29 @@ msgstr "ព័ត៌មានលម្អិតមិនមានទេ។"
 msgid "Documentario"
 msgstr "ភាពយន្តឯកសារ"
 
-msgid "DOWNLOAD"
-msgstr "ទាញយក"
+msgid "Download Queue"
+msgstr "ទាញយកជួរ"
 
 msgid "Download already completed!"
 msgstr "ទាញយករួចរាល់ហើយ!"
 
-msgid "Download folder changed to:\n{}"
-msgstr "ថតឯកសារទាញយកបានប្តូរទៅ៖\n{}"
-
-msgid "Download Queue"
-msgstr "ទាញយកជួរ"
-
 msgid "Downloading"
 msgstr "កំពុងទាញយក"
 
-msgid "DOWNLOADS"
-msgstr "ទាញយក"
-
 msgid "Dramma"
 msgstr "ល្ខោន"
+
+msgid "ENTER"
+msgstr "បញ្ចូល"
+
+msgid "EXIT"
+msgstr "ចេញ"
 
 msgid "Enable debug"
 msgstr "បើកដំណើរការបំបាត់កំហុស"
 
 msgid "Enable debug output in logs"
 msgstr "បើកដំណើរការលទ្ធផលបំបាត់កំហុសនៅក្នុងកំណត់ហេតុ"
-
-msgid "ENTER"
-msgstr "បញ្ចូល"
 
 msgid "Enter Captcha Code"
 msgstr "បញ្ចូលលេខកូដ Captcha"
@@ -187,26 +166,23 @@ msgstr "ភាគ"
 msgid "Episodes:"
 msgstr "ភាគ៖"
 
-msgid "error"
-msgstr "កំហុស"
-
 msgid "Error"
 msgstr "កំហុស"
 
-msgid "Error loading captcha"
-msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
-
 msgid "Error loading CB01 series"
 msgstr "កំហុសក្នុងការផ្ទុកស៊េរី CB01"
-
-msgid "Error loading details"
-msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "កំហុសក្នុងការផ្ទុកស៊េរីទូរទស្សន៍ OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "កំហុសក្នុងការផ្ទុក TMDB"
+
+msgid "Error loading captcha"
+msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
+
+msgid "Error loading details"
+msgstr "កំហុសក្នុងការផ្ទុកព័ត៌មានលម្អិត"
 
 msgid "Error playing episode: %s"
 msgstr "កំហុសក្នុងការលេងភាគ៖ %s"
@@ -215,9 +191,6 @@ msgid "Error updating UI"
 msgstr "កំហុសក្នុងការធ្វើបច្ចុប្បន្នភាព UI"
 
 msgid "Exit"
-msgstr "ចេញ"
-
-msgid "EXIT"
 msgstr "ចេញ"
 
 msgid "Famiglia"
@@ -256,9 +229,6 @@ msgstr "រុករកឆ្វេង/ស្តាំ | យល់ព្រម�
 msgid "Load error"
 msgstr "កំហុសក្នុងការផ្ទុក"
 
-msgid "loading"
-msgstr "ការផ្ទុក"
-
 msgid "Loading details from TMDB..."
 msgstr "កំពុងផ្ទុកព័ត៌មានលម្អិតពី TMDB..."
 
@@ -279,9 +249,6 @@ msgstr "ប្រវត្តិភាពយន្ត"
 
 msgid "Movie history cleared"
 msgstr "ប្រវត្តិភាពយន្ត"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "ភាពយន្ត\n\nឆ្នាំ៖ %s\n\nការវាយតម្លៃ៖ %s/10\n\nប្រភេទ៖\n%s\n\nចុច GREEN ដើម្បីចាក់"
 
 msgid "N/A"
 msgstr "គ្មាន"
@@ -328,8 +295,8 @@ msgstr "យល់ព្រម = ជ្រើសរើស | RED = ដកចេញ
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - ស៊េរីទូរទស្សន៍"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nការវាយតម្លៃ៖ %s\n\nអ្នកបង្កើត៖ %s"
+msgid "PLAY"
+msgstr "លេង"
 
 msgid "Pause"
 msgstr "ផ្អាក"
@@ -340,17 +307,11 @@ msgstr "ផ្អាក"
 msgid "Pending"
 msgstr "កំពុងរង់ចាំ"
 
-msgid "PLAY"
-msgstr "លេង"
-
 msgid "Playback error: %s"
 msgstr "កំហុសក្នុងការចាក់សារថ្មី៖ %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ចុច GREEN (ភាពយន្ត) ឬ YELLOW (TV Series) ដើម្បីស្វែងរក..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "ចុច GREEN ដើម្បីបញ្ចូលកូដ\nចុច RED ដើម្បីបោះបង់"
 
 msgid "Press GREEN to play"
 msgstr "ចុច GREEN ដើម្បីលេង"
@@ -361,13 +322,13 @@ msgstr "ចុចយល់ព្រម"
 msgid "Press OK to view full details..."
 msgstr "ចុច OK ដើម្បីមើលព័ត៌មានលម្អិត..."
 
+msgid "REFRESH"
+msgstr "ធ្វើឱ្យស្រស់"
+
 msgid "Reality"
 msgstr "ការពិត"
 
 msgid "Refresh"
-msgstr "ធ្វើឱ្យស្រស់"
-
-msgid "REFRESH"
 msgstr "ធ្វើឱ្យស្រស់"
 
 msgid "Remove"
@@ -388,17 +349,20 @@ msgstr "ស្វែងរក"
 msgid "Search History"
 msgstr "ប្រវត្តិស្វែងរក"
 
-msgid "Search history cleared"
-msgstr "ប្រវត្តិស្វែងរក"
-
 msgid "Search Movie"
 msgstr "ស្វែងរកភាពយន្ត"
+
+msgid "Search TV Series"
+msgstr "ស្វែងរកស៊េរីទូរទស្សន៍"
+
+msgid "Search history cleared"
+msgstr "ប្រវត្តិស្វែងរក"
 
 msgid "Search timeout"
 msgstr "អស់ពេលស្វែងរក"
 
-msgid "Search TV Series"
-msgstr "ស្វែងរកស៊េរីទូរទស្សន៍"
+msgid "Searching for: '%s'"
+msgstr "កំពុងស្វែងរក៖ '%s'"
 
 msgid "Searching..."
 msgstr "កំពុងស្វែងរក..."
@@ -427,15 +391,6 @@ msgstr "ចាប់ផ្តើម"
 msgid "Start/Pause"
 msgstr "ចាប់ផ្តើម/ផ្អាក"
 
-msgid "Thriller"
-msgstr "រន្ធត់"
-
-msgid "Timeout for search requests (seconds)"
-msgstr "អស់ពេលសម្រាប់សំណើស្វែងរក (វិនាទី)"
-
-msgid "Title"
-msgstr "ចំណងជើង"
-
 msgid "TMDB API key not found"
 msgstr "រកមិនឃើញសោ TMDB API ទេ។"
 
@@ -445,38 +400,38 @@ msgstr "រកមិនឃើញសោ TMDB API ឬមិនត្រឹមត�
 msgid "TMDB ID not found"
 msgstr "រកមិនឃើញលេខសម្គាល់ TMDB"
 
-msgid "Top 10 di oggi"
-msgstr "កំពូលទាំង ១០ ថ្ងៃនេះ"
-
-msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
-msgstr "សរុប៖ {} | សកម្ម៖ {} | បានបញ្ចប់៖ {} | កំហុស៖ {}"
-
 msgid "TV Series History"
 msgstr "ប្រវត្តិស៊េរីទូរទស្សន៍"
 
 msgid "TV series history cleared"
 msgstr "ប្រវត្តិស៊េរីទូរទស្សន៍"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "ស៊េរីទូរទស្សន៍\n\nរដូវកាល៖ %d\nវគ្គសរុប៖ %d\n\nឆ្នាំ៖ %s\n\nRating៖ %s/10\n\nប្រភេទ៖\n%s"
+msgid "Thriller"
+msgstr "រន្ធត់"
 
-msgid "TV Series\n%s"
-msgstr "ស៊េរីទូរទស្សន៍\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "អស់ពេលសម្រាប់សំណើស្វែងរក (វិនាទី)"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "ស៊េរីទូរទស្សន៍\nរដូវកាល៖ %d\nវគ្គសរុប៖ %d"
+msgid "Title"
+msgstr "ចំណងជើង"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "TV Series\nSeasons៖ %d\nភាគសរុប៖ %d\nចុច GREEN ដើម្បីលេង"
+msgid "Top 10 di oggi"
+msgstr "កំពូលទាំង ១០ ថ្ងៃនេះ"
+
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "សរុប៖ {} | សកម្ម៖ {} | បានបញ្ចប់៖ {} | កំហុស៖ {}"
 
 msgid "Type: %s"
 msgstr "ប្រភេទ៖ %s"
 
-msgid "Unable to get stream for this episode"
-msgstr "មិន​អាច​ទទួល​បាន​ការ​ផ្សាយ​សម្រាប់​ភាគ​នេះ​"
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក | លឿង = ទាញយក"
 
 msgid "Unable to get stream URL for download"
 msgstr "មិន​អាច​ទទួល​បាន URL ស្ទ្រីម​សម្រាប់​ការ​ទាញ​យក"
+
+msgid "Unable to get stream for this episode"
+msgstr "មិន​អាច​ទទួល​បាន​ការ​ផ្សាយ​សម្រាប់​ភាគ​នេះ​"
 
 msgid "Unable to get streaming URL"
 msgstr "មិន​អាច​ទទួល​បាន URL ផ្សាយ"
@@ -496,9 +451,6 @@ msgstr "មិនអាចទាញយកព័ត៌មានពី TMDB បា
 msgid "Unknown"
 msgstr "មិនស្គាល់"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "ក្រុមឡើង/ចុះក្រោម | សន្លឹកបៀឆ្វេង/ស្តាំ | យល់ព្រមបើក | លឿង = ទាញយក"
-
 msgid "Updated, %d groups unavailable"
 msgstr "បានធ្វើបច្ចុប្បន្នភាព ក្រុម %d មិនអាចប្រើបានទេ។"
 
@@ -508,9 +460,217 @@ msgstr "ការធ្វើបច្ចុប្បន្នភាព"
 msgid "Updating cards %d/%d"
 msgstr "កំពុងអាប់ដេតកាត %d/%d"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "ប្រើគ្រាប់ចុចលេខនៅលើ remote\n ដើម្បីបញ្ចូលកូដ captcha\nGREEN = បញ្ជាក់ RED = បោះបង់"
-
 msgid "Waiting"
 msgstr "កំពុងរង់ចាំ"
 
+msgid "[Altadefinizione] %s"
+msgstr "[និយមន័យខ្ពស់] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "កំហុស"
+
+msgid "loading"
+msgstr "ការផ្ទុក"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "ព័ត៌មានរដូវកាលមិនមានទេ។"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "រដូវកាល៖ %d\n"
+#~ "វគ្គសរុប៖ %d"
+
+#~ msgid ""
+#~ "Added to download queue:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "បានបន្ថែមទៅជួរទាញយក៖\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "ឆ្នាំ៖ %s\n"
+#~ "ប្រភេទ៖ %s\n"
+#~ "\n"
+#~ "តំណភ្ជាប់មាន៖ %d\n"
+#~ "\n"
+#~ "ចុច GREEN ដើម្បីលេង"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "ឆ្នាំ៖ %s\n"
+#~ "ប្រភេទ៖ %s\n"
+#~ "\n"
+#~ "តំណភ្ជាប់មាន៖ %d\n"
+#~ "\n"
+#~ "ចុចពណ៌បៃតងដើម្បីលេង"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons៖ %d\n"
+#~ "វគ្គសរុប៖ %d\n"
+#~ "\n"
+#~ "ចុច GREEN ដើម្បីលេង"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ការពិពណ៌នា៖\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Download folder changed to:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "ថតឯកសារទាញយកបានប្តូរទៅ៖\n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "ភាពយន្ត\n"
+#~ "\n"
+#~ "ឆ្នាំ៖ %s\n"
+#~ "\n"
+#~ "ការវាយតម្លៃ៖ %s/10\n"
+#~ "\n"
+#~ "ប្រភេទ៖\n"
+#~ "%s\n"
+#~ "\n"
+#~ "ចុច GREEN ដើម្បីចាក់"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "ការវាយតម្លៃ៖ %s\n"
+#~ "\n"
+#~ "អ្នកបង្កើត៖ %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "ចុច GREEN ដើម្បីបញ្ចូលកូដ\n"
+#~ "ចុច RED ដើម្បីបោះបង់"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ស៊េរីទូរទស្សន៍\n"
+#~ "\n"
+#~ "រដូវកាល៖ %d\n"
+#~ "វគ្គសរុប៖ %d\n"
+#~ "\n"
+#~ "ឆ្នាំ៖ %s\n"
+#~ "\n"
+#~ "Rating៖ %s/10\n"
+#~ "\n"
+#~ "ប្រភេទ៖\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "ស៊េរីទូរទស្សន៍\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "ស៊េរីទូរទស្សន៍\n"
+#~ "រដូវកាល៖ %d\n"
+#~ "វគ្គសរុប៖ %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "TV Series\n"
+#~ "Seasons៖ %d\n"
+#~ "ភាគសរុប៖ %d\n"
+#~ "ចុច GREEN ដើម្បីលេង"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "ប្រើគ្រាប់ចុចលេខនៅលើ remote\n"
+#~ " ដើម្បីបញ្ចូលកូដ captcha\n"
+#~ "GREEN = បញ្ជាក់ RED = បោះបង់"

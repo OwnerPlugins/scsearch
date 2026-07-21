@@ -13,6 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+msgid "%d titles"
+msgstr "%d teideal"
+
+msgid "%s %s"
+msgstr "%s %s"
+
 msgid "--- MOVIES ---"
 msgstr "--- Scannáin ---"
 
@@ -22,23 +28,8 @@ msgstr "--- Cuardach nua ---"
 msgid "--- TV SERIES ---"
 msgstr "--- SRAITH Teilifíse ---"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Ardmhíniú] %s"
-
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
-
-msgid "\n\nSeason information not available"
-msgstr "\n\nNíl eolas an tséasúir ar fáil"
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr "\n\nSéasúir: %d\nEipeasóid iomlán: %d"
-
-msgid "%d titles"
-msgstr "%d teideal"
-
-msgid "%s %s"
-msgstr "%s %s"
+msgid "0 titles"
+msgstr "0 teidil"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< Léirscrios Cron >>>"
@@ -49,17 +40,8 @@ msgstr ">>> Eipeasóid <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Séasúir <<<"
 
-msgid "0 titles"
-msgstr "0 teidil"
-
-msgid "Added to download queue:\n{}"
-msgstr "Cuireadh leis an scuaine íoslódála: \n{}"
-
 msgid "Aggiunti di Recente"
 msgstr "Curtha leis le déanaí"
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "Scannán Altadefinizione\n\nBliain: %s\nGenre: %s\n\nNaisc ar fáil: %d\n\nBrúigh GREEN le himirt"
 
 msgid "Animazione"
 msgstr "Beochan"
@@ -79,20 +61,20 @@ msgstr "Brabhsáil grúpaí agus cártaí le scrollú cothrománach"
 msgid "CANCEL"
 msgstr "CEAL"
 
+msgid "CB01 playback error: %s"
+msgstr "Earráid athsheinm CB01: %s"
+
+msgid "CONFIRM"
+msgstr "DEIMHNIÚ"
+
+msgid "CONTENTS"
+msgstr "ÁBHAR"
+
 msgid "Card error"
 msgstr "Earráid cárta"
 
 msgid "Cards updated"
 msgstr "Cártaí nuashonraithe"
-
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr "CB01 Movie\n\nBliain: %s\nGenre: %s\n\nNaisc ar fáil: %d\n\nBrúigh GREEN le himirt"
-
-msgid "CB01 playback error: %s"
-msgstr "Earráid athsheinm CB01: %s"
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
-msgstr "Sraith Teilifíse CB01\n\nSéasúir: %d\nEipeasóid iomlán: %d\n\nBrúigh GREEN le himirt"
 
 msgid "Change Folder"
 msgstr "Athraigh Fillteán"
@@ -106,14 +88,14 @@ msgstr "Glan Déanta"
 msgid "Code:"
 msgstr "Cód:"
 
+msgid "Code: {self.captcha_code}"
+msgstr "Cód: {self.captcha_code}"
+
 msgid "Commedia"
 msgstr "Commedia"
 
 msgid "Completed"
 msgstr "Críochnaithe"
-
-msgid "CONFIRM"
-msgstr "DEIMHNIÚ"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Ábhar ó Altadefinizione - Brúigh OK chun..."
@@ -121,17 +103,20 @@ msgstr "Ábhar ó Altadefinizione - Brúigh OK chun..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Ábhar ó CB01 - Brúigh OK chun..."
 
-msgid "CONTENTS"
-msgstr "ÁBHAR"
-
 msgid "Crime"
 msgstr "Coiriúlacht"
+
+msgid "DOWNLOAD"
+msgstr "LÍONADH"
+
+msgid "DOWNLOADS"
+msgstr "DO DHÉANAMH"
 
 msgid "Description not available."
 msgstr "Níl an cur síos ar fáil."
 
-msgid "Description:\n\n%s"
-msgstr "Cur síos:\n\n%s"
+msgid "Details for: '%s'"
+msgstr "Sonraí le haghaidh: '%s'"
 
 msgid "Details not available"
 msgstr "Níl sonraí ar fáil"
@@ -139,35 +124,29 @@ msgstr "Níl sonraí ar fáil"
 msgid "Documentario"
 msgstr "Clár faisnéise"
 
-msgid "DOWNLOAD"
-msgstr "LÍONADH"
+msgid "Download Queue"
+msgstr "Íosluchtaigh scuad"
 
 msgid "Download already completed!"
 msgstr "Íoslódáil an íoslódáil críochnaithe cheana féin!"
 
-msgid "Download folder changed to:\n{}"
-msgstr "Athraíodh an fillteán go: \n{}"
-
-msgid "Download Queue"
-msgstr "Íosluchtaigh scuad"
-
 msgid "Downloading"
 msgstr "Ag íosluchtú"
 
-msgid "DOWNLOADS"
-msgstr "DO DHÉANAMH"
-
 msgid "Dramma"
 msgstr "Dráma"
+
+msgid "ENTER"
+msgstr "ISTEACH"
+
+msgid "EXIT"
+msgstr "EXIT"
 
 msgid "Enable debug"
 msgstr "Cumasaigh dífhabhtú"
 
 msgid "Enable debug output in logs"
 msgstr "Cumasaigh aschur dífhabhtaithe i logaí"
-
-msgid "ENTER"
-msgstr "ISTEACH"
 
 msgid "Enter Captcha Code"
 msgstr "Cuir isteach Cód Captcha"
@@ -187,26 +166,23 @@ msgstr "Eipeasóid"
 msgid "Episodes:"
 msgstr "Eipeasóidí:"
 
-msgid "error"
-msgstr "earráid"
-
 msgid "Error"
 msgstr "Earráid"
 
-msgid "Error loading captcha"
-msgstr "Earráid agus sonraí á lódáil"
-
 msgid "Error loading CB01 series"
 msgstr "Earráid agus an tsraith CB01 á lódáil"
-
-msgid "Error loading details"
-msgstr "Earráid agus sonraí á lódáil"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Earráid agus sraith teilifíse ar líne á lódáil"
 
 msgid "Error loading TMDB"
 msgstr "Earráid agus TMDB á lódáil"
+
+msgid "Error loading captcha"
+msgstr "Earráid agus sonraí á lódáil"
+
+msgid "Error loading details"
+msgstr "Earráid agus sonraí á lódáil"
 
 msgid "Error playing episode: %s"
 msgstr "Earráid agus eipeasóid á seinn: %s"
@@ -216,9 +192,6 @@ msgstr "Earráid agus an Chomhéadain á nuashonrú"
 
 msgid "Exit"
 msgstr "Scoir"
-
-msgid "EXIT"
-msgstr "EXIT"
 
 msgid "Famiglia"
 msgstr "Teaghlaigh"
@@ -256,9 +229,6 @@ msgstr "Clé/DEIS nascleanúint | OK oscailte | UP ar ais chuig grúpaí | YELLO
 msgid "Load error"
 msgstr "Earráid luchtaithe"
 
-msgid "loading"
-msgstr "ag lódáil"
-
 msgid "Loading details from TMDB..."
 msgstr "Sonraí á lódáil ó TMDB..."
 
@@ -279,9 +249,6 @@ msgstr "Stair Scannán"
 
 msgid "Movie history cleared"
 msgstr "Stair Scannán"
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
-msgstr "Movie\n\nBliain: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nBrúigh GREEN le himirt"
 
 msgid "N/A"
 msgstr "N/B"
@@ -328,8 +295,8 @@ msgstr "OK = Roghnaigh | RED = Bain | GLAS = Tosaigh/Sos | GORM = Athraigh Fillt
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Sraith Teilifíse"
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
-msgstr "OnlineSerieTV\n\nRátáil: %s\n\nCruthaitheoir: %s"
+msgid "PLAY"
+msgstr "IMIR"
 
 msgid "Pause"
 msgstr "Sos"
@@ -340,17 +307,11 @@ msgstr "Sos"
 msgid "Pending"
 msgstr "Ar feitheamh"
 
-msgid "PLAY"
-msgstr "IMIR"
-
 msgid "Playback error: %s"
 msgstr "Earráid athsheinm: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Brúigh GREEN (Scannán) nó YELLOW (Sraith Teilifíse) chun cuardach a dhéanamh..."
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
-msgstr "Brúigh GREEN chun an cód a chur isteach\nBrúigh RED le cur ar ceal"
 
 msgid "Press GREEN to play"
 msgstr "Brúigh GREEN chun imirt"
@@ -361,14 +322,14 @@ msgstr "Brúigh OK"
 msgid "Press OK to view full details..."
 msgstr "Brúigh OK chun na sonraí iomlána a fheiceáil..."
 
+msgid "REFRESH"
+msgstr "NUACHT"
+
 msgid "Reality"
 msgstr "Réaltacht"
 
 msgid "Refresh"
 msgstr "Athnuaigh"
-
-msgid "REFRESH"
-msgstr "NUACHT"
 
 msgid "Remove"
 msgstr "Bain"
@@ -388,17 +349,20 @@ msgstr "CUARDACH"
 msgid "Search History"
 msgstr "Stair Chuardaigh"
 
-msgid "Search history cleared"
-msgstr "Stair Chuardaigh"
-
 msgid "Search Movie"
 msgstr "Scannán Cuardaigh"
+
+msgid "Search TV Series"
+msgstr "Cuardaigh sraith teilifíse"
+
+msgid "Search history cleared"
+msgstr "Stair Chuardaigh"
 
 msgid "Search timeout"
 msgstr "Teorainn ama cuardaigh"
 
-msgid "Search TV Series"
-msgstr "Cuardaigh sraith teilifíse"
+msgid "Searching for: '%s'"
+msgstr "Ag cuardach: '%s'"
 
 msgid "Searching..."
 msgstr "Ag cuardach..."
@@ -427,15 +391,6 @@ msgstr "Tosaigh"
 msgid "Start/Pause"
 msgstr "Tosaigh/Sos"
 
-msgid "Thriller"
-msgstr "Thriller"
-
-msgid "Timeout for search requests (seconds)"
-msgstr "Teorainn ama d'iarratais chuardaigh (soicindí)"
-
-msgid "Title"
-msgstr "Teideal"
-
 msgid "TMDB API key not found"
 msgstr "Níor aimsíodh eochair API TMDB"
 
@@ -445,38 +400,38 @@ msgstr "Níor aimsíodh eochair API TMDB nó neamhbhailí!"
 msgid "TMDB ID not found"
 msgstr "Níor aimsíodh aitheantas TMDB"
 
-msgid "Top 10 di oggi"
-msgstr "Barr 10 inniu"
-
-msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
-msgstr "Iomlán: {} | Gníomhach: {} | Críochnaithe: {} | Earráidí: {}"
-
 msgid "TV Series History"
 msgstr "Stair sraith TEILIFÍSE"
 
 msgid "TV series history cleared"
 msgstr "Stair sraith TEILIFÍSE"
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
-msgstr "Sraith Teilifíse\n\nSéasúir: %d\nEipeasóid iomlán: %d\n\nBliain: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgid "Thriller"
+msgstr "Thriller"
 
-msgid "TV Series\n%s"
-msgstr "Sraith Teilifíse\n%s"
+msgid "Timeout for search requests (seconds)"
+msgstr "Teorainn ama d'iarratais chuardaigh (soicindí)"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
-msgstr "Sraith Teilifíse\nSeasons: %d\nEipeasóid iomlán: %d"
+msgid "Title"
+msgstr "Teideal"
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
-msgstr "Sraith Teilifíse\nSeasons: %d\nEipeasóid iomlán: %d\nBrúigh GREEN le himirt"
+msgid "Top 10 di oggi"
+msgstr "Barr 10 inniu"
+
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "Iomlán: {} | Gníomhach: {} | Críochnaithe: {} | Earráidí: {}"
 
 msgid "Type: %s"
 msgstr "Cineál: %s"
 
-msgid "Unable to get stream for this episode"
-msgstr "Ní féidir sruth a fháil don chlár seo"
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "Grúpaí UP/SÍOS | Cártaí ar chlé/ar dheis | OK oscailte | YELLOW = Íoslódálacha"
 
 msgid "Unable to get stream URL for download"
 msgstr "Ní féidir URL an tsrutha a fháil le híoslódáil"
+
+msgid "Unable to get stream for this episode"
+msgstr "Ní féidir sruth a fháil don chlár seo"
 
 msgid "Unable to get streaming URL"
 msgstr "Ní féidir URL an tsruthaithe a fháil"
@@ -496,9 +451,6 @@ msgstr "Ní féidir faisnéis a fháil ó TMDB."
 msgid "Unknown"
 msgstr "Anaithnid"
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "Grúpaí UP/SÍOS | Cártaí ar chlé/ar dheis | OK oscailte | YELLOW = Íoslódálacha"
-
 msgid "Updated, %d groups unavailable"
 msgstr "Nuashonraithe, níl %d grúpa ar fáil"
 
@@ -508,9 +460,217 @@ msgstr "Ag nuashonrú"
 msgid "Updating cards %d/%d"
 msgstr "Cártaí %d/%d á nuashonrú"
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr "Úsáid na heochracha uimhriúla ar an cianda\n chun an cód captcha a chur isteach\nGREEN = Deimhnigh, RED = Cealaigh"
-
 msgid "Waiting"
 msgstr "Ag fanacht"
 
+msgid "[Altadefinizione] %s"
+msgstr "[Ardmhíniú] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "error"
+msgstr "earráid"
+
+msgid "loading"
+msgstr "ag lódáil"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Season information not available"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Níl eolas an tséasúir ar fáil"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Séasúir: %d\n"
+#~ "Eipeasóid iomlán: %d"
+
+#~ msgid ""
+#~ "Added to download queue:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Cuireadh leis an scuaine íoslódála: \n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Altadefinizione Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Scannán Altadefinizione\n"
+#~ "\n"
+#~ "Bliain: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Naisc ar fáil: %d\n"
+#~ "\n"
+#~ "Brúigh GREEN le himirt"
+
+#~ msgid ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Links available: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "CB01 Movie\n"
+#~ "\n"
+#~ "Bliain: %s\n"
+#~ "Genre: %s\n"
+#~ "\n"
+#~ "Naisc ar fáil: %d\n"
+#~ "\n"
+#~ "Brúigh GREEN le himirt"
+
+#~ msgid ""
+#~ "CB01 TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Sraith Teilifíse CB01\n"
+#~ "\n"
+#~ "Séasúir: %d\n"
+#~ "Eipeasóid iomlán: %d\n"
+#~ "\n"
+#~ "Brúigh GREEN le himirt"
+
+#~ msgid ""
+#~ "Description:\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Cur síos:\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "Download folder changed to:\n"
+#~ "{}"
+#~ msgstr ""
+#~ "Athraíodh an fillteán go: \n"
+#~ "{}"
+
+#~ msgid ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Movie\n"
+#~ "\n"
+#~ "Bliain: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Brúigh GREEN le himirt"
+
+#~ msgid ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rating: %s\n"
+#~ "\n"
+#~ "Creator: %s"
+#~ msgstr ""
+#~ "OnlineSerieTV\n"
+#~ "\n"
+#~ "Rátáil: %s\n"
+#~ "\n"
+#~ "Cruthaitheoir: %s"
+
+#~ msgid ""
+#~ "Press GREEN to enter the code\n"
+#~ "Press RED to cancel"
+#~ msgstr ""
+#~ "Brúigh GREEN chun an cód a chur isteach\n"
+#~ "Brúigh RED le cur ar ceal"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "\n"
+#~ "Year: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sraith Teilifíse\n"
+#~ "\n"
+#~ "Séasúir: %d\n"
+#~ "Eipeasóid iomlán: %d\n"
+#~ "\n"
+#~ "Bliain: %s\n"
+#~ "\n"
+#~ "Rating: %s/10\n"
+#~ "\n"
+#~ "Genres:\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sraith Teilifíse\n"
+#~ "%s"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d"
+#~ msgstr ""
+#~ "Sraith Teilifíse\n"
+#~ "Seasons: %d\n"
+#~ "Eipeasóid iomlán: %d"
+
+#~ msgid ""
+#~ "TV Series\n"
+#~ "Seasons: %d\n"
+#~ "Total episodes: %d\n"
+#~ "Press GREEN to play"
+#~ msgstr ""
+#~ "Sraith Teilifíse\n"
+#~ "Seasons: %d\n"
+#~ "Eipeasóid iomlán: %d\n"
+#~ "Brúigh GREEN le himirt"
+
+#~ msgid ""
+#~ "Use the numeric keys on the remote\n"
+#~ "to enter the captcha code\n"
+#~ "GREEN = Confirm, RED = Cancel"
+#~ msgstr ""
+#~ "Úsáid na heochracha uimhriúla ar an cianda\n"
+#~ " chun an cód captcha a chur isteach\n"
+#~ "GREEN = Deimhnigh, RED = Cealaigh"

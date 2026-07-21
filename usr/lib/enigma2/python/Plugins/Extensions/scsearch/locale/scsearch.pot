@@ -1,17 +1,12 @@
 # scsearch translations
 # Copyright (C) 2026 Lululla Team
 #
-msgid ""
+
+msgid "%d titles"
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%s %s"
+msgstr ""
 
 msgid "--- MOVIES ---"
 msgstr ""
@@ -22,22 +17,7 @@ msgstr ""
 msgid "--- TV SERIES ---"
 msgstr ""
 
-msgid "[Altadefinizione] %s"
-msgstr ""
-
-msgid "[CB01] %s"
-msgstr ""
-
-msgid "\n\nSeason information not available"
-msgstr ""
-
-msgid "\n\nSeasons: %d\nTotal episodes: %d"
-msgstr ""
-
-msgid "%d titles"
-msgstr ""
-
-msgid "%s %s"
+msgid "0 titles"
 msgstr ""
 
 msgid "<<< Erase Cron >>>"
@@ -49,16 +29,7 @@ msgstr ""
 msgid ">>> Seasons <<<"
 msgstr ""
 
-msgid "0 titles"
-msgstr ""
-
-msgid "Added to download queue:\n{}"
-msgstr ""
-
 msgid "Aggiunti di Recente"
-msgstr ""
-
-msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
 msgstr ""
 
 msgid "Animazione"
@@ -79,19 +50,19 @@ msgstr ""
 msgid "CANCEL"
 msgstr ""
 
+msgid "CB01 playback error: %s"
+msgstr ""
+
+msgid "CONFIRM"
+msgstr ""
+
+msgid "CONTENTS"
+msgstr ""
+
 msgid "Card error"
 msgstr ""
 
 msgid "Cards updated"
-msgstr ""
-
-msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
-msgstr ""
-
-msgid "CB01 playback error: %s"
-msgstr ""
-
-msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
 msgstr ""
 
 msgid "Change Folder"
@@ -106,13 +77,13 @@ msgstr ""
 msgid "Code:"
 msgstr ""
 
+msgid "Code: {self.captcha_code}"
+msgstr ""
+
 msgid "Commedia"
 msgstr ""
 
 msgid "Completed"
-msgstr ""
-
-msgid "CONFIRM"
 msgstr ""
 
 msgid "Content from Altadefinizione - Press OK to open..."
@@ -121,16 +92,19 @@ msgstr ""
 msgid "Content from CB01 - Press OK to open..."
 msgstr ""
 
-msgid "CONTENTS"
+msgid "Crime"
 msgstr ""
 
-msgid "Crime"
+msgid "DOWNLOAD"
+msgstr ""
+
+msgid "DOWNLOADS"
 msgstr ""
 
 msgid "Description not available."
 msgstr ""
 
-msgid "Description:\n\n%s"
+msgid "Details for: '%s'"
 msgstr ""
 
 msgid "Details not available"
@@ -139,34 +113,28 @@ msgstr ""
 msgid "Documentario"
 msgstr ""
 
-msgid "DOWNLOAD"
+msgid "Download Queue"
 msgstr ""
 
 msgid "Download already completed!"
 msgstr ""
 
-msgid "Download folder changed to:\n{}"
-msgstr ""
-
-msgid "Download Queue"
-msgstr ""
-
 msgid "Downloading"
 msgstr ""
 
-msgid "DOWNLOADS"
+msgid "Dramma"
 msgstr ""
 
-msgid "Dramma"
+msgid "ENTER"
+msgstr ""
+
+msgid "EXIT"
 msgstr ""
 
 msgid "Enable debug"
 msgstr ""
 
 msgid "Enable debug output in logs"
-msgstr ""
-
-msgid "ENTER"
 msgstr ""
 
 msgid "Enter Captcha Code"
@@ -187,25 +155,22 @@ msgstr ""
 msgid "Episodes:"
 msgstr ""
 
-msgid "error"
-msgstr ""
-
 msgid "Error"
 msgstr ""
 
-msgid "Error loading captcha"
-msgstr ""
-
 msgid "Error loading CB01 series"
-msgstr ""
-
-msgid "Error loading details"
 msgstr ""
 
 msgid "Error loading OnlineSerieTV series"
 msgstr ""
 
 msgid "Error loading TMDB"
+msgstr ""
+
+msgid "Error loading captcha"
+msgstr ""
+
+msgid "Error loading details"
 msgstr ""
 
 msgid "Error playing episode: %s"
@@ -215,9 +180,6 @@ msgid "Error updating UI"
 msgstr ""
 
 msgid "Exit"
-msgstr ""
-
-msgid "EXIT"
 msgstr ""
 
 msgid "Famiglia"
@@ -256,9 +218,6 @@ msgstr ""
 msgid "Load error"
 msgstr ""
 
-msgid "loading"
-msgstr ""
-
 msgid "Loading details from TMDB..."
 msgstr ""
 
@@ -278,9 +237,6 @@ msgid "Movie History"
 msgstr ""
 
 msgid "Movie history cleared"
-msgstr ""
-
-msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
 msgstr ""
 
 msgid "N/A"
@@ -328,7 +284,7 @@ msgstr ""
 msgid "OnlineSerieTV - TV Series"
 msgstr ""
 
-msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgid "PLAY"
 msgstr ""
 
 msgid "Pause"
@@ -340,16 +296,10 @@ msgstr ""
 msgid "Pending"
 msgstr ""
 
-msgid "PLAY"
-msgstr ""
-
 msgid "Playback error: %s"
 msgstr ""
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
-msgstr ""
-
-msgid "Press GREEN to enter the code\nPress RED to cancel"
 msgstr ""
 
 msgid "Press GREEN to play"
@@ -361,13 +311,13 @@ msgstr ""
 msgid "Press OK to view full details..."
 msgstr ""
 
+msgid "REFRESH"
+msgstr ""
+
 msgid "Reality"
 msgstr ""
 
 msgid "Refresh"
-msgstr ""
-
-msgid "REFRESH"
 msgstr ""
 
 msgid "Remove"
@@ -388,16 +338,19 @@ msgstr ""
 msgid "Search History"
 msgstr ""
 
-msgid "Search history cleared"
+msgid "Search Movie"
 msgstr ""
 
-msgid "Search Movie"
+msgid "Search TV Series"
+msgstr ""
+
+msgid "Search history cleared"
 msgstr ""
 
 msgid "Search timeout"
 msgstr ""
 
-msgid "Search TV Series"
+msgid "Searching for: '%s'"
 msgstr ""
 
 msgid "Searching..."
@@ -427,15 +380,6 @@ msgstr ""
 msgid "Start/Pause"
 msgstr ""
 
-msgid "Thriller"
-msgstr ""
-
-msgid "Timeout for search requests (seconds)"
-msgstr ""
-
-msgid "Title"
-msgstr ""
-
 msgid "TMDB API key not found"
 msgstr ""
 
@@ -445,37 +389,37 @@ msgstr ""
 msgid "TMDB ID not found"
 msgstr ""
 
-msgid "Top 10 di oggi"
-msgstr ""
-
-msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
-msgstr ""
-
 msgid "TV Series History"
 msgstr ""
 
 msgid "TV series history cleared"
 msgstr ""
 
-msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgid "Thriller"
 msgstr ""
 
-msgid "TV Series\n%s"
+msgid "Timeout for search requests (seconds)"
 msgstr ""
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgid "Title"
 msgstr ""
 
-msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgid "Top 10 di oggi"
+msgstr ""
+
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
 msgstr ""
 
 msgid "Type: %s"
 msgstr ""
 
-msgid "Unable to get stream for this episode"
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
 msgstr ""
 
 msgid "Unable to get stream URL for download"
+msgstr ""
+
+msgid "Unable to get stream for this episode"
 msgstr ""
 
 msgid "Unable to get streaming URL"
@@ -496,9 +440,6 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr ""
-
 msgid "Updated, %d groups unavailable"
 msgstr ""
 
@@ -508,9 +449,17 @@ msgstr ""
 msgid "Updating cards %d/%d"
 msgstr ""
 
-msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
-msgstr ""
-
 msgid "Waiting"
 msgstr ""
 
+msgid "[Altadefinizione] %s"
+msgstr ""
+
+msgid "[CB01] %s"
+msgstr ""
+
+msgid "error"
+msgstr ""
+
+msgid "loading"
+msgstr ""
