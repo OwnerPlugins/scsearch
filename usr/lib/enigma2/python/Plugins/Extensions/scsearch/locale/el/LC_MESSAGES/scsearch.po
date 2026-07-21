@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "%d titles"
-msgstr "%d τίτλοι"
-
-msgid "%s %s"
-msgstr "%s %s"
-
 msgid "--- MOVIES ---"
 msgstr "--- ΤΑΙΝΙΕΣ ---"
 
@@ -28,8 +22,23 @@ msgstr "--- Νέα αναζήτηση ---"
 msgid "--- TV SERIES ---"
 msgstr "--- Τηλεοπτική Σειρά ---"
 
-msgid "0 titles"
-msgstr "0 τίτλοι"
+msgid "[Altadefinizione] %s"
+msgstr "[Υψηλή ευκρίνεια] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\nΟι πληροφορίες σεζόν δεν είναι διαθέσιμες"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\n Σεζόν: %d\nΣύνολο επεισοδίων: %d"
+
+msgid "%d titles"
+msgstr "%d τίτλοι"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< Διαγραφή Cron >>>"
@@ -40,8 +49,17 @@ msgstr ">>> Επεισόδια <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> Εποχές <<<"
 
+msgid "0 titles"
+msgstr "0 τίτλοι"
+
+msgid "Added to download queue:\n{}"
+msgstr "Προστέθηκε στην ουρά λήψης:\n{}"
+
 msgid "Aggiunti di Recente"
 msgstr "Προστέθηκε πρόσφατα"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\nΈτος: %s\nΕίδος: %s\n\nΔιαθέσιμοι σύνδεσμοι: %d\n\nΠατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
 
 msgid "Animazione"
 msgstr "Εμψύχωση"
@@ -61,20 +79,20 @@ msgstr "Περιηγηθείτε σε ομάδες και κάρτες με ορ
 msgid "CANCEL"
 msgstr "ΜΑΤΑΙΩΣΗ"
 
-msgid "CB01 playback error: %s"
-msgstr "Σφάλμα αναπαραγωγής CB01: %s"
-
-msgid "CONFIRM"
-msgstr "ΕΠΙΒΕΒΑΙΩΝΩ"
-
-msgid "CONTENTS"
-msgstr "ΠΕΡΙΕΧΟΜΕΝΑ"
-
 msgid "Card error"
 msgstr "Σφάλμα κάρτας"
 
 msgid "Cards updated"
 msgstr "Οι κάρτες ενημερώθηκαν"
+
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\nΈτος: %s\nΕίδος: %s\n\nΔιαθέσιμοι σύνδεσμοι: %d\n\nΠατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
+
+msgid "CB01 playback error: %s"
+msgstr "Σφάλμα αναπαραγωγής CB01: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "Τηλεοπτική σειρά CB01\n\n Σεζόν: %d\nΣύνολο επεισοδίων: %d\n\nΠατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
 
 msgid "Change Folder"
 msgstr "Αλλαγή φακέλου"
@@ -88,14 +106,14 @@ msgstr "Εκκαθάριση Ολοκληρώθηκε"
 msgid "Code:"
 msgstr "Κώδικας:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Κωδικός: {self.captcha_code}"
-
 msgid "Commedia"
-msgstr ""
+msgstr "Commedia"
 
 msgid "Completed"
 msgstr "Ολοκληρώθηκε το"
+
+msgid "CONFIRM"
+msgstr "ΕΠΙΒΕΒΑΙΩΝΩ"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Περιεχόμενο από το Altadefinizone - Πατήστε OK για να ανοίξετε..."
@@ -103,20 +121,17 @@ msgstr "Περιεχόμενο από το Altadefinizone - Πατήστε OK γ
 msgid "Content from CB01 - Press OK to open..."
 msgstr "Περιεχόμενο από CB01 - Πατήστε OK για να ανοίξετε..."
 
+msgid "CONTENTS"
+msgstr "ΠΕΡΙΕΧΟΜΕΝΑ"
+
 msgid "Crime"
 msgstr "Εγκλημα"
-
-msgid "DOWNLOAD"
-msgstr "ΛΗΨΗ"
-
-msgid "DOWNLOADS"
-msgstr "ΛΗΨΕΙΣ"
 
 msgid "Description not available."
 msgstr "Η περιγραφή δεν είναι διαθέσιμη."
 
-msgid "Details for: '%s'"
-msgstr "Λεπτομέρειες για: '%s'"
+msgid "Description:\n\n%s"
+msgstr "Περιγραφή:\n\n%s"
 
 msgid "Details not available"
 msgstr "Λεπτομέρειες δεν είναι διαθέσιμες"
@@ -124,27 +139,35 @@ msgstr "Λεπτομέρειες δεν είναι διαθέσιμες"
 msgid "Documentario"
 msgstr "Ντοκυμαντέρ"
 
+msgid "DOWNLOAD"
+msgstr "ΛΗΨΗ"
+
+msgid "Download already completed!"
+msgstr "Η λήψη έχει ήδη ολοκληρωθεί!"
+
+msgid "Download folder changed to:\n{}"
+msgstr "Ο φάκελος λήψης άλλαξε σε:\n{}"
+
 msgid "Download Queue"
 msgstr "Ουρά λήψης"
 
-#, fuzzy
 msgid "Downloading"
-msgstr "φόρτωση"
+msgstr "Λήψη"
+
+msgid "DOWNLOADS"
+msgstr "ΛΗΨΕΙΣ"
 
 msgid "Dramma"
 msgstr "Δράμα"
-
-msgid "ENTER"
-msgstr "ΕΙΣΑΓΩ"
-
-msgid "EXIT"
-msgstr "ΕΞΟΔΟΣ"
 
 msgid "Enable debug"
 msgstr "Ενεργοποίηση εντοπισμού σφαλμάτων"
 
 msgid "Enable debug output in logs"
 msgstr "Ενεργοποίηση εξόδου εντοπισμού σφαλμάτων στα αρχεία καταγραφής"
+
+msgid "ENTER"
+msgstr "ΕΙΣΑΓΩ"
 
 msgid "Enter Captcha Code"
 msgstr "Εισαγάγετε τον κωδικό Captcha"
@@ -164,24 +187,26 @@ msgstr "Επεισόδια"
 msgid "Episodes:"
 msgstr "Επεισόδια:"
 
-#, fuzzy
-msgid "Error"
+msgid "error"
 msgstr "σφάλμα"
+
+msgid "Error"
+msgstr "Σφάλμα"
+
+msgid "Error loading captcha"
+msgstr "Σφάλμα φόρτωσης λεπτομερειών"
 
 msgid "Error loading CB01 series"
 msgstr "Σφάλμα κατά τη φόρτωση της σειράς CB01"
+
+msgid "Error loading details"
+msgstr "Σφάλμα φόρτωσης λεπτομερειών"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "Σφάλμα κατά τη φόρτωση της σειράς OnlineSerieTV"
 
 msgid "Error loading TMDB"
 msgstr "Σφάλμα κατά τη φόρτωση του TMDB"
-
-msgid "Error loading captcha"
-msgstr "Σφάλμα φόρτωσης λεπτομερειών"
-
-msgid "Error loading details"
-msgstr "Σφάλμα φόρτωσης λεπτομερειών"
 
 msgid "Error playing episode: %s"
 msgstr "Σφάλμα κατά την αναπαραγωγή επεισοδίου: %s"
@@ -192,6 +217,9 @@ msgstr "Σφάλμα ενημέρωσης διεπαφής χρήστη"
 msgid "Exit"
 msgstr "Εξοδος"
 
+msgid "EXIT"
+msgstr "ΕΞΟΔΟΣ"
+
 msgid "Famiglia"
 msgstr "Οικογένεια"
 
@@ -201,15 +229,17 @@ msgstr "Επιστημονική φαντασία"
 msgid "Fantasy"
 msgstr "Φαντασία"
 
+msgid "Free: {:.2f} GB / {:.2f} GB"
+msgstr "Δωρεάν: {:.2f} GB / {:.2f} GB"
+
 msgid "GROUPS"
 msgstr "ΟΜΑΔΕΣ"
 
 msgid "History"
 msgstr "Ιστορία"
 
-#, fuzzy
 msgid "Horror"
-msgstr "σφάλμα"
+msgstr "Φρίκη"
 
 msgid "I Titoli Del Momento"
 msgstr "Οι τίτλοι της στιγμής"
@@ -220,12 +250,14 @@ msgstr "Μη έγκυρος φάκελος!"
 msgid "Invalid streaming URL"
 msgstr "Μη έγκυρη διεύθυνση URL ροής"
 
-#, fuzzy
 msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
-msgstr "ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ πλοήγηση | ΟΚ ανοιχτό | ΠΑΝΩ πίσω στις ομάδες"
+msgstr "ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ πλοήγηση | ΟΚ ανοιχτό | ΠΑΝΩ πίσω στις ομάδες | ΚΙΤΡΙΝΟ = Λήψεις"
 
 msgid "Load error"
 msgstr "Σφάλμα φόρτωσης"
+
+msgid "loading"
+msgstr "φόρτωση"
 
 msgid "Loading details from TMDB..."
 msgstr "Φόρτωση λεπτομερειών από το TMDB..."
@@ -245,9 +277,11 @@ msgstr "Μέγιστος αριθμός αποτελεσμάτων προς εμ
 msgid "Movie History"
 msgstr "Ιστορία ταινίας"
 
-#, fuzzy
 msgid "Movie history cleared"
 msgstr "Ιστορία ταινίας"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "Ταινία\n\nΈτος: %s\n\nΒαθμολογία: %s/10\n\nΕίδη:\n%s\n\nΠατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
 
 msgid "N/A"
 msgstr "N/A"
@@ -270,6 +304,9 @@ msgstr "Δεν υπάρχουν λήψεις στην ουρά"
 msgid "No episodes available"
 msgstr "Δεν υπάρχουν διαθέσιμα επεισόδια"
 
+msgid "No item selected!"
+msgstr "Κανένα αντικείμενο δεν επιλέχθηκε!"
+
 msgid "No previous searches found"
 msgstr "Δεν βρέθηκαν προηγούμενες αναζητήσεις"
 
@@ -291,8 +328,11 @@ msgstr "OK = Επιλέξτε | ΚΟΚΚΙΝΟ = Αφαίρεση | ΠΡΑΣΙΝ
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - Τηλεοπτικές σειρές"
 
-msgid "PLAY"
-msgstr "ΠΑΙΧΝΙΔΙ"
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\nΒαθμολογία: %s\n\nΔημιουργός: %s"
+
+msgid "Pause"
+msgstr "Παύση"
 
 msgid "Paused"
 msgstr "Σε παύση"
@@ -300,11 +340,17 @@ msgstr "Σε παύση"
 msgid "Pending"
 msgstr "Εκκρεμής"
 
+msgid "PLAY"
+msgstr "ΠΑΙΧΝΙΔΙ"
+
 msgid "Playback error: %s"
 msgstr "Σφάλμα αναπαραγωγής: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "Πατήστε ΠΡΑΣΙΝΟ (Ταινία) ή ΚΙΤΡΙΝΟ (τηλεοπτική σειρά) για αναζήτηση..."
+
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "Πατήστε ΠΡΑΣΙΝΟ για να εισαγάγετε τον κωδικό\nΠατήστε ΚΟΚΚΙΝΟ για ακύρωση"
 
 msgid "Press GREEN to play"
 msgstr "Πατήστε ΠΡΑΣΙΝΟ για να παίξετε"
@@ -315,14 +361,14 @@ msgstr "Πατήστε OK"
 msgid "Press OK to view full details..."
 msgstr "Πατήστε OK για να δείτε τις πλήρεις λεπτομέρειες..."
 
-msgid "REFRESH"
-msgstr "ΦΡΕΣΚΑΡΩ"
-
 msgid "Reality"
 msgstr "Πραγματικότητα"
 
 msgid "Refresh"
 msgstr "Φρεσκάρω"
+
+msgid "REFRESH"
+msgstr "ΦΡΕΣΚΑΡΩ"
 
 msgid "Remove"
 msgstr "Αφαιρώ"
@@ -342,21 +388,17 @@ msgstr "ΕΡΕΥΝΑ"
 msgid "Search History"
 msgstr "Ιστορικό αναζήτησης"
 
-msgid "Search Movie"
-msgstr "Αναζήτηση ταινίας"
-
-msgid "Search TV Series"
-msgstr "Αναζήτηση τηλεοπτικών σειρών"
-
-#, fuzzy
 msgid "Search history cleared"
 msgstr "Ιστορικό αναζήτησης"
+
+msgid "Search Movie"
+msgstr "Αναζήτηση ταινίας"
 
 msgid "Search timeout"
 msgstr "Λήξη χρονικού ορίου αναζήτησης"
 
-msgid "Searching for: '%s'"
-msgstr "Αναζήτηση για: '%s'"
+msgid "Search TV Series"
+msgstr "Αναζήτηση τηλεοπτικών σειρών"
 
 msgid "Searching..."
 msgstr "Ερευνητικός..."
@@ -379,24 +421,11 @@ msgstr "Το URL σειράς δεν βρέθηκε"
 msgid "Series URL not found."
 msgstr "Το URL σειράς δεν βρέθηκε."
 
+msgid "Start"
+msgstr "Αρχή"
+
 msgid "Start/Pause"
 msgstr "Έναρξη/Παύση"
-
-msgid "TMDB API key not found"
-msgstr "Το κλειδί API TMDB δεν βρέθηκε"
-
-msgid "TMDB API key not found or invalid!"
-msgstr "Το κλειδί API TMDB δεν βρέθηκε ή δεν είναι έγκυρο!"
-
-msgid "TMDB ID not found"
-msgstr "Το αναγνωριστικό TMDB δεν βρέθηκε"
-
-msgid "TV Series History"
-msgstr "Ιστορία τηλεοπτικών σειρών"
-
-#, fuzzy
-msgid "TV series history cleared"
-msgstr "Ιστορία τηλεοπτικών σειρών"
 
 msgid "Thriller"
 msgstr "Εντυπωσιακό έργο"
@@ -407,25 +436,47 @@ msgstr "Χρονικό όριο για αιτήματα αναζήτησης (δ
 msgid "Title"
 msgstr "Τίτλος"
 
+msgid "TMDB API key not found"
+msgstr "Το κλειδί API TMDB δεν βρέθηκε"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "Το κλειδί API TMDB δεν βρέθηκε ή δεν είναι έγκυρο!"
+
+msgid "TMDB ID not found"
+msgstr "Το αναγνωριστικό TMDB δεν βρέθηκε"
+
 msgid "Top 10 di oggi"
 msgstr "Το top 10 της σημερινής ημέρας"
 
-msgid "Total: {}  |  Active: {}  |  Folder: {}"
-msgstr "Σύνολο: {} | Ενεργό: {} | Φάκελος: {}"
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "Σύνολο: {} | Ενεργό: {} | Ολοκληρώθηκε: {} | Σφάλματα: {}"
+
+msgid "TV Series History"
+msgstr "Ιστορία τηλεοπτικών σειρών"
+
+msgid "TV series history cleared"
+msgstr "Ιστορία τηλεοπτικών σειρών"
+
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "Τηλεοπτική σειρά\n\nΣεζόν: %d\nΣυνολικά επεισόδια: %d\n\nΈτος: %s\n\nΒαθμολογία: %s/10\n\nΕίδη:\n%s"
+
+msgid "TV Series\n%s"
+msgstr "Τηλεοπτική σειρά\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "Τηλεοπτικές σειρές\n Σεζόν: %d\nΣύνολο επεισοδίων: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "Τηλεοπτικές σειρές\n Σεζόν: %d\nΣυνολικά επεισόδια: %d\nΠατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
 
 msgid "Type: %s"
 msgstr "Τύπος: %s"
 
-#, fuzzy
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "ΕΠΑΝΩ/ΚΑΤΩ ομάδες | ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ κάρτες | ΟΚ άνοιξε"
-
-#, fuzzy
-msgid "Unable to get stream URL for download"
-msgstr "Δεν είναι δυνατή η λήψη URL ροής"
-
 msgid "Unable to get stream for this episode"
 msgstr "Δεν είναι δυνατή η λήψη ροής για αυτό το επεισόδιο"
+
+msgid "Unable to get stream URL for download"
+msgstr "Δεν είναι δυνατή η λήψη URL ροής για λήψη"
 
 msgid "Unable to get streaming URL"
 msgstr "Δεν είναι δυνατή η λήψη URL ροής"
@@ -436,15 +487,17 @@ msgstr "Δεν είναι δυνατή η φόρτωση των λεπτομερ
 msgid "Unable to open details for this content"
 msgstr "Δεν είναι δυνατό το άνοιγμα λεπτομερειών για αυτό το περιεχόμενο"
 
-#, fuzzy
 msgid "Unable to resolve the video stream"
-msgstr "Δεν είναι δυνατή η λήψη URL ροής"
+msgstr "Δεν είναι δυνατή η επίλυση της ροής βίντεο"
 
 msgid "Unable to retrieve information from TMDB."
 msgstr "Δεν είναι δυνατή η ανάκτηση πληροφοριών από το TMDB."
 
 msgid "Unknown"
 msgstr "Αγνωστος"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "ΕΠΑΝΩ/ΚΑΤΩ ομάδες | ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ κάρτες | ΟΚ ανοιχτό | ΚΙΤΡΙΝΟ = Λήψεις"
 
 msgid "Updated, %d groups unavailable"
 msgstr "Ενημερώθηκε, %d ομάδες δεν είναι διαθέσιμες"
@@ -455,203 +508,9 @@ msgstr "Ενημέρωση"
 msgid "Updating cards %d/%d"
 msgstr "Ενημέρωση καρτών %d/%d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[Υψηλή ευκρίνεια] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Χρησιμοποιήστε τα αριθμητικά πλήκτρα στο τηλεχειριστήριο\n για να εισαγάγετε τον κωδικό captcha\nGREEN = Επιβεβαίωση, ΚΟΚΚΙΝΟ = Ακύρωση"
 
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
+msgid "Waiting"
+msgstr "Αναμονή"
 
-msgid "error"
-msgstr "σφάλμα"
-
-msgid "loading"
-msgstr "φόρτωση"
-
-#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-#~ msgstr "ΕΠΑΝΩ/ΚΑΤΩ ομάδες | ΑΡΙΣΤΕΡΑ/ΔΕΞΙΑ κάρτες | ΟΚ άνοιξε"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Season information not available"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "Οι πληροφορίες σεζόν δεν είναι διαθέσιμες"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ " Σεζόν: %d\n"
-#~ "Σύνολο επεισοδίων: %d"
-
-#~ msgid ""
-#~ "Altadefinizione Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "Genre: %s\n"
-#~ "\n"
-#~ "Links available: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "Altadefinizione Movie\n"
-#~ "\n"
-#~ "Έτος: %s\n"
-#~ "Είδος: %s\n"
-#~ "\n"
-#~ "Διαθέσιμοι σύνδεσμοι: %d\n"
-#~ "\n"
-#~ "Πατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
-
-#~ msgid ""
-#~ "CB01 Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "Genre: %s\n"
-#~ "\n"
-#~ "Links available: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "CB01 Movie\n"
-#~ "\n"
-#~ "Έτος: %s\n"
-#~ "Είδος: %s\n"
-#~ "\n"
-#~ "Διαθέσιμοι σύνδεσμοι: %d\n"
-#~ "\n"
-#~ "Πατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
-
-#~ msgid ""
-#~ "CB01 TV Series\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "Τηλεοπτική σειρά CB01\n"
-#~ "\n"
-#~ " Σεζόν: %d\n"
-#~ "Σύνολο επεισοδίων: %d\n"
-#~ "\n"
-#~ "Πατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
-
-#~ msgid ""
-#~ "Description:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Περιγραφή:\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "\n"
-#~ "Rating: %s/10\n"
-#~ "\n"
-#~ "Genres:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "Ταινία\n"
-#~ "\n"
-#~ "Έτος: %s\n"
-#~ "\n"
-#~ "Βαθμολογία: %s/10\n"
-#~ "\n"
-#~ "Είδη:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Πατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
-
-#~ msgid ""
-#~ "OnlineSerieTV\n"
-#~ "\n"
-#~ "Rating: %s\n"
-#~ "\n"
-#~ "Creator: %s"
-#~ msgstr ""
-#~ "OnlineSerieTV\n"
-#~ "\n"
-#~ "Βαθμολογία: %s\n"
-#~ "\n"
-#~ "Δημιουργός: %s"
-
-#~ msgid ""
-#~ "Press GREEN to enter the code\n"
-#~ "Press RED to cancel"
-#~ msgstr ""
-#~ "Πατήστε ΠΡΑΣΙΝΟ για να εισαγάγετε τον κωδικό\n"
-#~ "Πατήστε ΚΟΚΚΙΝΟ για ακύρωση"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "\n"
-#~ "Rating: %s/10\n"
-#~ "\n"
-#~ "Genres:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Τηλεοπτική σειρά\n"
-#~ "\n"
-#~ "Σεζόν: %d\n"
-#~ "Συνολικά επεισόδια: %d\n"
-#~ "\n"
-#~ "Έτος: %s\n"
-#~ "\n"
-#~ "Βαθμολογία: %s/10\n"
-#~ "\n"
-#~ "Είδη:\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Τηλεοπτική σειρά\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d"
-#~ msgstr ""
-#~ "Τηλεοπτικές σειρές\n"
-#~ " Σεζόν: %d\n"
-#~ "Σύνολο επεισοδίων: %d"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "Τηλεοπτικές σειρές\n"
-#~ " Σεζόν: %d\n"
-#~ "Συνολικά επεισόδια: %d\n"
-#~ "Πατήστε ΠΡΑΣΙΝΟ για αναπαραγωγή"
-
-#~ msgid ""
-#~ "Use the numeric keys on the remote\n"
-#~ "to enter the captcha code\n"
-#~ "GREEN = Confirm, RED = Cancel"
-#~ msgstr ""
-#~ "Χρησιμοποιήστε τα αριθμητικά πλήκτρα στο τηλεχειριστήριο\n"
-#~ " για να εισαγάγετε τον κωδικό captcha\n"
-#~ "GREEN = Επιβεβαίωση, ΚΟΚΚΙΝΟ = Ακύρωση"

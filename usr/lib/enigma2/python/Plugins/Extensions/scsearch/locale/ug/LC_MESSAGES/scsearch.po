@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "%d titles"
-msgstr "% d ماۋزۇ"
-
-msgid "%s %s"
-msgstr "% s% s"
-
 msgid "--- MOVIES ---"
 msgstr "--- MOVIES ---"
 
@@ -28,8 +22,23 @@ msgstr "--- يېڭى ئىزدەش ---"
 msgid "--- TV SERIES ---"
 msgstr "--- TV SERIES ---"
 
-msgid "0 titles"
-msgstr "0 ماۋزۇ"
+msgid "[Altadefinizione] %s"
+msgstr "[يۇقىرى ئېنىقلىما]% s"
+
+msgid "[CB01] %s"
+msgstr "[CB01]% s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\n پەسىل ئۇچۇرلىرى يوق"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\n پەسىل:% d\n ئومۇمىي بۆلۈم:% d"
+
+msgid "%d titles"
+msgstr "% d ماۋزۇ"
+
+msgid "%s %s"
+msgstr "% s% s"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< كروننى ئۆچۈرۈڭ >>>"
@@ -40,8 +49,17 @@ msgstr ">>> بۆلەكلەر <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> پەسىللەر <<<"
 
+msgid "0 titles"
+msgstr "0 ماۋزۇ"
+
+msgid "Added to download queue:\n{}"
+msgstr "چۈشۈرۈش ئۈچۈن قوشۇلدى: \n {}"
+
 msgid "Aggiunti di Recente"
 msgstr "يېقىندا قوشۇلدى"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\n يىل:% s\n ئەۋلاد:% s\n\n ئۇلىنىشلار بار:% d\n\n بېسىش ئۈچۈن GREEN"
 
 msgid "Animazione"
 msgstr "Animation"
@@ -61,20 +79,20 @@ msgstr "گورىزونتال سىيرىلما گۇرۇپپا ۋە كارتىلا
 msgid "CANCEL"
 msgstr "CANCEL"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01 قويۇش خاتالىقى:% s"
-
-msgid "CONFIRM"
-msgstr "CONFIRM"
-
-msgid "CONTENTS"
-msgstr "مەزمۇنى"
-
 msgid "Card error"
 msgstr "كارتا خاتالىقى"
 
 msgid "Cards updated"
 msgstr "كارتا يېڭىلاندى"
+
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 Movie\n\n يىل:% s\n ئەۋلاد"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 قويۇش خاتالىقى:% s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 تېلېۋىزىيە تىياتىرلىرى \n\n پەسىللەر:% d\n ئومۇمىي بۆلۈم:% d\n\n بېسىش GREEN"
 
 msgid "Change Folder"
 msgstr "ھۆججەت قىسقۇچنى ئۆزگەرتىش"
@@ -83,19 +101,19 @@ msgid "Choose download folder"
 msgstr "چۈشۈرۈش قىسقۇچىنى تاللاڭ"
 
 msgid "Clear Done"
-msgstr ""
+msgstr "Clear Done"
 
 msgid "Code:"
 msgstr "كود:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "كود: {self.captcha_code}"
-
 msgid "Commedia"
-msgstr ""
+msgstr "Commedia"
 
 msgid "Completed"
 msgstr "تاماملاندى"
+
+msgid "CONFIRM"
+msgstr "CONFIRM"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione دىكى مەزمۇن - ئېچىش ئۈچۈن OK نى بېسىڭ ..."
@@ -103,20 +121,17 @@ msgstr "Altadefinizione دىكى مەزمۇن - ئېچىش ئۈچۈن OK نى ب
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 دىكى مەزمۇن - جەزىملەشتۈرۈش كۇنۇپكىسىنى بېسىڭ ..."
 
+msgid "CONTENTS"
+msgstr "مەزمۇنى"
+
 msgid "Crime"
 msgstr "جىنايەت"
-
-msgid "DOWNLOAD"
-msgstr ""
-
-msgid "DOWNLOADS"
-msgstr ""
 
 msgid "Description not available."
 msgstr "چۈشەندۈرۈش يوق."
 
-msgid "Details for: '%s'"
-msgstr "تەپسىلاتى: '% s'"
+msgid "Description:\n\n%s"
+msgstr "چۈشەندۈرۈش: \n\n% s"
 
 msgid "Details not available"
 msgstr "تەپسىلاتى يوق"
@@ -124,27 +139,35 @@ msgstr "تەپسىلاتى يوق"
 msgid "Documentario"
 msgstr "ھۆججەتلىك فىلىم"
 
+msgid "DOWNLOAD"
+msgstr "DOWNLOAD"
+
+msgid "Download already completed!"
+msgstr "چۈشۈرۈش تاماملاندى!"
+
+msgid "Download folder changed to:\n{}"
+msgstr "چۈشۈرۈش قىسقۇچى: \n {} غا ئۆزگەرتىلدى"
+
 msgid "Download Queue"
 msgstr "ئۆچرەتنى چۈشۈرۈڭ"
 
-#, fuzzy
 msgid "Downloading"
-msgstr "يۈكلەۋاتىدۇ"
+msgstr "چۈشۈرۈش"
+
+msgid "DOWNLOADS"
+msgstr "DOWNLOADS"
 
 msgid "Dramma"
 msgstr "دراما"
-
-msgid "ENTER"
-msgstr "ENTER"
-
-msgid "EXIT"
-msgstr "EXIT"
 
 msgid "Enable debug"
 msgstr "قوزغىتىشنى قوزغىتىڭ"
 
 msgid "Enable debug output in logs"
 msgstr "خاتىرىلەردە خاتالىق چىقىرىشنى قوزغىتىڭ"
+
+msgid "ENTER"
+msgstr "ENTER"
 
 msgid "Enter Captcha Code"
 msgstr "Captcha كودىنى كىرگۈزۈڭ"
@@ -164,24 +187,26 @@ msgstr "Episodes"
 msgid "Episodes:"
 msgstr "Episodes:"
 
-#, fuzzy
+msgid "error"
+msgstr "خاتالىق"
+
 msgid "Error"
 msgstr "خاتالىق"
 
+msgid "Error loading captcha"
+msgstr "تەپسىلاتلارنى يۈكلەشتە خاتالىق"
+
 msgid "Error loading CB01 series"
 msgstr "CB01 يۈرۈشلۈكىنى يۈكلەشتە خاتالىق"
+
+msgid "Error loading details"
+msgstr "تەپسىلاتلارنى يۈكلەشتە خاتالىق"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV يۈرۈشلۈكلىرىنى يۈكلەشتە خاتالىق"
 
 msgid "Error loading TMDB"
 msgstr "TMDB نى يۈكلەشتە خاتالىق"
-
-msgid "Error loading captcha"
-msgstr "تەپسىلاتلارنى يۈكلەشتە خاتالىق"
-
-msgid "Error loading details"
-msgstr "تەپسىلاتلارنى يۈكلەشتە خاتالىق"
 
 msgid "Error playing episode: %s"
 msgstr "بۆلەك ئويناشتىكى خاتالىق:% s"
@@ -192,6 +217,9 @@ msgstr "UI نى يېڭىلاشتا خاتالىق"
 msgid "Exit"
 msgstr "چىقىش"
 
+msgid "EXIT"
+msgstr "EXIT"
+
 msgid "Famiglia"
 msgstr "ئائىلە"
 
@@ -199,7 +227,10 @@ msgid "Fantascienza"
 msgstr "ئىلمىي فانتازىيىلىك ھېكايە"
 
 msgid "Fantasy"
-msgstr ""
+msgstr "Fantasy"
+
+msgid "Free: {:.2f} GB / {:.2f} GB"
+msgstr "ھەقسىز: {:.2f} GB / {:.2f} GB"
 
 msgid "GROUPS"
 msgstr "GROUPS"
@@ -207,9 +238,8 @@ msgstr "GROUPS"
 msgid "History"
 msgstr "تارىخ"
 
-#, fuzzy
 msgid "Horror"
-msgstr "خاتالىق"
+msgstr "قورقۇنچ"
 
 msgid "I Titoli Del Momento"
 msgstr "دەقىقىلەرنىڭ ماۋزۇلىرى"
@@ -220,12 +250,14 @@ msgstr "ئىناۋەتسىز ھۆججەت قىسقۇچ!"
 msgid "Invalid streaming URL"
 msgstr "ئىناۋەتلىك ئېقىم URL"
 
-#, fuzzy
 msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
-msgstr "LEFT / RIGHT يول باشلاش | بولىدۇ ئوچۇق | گۇرۇپپىلارغا قايتىڭ"
+msgstr "LEFT / RIGHT يول باشلاش | بولىدۇ ئوچۇق | UP غا قايتىپ | YELLOW = چۈشۈرۈش"
 
 msgid "Load error"
 msgstr "يۈك خاتالىق"
+
+msgid "loading"
+msgstr "يۈكلەۋاتىدۇ"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB دىن تەپسىلاتلارنى يۈكلەۋاتىدۇ ..."
@@ -245,9 +277,11 @@ msgstr "كۆرسىتىلىدىغان ئەڭ چوڭ نەتىجە"
 msgid "Movie History"
 msgstr "كىنو تارىخى"
 
-#, fuzzy
 msgid "Movie history cleared"
 msgstr "كىنو تارىخى"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "كىنو: \n\n"
 
 msgid "N/A"
 msgstr "N / A."
@@ -270,6 +304,9 @@ msgstr "ئۆچرەتتە چۈشۈرۈش يوق"
 msgid "No episodes available"
 msgstr "ھېچقانداق بۆلەك يوق"
 
+msgid "No item selected!"
+msgstr "ھېچقانداق تۈر تاللانمىدى!"
+
 msgid "No previous searches found"
 msgstr "ئىلگىرىكى ئىزدەشلەر تېپىلمىدى"
 
@@ -291,8 +328,11 @@ msgstr "OK = تاللاڭ | RED = Remove | GREEN = باشلاش / توختىتى
 msgid "OnlineSerieTV - TV Series"
 msgstr "OnlineSerieTV - تېلېۋىزىيە تىياتىرى"
 
-msgid "PLAY"
-msgstr "PLAY"
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "OnlineSerieTV\n\n باھا:% s\n\n ئىجادكار:% s"
+
+msgid "Pause"
+msgstr "Pause"
 
 msgid "Paused"
 msgstr "توختاپ قالدى"
@@ -300,11 +340,17 @@ msgstr "توختاپ قالدى"
 msgid "Pending"
 msgstr "ساقلىنىۋاتىدۇ"
 
+msgid "PLAY"
+msgstr "PLAY"
+
 msgid "Playback error: %s"
 msgstr "قويۇش خاتالىقى:% s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "ئىزدەش ئۈچۈن GREEN (كىنو) ياكى سېرىق (تېلېۋىزىيە يۈرۈشلۈكلىرى) نى بېسىڭ ..."
+
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "ئەمەلدىن قالدۇرۇش ئۈچۈن GREEN كۇنۇپكىسىنى بېسىڭ"
 
 msgid "Press GREEN to play"
 msgstr "ئويناش ئۈچۈن GREEN نى بېسىڭ"
@@ -315,14 +361,14 @@ msgstr "OK نى بېسىڭ"
 msgid "Press OK to view full details..."
 msgstr "تولۇق كۇنۇپكىنى كۆرۈش ئۈچۈن OK نى بېسىڭ ..."
 
-msgid "REFRESH"
-msgstr "REFRESH"
-
 msgid "Reality"
 msgstr "رېئاللىق"
 
 msgid "Refresh"
 msgstr "يېڭىلاش"
+
+msgid "REFRESH"
+msgstr "REFRESH"
 
 msgid "Remove"
 msgstr "ئۆچۈرۈڭ"
@@ -342,21 +388,17 @@ msgstr "SEARCH"
 msgid "Search History"
 msgstr "ئىزدەش تارىخى"
 
-msgid "Search Movie"
-msgstr "كىنو ئىزدەش"
-
-msgid "Search TV Series"
-msgstr "تېلېۋىزىيە يۈرۈشلۈكلىرىنى ئىزدەڭ"
-
-#, fuzzy
 msgid "Search history cleared"
 msgstr "ئىزدەش تارىخى"
+
+msgid "Search Movie"
+msgstr "كىنو ئىزدەش"
 
 msgid "Search timeout"
 msgstr "ئىزدەش ۋاقتى"
 
-msgid "Searching for: '%s'"
-msgstr "ئىزدەش: '% s'"
+msgid "Search TV Series"
+msgstr "تېلېۋىزىيە يۈرۈشلۈكلىرىنى ئىزدەڭ"
 
 msgid "Searching..."
 msgstr "ئىزدەش ..."
@@ -379,8 +421,20 @@ msgstr "يۈرۈشلۈك URL تېپىلمىدى"
 msgid "Series URL not found."
 msgstr "يۈرۈشلۈك URL تېپىلمىدى."
 
+msgid "Start"
+msgstr "باشلاش"
+
 msgid "Start/Pause"
 msgstr "باشلاش / توختىتىش"
+
+msgid "Thriller"
+msgstr "Thriller"
+
+msgid "Timeout for search requests (seconds)"
+msgstr "ئىزدەش تەلەپلىرىنىڭ ۋاقتى (سېكۇنت)"
+
+msgid "Title"
+msgstr "ماۋزۇ"
 
 msgid "TMDB API key not found"
 msgstr "TMDB API ئاچقۇچى تېپىلمىدى"
@@ -391,41 +445,38 @@ msgstr "TMDB API ئاچقۇچى تېپىلمىدى ياكى ئىناۋەتسىز
 msgid "TMDB ID not found"
 msgstr "TMDB كىملىكى تېپىلمىدى"
 
-msgid "TV Series History"
-msgstr "TV Series History"
-
-#, fuzzy
-msgid "TV series history cleared"
-msgstr "TV Series History"
-
-msgid "Thriller"
-msgstr ""
-
-msgid "Timeout for search requests (seconds)"
-msgstr "ئىزدەش تەلەپلىرىنىڭ ۋاقتى (سېكۇنت)"
-
-msgid "Title"
-msgstr "ماۋزۇ"
-
 msgid "Top 10 di oggi"
 msgstr "بۈگۈنكى ئالدىنقى 10"
 
-msgid "Total: {}  |  Active: {}  |  Folder: {}"
-msgstr "ئومۇمىي: {} | ئاكتىپ: {} | ھۆججەت قىسقۇچ: {}"
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "ئومۇمىي: {} | ئاكتىپ: {} | تاماملاندى: {} | خاتالىق: {}"
+
+msgid "TV Series History"
+msgstr "TV Series History"
+
+msgid "TV series history cleared"
+msgstr "TV Series History"
+
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "تېلېۋىزىيە تىياتىرلىرى \n\n پەسىللەر:% d\n ئومۇمىي بۆلۈم:% d\n\n يىل:% s\n\n باھا:% s / 10\n\n ئەۋلادلار: \n% s"
+
+msgid "TV Series\n%s"
+msgstr "TV Series\n% s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "تېلېۋىزىيە تىياتىرلىرى \n پەسىللىرى:% d\n ئومۇمىي بۆلۈم:% d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "تېلېۋىزىيە تىياتىرلىرى \n پەسىللەر:% d\n ئومۇمىي بۆلۈم:% d\n بېسىش GREEN"
 
 msgid "Type: %s"
 msgstr "تىپى:% s"
 
-#, fuzzy
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "UP / DOWN گۇرۇپپىلىرى | LEFT / RIGHT كارتا | ماقۇل"
-
-#, fuzzy
-msgid "Unable to get stream URL for download"
-msgstr "ئاقما URL غا ئېرىشەلمىدى"
-
 msgid "Unable to get stream for this episode"
 msgstr "بۇ بۆلۈمنىڭ ئېقىمىغا ئېرىشەلمىدى"
+
+msgid "Unable to get stream URL for download"
+msgstr "چۈشۈرۈش ئۈچۈن ئېقىم URL غا ئېرىشەلمىدى"
 
 msgid "Unable to get streaming URL"
 msgstr "ئاقما URL غا ئېرىشەلمىدى"
@@ -436,15 +487,17 @@ msgstr "مەزمۇن تەپسىلاتلىرىنى يۈكلىيەلمىدى"
 msgid "Unable to open details for this content"
 msgstr "بۇ مەزمۇننىڭ تەپسىلاتلىرىنى ئاچالمىدى"
 
-#, fuzzy
 msgid "Unable to resolve the video stream"
-msgstr "ئاقما URL غا ئېرىشەلمىدى"
+msgstr "سىن ئېقىمىنى ھەل قىلالمىدى"
 
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB دىن ئۇچۇرغا ئېرىشەلمىدى."
 
 msgid "Unknown"
 msgstr "نامەلۇم"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP / DOWN گۇرۇپپىلىرى | LEFT / RIGHT كارتا | بولىدۇ ئوچۇق | YELLOW = چۈشۈرۈش"
 
 msgid "Updated, %d groups unavailable"
 msgstr "يېڭىلاندى ،% d گۇرۇپپىسىنى ئىشلەتكىلى بولمايدۇ"
@@ -455,188 +508,9 @@ msgstr "يېڭىلاش"
 msgid "Updating cards %d/%d"
 msgstr "كارتا يېڭىلاش% d /% d"
 
-msgid "[Altadefinizione] %s"
-msgstr "[يۇقىرى ئېنىقلىما]% s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "Remote\n دىكى رەقەملىك كۇنۇپكىلارنى ئىشلىتىپ capcha codeESES_1GREEN = جەزملەشتۈرۈڭ ، RED = بىكار قىلىڭ"
 
-msgid "[CB01] %s"
-msgstr "[CB01]% s"
+msgid "Waiting"
+msgstr "ساقلاش"
 
-msgid "error"
-msgstr "خاتالىق"
-
-msgid "loading"
-msgstr "يۈكلەۋاتىدۇ"
-
-#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-#~ msgstr "UP / DOWN گۇرۇپپىلىرى | LEFT / RIGHT كارتا | ماقۇل"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Season information not available"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ " پەسىل ئۇچۇرلىرى يوق"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ " پەسىل:% d\n"
-#~ " ئومۇمىي بۆلۈم:% d"
-
-#~ msgid ""
-#~ "Altadefinizione Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "Genre: %s\n"
-#~ "\n"
-#~ "Links available: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "Altadefinizione Movie\n"
-#~ "\n"
-#~ " يىل:% s\n"
-#~ " ئەۋلاد:% s\n"
-#~ "\n"
-#~ " ئۇلىنىشلار بار:% d\n"
-#~ "\n"
-#~ " بېسىش ئۈچۈن GREEN"
-
-#~ msgid ""
-#~ "CB01 Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "Genre: %s\n"
-#~ "\n"
-#~ "Links available: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "CB01 Movie\n"
-#~ "\n"
-#~ " يىل:% s\n"
-#~ " ئەۋلاد"
-
-#~ msgid ""
-#~ "CB01 TV Series\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "CB01 تېلېۋىزىيە تىياتىرلىرى \n"
-#~ "\n"
-#~ " پەسىللەر:% d\n"
-#~ " ئومۇمىي بۆلۈم:% d\n"
-#~ "\n"
-#~ " بېسىش GREEN"
-
-#~ msgid ""
-#~ "Description:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "چۈشەندۈرۈش: \n"
-#~ "\n"
-#~ "% s"
-
-#~ msgid ""
-#~ "Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "\n"
-#~ "Rating: %s/10\n"
-#~ "\n"
-#~ "Genres:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "كىنو: \n"
-#~ "\n"
-
-#~ msgid ""
-#~ "OnlineSerieTV\n"
-#~ "\n"
-#~ "Rating: %s\n"
-#~ "\n"
-#~ "Creator: %s"
-#~ msgstr ""
-#~ "OnlineSerieTV\n"
-#~ "\n"
-#~ " باھا:% s\n"
-#~ "\n"
-#~ " ئىجادكار:% s"
-
-#~ msgid ""
-#~ "Press GREEN to enter the code\n"
-#~ "Press RED to cancel"
-#~ msgstr "ئەمەلدىن قالدۇرۇش ئۈچۈن GREEN كۇنۇپكىسىنى بېسىڭ"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "\n"
-#~ "Rating: %s/10\n"
-#~ "\n"
-#~ "Genres:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "تېلېۋىزىيە تىياتىرلىرى \n"
-#~ "\n"
-#~ " پەسىللەر:% d\n"
-#~ " ئومۇمىي بۆلۈم:% d\n"
-#~ "\n"
-#~ " يىل:% s\n"
-#~ "\n"
-#~ " باھا:% s / 10\n"
-#~ "\n"
-#~ " ئەۋلادلار: \n"
-#~ "% s"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "%s"
-#~ msgstr ""
-#~ "TV Series\n"
-#~ "% s"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d"
-#~ msgstr ""
-#~ "تېلېۋىزىيە تىياتىرلىرى \n"
-#~ " پەسىللىرى:% d\n"
-#~ " ئومۇمىي بۆلۈم:% d"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "تېلېۋىزىيە تىياتىرلىرى \n"
-#~ " پەسىللەر:% d\n"
-#~ " ئومۇمىي بۆلۈم:% d\n"
-#~ " بېسىش GREEN"
-
-#~ msgid ""
-#~ "Use the numeric keys on the remote\n"
-#~ "to enter the captcha code\n"
-#~ "GREEN = Confirm, RED = Cancel"
-#~ msgstr ""
-#~ "Remote\n"
-#~ " دىكى رەقەملىك كۇنۇپكىلارنى ئىشلىتىپ capcha codeESES_1GREEN = جەزملەشتۈرۈڭ ، RED = بىكار قىلىڭ"

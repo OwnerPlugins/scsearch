@@ -13,12 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "%d titles"
-msgstr "%d タイトル"
-
-msgid "%s %s"
-msgstr "%s %s"
-
 msgid "--- MOVIES ---"
 msgstr "--- 映画 ---"
 
@@ -28,8 +22,23 @@ msgstr "--- 新規検索 ---"
 msgid "--- TV SERIES ---"
 msgstr "- - 連続テレビ番組 - -"
 
-msgid "0 titles"
-msgstr "0タイトル"
+msgid "[Altadefinizione] %s"
+msgstr "[高解像度] %s"
+
+msgid "[CB01] %s"
+msgstr "[CB01] %s"
+
+msgid "\n\nSeason information not available"
+msgstr "\n\n季節情報がありません"
+
+msgid "\n\nSeasons: %d\nTotal episodes: %d"
+msgstr "\n\nシーズン: %d\n合計エピソード: %d"
+
+msgid "%d titles"
+msgstr "%d タイトル"
+
+msgid "%s %s"
+msgstr "%s %s"
 
 msgid "<<< Erase Cron >>>"
 msgstr "<<< Cron を消去 >>>"
@@ -40,8 +49,17 @@ msgstr ">>> エピソード <<<"
 msgid ">>> Seasons <<<"
 msgstr ">>> 季節 <<<"
 
+msgid "0 titles"
+msgstr "0タイトル"
+
+msgid "Added to download queue:\n{}"
+msgstr "ダウンロード キューに追加されました:\n{}"
+
 msgid "Aggiunti di Recente"
 msgstr "最近追加された"
+
+msgid "Altadefinizione Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "Altadefinizione Movie\n\n年: %s\nジャンル: %s\n\n利用可能なリンク: %d\n\n再生するには緑を押してください"
 
 msgid "Animazione"
 msgstr "アニメーション"
@@ -61,20 +79,20 @@ msgstr "水平スクロールでグループとカードを閲覧"
 msgid "CANCEL"
 msgstr "キャンセル"
 
-msgid "CB01 playback error: %s"
-msgstr "CB01 再生エラー: %s"
-
-msgid "CONFIRM"
-msgstr "確認する"
-
-msgid "CONTENTS"
-msgstr "コンテンツ"
-
 msgid "Card error"
 msgstr "カードエラー"
 
 msgid "Cards updated"
 msgstr "カードが更新されました"
+
+msgid "CB01 Movie\n\nYear: %s\nGenre: %s\n\nLinks available: %d\n\nPress GREEN to play"
+msgstr "CB01 映画\n\n年: %s\nジャンル: %s\n\n利用可能なリンク: %d\n\n再生するには緑を押してください"
+
+msgid "CB01 playback error: %s"
+msgstr "CB01 再生エラー: %s"
+
+msgid "CB01 TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nPress GREEN to play"
+msgstr "CB01 TV シリーズ\n\nシーズン: %d\n合計エピソード: %d\n\n再生するには緑を押してください"
 
 msgid "Change Folder"
 msgstr "フォルダーの変更"
@@ -88,14 +106,14 @@ msgstr "クリア完了"
 msgid "Code:"
 msgstr "コード："
 
-msgid "Code: {self.captcha_code}"
-msgstr "コード: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "コメディア"
 
 msgid "Completed"
-msgstr "完了しました"
+msgstr "完了"
+
+msgid "CONFIRM"
+msgstr "確認する"
 
 msgid "Content from Altadefinizione - Press OK to open..."
 msgstr "Altadefinizione のコンテンツ - [OK] を押して開きます..."
@@ -103,20 +121,17 @@ msgstr "Altadefinizione のコンテンツ - [OK] を押して開きます..."
 msgid "Content from CB01 - Press OK to open..."
 msgstr "CB01 のコンテンツ - [OK] を押して開きます..."
 
+msgid "CONTENTS"
+msgstr "コンテンツ"
+
 msgid "Crime"
 msgstr "犯罪"
-
-msgid "DOWNLOAD"
-msgstr "ダウンロード"
-
-msgid "DOWNLOADS"
-msgstr "ダウンロード"
 
 msgid "Description not available."
 msgstr "説明はありません。"
 
-msgid "Details for: '%s'"
-msgstr "詳細: '%s'"
+msgid "Description:\n\n%s"
+msgstr "説明:\n\n%s"
 
 msgid "Details not available"
 msgstr "詳細は不明"
@@ -124,27 +139,35 @@ msgstr "詳細は不明"
 msgid "Documentario"
 msgstr "ドキュメンタリー"
 
+msgid "DOWNLOAD"
+msgstr "ダウンロード"
+
+msgid "Download already completed!"
+msgstr "ダウンロードはすでに完了しています！"
+
+msgid "Download folder changed to:\n{}"
+msgstr "ダウンロード フォルダが次の場所に変更されました:\n{}"
+
 msgid "Download Queue"
 msgstr "ダウンロードキュー"
 
-#, fuzzy
 msgid "Downloading"
-msgstr "読み込み中"
+msgstr "ダウンロード中"
+
+msgid "DOWNLOADS"
+msgstr "ダウンロード"
 
 msgid "Dramma"
 msgstr "ドラマ"
-
-msgid "ENTER"
-msgstr "入力"
-
-msgid "EXIT"
-msgstr "出口"
 
 msgid "Enable debug"
 msgstr "デバッグを有効にする"
 
 msgid "Enable debug output in logs"
 msgstr "ログでのデバッグ出力を有効にする"
+
+msgid "ENTER"
+msgstr "入力"
 
 msgid "Enter Captcha Code"
 msgstr "キャプチャコードを入力してください"
@@ -164,24 +187,26 @@ msgstr "エピソード"
 msgid "Episodes:"
 msgstr "エピソード:"
 
-#, fuzzy
+msgid "error"
+msgstr "エラー"
+
 msgid "Error"
 msgstr "エラー"
 
+msgid "Error loading captcha"
+msgstr "詳細の読み込みエラー"
+
 msgid "Error loading CB01 series"
 msgstr "CB01シリーズの読み込みエラー"
+
+msgid "Error loading details"
+msgstr "詳細の読み込みエラー"
 
 msgid "Error loading OnlineSerieTV series"
 msgstr "OnlineSerieTV シリーズの読み込みエラー"
 
 msgid "Error loading TMDB"
 msgstr "TMDB のロード中にエラーが発生しました"
-
-msgid "Error loading captcha"
-msgstr "詳細の読み込みエラー"
-
-msgid "Error loading details"
-msgstr "詳細の読み込みエラー"
 
 msgid "Error playing episode: %s"
 msgstr "エピソードの再生中にエラーが発生しました: %s"
@@ -190,6 +215,9 @@ msgid "Error updating UI"
 msgstr "UIの更新中にエラーが発生しました"
 
 msgid "Exit"
+msgstr "出口"
+
+msgid "EXIT"
 msgstr "出口"
 
 msgid "Famiglia"
@@ -201,15 +229,17 @@ msgstr "SF"
 msgid "Fantasy"
 msgstr "ファンタジー"
 
+msgid "Free: {:.2f} GB / {:.2f} GB"
+msgstr "無料: {:.2f} GB / {:.2f} GB"
+
 msgid "GROUPS"
 msgstr "グループ"
 
 msgid "History"
 msgstr "歴史"
 
-#, fuzzy
 msgid "Horror"
-msgstr "エラー"
+msgstr "ホラー"
 
 msgid "I Titoli Del Momento"
 msgstr "今のタイトル"
@@ -220,12 +250,14 @@ msgstr "フォルダが無効です!"
 msgid "Invalid streaming URL"
 msgstr "無効なストリーミング URL"
 
-#, fuzzy
 msgid "LEFT/RIGHT navigate  |  OK open  |  UP back to groups  |  YELLOW = Downloads"
-msgstr "左/右に移動 | OK 開きます | UPしてグループに戻る"
+msgstr "左/右に移動 | OK 開きます | UP グループに戻る | 黄色 = ダウンロード"
 
 msgid "Load error"
 msgstr "ロードエラー"
+
+msgid "loading"
+msgstr "読み込み中"
 
 msgid "Loading details from TMDB..."
 msgstr "TMDB から詳細をロードしています..."
@@ -245,9 +277,11 @@ msgstr "表示する結果の最大数"
 msgid "Movie History"
 msgstr "映画の歴史"
 
-#, fuzzy
 msgid "Movie history cleared"
 msgstr "映画の歴史"
+
+msgid "Movie\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s\n\nPress GREEN to play"
+msgstr "映画\n\n年: %s\n\nレーティング: %s/10\n\nジャンル:\n%s\n\n再生するには緑を押してください"
 
 msgid "N/A"
 msgstr "該当なし"
@@ -270,6 +304,9 @@ msgstr "キューにダウンロードはありません"
 msgid "No episodes available"
 msgstr "利用できるエピソードはありません"
 
+msgid "No item selected!"
+msgstr "項目が選択されていません!"
+
 msgid "No previous searches found"
 msgstr "以前の検索は見つかりませんでした"
 
@@ -291,8 +328,11 @@ msgstr "OK = 選択 | 赤 = 削除 | 緑 = 開始/一時停止 | 青 = フォル
 msgid "OnlineSerieTV - TV Series"
 msgstr "オンラインSerieTV - テレビシリーズ"
 
-msgid "PLAY"
-msgstr "遊ぶ"
+msgid "OnlineSerieTV\n\nRating: %s\n\nCreator: %s"
+msgstr "オンラインシリーズTV\n\n評価: %s\n\n作成者: %s"
+
+msgid "Pause"
+msgstr "一時停止"
 
 msgid "Paused"
 msgstr "一時停止中"
@@ -300,11 +340,17 @@ msgstr "一時停止中"
 msgid "Pending"
 msgstr "保留中"
 
+msgid "PLAY"
+msgstr "遊ぶ"
+
 msgid "Playback error: %s"
 msgstr "再生エラー: %s"
 
 msgid "Press GREEN (Movie) or YELLOW (TV Series) to search..."
 msgstr "緑 (映画) または黄色 (TV シリーズ) を押して検索します..."
+
+msgid "Press GREEN to enter the code\nPress RED to cancel"
+msgstr "コードを入力するには緑を押してください\nキャンセルするには赤を押してください"
 
 msgid "Press GREEN to play"
 msgstr "緑を押して再生します"
@@ -315,13 +361,13 @@ msgstr "「OK」を押します"
 msgid "Press OK to view full details..."
 msgstr "[OK] を押して詳細を表示します..."
 
-msgid "REFRESH"
-msgstr "リフレッシュ"
-
 msgid "Reality"
 msgstr "現実"
 
 msgid "Refresh"
+msgstr "リフレッシュ"
+
+msgid "REFRESH"
 msgstr "リフレッシュ"
 
 msgid "Remove"
@@ -342,21 +388,17 @@ msgstr "検索"
 msgid "Search History"
 msgstr "検索履歴"
 
-msgid "Search Movie"
-msgstr "動画を検索"
-
-msgid "Search TV Series"
-msgstr "テレビシリーズを検索"
-
-#, fuzzy
 msgid "Search history cleared"
 msgstr "検索履歴"
+
+msgid "Search Movie"
+msgstr "動画を検索"
 
 msgid "Search timeout"
 msgstr "検索タイムアウト"
 
-msgid "Searching for: '%s'"
-msgstr "検索中: '%s'"
+msgid "Search TV Series"
+msgstr "テレビシリーズを検索"
 
 msgid "Searching..."
 msgstr "検索中..."
@@ -379,24 +421,11 @@ msgstr "シリーズの URL が見つかりません"
 msgid "Series URL not found."
 msgstr "シリーズの URL が見つかりません。"
 
+msgid "Start"
+msgstr "始める"
+
 msgid "Start/Pause"
 msgstr "開始/一時停止"
-
-msgid "TMDB API key not found"
-msgstr "TMDB API キーが見つかりません"
-
-msgid "TMDB API key not found or invalid!"
-msgstr "TMDB API キーが見つからないか無効です。"
-
-msgid "TMDB ID not found"
-msgstr "TMDB ID が見つかりません"
-
-msgid "TV Series History"
-msgstr "TVシリーズの歴史"
-
-#, fuzzy
-msgid "TV series history cleared"
-msgstr "TVシリーズの歴史"
 
 msgid "Thriller"
 msgstr "スリラー"
@@ -407,25 +436,47 @@ msgstr "検索リクエストのタイムアウト (秒)"
 msgid "Title"
 msgstr "タイトル"
 
+msgid "TMDB API key not found"
+msgstr "TMDB API キーが見つかりません"
+
+msgid "TMDB API key not found or invalid!"
+msgstr "TMDB API キーが見つからないか無効です。"
+
+msgid "TMDB ID not found"
+msgstr "TMDB ID が見つかりません"
+
 msgid "Top 10 di oggi"
 msgstr "今日のトップ10"
 
-msgid "Total: {}  |  Active: {}  |  Folder: {}"
-msgstr "合計: {} | アクティブ: {} | フォルダー: {}"
+msgid "Total: {}  |  Active: {}  |  Completed: {}  |  Errors: {}"
+msgstr "合計: {} | アクティブ: {} | 完了: {} | エラー: {}"
+
+msgid "TV Series History"
+msgstr "TVシリーズの歴史"
+
+msgid "TV series history cleared"
+msgstr "TVシリーズの歴史"
+
+msgid "TV Series\n\nSeasons: %d\nTotal episodes: %d\n\nYear: %s\n\nRating: %s/10\n\nGenres:\n%s"
+msgstr "TV シリーズ\n\nシーズン: %d\n総エピソード数: %d\n\n年: %s\n\nレーティング: %s/10\n\nジャンル:\n%s"
+
+msgid "TV Series\n%s"
+msgstr "TV シリーズ\n%s"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d"
+msgstr "TV シリーズ\nシーズン: %d\n合計エピソード: %d"
+
+msgid "TV Series\nSeasons: %d\nTotal episodes: %d\nPress GREEN to play"
+msgstr "TV シリーズ\nシーズン: %d\n合計エピソード: %d\n再生するには緑を押してください"
 
 msgid "Type: %s"
 msgstr "種類"
 
-#, fuzzy
-msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
-msgstr "UP/DOWN グループ | 左/右のカード | OK オープン"
-
-#, fuzzy
-msgid "Unable to get stream URL for download"
-msgstr "ストリーミング URL を取得できません"
-
 msgid "Unable to get stream for this episode"
 msgstr "このエピソードのストリームを取得できません"
+
+msgid "Unable to get stream URL for download"
+msgstr "ダウンロード用のストリーム URL を取得できません"
 
 msgid "Unable to get streaming URL"
 msgstr "ストリーミング URL を取得できません"
@@ -436,15 +487,17 @@ msgstr "コンテンツの詳細を読み込めません"
 msgid "Unable to open details for this content"
 msgstr "このコンテンツの詳細を開けません"
 
-#, fuzzy
 msgid "Unable to resolve the video stream"
-msgstr "ストリーミング URL を取得できません"
+msgstr "ビデオストリームを解決できません"
 
 msgid "Unable to retrieve information from TMDB."
 msgstr "TMDB から情報を取得できません。"
 
 msgid "Unknown"
 msgstr "未知"
+
+msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open  |  YELLOW = Downloads"
+msgstr "UP/DOWN グループ | 左/右のカード | OK 開きます | 黄色 = ダウンロード"
 
 msgid "Updated, %d groups unavailable"
 msgstr "更新されました。%d グループは利用できません"
@@ -455,203 +508,9 @@ msgstr "更新中"
 msgid "Updating cards %d/%d"
 msgstr "カード %d/%d を更新しています"
 
-msgid "[Altadefinizione] %s"
-msgstr "[高解像度] %s"
+msgid "Use the numeric keys on the remote\nto enter the captcha code\nGREEN = Confirm, RED = Cancel"
+msgstr "リモートの数字キーを使用して\nキャプチャ コードを入力します\n緑 = 確認、赤 = キャンセル"
 
-msgid "[CB01] %s"
-msgstr "[CB01] %s"
+msgid "Waiting"
+msgstr "待っている"
 
-msgid "error"
-msgstr "エラー"
-
-msgid "loading"
-msgstr "読み込み中"
-
-#~ msgid "UP/DOWN groups  |  LEFT/RIGHT cards  |  OK open"
-#~ msgstr "UP/DOWN グループ | 左/右のカード | OK オープン"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Season information not available"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "季節情報がありません"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "シーズン: %d\n"
-#~ "合計エピソード: %d"
-
-#~ msgid ""
-#~ "Altadefinizione Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "Genre: %s\n"
-#~ "\n"
-#~ "Links available: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "Altadefinizione Movie\n"
-#~ "\n"
-#~ "年: %s\n"
-#~ "ジャンル: %s\n"
-#~ "\n"
-#~ "利用可能なリンク: %d\n"
-#~ "\n"
-#~ "再生するには緑を押してください"
-
-#~ msgid ""
-#~ "CB01 Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "Genre: %s\n"
-#~ "\n"
-#~ "Links available: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "CB01 映画\n"
-#~ "\n"
-#~ "年: %s\n"
-#~ "ジャンル: %s\n"
-#~ "\n"
-#~ "利用可能なリンク: %d\n"
-#~ "\n"
-#~ "再生するには緑を押してください"
-
-#~ msgid ""
-#~ "CB01 TV Series\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "CB01 TV シリーズ\n"
-#~ "\n"
-#~ "シーズン: %d\n"
-#~ "合計エピソード: %d\n"
-#~ "\n"
-#~ "再生するには緑を押してください"
-
-#~ msgid ""
-#~ "Description:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "説明:\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Movie\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "\n"
-#~ "Rating: %s/10\n"
-#~ "\n"
-#~ "Genres:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "映画\n"
-#~ "\n"
-#~ "年: %s\n"
-#~ "\n"
-#~ "レーティング: %s/10\n"
-#~ "\n"
-#~ "ジャンル:\n"
-#~ "%s\n"
-#~ "\n"
-#~ "再生するには緑を押してください"
-
-#~ msgid ""
-#~ "OnlineSerieTV\n"
-#~ "\n"
-#~ "Rating: %s\n"
-#~ "\n"
-#~ "Creator: %s"
-#~ msgstr ""
-#~ "オンラインシリーズTV\n"
-#~ "\n"
-#~ "評価: %s\n"
-#~ "\n"
-#~ "作成者: %s"
-
-#~ msgid ""
-#~ "Press GREEN to enter the code\n"
-#~ "Press RED to cancel"
-#~ msgstr ""
-#~ "コードを入力するには緑を押してください\n"
-#~ "キャンセルするには赤を押してください"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "\n"
-#~ "Year: %s\n"
-#~ "\n"
-#~ "Rating: %s/10\n"
-#~ "\n"
-#~ "Genres:\n"
-#~ "%s"
-#~ msgstr ""
-#~ "TV シリーズ\n"
-#~ "\n"
-#~ "シーズン: %d\n"
-#~ "総エピソード数: %d\n"
-#~ "\n"
-#~ "年: %s\n"
-#~ "\n"
-#~ "レーティング: %s/10\n"
-#~ "\n"
-#~ "ジャンル:\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "%s"
-#~ msgstr ""
-#~ "TV シリーズ\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d"
-#~ msgstr ""
-#~ "TV シリーズ\n"
-#~ "シーズン: %d\n"
-#~ "合計エピソード: %d"
-
-#~ msgid ""
-#~ "TV Series\n"
-#~ "Seasons: %d\n"
-#~ "Total episodes: %d\n"
-#~ "Press GREEN to play"
-#~ msgstr ""
-#~ "TV シリーズ\n"
-#~ "シーズン: %d\n"
-#~ "合計エピソード: %d\n"
-#~ "再生するには緑を押してください"
-
-#~ msgid ""
-#~ "Use the numeric keys on the remote\n"
-#~ "to enter the captcha code\n"
-#~ "GREEN = Confirm, RED = Cancel"
-#~ msgstr ""
-#~ "リモートの数字キーを使用して\n"
-#~ "キャプチャ コードを入力します\n"
-#~ "緑 = 確認、赤 = キャンセル"
