@@ -109,7 +109,8 @@ class DownloadManager:
                 "-of", "default=noprint_wrappers=1:nokey=1",
                 url
             ]
-            result = subprocess.run(cmd, capture_output=True, text=True, timeout=15)
+            result = subprocess.run(
+                cmd, capture_output=True, text=True, timeout=15)
             if result.returncode == 0 and result.stdout.strip():
                 duration = float(result.stdout.strip())
                 log.info("DM: Duration = {} seconds".format(int(duration)))
@@ -224,7 +225,8 @@ class DownloadManager:
         while True:
             try:
                 # Find items that are ready to start
-                pending = [item for item in self.queue if item["status"] == "pending"]
+                pending = [
+                    item for item in self.queue if item["status"] == "pending"]
                 for item in pending:
                     if len(self.workers) < self.max_parallel:
                         item["status"] = "waiting"
@@ -320,7 +322,8 @@ class DownloadManager:
             external_folder = self._find_external_download_folder()
             if external_folder:
                 self.download_folder = external_folder
-                log.info("DM: Using external storage: {}".format(external_folder))
+                log.info(
+                    "DM: Using external storage: {}".format(external_folder))
                 self._notify_ui()
             else:
                 item["status"] = "error"
@@ -454,7 +457,8 @@ class DownloadManager:
                             last_progress_update = seconds
                             item["downloaded"] = seconds
                             if total_duration > 0:
-                                progress = int((seconds / total_duration) * 100)
+                                progress = int(
+                                    (seconds / total_duration) * 100)
                                 item["progress"] = min(progress, 99)
                             self._save_queue()
                             self._notify_ui()
@@ -528,14 +532,17 @@ class DownloadManager:
             season = resolver.get("season", 0)
             episode = resolver.get("episode", 0)
             from .search_functions import resolve_vixsrc_stream
-            log.info("DM: Resolving VixSrc M3U8 for item {}".format(item["id"]))
+            log.info(
+                "DM: Resolving VixSrc M3U8 for item {}".format(
+                    item["id"]))
             return resolve_vixsrc_stream(tmdb_id, season, episode)
 
         elif resolver_type == "direct":
             url = resolver.get("url")
             if url:
                 # Ensure URL has protocol
-                if not url.startswith("http://") and not url.startswith("https://"):
+                if not url.startswith(
+                        "http://") and not url.startswith("https://"):
                     url = "https://" + url
                 log.info("DM: Using direct URL for item {}".format(item["id"]))
                 return url
@@ -547,7 +554,8 @@ class DownloadManager:
 
         # Fallback: ensure URL has protocol
         url = item.get("url")
-        if url and not url.startswith("http://") and not url.startswith("https://"):
+        if url and not url.startswith(
+                "http://") and not url.startswith("https://"):
             url = "https://" + url
         return url
 
@@ -607,14 +615,14 @@ class DownloadManager:
         """Return free space in bytes for the download folder."""
         try:
             return shutil.disk_usage(self.download_folder).free
-        except:
+        except BaseException:
             return 0
 
     def get_total_space(self):
         """Return total space in bytes for the download folder."""
         try:
             return shutil.disk_usage(self.download_folder).total
-        except:
+        except BaseException:
             return 0
 
 

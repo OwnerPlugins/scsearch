@@ -813,9 +813,10 @@ def resolve_vixsrc_stream(tmdb_id, season=None, episode=None):
         tv_tuple = None
         if season is not None and episode is not None and season > 0 and episode > 0:
             tv_tuple = (season, episode)
-        log.info("RESOLVE: Resolving VixSrc for tmdb_id={}, tv={}".format(tmdb_id, tv_tuple))
+        log.info(
+            "RESOLVE: Resolving VixSrc for tmdb_id={}, tv={}".format(
+                tmdb_id, tv_tuple))
         return get_stream_links(vix_domain, tmdb_id, tv=tv_tuple)
     except Exception as e:
         log.error("RESOLVE: Failed to resolve VixSrc stream: {}".format(e))
         return None
-
