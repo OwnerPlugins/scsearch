@@ -1,8 +1,8 @@
 #!/bin/bash
 ## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/bash
 
-version='1.26'
-changelog="Some fix"
+version='1.27'
+changelog="Add Download Manager"
 
 TMPPATH=/tmp/scsearch-install
 FILEPATH=/tmp/scsearch-main.tar.gz
