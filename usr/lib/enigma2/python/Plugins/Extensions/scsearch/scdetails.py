@@ -155,7 +155,7 @@ class SCDetailsScreen(Screen):
                 "episode": episode
             }
 
-        item_id = download_manager.add_item(
+        download_manager.add_item(
             title=self.title,
             url=stream_url,
             media_type=media_type,

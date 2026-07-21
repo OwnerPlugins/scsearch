@@ -604,17 +604,15 @@ class DownloadManager:
         self._notify_ui()
 
     def get_free_space(self):
-        """Return free space in bytes for the download folder."""
         try:
             return shutil.disk_usage(self.download_folder).free
-        except:
+        except Exception:
             return 0
 
     def get_total_space(self):
-        """Return total space in bytes for the download folder."""
         try:
             return shutil.disk_usage(self.download_folder).total
-        except:
+        except Exception:
             return 0
 
 
