@@ -3,7 +3,7 @@
     <widget name="title" position="120,120" size="3600,120" font="Regular;84" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
     <widget name="type_info" position="120,270" size="1800,90" font="Regular;60" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" zPosition="1" />
 
-    <widget name="cover_pixmap" position="120,420" size="900,1350" zPosition="3" alphatest="on" />
+    <widget name="cover_pixmap" position="120,420" size="900,1350" zPosition="3" alphatest="on" cornerRadius="39" scale="1" />
 
     <widget name="info_panel" position="1080,420" size="840,600" font="Regular;54" foregroundColor="#ffffff" backgroundColor="#1b2028" zPosition="1" />
     <widget name="description_panel" position="1980,420" size="1740,600" font="Regular;48" foregroundColor="#aab2c0" backgroundColor="#151922" zPosition="1" />
@@ -14,8 +14,9 @@
     <widget name="episode_label" position="2040,1080" size="900,90" font="Regular;60" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
     <widget name="episode_list" position="2040,1200" size="900,450" itemHeight="105" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;54" zPosition="1" scrollbarMode="showNever" />
 
-    <widget name="key_red" position="120,1950" size="390,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" zPosition="1" />
-    <widget name="key_green" position="525,1950" size="390,90" font="Regular;54" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" zPosition="1" />
-    <widget name="key_yellow" position="930,1950" size="390,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="1" />
-    
+    <!-- Control Bar -->
+    <widget name="key_red" position="90,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
+    <widget name="key_green" position="585,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
+    <widget name="key_yellow" position="1080,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
+    <widget name="key_blue" position="1575,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
 </screen>

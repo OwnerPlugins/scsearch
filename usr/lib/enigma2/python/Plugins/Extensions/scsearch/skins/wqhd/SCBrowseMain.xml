@@ -48,10 +48,13 @@
     <widget name="card_title_4" position="2096,856" size="220,108" font="Regular;30" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1b2028" transparent="1" zPosition="3" />
     <widget name="card_meta_4" position="2096,968" size="220,44" font="Regular;25" halign="center" valign="center" foregroundColor="#aab2c0" backgroundColor="#1b2028" transparent="1" zPosition="3" />
 
-    <!-- Controls -->
-    <widget name="key_red" position="72,1348" size="256,56" font="Regular;34" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#c94343" />
-    <widget name="key_green" position="348,1348" size="256,56" font="Regular;34" halign="center" valign="center" foregroundColor="#101216" backgroundColor="#6ed47f" />
-    <widget name="key_blue" position="624,1348" size="256,56" font="Regular;34" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#3f7fe8" />
-    <widget name="key_yellow" position="908,1348" size="256,56" font="Regular;34" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="1" />
-    <widget name="hint" position="1291,1353" size="1200,56" font="Regular;34" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+    <!-- status buttons -->
+    <widget name="hint" position="1291,1308" size="1200,56" font="Regular;34" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+
+  <!-- Control Bar -->
+  <widget name="key_red" position="60,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
+  <widget name="key_green" position="390,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
+  <widget name="key_yellow" position="720,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
+  <widget name="key_blue" position="1050,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
+  <widget name="key_erase" position="1380,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#6e40c9" zPosition="2" />
 </screen>
