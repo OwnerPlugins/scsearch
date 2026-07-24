@@ -1,18 +1,18 @@
 <screen name="SCDetailsScreen" position="center,center" size="1280,720" title="SC Search - Details" backgroundColor="#101216">
     <eLabel position="0,0" size="1280,720" backgroundColor="#101216" zPosition="0" />
-    <widget name="title" position="40,40" size="1200,40" font="Regular;28" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
-    <widget name="type_info" position="40,90" size="600,30" font="Regular;20" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" zPosition="1" />
+    <widget name="title" position="40,40" size="1222,40" font="Regular;28" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
+    <widget name="type_info" position="40,90" size="1221,30" font="Regular;20" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" zPosition="1" />
 
     <widget name="cover_pixmap" position="40,140" size="300,450" zPosition="3" alphatest="on" cornerRadius="13" scale="1" />
 
-    <widget name="info_panel" position="360,140" size="280,200" font="Regular;18" foregroundColor="#ffffff" backgroundColor="#1b2028" zPosition="1" />
-    <widget name="description_panel" position="660,140" size="580,200" font="Regular;16" foregroundColor="#aab2c0" backgroundColor="#151922" zPosition="1" />
+    <widget name="info_panel" position="360,140" size="280,451" font="Regular;18" foregroundColor="#ffffff" backgroundColor="#1b2028" zPosition="1" />
+    <widget name="description_panel" position="660,140" size="602,260" font="Regular;16" foregroundColor="#aab2c0" backgroundColor="#151922" zPosition="1" />
 
-    <widget name="season_label" position="360,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
-    <widget name="season_list" position="360,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" scrollbarMode="showNever" />
+    <widget name="season_label" position="660,405" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
+    <widget name="season_list" position="660,440" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" scrollbarMode="showNever" />
 
-    <widget name="episode_label" position="680,360" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
-    <widget name="episode_list" position="680,400" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" scrollbarMode="showNever" />
+    <widget name="episode_label" position="968,405" size="300,30" font="Regular;20" foregroundColor="#ffffff" backgroundColor="#101216" transparent="1" zPosition="1" />
+    <widget name="episode_list" position="968,440" size="300,150" itemHeight="35" backgroundColor="#1b2028" foregroundColor="#ffffff" font="Regular;18" zPosition="1" scrollbarMode="showNever" />
 
     <!-- Control Bar -->
     <widget name="key_red" position="30,685" size="160,30" font="Regular;18" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
