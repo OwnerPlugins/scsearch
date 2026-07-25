@@ -18,5 +18,5 @@
     <widget name="key_red" position="90,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
     <widget name="key_green" position="585,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
     <widget name="key_yellow" position="1080,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
-    <widget name="key_blue" position="1575,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
+    <!-- <widget name="key_blue" position="1575,2055" size="480,90" font="Regular;54" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" /> -->
 </screen>
