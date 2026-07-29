@@ -95,6 +95,13 @@ install_pkg() {
 # Install Python requests
 install_pkg "$Packagerequests"
 
+# Install libnetsnmpmibsXX
+if [ "$OSTYPE" = "OE" ]; then
+    PKG=$(opkg list | awk '/^libnetsnmpmibs[0-9]+ /{print $1; exit}')
+    [ -n "$PKG" ] && install_pkg "$PKG"
+fi
+
+
 # Download and extract
 echo "Downloading scsearch..."
 wget --no-check-certificate 'https://github.com/OwnerPlugins/scsearch/archive/refs/heads/main.tar.gz' -O "$FILEPATH"
