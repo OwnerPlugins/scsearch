@@ -101,6 +101,15 @@ if [ "$OSTYPE" = "OE" ]; then
     [ -n "$PKG" ] && install_pkg "$PKG"
 fi
 
+# Install BeautifulSoup4
+if [ -x /usr/bin/python3 ]; then
+    BSPKG="python3-beautifulsoup4"
+else
+    BSPKG="python-beautifulsoup4"
+fi
+
+install_pkg "$BSPKG"
+
 
 # Download and extract
 echo "Downloading scsearch..."
