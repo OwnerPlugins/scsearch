@@ -1,0 +1,15 @@
+<screen name="DownloadManagerScreen" position="center,center" size="2560,1440" title="Download Manager" backgroundColor="#101216">
+    <widget name="info" position="46,24" size="2440,75" font="Regular; 42" foregroundColor="#f0c36a" backgroundColor="#101216" transparent="1" />
+    <widget name="list" position="60,140" size="2440,1118" font="Regular;54" itemHeight="80" scrollbarMode="showOnDemand" backgroundColor="#1b2028" foregroundColor="#f0f6fc" selectionPixmap="skin_default/sel.png" />
+    <widget name="progress_bar" position="60,1270" size="2440,30" backgroundColor="#1b2028" foregroundColor="#30d158" />
+    <widget name="status_label" position="60,1308" size="1227,56" font="Regular; 28" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+    <widget name="diskspace" position="1830,1373" size="660,50" font="Regular; 28" halign="right" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+    <!-- status buttons -->
+    <widget name="hint" position="1291,1308" size="1200,56" font="Regular;34" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+
+  <!-- Control Bar -->
+  <widget name="key_red" position="60,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
+  <widget name="key_green" position="390,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
+  <widget name="key_yellow" position="720,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
+  <widget name="key_blue" position="1050,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
+</screen>
