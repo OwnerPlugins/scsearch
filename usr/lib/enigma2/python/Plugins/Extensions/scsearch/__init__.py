@@ -8,7 +8,7 @@ import os
 import traceback
 
 __license__ = "GPL-2.0"
-__version__ = "1.27"
+__version__ = "1.28"
 
 # Domain and path for translation files
 PluginLanguageDomain = "scsearch"

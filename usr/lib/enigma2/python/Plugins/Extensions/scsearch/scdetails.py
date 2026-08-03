@@ -4,6 +4,7 @@ import threading
 import os
 import re
 import urllib.request
+import hashlib
 from enigma import eTimer, eServiceReference
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
@@ -12,10 +13,10 @@ from Components.Label import Label
 from Components.MenuList import MenuList
 from Components.Pixmap import Pixmap
 from Screens.InfoBar import MoviePlayer
+
 from .logger import get_logger
 from .search_functions import get_title_details
 from .download_manager import download_manager
-
 from . import _, load_skin
 
 log = get_logger()
@@ -54,6 +55,10 @@ class SCDetailsScreen(Screen):
 
         self.picload = None
         self.cover_temp_path = "/tmp/scdetails_cover.jpg"
+        self.saved_service = session.nav.getCurrentlyPlayingServiceReference()
+        self.poster_path = ostv_data.get("poster_path") if ostv_data else None
+        log.info("DETAILS: poster_path received: {}".format(self.poster_path))
+
         self._closed = False
         self._details_ready = False
         self._tmdb_info_ready = False
@@ -101,6 +106,23 @@ class SCDetailsScreen(Screen):
 
         self.playback_session = None
 
+    # ----------------------------------------------------------------------
+    # Safe MoviePlayer wrapper (compatible with OpenATV and OpenPLi)
+    # ----------------------------------------------------------------------
+    def _play_service(self, service_ref, service_name):
+        """
+        Open MoviePlayer safely without 'fromMovieSelection' parameter.
+        Compatible with all Enigma2 versions.
+        """
+        self.session.openWithCallback(
+            self.on_playback_stopped,
+            MoviePlayer,
+            service_ref
+        )
+
+    # ----------------------------------------------------------------------
+    # Download queue methods
+    # ----------------------------------------------------------------------
     def add_to_download_queue(self):
         if not self.details:
             return
@@ -203,13 +225,16 @@ class SCDetailsScreen(Screen):
         if not tmdb_id:
             return None
         if self.details.get("type") == "Movie":
-            # Restituisci solo il dominio (senza https://)
+            # Return only the domain (without https://)
             return "vixsrc.to/movie/{}".format(tmdb_id)
         else:
             return "vixsrc.to/tv/{}/{}/{}".format(
                 tmdb_id, self.selected_season, self.selected_episode
             )
 
+    # ----------------------------------------------------------------------
+    # Details loading and UI
+    # ----------------------------------------------------------------------
     def load_details(self):
         self._details_ready = False
         self.ui_timer.start(100, False)
@@ -343,6 +368,9 @@ class SCDetailsScreen(Screen):
             log.error("DETAILS: Error in update_ui: {}".format(e))
             self["type_info"].setText(_("Error updating UI"))
 
+    # ----------------------------------------------------------------------
+    # Setup methods for TV series and movies
+    # ----------------------------------------------------------------------
     def setup_tv_series(self):
         # --- CB01 ---
         if self.details.get('source') == 'cb01':
@@ -351,7 +379,6 @@ class SCDetailsScreen(Screen):
 
         # --- ALTADEFINIZIONE (IDENTICAL TO CB01) ---
         if self.details.get('source') == 'altadefinizione':
-            # Reuse the same logic as CB01 for series
             self._setup_cb01_series()
             return
 
@@ -637,6 +664,9 @@ class SCDetailsScreen(Screen):
         except Exception as e:
             log.error("Error in episode selection: {}".format(e))
 
+    # ----------------------------------------------------------------------
+    # Timer cleanup
+    # ----------------------------------------------------------------------
     def _stop_all_timers(self):
         for timer, cb in (
             (self.ui_timer, self._on_details_timer),
@@ -666,6 +696,9 @@ class SCDetailsScreen(Screen):
                 pass
             self.picload = None
 
+    # ----------------------------------------------------------------------
+    # Playback entry point and stream resolution
+    # ----------------------------------------------------------------------
     def play_content(self):
         if not self.details:
             return
@@ -761,13 +794,11 @@ class SCDetailsScreen(Screen):
         log.info("PLAY: Starting resolved M3U8 stream")
         service_ref = eServiceReference(4097, 0, stream_url)
         service_ref.setName(service_name)
-        self.session.openWithCallback(
-            self.on_playback_stopped,
-            MoviePlayer,
-            service_ref,
-            fromMovieSelection=False
-        )
+        self._play_service(service_ref, service_name)
 
+    # ----------------------------------------------------------------------
+    # Provider-specific playback methods
+    # ----------------------------------------------------------------------
     def _setup_onlineserietv_series(self):
         """Setup for OnlineSerieTV TV series."""
         try:
@@ -879,12 +910,7 @@ class SCDetailsScreen(Screen):
                 "ALTADEFINIZIONE_EPISODE: Playing episode: {}".format(service_name))
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
-            self.session.openWithCallback(
-                self.on_playback_stopped,
-                MoviePlayer,
-                service_ref,
-                fromMovieSelection=False
-            )
+            self._play_service(service_ref, service_name)
 
         except Exception as e:
             log.error("ALTADEFINIZIONE_EPISODE: Error: {}".format(e))
@@ -912,15 +938,11 @@ class SCDetailsScreen(Screen):
                 link_index = 0
 
             stream_url = streaming_links[link_index]['url']
+            service_name = "{} [Altadefinizione]".format(self.title)
             log.info("ALTADEFINIZIONE PLAY: URL: {}".format(stream_url))
             service_ref = eServiceReference(4097, 0, stream_url)
-            service_ref.setName("{} [Altadefinizione]".format(self.title))
-            self.session.openWithCallback(
-                self.on_playback_stopped,
-                MoviePlayer,
-                service_ref,
-                fromMovieSelection=False
-            )
+            service_ref.setName(service_name)
+            self._play_service(service_ref, service_name)
 
         except Exception as e:
             log.error("ALTADEFINIZIONE PLAY ERROR: {}".format(e))
@@ -1052,12 +1074,7 @@ class SCDetailsScreen(Screen):
                     service, stream_url))
             service_ref = eServiceReference(4097, 0, stream_url)
             service_ref.setName(service_name)
-            self.session.openWithCallback(
-                self.on_playback_stopped,
-                MoviePlayer,
-                service_ref,
-                fromMovieSelection=False
-            )
+            self._play_service(service_ref, service_name)
 
         except Exception as e:
             log.error("CB01_PLAY: Error: {}".format(e))
@@ -1114,13 +1131,7 @@ class SCDetailsScreen(Screen):
             )
             service_ref.setName(service_name)
 
-            # Open player with callback for when it's closed
-            self.session.openWithCallback(
-                self.on_playback_stopped,
-                MoviePlayer,
-                service_ref,
-                fromMovieSelection=False
-            )
+            self._play_service(service_ref, service_name)
 
         except Exception as e:
             log.error("PLAY: Playback error: {}".format(e))
@@ -1164,16 +1175,30 @@ class SCDetailsScreen(Screen):
             log.error("OSTV_SERVICE: Error creating service ref: {}".format(e))
             return eServiceReference(4097, 0, url)
 
+    # ----------------------------------------------------------------------
+    # Callback when playback stops
+    # ----------------------------------------------------------------------
     def on_playback_stopped(self, *args, **kwargs):
-        log.info("DETAILS: Playback stopped, returning to details")
-        self.return_timer = eTimer()
-        self.return_timer.callback.append(self._do_return)
-        self.return_timer.start(100, True)
+        log.info("DETAILS: Playback stopped, restoring saved service")
+        # Restore the service that was playing before the plugin was opened
+        if self.saved_service:
+            try:
+                self.session.nav.playService(self.saved_service)
+            except Exception as e:
+                log.warning("Could not restore service: {}".format(e))
+        # Show details screen again
+        self.show()
 
     def _do_return(self):
         self.show()
-        self.return_timer.stop()
+        try:
+            self.return_timer.stop()
+        except:
+            pass
 
+    # ----------------------------------------------------------------------
+    # Navigation methods
+    # ----------------------------------------------------------------------
     def keyLeft(self):
         self.active_list = "seasons"
         self.update_labels()
@@ -1203,6 +1228,9 @@ class SCDetailsScreen(Screen):
         elif self.active_list == "episodes":
             self["episode_list"].down()
 
+    # ----------------------------------------------------------------------
+    # Season parsing from page
+    # ----------------------------------------------------------------------
     def _parse_seasons_from_page(self):
         try:
             # Only for StreamingCommunity, not OnlineSerieTV
@@ -1236,6 +1264,9 @@ class SCDetailsScreen(Screen):
         except Exception as e:
             log.error("DETAILS: Error parsing seasons: {}".format(e))
 
+    # ----------------------------------------------------------------------
+    # TMDB info loading
+    # ----------------------------------------------------------------------
     def _load_tmdb_info_streamingcommunity(self, tmdb_id):
         """Load TMDB info for StreamingCommunity TV series and populate seasons/episodes."""
         self._tmdb_sc_ready = False
@@ -1426,20 +1457,76 @@ class SCDetailsScreen(Screen):
         if poster_url:
             self._load_cover(poster_url)
 
+    # ----------------------------------------------------------------------
+    # Cover image loading
+    # ----------------------------------------------------------------------
+    # def _load_cover(self, url):
+        # # Use local path if available and valid
+        # if self.poster_path and os.path.exists(self.poster_path):
+            # # Verify it's a JPEG or PNG
+            # with open(self.poster_path, 'rb') as f:
+                # header = f.read(12)
+            # if header.startswith(b'\xff\xd8\xff') or header.startswith(b'\x89PNG'):
+                # log.info("COVER: Using cached poster: {}".format(self.poster_path))
+                # self.cover_temp_path = self.poster_path
+                # self._cover_ready = True
+                # self._cover_success = True
+                # self._update_cover()
+                # return
+            # else:
+                # log.warning("COVER: File exists but not JPEG/PNG: {}".format(self.poster_path))
+        # else:
+            # log.info("COVER: No local poster_path, downloading from URL: {}".format(url))
+
+        # # Fallback: download and try to convert (will likely fail if ffmpeg missing)
+        # self._cover_ready = False
+        # self._cover_success = False
+        # self._cover_timer.start(100, False)
+        # threading.Thread(
+            # target=self._load_cover_async, args=(url,), daemon=True
+        # ).start()
+
     def _load_cover(self, url):
+        # If we already have a local JPEG, use it
+        if self.poster_path and os.path.exists(self.poster_path):
+            # Verify it's a valid image (optional, but good)
+            try:
+                with open(self.poster_path, 'rb') as f:
+                    header = f.read(12)
+                if header.startswith(b'\xff\xd8\xff') or header.startswith(b'\x89PNG'):
+                    self.cover_temp_path = self.poster_path
+                    self._cover_ready = True
+                    self._cover_success = True
+                    self._update_cover()
+                    return
+            except:
+                pass
+
+        # No local file, download and convert
+        log.info("COVER: Downloading poster from {}".format(url))
+        self.cover_temp_path = self._poster_cache_path(url, self.slug)
+        if os.path.exists(self.cover_temp_path):
+            self._cover_ready = True
+            self._cover_success = True
+            self._update_cover()
+            return
+
         self._cover_ready = False
         self._cover_success = False
         self._cover_timer.start(100, False)
         threading.Thread(
-            target=self._load_cover_async, args=(
-                url,), daemon=True).start()
+            target=self._load_cover_async, args=(url,), daemon=True
+        ).start()
 
     def _load_cover_async(self, url):
         try:
+            log.info("COVER_ASYNC: Downloading from {}".format(url))
             self._download_cover_image(url, self.cover_temp_path)
             self._cover_success = True
+            log.info("COVER_ASYNC: Download successful, file saved to {}".format(self.cover_temp_path))
         except Exception as e:
-            log.error("Error loading cover: {}".format(e))
+            log.error("COVER_ASYNC: Error loading cover: {}".format(e))
+            self._cover_success = False
         finally:
             self._cover_ready = True
 
@@ -1464,19 +1551,31 @@ class SCDetailsScreen(Screen):
                 'Referer': "{}://{}/".format(parts.scheme, parts.netloc),
             }
             try:
+                log.info("COVER_DOWNLOAD: Trying URL: {}".format(candidate))
                 req = urllib.request.Request(candidate, headers=headers)
                 with urllib.request.urlopen(req, timeout=12) as response:
-                    with open(target_path, 'wb') as image_file:
-                        image_file.write(response.read())
+                    content = response.read()
+                    log.info("COVER_DOWNLOAD: Downloaded {} bytes".format(len(content)))
+
+                    # Convert WebP to JPEG (same as SCBrowseMain)
+                    if content.startswith(b'RIFF') and b'WEBP' in content[:12]:
+                        log.info("COVER_DOWNLOAD: Detected WebP, converting to JPEG")
+                        jpeg_data = self._convert_webp_to_jpeg(content)
+                        if jpeg_data:
+                            content = jpeg_data
+                            log.info("COVER_DOWNLOAD: Converted to JPEG, {} bytes".format(len(content)))
+                        else:
+                            log.error("COVER_DOWNLOAD: WebP conversion failed")
+
+                    with open(target_path, 'wb') as f:
+                        f.write(content)
+                    log.info("COVER_DOWNLOAD: Image saved to {}".format(target_path))
                 if candidate != url:
-                    log.info(
-                        "COVER: Fallback poster download successful: {}".format(candidate))
+                    log.info("COVER: Fallback poster download successful: {}".format(candidate))
                 return
             except Exception as e:
                 last_error = e
-                log.warning(
-                    "COVER: Download failed for {}: {}".format(
-                        candidate, e))
+                log.warning("COVER: Download failed for {}: {}".format(candidate, e))
 
         raise last_error
 
@@ -1485,77 +1584,51 @@ class SCDetailsScreen(Screen):
             self._cover_timer.stop()
             return
         if not self._cover_ready:
+            log.info("COVER_UPDATE: Not ready yet")
             return
         self._cover_timer.stop()
         self._cover_ready = False
         if not self._cover_success:
+            log.warning("COVER_UPDATE: Cover download failed")
             return
         try:
             from enigma import ePicLoad
 
-            log.info(
-                "DETAILS_COVER: Updating cover from {}".format(
-                    self.cover_temp_path))
+            log.info("COVER_UPDATE: Updating cover from {}".format(self.cover_temp_path))
 
-            # Check and convert format if necessary
-            if os.path.exists(self.cover_temp_path):
-                with open(self.cover_temp_path, 'rb') as f:
-                    content = f.read()
+            if not os.path.exists(self.cover_temp_path):
+                log.error("COVER_UPDATE: File does not exist: {}".format(self.cover_temp_path))
+                return
 
-                # Convert WebP to JPEG if needed
-                if content.startswith(b'RIFF') and b'WEBP' in content[:12]:
-                    log.info(
-                        "DETAILS_COVER: WebP format detected, converting to JPEG")
-                    content = self._convert_webp_to_jpeg(content)
-                    if content:
-                        with open(self.cover_temp_path, 'wb') as f:
-                            f.write(content)
-                        log.info("DETAILS_COVER: WebP converted to JPEG")
+            file_size = os.path.getsize(self.cover_temp_path)
+            log.info("COVER_UPDATE: File size: {} bytes".format(file_size))
+
+            if file_size < 100:
+                log.error("COVER_UPDATE: File too small, probably invalid")
+                return
 
             if self.picload is None:
                 self.picload = ePicLoad()
 
             self.picload.setPara([300, 450, 1, 1, False, 1, "#00000000"])
-            decode_result = self.picload.startDecode(
-                self.cover_temp_path, 0, 0, False)
-            log.info("DETAILS_COVER: Decode result: {}".format(decode_result))
+            decode_result = self.picload.startDecode(self.cover_temp_path, 0, 0, False)
+            log.info("COVER_UPDATE: Decode result: {}".format(decode_result))
 
             if decode_result == 0:
                 ptr = self.picload.getData()
                 if ptr:
                     self["cover_pixmap"].instance.setPixmap(ptr)
                     self["cover_pixmap"].show()
-                    log.info("DETAILS_COVER: Image displayed successfully")
+                    log.info("COVER_UPDATE: Image displayed successfully")
                 else:
-                    log.error("DETAILS_COVER: Failed to get pixmap data")
+                    log.error("COVER_UPDATE: Failed to get pixmap data")
             else:
-                log.error(
-                    "DETAILS_COVER: Failed to decode image, trying PIL conversion")
-                # Try to convert to JPEG using PIL/Pillow if available
-                if self._try_convert_to_jpeg_pil(self.cover_temp_path):
-                    log.info(
-                        "DETAILS_COVER: Retrying decode after PIL conversion")
-                    decode_result = self.picload.startDecode(
-                        self.cover_temp_path, 0, 0, False)
-                    if decode_result == 0:
-                        ptr = self.picload.getData()
-                        if ptr:
-                            self["cover_pixmap"].instance.setPixmap(ptr)
-                            self["cover_pixmap"].show()
-                            log.info(
-                                "DETAILS_COVER: Image displayed successfully after conversion")
-                        else:
-                            log.error(
-                                "DETAILS_COVER: Failed to get pixmap data after conversion")
-                    else:
-                        log.error(
-                            "DETAILS_COVER: Still failed to decode after conversion: {}".format(decode_result))
+                log.error("COVER_UPDATE: Failed to decode image, result={}".format(decode_result))
+
         except Exception as e:
-            log.error("DETAILS_COVER: Error updating cover: {}".format(e))
+            log.error("COVER_UPDATE: Error updating cover: {}".format(e))
             import traceback
-            log.error(
-                "DETAILS_COVER: Traceback: {}".format(
-                    traceback.format_exc()))
+            log.error(traceback.format_exc())
 
     def _load_ostv_cover(self, url):
         self._ostv_cover_ready = False
@@ -1674,6 +1747,9 @@ class SCDetailsScreen(Screen):
         except Exception as e:
             log.error("OSTV_DETAILS_COVER: Error updating UI: {}".format(e))
 
+    # ----------------------------------------------------------------------
+    # Helper methods for images and EPG
+    # ----------------------------------------------------------------------
     def _get_content_description(self):
         """Get content description from TMDB if available."""
         try:
@@ -1767,50 +1843,62 @@ class SCDetailsScreen(Screen):
                 "OSTV_DETAILS_COVER: Error validating image: {}".format(e))
             return False
 
+    def _poster_cache_path(self, url, slug):
+        """Generate cache path for poster (same as SCBrowseMain)."""
+        try:
+            if not os.path.exists("/tmp/scsearch_browse_posters"):
+                os.makedirs("/tmp/scsearch_browse_posters")
+        except:
+            pass
+        digest = hashlib.md5(("%s_%s" % (slug, url)).encode("utf-8")).hexdigest()
+        return os.path.join("/tmp/scsearch_browse_posters", "%s.jpg" % digest)
+
     def _convert_webp_to_jpeg(self, webp_data):
-        """Convert WebP to JPEG using ffmpeg if available."""
+        """Convert WebP to JPEG using PIL or ffmpeg (same as SCBrowseMain)."""
+        # Try PIL first
+        try:
+            from PIL import Image
+            import io
+            img = Image.open(io.BytesIO(webp_data))
+            if img.mode in ('RGBA', 'LA', 'P'):
+                background = Image.new('RGB', img.size, (255, 255, 255))
+                if img.mode == 'P':
+                    img = img.convert('RGBA')
+                background.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
+                img = background
+            elif img.mode != 'RGB':
+                img = img.convert('RGB')
+            output = io.BytesIO()
+            img.save(output, format='JPEG', quality=90)
+            log.info("COVER_CONVERT: Converted WebP to JPEG using PIL")
+            return output.getvalue()
+        except Exception as e:
+            log.warning("COVER_CONVERT: PIL conversion failed: {}".format(e))
+
+        # Fallback: ffmpeg
         try:
             import subprocess
             import tempfile
-
-            # Create temporary files
-            with tempfile.NamedTemporaryFile(suffix='.webp', delete=False) as webp_file:
-                webp_file.write(webp_data)
-                webp_path = webp_file.name
-
+            with tempfile.NamedTemporaryFile(suffix='.webp', delete=False) as f:
+                f.write(webp_data)
+                webp_path = f.name
             jpeg_path = webp_path.replace('.webp', '.jpg')
-
-            # Try with ffmpeg
-            try:
-                subprocess.run(
-                    ['ffmpeg', '-i', webp_path, '-y', jpeg_path],
-                    check=True,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE
-                )
-
-                with open(jpeg_path, 'rb') as f:
-                    jpeg_data = f.read()
-
-                # Clean up temporary files
-                os.unlink(webp_path)
-                os.unlink(jpeg_path)
-
-                log.info("OSTV_DETAILS_COVER: WebP converted to JPEG successfully")
-                return jpeg_data
-
-            except (subprocess.CalledProcessError, FileNotFoundError):
-                log.warning(
-                    "OSTV_DETAILS_COVER: ffmpeg not available, trying alternative")
-
-                # Fallback: save as is and hope Enigma2 handles it
-                os.unlink(webp_path)
-                return webp_data
-
+            subprocess.run(
+                ['ffmpeg', '-i', webp_path, '-y', jpeg_path],
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                timeout=5
+            )
+            with open(jpeg_path, 'rb') as f:
+                jpeg_data = f.read()
+            os.unlink(webp_path)
+            os.unlink(jpeg_path)
+            log.info("COVER_CONVERT: Converted WebP to JPEG using ffmpeg")
+            return jpeg_data
         except Exception as e:
-            log.error(
-                "OSTV_DETAILS_COVER: Error converting WebP: {}".format(e))
-            return webp_data
+            log.warning("COVER_CONVERT: ffmpeg conversion failed: {}".format(e))
+            return None
 
     def _try_convert_to_jpeg_pil(self, image_path):
         """Try to convert an image to JPEG using PIL/Pillow."""
