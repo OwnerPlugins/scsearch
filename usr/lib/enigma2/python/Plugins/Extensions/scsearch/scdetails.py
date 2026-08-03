@@ -110,15 +110,22 @@ class SCDetailsScreen(Screen):
     # Safe MoviePlayer wrapper (compatible with OpenATV and OpenPLi)
     # ----------------------------------------------------------------------
     def _play_service(self, service_ref, service_name):
-        """
-        Open MoviePlayer safely without 'fromMovieSelection' parameter.
-        Compatible with all Enigma2 versions.
-        """
-        self.session.openWithCallback(
-            self.on_playback_stopped,
-            MoviePlayer,
-            service_ref
-        )
+        log.info("PLAY_SERVICE: Called with service_name: %s" % service_name)
+        try:
+            # Log the service reference details
+            log.info("PLAY_SERVICE: service_ref.toString() = %s" % service_ref.toString())
+            log.info("PLAY_SERVICE: Opening MoviePlayer with callback...")
+            self.session.openWithCallback(
+                self.on_playback_stopped,
+                MoviePlayer,
+                service_ref
+            )
+            log.info("PLAY_SERVICE: MoviePlayer opened successfully")
+        except Exception as e:
+            log.error("PLAY_SERVICE: Exception: %s" % e)
+            import traceback
+            log.error(traceback.format_exc())
+            self.session.open(MessageBox, _("Playback error: %s") % e, MessageBox.TYPE_ERROR)
 
     # ----------------------------------------------------------------------
     # Download queue methods
@@ -791,7 +798,7 @@ class SCDetailsScreen(Screen):
                 MessageBox.TYPE_ERROR)
             return
 
-        log.info("PLAY: Starting resolved M3U8 stream")
+        log.info("PLAY: Resolved M3U8 URL: %s" % stream_url)
         service_ref = eServiceReference(4097, 0, stream_url)
         service_ref.setName(service_name)
         self._play_service(service_ref, service_name)
@@ -1179,14 +1186,12 @@ class SCDetailsScreen(Screen):
     # Callback when playback stops
     # ----------------------------------------------------------------------
     def on_playback_stopped(self, *args, **kwargs):
-        log.info("DETAILS: Playback stopped, restoring saved service")
-        # Restore the service that was playing before the plugin was opened
+        log.info("DETAILS: Playback stopped - args: %s, kwargs: %s" % (args, kwargs))
         if self.saved_service:
             try:
                 self.session.nav.playService(self.saved_service)
             except Exception as e:
-                log.warning("Could not restore service: {}".format(e))
-        # Show details screen again
+                log.warning("Could not restore service: %s" % e)
         self.show()
 
     def _do_return(self):
@@ -1460,32 +1465,6 @@ class SCDetailsScreen(Screen):
     # ----------------------------------------------------------------------
     # Cover image loading
     # ----------------------------------------------------------------------
-    # def _load_cover(self, url):
-        # # Use local path if available and valid
-        # if self.poster_path and os.path.exists(self.poster_path):
-            # # Verify it's a JPEG or PNG
-            # with open(self.poster_path, 'rb') as f:
-                # header = f.read(12)
-            # if header.startswith(b'\xff\xd8\xff') or header.startswith(b'\x89PNG'):
-                # log.info("COVER: Using cached poster: {}".format(self.poster_path))
-                # self.cover_temp_path = self.poster_path
-                # self._cover_ready = True
-                # self._cover_success = True
-                # self._update_cover()
-                # return
-            # else:
-                # log.warning("COVER: File exists but not JPEG/PNG: {}".format(self.poster_path))
-        # else:
-            # log.info("COVER: No local poster_path, downloading from URL: {}".format(url))
-
-        # # Fallback: download and try to convert (will likely fail if ffmpeg missing)
-        # self._cover_ready = False
-        # self._cover_success = False
-        # self._cover_timer.start(100, False)
-        # threading.Thread(
-            # target=self._load_cover_async, args=(url,), daemon=True
-        # ).start()
-
     def _load_cover(self, url):
         # If we already have a local JPEG, use it
         if self.poster_path and os.path.exists(self.poster_path):
