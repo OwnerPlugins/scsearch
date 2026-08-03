@@ -113,7 +113,9 @@ class SCDetailsScreen(Screen):
         log.info("PLAY_SERVICE: Called with service_name: %s" % service_name)
         try:
             # Log the service reference details
-            log.info("PLAY_SERVICE: service_ref.toString() = %s" % service_ref.toString())
+            log.info(
+                "PLAY_SERVICE: service_ref.toString() = %s" %
+                service_ref.toString())
             log.info("PLAY_SERVICE: Opening MoviePlayer with callback...")
             self.session.openWithCallback(
                 self.on_playback_stopped,
@@ -125,7 +127,9 @@ class SCDetailsScreen(Screen):
             log.error("PLAY_SERVICE: Exception: %s" % e)
             import traceback
             log.error(traceback.format_exc())
-            self.session.open(MessageBox, _("Playback error: %s") % e, MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox, _("Playback error: %s") %
+                e, MessageBox.TYPE_ERROR)
 
     # ----------------------------------------------------------------------
     # Download queue methods
@@ -1186,7 +1190,9 @@ class SCDetailsScreen(Screen):
     # Callback when playback stops
     # ----------------------------------------------------------------------
     def on_playback_stopped(self, *args, **kwargs):
-        log.info("DETAILS: Playback stopped - args: %s, kwargs: %s" % (args, kwargs))
+        log.info(
+            "DETAILS: Playback stopped - args: %s, kwargs: %s" %
+            (args, kwargs))
         if self.saved_service:
             try:
                 self.session.nav.playService(self.saved_service)
@@ -1198,7 +1204,7 @@ class SCDetailsScreen(Screen):
         self.show()
         try:
             self.return_timer.stop()
-        except:
+        except BaseException:
             pass
 
     # ----------------------------------------------------------------------
@@ -1472,13 +1478,14 @@ class SCDetailsScreen(Screen):
             try:
                 with open(self.poster_path, 'rb') as f:
                     header = f.read(12)
-                if header.startswith(b'\xff\xd8\xff') or header.startswith(b'\x89PNG'):
+                if header.startswith(
+                        b'\xff\xd8\xff') or header.startswith(b'\x89PNG'):
                     self.cover_temp_path = self.poster_path
                     self._cover_ready = True
                     self._cover_success = True
                     self._update_cover()
                     return
-            except:
+            except BaseException:
                 pass
 
         # No local file, download and convert
@@ -1502,7 +1509,9 @@ class SCDetailsScreen(Screen):
             log.info("COVER_ASYNC: Downloading from {}".format(url))
             self._download_cover_image(url, self.cover_temp_path)
             self._cover_success = True
-            log.info("COVER_ASYNC: Download successful, file saved to {}".format(self.cover_temp_path))
+            log.info(
+                "COVER_ASYNC: Download successful, file saved to {}".format(
+                    self.cover_temp_path))
         except Exception as e:
             log.error("COVER_ASYNC: Error loading cover: {}".format(e))
             self._cover_success = False
@@ -1534,27 +1543,36 @@ class SCDetailsScreen(Screen):
                 req = urllib.request.Request(candidate, headers=headers)
                 with urllib.request.urlopen(req, timeout=12) as response:
                     content = response.read()
-                    log.info("COVER_DOWNLOAD: Downloaded {} bytes".format(len(content)))
+                    log.info(
+                        "COVER_DOWNLOAD: Downloaded {} bytes".format(
+                            len(content)))
 
                     # Convert WebP to JPEG (same as SCBrowseMain)
                     if content.startswith(b'RIFF') and b'WEBP' in content[:12]:
-                        log.info("COVER_DOWNLOAD: Detected WebP, converting to JPEG")
+                        log.info(
+                            "COVER_DOWNLOAD: Detected WebP, converting to JPEG")
                         jpeg_data = self._convert_webp_to_jpeg(content)
                         if jpeg_data:
                             content = jpeg_data
-                            log.info("COVER_DOWNLOAD: Converted to JPEG, {} bytes".format(len(content)))
+                            log.info(
+                                "COVER_DOWNLOAD: Converted to JPEG, {} bytes".format(
+                                    len(content)))
                         else:
                             log.error("COVER_DOWNLOAD: WebP conversion failed")
 
                     with open(target_path, 'wb') as f:
                         f.write(content)
-                    log.info("COVER_DOWNLOAD: Image saved to {}".format(target_path))
+                    log.info(
+                        "COVER_DOWNLOAD: Image saved to {}".format(target_path))
                 if candidate != url:
-                    log.info("COVER: Fallback poster download successful: {}".format(candidate))
+                    log.info(
+                        "COVER: Fallback poster download successful: {}".format(candidate))
                 return
             except Exception as e:
                 last_error = e
-                log.warning("COVER: Download failed for {}: {}".format(candidate, e))
+                log.warning(
+                    "COVER: Download failed for {}: {}".format(
+                        candidate, e))
 
         raise last_error
 
@@ -1573,10 +1591,14 @@ class SCDetailsScreen(Screen):
         try:
             from enigma import ePicLoad
 
-            log.info("COVER_UPDATE: Updating cover from {}".format(self.cover_temp_path))
+            log.info(
+                "COVER_UPDATE: Updating cover from {}".format(
+                    self.cover_temp_path))
 
             if not os.path.exists(self.cover_temp_path):
-                log.error("COVER_UPDATE: File does not exist: {}".format(self.cover_temp_path))
+                log.error(
+                    "COVER_UPDATE: File does not exist: {}".format(
+                        self.cover_temp_path))
                 return
 
             file_size = os.path.getsize(self.cover_temp_path)
@@ -1590,7 +1612,8 @@ class SCDetailsScreen(Screen):
                 self.picload = ePicLoad()
 
             self.picload.setPara([300, 450, 1, 1, False, 1, "#00000000"])
-            decode_result = self.picload.startDecode(self.cover_temp_path, 0, 0, False)
+            decode_result = self.picload.startDecode(
+                self.cover_temp_path, 0, 0, False)
             log.info("COVER_UPDATE: Decode result: {}".format(decode_result))
 
             if decode_result == 0:
@@ -1602,7 +1625,8 @@ class SCDetailsScreen(Screen):
                 else:
                     log.error("COVER_UPDATE: Failed to get pixmap data")
             else:
-                log.error("COVER_UPDATE: Failed to decode image, result={}".format(decode_result))
+                log.error(
+                    "COVER_UPDATE: Failed to decode image, result={}".format(decode_result))
 
         except Exception as e:
             log.error("COVER_UPDATE: Error updating cover: {}".format(e))
@@ -1827,9 +1851,10 @@ class SCDetailsScreen(Screen):
         try:
             if not os.path.exists("/tmp/scsearch_browse_posters"):
                 os.makedirs("/tmp/scsearch_browse_posters")
-        except:
+        except BaseException:
             pass
-        digest = hashlib.md5(("%s_%s" % (slug, url)).encode("utf-8")).hexdigest()
+        digest = hashlib.md5(("%s_%s" %
+                              (slug, url)).encode("utf-8")).hexdigest()
         return os.path.join("/tmp/scsearch_browse_posters", "%s.jpg" % digest)
 
     def _convert_webp_to_jpeg(self, webp_data):
@@ -1843,7 +1868,8 @@ class SCDetailsScreen(Screen):
                 background = Image.new('RGB', img.size, (255, 255, 255))
                 if img.mode == 'P':
                     img = img.convert('RGBA')
-                background.paste(img, mask=img.split()[-1] if img.mode in ('RGBA', 'LA') else None)
+                background.paste(img, mask=img.split()
+                                 [-1] if img.mode in ('RGBA', 'LA') else None)
                 img = background
             elif img.mode != 'RGB':
                 img = img.convert('RGB')
@@ -1876,7 +1902,8 @@ class SCDetailsScreen(Screen):
             log.info("COVER_CONVERT: Converted WebP to JPEG using ffmpeg")
             return jpeg_data
         except Exception as e:
-            log.warning("COVER_CONVERT: ffmpeg conversion failed: {}".format(e))
+            log.warning(
+                "COVER_CONVERT: ffmpeg conversion failed: {}".format(e))
             return None
 
     def _try_convert_to_jpeg_pil(self, image_path):
