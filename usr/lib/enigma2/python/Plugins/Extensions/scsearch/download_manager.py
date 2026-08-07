@@ -569,7 +569,8 @@ class DownloadManager:
         invalid_chars = r'[\\/:*?"<>|]'
         title = re.sub(invalid_chars, "", title)
         if item["media_type"] == "tv" and item["season"] > 0 and item["episode"] > 0:
-            return "{}_S{:02d}E{:02d}.mp4".format(title, item["season"], item["episode"])
+            return "{}_S{:02d}E{:02d}.mp4".format(
+                title, item["season"], item["episode"])
         else:
             return "{}.mp4".format(title)
 

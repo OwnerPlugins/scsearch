@@ -22,7 +22,6 @@ from . import _, load_skin
 log = get_logger()
 
 
-
 class SCDetailsScreen(Screen):
 
     def __init__(self, session, slug, title, ostv_data=None):
