@@ -1,8 +1,8 @@
 #!/bin/bash
 ## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/scsearch/main/installer.sh -O - | /bin/bash
 
-version='1.228'
-changelog="Add Download Manager"
+version='1.29'
+changelog=" Improve DownloadManager filename generation by importing re and removing invalid filesystem/ffmpeg characters from titles; preserves SxxExx naming for TV episodes. Minor whitespace/formatting cleanups."
 
 TMPPATH=/tmp/scsearch-install
 FILEPATH=/tmp/scsearch-main.tar.gz
