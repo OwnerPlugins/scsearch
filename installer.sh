@@ -9,14 +9,12 @@ FILEPATH=/tmp/scsearch-main.tar.gz
 
 echo "Starting scsearch installation..."
 
-# Determine plugin path based on architecture
 if [ ! -d /usr/lib64 ]; then
     PLUGINPATH=/usr/lib/enigma2/python/Plugins/Extensions/scsearch
 else
     PLUGINPATH=/usr/lib64/enigma2/python/Plugins/Extensions/scsearch
 fi
 
-# Cleanup function
 cleanup() {
     echo "Cleaning up temporary files..."
     [ -d "$TMPPATH" ] && rm -rf "$TMPPATH"
@@ -24,7 +22,6 @@ cleanup() {
     [ -d "/tmp/scsearch-main" ] && rm -rf "/tmp/scsearch-main"
 }
 
-# Detect OS type
 detect_os() {
     if [ -f /var/lib/dpkg/status ]; then
         OSTYPE="DreamOs"
@@ -41,11 +38,9 @@ detect_os() {
 
 detect_os
 
-# Cleanup before starting
 cleanup
 mkdir -p "$TMPPATH"
 
-# Install wget if missing
 if ! command -v wget >/dev/null 2>&1; then
     echo "Installing wget..."
     case "$OSTYPE" in
@@ -62,7 +57,6 @@ if ! command -v wget >/dev/null 2>&1; then
     esac
 fi
 
-# Detect Python version
 if python --version 2>&1 | grep -q '^Python 3\.'; then
     echo "Python3 image detected"
     Packagerequests="python3-requests"
@@ -71,7 +65,6 @@ else
     Packagerequests="python-requests"
 fi
 
-# Install required packages
 install_pkg() {
     local pkg=$1
     if [ -z "$STATUS" ] || ! grep -qs "Package: $pkg" "$STATUS" 2>/dev/null; then
@@ -92,7 +85,6 @@ install_pkg() {
     fi
 }
 
-# Install Python requests
 install_pkg "$Packagerequests"
 
 # Install libnetsnmpmibsXX
@@ -128,11 +120,9 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-# Install plugin files
 echo "Installing plugin files..."
 mkdir -p "$PLUGINPATH"
 
-# Find the correct directory in the extracted structure
 if [ -d "$TMPPATH/scsearch-main/usr/lib/enigma2/python/Plugins/Extensions/scsearch" ]; then
     cp -r "$TMPPATH/scsearch-main/usr/lib/enigma2/python/Plugins/Extensions/scsearch"/* "$PLUGINPATH/" 2>/dev/null
     echo "Copied from standard plugin directory"
@@ -140,7 +130,6 @@ elif [ -d "$TMPPATH/scsearch-main/usr/lib64/enigma2/python/Plugins/Extensions/sc
     cp -r "$TMPPATH/scsearch-main/usr/lib64/enigma2/python/Plugins/Extensions/scsearch"/* "$PLUGINPATH/" 2>/dev/null
     echo "Copied from lib64 plugin directory"
 elif [ -d "$TMPPATH/scsearch-main/usr" ]; then
-    # Copy entire usr tree
     cp -r "$TMPPATH/scsearch-main/usr"/* /usr/ 2>/dev/null
     echo "Copied entire usr structure"
 else
@@ -153,7 +142,6 @@ fi
 
 sync
 
-# Verify installation
 echo "Verifying installation..."
 if [ -d "$PLUGINPATH" ] && [ -n "$(ls -A "$PLUGINPATH" 2>/dev/null)" ]; then
     echo "Plugin directory found and not empty: $PLUGINPATH"
@@ -164,16 +152,56 @@ else
     cleanup
     exit 1
 fi
+if [ "$OSTYPE" = "OE" ]; then
+    echo "Installing streaming dependencies..."
+    for pkg in \
+        streamlink \
+        enigma2-plugin-extensions-streamlinkwrapper \
+        enigma2-plugin-extensions-streamlinkproxyv \
+        enigma2-plugin-extensions-ytdlpwrapper \
+        enigma2-plugin-extensions-ytdlwrapper \
+        python3-re \
+        gstreamer1.0-plugins-bad \
+        gstreamer1.0-plugins-ugly \
+        gstreamer1.0-libav \
+        ${PY}-yt-dlp \
+        ${PY}-youtube-dl; do
+        install_pkg "$pkg"
+    done
+fi
 
-# Cleanup
+echo "Creating YouTube cookies file..."
+mkdir -p /etc/enigma2
+cat > /etc/enigma2/yt_cookies.txt << 'EOF'
+# Netscape HTTP Cookie File
+.youtube.com	TRUE	/	TRUE	2147483647	CONSENT	YES+cb.20210615-14-p0.it+FX+294
+.youtube.com	TRUE	/	TRUE	2147483647	PREF	f1=50000000
+EOF
+echo "YouTube cookies file created"
 cleanup
 sync
 
-# System info
 FILE="/etc/image-version"
-box_type=$(head -n 1 /etc/hostname 2>/dev/null || echo "Unknown")
-distro_value=$(grep '^distro=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
-distro_version=$(grep '^version=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
+box_type=$(sed -n '1p' /etc/hostname 2>/dev/null || echo "Unknown")
+# distro_value=$(grep '^distro=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
+# distro_version=$(grep '^version=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
+distro_value="Unknown"
+distro_version="Unknown"
+if [ -r /etc/os-release ]; then
+    distro_value=$(grep '^NAME=' /etc/os-release 2>/dev/null | cut -d'"' -f2)
+    distro_version=$(grep '^VERSION_ID=' /etc/os-release 2>/dev/null | cut -d'"' -f2)
+elif [ -r /etc/issue ]; then
+    distro_value=$(head -n 1 /etc/issue 2>/dev/null | awk '{print $1}')
+    distro_version=$(head -n 1 /etc/issue 2>/dev/null | awk '{print $2}')
+elif [ -r /etc/vtiversion.info ]; then
+    distro_value=$(head -n 1 /etc/vtiversion.info 2>/dev/null)
+elif [ -r /etc/issue.net ]; then
+    distro_value=$(head -n 1 /etc/issue.net 2>/dev/null | awk '{print $1}')
+    distro_version=$(head -n 1 /etc/issue.net 2>/dev/null | awk '{print $2}')
+fi
+
+[ -z "$distro_value" ] && distro_value="Unknown"
+[ -z "$distro_version" ] && distro_version="Unknown"
 python_vers=$(python --version 2>&1)
 
 cat <<EOF
@@ -191,6 +219,7 @@ OS SYSTEM: $OSTYPE
 PYTHON: $python_vers
 IMAGE NAME: ${distro_value:-Unknown}
 IMAGE VERSION: ${distro_version:-Unknown}
+PLUGIN VERSION: $version
 EOF
 
 exit 0
