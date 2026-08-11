@@ -116,7 +116,7 @@ msgid "Description not available."
 msgstr "Опис недоступний."
 
 msgid "Details for: '%s'"
-msgstr "Деталі для: "%s""
+msgstr "Деталі для: \\\\\\\"%s\\\\\\\""
 
 msgid "Details not available"
 msgstr "Деталі недоступні"
@@ -362,7 +362,7 @@ msgid "Search timeout"
 msgstr "Тайм-аут пошуку"
 
 msgid "Searching for: '%s'"
-msgstr "Пошук: "%s""
+msgstr "Пошук: \\\\\\\"%s\\\\\\\""
 
 msgid "Searching..."
 msgstr "Пошук..."

@@ -2,21 +2,6 @@
 # Copyright (C) 2026 Lululla Team
 #
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgid "%d titles"
 msgstr ""
 
