@@ -2,19 +2,19 @@
 # This file contains base URLs for Streaming Community
 
 # Main Streaming Community URL
-STREAMING_COMMUNITY_URL=https://streamingcommunityz.us/
+STREAMING_COMMUNITY_URL=https://example1.com/
 
 # CB01 URLs
-CB01_URL=https://cb01uno.space/
-CB01_URL_FALLBACK=https://
+CB01_URL=https://example2.com/
+CB01_URL_FALLBACK=https://example3.com/
 
 # Altadefinizione URLs
-ALTADEFINIZIONE_URL=https://altadefinizione.hot/
-ALTADEFINIZIONE_URL_FALLBACK=https://altadefinizione.hot/
+ALTADEFINIZIONE_URL=https://example4.com/
+ALTADEFINIZIONE_URL_FALLBACK=https://example5.com/
 
 # Alternative URLs (if needed)
-BACKUP_URL=https://
-BACKUP_URL2=https://
+BACKUP_URL=https://example6.com/
+BACKUP_URL2=https://example7.com/
 
 # Request timeout (in seconds)
 REQUEST_TIMEOUT=30
