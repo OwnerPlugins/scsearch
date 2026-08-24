@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-import re
 import json
 import threading
 import time
@@ -9,7 +8,6 @@ import subprocess
 import shutil
 from Components.config import config
 from .logger import get_logger
-
 
 log = get_logger()
 
@@ -563,11 +561,7 @@ class DownloadManager:
 
     def _generate_filename(self, item):
         """Generate a safe filename from title and metadata."""
-        # Remove invalid characters for filesystem
-        title = item["title"].replace(" ", "_")
-        # Remove characters that are problematic for ffmpeg/filesystem
-        invalid_chars = r'[\\/:*?"<>|]'
-        title = re.sub(invalid_chars, "", title)
+        title = item["title"].replace(" ", "_").replace("/", "_")
         if item["media_type"] == "tv" and item["season"] > 0 and item["episode"] > 0:
             return "{}_S{:02d}E{:02d}.mp4".format(
                 title, item["season"], item["episode"])

@@ -1,8 +1,12 @@
 #!/bin/sh
-echo "Checking for an older version of scsearch in the system..."
-EXTDIR="/usr/lib/enigma2/python/Plugins/Extensions/scsearch"
-if [ -d "$EXTDIR" ]; then
-   rm -rf "$EXTDIR" > /dev/null 2>&1
+echo "Checking the Enigma2 plugin path..."
+LIB_PLUGINS="/usr/lib/enigma2/python/Plugins"
+LIB64_PLUGINS="/usr/lib64/enigma2/python/Plugins"
+LIB64_MARKER="/tmp/scsearch-use-lib64"
+
+rm -f "$LIB64_MARKER"
+if [ -d "$LIB64_PLUGINS" ] && [ ! -d "$LIB_PLUGINS" ]; then
+    touch "$LIB64_MARKER"
 fi
 echo "***********************************"
 echo "* Proceeding to installation...   *"

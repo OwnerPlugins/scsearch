@@ -96,12 +96,76 @@ class CB01:
             'quality': quality
         }
 
+    def _extract_uprot_folder(self, folder_url):
+        """Expand a Uprot MaxStream folder into seasons and episodes."""
+        try:
+            log.info("CB01_DETAILS: Loading Uprot folder: {}".format(
+                folder_url))
+            response = self.session.get(
+                folder_url,
+                headers={'Referer': self.base_serie + '/'},
+                timeout=15)
+            response.raise_for_status()
+            folder_html = response.text
+        except Exception as error:
+            log.warning("CB01_DETAILS: Uprot folder failed: {}".format(error))
+            return []
+
+        grouped = {}
+        for row in re.findall(
+                r'<tr[^>]*>(.*?)</tr>',
+                folder_html,
+                re.IGNORECASE | re.DOTALL):
+            episode_match = re.search(
+                r'\bS(\d{1,2})E(\d{1,3})\b', row, re.IGNORECASE)
+            watch_match = re.search(
+                r'href=["\'](https?://(?:www\.)?uprot\.net/msfi/[^"\']+)',
+                row,
+                re.IGNORECASE)
+            if not episode_match or not watch_match:
+                continue
+            season_number = int(episode_match.group(1))
+            episode_number = int(episode_match.group(2))
+            grouped.setdefault(season_number, []).append({
+                'episode_number': episode_number,
+                'url': html_module.unescape(watch_match.group(1)),
+                'original_url': html_module.unescape(watch_match.group(1)),
+                'type': 'maxstream',
+                'quality': 'HD',
+            })
+
+        seasons = []
+        for season_number in sorted(grouped):
+            episodes = sorted(
+                grouped[season_number],
+                key=lambda item: item['episode_number'])
+            seasons.append({
+                'season_number': season_number,
+                'episodes': episodes,
+            })
+        log.info(
+            "CB01_DETAILS: Uprot folder contains {} seasons and {} episodes".format(
+                len(seasons), sum(len(item['episodes']) for item in seasons)))
+        return seasons
+
     def _extract_cb01_series_seasons(self, html):
         """
         Extract seasons and episodes from CB01 series page.
         Looks for sp-wrap blocks and extracts Mixdrop/Maxstream links.
         """
         seasons = []
+
+        # New CB01 pages may expose one "TUTTA LA SERIE" MaxStream folder
+        # instead of individual SxxExx links in the article itself.
+        folder_urls = list(dict.fromkeys(re.findall(
+            r'https?://(?:www\.)?uprot\.net/msfld/[^"\'<>\s]+',
+            html_module.unescape(html),
+            re.IGNORECASE)))
+        for folder_url in folder_urls:
+            seasons.extend(self._extract_uprot_folder(folder_url))
+        if seasons:
+            return seasons
+
         season_blocks = re.findall(
             r'<div class="sp-head[^"]*"[^>]*>\s*STAGIONE\s+(\d+).*?</div>\s*'
             r'<div class="sp-body">(.*?)(?:<div class="spdiv">|</div>\s*</div>)',

@@ -9,9 +9,9 @@
     <widget name="details_year" position="1335,278" size="525,45" font="Regular;30" halign="left" valign="center" foregroundColor="#8b949e" backgroundColor="#d1117" transparent="1"/>
     <widget name="details_description" position="1005,615" size="855,345" font="Regular;27" foregroundColor="#f0f6fc" backgroundColor="#d1117" transparent="1"/>
     <!-- Control Bar -->
-    <widget name="key_red" position="45,1028" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2"/>
-    <widget name="key_green" position="293,1028" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2"/>
-    <widget name="key_yellow" position="540,1028" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2"/>
-    <widget name="key_blue" position="788,1028" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2"/>
-    <widget name="key_erase" position="1035,1028" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#6e40c9" zPosition="2"/>
+    <widget name="key_red" position="45,975" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2"/>
+    <widget name="key_green" position="293,975" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2"/>
+    <widget name="key_yellow" position="540,975" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2"/>
+    <widget name="key_blue" position="788,975" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2"/>
+    <widget name="key_erase" position="1035,975" size="240,45" font="Regular;27" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#6e40c9" zPosition="2"/>
 </screen>

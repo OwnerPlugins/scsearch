@@ -8,7 +8,7 @@ import os
 import traceback
 
 __license__ = "GPL-2.0"
-__version__ = "1.29"
+__version__ = "1.28.2"
 
 # Domain and path for translation files
 PluginLanguageDomain = "scsearch"
@@ -35,7 +35,7 @@ locale_init()
 language.addCallback(locale_init)
 
 
-PLUGIN_PATH = "/usr/lib/enigma2/python/Plugins/Extensions/scsearch"
+PLUGIN_PATH = os.path.dirname(os.path.abspath(__file__))
 
 
 def get_screen_resolution():

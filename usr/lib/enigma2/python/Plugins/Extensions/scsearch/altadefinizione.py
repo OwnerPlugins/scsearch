@@ -7,9 +7,13 @@
 
 import urllib.parse
 import html as html_module
+import json
 import re
 import requests
 import os
+import time
+import queue
+import threading
 
 try:
     from .logger import get_logger
@@ -38,6 +42,11 @@ def _read_altadefinizione_urls():
 
 
 class Altadefinizione:
+    SEARCH_CONNECT_TIMEOUT = 4
+    SEARCH_READ_TIMEOUT = 8
+    SEARCH_TOTAL_TIMEOUT = 12
+    SEARCH_MAX_BYTES = 4 * 1024 * 1024
+
     def __init__(self):
         """
         Initialize the client for the Altadefinizione website.
@@ -69,7 +78,8 @@ class Altadefinizione:
     # ---------------------------------------------------------------------
     def _is_tv_series(self, url):
         """Determine if a URL belongs to a TV series"""
-        return '/tv-' in url or '/serietv/' in url
+        return ('/tv-' in url or '/serietv/' in url or
+                '/serie-tv/' in url)
 
     def clean_html(self, text):
         """Remove HTML tags and entities from text"""
@@ -79,28 +89,189 @@ class Altadefinizione:
         text = html_module.unescape(text)
         return text.strip()
 
+    def _extract_series_seasons(self, html):
+        """Extract normalized seasons from Next.js flight-data packets."""
+        marker = '"seasons":'
+        for raw_packet in re.findall(
+                r'self\.__next_f\.push\((.*?)\)</script>',
+                html,
+                re.DOTALL):
+            try:
+                packet = json.loads(raw_packet)
+                payload = (packet[1] if len(packet) > 1 and
+                           isinstance(packet[1], str) else '')
+                position = payload.find(marker)
+                if position < 0:
+                    continue
+                seasons, _ = json.JSONDecoder().raw_decode(
+                    payload, position + len(marker))
+            except (TypeError, ValueError, IndexError):
+                continue
+
+            normalized = []
+            for season in seasons if isinstance(seasons, list) else []:
+                try:
+                    season_number = int(season.get('number'))
+                except (TypeError, ValueError, AttributeError):
+                    continue
+                episodes = []
+                for episode in season.get('episodes') or []:
+                    try:
+                        episode_number = int(episode.get('number'))
+                    except (TypeError, ValueError, AttributeError):
+                        continue
+                    episodes.append({
+                        'episode_number': episode_number,
+                        'title': episode.get('title') or
+                        'Episodio {}'.format(episode_number),
+                        'description': episode.get('plot') or '',
+                        'poster': episode.get('still') or '',
+                        'url': '',
+                        'type': 'vidxgo',
+                        'quality': 'HD',
+                    })
+                if episodes:
+                    normalized.append({
+                        'season_number': season_number,
+                        'episodes': episodes,
+                    })
+            if normalized:
+                return normalized
+
+        # Lightweight fallback when Next.js changes packet serialization.
+        episode_pairs = re.findall(r'data-episode="(\d+)-(\d+)"', html)
+        grouped = {}
+        for season_number, episode_number in episode_pairs:
+            grouped.setdefault(int(season_number), set()).add(
+                int(episode_number))
+        return [
+            {
+                'season_number': season_number,
+                'episodes': [
+                    {
+                        'episode_number': episode_number,
+                        'title': 'Episodio {}'.format(episode_number),
+                        'url': '',
+                        'type': 'vidxgo',
+                        'quality': 'HD',
+                    }
+                    for episode_number in sorted(grouped[season_number])
+                ],
+            }
+            for season_number in sorted(grouped)
+        ]
+
     # ---------------------------------------------------------------------
     # Search methods (same interface as cb01)
     # ---------------------------------------------------------------------
-    def _fetch_search_html(self, base, query):
-        """Try ?do=search first, fallback to ?s= if no results."""
-        encoded = urllib.parse.quote_plus(query)
-        for url in [
-            f"{base}/?do=search&subaction=search&story={encoded}",
-            f"{base}/?s={encoded}"
-        ]:
+    def _download_search_page(self, url):
+        """Download and decode one search response."""
+        started = time.monotonic()
+        chunks = []
+        size = 0
+        with self.session.get(
+                url,
+                timeout=(self.SEARCH_CONNECT_TIMEOUT,
+                         self.SEARCH_READ_TIMEOUT),
+                allow_redirects=True,
+                stream=True) as response:
+            response.raise_for_status()
+            for chunk in response.iter_content(chunk_size=64 * 1024):
+                if time.monotonic() - started > self.SEARCH_TOTAL_TIMEOUT:
+                    raise requests.exceptions.Timeout(
+                        "search exceeded {} seconds".format(
+                            self.SEARCH_TOTAL_TIMEOUT))
+                if not chunk:
+                    continue
+                chunks.append(chunk)
+                size += len(chunk)
+                if size > self.SEARCH_MAX_BYTES:
+                    raise requests.exceptions.RequestException(
+                        "search response exceeded {} bytes".format(
+                            self.SEARCH_MAX_BYTES))
+
+            content = b''.join(chunks)
+            # ``apparent_encoding`` accesses response.content and cannot be
+            # used reliably after a streamed body has already been consumed.
+            encoding = response.encoding or 'utf-8'
+            return content.decode(encoding, errors='replace')
+
+    def _get_search_page(self, url):
+        """Download a search page with a hard caller-visible time limit.
+
+        ``requests`` timeouts only limit the time between socket reads.  A
+        server sending a few bytes periodically can therefore keep a normal
+        ``get`` alive for several minutes.
+        """
+        result_queue = queue.Queue(maxsize=1)
+
+        def download():
             try:
-                log.info(f"Altadefinizione: Search URL: {url}")
-                r = self.session.get(url, timeout=15, allow_redirects=True)
-                r.raise_for_status()
-                if r.text:
-                    return r.text
-            except Exception as e:
-                log.warning(f"Altadefinizione: Search failed for {url}: {e}")
+                result_queue.put((True, self._download_search_page(url)))
+            except Exception as error:
+                result_queue.put((False, error))
+
+        worker = threading.Thread(target=download)
+        worker.daemon = True
+        worker.start()
+        worker.join(self.SEARCH_TOTAL_TIMEOUT)
+        if worker.is_alive():
+            raise requests.exceptions.Timeout(
+                "search exceeded {} seconds".format(
+                    self.SEARCH_TOTAL_TIMEOUT))
+
+        success, value = result_queue.get_nowait()
+        if not success:
+            raise value
+        return value
+
+    def _fetch_search_html(self, base, query):
+        """Fetch the current JSON archive search endpoint."""
+        params = urllib.parse.urlencode({
+            'offset': 0,
+            'limit': 30,
+            'q': query,
+            'sort': 'Data di aggiornamento',
+            'count': 1,
+        })
+        url = "{}/api/v1/web/archive?{}".format(base.rstrip('/'), params)
+        try:
+            log.info(f"Altadefinizione: Search URL: {url}")
+            return self._get_search_page(url)
+        except requests.exceptions.Timeout as e:
+            log.warning(f"Altadefinizione: Search timed out for {url}: {e}")
+        except Exception as e:
+            log.warning(f"Altadefinizione: Search failed for {url}: {e}")
         return ''
 
-    def _parse_matches(self, html):
-        """Extract (url, img, alt, title) tuples from search result HTML."""
+    def _parse_matches(self, payload, base=''):
+        """Extract (url, img, alt, title) tuples from API JSON or old HTML."""
+        try:
+            data = json.loads(payload)
+            if isinstance(data, dict) and isinstance(data.get('items'), list):
+                matches = []
+                for item in data['items']:
+                    item_id = item.get('id')
+                    slug = item.get('slug')
+                    title = item.get('title')
+                    if not item_id or not slug or not title:
+                        continue
+                    category = ('serie-tv' if item.get('kind') == 'series'
+                                else 'film')
+                    url = "{}/{}/{}-{}-streaming.html".format(
+                        base.rstrip('/'), category, item_id, slug)
+                    matches.append((
+                        url,
+                        item.get('posterUrl') or item.get('tileUrl') or '',
+                        '',
+                        title,
+                    ))
+                return matches
+        except (TypeError, ValueError):
+            # Compatibility with installations still pointing to an older
+            # Altadefinizione domain returning HTML.
+            pass
+
         # Primary: data-link + img src + h2 > a title (altadefinizione.hot
         # structure)
         pattern = re.compile(
@@ -109,7 +280,7 @@ class Altadefinizione:
             r'<h2[^>]*>\s*<a[^>]*>([^<]+)</a>',
             re.IGNORECASE | re.DOTALL
         )
-        matches = [(m[0], m[1], '', m[2]) for m in pattern.findall(html)]
+        matches = [(m[0], m[1], '', m[2]) for m in pattern.findall(payload)]
 
         if not matches:
             # Fallback: classic <div class="movie"> with alt-filled img
@@ -119,7 +290,7 @@ class Altadefinizione:
                 r'<h2[^>]*>([^<]+)</h2>',
                 re.IGNORECASE | re.DOTALL
             )
-            matches = pattern.findall(html)
+            matches = pattern.findall(payload)
 
         if not matches:
             # Last resort: generic a+img+heading
@@ -129,7 +300,7 @@ class Altadefinizione:
                 r'<h[2-3][^>]*>([^<]+)</h[2-3]>',
                 re.IGNORECASE | re.DOTALL
             )
-            matches = pattern.findall(html)
+            matches = pattern.findall(payload)
 
         return matches
 
@@ -140,9 +311,14 @@ class Altadefinizione:
             return []
 
         results = []
-        for base in filter(None, [self.base_film, self.base_fallback]):
-            html = self._fetch_search_html(base, query)
-            matches = self._parse_matches(html)
+        # Do not query the same host twice when main and fallback are equal.
+        bases = list(dict.fromkeys(
+            base.rstrip('/') for base in
+            [self.base_film, self.base_fallback] if base
+        ))
+        for base in bases:
+            payload = self._fetch_search_html(base, query)
+            matches = self._parse_matches(payload, base)
             log.info(
                 "Altadefinizione: %d raw results from %s",
                 len(matches),
@@ -419,6 +595,13 @@ class Altadefinizione:
             # Streaming links for movies
             if details['type'] == 'Movie':
                 details['streaming_links'] = self.get_streaming_links(page_url)
+            else:
+                details['seasons'] = self._extract_series_seasons(html)
+                log.info(
+                    "Altadefinizione: Found %d seasons and %d episodes",
+                    len(details['seasons']),
+                    sum(len(season['episodes'])
+                        for season in details['seasons']))
 
             return details
 
@@ -439,6 +622,23 @@ class Altadefinizione:
             response = self.session.get(series_url, timeout=15)
             response.raise_for_status()
             html = response.text
+
+            # The current site exposes its numeric VidXGo token in the player
+            # iframe (for example /3514324/1/1?se=0).
+            token_match = re.search(
+                r'https?://v\.vidxgo\.co/(\d+)(?:/\d+/\d+)?',
+                html,
+                re.IGNORECASE)
+            if token_match:
+                embed_url = "https://v.vidxgo.co/{}/{}/{}?se=0".format(
+                    token_match.group(1), season, episode)
+                log.info(
+                    f"Altadefinizione: Episode embed URL: {embed_url}")
+                return {
+                    'url': embed_url,
+                    'quality': 'HD',
+                    'service': 'vidxgo',
+                    'type': 'vidxgo'}
 
             tmdb_id = self._extract_tmdb_id(html, series_url)
             if not tmdb_id:

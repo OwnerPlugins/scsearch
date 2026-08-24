@@ -12,7 +12,6 @@ from urllib.parse import urljoin
 
 from .logger import get_logger
 from .cb01 import CB01
-from .altadefinizione import Altadefinizione
 
 log = get_logger()
 REQ_TIMEOUT = 15
@@ -34,6 +33,48 @@ def read_config():
 
 
 CONFIG = read_config()
+
+
+def _load_altadefinizione_class():
+    """Load Altadefinizione, recovering once from stale bytecode caches."""
+    from . import altadefinizione as provider_module
+
+    provider_class = getattr(provider_module, 'Altadefinizione', None)
+    if provider_class is not None:
+        return provider_class
+
+    log.warning(
+        "SEARCH: Altadefinizione class missing; clearing stale bytecode and reloading")
+    source_path = os.path.abspath(provider_module.__file__)
+    if source_path.endswith(('.pyc', '.pyo')):
+        source_path = source_path[:-1]
+    plugin_dir = os.path.abspath(os.path.dirname(__file__))
+    if os.path.dirname(source_path) != plugin_dir:
+        raise ImportError("Unexpected Altadefinizione module path: {}".format(
+            source_path))
+
+    cache_paths = [source_path + 'c', source_path + 'o']
+    try:
+        import importlib.util
+        cache_paths.append(importlib.util.cache_from_source(source_path))
+    except (ImportError, NotImplementedError):
+        pass
+    for cache_path in cache_paths:
+        try:
+            if os.path.isfile(cache_path):
+                os.remove(cache_path)
+        except OSError as error:
+            log.warning("SEARCH: Cannot remove cache {}: {}".format(
+                cache_path, error))
+
+    import importlib
+    importlib.invalidate_caches()
+    provider_module = importlib.reload(provider_module)
+    provider_class = getattr(provider_module, 'Altadefinizione', None)
+    if provider_class is None:
+        raise ImportError(
+            "Altadefinizione class is missing from {}".format(source_path))
+    return provider_class
 
 
 def normalize_domain(value):
@@ -526,6 +567,10 @@ def perform_search(query, domain=None, search_type=None):
 
         # Altadefinizione
         try:
+            # Keep optional providers isolated: a damaged/stale provider file
+            # must not prevent SC Search (and the Enigma2 Plugin Browser) from
+            # loading at all.
+            Altadefinizione = _load_altadefinizione_class()
             altadef_client = Altadefinizione()
             if search_type == 'movie':
                 altadef_results = altadef_client.search_movies(query)
@@ -553,6 +598,9 @@ def perform_search(query, domain=None, search_type=None):
                     len(altadef_results)))
         except Exception as e:
             log.error("SEARCH: Altadefinizione search failed - {}".format(e))
+            import traceback
+            log.error("SEARCH: Altadefinizione traceback: {}".format(
+                traceback.format_exc()))
 
         log.info(
             "SEARCH: Returning {} normalized results".format(

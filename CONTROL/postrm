@@ -6,14 +6,7 @@
 echo "****************************************"
 echo "*Please .. Restart Enigma2 *"
 echo "****************************************"
-echo "Checking for an older version of scsearch in the system..."
-EXTDIR="/usr/lib/enigma2/python/Plugins/Extensions/scsearch/"
-if [ -d "$EXTDIR" ]; then
-	rm -rf "$EXTDIR" > /dev/null 2>&1
-fi
-echo "***********************************"
-echo "* Proceeding to installation...   *"
-echo "***********************************"
+rm -f /tmp/scsearch-use-lib64
 exit 0
 
 

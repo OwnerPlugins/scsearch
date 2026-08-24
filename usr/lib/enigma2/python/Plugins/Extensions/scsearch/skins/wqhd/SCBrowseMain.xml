@@ -49,11 +49,11 @@
     <widget name="card_meta_4" position="2096,968" size="220,44" font="Regular;25" halign="center" valign="center" foregroundColor="#aab2c0" backgroundColor="#1b2028" transparent="1" zPosition="3" />
 
     <!-- status buttons -->
-    <widget name="hint" position="1291,1308" size="1200,56" font="Regular;34" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
+    <widget name="hint" position="1291,1230" size="1200,56" font="Regular;34" halign="right" valign="center" foregroundColor="#aab2c0" backgroundColor="#101216" transparent="1" />
 
   <!-- Control Bar -->
-  <widget name="key_red" position="60,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
-  <widget name="key_green" position="390,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
-  <widget name="key_yellow" position="720,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
-  <widget name="key_blue" position="1050,1370" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
+  <widget name="key_red" position="60,1300" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#f85149" zPosition="2" />
+  <widget name="key_green" position="390,1300" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#30d158" zPosition="2" />
+  <widget name="key_yellow" position="720,1300" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#fbb03b" zPosition="2" />
+  <widget name="key_blue" position="1050,1300" size="320,60" font="Regular;36" halign="center" valign="center" foregroundColor="#ffffff" backgroundColor="#1f6feb" zPosition="2" />
 </screen>

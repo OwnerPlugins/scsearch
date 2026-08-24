@@ -1,8 +1,22 @@
 #!/bin/sh
 
-PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/scsearch"
+LIB_PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/scsearch"
+LIB64_PLUGIN_DIR="/usr/lib64/enigma2/python/Plugins/Extensions/scsearch"
+LIB64_MARKER="/tmp/scsearch-use-lib64"
+
+PLUGIN_DIR="$LIB_PLUGIN_DIR"
+if [ -f "$LIB64_MARKER" ]; then
+    mkdir -p "$(dirname "$LIB64_PLUGIN_DIR")"
+    rm -rf "$LIB64_PLUGIN_DIR"
+    mv "$LIB_PLUGIN_DIR" "$LIB64_PLUGIN_DIR"
+    PLUGIN_DIR="$LIB64_PLUGIN_DIR"
+fi
+rm -f "$LIB64_MARKER"
 
 if [ -d "$PLUGIN_DIR" ]; then
+    # Never retain Python bytecode from an older plugin release.
+    find "$PLUGIN_DIR" -type f \( -name '*.pyc' -o -name '*.pyo' \) -exec rm -f {} \;
+    find "$PLUGIN_DIR" -type d -name '__pycache__' -exec rm -rf {} \;
     chmod 755 "$PLUGIN_DIR"
     find "$PLUGIN_DIR" -type d -exec chmod 755 {} \;
     find "$PLUGIN_DIR" -type f -exec chmod 644 {} \;
