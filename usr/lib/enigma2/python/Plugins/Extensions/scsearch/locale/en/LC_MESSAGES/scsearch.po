@@ -88,9 +88,6 @@ msgstr "Clear Done"
 msgid "Code:"
 msgstr "Code:"
 
-msgid "Code: {self.captcha_code}"
-msgstr ""
-
 msgid "Commedia"
 msgstr "Commedia"
 

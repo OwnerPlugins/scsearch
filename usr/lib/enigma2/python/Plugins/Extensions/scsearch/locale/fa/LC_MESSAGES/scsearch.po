@@ -88,9 +88,6 @@ msgstr "پاک کردن انجام شد"
 msgid "Code:"
 msgstr "کد:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "کد: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "کمدیا"
 
@@ -474,6 +471,9 @@ msgstr "خطا"
 
 msgid "loading"
 msgstr "در حال بارگذاری"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "کد: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

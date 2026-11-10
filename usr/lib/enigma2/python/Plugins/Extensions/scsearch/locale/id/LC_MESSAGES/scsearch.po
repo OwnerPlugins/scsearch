@@ -88,9 +88,6 @@ msgstr "Selesai Selesai"
 msgid "Code:"
 msgstr "Kode:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kode: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "komedi"
 
@@ -474,6 +471,9 @@ msgstr "kesalahan"
 
 msgid "loading"
 msgstr "memuat"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "Kode: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

@@ -88,9 +88,6 @@ msgstr "クリア完了"
 msgid "Code:"
 msgstr "コード："
 
-msgid "Code: {self.captcha_code}"
-msgstr "コード: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "コメディア"
 
@@ -474,6 +471,9 @@ msgstr "エラー"
 
 msgid "loading"
 msgstr "読み込み中"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "コード: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

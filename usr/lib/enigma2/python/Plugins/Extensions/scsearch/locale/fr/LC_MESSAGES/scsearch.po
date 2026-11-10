@@ -88,9 +88,6 @@ msgstr "Effacer Terminé"
 msgid "Code:"
 msgstr "Code:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Code : {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "Commedia"
 
@@ -474,6 +471,9 @@ msgstr "erreur"
 
 msgid "loading"
 msgstr "chargement"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "Code : {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

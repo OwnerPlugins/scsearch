@@ -88,9 +88,6 @@ msgstr "साफ़ हो गया"
 msgid "Code:"
 msgstr "कोड:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "कोड: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "कॉमेडिया"
 
@@ -474,6 +471,9 @@ msgstr "गलती"
 
 msgid "loading"
 msgstr "लोड हो रहा है"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "कोड: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

@@ -88,9 +88,6 @@ msgstr "Xóa xong"
 msgid "Code:"
 msgstr "Mã số:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Mã: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "Commedia"
 
@@ -474,6 +471,9 @@ msgstr "lỗi"
 
 msgid "loading"
 msgstr "đang tải"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "Mã: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

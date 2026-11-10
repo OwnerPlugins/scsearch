@@ -88,9 +88,6 @@ msgstr "ক্লিয়ার ডন"
 msgid "Code:"
 msgstr "কোড:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "কোড: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "কমিডিয়া"
 
@@ -474,6 +471,9 @@ msgstr "ত্রুটি"
 
 msgid "loading"
 msgstr "লোড হচ্ছে"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "কোড: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

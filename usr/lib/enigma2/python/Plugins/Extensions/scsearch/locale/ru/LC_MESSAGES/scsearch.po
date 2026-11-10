@@ -88,9 +88,6 @@ msgstr "Очистить Готово"
 msgid "Code:"
 msgstr "Код:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Код: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "комедия"
 
@@ -474,6 +471,9 @@ msgstr "ошибка"
 
 msgid "loading"
 msgstr "загрузка"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "Код: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

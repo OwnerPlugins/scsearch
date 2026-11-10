@@ -89,9 +89,6 @@ msgstr "Cancella Fatto"
 msgid "Code:"
 msgstr "Codice:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Codice: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "Commedia"
 
@@ -475,3 +472,6 @@ msgstr "errore"
 
 msgid "loading"
 msgstr "caricamento"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "Codice: {self.captcha_code}"

@@ -88,9 +88,6 @@ msgstr "เคลียร์ เสร็จแล้ว"
 msgid "Code:"
 msgstr "รหัส:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "รหัส: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "คอมมีเดีย"
 
@@ -474,6 +471,9 @@ msgstr "ข้อผิดพลาด"
 
 msgid "loading"
 msgstr "กำลังโหลด"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "รหัส: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

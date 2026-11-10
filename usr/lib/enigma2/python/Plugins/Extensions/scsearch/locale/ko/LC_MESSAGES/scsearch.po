@@ -88,9 +88,6 @@ msgstr "지우기 완료"
 msgid "Code:"
 msgstr "암호:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "코드: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "코미디"
 
@@ -474,6 +471,9 @@ msgstr "오류"
 
 msgid "loading"
 msgstr "로드 중"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "코드: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

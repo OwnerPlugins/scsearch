@@ -88,9 +88,6 @@ msgstr "Limpar concluído"
 msgid "Code:"
 msgstr "Código:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Código: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "Comédia"
 
@@ -474,6 +471,9 @@ msgstr "erro"
 
 msgid "loading"
 msgstr "carregando"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "Código: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

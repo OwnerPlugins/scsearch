@@ -88,9 +88,6 @@ msgstr "清除完成"
 msgid "Code:"
 msgstr "代码："
 
-msgid "Code: {self.captcha_code}"
-msgstr "代码：{self.captcha_code}"
-
 msgid "Commedia"
 msgstr "喜剧"
 
@@ -474,6 +471,9 @@ msgstr "错误"
 
 msgid "loading"
 msgstr "加载中"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "代码：{self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"

@@ -88,9 +88,6 @@ msgstr "Temizle Bitti"
 msgid "Code:"
 msgstr "Kod:"
 
-msgid "Code: {self.captcha_code}"
-msgstr "Kod: {self.captcha_code}"
-
 msgid "Commedia"
 msgstr "Komedi"
 
@@ -474,6 +471,9 @@ msgstr "hata"
 
 msgid "loading"
 msgstr "yükleniyor"
+
+#~ msgid "Code: {self.captcha_code}"
+#~ msgstr "Kod: {self.captcha_code}"
 
 #~ msgid ""
 #~ "\n"
